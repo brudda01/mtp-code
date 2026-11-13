@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "checked_paths": 16,
+  "omitted_fields": [
+    "name",
+    "seed"
+  ],
+  "same_config_within_each_skew": true,
+  "only_config_difference_between_skews": "agents[0].params.inventory_skew",
+  "records": [
+    {
+      "study": "R039",
+      "seed": 16253,
+      "skew": 0.02,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154823_skew_confirmation_original_16253_f67bcdb0/config.yaml",
+      "sha256": "bb2f26e0ebe24d6f26cf4b50a27a3bc9ab684fde620a745308f1888211888bcb"
+    },
+    {
+      "study": "R039",
+      "seed": 16253,
+      "skew": 0.0,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154824_skew_confirmation_no_skew_16253_a1a28508/config.yaml",
+      "sha256": "33ca3866f551e394e6af81c6c79b57e0d7fa869e135c98680ff01ea50a43b522"
+    },
+    {
+      "study": "R039",
+      "seed": 17341,
+      "skew": 0.0,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154824_skew_confirmation_no_skew_17341_f5874a4f/config.yaml",
+      "sha256": "3e22ff005387fab17c201d07ceaec1911f2314376d67a84120d61833a5e18b52"
+    },
+    {
+      "study": "R039",
+      "seed": 17341,
+      "skew": 0.02,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154825_skew_confirmation_original_17341_b48aa261/config.yaml",
+      "sha256": "b59f92df8270584321464361f8b4c9388261c4932df046b3eb8cef8c39bad1be"
+    },
+    {
+      "study": "R039",
+      "seed": 18433,
+      "skew": 0.02,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154825_skew_confirmation_original_18433_cf16a1a5/config.yaml",
+      "sha256": "7305a5058d20df52b0c059d87781bf1249e68e737e7bebb56db9b92bd41a73ee"
+    },
+    {
+      "study": "R039",
+      "seed": 18433,
+      "skew": 0.0,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154826_skew_confirmation_no_skew_18433_2f22954c/config.yaml",
+      "sha256": "b358450afe6c28548988ce356207eb13977c702abbf9d57a07203cb3607408bb"
+    },
+    {
+      "study": "R039",
+      "seed": 19531,
+      "skew": 0.0,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154827_skew_confirmation_no_skew_19531_1d31531b/config.yaml",
+      "sha256": "e680e4bc739134d409f90b3022be40ce2774300e42dac7aee04fb02639b1fa73"
+    },
+    {
+      "study": "R039",
+      "seed": 19531,
+      "skew": 0.02,
+      "path": "runs/20261104_154730_market_validation_fff53e3b/market_runs/20261104_154827_skew_confirmation_original_19531_acd79531/config.yaml",
+      "sha256": "f4084151002a17de6d82917e02ff892ec3cd65afc44df89d3041dbe436ae2ef0"
+    },
+    {
+      "study": "R051",
+      "seed": 26183,
+      "skew": 0.02,
+      "path": "runs/background_diversity_20261106/markets/20261106_010343_diversity_0_skew_20_s26183_18fa8328/config.yaml",
+      "sha256": "2982c35dfc6d4a5ebf8df5bf43930962bc01f5ab27cbe0d4e6268299c2d8f396"
+    },
+    {
+      "study": "R051",
+      "seed": 26183,
+      "skew": 0.0,
+      "path": "runs/background_diversity_20261106/markets/20261106_010345_diversity_0_skew_0_s26183_5b7f2065/config.yaml",
+      "sha256": "15b0305fb3af4d82e4c0bdc2ca6970a5188c213efd7a09706f5bdee7b80f684c"
+    },
+    {
+      "study": "R051",
+      "seed": 27329,
+      "skew": 0.02,
+      "path": "runs/background_diversity_20261106/markets/20261106_010348_diversity_0_skew_20_s27329_4c2fcd78/config.yaml",
+      "sha256": "0d1cf160f58c4db97703479018f0f8ed1994376bc66827dc1918b36309506d11"
+    },
+    {
+      "study": "R051",
+      "seed": 27329,
+      "skew": 0.0,
+      "path": "runs/background_diversity_20261106/markets/20261106_010349_diversity_0_skew_0_s27329_0e50a299/config.yaml",
+      "sha256": "d58591dcc1fb9a12290a333cf6f1adbce8bc166d2a552c848b95b4b9775fe9a8"
+    },
+    {
+      "study": "R051",
+      "seed": 28513,
+      "skew": 0.02,
+      "path": "runs/background_diversity_20261106/markets/20261106_010353_diversity_0_skew_20_s28513_745fe2cb/config.yaml",
+      "sha256": "79609db3ea8946f492863402ff3a022f014d5ec7c044758a70e55a3611435a24"
+    },
+    {
+      "study": "R051",
+      "seed": 28513,
+      "skew": 0.0,
+      "path": "runs/background_diversity_20261106/markets/20261106_010354_diversity_0_skew_0_s28513_c899f617/config.yaml",
+      "sha256": "4d143b9d82868ff3b3d70588e6eb043a38f0d471f1b2317fc81fb3ddb7387e41"
+    },
+    {
+      "study": "R051",
+      "seed": 29671,
+      "skew": 0.02,
+      "path": "runs/background_diversity_20261106/markets/20261106_010358_diversity_0_skew_20_s29671_204e7009/config.yaml",
+      "sha256": "8871d8d13ccf7fe5c07e6f4012c5575902f2098a792e65f99491cb2f82308354"
+    },
+    {
+      "study": "R051",
+      "seed": 29671,
+      "skew": 0.0,
+      "path": "runs/background_diversity_20261106/markets/20261106_010359_diversity_0_skew_0_s29671_060919b9/config.yaml",
+      "sha256": "bbc0180bed921a75c65b3d7898964c9d4d1b2fafb5abe8516cdb16f1da3db21b"
+    }
+  ],
+  "source_sha256": "7c80bec1f005c1ce7e530ac79997fb40aae6b4c06764898c99cc44e2c1b8f545",
+  "new_api_requests": 0,
+  "new_markets": 0,
+  "limitation": "Configuration equivalence,not empirical calibration or a pooled inferential design;heterogeneous cells remain a distinct bundle."
+}

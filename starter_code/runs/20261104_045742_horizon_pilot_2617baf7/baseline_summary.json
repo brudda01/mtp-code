@@ -1,0 +1,5 @@
+{
+  "status": "completed",
+  "completed": 4,
+  "checks": "resources,10-round quiet prefixes,dividend scaling,finite MM,cash/passive cancellation"
+}

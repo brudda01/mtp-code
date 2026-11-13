@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-11-01T22:38:21.091244+00:00",
+  "model": "gemini-3.8-flash",
+  "status": "provider_error",
+  "http_status": 503,
+  "content_type": "application/json; charset=UTF-8",
+  "error_body_bytes": 198,
+  "error_body_sha256": "01f5c7d4e4d8ec06c8098777e731b3d552ba518feb02b681f6c569edcd9c6f6d",
+  "provider_status": "UNAVAILABLE",
+  "finished_utc": "2026-11-01T22:38:22.550936+00:00"
+}

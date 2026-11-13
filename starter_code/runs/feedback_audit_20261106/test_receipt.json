@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-07",
+  "command": "python -B -m unittest discover -s tests -v",
+  "cwd": "starter_code",
+  "tests": 176,
+  "seconds": 30.809,
+  "result": "OK",
+  "new_timing_tests": 6,
+  "new_diversity_tests": 2,
+  "execution_note": "Full offline suite passed under normal Windows permissions;new timing tests separately passed in restricted runner using ordinary workspace-directory ACLs.",
+  "development_failures": "TemporaryDirectory ACL restrictions in restricted runner;initial new test included adapter class label in byte equality,corrected to compare financial fields. Neither failure changed scientific runs."
+}

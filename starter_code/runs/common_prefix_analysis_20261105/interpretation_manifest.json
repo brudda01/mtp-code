@@ -1,0 +1,24 @@
+{
+  "review_date": "2026-11-05",
+  "status": "manual_visual_and_scientific_review_complete",
+  "scope": "Interpretation after immutable archive;no new API or markets;draft integration pending",
+  "checks": {
+    "all24_clean": true,
+    "gap_signs_improve_worsen_equal": [
+      2,
+      1,
+      3
+    ],
+    "replayed_paths": 23,
+    "matched_csv_files": 161,
+    "same_mode_magnitude_control_all6": true
+  },
+  "files": {
+    "starter_code/runs/common_prefix_analysis_20261105/INTERPRETATION.md": "b3e4043a15f3b474ddbc71173c3bf8d1adbe90b1f591000861ae78c102d216aa",
+    "starter_code/runs/common_prefix_analysis_20261105/report.json": "790a5e954a92577ab2cecd4f72faeae533e2087ad3af51f03cde0ec6c45a058d",
+    "starter_code/runs/common_prefix_analysis_20261105/replay_report.json": "0330f09c873d76b53887db2473c71d41e17c3a50974f256cc3f71663f87703b5",
+    "starter_code/runs/common_prefix_analysis_20261105/common_prefix_contrasts.png": "7bf07fe7a83540fe41005c271c665885f0d2012ebb151f75d73d9f8787e51e88",
+    "starter_code/runs/20261105_041035_common_prefix_ca10f93d/postprocessing_summary.json": "31547d9855b3943424d61ee45c2ca7fd828ace99c7f47b04b0af9d66a00cf6a9",
+    "starter_code/runs/20261105_041035_common_prefix_ca10f93d/protocol.json": "bfa3a2a644b6b4dc9e471f5f2690a5b458d8607dc385edd7970e605e81bb7487"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "scope": "Post-hoc summary of ALL prespecified seed averages plus ALL12 first-order B/C pairs. No new independent data or component-causality test.",
+  "report_sha256": "5cf72448f71c321a0468339b37aca4dffb464379d124cd3dd7b9072a7cbfc864",
+  "source_sha256": "bf64c69d0156de2f33d6dbe8bbcd0fb5f34372c66ee07cb3f458c5887656fed5",
+  "seed_means": [
+    {
+      "seed": 22853,
+      "B_minus_A_gap_pp": -0.5874999999999982,
+      "C_minus_B_gap_pp": -0.41250000000000264,
+      "C_minus_A_gap_pp": -1.0000000000000009,
+      "C_minus_B_passive_excess_pp": {
+        "llm_012": {
+          "auction": -0.44955124650328804,
+          "regime_benchmark": -0.44180124650328256
+        },
+        "llm_013": {
+          "auction": 4.771434925820996,
+          "regime_benchmark": -0.15556507417901227
+        }
+      }
+    },
+    {
+      "seed": 23971,
+      "B_minus_A_gap_pp": 0.4624999999999973,
+      "C_minus_B_gap_pp": -1.7499999999999996,
+      "C_minus_A_gap_pp": -1.287500000000002,
+      "C_minus_B_passive_excess_pp": {
+        "llm_012": {
+          "auction": 0.10494540064886679,
+          "regime_benchmark": -0.11555459935113505
+        },
+        "llm_013": {
+          "auction": -2.043195630237269,
+          "regime_benchmark": 0.6130543697627219
+        }
+      }
+    },
+    {
+      "seed": 25087,
+      "B_minus_A_gap_pp": 7.012499999999997,
+      "C_minus_B_gap_pp": -4.212499999999999,
+      "C_minus_A_gap_pp": 2.7999999999999985,
+      "C_minus_B_passive_excess_pp": {
+        "llm_012": {
+          "auction": -0.34108376844626037,
+          "regime_benchmark": -1.3035837684462603
+        },
+        "llm_013": {
+          "auction": 0.1282102844376366,
+          "regime_benchmark": 3.056210284437657
+        }
+      }
+    }
+  ],
+  "first_BC_orders": [
+    {
+      "seed": 22853,
+      "repetition": 1,
+      "agent_id": "llm_012",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 22853,
+      "repetition": 1,
+      "agent_id": "llm_013",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "buy",
+          "quantity": 100,
+          "limit_price": 100.4
+        }
+      },
+      "equal": false
+    },
+    {
+      "seed": 22853,
+      "repetition": 2,
+      "agent_id": "llm_012",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 22853,
+      "repetition": 2,
+      "agent_id": "llm_013",
+      "orders": {
+        "B": {
+          "side": "buy",
+          "quantity": 50,
+          "limit_price": null
+        },
+        "C": {
+          "side": "buy",
+          "quantity": 50,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 23971,
+      "repetition": 1,
+      "agent_id": "llm_012",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 23971,
+      "repetition": 1,
+      "agent_id": "llm_013",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "buy",
+          "quantity": 50,
+          "limit_price": null
+        }
+      },
+      "equal": false
+    },
+    {
+      "seed": 23971,
+      "repetition": 2,
+      "agent_id": "llm_012",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 23971,
+      "repetition": 2,
+      "agent_id": "llm_013",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 25087,
+      "repetition": 1,
+      "agent_id": "llm_012",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 25087,
+      "repetition": 1,
+      "agent_id": "llm_013",
+      "orders": {
+        "B": {
+          "side": "buy",
+          "quantity": 50,
+          "limit_price": 100.5
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": false
+    },
+    {
+      "seed": 25087,
+      "repetition": 2,
+      "agent_id": "llm_012",
+      "orders": {
+        "B": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": true
+    },
+    {
+      "seed": 25087,
+      "repetition": 2,
+      "agent_id": "llm_013",
+      "orders": {
+        "B": {
+          "side": "buy",
+          "quantity": 50,
+          "limit_price": 100.0
+        },
+        "C": {
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      },
+      "equal": false
+    }
+  ],
+  "first_order_pairs_different": 4,
+  "C_minus_B_reported_tokens": 64944,
+  "C_extra_reported_tokens_pct": 16.46461112547726,
+  "C_reflection_reported_tokens": 61342,
+  "C_minus_B_decision_only_reported_tokens": 3602,
+  "C_B_gap_negative_draws": 5,
+  "figure_visually_inspected": true,
+  "new_api_requests": 0
+}

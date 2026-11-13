@@ -1,0 +1,10 @@
+{
+  "status": "externally_interrupted",
+  "recorded_utc": "2026-11-02T00:20:40.028880+00:00",
+  "reason": "The active turn was interrupted while the sequential runner was live; no matching runner process remains.",
+  "completed_checks_observed": 13,
+  "model_call_records_observed": 13,
+  "provider_tokens_observed": 15035,
+  "limitation": "No normal summary was finalized. An in-flight/reserved but unlogged request and its usage cannot be excluded. Do not infer its response.",
+  "next_action": "One clean full run of the same frozen battery, rather than selecting or replaying responses. Preserve this partial prefix separately."
+}

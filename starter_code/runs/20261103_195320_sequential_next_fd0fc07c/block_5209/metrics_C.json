@@ -1,0 +1,1397 @@
+{
+  "evaluation": {
+    "version": "conditional_passive_evaluation_v1",
+    "status": "provider_error",
+    "interpretation": "Conditional realized-price-path accounting, not an equilibrium no-trading counterfactual or risk-adjusted alpha. Returns use initial market wealth for both terminal marks.",
+    "metrics": {
+      "rounds": 19,
+      "return_observations": 19,
+      "mean_absolute_relative_gap": 0.03843859649122806,
+      "acf_returns_lag1": -0.04467559316098511,
+      "acf_absolute_returns_lag1": -0.05521719723757288,
+      "zero_volume_fraction": 0.0,
+      "turnover_per_round": 0.016987295825771326,
+      "volume_weighted_mm_share": 0.31196581196581197,
+      "mean_fill_rate": 0.5055621201345969,
+      "band_hit_fraction": 0.0,
+      "mm_inventory_min": 44,
+      "mm_inventory_max": 160,
+      "aggregate_cash_growth": 0.007683720429776608,
+      "max_share_concentration": 0.13379310344827586
+    },
+    "accounts": [
+      {
+        "agent_id": "mark_000",
+        "type": "MarketMakerAgent",
+        "initial_market_wealth": 45000.0,
+        "passive_cash": 30178.374359723875,
+        "passive_shares": 150,
+        "marks": {
+          "auction": {
+            "active_wealth": 47511.96859219256,
+            "passive_wealth": 48703.37435972388,
+            "active_minus_passive": -1191.405767531316,
+            "active_return": 0.05582152427094589,
+            "passive_return": 0.08229720799386397,
+            "excess_return": -0.026475683722918135
+          },
+          "regime_benchmark": {
+            "active_wealth": 47357.96859219256,
+            "passive_wealth": 48178.37435972388,
+            "active_minus_passive": -820.4057675313161,
+            "active_return": 0.05239930204872367,
+            "passive_return": 0.07063054132719726,
+            "excess_return": -0.018231239278473692
+          }
+        }
+      },
+      {
+        "agent_id": "zero_001",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22059.40102277202,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -371.44673946184776,
+            "active_return": 0.10297005113860114,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.018572336973092386
+          },
+          "regime_benchmark": {
+            "active_wealth": 21859.90102277202,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -220.94673946184776,
+            "active_return": 0.09299505113860107,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.011047336973092388
+          }
+        }
+      },
+      {
+        "agent_id": "zero_002",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21490.71136848451,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -940.1363937493588,
+            "active_return": 0.07453556842422548,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.04700681968746794
+          },
+          "regime_benchmark": {
+            "active_wealth": 21350.71136848451,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -730.1363937493588,
+            "active_return": 0.06753556842422559,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.03650681968746794
+          }
+        }
+      },
+      {
+        "agent_id": "zero_003",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22431.27513017443,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": 0.427367940559634,
+            "active_return": 0.12156375650872131,
+            "passive_return": 0.12154238811169349,
+            "excess_return": 2.13683970279817e-05
+          },
+          "regime_benchmark": {
+            "active_wealth": 22081.27513017443,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": 0.427367940559634,
+            "active_return": 0.10406375650872146,
+            "passive_return": 0.10404238811169342,
+            "excess_return": 2.13683970279817e-05
+          }
+        }
+      },
+      {
+        "agent_id": "zero_004",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21932.690571898576,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -498.1571903352924,
+            "active_return": 0.09663452859492883,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.02490785951676462
+          },
+          "regime_benchmark": {
+            "active_wealth": 21705.190571898576,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -375.6571903352924,
+            "active_return": 0.08525952859492891,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.01878285951676462
+          }
+        }
+      },
+      {
+        "agent_id": "fund_005",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22354.937720886366,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -75.91004134750256,
+            "active_return": 0.11774688604431827,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.0037955020673751277
+          },
+          "regime_benchmark": {
+            "active_wealth": 22067.937720886366,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -12.910041347502556,
+            "active_return": 0.1033968860443184,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.0006455020673751278
+          }
+        }
+      },
+      {
+        "agent_id": "fund_006",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22348.836414009493,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -82.01134822437598,
+            "active_return": 0.1174418207004746,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.004100567411218799
+          },
+          "regime_benchmark": {
+            "active_wealth": 22065.336414009493,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -15.511348224375979,
+            "active_return": 0.10326682070047455,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.0007755674112187989
+          }
+        }
+      },
+      {
+        "agent_id": "fund_007",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22348.84108066103,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -82.00668157283872,
+            "active_return": 0.11744205403305141,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.004100334078641936
+          },
+          "regime_benchmark": {
+            "active_wealth": 22065.34108066103,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -15.506681572838716,
+            "active_return": 0.10326705403305159,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.0007753340786419358
+          }
+        }
+      },
+      {
+        "agent_id": "mome_008",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22843.22688794932,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": 412.37912571545166,
+            "active_return": 0.14216134439746608,
+            "passive_return": 0.12154238811169349,
+            "excess_return": 0.020618956285772583
+          },
+          "regime_benchmark": {
+            "active_wealth": 22297.22688794932,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": 216.37912571545166,
+            "active_return": 0.11486134439746598,
+            "passive_return": 0.10404238811169342,
+            "excess_return": 0.010818956285772584
+          }
+        }
+      },
+      {
+        "agent_id": "mome_009",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22846.72872206011,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": 415.88095982624145,
+            "active_return": 0.1423364361030055,
+            "passive_return": 0.12154238811169349,
+            "excess_return": 0.020794047991312074
+          },
+          "regime_benchmark": {
+            "active_wealth": 22297.22872206011,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": 216.38095982624145,
+            "active_return": 0.11486143610300559,
+            "passive_return": 0.10404238811169342,
+            "excess_return": 0.010819047991312072
+          }
+        }
+      },
+      {
+        "agent_id": "mome_010",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22833.223947818682,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": 402.37618558481336,
+            "active_return": 0.14166119739093408,
+            "passive_return": 0.12154238811169349,
+            "excess_return": 0.020118809279240667
+          },
+          "regime_benchmark": {
+            "active_wealth": 22290.723947818682,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": 209.87618558481336,
+            "active_return": 0.11453619739093401,
+            "passive_return": 0.10404238811169342,
+            "excess_return": 0.010493809279240669
+          }
+        }
+      },
+      {
+        "agent_id": "mome_011",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22834.22327437094,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": 403.3755121370705,
+            "active_return": 0.14171116371854686,
+            "passive_return": 0.12154238811169349,
+            "excess_return": 0.020168775606853522
+          },
+          "regime_benchmark": {
+            "active_wealth": 22291.72327437094,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": 210.87551213707047,
+            "active_return": 0.11458616371854702,
+            "passive_return": 0.10404238811169342,
+            "excess_return": 0.010543775606853524
+          }
+        }
+      },
+      {
+        "agent_id": "llm_012",
+        "type": "LLMAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 22166.138155813387,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": -264.7096064204816,
+            "active_return": 0.10830690779066932,
+            "passive_return": 0.12154238811169349,
+            "excess_return": -0.01323548032102408
+          },
+          "regime_benchmark": {
+            "active_wealth": 21875.638155813387,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": -205.20960642048158,
+            "active_return": 0.09378190779066942,
+            "passive_return": 0.10404238811169342,
+            "excess_return": -0.01026048032102408
+          }
+        }
+      },
+      {
+        "agent_id": "llm_013",
+        "type": "LLMAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10080.847762233867,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 24302.192379672826,
+            "passive_wealth": 22430.84776223387,
+            "active_minus_passive": 1871.3446174389574,
+            "active_return": 0.21510961898364123,
+            "passive_return": 0.12154238811169349,
+            "excess_return": 0.09356723087194786
+          },
+          "regime_benchmark": {
+            "active_wealth": 23623.192379672826,
+            "passive_wealth": 22080.84776223387,
+            "active_minus_passive": 1542.3446174389574,
+            "active_return": 0.1811596189836413,
+            "passive_return": 0.10404238811169342,
+            "excess_return": 0.07711723087194787
+          }
+        }
+      }
+    ],
+    "aggregate_active_minus_passive": {
+      "auction": 8.003553375601768e-11,
+      "regime_benchmark": 8.003553375601768e-11
+    }
+  },
+  "target_rounds": [
+    {
+      "round": 1,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 1,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 2,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 2,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 100,
+      "accepted_signed": 100,
+      "accepted_side": "buy",
+      "accepted_quantity": 100,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 3,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 3,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 100,
+      "accepted_signed": 100,
+      "accepted_side": "buy",
+      "accepted_quantity": 100,
+      "executed_buy": 18,
+      "executed_sell": 0,
+      "executed_signed": 18,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 4,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 4,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 50,
+      "accepted_signed": 50,
+      "accepted_side": "buy",
+      "accepted_quantity": 50,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 5,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 5,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 80,
+      "accepted_signed": 68,
+      "accepted_side": "buy",
+      "accepted_quantity": 68,
+      "executed_buy": 20,
+      "executed_sell": 0,
+      "executed_signed": 20,
+      "validation_note": "quantity_reduced_to_resources",
+      "failure_type": null
+    },
+    {
+      "round": 6,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 6,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 45,
+      "accepted_signed": 45,
+      "accepted_side": "buy",
+      "accepted_quantity": 45,
+      "executed_buy": 34,
+      "executed_sell": 0,
+      "executed_signed": 34,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 7,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 7,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 22,
+      "accepted_signed": 22,
+      "accepted_side": "buy",
+      "accepted_quantity": 22,
+      "executed_buy": 22,
+      "executed_sell": 0,
+      "executed_signed": 22,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 8,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": -30,
+      "accepted_signed": -30,
+      "accepted_side": "sell",
+      "accepted_quantity": 30,
+      "executed_buy": 0,
+      "executed_sell": 30,
+      "executed_signed": -30,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 8,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 9,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 9,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 10,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 10,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 11,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 20,
+      "accepted_signed": 20,
+      "accepted_side": "buy",
+      "accepted_quantity": 20,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 11,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 12,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 20,
+      "accepted_signed": 20,
+      "accepted_side": "buy",
+      "accepted_quantity": 20,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 12,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 13,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 20,
+      "accepted_signed": 20,
+      "accepted_side": "buy",
+      "accepted_quantity": 20,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 13,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 14,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 20,
+      "accepted_signed": 20,
+      "accepted_side": "buy",
+      "accepted_quantity": 20,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 14,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 15,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 20,
+      "accepted_signed": 20,
+      "accepted_side": "buy",
+      "accepted_quantity": 20,
+      "executed_buy": 13,
+      "executed_sell": 0,
+      "executed_signed": 13,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 15,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 16,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 16,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 17,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 17,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 18,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 18,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 19,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 19,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    }
+  ],
+  "event_decisions": [
+    {
+      "round": 11,
+      "agent_id": "llm_012",
+      "slot": 12,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      },
+      "valid_choice": true,
+      "requested_signed": 20,
+      "accepted_signed": 20,
+      "accepted_side": "buy",
+      "accepted_quantity": 20,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 11,
+      "agent_id": "llm_013",
+      "slot": 13,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      },
+      "valid_choice": true,
+      "requested_signed": 0,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    }
+  ],
+  "event_metrics": {
+    "pre_event_price": 114.5,
+    "pre_mean_price": 105.52000000000001,
+    "event_price": 115.1,
+    "event_log_return": 0.005226492733542589,
+    "post_mean_price": 119.15555555555557,
+    "post_mean_absolute_relative_gap": 0.018703703703703705,
+    "half_pre_event_gap_time": 2,
+    "half_gap_right_censored": false,
+    "target_union_volume_share": 0.06220095693779904,
+    "target_trade_leg_share": 0.03110047846889952,
+    "post_total_volume": 209
+  },
+  "timing_note": "Half-gap time starts at event round (lag 0), uses the new regime benchmark and pre-event close, and is null/censored if not reached. It is not a causal headline-response latency. Requested quantities unavailable for rules; fills come from actual trades."
+}

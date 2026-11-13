@@ -1,0 +1,6 @@
+{
+  "stage": "analysis packaging before report output",
+  "error": "ValueError from relative study path passed to relative_to(absolute BASE)",
+  "numerical_run_affected": false,
+  "remedy": "Resolve analysis input/output paths; write separate v2 analysis destination. Frozen study, results and driver unchanged."
+}

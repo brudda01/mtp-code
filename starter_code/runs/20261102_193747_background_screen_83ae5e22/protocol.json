@@ -1,0 +1,39 @@
+{
+  "version": "background_screen_v1",
+  "status": "frozen_before_runs",
+  "seeds": [
+    317,
+    628,
+    939
+  ],
+  "rounds": 600,
+  "cells": {
+    "original": {
+      "mm_skew": 0.02,
+      "dividend_window": 1
+    },
+    "average5": {
+      "mm_skew": 0.02,
+      "dividend_window": 5
+    },
+    "no_skew": {
+      "mm_skew": 0,
+      "dividend_window": 1
+    },
+    "no_skew_average5": {
+      "mm_skew": 0,
+      "dividend_window": 5
+    }
+  },
+  "population": "14 fixed slots: MM1/ZI4/F3/M4 background, F1/M1 replacement slots",
+  "resources": {
+    "cash": 160000,
+    "shares": 1450
+  },
+  "reveal_fundamental": false,
+  "news": [],
+  "purpose": "Exploratory mechanisms/sensitivity across price, dependence, liquidity and conditional passive performance; no default selection or empirical-realism pass score.",
+  "passive_note": "Conditional same-price-path accounting; no equilibrium response to removing trading.",
+  "return_convention": "All 600 regular-time log price changes, including first auction versus initial price; zero returns retained.",
+  "pairing": "Same seed/resources/environment/agent RNG positions; financial outcomes may differ endogenously."
+}

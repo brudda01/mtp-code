@@ -1,0 +1,9 @@
+{
+  "path": "starter_code/runs/sequential_gate_20261103_evidence.zip",
+  "sha256": "21e7bd5737c73bab9cad0993306ae25805ac26a9dfdff91fd4d00500a1af46ee",
+  "bytes": 3545499,
+  "files": 279,
+  "recursive_secret_scan_members": 630,
+  "zip_and_member_hash_checks": true,
+  "prior_bundles_unchanged": true
+}

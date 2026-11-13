@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "frames": 216,
+  "markets": 18,
+  "financial_accounts": 3024,
+  "max_account_error": 1.1368683772161603e-13,
+  "all_original_prices_trades_accounts_match": true,
+  "frames_sha256": "01ac22f8d7c77de5937d767f5dbeb34fe7f1e03640810c8e41634b5f1c6c25b6",
+  "new_api_requests": 0
+}

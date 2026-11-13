@@ -1,0 +1,31 @@
+{
+  "status": "stopped",
+  "run_path": "market/20261108_233727_goedel_6LLM_B_cap10_s31991_d03f6636",
+  "completed_rounds": 0,
+  "planned_rounds": 25,
+  "delivered_decisions": 1,
+  "planned_decisions": 150,
+  "missing_decisions": 149,
+  "usage": {
+    "requests_made": 2,
+    "max_requests": 179,
+    "reserved_tokens": 11072,
+    "max_reserved_tokens": 2994480,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 803,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 1,
+    "failed_requests": 1,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 2,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": true,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "failure_type": "ProviderUnavailable",
+  "no_resume": true,
+  "finished_utc": "2026-11-08T18:07:34.387217+00:00"
+}

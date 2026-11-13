@@ -1,0 +1,8 @@
+{
+  "status": "completed_query_first_delivery",
+  "completed_markets": 16,
+  "recorded_recovery_arms": 5,
+  "failure_type": null,
+  "finished_utc": "2026-11-02T17:36:44.397200+00:00",
+  "plan_sha256": "0983b91ad944252c91edd2915434b36de8f178ff66cd9ca49e739ba7e23cc7e2"
+}

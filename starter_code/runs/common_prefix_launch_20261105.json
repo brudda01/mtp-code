@@ -1,0 +1,7 @@
+{
+    "action":  "single frozen campaign;first fatal/affected branch stops;no automatic restart",
+    "pid":  23536,
+    "campaign":  "R047",
+    "started_utc":  "2026-11-04T22:42:27.0306496Z",
+    "study":  "runs/20261105_041035_common_prefix_ca10f93d"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "User-supplied AI Studio screenshot, 2026-11-02 04:24:49 local filename",
+  "project_label": "Gemini Project",
+  "shown_tier": "Free tier",
+  "gemini-3.8-flash": {
+    "requests_per_minute_limit": 5,
+    "tokens_per_minute_limit": 250000,
+    "shown_peak_requests_per_minute": 1,
+    "shown_peak_tokens_per_minute": 98,
+    "requests_per_day_limit": null
+  },
+  "gemini-3.5-flash-lite": {
+    "requests_per_minute_limit": 15,
+    "tokens_per_minute_limit": 250000,
+    "shown_peak_requests_per_minute": 5,
+    "requests_per_day_limit": null,
+    "shown_peak_tokens_per_minute_display": "4.23K"
+  },
+  "limitations": "28-day peak-usage display; this does not give current remaining quota. Daily denominator is not legible in the supplied image. Project-to-key mapping is based on user context, not independently queried.",
+  "source_sha256": "a9edfcb763fd0bbe4829de386ac5785c7c4bd08265b8a5b74d746fe0420bfe4c"
+}

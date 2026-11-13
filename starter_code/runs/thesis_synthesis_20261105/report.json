@@ -1,0 +1,555 @@
+{
+  "version": "thesis_synthesis_v1_saved_evidence_only",
+  "date": "2026-11-05",
+  "new_api_requests": 0,
+  "new_markets": 0,
+  "provenance": {
+    "revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+    "uncommitted_changes_record": "start_state.json",
+    "sources": "sources.json"
+  },
+  "news": {
+    "study": "R041",
+    "scenario_seeds": [
+      20611,
+      21727
+    ],
+    "model_repeats_per_cell": 2,
+    "rounds": 8,
+    "contrasts": [
+      {
+        "seed": 20611,
+        "repetition": 1,
+        "background": "original",
+        "Meera": 0,
+        "Arjun": -2,
+        "combined": -2,
+        "mean_gap_difference": -0.022812500000000013
+      },
+      {
+        "seed": 20611,
+        "repetition": 1,
+        "background": "no_skew",
+        "Meera": 0,
+        "Arjun": -156,
+        "combined": -156,
+        "mean_gap_difference": -0.09390625000000002
+      },
+      {
+        "seed": 20611,
+        "repetition": 2,
+        "background": "original",
+        "Meera": -13,
+        "Arjun": -109,
+        "combined": -122,
+        "mean_gap_difference": -0.02859375000000003
+      },
+      {
+        "seed": 20611,
+        "repetition": 2,
+        "background": "no_skew",
+        "Meera": 0,
+        "Arjun": 0,
+        "combined": 0,
+        "mean_gap_difference": 0.0
+      },
+      {
+        "seed": 21727,
+        "repetition": 1,
+        "background": "original",
+        "Meera": 0,
+        "Arjun": -106,
+        "combined": -106,
+        "mean_gap_difference": -0.11125000000000002
+      },
+      {
+        "seed": 21727,
+        "repetition": 1,
+        "background": "no_skew",
+        "Meera": 0,
+        "Arjun": -106,
+        "combined": -106,
+        "mean_gap_difference": -0.09203125000000004
+      },
+      {
+        "seed": 21727,
+        "repetition": 2,
+        "background": "original",
+        "Meera": -90,
+        "Arjun": 87,
+        "combined": -3,
+        "mean_gap_difference": 0.07468750000000005
+      },
+      {
+        "seed": 21727,
+        "repetition": 2,
+        "background": "no_skew",
+        "Meera": 20,
+        "Arjun": -148,
+        "combined": -128,
+        "mean_gap_difference": -0.08453125000000006
+      }
+    ],
+    "negative": 7,
+    "zero": 1,
+    "background_response_differences": [
+      -154,
+      122,
+      0,
+      -125
+    ],
+    "first_visible_Arjun_side_counts": {
+      "buy": 2,
+      "sell": 1,
+      "hold": 5
+    },
+    "first_message_hashes": [
+      "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93"
+    ],
+    "price_null_example": {
+      "seed": 20611,
+      "repetition": 2,
+      "background": "no_skew",
+      "visible_minus_silent_passive_excess_currency": {
+        "auction": {
+          "llm_012": 580.5446058601992,
+          "llm_013": -580.5446058601992
+        },
+        "regime_benchmark": {
+          "llm_012": 640.5446058601992,
+          "llm_013": -640.5446058601992
+        }
+      }
+    },
+    "limitation": "Eight nested contrasts, only two exogenous scenarios; not eight independent seeds. Unseeded provider draws. Downside at initial time only."
+  },
+  "background": {
+    "study": "R039",
+    "paired_seeds": [
+      16253,
+      17341,
+      18433,
+      19531
+    ],
+    "rounds": 600,
+    "records": [
+      {
+        "seed": 16253,
+        "cell": "original",
+        "price_acf1": 0.1814049316159584,
+        "total_acf1": 0.1823402370684674,
+        "abs_total_acf1": -0.022867550346063897,
+        "gap": 0.05884833333333333,
+        "turnover": 0.01288735632183908,
+        "mm_share": 0.4602211915804495,
+        "boundary_fraction": 0.0,
+        "cash_growth": 0.24285797000377674,
+        "block_gaps": [
+          0.04629,
+          0.06072999999999999,
+          0.06952499999999999
+        ],
+        "block_price_acf1": [
+          0.09667246828449065,
+          0.22447619816429343,
+          0.21301276294764296
+        ]
+      },
+      {
+        "seed": 16253,
+        "cell": "no_skew",
+        "price_acf1": 0.1314916271892203,
+        "total_acf1": 0.13257634467656934,
+        "abs_total_acf1": 0.013180498643977115,
+        "gap": 0.03481499999999999,
+        "turnover": 0.012026436781609195,
+        "mm_share": 0.46812577654592374,
+        "boundary_fraction": 0.04833333333333333,
+        "cash_growth": 0.24285797000377762,
+        "block_gaps": [
+          0.031479999999999994,
+          0.030104999999999996,
+          0.04286
+        ],
+        "block_price_acf1": [
+          0.1469460582241285,
+          0.099164048820499,
+          0.1475607051981352
+        ]
+      },
+      {
+        "seed": 17341,
+        "cell": "no_skew",
+        "price_acf1": 0.1126670769366239,
+        "total_acf1": 0.11345736174321529,
+        "abs_total_acf1": -0.005263953179469043,
+        "gap": 0.0771,
+        "turnover": 0.011198850574712644,
+        "mm_share": 0.47233911526223954,
+        "boundary_fraction": 0.051666666666666666,
+        "cash_growth": 0.24293574994664402,
+        "block_gaps": [
+          0.032714999999999994,
+          0.03537499999999999,
+          0.16320999999999997
+        ],
+        "block_price_acf1": [
+          0.0922744268627929,
+          0.10867989489343167,
+          0.13394980905665074
+        ]
+      },
+      {
+        "seed": 17341,
+        "cell": "original",
+        "price_acf1": 0.20820755297690047,
+        "total_acf1": 0.20915984800978696,
+        "abs_total_acf1": 0.022387323055477876,
+        "gap": 0.06303833333333334,
+        "turnover": 0.013533333333333333,
+        "mm_share": 0.43536606081195856,
+        "boundary_fraction": 0.01,
+        "cash_growth": 0.24293574994664424,
+        "block_gaps": [
+          0.05216999999999999,
+          0.064625,
+          0.07232000000000001
+        ],
+        "block_price_acf1": [
+          0.23079113614391253,
+          0.19203717726690492,
+          0.20506628746709715
+        ]
+      },
+      {
+        "seed": 18433,
+        "cell": "original",
+        "price_acf1": 0.1696154479739425,
+        "total_acf1": 0.17049415551419367,
+        "abs_total_acf1": -0.03793797511144608,
+        "gap": 0.05939,
+        "turnover": 0.013308045977011494,
+        "mm_share": 0.4430817066850924,
+        "boundary_fraction": 0.008333333333333333,
+        "cash_growth": 0.24306810053654138,
+        "block_gaps": [
+          0.047599999999999996,
+          0.07000999999999999,
+          0.06056
+        ],
+        "block_price_acf1": [
+          0.10764040292107822,
+          0.19755020274250765,
+          0.1800259249903609
+        ]
+      },
+      {
+        "seed": 18433,
+        "cell": "no_skew",
+        "price_acf1": 0.12003423678036161,
+        "total_acf1": 0.12109136757130133,
+        "abs_total_acf1": -0.005175003461062425,
+        "gap": 0.039071666666666664,
+        "turnover": 0.012422988505747126,
+        "mm_share": 0.4670614359733531,
+        "boundary_fraction": 0.02666666666666667,
+        "cash_growth": 0.24306810053654115,
+        "block_gaps": [
+          0.03451,
+          0.040429999999999994,
+          0.042275
+        ],
+        "block_price_acf1": [
+          0.031456778796735224,
+          0.11340814097910584,
+          0.19626948327072424
+        ]
+      },
+      {
+        "seed": 19531,
+        "cell": "no_skew",
+        "price_acf1": 0.09970602785708436,
+        "total_acf1": 0.10074740728472978,
+        "abs_total_acf1": -0.015392541234563708,
+        "gap": 0.044131666666666666,
+        "turnover": 0.012979310344827586,
+        "mm_share": 0.44208289054197664,
+        "boundary_fraction": 0.051666666666666666,
+        "cash_growth": 0.24359684879348542,
+        "block_gaps": [
+          0.046645000000000006,
+          0.032569999999999995,
+          0.05318
+        ],
+        "block_price_acf1": [
+          0.03198217865231892,
+          -0.02896022991900555,
+          0.252349570785669
+        ]
+      },
+      {
+        "seed": 19531,
+        "cell": "original",
+        "price_acf1": 0.13867214610688863,
+        "total_acf1": 0.1396953282206748,
+        "abs_total_acf1": 0.021301016224653326,
+        "gap": 0.07448833333333332,
+        "turnover": 0.012694252873563218,
+        "mm_share": 0.449203187250996,
+        "boundary_fraction": 0.016666666666666666,
+        "cash_growth": 0.2435968487934863,
+        "block_gaps": [
+          0.062725,
+          0.06042499999999999,
+          0.10031499999999999
+        ],
+        "block_price_acf1": [
+          0.1356027947971277,
+          0.17958614232751913,
+          0.09522588875169263
+        ]
+      }
+    ],
+    "means": {
+      "original": {
+        "price_acf1": 0.1744750196684225,
+        "total_acf1": 0.1754223922032807,
+        "abs_total_acf1": -0.004279296544344694,
+        "gap": 0.06394124999999999,
+        "turnover": 0.013105747126436782,
+        "mm_share": 0.44696803658212414,
+        "boundary_fraction": 0.00875,
+        "cash_growth": 0.24311466732011217
+      },
+      "no_skew": {
+        "price_acf1": 0.11597474219082254,
+        "total_acf1": 0.11696812031895393,
+        "abs_total_acf1": -0.0031627498077795154,
+        "gap": 0.048779583333333335,
+        "turnover": 0.012156896551724137,
+        "mm_share": 0.4624023045808733,
+        "boundary_fraction": 0.044583333333333336,
+        "cash_growth": 0.24311466732011205
+      }
+    },
+    "paired_contrasts": [
+      {
+        "seed": 16253,
+        "price_acf1_difference": -0.04991330442673808,
+        "boundary_difference": 0.04833333333333333,
+        "block_price_acf1_differences": [
+          0.05027358993963786,
+          -0.12531214934379442,
+          -0.06545205774950777
+        ]
+      },
+      {
+        "seed": 17341,
+        "price_acf1_difference": -0.09554047604027657,
+        "boundary_difference": 0.041666666666666664,
+        "block_price_acf1_differences": [
+          -0.13851670928111964,
+          -0.08335728237347324,
+          -0.07111647841044641
+        ]
+      },
+      {
+        "seed": 18433,
+        "price_acf1_difference": -0.0495812111935809,
+        "boundary_difference": 0.018333333333333333,
+        "block_price_acf1_differences": [
+          -0.076183624124343,
+          -0.0841420617634018,
+          0.016243558280363335
+        ]
+      },
+      {
+        "seed": 19531,
+        "price_acf1_difference": -0.03896611824980427,
+        "boundary_difference": 0.035,
+        "block_price_acf1_differences": [
+          -0.10362061614480877,
+          -0.20854637224652467,
+          0.15712368203397636
+        ]
+      }
+    ],
+    "empirical_context": {
+      "first_date": "20230811",
+      "last_date": "20251231",
+      "count": 600,
+      "total_return_acf1": -0.03870765525148536,
+      "abs_total_return_acf1": 0.20788588409231407,
+      "source_sha256": "96c23b88e651cbfff3740a53f8225e59ee39893371e96385a1d8125ec2cd9c89"
+    },
+    "limitation": "Four fresh rule-market scenario pairs; blocks nested, no long-run LLM validation. US portfolio reference is diagnostic, not a calibration/realism pass criterion."
+  },
+  "components": {
+    "studies": [
+      "R025-R027 fixed-state",
+      "R028-R030 sequential"
+    ],
+    "fixed_state_coverage": {
+      "resolved_cases": 108,
+      "valid_decisions": 107,
+      "failed_decisions": 1,
+      "planned_decisions": 108,
+      "covered_cells": 36,
+      "planned_cells": 36,
+      "cells_with_three_resolved_slots": 36,
+      "cells_with_three_valid_replies": 35
+    },
+    "fixed_state_reported_costs": {
+      "C_reflection": {
+        "http_attempts": 24,
+        "reserved_tokens": 262263,
+        "reported_tokens": 59907
+      },
+      "A_decision": {
+        "http_attempts": 38,
+        "reserved_tokens": 494221,
+        "unknown_usage": 2,
+        "reported_tokens": 113515
+      },
+      "B_decision": {
+        "http_attempts": 37,
+        "reserved_tokens": 496528,
+        "reported_tokens": 120274,
+        "unknown_usage": 1
+      },
+      "C_decision": {
+        "http_attempts": 40,
+        "reserved_tokens": 563864,
+        "unknown_usage": 4,
+        "reported_tokens": 130346
+      }
+    },
+    "fixed_state_unknown_usage_requests": 7,
+    "sequential_complete_ABC_scenarios": [
+      6317
+    ],
+    "partial_arms": [
+      {
+        "seed": 4103,
+        "mode": "C"
+      },
+      {
+        "seed": 5209,
+        "mode": "C"
+      }
+    ],
+    "sequential_full_horizon_contrasts": [
+      {
+        "seed": 4103,
+        "contrast": "B-A",
+        "comparable": true,
+        "post_gap_difference": -0.003511904761904737,
+        "reported_token_difference": 9200,
+        "passive_excess_differences": {
+          "llm_012": {
+            "auction": 0.005257892271224774,
+            "regime_benchmark": 0.0032878922712245187
+          },
+          "llm_013": {
+            "auction": 0.012151857055119036,
+            "regime_benchmark": 0.002506857055118966
+          }
+        },
+        "interpretation": "Descriptive difference between these specified policies and unseeded model draws on a common scenario; one trajectory per condition, not isolated causal component efficacy."
+      },
+      {
+        "seed": 4103,
+        "contrast": "C-B",
+        "comparable": false,
+        "reason": "At least one arm unrun or partial/operationally affected; no full-horizon contrast."
+      },
+      {
+        "seed": 5209,
+        "contrast": "B-A",
+        "comparable": true,
+        "post_gap_difference": 0.0014880952380952536,
+        "reported_token_difference": 20912,
+        "passive_excess_differences": {
+          "llm_012": {
+            "auction": -0.006656832374533405,
+            "regime_benchmark": -0.0010618323745333336
+          },
+          "llm_013": {
+            "auction": -0.009679972798711245,
+            "regime_benchmark": 0.0001900272012886478
+          }
+        },
+        "interpretation": "Descriptive difference between these specified policies and unseeded model draws on a common scenario; one trajectory per condition, not isolated causal component efficacy."
+      },
+      {
+        "seed": 5209,
+        "contrast": "C-B",
+        "comparable": false,
+        "reason": "At least one arm unrun or partial/operationally affected; no full-horizon contrast."
+      },
+      {
+        "seed": 6317,
+        "contrast": "B-A",
+        "comparable": true,
+        "post_gap_difference": -0.015059523809523787,
+        "reported_token_difference": 6442,
+        "passive_excess_differences": {
+          "llm_012": {
+            "auction": 0.006135418396074056,
+            "regime_benchmark": 0.030385418396074056
+          },
+          "llm_013": {
+            "auction": 0.08688460512413476,
+            "regime_benchmark": 0.06609460512413479
+          }
+        },
+        "interpretation": "Descriptive difference between these specified policies and unseeded model draws on a common scenario; one trajectory per condition, not isolated causal component efficacy."
+      },
+      {
+        "seed": 6317,
+        "contrast": "C-B",
+        "comparable": true,
+        "post_gap_difference": 0.004761904761904738,
+        "reported_token_difference": 29842,
+        "passive_excess_differences": {
+          "llm_012": {
+            "auction": -0.038706086053163925,
+            "regime_benchmark": -0.03532608605316382
+          },
+          "llm_013": {
+            "auction": -0.008201300989222185,
+            "regime_benchmark": -0.0002813009892221052
+          }
+        },
+        "interpretation": "Descriptive difference between these specified policies and unseeded model draws on a common scenario; one trajectory per condition, not isolated causal component efficacy."
+      }
+    ],
+    "C6317_minus_B": {
+      "seed": 6317,
+      "contrast": "C-B",
+      "comparable": true,
+      "post_gap_difference": 0.004761904761904738,
+      "reported_token_difference": 29842,
+      "passive_excess_differences": {
+        "llm_012": {
+          "auction": -0.038706086053163925,
+          "regime_benchmark": -0.03532608605316382
+        },
+        "llm_013": {
+          "auction": -0.008201300989222185,
+          "regime_benchmark": -0.0002813009892221052
+        }
+      },
+      "interpretation": "Descriptive difference between these specified policies and unseeded model draws on a common scenario; one trajectory per condition, not isolated causal component efficacy."
+    },
+    "limitation": "Exploratory: four reused A-market frames, shared A-history reflections in conditional study; only one complete endogenous ABC scenario. Old ambiguous news wording/disclosed horizon; no pooling with R041 or causal wording comparison."
+  },
+  "audit": {
+    "source_archive_hashes_and_CRCs_verified": 9,
+    "sealed_source_reports_and_audits_identical": 6,
+    "raw_news_markets_checked": 16,
+    "raw_rule_markets_checked": 8,
+    "source_files_unchanged": 103
+  },
+  "next_decision": "Synthesis first. A future fresh, quiet, matched endogenous ABC campaign would test stable component claims, if central to the thesis; not launched or predeclared here."
+}

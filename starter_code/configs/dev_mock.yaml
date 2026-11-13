@@ -1,0 +1,21 @@
+name: dev_mock
+seed: 42
+rounds: 60
+time: {round_unit: laboratory_period, periods_per_year: null}
+market: {tick: 0.1, price_band: 0.2, transaction_tax: 0.0}
+asset:
+  model: legacy_ar1
+  ticker: KGP
+  initial_price: 100
+  dividend: {mean: 1.0, rho: 0.6, sigma: 0.3}
+  risk_free: 0.01
+reveal_fundamental: false
+news:
+  - {round: 30, headline: "KGP Industries wins major government contract", effect: {dbar_mult: 1.2, duration: 20}}
+observation: {price_history_len: 20}
+agents:
+  - {type: market_maker, count: 1, cash: 50000, shares: 300, params: {spread: 0.02, inventory_limit: 400, quote_size: 15}}
+  - {type: zero_intelligence, count: 4, cash: 10000, shares: 100}
+  - {type: fundamentalist, count: 2, cash: 10000, shares: 100, params: {delta: 0.05, aggressiveness: 0.5}}
+  - {type: momentum, count: 2, cash: 10000, shares: 100, params: {window: 5}}
+  - {type: llm, count: 8, cash: 12000, shares: 100, llm: {provider: mock, temperature: 0.7, reflect_every: 0}}

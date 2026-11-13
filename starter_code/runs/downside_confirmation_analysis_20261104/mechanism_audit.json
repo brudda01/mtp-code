@@ -1,0 +1,198 @@
+{
+  "scope": "Post-hoc descriptive audits on ALL8 first-visible Arjun replies and one explicitly identified full-price-path-null pair; no new model calls,latent-belief classification or human/causal-temperature estimate.",
+  "report_sha256": "a522c7c10aff1745f322f494f72b4706ff479b35d4bdf5f0640d1d2f7be9acae",
+  "hash_serialization": "sha256(json.dumps(messages,sort_keys=True).encode())",
+  "first_visible_arjun": [
+    {
+      "seed": 20611,
+      "repetition": 1,
+      "background": "original",
+      "source_run": "market_runs/20261104_162032_downside_A_20611_original_visible_rep1_a2ac19fd",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 80,
+        "limit_price": 99.6,
+        "round": 1,
+        "reasoning": "A 20% cut sounds big but only trims 0.004 a share off a ~100 stock, so any dip below 99.6 is noise-driven overshoot I can ride for a quick momentum bounce.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "dcc37f2413126b4b9f77c49ae6cd0e534ea83130bf1e88adfbd63555827264cd"
+    },
+    {
+      "seed": 20611,
+      "repetition": 1,
+      "background": "no_skew",
+      "source_run": "market_runs/20261104_162407_downside_A_20611_no_skew_visible_rep1_1655d46f",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 100,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "A permanent 20% dividend cut is exactly the kind of catalyst that starts a downtrend, and with cash yielding more than the new dividend I'm not getting paid to wait. I'm getting the whole position out today at whatever clears rather than legging behind the crowd into the selloff.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "a8ad411817f19ebdf86d443c2f74984adaf30a9e26ab7b42eba19af54d862103"
+    },
+    {
+      "seed": 20611,
+      "repetition": 2,
+      "background": "original",
+      "source_run": "market_runs/20261104_163148_downside_A_20611_original_visible_rep2_1a24bbfc",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "The dividend cut is tiny in absolute terms and there's no price action yet to read momentum from, so I'm keeping my 100 shares and my cash dry until I see how the auction clears.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "1672a53d8c2d3695046abfcb66af479f098deec949781d6696b6ce3da6e6ec21"
+    },
+    {
+      "seed": 20611,
+      "repetition": 2,
+      "background": "no_skew",
+      "source_run": "market_runs/20261104_163755_downside_A_20611_no_skew_visible_rep2_97423586",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "A 20% cut on a 0.02 dividend is noise in price terms and there's no momentum history to read yet \u2014 I'll wait for the first real price move before committing.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "27345ffa88ccec446b691362beedaf4f041b94c215939ea8f9ba7f285e1ec837"
+    },
+    {
+      "seed": 21727,
+      "repetition": 1,
+      "background": "no_skew",
+      "source_run": "market_runs/20261104_164732_downside_A_21727_no_skew_visible_rep1_511f4681",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "The dividend cut is tiny and there's no momentum signal yet with just one closing price to read; I'll wait for price action before committing.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "1a88836136e30293f6b0a7368abc54ba43d1117fc94c4973b05570141181b413"
+    },
+    {
+      "seed": 21727,
+      "repetition": 1,
+      "background": "original",
+      "source_run": "market_runs/20261104_165836_downside_A_21727_original_visible_rep1_f12f19c0",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "The dividend trim from 0.02 to 0.016 is tiny relative to price, and with no volume or price action yet there's no momentum signal to trade on \u2014 I'll wait for real tape before committing.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "4bfca4348353aecb6070d32879064f1325d46bc020f7c90c34ddf3497465a2ee"
+    },
+    {
+      "seed": 21727,
+      "repetition": 2,
+      "background": "original",
+      "source_run": "market_runs/20261104_170749_downside_A_21727_original_visible_rep2_12499ef7",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 60,
+        "limit_price": 99.9,
+        "round": 1,
+        "reasoning": "A 0.004 cut in dividend is noise versus a 100 price \u2014 the headline scare is way overblown, so I'm buying the dip on my own read that momentum resumes upward.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "4f85584784cac13490f5f960d17197b84a78798e8f25e705ba82ce08cba34406"
+    },
+    {
+      "seed": 21727,
+      "repetition": 2,
+      "background": "no_skew",
+      "source_run": "market_runs/20261104_171335_downside_A_21727_no_skew_visible_rep2_936822c2",
+      "messages_sha256": "cdfe066e55a884864f560e54951df93212efb6ac689fb4baa5a477bf895d1a93",
+      "intent": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "Dividend cut is tiny and there's no momentum signal yet on the first session \u2014 I'll wait for price action to develop before committing.",
+        "validation_note": ""
+      },
+      "request_log_sha256": "c916be5dc5d89ac1c738d0904509cba4153021a9e9a234319027a98ae879ef65"
+    }
+  ],
+  "arjun_first_side_counts": {
+    "buy": 2,
+    "sell": 1,
+    "hold": 5
+  },
+  "price_null_pair": {
+    "seed": 20611,
+    "repetition": 2,
+    "background": "no_skew",
+    "identical_price_dividend_fundamental_paths": true,
+    "prices_csv_bytes_identical": false,
+    "non_target_states_identical": true,
+    "cross_target_trades": {
+      "true": [],
+      "false": [
+        {
+          "round": "5",
+          "buyer_id": "llm_012",
+          "seller_id": "llm_013",
+          "quantity": "50",
+          "price": "92.8"
+        }
+      ]
+    },
+    "groups": {
+      "True": {
+        "targets": {
+          "auction": -1519.2419634426515,
+          "regime_benchmark": -1524.0419634426507
+        },
+        "market_maker": {
+          "auction": -187.84024144864816,
+          "regime_benchmark": -235.84024144864816
+        },
+        "other_traders": {
+          "auction": 1707.0822048913287,
+          "regime_benchmark": 1759.8822048913353
+        }
+      },
+      "False": {
+        "targets": {
+          "auction": -1519.2419634426515,
+          "regime_benchmark": -1524.0419634426507
+        },
+        "market_maker": {
+          "auction": -187.84024144864816,
+          "regime_benchmark": -235.84024144864816
+        },
+        "other_traders": {
+          "auction": 1707.0822048913287,
+          "regime_benchmark": 1759.8822048913353
+        }
+      }
+    }
+  }
+}

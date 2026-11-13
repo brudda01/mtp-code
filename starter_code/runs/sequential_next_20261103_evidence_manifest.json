@@ -1,0 +1,9 @@
+{
+  "path": "starter_code/runs/sequential_next_20261103_evidence.zip",
+  "sha256": "599bd886cf4772c2dd94eb0fe53b514123ca7360407cf5eccc4a7a6302cb2497",
+  "bytes": 4279878,
+  "files": 87,
+  "recursive_secret_scan_members": 772,
+  "zip_and_member_hash_checks": true,
+  "prior_bundles_unchanged": true
+}

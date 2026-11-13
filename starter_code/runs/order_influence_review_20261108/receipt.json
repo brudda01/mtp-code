@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "date": "2026-11-08",
+  "reviewer": "AI-assisted numerical and visual review;not external or blinded human review",
+  "observed_test_command": "python -B -m unittest tests.test_order_influence tests.test_order_influence_analysis -v",
+  "observed_test_result": "7 tests passed",
+  "tests_sha256": {
+    "tests/test_order_influence.py": "105c204e64c1f247ae7c94395096a0ef8684b983d302b140b2576f960e1a511d",
+    "tests/test_order_influence_analysis.py": "7d8ee103a4f6d3606e4cbbda5f2b7c10999797c0fde88e989db74ebd99da1eb8"
+  },
+  "figure_inspected": "runs/order_influence_analysis_20261107_v2/order_influence.png",
+  "figure_sha256": "2b6e911402dcbef58f3b4c2aca2c942893b3e72076829e778dceee3f1b5edf8a",
+  "all_18_path_results_inspected": true,
+  "all_mode_seed_summaries_inspected": true,
+  "adverse_valuation_example_retained": true,
+  "original_frames_match": true,
+  "factual_accounts_checked": 3024,
+  "counterfactual_accounts_checked": 6048,
+  "cap_affected_denominator": 105,
+  "active_target_denominator": 137,
+  "no_new_model_samples": true,
+  "original_R052_closed": true,
+  "initial_analysis_packaging_error_preserved": true
+}

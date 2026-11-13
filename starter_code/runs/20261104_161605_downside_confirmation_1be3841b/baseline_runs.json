@@ -1,0 +1,82 @@
+[
+  {
+    "seed": 20611,
+    "background": "original",
+    "visible": false,
+    "repetition": 0,
+    "config": "configs/downside_rules_20611_original_silent_rep0.yaml",
+    "config_sha256": "26467797310e88b677ca8e1752d5d0649679983b71d8e11c40b1c64a9305d1b8",
+    "run_path": "baseline_runs/20261104_161605_downside_rules_20611_original_silent_rep0_20a6b670",
+    "manifest_sha256": "4211988da2a2bc8874735988fe68e57f74675eb2024110f5676d5790a544e68f"
+  },
+  {
+    "seed": 20611,
+    "background": "original",
+    "visible": true,
+    "repetition": 0,
+    "config": "configs/downside_rules_20611_original_visible_rep0.yaml",
+    "config_sha256": "1d46b637a16bb43e30be010b212e04820678e4ae627c9ffa28208ccd99c0a2ce",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_20611_original_visible_rep0_de965373",
+    "manifest_sha256": "10c51039a24499b2b7d314377e0c9a8ab82682ea7ca6d29b3831a1765c243118"
+  },
+  {
+    "seed": 20611,
+    "background": "no_skew",
+    "visible": true,
+    "repetition": 0,
+    "config": "configs/downside_rules_20611_no_skew_visible_rep0.yaml",
+    "config_sha256": "53fc338a3419b9f85f61ed5d28ab20a94dab12bf54d5794e5e45206d4a340f79",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_20611_no_skew_visible_rep0_ae4bfc67",
+    "manifest_sha256": "53d7a7abd8c599318093a9b89fe211a97358f4dab7e08c0e24be32ed2db1beaa"
+  },
+  {
+    "seed": 20611,
+    "background": "no_skew",
+    "visible": false,
+    "repetition": 0,
+    "config": "configs/downside_rules_20611_no_skew_silent_rep0.yaml",
+    "config_sha256": "a0ad775f1306c49e0de50e4ea6feb0a5ddaa90db5cb9325f7ec0551a82591d52",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_20611_no_skew_silent_rep0_ce3f0835",
+    "manifest_sha256": "1bf690f75fab76eef0f2292355c90baad875bce1cf8ff1efee8a07e8f5c7b591"
+  },
+  {
+    "seed": 21727,
+    "background": "original",
+    "visible": false,
+    "repetition": 0,
+    "config": "configs/downside_rules_21727_original_silent_rep0.yaml",
+    "config_sha256": "4cf4404ed0ded55d685994413b7257995c913dfed9f824ce536dc9969af5c548",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_21727_original_silent_rep0_e98716f3",
+    "manifest_sha256": "c6cd879d2c74004d1a84bae745a92bb752f43b5e3360b737ba79adca78140b6b"
+  },
+  {
+    "seed": 21727,
+    "background": "original",
+    "visible": true,
+    "repetition": 0,
+    "config": "configs/downside_rules_21727_original_visible_rep0.yaml",
+    "config_sha256": "b94c8e9ae286d4d4d84f720341a605779a78dd307d82cb980279753ddad96359",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_21727_original_visible_rep0_b02e4e72",
+    "manifest_sha256": "d7db1f66fa289bfa68cbcb2d14b89557be13fe7f3293eabf0e9766110216e286"
+  },
+  {
+    "seed": 21727,
+    "background": "no_skew",
+    "visible": true,
+    "repetition": 0,
+    "config": "configs/downside_rules_21727_no_skew_visible_rep0.yaml",
+    "config_sha256": "d22399cb740a13790e3b5409da9a9d1d48ebf287f03c1255cd9e13307d761366",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_21727_no_skew_visible_rep0_ade2b6d8",
+    "manifest_sha256": "10d611f9c2cfbc2638df287b680a09691f86a40d206cebeb366eb68bdaf6cefd"
+  },
+  {
+    "seed": 21727,
+    "background": "no_skew",
+    "visible": false,
+    "repetition": 0,
+    "config": "configs/downside_rules_21727_no_skew_silent_rep0.yaml",
+    "config_sha256": "312688497cfccaf52773fb7c09e4c075f742c32dd5a27a2bf6a6f30b79c15ced",
+    "run_path": "baseline_runs/20261104_161606_downside_rules_21727_no_skew_silent_rep0_a788171a",
+    "manifest_sha256": "11e7230e230d36296162373f0a5c7e90a571aaeb1a84c4db123808d1b3c6102a"
+  }
+]

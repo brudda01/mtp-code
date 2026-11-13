@@ -1,0 +1,1682 @@
+{
+  "study": "R055",
+  "status": "completed",
+  "protocol_sha256": "a9c86c42147feef8519614f5df4e8a5e1a1461a977b5bac778d261f6c9c2be77",
+  "inputs_sha256": {
+    "protocol.json": "a9c86c42147feef8519614f5df4e8a5e1a1461a977b5bac778d261f6c9c2be77",
+    "preparation.json": "8985de4bbc0e0db686a5525e3540b1789b91854e7974ec55ee60acceadaf1f74",
+    "gate_summary.json": "e5808d125c3aa2ce87c036d16f1c38eab93758b2b889634f6cc63acb9272756c",
+    "controls.json": "74b8cb1363c4196f02ea75c69395d441046797f0740d94f4329502887824e4e8",
+    "runs.json": "fb1d8205896de27630b7049697f869548f7877736aef1e787b61c3b758026a44",
+    "summary.json": "4bfd7c4ee14a2565c35ecad6578cc6fed55710e922e0f8921ea59a2d3cb58605",
+    "output_manifest.json": "c4f6701446bfcb673a6b91a5ffd462b1ba6769bc2e23546924dd52f063f5a3ff"
+  },
+  "controls": 18,
+  "dynamic_executions": 36,
+  "distinct_removal_paths": 3,
+  "existing_seeds": 3,
+  "account_rounds_rechecked": 9072,
+  "contrasts": [
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161612_quiet_components_A_s22853_rep1_aa6ebf92",
+      "donor_path": "market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.548724737568935,
+        "mean_gap_pct": 7.108333333333333,
+        "max_drawdown_pct": 12.400000000000011,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 154,
+        "maker_max": 204,
+        "volume": 333,
+        "terminal_price": 96.3,
+        "target_union_volume": 212,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4897348945908222,
+        "mean_gap_pct": 1.9916666666666676,
+        "max_drawdown_pct": 3.7000000000000033,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 148,
+        "maker_max": 198,
+        "volume": 193,
+        "terminal_price": 102.7,
+        "target_union_volume": 60,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.0589898429781126,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -5.116666666666665,
+        "max_drawdown_pct": -8.700000000000008,
+        "volume": -140
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161612_quiet_components_A_s22853_rep1_2b34b654",
+      "donor_path": "market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.548724737568935,
+        "mean_gap_pct": 7.108333333333333,
+        "max_drawdown_pct": 12.400000000000011,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 154,
+        "maker_max": 204,
+        "volume": 333,
+        "terminal_price": 96.3,
+        "target_union_volume": 212,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4778094250827885,
+        "mean_gap_pct": 2.141666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 158,
+        "maker_max": 185,
+        "volume": 162,
+        "terminal_price": 103.3,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.0709153124861466,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -4.966666666666669,
+        "max_drawdown_pct": -9.000000000000007,
+        "volume": -171
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161612_quiet_components_B_s22853_rep1_32a9bf17",
+      "donor_path": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.065709094844889,
+        "mean_gap_pct": 4.000000000000001,
+        "max_drawdown_pct": 9.599999999999998,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 152,
+        "maker_max": 202,
+        "volume": 309,
+        "terminal_price": 99.5,
+        "target_union_volume": 246,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.7052879407570898,
+        "mean_gap_pct": 6.016666666666666,
+        "max_drawdown_pct": 10.40000000000001,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 160,
+        "maker_max": 200,
+        "volume": 224,
+        "terminal_price": 89.8,
+        "target_union_volume": 96,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.360421154087799,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 2.016666666666665,
+        "max_drawdown_pct": 0.8000000000000114,
+        "volume": -85
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161612_quiet_components_B_s22853_rep1_199d25d2",
+      "donor_path": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.065709094844889,
+        "mean_gap_pct": 4.000000000000001,
+        "max_drawdown_pct": 9.599999999999998,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 152,
+        "maker_max": 202,
+        "volume": 309,
+        "terminal_price": 99.5,
+        "target_union_volume": 246,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4778094250827885,
+        "mean_gap_pct": 2.141666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 158,
+        "maker_max": 185,
+        "volume": 162,
+        "terminal_price": 103.3,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.5878996697621004,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -1.858333333333336,
+        "max_drawdown_pct": -6.199999999999995,
+        "volume": -147
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161613_quiet_components_C_s22853_rep1_2dc69577",
+      "donor_path": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2996876052494428,
+        "mean_gap_pct": 3.0583333333333313,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 106,
+        "maker_max": 150,
+        "volume": 203,
+        "terminal_price": 108.7,
+        "target_union_volume": 97,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.349698593140952,
+        "mean_gap_pct": 3.3166666666666655,
+        "max_drawdown_pct": 1.0999999999999899,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 98,
+        "maker_max": 156,
+        "volume": 220,
+        "terminal_price": 108.9,
+        "target_union_volume": 82,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.05001098789150915,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.2583333333333342,
+        "max_drawdown_pct": 1.0999999999999899,
+        "volume": 17
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161613_quiet_components_C_s22853_rep1_8b2f65a4",
+      "donor_path": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2996876052494428,
+        "mean_gap_pct": 3.0583333333333313,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 106,
+        "maker_max": 150,
+        "volume": 203,
+        "terminal_price": 108.7,
+        "target_union_volume": 97,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4778094250827885,
+        "mean_gap_pct": 2.141666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 158,
+        "maker_max": 185,
+        "volume": 162,
+        "terminal_price": 103.3,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.17812181983334563,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -0.9166666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "volume": -41
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161613_quiet_components_B_s22853_rep2_f911fd33",
+      "donor_path": "market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.7658122389052853,
+        "mean_gap_pct": 4.8916666666666675,
+        "max_drawdown_pct": 10.975609756097548,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 118,
+        "maker_max": 146,
+        "volume": 255,
+        "terminal_price": 94.9,
+        "target_union_volume": 154,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.425522520519041,
+        "mean_gap_pct": 2.416666666666665,
+        "max_drawdown_pct": 1.0999999999999899,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 129,
+        "maker_max": 156,
+        "volume": 190,
+        "terminal_price": 104.9,
+        "target_union_volume": 50,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.3402897183862443,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.4750000000000023,
+        "max_drawdown_pct": -9.875609756097557,
+        "volume": -65
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161613_quiet_components_B_s22853_rep2_27342574",
+      "donor_path": "market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.7658122389052853,
+        "mean_gap_pct": 4.8916666666666675,
+        "max_drawdown_pct": 10.975609756097548,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 118,
+        "maker_max": 146,
+        "volume": 255,
+        "terminal_price": 94.9,
+        "target_union_volume": 154,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4778094250827885,
+        "mean_gap_pct": 2.141666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 158,
+        "maker_max": 185,
+        "volume": 162,
+        "terminal_price": 103.3,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.2880028138224968,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.7500000000000027,
+        "max_drawdown_pct": -7.575609756097545,
+        "volume": -93
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161613_quiet_components_C_s22853_rep2_65fae0de",
+      "donor_path": "market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.6884482285634217,
+        "mean_gap_pct": 5.008333333333331,
+        "max_drawdown_pct": 1.5726179463459666,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 130,
+        "maker_max": 159,
+        "volume": 239,
+        "terminal_price": 106.4,
+        "target_union_volume": 103,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.3513948235085476,
+        "mean_gap_pct": 3.2583333333333298,
+        "max_drawdown_pct": 1.0999999999999899,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 112,
+        "maker_max": 156,
+        "volume": 204,
+        "terminal_price": 108.7,
+        "target_union_volume": 46,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.33705340505487413,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -1.7500000000000013,
+        "max_drawdown_pct": -0.47261794634597676,
+        "volume": -35
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161613_quiet_components_C_s22853_rep2_2005ad42",
+      "donor_path": "market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.6884482285634217,
+        "mean_gap_pct": 5.008333333333331,
+        "max_drawdown_pct": 1.5726179463459666,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 130,
+        "maker_max": 159,
+        "volume": 239,
+        "terminal_price": 106.4,
+        "target_union_volume": 103,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4778094250827885,
+        "mean_gap_pct": 2.141666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 158,
+        "maker_max": 185,
+        "volume": 162,
+        "terminal_price": 103.3,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.21063880348063324,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.8666666666666663,
+        "max_drawdown_pct": 1.8273820536540364,
+        "volume": -77
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161614_quiet_components_A_s22853_rep2_5a1cfa61",
+      "donor_path": "market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.3259401674873859,
+        "mean_gap_pct": 2.9583333333333313,
+        "max_drawdown_pct": 0.2782931354359919,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 112,
+        "maker_max": 150,
+        "volume": 237,
+        "terminal_price": 107.5,
+        "target_union_volume": 118,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.3760185469783905,
+        "mean_gap_pct": 3.2166666666666655,
+        "max_drawdown_pct": 1.0999999999999899,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 104,
+        "maker_max": 156,
+        "volume": 234,
+        "terminal_price": 107.7,
+        "target_union_volume": 90,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.05007837949100469,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.2583333333333342,
+        "max_drawdown_pct": 0.821706864563998,
+        "volume": -3
+      }
+    },
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161614_quiet_components_A_s22853_rep2_3ecdb530",
+      "donor_path": "market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.3259401674873859,
+        "mean_gap_pct": 2.9583333333333313,
+        "max_drawdown_pct": 0.2782931354359919,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 112,
+        "maker_max": 150,
+        "volume": 237,
+        "terminal_price": 107.5,
+        "target_union_volume": 118,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.4778094250827885,
+        "mean_gap_pct": 2.141666666666665,
+        "max_drawdown_pct": 3.400000000000003,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 158,
+        "maker_max": 185,
+        "volume": 162,
+        "terminal_price": 103.3,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.1518692575954026,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -0.8166666666666664,
+        "max_drawdown_pct": 3.121706864564011,
+        "volume": -75
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161614_quiet_components_B_s23971_rep1_cba38c2c",
+      "donor_path": "market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.6958361257408283,
+        "mean_gap_pct": 5.441666666666665,
+        "max_drawdown_pct": 0.7469654528478031,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 98,
+        "maker_max": 147,
+        "volume": 260,
+        "terminal_price": 108.1,
+        "target_union_volume": 96,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.5032901450262677,
+        "mean_gap_pct": 1.3749999999999984,
+        "max_drawdown_pct": 3.2835820895522394,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 174,
+        "volume": 206,
+        "terminal_price": 98.0,
+        "target_union_volume": 36,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.19254598071456064,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -4.066666666666666,
+        "max_drawdown_pct": 2.5366166367044363,
+        "volume": -54
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161614_quiet_components_B_s23971_rep1_2d58a958",
+      "donor_path": "market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.6958361257408283,
+        "mean_gap_pct": 5.441666666666665,
+        "max_drawdown_pct": 0.7469654528478031,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 98,
+        "maker_max": 147,
+        "volume": 260,
+        "terminal_price": 108.1,
+        "target_union_volume": 96,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2679581681469845,
+        "mean_gap_pct": 4.424999999999998,
+        "max_drawdown_pct": 6.169154228855723,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 175,
+        "volume": 195,
+        "terminal_price": 95.2,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.5721220424061562,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -1.0166666666666666,
+        "max_drawdown_pct": 5.4221887760079195,
+        "volume": -65
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161614_quiet_components_C_s23971_rep1_835eadec",
+      "donor_path": "market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.2522729631651393,
+        "mean_gap_pct": 4.033333333333333,
+        "max_drawdown_pct": 8.128544423440454,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 104,
+        "maker_max": 140,
+        "volume": 278,
+        "terminal_price": 97.2,
+        "target_union_volume": 151,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.49262847241187274,
+        "mean_gap_pct": 1.1833333333333327,
+        "max_drawdown_pct": 3.383084577114437,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 140,
+        "maker_max": 174,
+        "volume": 220,
+        "terminal_price": 97.5,
+        "target_union_volume": 63,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.7596444907532665,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.8500000000000005,
+        "max_drawdown_pct": -4.745459846326018,
+        "volume": -58
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161614_quiet_components_C_s23971_rep1_6eea7ac2",
+      "donor_path": "market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.2522729631651393,
+        "mean_gap_pct": 4.033333333333333,
+        "max_drawdown_pct": 8.128544423440454,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 104,
+        "maker_max": 140,
+        "volume": 278,
+        "terminal_price": 97.2,
+        "target_union_volume": 151,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2679581681469845,
+        "mean_gap_pct": 4.424999999999998,
+        "max_drawdown_pct": 6.169154228855723,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 175,
+        "volume": 195,
+        "terminal_price": 95.2,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.9843147950181548,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.39166666666666483,
+        "max_drawdown_pct": -1.9593901945847314,
+        "volume": -83
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161615_quiet_components_A_s23971_rep1_4547dcc3",
+      "donor_path": "market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.41383770746815945,
+        "mean_gap_pct": 4.100000000000001,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 74,
+        "maker_max": 147,
+        "volume": 271,
+        "terminal_price": 108.5,
+        "target_union_volume": 103,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.4582576043876199,
+        "mean_gap_pct": 1.9166666666666654,
+        "max_drawdown_pct": 1.0945273631840724,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 90,
+        "maker_max": 156,
+        "volume": 236,
+        "terminal_price": 105.4,
+        "target_union_volume": 94,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.044419896919460466,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.1833333333333362,
+        "max_drawdown_pct": 1.0945273631840724,
+        "volume": -35
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161615_quiet_components_A_s23971_rep1_5b0f5f58",
+      "donor_path": "market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.41383770746815945,
+        "mean_gap_pct": 4.100000000000001,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 74,
+        "maker_max": 147,
+        "volume": 271,
+        "terminal_price": 108.5,
+        "target_union_volume": 103,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2679581681469845,
+        "mean_gap_pct": 4.424999999999998,
+        "max_drawdown_pct": 6.169154228855723,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 175,
+        "volume": 195,
+        "terminal_price": 95.2,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.8541204606788251,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.3249999999999966,
+        "max_drawdown_pct": 6.169154228855723,
+        "volume": -76
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161615_quiet_components_C_s23971_rep2_09a83b6b",
+      "donor_path": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.5140371226402491,
+        "mean_gap_pct": 2.2749999999999955,
+        "max_drawdown_pct": 0.579150579150578,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 110,
+        "maker_max": 147,
+        "volume": 224,
+        "terminal_price": 104.5,
+        "target_union_volume": 98,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.5094475531483383,
+        "mean_gap_pct": 1.241666666666664,
+        "max_drawdown_pct": 2.985074626865669,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 146,
+        "maker_max": 167,
+        "volume": 207,
+        "terminal_price": 98.4,
+        "target_union_volume": 49,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.004589569491910805,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -1.0333333333333314,
+        "max_drawdown_pct": 2.405924047715091,
+        "volume": -17
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161615_quiet_components_C_s23971_rep2_22ab50b4",
+      "donor_path": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.5140371226402491,
+        "mean_gap_pct": 2.2749999999999955,
+        "max_drawdown_pct": 0.579150579150578,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 110,
+        "maker_max": 147,
+        "volume": 224,
+        "terminal_price": 104.5,
+        "target_union_volume": 98,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2679581681469845,
+        "mean_gap_pct": 4.424999999999998,
+        "max_drawdown_pct": 6.169154228855723,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 175,
+        "volume": 195,
+        "terminal_price": 95.2,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.7539210455067353,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 2.1500000000000026,
+        "max_drawdown_pct": 5.590003649705144,
+        "volume": -29
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161615_quiet_components_A_s23971_rep2_b9ac28f0",
+      "donor_path": "market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.268277326646504,
+        "mean_gap_pct": 4.783333333333331,
+        "max_drawdown_pct": 7.936507936507942,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 98,
+        "maker_max": 147,
+        "volume": 290,
+        "terminal_price": 98.6,
+        "target_union_volume": 151,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.4620620801986974,
+        "mean_gap_pct": 1.6499999999999986,
+        "max_drawdown_pct": 4.676616915422893,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 185,
+        "volume": 218,
+        "terminal_price": 95.8,
+        "target_union_volume": 56,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.8062152464478065,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -3.133333333333333,
+        "max_drawdown_pct": -3.259891021085049,
+        "volume": -72
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161615_quiet_components_A_s23971_rep2_ce4f220f",
+      "donor_path": "market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.268277326646504,
+        "mean_gap_pct": 4.783333333333331,
+        "max_drawdown_pct": 7.936507936507942,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 98,
+        "maker_max": 147,
+        "volume": 290,
+        "terminal_price": 98.6,
+        "target_union_volume": 151,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2679581681469845,
+        "mean_gap_pct": 4.424999999999998,
+        "max_drawdown_pct": 6.169154228855723,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 175,
+        "volume": 195,
+        "terminal_price": 95.2,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.0003191584995195,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -0.3583333333333334,
+        "max_drawdown_pct": -1.7673537076522194,
+        "volume": -95
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161616_quiet_components_B_s23971_rep2_28611b34",
+      "donor_path": "market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.7486520200172069,
+        "mean_gap_pct": 4.366666666666664,
+        "max_drawdown_pct": 0.8514664143803308,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 109,
+        "maker_max": 147,
+        "volume": 260,
+        "terminal_price": 106.3,
+        "target_union_volume": 111,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.5133269438062616,
+        "mean_gap_pct": 1.3249999999999984,
+        "max_drawdown_pct": 3.184079601990053,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 172,
+        "volume": 209,
+        "terminal_price": 98.1,
+        "target_union_volume": 38,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.23532507621094523,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -3.041666666666665,
+        "max_drawdown_pct": 2.3326131876097222,
+        "volume": -51
+      }
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161616_quiet_components_B_s23971_rep2_786a2b6a",
+      "donor_path": "market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.7486520200172069,
+        "mean_gap_pct": 4.366666666666664,
+        "max_drawdown_pct": 0.8514664143803308,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 109,
+        "maker_max": 147,
+        "volume": 260,
+        "terminal_price": 106.3,
+        "target_union_volume": 111,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2679581681469845,
+        "mean_gap_pct": 4.424999999999998,
+        "max_drawdown_pct": 6.169154228855723,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 147,
+        "maker_max": 175,
+        "volume": 195,
+        "terminal_price": 95.2,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.5193061481297776,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.05833333333333446,
+        "max_drawdown_pct": 5.317687814475391,
+        "volume": -65
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161616_quiet_components_C_s25087_rep1_317c6bed",
+      "donor_path": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.8544407651030648,
+        "mean_gap_pct": 12.93333333333333,
+        "max_drawdown_pct": 4.537815126050426,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 72,
+        "maker_max": 140,
+        "volume": 324,
+        "terminal_price": 113.6,
+        "target_union_volume": 121,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8661328855479428,
+        "mean_gap_pct": 5.2749999999999995,
+        "max_drawdown_pct": 1.7592592592592604,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 79,
+        "maker_max": 140,
+        "volume": 188,
+        "terminal_price": 107.0,
+        "target_union_volume": 46,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.988307879555122,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -7.6583333333333306,
+        "max_drawdown_pct": -2.778555866791166,
+        "volume": -136
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161616_quiet_components_C_s25087_rep1_897586c4",
+      "donor_path": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.8544407651030648,
+        "mean_gap_pct": 12.93333333333333,
+        "max_drawdown_pct": 4.537815126050426,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 72,
+        "maker_max": 140,
+        "volume": 324,
+        "terminal_price": 113.6,
+        "target_union_volume": 121,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8069405120248149,
+        "mean_gap_pct": 3.241666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 96,
+        "maker_max": 140,
+        "volume": 144,
+        "terminal_price": 104.9,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.04750025307825,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -9.691666666666663,
+        "max_drawdown_pct": -2.72829131652661,
+        "volume": -180
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161616_quiet_components_A_s25087_rep1_e68d7f08",
+      "donor_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.611531472053068,
+        "mean_gap_pct": 12.875,
+        "max_drawdown_pct": 1.9343986543313818,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 65,
+        "maker_max": 140,
+        "volume": 316,
+        "terminal_price": 116.6,
+        "target_union_volume": 89,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.7931615519697023,
+        "mean_gap_pct": 3.550000000000001,
+        "max_drawdown_pct": 1.7992424242424199,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 86,
+        "maker_max": 140,
+        "volume": 169,
+        "terminal_price": 105.6,
+        "target_union_volume": 31,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.8183699200833656,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -9.325,
+        "max_drawdown_pct": -0.13515623008896194,
+        "volume": -147
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161617_quiet_components_A_s25087_rep1_5881d52e",
+      "donor_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.611531472053068,
+        "mean_gap_pct": 12.875,
+        "max_drawdown_pct": 1.9343986543313818,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 65,
+        "maker_max": 140,
+        "volume": 316,
+        "terminal_price": 116.6,
+        "target_union_volume": 89,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8069405120248149,
+        "mean_gap_pct": 3.241666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 96,
+        "maker_max": 140,
+        "volume": 144,
+        "terminal_price": 104.9,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.804590960028253,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -9.633333333333333,
+        "max_drawdown_pct": -0.12487484480756539,
+        "volume": -172
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161617_quiet_components_B_s25087_rep1_e86471ef",
+      "donor_path": "market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.256478843781521,
+        "mean_gap_pct": 17.866666666666664,
+        "max_drawdown_pct": 4.621513944223111,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 80,
+        "maker_max": 140,
+        "volume": 352,
+        "terminal_price": 119.7,
+        "target_union_volume": 114,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8519495843579337,
+        "mean_gap_pct": 5.424999999999999,
+        "max_drawdown_pct": 1.7576318223866738,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 77,
+        "maker_max": 140,
+        "volume": 186,
+        "terminal_price": 108.3,
+        "target_union_volume": 43,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.4045292594235876,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -12.441666666666665,
+        "max_drawdown_pct": -2.8638821218364368,
+        "volume": -166
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "remove",
+      "run_path": "remove/20261108_161617_quiet_components_B_s25087_rep1_2d6da315",
+      "donor_path": "market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.256478843781521,
+        "mean_gap_pct": 17.866666666666664,
+        "max_drawdown_pct": 4.621513944223111,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 80,
+        "maker_max": 140,
+        "volume": 352,
+        "terminal_price": 119.7,
+        "target_union_volume": 114,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8069405120248149,
+        "mean_gap_pct": 3.241666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 96,
+        "maker_max": 140,
+        "volume": 144,
+        "terminal_price": 104.9,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.449538331756706,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -14.624999999999996,
+        "max_drawdown_pct": -2.811990134699294,
+        "volume": -208
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161617_quiet_components_A_s25087_rep2_ac28a727",
+      "donor_path": "market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.3123785360146052,
+        "mean_gap_pct": 8.708333333333334,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 33,
+        "maker_max": 140,
+        "volume": 312,
+        "terminal_price": 117.5,
+        "target_union_volume": 130,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.6704158990969742,
+        "mean_gap_pct": 6.375000000000003,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 51,
+        "maker_max": 140,
+        "volume": 226,
+        "terminal_price": 112.7,
+        "target_union_volume": 56,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.641962636917631,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.3333333333333313,
+        "max_drawdown_pct": 0.0,
+        "volume": -86
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161617_quiet_components_A_s25087_rep2_59b0a49a",
+      "donor_path": "market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.3123785360146052,
+        "mean_gap_pct": 8.708333333333334,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 33,
+        "maker_max": 140,
+        "volume": 312,
+        "terminal_price": 117.5,
+        "target_union_volume": 130,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8069405120248149,
+        "mean_gap_pct": 3.241666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 96,
+        "maker_max": 140,
+        "volume": 144,
+        "terminal_price": 104.9,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -0.5054380239897903,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -5.466666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "volume": -168
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161617_quiet_components_B_s25087_rep2_347ada6e",
+      "donor_path": "market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.0124179751130744,
+        "mean_gap_pct": 17.741666666666664,
+        "max_drawdown_pct": 1.9920318725099584,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 69,
+        "maker_max": 140,
+        "volume": 341,
+        "terminal_price": 123.0,
+        "target_union_volume": 85,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.7547699644676578,
+        "mean_gap_pct": 4.341666666666666,
+        "max_drawdown_pct": 1.7740429505135324,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 82,
+        "maker_max": 140,
+        "volume": 180,
+        "terminal_price": 107.2,
+        "target_union_volume": 40,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.2576480106454166,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -13.399999999999999,
+        "max_drawdown_pct": -0.21798892199642594,
+        "volume": -161
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161617_quiet_components_B_s25087_rep2_48225cd4",
+      "donor_path": "market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 3.0124179751130744,
+        "mean_gap_pct": 17.741666666666664,
+        "max_drawdown_pct": 1.9920318725099584,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 69,
+        "maker_max": 140,
+        "volume": 341,
+        "terminal_price": 123.0,
+        "target_union_volume": 85,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8069405120248149,
+        "mean_gap_pct": 3.241666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 96,
+        "maker_max": 140,
+        "volume": 144,
+        "terminal_price": 104.9,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -2.2054774630882594,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -14.499999999999996,
+        "max_drawdown_pct": -0.18250806298614197,
+        "volume": -197
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161618_quiet_components_C_s25087_rep2_af5be7ef",
+      "donor_path": "market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.592544432774798,
+        "mean_gap_pct": 14.250000000000002,
+        "max_drawdown_pct": 1.8257261410788428,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 62,
+        "maker_max": 140,
+        "volume": 314,
+        "terminal_price": 118.3,
+        "target_union_volume": 90,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8519495843579337,
+        "mean_gap_pct": 5.424999999999999,
+        "max_drawdown_pct": 1.7576318223866738,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 78,
+        "maker_max": 140,
+        "volume": 185,
+        "terminal_price": 108.3,
+        "target_union_volume": 36,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.7405948484168643,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -8.825000000000003,
+        "max_drawdown_pct": -0.06809431869216898,
+        "volume": -129
+      }
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "remove",
+      "run_path": "remove/20261108_161618_quiet_components_C_s25087_rep2_4186bc14",
+      "donor_path": "market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 2.592544432774798,
+        "mean_gap_pct": 14.250000000000002,
+        "max_drawdown_pct": 1.8257261410788428,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 62,
+        "maker_max": 140,
+        "volume": 314,
+        "terminal_price": 118.3,
+        "target_union_volume": 90,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 0.8069405120248149,
+        "mean_gap_pct": 3.241666666666667,
+        "max_drawdown_pct": 1.8095238095238164,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 96,
+        "maker_max": 140,
+        "volume": 144,
+        "terminal_price": 104.9,
+        "target_union_volume": 0,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": -1.785603920749983,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -11.008333333333335,
+        "max_drawdown_pct": -0.016202331555026372,
+        "volume": -170
+      }
+    }
+  ],
+  "seed_summaries": [
+    {
+      "seed": 22853,
+      "condition": "cap10",
+      "comparisons": 6,
+      "mean_delta": {
+        "price_return_sd_pct": -0.832777458854086,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -1.1347222222222226,
+        "max_drawdown_pct": -2.721086806313257,
+        "volume": -51.833333333333336
+      }
+    },
+    {
+      "seed": 22853,
+      "condition": "remove",
+      "comparisons": 6,
+      "mean_delta": {
+        "price_return_sd_pct": -0.8045775870204381,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.362500000000001,
+        "max_drawdown_pct": -2.4044201396465827,
+        "volume": -100.66666666666667
+      }
+    },
+    {
+      "seed": 23971,
+      "condition": "cap10",
+      "comparisons": 6,
+      "mean_delta": {
+        "price_return_sd_pct": -0.6589834111165048,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -2.7180555555555554,
+        "max_drawdown_pct": 0.060721727967042595,
+        "volume": -47.833333333333336
+      }
+    },
+    {
+      "seed": 23971,
+      "condition": "remove",
+      "comparisons": 6,
+      "mean_delta": {
+        "price_return_sd_pct": 0.11913929053396999,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.2583333333333331,
+        "max_drawdown_pct": 3.128715094467871,
+        "volume": -68.83333333333333
+      }
+    },
+    {
+      "seed": 25087,
+      "condition": "cap10",
+      "comparisons": 6,
+      "mean_delta": {
+        "price_return_sd_pct": -1.8085687591736646,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -8.997222222222222,
+        "max_drawdown_pct": -1.0106129099008598,
+        "volume": -137.5
+      }
+    },
+    {
+      "seed": 25087,
+      "condition": "remove",
+      "comparisons": 6,
+      "mean_delta": {
+        "price_return_sd_pct": -1.799691492115207,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": -10.820833333333331,
+        "max_drawdown_pct": -0.6757238135084702,
+        "volume": -182.5
+      }
+    }
+  ],
+  "signs": {
+    "cap10": {
+      "price_return_sd_pct": {
+        "lower": 15,
+        "higher": 3
+      },
+      "maker_boundary_fraction": {
+        "equal": 18
+      },
+      "mean_gap_pct": {
+        "lower": 15,
+        "higher": 3
+      },
+      "max_drawdown_pct": {
+        "lower": 10,
+        "higher": 7,
+        "equal": 1
+      },
+      "volume": {
+        "lower": 17,
+        "higher": 1
+      }
+    },
+    "remove": {
+      "price_return_sd_pct": {
+        "lower": 12,
+        "higher": 6
+      },
+      "maker_boundary_fraction": {
+        "equal": 18
+      },
+      "mean_gap_pct": {
+        "lower": 14,
+        "higher": 4
+      },
+      "max_drawdown_pct": {
+        "lower": 10,
+        "higher": 8
+      },
+      "volume": {
+        "lower": 18
+      }
+    }
+  },
+  "removal_identity": [
+    {
+      "seed": 22853,
+      "executions": 6,
+      "unique_financial_paths": 1,
+      "matched_files": 7
+    },
+    {
+      "seed": 23971,
+      "executions": 6,
+      "unique_financial_paths": 1,
+      "matched_files": 7
+    },
+    {
+      "seed": 25087,
+      "executions": 6,
+      "unique_financial_paths": 1,
+      "matched_files": 7
+    }
+  ],
+  "cap_volume_increase_examples": [
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "run_path": "cap10/20261108_161613_quiet_components_C_s22853_rep1_2dc69577",
+      "donor_path": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+      "original": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.2996876052494428,
+        "mean_gap_pct": 3.0583333333333313,
+        "max_drawdown_pct": 0.0,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 106,
+        "maker_max": 150,
+        "volume": 203,
+        "terminal_price": 108.7,
+        "target_union_volume": 97,
+        "zero_volume_rounds": 0
+      },
+      "intervention": {
+        "rounds": 12,
+        "price_return_sd_pct": 1.349698593140952,
+        "mean_gap_pct": 3.3166666666666655,
+        "max_drawdown_pct": 1.0999999999999899,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 98,
+        "maker_max": 156,
+        "volume": 220,
+        "terminal_price": 108.9,
+        "target_union_volume": 82,
+        "zero_volume_rounds": 0
+      },
+      "delta": {
+        "price_return_sd_pct": 0.05001098789150915,
+        "maker_boundary_fraction": 0.0,
+        "mean_gap_pct": 0.2583333333333342,
+        "max_drawdown_pct": 1.0999999999999899,
+        "volume": 17
+      }
+    }
+  ],
+  "all_maker_boundary_fractions_zero": true,
+  "new_api_requests": 0,
+  "new_model_samples": 0,
+  "limitation": "Rule agents adapt;the factual accepted LLM tape does not. No adaptive LLM policy effect or long-run stability claim. Three inherited scenarios;18 removal executions collapse to3unique paths."
+}

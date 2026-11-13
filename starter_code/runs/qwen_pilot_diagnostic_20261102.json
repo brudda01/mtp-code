@@ -1,0 +1,1346 @@
+{
+  "analysis_kind": "descriptive exploratory diagnostic, not confirmatory inference",
+  "analysis_script_sha256": "794cfbb7950e77e445617c07be947cb61fae5537e7b436f06da61ad43e71ef83",
+  "protocol_sha256": "8f918925f404a13c6812af3b0facfd9368ce789e29aef3e8eb62568c3d3bf596",
+  "market_schedule_sha256": "73f2ebf3e411a33bcc2bcb36b3d9973eeaf07eadfe148e79f62ad1b2e5d33122",
+  "market_runs_index_sha256": "0ce58d8d3684ca609e315b874a7f80afec6e2f081b640d83f35a77f0700a2e0e",
+  "probe_run_id": "20261102_050006_qwen_probes_e918237e",
+  "probe_audit": {
+    "manifest_sha256": "545b09b4714f82b9eb3d136928e6501d169e59af100e45f23175199bb0cce973",
+    "source_sha256": {
+      "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+      "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+      "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+      "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+      "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+      "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+      "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+      "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+      "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+      "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+      "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+      "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+      "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+      "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+    },
+    "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+    "prompt_suite_version": "comparable_agents_v1",
+    "models": [
+      {
+        "provider": "openai_compatible",
+        "configured_model": "qwen-3.8-27b",
+        "condition": "A",
+        "temperature": 0.3,
+        "reflect_every": 0,
+        "memory_window": 2,
+        "max_tokens": 2048,
+        "timeout_seconds": 180.0,
+        "reasoning_effort": "low",
+        "send_temperature": true,
+        "input_usd_per_million": 0.0,
+        "output_usd_per_million": 0.0
+      }
+    ]
+  },
+  "arithmetic_correct_fields": 8,
+  "arithmetic_total_fields": 8,
+  "constraint_cases": 4,
+  "constraint_nonzero_orders": 1,
+  "paired_probe_actions": [
+    {
+      "family": "disclosed_value",
+      "repetition": 1,
+      "variants": [
+        "value_100",
+        "value_120"
+      ],
+      "requested_signed_quantities": [
+        0,
+        50
+      ],
+      "requested_limit_prices": [
+        null,
+        100.5
+      ],
+      "case_ids": [
+        "p10_disclosed_value_value_100_r1",
+        "p07_disclosed_value_value_120_r1"
+      ]
+    },
+    {
+      "family": "disclosed_value",
+      "repetition": 2,
+      "variants": [
+        "value_100",
+        "value_120"
+      ],
+      "requested_signed_quantities": [
+        50,
+        50
+      ],
+      "requested_limit_prices": [
+        100.0,
+        101.0
+      ],
+      "case_ids": [
+        "p01_disclosed_value_value_100_r2",
+        "p00_disclosed_value_value_120_r2"
+      ]
+    },
+    {
+      "family": "headline_only",
+      "repetition": 1,
+      "variants": [
+        "no_news",
+        "positive_headline"
+      ],
+      "requested_signed_quantities": [
+        0,
+        20
+      ],
+      "requested_limit_prices": [
+        null,
+        100.0
+      ],
+      "case_ids": [
+        "p14_headline_only_no_news_r1",
+        "p13_headline_only_positive_headline_r1"
+      ]
+    },
+    {
+      "family": "headline_only",
+      "repetition": 2,
+      "variants": [
+        "no_news",
+        "positive_headline"
+      ],
+      "requested_signed_quantities": [
+        0,
+        50
+      ],
+      "requested_limit_prices": [
+        null,
+        100.1
+      ],
+      "case_ids": [
+        "p15_headline_only_no_news_r2",
+        "p06_headline_only_positive_headline_r2"
+      ]
+    },
+    {
+      "family": "risk_trait",
+      "repetition": 1,
+      "variants": [
+        "low",
+        "high"
+      ],
+      "requested_signed_quantities": [
+        0,
+        0
+      ],
+      "requested_limit_prices": [
+        null,
+        null
+      ],
+      "case_ids": [
+        "p11_risk_trait_low_r1",
+        "p12_risk_trait_high_r1"
+      ]
+    },
+    {
+      "family": "risk_trait",
+      "repetition": 2,
+      "variants": [
+        "low",
+        "high"
+      ],
+      "requested_signed_quantities": [
+        -30,
+        50
+      ],
+      "requested_limit_prices": [
+        109.0,
+        112.0
+      ],
+      "case_ids": [
+        "p05_risk_trait_low_r2",
+        "p03_risk_trait_high_r2"
+      ]
+    }
+  ],
+  "market_runs": [
+    {
+      "seed": 704,
+      "condition": "A",
+      "run_id": "20261102_050336_qwen_a_s704_7ca8fc82",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "4c2baf6081037d8bdf4818b9f8b015d9fbcb95dcbb878e986b81b0857e9648bd",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+          "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+          "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "qwen-3.8-27b",
+            "condition": "A",
+            "temperature": 0.3,
+            "reflect_every": 0,
+            "memory_window": 2,
+            "max_tokens": 2048,
+            "timeout_seconds": 180.0,
+            "reasoning_effort": "low",
+            "send_temperature": true,
+            "input_usd_per_million": 0.0,
+            "output_usd_per_million": 0.0
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "repaired_decisions": 0,
+      "requested_action_counts": {
+        "buy": 0,
+        "sell": 2,
+        "hold": 6
+      },
+      "requested_quantity_reductions": 0,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [],
+      "executed_llm_quantity": 52,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10015.837630238308",
+          "shares": "100",
+          "wealth": "19175.837630238308",
+          "avg_cost": "100.0",
+          "dividend_income": "1.6232946040740401",
+          "interest_income": "2.0024423786511165"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "14753.384271732803",
+          "shares": "48",
+          "wealth": "19150.184271732804",
+          "avg_cost": "100.0",
+          "dividend_income": "0.7791814099555393",
+          "interest_income": "2.9499310318581977"
+        }
+      ],
+      "final_price": 91.6,
+      "exploratory_valuation_diagnostic": [
+        {
+          "agent_id": "llm_012",
+          "market_wealth": 19175.837630238308,
+          "benchmark_wealth": 20015.837630238308,
+          "regime_benchmark": 100.0,
+          "market_return_pct": -4.120811848808459,
+          "benchmark_valued_return_pct": 0.07918815119154488
+        },
+        {
+          "agent_id": "llm_013",
+          "market_wealth": 19150.184271732804,
+          "benchmark_wealth": 19553.3842717328,
+          "regime_benchmark": 100.0,
+          "market_return_pct": -4.249078641335979,
+          "benchmark_valued_return_pct": -2.233078641335995
+        }
+      ],
+      "executions_accounts_and_prompt_memory_verified": true,
+      "cash_conservation_error": 5.820766091346741e-11,
+      "reflection_count": 0,
+      "usage": {
+        "requests_made": 8,
+        "max_requests": 12,
+        "reserved_tokens": 42757,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 9249,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 704,
+      "condition": "B",
+      "run_id": "20261102_050453_qwen_b_s704_73a19b55",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "e409711ccc7f45e6a6e3eeffbee901909c85bb3f1f520b7f8f2cf7c459e03aaa",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+          "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+          "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "qwen-3.8-27b",
+            "condition": "B",
+            "temperature": 0.3,
+            "reflect_every": 0,
+            "memory_window": 2,
+            "max_tokens": 2048,
+            "timeout_seconds": 180.0,
+            "reasoning_effort": "low",
+            "send_temperature": true,
+            "input_usd_per_million": 0.0,
+            "output_usd_per_million": 0.0
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "repaired_decisions": 0,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 2,
+        "hold": 2
+      },
+      "requested_quantity_reductions": 2,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [
+        {
+          "agent_id": "llm_013",
+          "round": 3,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 50,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Momentum is confirmed \u2014 100 to 100.5 to 105.9, and my last buy already paid off big. I'm pushing my cash to work for the next leg up.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 44,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Momentum is confirmed \u2014 100 to 100.5 to 105.9, and my last buy already paid off big. I'm pushing my cash to work for the next leg up.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 4,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 7,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Momentum is unbroken \u2014 four straight up closes and my gains keep compounding; I'll deploy the last of my cash into the trend.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 6,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Momentum is unbroken \u2014 four straight up closes and my gains keep compounding; I'll deploy the last of my cash into the trend.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        }
+      ],
+      "executed_llm_quantity": 122,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "13316.065912213306",
+          "shares": "70",
+          "wealth": "21016.065912213307",
+          "avg_cost": "100.0",
+          "dividend_income": "1.1363062228518281",
+          "interest_income": "2.6624534305119885"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "153.9227509012501",
+          "shares": "192",
+          "wealth": "21273.92275090125",
+          "avg_cost": "103.44479166666666",
+          "dividend_income": "3.1167256398221572",
+          "interest_income": "0.030155174017482092"
+        }
+      ],
+      "final_price": 110.0,
+      "exploratory_valuation_diagnostic": [
+        {
+          "agent_id": "llm_012",
+          "market_wealth": 21016.065912213307,
+          "benchmark_wealth": 20316.065912213307,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 5.080329561066543,
+          "benchmark_valued_return_pct": 1.580329561066529
+        },
+        {
+          "agent_id": "llm_013",
+          "market_wealth": 21273.92275090125,
+          "benchmark_wealth": 19353.92275090125,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 6.369613754506243,
+          "benchmark_valued_return_pct": -3.230386245493755
+        }
+      ],
+      "executions_accounts_and_prompt_memory_verified": true,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 0,
+      "usage": {
+        "requests_made": 8,
+        "max_requests": 12,
+        "reserved_tokens": 46175,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 10398,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 704,
+      "condition": "C",
+      "run_id": "20261102_050605_qwen_c_s704_068eb41c",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "f8c8daecbaa1cb2b40988cccfadf01b5b1838657bc1cdb4422f1abff76f6130e",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+          "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+          "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "qwen-3.8-27b",
+            "condition": "C",
+            "temperature": 0.3,
+            "reflect_every": 2,
+            "memory_window": 2,
+            "max_tokens": 2048,
+            "timeout_seconds": 180.0,
+            "reasoning_effort": "low",
+            "send_temperature": true,
+            "input_usd_per_million": 0.0,
+            "output_usd_per_million": 0.0
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "repaired_decisions": 0,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 0,
+        "hold": 4
+      },
+      "requested_quantity_reductions": 3,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [
+        {
+          "agent_id": "llm_013",
+          "round": 2,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 80,
+            "limit_price": null,
+            "round": 2,
+            "reasoning": "Momentum is clearly up with a 0.5% lift last session, and I trust this trend continuing\u2014I'll deploy most of my idle cash into KGP now.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 69,
+            "limit_price": null,
+            "round": 2,
+            "reasoning": "Momentum is clearly up with a 0.5% lift last session, and I trust this trend continuing\u2014I'll deploy most of my idle cash into KGP now.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 3,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 53,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Uptrend intact at 105.9 and my reads have paid twice \u2014 deploying nearly all remaining cash into KGP to press the momentum while it's running.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 44,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Uptrend intact at 105.9 and my reads have paid twice \u2014 deploying nearly all remaining cash into KGP to press the momentum while it's running.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 4,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 29,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Third straight up session with a 3.9% jump to 110 \u2014 momentum is accelerating and my calls keep paying, so I'm deploying my remaining cash into more shares while the trend runs.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 24,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Third straight up session with a 3.9% jump to 110 \u2014 momentum is accelerating and my calls keep paying, so I'm deploying my remaining cash into more shares while the trend runs.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        }
+      ],
+      "executed_llm_quantity": 88,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10015.837630238308",
+          "shares": "100",
+          "wealth": "21985.837630238308",
+          "avg_cost": "100.0",
+          "dividend_income": "1.6232946040740401",
+          "interest_income": "2.0024423786511165"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "361.13979071164897",
+          "shares": "188",
+          "wealth": "22864.73979071165",
+          "avg_cost": "104.54361702127656",
+          "dividend_income": "3.0517938556591955",
+          "interest_income": "0.07160327871545487"
+        }
+      ],
+      "final_price": 119.7,
+      "exploratory_valuation_diagnostic": [
+        {
+          "agent_id": "llm_012",
+          "market_wealth": 21985.837630238308,
+          "benchmark_wealth": 20015.837630238308,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 9.929188151191548,
+          "benchmark_valued_return_pct": 0.07918815119154488
+        },
+        {
+          "agent_id": "llm_013",
+          "market_wealth": 22864.73979071165,
+          "benchmark_wealth": 19161.139790711648,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 14.32369895355825,
+          "benchmark_valued_return_pct": -4.194301046441762
+        }
+      ],
+      "executions_accounts_and_prompt_memory_verified": true,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 2,
+      "usage": {
+        "requests_made": 10,
+        "max_requests": 12,
+        "reserved_tokens": 59709,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 13477,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 905,
+      "condition": "C",
+      "run_id": "20261102_050746_qwen_c_s905_d4c0a05d",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "6f29736cfc19cb4301e9bc4f7e8aa8d602dde5758c5e451110fbb2f469d07104",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+          "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+          "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "qwen-3.8-27b",
+            "condition": "C",
+            "temperature": 0.3,
+            "reflect_every": 2,
+            "memory_window": 2,
+            "max_tokens": 2048,
+            "timeout_seconds": 180.0,
+            "reasoning_effort": "low",
+            "send_temperature": true,
+            "input_usd_per_million": 0.0,
+            "output_usd_per_million": 0.0
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "repaired_decisions": 1,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 0,
+        "hold": 4
+      },
+      "requested_quantity_reductions": 0,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [],
+      "executed_llm_quantity": 46,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10016.425796255608",
+          "shares": "100",
+          "wealth": "20546.425796255608",
+          "avg_cost": "100.0",
+          "dividend_income": "1.9018693198362226",
+          "interest_income": "2.0025042845302483"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "5247.874110287203",
+          "shares": "146",
+          "wealth": "20621.674110287204",
+          "avg_cost": "101.15479452054795",
+          "dividend_income": "2.776729206960885",
+          "interest_income": "1.0488097142731936"
+        }
+      ],
+      "final_price": 105.3,
+      "exploratory_valuation_diagnostic": [
+        {
+          "agent_id": "llm_012",
+          "market_wealth": 20546.425796255608,
+          "benchmark_wealth": 20016.425796255608,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 2.732128981278037,
+          "benchmark_valued_return_pct": 0.08212898127804014
+        },
+        {
+          "agent_id": "llm_013",
+          "market_wealth": 20621.674110287204,
+          "benchmark_wealth": 19847.8741102872,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 3.108370551436024,
+          "benchmark_valued_return_pct": -0.7606294485639986
+        }
+      ],
+      "executions_accounts_and_prompt_memory_verified": true,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 2,
+      "usage": {
+        "requests_made": 11,
+        "max_requests": 12,
+        "reserved_tokens": 66157,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 14377,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 905,
+      "condition": "B",
+      "run_id": "20261102_050952_qwen_b_s905_895d7aa5",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "b7f62057368bf10debc7f440e09bb684f297f3d7e9f4cea3d4157c55438a06eb",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+          "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+          "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "qwen-3.8-27b",
+            "condition": "B",
+            "temperature": 0.3,
+            "reflect_every": 0,
+            "memory_window": 2,
+            "max_tokens": 2048,
+            "timeout_seconds": 180.0,
+            "reasoning_effort": "low",
+            "send_temperature": true,
+            "input_usd_per_million": 0.0,
+            "output_usd_per_million": 0.0
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "repaired_decisions": 0,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 1,
+        "hold": 3
+      },
+      "requested_quantity_reductions": 3,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [
+        {
+          "agent_id": "llm_013",
+          "round": 2,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 70,
+            "limit_price": null,
+            "round": 2,
+            "reasoning": "Price ticking up 100.0 to 100.5 confirms momentum, and my 60% stock weight with a rising tape says keep adding while cash earns almost nothing.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 66,
+            "limit_price": null,
+            "round": 2,
+            "reasoning": "Price ticking up 100.0 to 100.5 confirms momentum, and my 60% stock weight with a rising tape says keep adding while cash earns almost nothing.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 3,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 54,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Momentum is accelerating \u2014 100 to 100.5 to 103.8 \u2014 and my last add is already up nicely, so I'll deploy most of the remaining cash while the tape is this strong.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 45,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Momentum is accelerating \u2014 100 to 100.5 to 103.8 \u2014 and my last add is already up nicely, so I'll deploy most of the remaining cash while the tape is this strong.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 4,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 7,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Another 9.6% pop on the tape confirms the momentum is still accelerating, so I'll throw nearly all remaining cash at a few more shares while the trend is this strong.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 6,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Another 9.6% pop on the tape confirms the momentum is still accelerating, so I'll throw nearly all remaining cash at a few more shares while the trend is this strong.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        }
+      ],
+      "executed_llm_quantity": 98,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10810.25142540322",
+          "shares": "93",
+          "wealth": "21356.45142540322",
+          "avg_cost": "100.0",
+          "dividend_income": "1.768738467447687",
+          "interest_income": "2.1612642845302483"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "158.92083706130703",
+          "shares": "191",
+          "wealth": "21818.32083706131",
+          "avg_cost": "103.965445026178",
+          "dividend_income": "3.632570400887185",
+          "interest_income": "0.031051443043475277"
+        }
+      ],
+      "final_price": 113.4,
+      "exploratory_valuation_diagnostic": [
+        {
+          "agent_id": "llm_012",
+          "market_wealth": 21356.45142540322,
+          "benchmark_wealth": 20110.25142540322,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 6.7822571270161,
+          "benchmark_valued_return_pct": 0.5512571270161137
+        },
+        {
+          "agent_id": "llm_013",
+          "market_wealth": 21818.32083706131,
+          "benchmark_wealth": 19258.92083706131,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 9.091604185306545,
+          "benchmark_valued_return_pct": -3.7053958146934574
+        }
+      ],
+      "executions_accounts_and_prompt_memory_verified": true,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 0,
+      "usage": {
+        "requests_made": 8,
+        "max_requests": 12,
+        "reserved_tokens": 46707,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 10492,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 905,
+      "condition": "A",
+      "run_id": "20261102_051108_qwen_a_s905_4500d16f",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "f97b4ffab95c6ebbb30ca1184e2498125816f43137e6c2c84d2659a9a004ecdd",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "ab32ddb2f1c76eba041b640c32ce37cef2861987c9f0b19da1c0461014997650",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+          "sim/engine.py": "4ca6a05c29d5f819a2638e8ecab1c99415d33e43c6bb4aa518f974c0506f9504",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "ceb5c9fb97a0fca546205a07520756d7b928d21389166391ee0795a909a6a9b7",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "6325b95fd8e244c2f8146dd8f6e3a9ea1f6bf83f2b75a1d172744966425e0e6c",
+          "sim/provenance.py": "0d9aca580a4e0f7a543ceb5671caf450c5f2bd80eb4f3f8ae0ece025cb661004"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "qwen-3.8-27b",
+            "condition": "A",
+            "temperature": 0.3,
+            "reflect_every": 0,
+            "memory_window": 2,
+            "max_tokens": 2048,
+            "timeout_seconds": 180.0,
+            "reasoning_effort": "low",
+            "send_temperature": true,
+            "input_usd_per_million": 0.0,
+            "output_usd_per_million": 0.0
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "repaired_decisions": 0,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 1,
+        "hold": 3
+      },
+      "requested_quantity_reductions": 3,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [
+        {
+          "agent_id": "llm_013",
+          "round": 1,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 100,
+            "limit_price": 100.5,
+            "round": 1,
+            "reasoning": "Only one print to work with, but the stock opened flat with a dividend ticking\u2014I'm reading this as a base before a move and I want to load up while it's cheap.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 99,
+            "limit_price": 100.5,
+            "round": 1,
+            "reasoning": "Only one print to work with, but the stock opened flat with a dividend ticking\u2014I'm reading this as a base before a move and I want to load up while it's cheap.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 3,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 85,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Three straight up prints and I got left on the bid last round\u2014momentum is screaming, so I'm lifting the offer with a market order to actually get filled before this runs further.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 71,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "Three straight up prints and I got left on the bid last round\u2014momentum is screaming, so I'm lifting the offer with a market order to actually get filled before this runs further.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 4,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 36,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Four straight up prints with the last jump being the biggest \u2014 momentum is accelerating, so I'm putting my remaining cash to work with a market order.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 30,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "Four straight up prints with the last jump being the biggest \u2014 momentum is accelerating, so I'm putting my remaining cash to work with a market order.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        }
+      ],
+      "executed_llm_quantity": 114,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "13531.939296766459",
+          "shares": "69",
+          "wealth": "21356.53929676646",
+          "avg_cost": "100.0",
+          "dividend_income": "1.3122898306869937",
+          "interest_income": "2.7055842845302482"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "729.1326520975992",
+          "shares": "183",
+          "wealth": "21481.3326520976",
+          "avg_cost": "105.39398907103825",
+          "dividend_income": "3.480420855300287",
+          "interest_income": "0.14510142596326714"
+        }
+      ],
+      "final_price": 113.4,
+      "exploratory_valuation_diagnostic": [
+        {
+          "agent_id": "llm_012",
+          "market_wealth": 21356.53929676646,
+          "benchmark_wealth": 20431.93929676646,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 6.782696483832296,
+          "benchmark_valued_return_pct": 2.1596964838322963
+        },
+        {
+          "agent_id": "llm_013",
+          "market_wealth": 21481.3326520976,
+          "benchmark_wealth": 19029.1326520976,
+          "regime_benchmark": 100.0,
+          "market_return_pct": 7.406663260488,
+          "benchmark_valued_return_pct": -4.854336739512
+        }
+      ],
+      "executions_accounts_and_prompt_memory_verified": true,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 0,
+      "usage": {
+        "requests_made": 8,
+        "max_requests": 12,
+        "reserved_tokens": 42466,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 8637,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    }
+  ],
+  "matched_checks": [
+    {
+      "seed": 704,
+      "initial_accounts_equal": true,
+      "personas_equal": true,
+      "dividends_equal": true
+    },
+    {
+      "seed": 905,
+      "initial_accounts_equal": true,
+      "personas_equal": true,
+      "dividends_equal": true
+    }
+  ],
+  "before_reflection_BC": [
+    {
+      "seed": 704,
+      "round": 1,
+      "agent_id": "llm_012",
+      "identical_inputs": true,
+      "B_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      }
+    },
+    {
+      "seed": 704,
+      "round": 1,
+      "agent_id": "llm_013",
+      "identical_inputs": true,
+      "B_order": {
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": null
+      }
+    },
+    {
+      "seed": 704,
+      "round": 2,
+      "agent_id": "llm_012",
+      "identical_inputs": false,
+      "B_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      }
+    },
+    {
+      "seed": 704,
+      "round": 2,
+      "agent_id": "llm_013",
+      "identical_inputs": false,
+      "B_order": {
+        "side": "buy",
+        "quantity": 60,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "buy",
+        "quantity": 80,
+        "limit_price": null
+      }
+    },
+    {
+      "seed": 905,
+      "round": 1,
+      "agent_id": "llm_012",
+      "identical_inputs": true,
+      "B_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      }
+    },
+    {
+      "seed": 905,
+      "round": 1,
+      "agent_id": "llm_013",
+      "identical_inputs": true,
+      "B_order": {
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 100.5
+      }
+    },
+    {
+      "seed": 905,
+      "round": 2,
+      "agent_id": "llm_012",
+      "identical_inputs": false,
+      "B_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null
+      }
+    },
+    {
+      "seed": 905,
+      "round": 2,
+      "agent_id": "llm_013",
+      "identical_inputs": false,
+      "B_order": {
+        "side": "buy",
+        "quantity": 70,
+        "limit_price": null
+      },
+      "C_order": {
+        "side": "buy",
+        "quantity": 80,
+        "limit_price": 101.0
+      }
+    }
+  ],
+  "usage_totals": {
+    "requests_made": 71,
+    "provider_reported_tokens": 76839,
+    "reserved_tokens": 371420,
+    "reserved_cost_usd": 0.0,
+    "observed_cost_estimate_usd": 0.0,
+    "failed_requests": 0,
+    "unknown_usage_requests": 0,
+    "blocked_requests": 0
+  },
+  "returned_models": [
+    "qwen-3.8-27b"
+  ],
+  "reported_reasoning_tokens": 8095,
+  "reasoning_usage_reported_calls": 69,
+  "sampling_note": "Requested temperature 0.3 decisions/probes, 0 reflections; low effort, 2048 output cap; no provider seed/RNG control.",
+  "valuation_note": "Post-hoc descriptive diagnostic: last-price marking versus stationary-regime benchmark marking. Neither is a realized liquidation return or human-welfare metric. No performance ranking from two four-round scenarios.",
+  "market_source_identical": true,
+  "finish_reasons": {
+    "stop": 71
+  },
+  "billing_note": "Zero incremental student token price; not a measured invoice or remaining daily allowance. Use tokens/requests for overhead comparisons.",
+  "model_status": "BharatCode Qwen student diagnostic; not a comparison with Gemini/Lite.",
+  "usage_totals_scope": "Qwen probes and completed matched micro-markets only."
+}

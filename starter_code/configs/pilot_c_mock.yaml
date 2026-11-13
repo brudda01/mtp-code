@@ -1,0 +1,28 @@
+name: pilot_c_mock
+seed: 42
+rounds: 30
+llm_limits: {max_requests: 400, max_reserved_tokens: 4000000, max_cost_usd: 0}
+time: {round_unit: trading_session, periods_per_year: 252}
+market: {mechanism: call_auction, tick: 0.1, price_band: 0.2, transaction_tax: 0.0}
+asset:
+  model: iid_permanent
+  ticker: KGP
+  initial_price: 100
+  risk_free: 0.0002
+  dividend: {mean: 0.02, relative_noise: 0.2}
+# Pipeline demo with hidden value. This differs from the rule-only diagnostic
+# and is not configured as its controlled research comparison.
+reveal_fundamental: false
+news: []
+observation: {price_history_len: 20}
+execution: {max_workers: 8}
+agents:
+  - type: market_maker
+    count: 1
+    cash: 30000
+    shares: 150
+    params: {spread: 0.005, inventory_limit: 300, inventory_target: 150, inventory_skew: 0.02, quote_size: 10}
+  - {type: zero_intelligence, count: 4, cash: 10000, shares: 100}
+  - {type: fundamentalist, count: 3, cash: 10000, shares: 100, params: {delta: 0.03, aggressiveness: 0.5}}
+  - {type: momentum, count: 4, cash: 10000, shares: 100, params: {window: 5, aggressiveness: 0.5}}
+  - {type: llm, count: 8, cash: 10000, shares: 100, llm: {provider: mock, model: mock, temperature: 0.7, condition: C, memory_window: 5, reflect_every: 5, max_tokens: 300}}

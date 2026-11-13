@@ -1,0 +1,87 @@
+[
+  {
+    "frame_id": "s2882_llm_013",
+    "repetition": 1,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "**Observations:** Price dipped to 99.5 in R1, recovered to 100 and flatlined for four rounds. My R3\u2013R4 buys filled at 100 (160 shares total, avg cost 100). My R5 order at limit 100.3 filled nothing \u2014 no momentum confirmation yet. Cash sits at ~$4,020. No news. **Beliefs:** I called this momentum shifting up after the dip was bought; so far it's just sideways. I'm underweight confidence \u2014 the tape hasn't agreed with me yet, but four flat holds at 100 still looks like accumulation to me. **Plan:** Don't force size until price breaks 100 with conviction. If it stalls, my conviction wavers fast \u2014 watch the next round closely.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "**Observations:** Breakout to 100.6 filled me at 100.6 (round 7\u20138); I went all-in \u2014 200 shares, avg 100.11, cash $16. Then price fell to 98.6 and 98.1. Wealth down ~$480 over two rounds. No news. **Beliefs:** I called the 98.6 tick a shakeout \u2014 wrong so far. Momentum shifted down, not up. I overcommitted on a breakout that stalled instantly; my size, not my read of the dip, is the real error. I still think supply is thin, but I can't defend averaging in with $16. **Plan:** No cash to act. Hold and watch 98 \u2014 if it breaks, I'm riding 200 shares down without a hedge.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "inherited": true
+  },
+  {
+    "frame_id": "s1441_llm_013",
+    "repetition": 2,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "Observations: Price rose 100.0\u2192100.5\u2192101.1\u2192108.0\u2192108.7, then 108.3. My 101 limit missed; market buys filled 29, 38, and 21 shares. I hold 188 shares at avg cost 103.92, cash $481.92; round-5 wealth fell $63.37. Beliefs: Momentum justified my adds, but 108.7\u2192108.3 is a pause, not yet a reversal. I have little cash left to press. Plan: Hold 188 shares; I won\u2019t force a sale on one soft print. Watch the next price action\u2014stay exposed if momentum resumes, reassess if it breaks. No new order now.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "Observations: Price moved 108.3\u2192109.1\u2192108.8\u2192109.6\u2192109.3. I bought 3 shares at 108.3 and 1 at 108.8, then held twice. I now hold 192 shares at avg cost 104.01, cash $67.71, wealth $21,053.31; round 10 wealth fell $53.76. Beliefs: The uptrend survives but is choppy; 109.6 was a new high, while 109.3 is a soft print. My cash is too small for meaningful adds. Plan: Hold 192 shares and place no new order. Reassess only on a clear momentum break.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "frame_id": "s2882_llm_012",
+    "repetition": 2,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "**Observations:** Over five rounds the price sat at/near my 100.0 cost basis; I held 100 shares throughout, collecting dividends and interest. Round 1 showed a \u221245.85 wealth dip; subsequent rounds were modestly positive. No news or fundamentals have changed. **Beliefs:** My holding reflects loss aversion\u2014selling below basis feels painful, and I've framed \"no compelling signal\" as justification. I should test whether that's genuine long-horizon conviction or reluctance to realize a small loss. Dividends roughly offset cash interest, so carry isn't clearly superior. **Plan:** Continue holding, but pre-commit to a fundamental trigger (e.g., deteriorating fundamentals or a meaningful premium to fair value) for adding or trimming, rather than anchoring on cost basis.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "**Observations:** Rounds 6\u20138 held steady near 100.6 with small gains; rounds 9\u201310 dropped to 98.6 then 98.1, cutting wealth ~196 and ~46. I still hold 100 shares at 100.0 basis. No news, no fills, no fundamental change. **Beliefs:** In round 10 I explicitly said I \"cannot bring myself\" to sell below basis \u2014 that is loss aversion speaking, not analysis. Yet my earlier plan to pre-commit to fundamental triggers remains sound: nothing deteriorated, so holding is defensible, but I should notice that I've never once defined \"fair value.\" **Plan:** Hold, but quantify fair value now so my trigger isn't just cost-basis anchoring.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,536 @@
+[
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 1,
+    "condition": "B",
+    "outcome": {
+      "round": 1,
+      "price": 100.5,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "With only one price point and no clear fundamental catalyst, I have no compelling reason to buy more or sell. My 50% stock weight feels balanced, and selling at cost would give me no gain\u2014I'll stay patient and wait for better information.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "With only one price point and no clear fundamental catalyst, I have no compelling reason to buy more or sell. My 50% stock weight feels balanced, and selling at cost would give me no gain\u2014I'll stay patient and wait for better information.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10003.789501691823,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 20053.789501691823,
+      "dividend_income": 1.789501691822461,
+      "interest_income": 2.0,
+      "wealth_change": 53.78950169182281,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 1,
+    "condition": "B",
+    "outcome": {
+      "round": 1,
+      "price": 100.5,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "Only one price point so far, no momentum to read yet \u2014 I'll wait for the next auction to see which direction the stock is moving before adding to my position.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "Only one price point so far, no momentum to read yet \u2014 I'll wait for the next auction to see which direction the stock is moving before adding to my position.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10003.789501691823,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 20053.789501691823,
+      "dividend_income": 1.789501691822461,
+      "interest_income": 2.0,
+      "wealth_change": 53.78950169182281,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 2,
+    "condition": "B",
+    "outcome": {
+      "round": 2,
+      "price": 103.0,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "My 100 shares are already showing a small unrealized gain and my 50/50 stock-cash split suits my conservative style. With only a modest dividend yield and no strong fundamental news, I'll stay patient and keep my position unchanged.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "My 100 shares are already showing a small unrealized gain and my 50/50 stock-cash split suits my conservative style. With only a modest dividend yield and no strong fundamental news, I'll stay patient and keep my position unchanged.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10007.82178026482,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 20307.82178026482,
+      "dividend_income": 2.0315206726586004,
+      "interest_income": 2.000757900338365,
+      "wealth_change": 254.03227857299862,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 2,
+    "condition": "B",
+    "outcome": {
+      "round": 2,
+      "price": 103.0,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 99,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "Price moved up 0.5% on the first tick \u2014 momentum is confirming to the upside, so I'm deploying nearly all cash into more shares before the move runs ahead of me.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 82,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "Price moved up 0.5% on the first tick \u2014 momentum is confirming to the upside, so I'm deploying nearly all cash into more shares before the move runs ahead of me.",
+        "validation_note": "quantity_reduced_to_resources"
+      },
+      "executed_buy_quantity": 37,
+      "executed_sell_quantity": 0,
+      "fills": [
+        {
+          "side": "buy",
+          "quantity": 10,
+          "price": 103.0
+        },
+        {
+          "side": "buy",
+          "quantity": 5,
+          "price": 103.0
+        },
+        {
+          "side": "buy",
+          "quantity": 5,
+          "price": 103.0
+        },
+        {
+          "side": "buy",
+          "quantity": 5,
+          "price": 103.0
+        },
+        {
+          "side": "buy",
+          "quantity": 10,
+          "price": 103.0
+        },
+        {
+          "side": "buy",
+          "quantity": 2,
+          "price": 103.0
+        }
+      ],
+      "cash": 6196.811242913704,
+      "shares": 137,
+      "avg_cost": 100.81021897810218,
+      "wealth": 20307.811242913704,
+      "dividend_income": 2.7831833215422828,
+      "interest_income": 1.2385579003383647,
+      "wealth_change": 254.0217412218808,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 3,
+    "condition": "B",
+    "outcome": {
+      "round": 3,
+      "price": 103.7,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 3,
+        "reasoning": "The price has already risen 3% in two rounds and my position shows a solid unrealized gain, but with no new fundamental news I don't want to chase the rally or sell early. My 50/50 stock-cash split remains comfortable, so I'll stay patient.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 3,
+        "reasoning": "The price has already risen 3% in two rounds and my position shows a solid unrealized gain, but with no new fundamental news I don't want to chase the rally or sell early. My 50/50 stock-cash split remains comfortable, so I'll stay patient.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10011.437582970833,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 20381.437582970833,
+      "dividend_income": 1.6142383499601884,
+      "interest_income": 2.001564356052964,
+      "wealth_change": 73.61580270601189,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 3,
+    "condition": "B",
+    "outcome": {
+      "round": 3,
+      "price": 103.7,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": null,
+        "round": 3,
+        "reasoning": "Momentum is clearly up \u2014 100 to 100.5 to 103 \u2014 and my last order only partially filled, so I'm deploying most of the remaining cash to keep riding this move.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": null,
+        "round": 3,
+        "reasoning": "Momentum is clearly up \u2014 100 to 100.5 to 103 \u2014 and my last order only partially filled, so I'm deploying most of the remaining cash to keep riding this move.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 24,
+      "executed_sell_quantity": 0,
+      "fills": [
+        {
+          "side": "buy",
+          "quantity": 6,
+          "price": 103.7
+        },
+        {
+          "side": "buy",
+          "quantity": 8,
+          "price": 103.7
+        },
+        {
+          "side": "buy",
+          "quantity": 10,
+          "price": 103.7
+        }
+      ],
+      "cash": 3711.351768905722,
+      "shares": 161,
+      "avg_cost": 101.24099378881988,
+      "wealth": 20407.051768905723,
+      "dividend_income": 2.598923743435903,
+      "interest_income": 0.7416022485827407,
+      "wealth_change": 99.24052599201968,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 4,
+    "condition": "B",
+    "outcome": {
+      "round": 4,
+      "price": 103.3,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "sell",
+        "quantity": 30,
+        "limit_price": 103.0,
+        "round": 4,
+        "reasoning": "The price has climbed about 3.7% in three rounds without any fundamental news, so I want to lock in part of my unrealized gain while it's above my cost. Selling 30 shares trims my exposure to a more comfortable level and still leaves me with a solid 70-share long-term position.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "sell",
+        "quantity": 30,
+        "limit_price": 103.0,
+        "round": 4,
+        "reasoning": "The price has climbed about 3.7% in three rounds without any fundamental news, so I want to lock in part of my unrealized gain while it's above my cost. Selling 30 shares trims my exposure to a more comfortable level and still leaves me with a solid 70-share long-term position.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 14,
+      "fills": [
+        {
+          "side": "sell",
+          "quantity": 4,
+          "price": 103.3
+        },
+        {
+          "side": "sell",
+          "quantity": 10,
+          "price": 103.3
+        }
+      ],
+      "cash": 11461.796109009656,
+      "shares": 86,
+      "avg_cost": 100.0,
+      "wealth": 20345.596109009653,
+      "dividend_income": 1.866998522227296,
+      "interest_income": 2.291527516594167,
+      "wealth_change": -35.84147396117987,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 4,
+    "condition": "B",
+    "outcome": {
+      "round": 4,
+      "price": 103.3,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 35,
+        "limit_price": null,
+        "round": 4,
+        "reasoning": "Four straight up closes and momentum is still firmly in my favor \u2014 I'll deploy most of the remaining cash to keep riding the move.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 29,
+        "limit_price": null,
+        "round": 4,
+        "reasoning": "Four straight up closes and momentum is still firmly in my favor \u2014 I'll deploy most of the remaining cash to keep riding the move.",
+        "validation_note": "quantity_reduced_to_resources"
+      },
+      "executed_buy_quantity": 29,
+      "executed_sell_quantity": 0,
+      "fills": [
+        {
+          "side": "buy",
+          "quantity": 11,
+          "price": 103.3
+        },
+        {
+          "side": "buy",
+          "quantity": 11,
+          "price": 103.3
+        },
+        {
+          "side": "buy",
+          "quantity": 7,
+          "price": 103.3
+        }
+      ],
+      "cash": 719.9196634365172,
+      "shares": 190,
+      "avg_cost": 101.55526315789474,
+      "wealth": 20346.919663436518,
+      "dividend_income": 4.124764177013794,
+      "interest_income": 0.14313035378114447,
+      "wealth_change": -60.13210546920527,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 5,
+    "condition": "B",
+    "outcome": {
+      "round": 5,
+      "price": 104.0,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 5,
+        "reasoning": "Price eased slightly to 103.3 with no new fundamental news, and my 56% cash / 44% stock split already feels comfortable after last round's partial sale. I'll stay patient and keep my remaining 86-share long-term position unchanged.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 5,
+        "reasoning": "Price eased slightly to 103.3 with no new fundamental news, and my 56% cash / 44% stock split already feels comfortable after last round's partial sale. I'll stay patient and keep my remaining 86-share long-term position unchanged.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 11465.984620032013,
+      "shares": 86,
+      "avg_cost": 100.0,
+      "wealth": 20409.984620032013,
+      "dividend_income": 1.896151800556183,
+      "interest_income": 2.2923592218019313,
+      "wealth_change": 64.38851102236003,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 5,
+    "condition": "B",
+    "outcome": {
+      "round": 5,
+      "price": 104.0,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 6,
+        "limit_price": 103.6,
+        "round": 5,
+        "reasoning": "Tiny 0.4% dip after a strong run is just a breather \u2014 momentum still up 3.3% over four rounds, so I'll deploy most of my remaining cash on this pullback.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "buy",
+        "quantity": 6,
+        "limit_price": 103.6,
+        "round": 5,
+        "reasoning": "Tiny 0.4% dip after a strong run is just a breather \u2014 momentum still up 3.3% over four rounds, so I'll deploy most of my remaining cash on this pullback.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 724.2528199518287,
+      "shares": 190,
+      "avg_cost": 101.55526315789474,
+      "wealth": 20484.252819951827,
+      "dividend_income": 4.189172582624125,
+      "interest_income": 0.14398393268730345,
+      "wealth_change": 137.33315651530938,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  }
+]

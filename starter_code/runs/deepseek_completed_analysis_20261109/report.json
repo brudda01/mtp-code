@@ -1,0 +1,1116 @@
+{
+  "stage": "R058 completed DeepSeek two-seed cohort",
+  "completed_market_scenarios": 2,
+  "reports": [
+    {
+      "seed": 30841,
+      "root": "runs/goedel_cohort_20261108",
+      "summary": {
+        "status": "completed",
+        "run_path": "market/20261108_161359_goedel_6LLM_B_cap10_s30841_c838033f",
+        "completed_rounds": 25,
+        "planned_rounds": 25,
+        "delivered_decisions": 150,
+        "planned_decisions": 150,
+        "missing_decisions": 0,
+        "usage": {
+          "requests_made": 150,
+          "max_requests": 180,
+          "reserved_tokens": 1607502,
+          "max_reserved_tokens": 3000000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 369984,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 0,
+          "failed_requests": 0,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 0,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": false,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "failure_type": null,
+        "no_resume": true,
+        "finished_utc": "2026-11-08T11:07:32.682044+00:00"
+      },
+      "metrics": {
+        "rounds": 25,
+        "price_return_sd_pct": 2.1410603736168836,
+        "mean_gap_pct": 16.06,
+        "max_drawdown_pct": 7.277187244480777,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 66,
+        "maker_max": 191,
+        "volume": 557,
+        "terminal_price": 113.4,
+        "target_union_volume": 336,
+        "zero_volume_rounds": 0,
+        "mean_price": 116.06,
+        "mean_log_return_pct": 0.5030048212222411,
+        "volume_per_round": 22.28
+      },
+      "audit": {
+        "status": "passed",
+        "account_rounds": 350,
+        "max_individual_cash_error": 7.275957614183426e-12,
+        "rounds": 25
+      },
+      "own_history_messages_checked": 150,
+      "complete_actual_input_pairs_checked": 150,
+      "per_persona": [
+        {
+          "agent_id": "llm_008",
+          "name": "Meera Iyer",
+          "requested_actions": {
+            "hold": 25
+          },
+          "accepted_actions": {
+            "hold": 25
+          },
+          "bought": 0,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_008",
+            "type": "CappedAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10101.149486464268,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 21441.149486464274,
+                "passive_wealth": 21441.149486464266,
+                "active_minus_passive": 7.275957614183426e-12,
+                "active_return": 0.07205747432321363,
+                "passive_return": 0.07205747432321341,
+                "excess_return": 3.637978807091713e-16
+              },
+              "regime_benchmark": {
+                "active_wealth": 20101.149486464274,
+                "passive_wealth": 20101.149486464266,
+                "active_minus_passive": 7.275957614183426e-12,
+                "active_return": 0.005057474323213684,
+                "passive_return": 0.00505747432321324,
+                "excess_return": 3.637978807091713e-16
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_008",
+            "type": "CappedAgent",
+            "cash": "10101.149486464272",
+            "shares": "100",
+            "wealth": "21441.149486464274",
+            "avg_cost": "100.0",
+            "dividend_income": "2.3241227508687676",
+            "interest_income": "2.0193612005025803"
+          },
+          "same_action_transitions": 24,
+          "dominant_action_fraction": 1.0
+        },
+        {
+          "agent_id": "llm_009",
+          "name": "Arjun Malhotra",
+          "requested_actions": {
+            "buy": 13,
+            "hold": 5,
+            "sell": 7
+          },
+          "accepted_actions": {
+            "buy": 12,
+            "hold": 6,
+            "sell": 7
+          },
+          "bought": 87,
+          "sold": 70,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_009",
+            "type": "CappedAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10101.149486464268,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 21470.18005857723,
+                "passive_wealth": 21441.149486464266,
+                "active_minus_passive": 29.030572112962545,
+                "active_return": 0.07350900292886142,
+                "passive_return": 0.07205747432321341,
+                "excess_return": 0.0014515286056481272
+              },
+              "regime_benchmark": {
+                "active_wealth": 19902.380058577226,
+                "passive_wealth": 20101.149486464266,
+                "active_minus_passive": -198.76942788704037,
+                "active_return": -0.0048809970711386486,
+                "passive_return": 0.00505747432321324,
+                "excess_return": -0.009938471394352019
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_009",
+            "type": "CappedAgent",
+            "cash": "8202.380058577228",
+            "shares": "117",
+            "wealth": "21470.18005857723",
+            "avg_cost": "106.90213903743316",
+            "dividend_income": "2.719223618516458",
+            "interest_income": "1.639604246142514"
+          },
+          "same_action_transitions": 22,
+          "dominant_action_fraction": 0.52
+        },
+        {
+          "agent_id": "llm_010",
+          "name": "Prakash Rao",
+          "requested_actions": {
+            "hold": 6,
+            "sell": 19
+          },
+          "accepted_actions": {
+            "hold": 6,
+            "sell": 19
+          },
+          "bought": 0,
+          "sold": 51,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_010",
+            "type": "CappedAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10101.149486464268,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 21799.791675294575,
+                "passive_wealth": 21441.149486464266,
+                "active_minus_passive": 358.64218883030844,
+                "active_return": 0.08998958376472865,
+                "passive_return": 0.07205747432321341,
+                "excess_return": 0.017932109441515423
+              },
+              "regime_benchmark": {
+                "active_wealth": 21143.191675294576,
+                "passive_wealth": 20101.149486464266,
+                "active_minus_passive": 1042.04218883031,
+                "active_return": 0.05715958376472874,
+                "passive_return": 0.00505747432321324,
+                "excess_return": 0.05210210944151549
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_010",
+            "type": "CappedAgent",
+            "cash": "16243.191675294574",
+            "shares": "49",
+            "wealth": "21799.791675294575",
+            "avg_cost": "100.0",
+            "dividend_income": "1.138820147925696",
+            "interest_income": "3.247761018825565"
+          },
+          "same_action_transitions": 23,
+          "dominant_action_fraction": 0.76
+        },
+        {
+          "agent_id": "llm_011",
+          "name": "Sana Sheikh",
+          "requested_actions": {
+            "buy": 25
+          },
+          "accepted_actions": {
+            "buy": 25
+          },
+          "bought": 63,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_011",
+            "type": "CappedAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10101.149486464268,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 21246.831246686583,
+                "passive_wealth": 21441.149486464266,
+                "active_minus_passive": -194.31823977768363,
+                "active_return": 0.06234156233432908,
+                "passive_return": 0.07205747432321341,
+                "excess_return": -0.009715911988884182
+              },
+              "regime_benchmark": {
+                "active_wealth": 19062.63124668658,
+                "passive_wealth": 20101.149486464266,
+                "active_minus_passive": -1038.518239777688,
+                "active_return": -0.04686843766567106,
+                "passive_return": 0.00505747432321324,
+                "excess_return": -0.0519259119888844
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_011",
+            "type": "CappedAgent",
+            "cash": "2762.63124668658",
+            "shares": "163",
+            "wealth": "21246.831246686583",
+            "avg_cost": "106.36196319018404",
+            "dividend_income": "3.788320083916091",
+            "interest_income": "0.5516582536697989"
+          },
+          "same_action_transitions": 24,
+          "dominant_action_fraction": 1.0
+        },
+        {
+          "agent_id": "llm_012",
+          "name": "Vikram Bose",
+          "requested_actions": {
+            "buy": 12,
+            "hold": 13
+          },
+          "accepted_actions": {
+            "buy": 11,
+            "hold": 14
+          },
+          "bought": 87,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_012",
+            "type": "CappedAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10101.149486464268,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 21332.707128890845,
+                "passive_wealth": 21441.149486464266,
+                "active_minus_passive": -108.44235757342176,
+                "active_return": 0.06663535644454233,
+                "passive_return": 0.07205747432321341,
+                "excess_return": -0.005422117878671088
+              },
+              "regime_benchmark": {
+                "active_wealth": 18826.907128890845,
+                "passive_wealth": 20101.149486464266,
+                "active_minus_passive": -1274.242357573421,
+                "active_return": -0.058654643555457686,
+                "passive_return": 0.00505747432321324,
+                "excess_return": -0.06371211787867105
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_012",
+            "type": "CappedAgent",
+            "cash": "126.90712889084381",
+            "shares": "187",
+            "wealth": "21332.707128890845",
+            "avg_cost": "106.79304812834226",
+            "dividend_income": "4.346109544124595",
+            "interest_income": "0.02450730240886207"
+          },
+          "same_action_transitions": 23,
+          "dominant_action_fraction": 0.52
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Lakshmi Nair",
+          "requested_actions": {
+            "buy": 10,
+            "hold": 15
+          },
+          "accepted_actions": {
+            "buy": 10,
+            "hold": 15
+          },
+          "bought": 19,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_013",
+            "type": "CappedAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10101.149486464268,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 21481.263331649337,
+                "passive_wealth": 21441.149486464266,
+                "active_minus_passive": 40.11384518507111,
+                "active_return": 0.07406316658246692,
+                "passive_return": 0.07205747432321341,
+                "excess_return": 0.0020056922592535556
+              },
+              "regime_benchmark": {
+                "active_wealth": 19886.66333164934,
+                "passive_wealth": 20101.149486464266,
+                "active_minus_passive": -214.48615481492743,
+                "active_return": -0.005666833417533046,
+                "passive_return": 0.00505747432321324,
+                "excess_return": -0.010724307740746371
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_013",
+            "type": "CappedAgent",
+            "cash": "7986.663331649338",
+            "shares": "119",
+            "wealth": "21481.263331649337",
+            "avg_cost": "101.79915966386554",
+            "dividend_income": "2.7657060735338335",
+            "interest_income": "1.5964602330685471"
+          },
+          "same_action_transitions": 22,
+          "dominant_action_fraction": 0.6
+        }
+      ],
+      "protocol_sha256": "6306bfa9b7b99e87db5e8658c8b4b8cba90b8974c4dbcab6c7f0464edb6b0c21"
+    },
+    {
+      "seed": 31991,
+      "root": "runs/goedel_seed2_finish25_20261109",
+      "summary": {
+        "status": "completed",
+        "run_path": "market/20261109_163205_goedel_6LLM_B_cap10_s31991_backoff_f8a809b9",
+        "completed_rounds": 25,
+        "planned_rounds": 25,
+        "delivered_decisions": 150,
+        "planned_decisions": 150,
+        "missing_decisions": 0,
+        "usage": {
+          "requests_made": 383,
+          "max_requests": 2000,
+          "reserved_tokens": 4145815,
+          "max_reserved_tokens": 20000000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 361206,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 233,
+          "failed_requests": 233,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 0,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": false,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "failure_type": null,
+        "no_resume": true,
+        "finished_utc": "2026-11-09T11:10:29.914808+00:00"
+      },
+      "metrics": {
+        "rounds": 25,
+        "price_return_sd_pct": 1.1395187341750543,
+        "mean_gap_pct": 8.552,
+        "max_drawdown_pct": 2.7027027027026973,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 89,
+        "maker_max": 158,
+        "volume": 457,
+        "terminal_price": 108.0,
+        "target_union_volume": 294,
+        "zero_volume_rounds": 0,
+        "mean_price": 108.55199999999999,
+        "mean_log_return_pct": 0.30784416454451247,
+        "volume_per_round": 18.28
+      },
+      "audit": {
+        "status": "passed",
+        "account_rounds": 350,
+        "max_individual_cash_error": 3.637978807091713e-12,
+        "rounds": 25
+      },
+      "own_history_messages_checked": 150,
+      "complete_actual_input_pairs_checked": 150,
+      "per_persona": [
+        {
+          "agent_id": "llm_008",
+          "name": "Meera Iyer",
+          "requested_actions": {
+            "hold": 25
+          },
+          "accepted_actions": {
+            "hold": 25
+          },
+          "bought": 0,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_008",
+            "type": "PersistentBackoffAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10099.584289061004,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 20899.584289061015,
+                "passive_wealth": 20899.584289061004,
+                "active_minus_passive": 1.0913936421275139e-11,
+                "active_return": 0.04497921445305075,
+                "passive_return": 0.04497921445305009,
+                "excess_return": 5.456968210637569e-16
+              },
+              "regime_benchmark": {
+                "active_wealth": 20099.584289061015,
+                "passive_wealth": 20099.584289061004,
+                "active_minus_passive": 1.0913936421275139e-11,
+                "active_return": 0.004979214453050718,
+                "passive_return": 0.0049792144530502735,
+                "excess_return": 5.456968210637569e-16
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_008",
+            "type": "PersistentBackoffAgent",
+            "cash": "10099.584289061015",
+            "shares": "100",
+            "wealth": "20899.584289061015",
+            "avg_cost": "100.0",
+            "dividend_income": "1.6650035027992431",
+            "interest_income": "2.0191800211074216"
+          },
+          "same_action_transitions": 24,
+          "dominant_action_fraction": 1.0
+        },
+        {
+          "agent_id": "llm_009",
+          "name": "Arjun Malhotra",
+          "requested_actions": {
+            "buy": 16,
+            "hold": 9
+          },
+          "accepted_actions": {
+            "buy": 12,
+            "hold": 13
+          },
+          "bought": 93,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_009",
+            "type": "PersistentBackoffAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10099.584289061004,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 20952.581621422367,
+                "passive_wealth": 20899.584289061004,
+                "active_minus_passive": 52.99733236136308,
+                "active_return": 0.047629081071118406,
+                "passive_return": 0.04497921445305009,
+                "excess_return": 0.002649866618068154
+              },
+              "regime_benchmark": {
+                "active_wealth": 19408.581621422367,
+                "passive_wealth": 20099.584289061004,
+                "active_minus_passive": -691.0026676386369,
+                "active_return": -0.02957091892888164,
+                "passive_return": 0.0049792144530502735,
+                "excess_return": -0.034550133381931844
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_009",
+            "type": "PersistentBackoffAgent",
+            "cash": "108.58162142236523",
+            "shares": "193",
+            "wealth": "20952.581621422367",
+            "avg_cost": "103.56217616580312",
+            "dividend_income": "3.2134567604025395",
+            "interest_income": "0.021069419048582824"
+          },
+          "same_action_transitions": 22,
+          "dominant_action_fraction": 0.64
+        },
+        {
+          "agent_id": "llm_010",
+          "name": "Prakash Rao",
+          "requested_actions": {
+            "hold": 25
+          },
+          "accepted_actions": {
+            "hold": 25
+          },
+          "bought": 0,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_010",
+            "type": "PersistentBackoffAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10099.584289061004,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 20899.584289061015,
+                "passive_wealth": 20899.584289061004,
+                "active_minus_passive": 1.0913936421275139e-11,
+                "active_return": 0.04497921445305075,
+                "passive_return": 0.04497921445305009,
+                "excess_return": 5.456968210637569e-16
+              },
+              "regime_benchmark": {
+                "active_wealth": 20099.584289061015,
+                "passive_wealth": 20099.584289061004,
+                "active_minus_passive": 1.0913936421275139e-11,
+                "active_return": 0.004979214453050718,
+                "passive_return": 0.0049792144530502735,
+                "excess_return": 5.456968210637569e-16
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_010",
+            "type": "PersistentBackoffAgent",
+            "cash": "10099.584289061015",
+            "shares": "100",
+            "wealth": "20899.584289061015",
+            "avg_cost": "100.0",
+            "dividend_income": "1.6650035027992431",
+            "interest_income": "2.0191800211074216"
+          },
+          "same_action_transitions": 24,
+          "dominant_action_fraction": 1.0
+        },
+        {
+          "agent_id": "llm_011",
+          "name": "Sana Sheikh",
+          "requested_actions": {
+            "buy": 25
+          },
+          "accepted_actions": {
+            "buy": 25
+          },
+          "bought": 33,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_011",
+            "type": "PersistentBackoffAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10099.584289061004,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 20883.698511575953,
+                "passive_wealth": 20899.584289061004,
+                "active_minus_passive": -15.885777485051221,
+                "active_return": 0.04418492557879761,
+                "passive_return": 0.04497921445305009,
+                "excess_return": -0.0007942888742525611
+              },
+              "regime_benchmark": {
+                "active_wealth": 19819.698511575953,
+                "passive_wealth": 20099.584289061004,
+                "active_minus_passive": -279.8857774850512,
+                "active_return": -0.009015074421202418,
+                "passive_return": 0.0049792144530502735,
+                "excess_return": -0.013994288874252562
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_011",
+            "type": "PersistentBackoffAgent",
+            "cash": "6519.698511575954",
+            "shares": "133",
+            "wealth": "20883.698511575953",
+            "avg_cost": "102.09924812030077",
+            "dividend_income": "2.2144546587229934",
+            "interest_income": "1.303236164150616"
+          },
+          "same_action_transitions": 24,
+          "dominant_action_fraction": 1.0
+        },
+        {
+          "agent_id": "llm_012",
+          "name": "Vikram Bose",
+          "requested_actions": {
+            "buy": 12,
+            "hold": 13
+          },
+          "accepted_actions": {
+            "buy": 11,
+            "hold": 14
+          },
+          "bought": 93,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_012",
+            "type": "PersistentBackoffAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10099.584289061004,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 20954.776172862992,
+                "passive_wealth": 20899.584289061004,
+                "active_minus_passive": 55.1918838019883,
+                "active_return": 0.04773880864314961,
+                "passive_return": 0.04497921445305009,
+                "excess_return": 0.0027595941900994147
+              },
+              "regime_benchmark": {
+                "active_wealth": 19410.776172862992,
+                "passive_wealth": 20099.584289061004,
+                "active_minus_passive": -688.8081161980117,
+                "active_return": -0.029461191356850436,
+                "passive_return": 0.0049792144530502735,
+                "excess_return": -0.034440405809900584
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_012",
+            "type": "PersistentBackoffAgent",
+            "cash": "110.77617286299103",
+            "shares": "193",
+            "wealth": "20954.776172862992",
+            "avg_cost": "103.55077720207255",
+            "dividend_income": "3.2134567604025395",
+            "interest_income": "0.021508241572203258"
+          },
+          "same_action_transitions": 23,
+          "dominant_action_fraction": 0.52
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Lakshmi Nair",
+          "requested_actions": {
+            "buy": 25
+          },
+          "accepted_actions": {
+            "buy": 25
+          },
+          "bought": 75,
+          "sold": 0,
+          "cap_adjustments": 0,
+          "account": {
+            "agent_id": "llm_013",
+            "type": "PersistentBackoffAgent",
+            "initial_market_wealth": 20000.0,
+            "passive_cash": 10099.584289061004,
+            "passive_shares": 100,
+            "marks": {
+              "auction": {
+                "active_wealth": 20831.250028172897,
+                "passive_wealth": 20899.584289061004,
+                "active_minus_passive": -68.33426088810666,
+                "active_return": 0.041562501408644925,
+                "passive_return": 0.04497921445305009,
+                "excess_return": -0.0034167130444053328
+              },
+              "regime_benchmark": {
+                "active_wealth": 19431.250028172897,
+                "passive_wealth": 20099.584289061004,
+                "active_minus_passive": -668.3342608881067,
+                "active_return": -0.028437498591355137,
+                "passive_return": 0.0049792144530502735,
+                "excess_return": -0.033416713044405334
+              }
+            }
+          },
+          "terminal_state": {
+            "round": "25",
+            "agent_id": "llm_013",
+            "type": "PersistentBackoffAgent",
+            "cash": "1931.2500281728987",
+            "shares": "175",
+            "wealth": "20831.250028172897",
+            "avg_cost": "103.80914285714289",
+            "dividend_income": "2.9137561298986756",
+            "interest_income": "0.3855901363813238"
+          },
+          "same_action_transitions": 24,
+          "dominant_action_fraction": 1.0
+        }
+      ],
+      "protocol_sha256": "f52947a9a109072c35984c8b8530c04c94ab1b90682fd75cb16f8843f5cdf97a"
+    }
+  ],
+  "means_descriptive_only": {
+    "price_return_sd_pct": 1.640289553895969,
+    "mean_gap_pct": 12.306,
+    "max_drawdown_pct": 4.9899449735917365,
+    "volume": 507
+  },
+  "delivery": {
+    "chain": [
+      {
+        "root": "goedel_seed2_backoff_20261109",
+        "fresh_http_attempts": 38,
+        "fresh_decisions": 27,
+        "known_tokens": 38543,
+        "errors": {
+          "429": 11
+        }
+      },
+      {
+        "root": "goedel_seed2_detached_20261109",
+        "fresh_http_attempts": 37,
+        "fresh_decisions": 8,
+        "known_tokens": 19427,
+        "errors": {
+          "429": 29
+        }
+      },
+      {
+        "root": "goedel_seed2_expbackoff_20261109",
+        "fresh_http_attempts": 239,
+        "fresh_decisions": 69,
+        "known_tokens": 179319,
+        "errors": {
+          "429": 168,
+          "URLError": 1,
+          "502": 1
+        }
+      },
+      {
+        "root": "goedel_seed2_full25_20261109",
+        "fresh_http_attempts": 55,
+        "fresh_decisions": 9,
+        "known_tokens": 23751,
+        "errors": {
+          "429": 46
+        }
+      },
+      {
+        "root": "goedel_seed2_final_20261109",
+        "fresh_http_attempts": 78,
+        "fresh_decisions": 3,
+        "known_tokens": 8082,
+        "errors": {
+          "429": 75
+        }
+      },
+      {
+        "root": "goedel_seed2_finish25_20261109",
+        "fresh_http_attempts": 41,
+        "fresh_decisions": 34,
+        "known_tokens": 92084,
+        "errors": {
+          "429": 7
+        }
+      }
+    ],
+    "prefix_checks": [
+      {
+        "root": "goedel_seed2_detached_20261109",
+        "records": 38,
+        "decisions": 27,
+        "success_sequence_preserved": true
+      },
+      {
+        "root": "goedel_seed2_expbackoff_20261109",
+        "records": 64,
+        "decisions": 35,
+        "success_sequence_preserved": true
+      },
+      {
+        "root": "goedel_seed2_full25_20261109",
+        "records": 296,
+        "decisions": 104,
+        "success_sequence_preserved": true
+      },
+      {
+        "root": "goedel_seed2_final_20261109",
+        "records": 325,
+        "decisions": 113,
+        "success_sequence_preserved": true
+      },
+      {
+        "root": "goedel_seed2_finish25_20261109",
+        "records": 342,
+        "decisions": 116,
+        "success_sequence_preserved": true
+      }
+    ],
+    "actual_archived_http_attempts": 488,
+    "actual_successful_decisions": 150,
+    "known_tokens": 361206,
+    "unknown_usage_attempts": 338,
+    "final_summary_record_count": 383,
+    "terminal_error_records_excluded_from_replay": 105,
+    "exact_retry_groups": 150,
+    "limitation": "Market-wire logs only; external availability probes and any unlogged in-flight request at initial interruption are outside this subtotal. Never sum continuation summary usage."
+  },
+  "qwen_B_context": {
+    "paths": [
+      {
+        "seed": 22853,
+        "repetition": 1,
+        "metrics": {
+          "rounds": 12,
+          "price_return_sd_pct": 3.065709094844889,
+          "mean_gap_pct": 4.000000000000001,
+          "max_drawdown_pct": 9.599999999999998,
+          "maker_boundary_fraction": 0.0,
+          "maker_min": 152,
+          "maker_max": 202,
+          "volume": 309,
+          "terminal_price": 99.5,
+          "target_union_volume": 246,
+          "zero_volume_rounds": 0,
+          "volume_per_round": 25.75
+        },
+        "persistence": {
+          "llm_012": {
+            "actions": {
+              "hold": 7,
+              "buy": 5
+            },
+            "dominant_action_fraction": 0.5833333333333334,
+            "same_action_transitions": 7
+          },
+          "llm_013": {
+            "actions": {
+              "hold": 2,
+              "sell": 6,
+              "buy": 4
+            },
+            "dominant_action_fraction": 0.5,
+            "same_action_transitions": 9
+          }
+        },
+        "run_path": "runs\\20261105_012335_quiet_components_5066abab\\market_runs\\20261105_012903_quiet_components_B_s22853_rep1_430976d5"
+      },
+      {
+        "seed": 22853,
+        "repetition": 2,
+        "metrics": {
+          "rounds": 12,
+          "price_return_sd_pct": 2.7658122389052853,
+          "mean_gap_pct": 4.8916666666666675,
+          "max_drawdown_pct": 10.975609756097548,
+          "maker_boundary_fraction": 0.0,
+          "maker_min": 118,
+          "maker_max": 146,
+          "volume": 255,
+          "terminal_price": 94.9,
+          "target_union_volume": 154,
+          "zero_volume_rounds": 0,
+          "volume_per_round": 21.25
+        },
+        "persistence": {
+          "llm_012": {
+            "actions": {
+              "hold": 11,
+              "buy": 1
+            },
+            "dominant_action_fraction": 0.9166666666666666,
+            "same_action_transitions": 10
+          },
+          "llm_013": {
+            "actions": {
+              "buy": 6,
+              "hold": 5,
+              "sell": 1
+            },
+            "dominant_action_fraction": 0.5,
+            "same_action_transitions": 8
+          }
+        },
+        "run_path": "runs\\20261105_012335_quiet_components_5066abab\\market_runs\\20261105_013927_quiet_components_B_s22853_rep2_c3971b00"
+      },
+      {
+        "seed": 23971,
+        "repetition": 1,
+        "metrics": {
+          "rounds": 12,
+          "price_return_sd_pct": 0.6958361257408283,
+          "mean_gap_pct": 5.441666666666665,
+          "max_drawdown_pct": 0.7469654528478031,
+          "maker_boundary_fraction": 0.0,
+          "maker_min": 98,
+          "maker_max": 147,
+          "volume": 260,
+          "terminal_price": 108.1,
+          "target_union_volume": 96,
+          "zero_volume_rounds": 0,
+          "volume_per_round": 21.666666666666668
+        },
+        "persistence": {
+          "llm_012": {
+            "actions": {
+              "hold": 12
+            },
+            "dominant_action_fraction": 1.0,
+            "same_action_transitions": 11
+          },
+          "llm_013": {
+            "actions": {
+              "hold": 7,
+              "buy": 5
+            },
+            "dominant_action_fraction": 0.5833333333333334,
+            "same_action_transitions": 9
+          }
+        },
+        "run_path": "runs\\20261105_012335_quiet_components_5066abab\\market_runs\\20261105_015223_quiet_components_B_s23971_rep1_4cbf4003"
+      },
+      {
+        "seed": 23971,
+        "repetition": 2,
+        "metrics": {
+          "rounds": 12,
+          "price_return_sd_pct": 0.7486520200172069,
+          "mean_gap_pct": 4.366666666666664,
+          "max_drawdown_pct": 0.8514664143803308,
+          "maker_boundary_fraction": 0.0,
+          "maker_min": 109,
+          "maker_max": 147,
+          "volume": 260,
+          "terminal_price": 106.3,
+          "target_union_volume": 111,
+          "zero_volume_rounds": 0,
+          "volume_per_round": 21.666666666666668
+        },
+        "persistence": {
+          "llm_012": {
+            "actions": {
+              "hold": 11,
+              "sell": 1
+            },
+            "dominant_action_fraction": 0.9166666666666666,
+            "same_action_transitions": 9
+          },
+          "llm_013": {
+            "actions": {
+              "hold": 3,
+              "buy": 9
+            },
+            "dominant_action_fraction": 0.75,
+            "same_action_transitions": 8
+          }
+        },
+        "run_path": "runs\\20261105_012335_quiet_components_5066abab\\market_runs\\20261105_021608_quiet_components_B_s23971_rep2_1f655838"
+      },
+      {
+        "seed": 25087,
+        "repetition": 1,
+        "metrics": {
+          "rounds": 12,
+          "price_return_sd_pct": 3.256478843781521,
+          "mean_gap_pct": 17.866666666666664,
+          "max_drawdown_pct": 4.621513944223111,
+          "maker_boundary_fraction": 0.0,
+          "maker_min": 80,
+          "maker_max": 140,
+          "volume": 352,
+          "terminal_price": 119.7,
+          "target_union_volume": 114,
+          "zero_volume_rounds": 0,
+          "volume_per_round": 29.333333333333332
+        },
+        "persistence": {
+          "llm_012": {
+            "actions": {
+              "hold": 10,
+              "sell": 2
+            },
+            "dominant_action_fraction": 0.8333333333333334,
+            "same_action_transitions": 9
+          },
+          "llm_013": {
+            "actions": {
+              "buy": 7,
+              "hold": 5
+            },
+            "dominant_action_fraction": 0.5833333333333334,
+            "same_action_transitions": 10
+          }
+        },
+        "run_path": "runs\\20261105_012335_quiet_components_5066abab\\market_runs\\20261105_022925_quiet_components_B_s25087_rep1_af34c9b8"
+      },
+      {
+        "seed": 25087,
+        "repetition": 2,
+        "metrics": {
+          "rounds": 12,
+          "price_return_sd_pct": 3.0124179751130744,
+          "mean_gap_pct": 17.741666666666664,
+          "max_drawdown_pct": 1.9920318725099584,
+          "maker_boundary_fraction": 0.0,
+          "maker_min": 69,
+          "maker_max": 140,
+          "volume": 341,
+          "terminal_price": 123.0,
+          "target_union_volume": 85,
+          "zero_volume_rounds": 0,
+          "volume_per_round": 28.416666666666668
+        },
+        "persistence": {
+          "llm_012": {
+            "actions": {
+              "hold": 11,
+              "sell": 1
+            },
+            "dominant_action_fraction": 0.9166666666666666,
+            "same_action_transitions": 9
+          },
+          "llm_013": {
+            "actions": {
+              "buy": 10,
+              "hold": 2
+            },
+            "dominant_action_fraction": 0.8333333333333334,
+            "same_action_transitions": 10
+          }
+        },
+        "run_path": "runs\\20261105_012335_quiet_components_5066abab\\market_runs\\20261105_023927_quiet_components_B_s25087_rep2_3fc07e98"
+      }
+    ],
+    "summary": {
+      "price_return_sd_pct": {
+        "mean": 2.2574843830671343,
+        "minimum": 0.6958361257408283,
+        "maximum": 3.256478843781521
+      },
+      "mean_gap_pct": {
+        "mean": 9.051388888888887,
+        "minimum": 4.000000000000001,
+        "maximum": 17.866666666666664
+      },
+      "max_drawdown_pct": {
+        "mean": 4.797931240009792,
+        "minimum": 0.7469654528478031,
+        "maximum": 10.975609756097548
+      },
+      "volume_per_round": {
+        "mean": 24.680555555555557,
+        "minimum": 21.25,
+        "maximum": 29.333333333333332
+      }
+    },
+    "distinct_seeds": 3,
+    "repeats_per_seed": 2,
+    "comparison": "Post-hoc cross-study descriptive context, not a treatment contrast."
+  },
+  "initial_type_metadata_change": "Only LLM type labels CappedAgent to PersistentBackoffAgent; initial financial fields and personas equal.",
+  "limitations": "Two scenario seeds,one provider realization per scenario. Seed31991 is an exact-success-prefix continuation across amended retry policies and a user-reported credential change,not an uninterrupted API session. No isolated model/count/cap or long-run stability inference."
+}

@@ -1,0 +1,132 @@
+{
+  "manifest_version": 1,
+  "status": "completed",
+  "started_utc": "2026-11-01T22:17:41.526991+00:00",
+  "python": "3.13.1",
+  "libraries": {
+    "numpy": "2.1.3",
+    "PyYAML": "6.0.3"
+  },
+  "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    "AM ../../AGENTS.md",
+    "AM ../../RESEARCH_DIARY.md",
+    " M ../README.md",
+    " M ../configs/dev_mock.yaml",
+    " M agents/base.py",
+    " M agents/llm_agent.py",
+    " M agents/rule_agents.py",
+    " M assets.py",
+    " M engine.py",
+    " M llm/client.py",
+    " M llm/mock.py",
+    " M market.py",
+    "?? ../../.gitignore",
+    "?? ../AGENT_EXPERIMENTS.md",
+    "?? ../ECONOMIC_MODEL.md",
+    "?? ../configs/baseline_mock.yaml",
+    "?? ../configs/baseline_rules.yaml",
+    "?? ../configs/diagnostic_shock.yaml",
+    "?? ../configs/pilot_a_mock.yaml",
+    "?? ../configs/pilot_b_mock.yaml",
+    "?? ../configs/pilot_c_mock.yaml",
+    "?? config.py",
+    "?? llm/usage.py",
+    "?? pilot.py",
+    "?? provenance.py",
+    "?? ../tests/test_comparable_agents.py",
+    "?? ../tests/test_config.py",
+    "?? ../tests/test_economics.py",
+    "?? ../tests/test_foundation.py",
+    "?? ../tests/test_live_pilot.py"
+  ],
+  "source_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "04b0675ec8093ce4ec31ae3f4cd527bef07421048a8121a3ddcb6671552626fa",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+    "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+    "sim/config.py": "1355c73d2b1c03335cc09fb392cacbf93a0d3f115fe4a4a1e9f9fd58ac0e692b",
+    "sim/engine.py": "39d7da41170f150f000684cd1d1655ad4791607286692a99013dcced3b25d744",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "f35526867e525fc2ef761cc9947b0a68b3acb4ba81c5c167bba167d9c700d69d",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "190d8794ff9a0bd95cf62b6a7df20929602abe36029a4439fbdaa7cf979e7782",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/pilot.py": "50615944af8af801f4237f9faf6c91b27d1a9ca6cc28b32d79d41005213474e3",
+    "sim/provenance.py": "e97bd58fe14212ce8e21943ba09241e18e8af209ad33a5c0216834945cefacbd"
+  },
+  "source_archive_sha256": "c7a13603c7c50d3c0bb32c73c5c3a899de9db623cb1086bddb57b3a714db0a46",
+  "normalized_config_sha256": "be1791c50a0d70ab91d83418ffdb1be5251110f5700b00a86347f1347614b4e9",
+  "prompt_suite_version": "comparable_agents_v1",
+  "condition_versions": {
+    "A": "simple_A_v1",
+    "B": "facts_B_v1",
+    "C": "reflection_C_v1"
+  },
+  "prompt_templates_sha256": "d54830ec120b0033af1845eec7cd989e480473bd3056209c14ae05bdd5d70bea",
+  "seed": 704,
+  "conditions": [
+    "A"
+  ],
+  "random_stream_scheme": "seedsequence_v1:environment,population,personas,allocation",
+  "models": [
+    {
+      "provider": "openai_compatible",
+      "configured_model": "gemini-3.5-flash-lite",
+      "condition": "A",
+      "temperature": 0.3,
+      "reflect_every": 0,
+      "memory_window": 2,
+      "max_tokens": 512,
+      "timeout_seconds": 45.0,
+      "input_usd_per_million": 0.3,
+      "output_usd_per_million": 2.5
+    }
+  ],
+  "usage_limits": {
+    "max_requests": 24,
+    "max_reserved_tokens": 100000,
+    "max_cost_usd": 0.07,
+    "requests_per_minute": 5,
+    "input_tokens_per_minute": 15000,
+    "stop_on_api_error": true
+  },
+  "reproducibility_note": "Seeds fix simulator randomness, not provider sampling. Every response is logged; independent live repetitions must not reuse responses.",
+  "experiment_kind": "fixed_observation_probes",
+  "protocol_version": "first_live_diagnostic_v1",
+  "endpoints": [
+    "https://generativelanguage.googleapis.com/v1beta/openai"
+  ],
+  "completed_rounds": 0,
+  "finished_utc": "2026-11-01T22:21:06.624933+00:00",
+  "usage": {
+    "requests_made": 18,
+    "max_requests": 24,
+    "reserved_tokens": 39801,
+    "max_reserved_tokens": 100000,
+    "reserved_cost_usd": 0.0322155,
+    "max_cost_usd": 0.07,
+    "provider_reported_tokens": 8066,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.004754,
+    "blocked_requests": 0,
+    "requests_per_minute": 5,
+    "input_tokens_per_minute": 15000,
+    "stop_on_api_error": true,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "output_sha256": {
+    "config.yaml": "be1791c50a0d70ab91d83418ffdb1be5251110f5700b00a86347f1347614b4e9",
+    "llm_requests.jsonl": "cc7b1f1a9f023d5c26c3619ca76781f406182fff9e51a0604b1aeee8cba5a92f",
+    "protocol.json": "e44d816008b75437b26358ed1895195d8f73ac4ad966ea431a6a97c296222c72",
+    "results.json": "b5bdc4e641ba3166465e704a9d845d0460855d51c2eb5efe7c446fe630a9dd2e",
+    "source.zip": "c7a13603c7c50d3c0bb32c73c5c3a899de9db623cb1086bddb57b3a714db0a46",
+    "summary.json": "05ef270a495e0511e5ed13693df158fa91ba0b97a82d44635446866d025ca468"
+  }
+}

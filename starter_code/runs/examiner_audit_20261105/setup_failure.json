@@ -1,0 +1,5 @@
+{
+  "status": "setup_failed_before_replay",
+  "reason": "Audit extractor initially permitted only Python source; archived source also contains a normalized YAML configuration. No replay/model/network calls occurred.",
+  "amendment": "Permit .py and .yaml with same archive-hash and safe-path guards;retain this directory and execute in a fresh v2 output directory."
+}

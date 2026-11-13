@@ -1,0 +1,15 @@
+{
+  "status": "preserved",
+  "path": "starter_code/runs/manuscript_review_20261105_writing.zip",
+  "sha256": "2554ab8cc87f1dc8e667ae6837115a2faa568b16b8fb779d5f929ee7bd362dda",
+  "bytes": 1553027,
+  "exported_file_hashes": 105,
+  "recursive_configured_secret_checks": 233,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "scientific_archives_unchanged": 13,
+  "r048_writing_archive_unchanged": true,
+  "new_api_requests": 0,
+  "new_scientific_markets": 0,
+  "local_saved_output_replays": 65
+}

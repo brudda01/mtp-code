@@ -1,0 +1,6 @@
+{
+  "status": "posthoc_frozen_before_variant_computation",
+  "base_report_sha256": "fa002f5045bf3e5af0dc6a9c386c779de084d61903407787ccf2bb01dfdc6294",
+  "script_sha256": "12db92ab4460b655deb1f21e0d42bac64c2c8ec9fca8dd190e857611babdd482",
+  "change": "CURRENT MM quote_size10 to20 only, all36 cases. Same opening resources,spread,skew/cap,13 remaining actor policies, source history and captured RNG. No regenerated history, new response/repetition, calibrated liquidity or default selection."
+}

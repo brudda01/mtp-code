@@ -1,0 +1,15 @@
+{
+  "scope": "Post-core manual interpretation and all-case numerical checks; core archive/artifact manifest unchanged.",
+  "source_report_sha256": "5cf72448f71c321a0468339b37aca4dffb464379d124cd3dd7b9072a7cbfc864",
+  "core_artifact_manifest_sha256": "dafc68a55520a555fa48d2a19b30a7aea78acd733aec2ae98be66053cf63f655",
+  "evidence_archive_sha256": "49e04cd7ff8bd87b8d871e3be36bd96a48c9e4bf232efdd2781d81deb317b006",
+  "files": {
+    "INTERPRETATION.md": "a54f2186a0b703637e9e06d37aaff2412513d01c704db88e4a48b4db9c382088",
+    "interpretation_source.py": "bf64c69d0156de2f33d6dbe8bbcd0fb5f34372c66ee07cb3f458c5887656fed5",
+    "interpretation_checks.json": "3813386ed552f074b1edef5bfe43fdae3ea89703e6f7aea043cf85e16f875db2"
+  },
+  "local_links_checked": 16,
+  "manual_table_values_checked": true,
+  "figure_visually_inspected": true,
+  "new_api_requests": 0
+}

@@ -1,0 +1,16 @@
+{
+  "status": "preserved_partial_stopped_attempt",
+  "path": "starter_code/runs/feedback_validation_20261107_evidence.zip",
+  "sha256": "ce36a996d3947d2ee81234d6bcd082ec90753850a719b624d22ddb1bc805f543",
+  "bytes": 934393,
+  "exported_file_hashes": 145,
+  "recursive_configured_secret_checks": 175,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "prior_scientific_archives_unchanged": 14,
+  "prior_writing_archives_unchanged": 2,
+  "delivered_reflections": 8,
+  "missing_reflections": 40,
+  "http_attempts": 10,
+  "new_markets": 0
+}

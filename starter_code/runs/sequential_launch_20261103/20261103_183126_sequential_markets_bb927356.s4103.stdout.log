@@ -1,0 +1,12 @@
+round 10/24 price=104.90 vol=8
+round 20/24 price=116.60 vol=29
+completed -> runs\20261103_183126_sequential_markets_bb927356\block_4103\market_runs\20261103_183350_sequential_A_combined_s4103_r24_18a4432b
+completed live A seed4103
+round 10/24 price=105.10 vol=8
+round 20/24 price=118.20 vol=30
+completed -> runs\20261103_183126_sequential_markets_bb927356\block_4103\market_runs\20261103_184528_sequential_B_combined_s4103_r24_74bfb78f
+completed live B seed4103
+round 10/24 price=105.90 vol=8
+round 20/24 price=120.40 vol=27
+provider_error -> runs\20261103_183126_sequential_markets_bb927356\block_4103\market_runs\20261103_185412_sequential_C_combined_s4103_r24_81e8e977
+stopped block -> runs\20261103_183126_sequential_markets_bb927356\block_4103

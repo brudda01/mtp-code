@@ -1,0 +1,10 @@
+﻿{
+    "pid":  11360,
+    "run":  "runs/20261102_195440_behaviour_qwen_ee95d92d",
+    "stdout":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\behaviour_launch_20261102\\20261102_195440_behaviour_qwen_ee95d92d.stdout.log",
+    "stderr":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\behaviour_launch_20261102\\20261102_195440_behaviour_qwen_ee95d92d.stderr.log",
+    "battery":  "runs/20261102_193749_behaviour_inputs_5e633670",
+    "max_attempts":  96,
+    "max_reserved_tokens":  1000000,
+    "model":  "qwen-3.8-27b"
+}

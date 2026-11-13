@@ -1,0 +1,361 @@
+{
+  "note": "Prespecified secondary inventory range,computed over closing sessions;initial150 excluded from this range as in frozen metrics. All-path figures include initial150. Not a new primary endpoint or evidence of boundary avoidance.",
+  "contrasts": [
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 50,
+      "intervention_closing_range": 50,
+      "range_delta": 0
+    },
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 50,
+      "intervention_closing_range": 27,
+      "range_delta": -23
+    },
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 38,
+      "intervention_closing_range": 52,
+      "range_delta": 14
+    },
+    {
+      "seed": 22853,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 38,
+      "intervention_closing_range": 27,
+      "range_delta": -11
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 50,
+      "intervention_closing_range": 40,
+      "range_delta": -10
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 50,
+      "intervention_closing_range": 27,
+      "range_delta": -23
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 28,
+      "intervention_closing_range": 27,
+      "range_delta": -1
+    },
+    {
+      "seed": 22853,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 28,
+      "intervention_closing_range": 27,
+      "range_delta": -1
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 44,
+      "intervention_closing_range": 58,
+      "range_delta": 14
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 44,
+      "intervention_closing_range": 27,
+      "range_delta": -17
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 29,
+      "intervention_closing_range": 44,
+      "range_delta": 15
+    },
+    {
+      "seed": 22853,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 29,
+      "intervention_closing_range": 27,
+      "range_delta": -2
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 73,
+      "intervention_closing_range": 66,
+      "range_delta": -7
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 73,
+      "intervention_closing_range": 28,
+      "range_delta": -45
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 49,
+      "intervention_closing_range": 38,
+      "range_delta": -11
+    },
+    {
+      "seed": 23971,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 49,
+      "intervention_closing_range": 28,
+      "range_delta": -21
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 49,
+      "intervention_closing_range": 27,
+      "range_delta": -22
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 49,
+      "intervention_closing_range": 28,
+      "range_delta": -21
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 38,
+      "intervention_closing_range": 25,
+      "range_delta": -13
+    },
+    {
+      "seed": 23971,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 38,
+      "intervention_closing_range": 28,
+      "range_delta": -10
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 36,
+      "intervention_closing_range": 34,
+      "range_delta": -2
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 36,
+      "intervention_closing_range": 28,
+      "range_delta": -8
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 37,
+      "intervention_closing_range": 21,
+      "range_delta": -16
+    },
+    {
+      "seed": 23971,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 37,
+      "intervention_closing_range": 28,
+      "range_delta": -9
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 75,
+      "intervention_closing_range": 54,
+      "range_delta": -21
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 75,
+      "intervention_closing_range": 44,
+      "range_delta": -31
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 107,
+      "intervention_closing_range": 89,
+      "range_delta": -18
+    },
+    {
+      "seed": 25087,
+      "mode": "A",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 107,
+      "intervention_closing_range": 44,
+      "range_delta": -63
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 60,
+      "intervention_closing_range": 63,
+      "range_delta": 3
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 60,
+      "intervention_closing_range": 44,
+      "range_delta": -16
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 71,
+      "intervention_closing_range": 58,
+      "range_delta": -13
+    },
+    {
+      "seed": 25087,
+      "mode": "B",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 71,
+      "intervention_closing_range": 44,
+      "range_delta": -27
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "cap10",
+      "factual_closing_range": 68,
+      "intervention_closing_range": 61,
+      "range_delta": -7
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 1,
+      "condition": "remove",
+      "factual_closing_range": 68,
+      "intervention_closing_range": 44,
+      "range_delta": -24
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "cap10",
+      "factual_closing_range": 78,
+      "intervention_closing_range": 62,
+      "range_delta": -16
+    },
+    {
+      "seed": 25087,
+      "mode": "C",
+      "repetition": 2,
+      "condition": "remove",
+      "factual_closing_range": 78,
+      "intervention_closing_range": 44,
+      "range_delta": -34
+    }
+  ],
+  "seed_summary": [
+    {
+      "seed": 22853,
+      "condition": "cap10",
+      "mean_closing_inventory_range_change": 5.333333333333333
+    },
+    {
+      "seed": 22853,
+      "condition": "remove",
+      "mean_closing_inventory_range_change": -12.833333333333334
+    },
+    {
+      "seed": 23971,
+      "condition": "cap10",
+      "mean_closing_inventory_range_change": -11.833333333333334
+    },
+    {
+      "seed": 23971,
+      "condition": "remove",
+      "mean_closing_inventory_range_change": -19
+    },
+    {
+      "seed": 25087,
+      "condition": "cap10",
+      "mean_closing_inventory_range_change": -12
+    },
+    {
+      "seed": 25087,
+      "condition": "remove",
+      "mean_closing_inventory_range_change": -32.5
+    }
+  ]
+}

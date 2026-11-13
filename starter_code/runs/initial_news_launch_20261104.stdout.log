@@ -1,0 +1,31 @@
+round 10/12 price=109.50 vol=21
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_141011_initial_news_A_quiet_s13111_r12_d5dbdfae
+completed quiet seed13111
+round 10/12 price=123.20 vol=21
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_141439_initial_news_A_up_silent_s13111_r12_6826c3c5
+completed up_silent seed13111
+round 10/12 price=126.20 vol=41
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_141953_initial_news_A_up_visible_s13111_r12_f5f0f8c3
+completed up_visible seed13111
+round 10/12 price=95.00 vol=10
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_142450_initial_news_A_down_visible_s13111_r12_b488f6e3
+completed down_visible seed13111
+round 10/12 price=89.20 vol=10
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_143114_initial_news_A_down_silent_s13111_r12_c87eb862
+completed down_silent seed13111
+round 10/12 price=89.70 vol=23
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_143700_initial_news_A_down_silent_s14227_r12_577cea4b
+completed down_silent seed14227
+round 10/12 price=80.30 vol=25
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_144248_initial_news_A_down_visible_s14227_r12_f1c0bb67
+completed down_visible seed14227
+round 10/12 price=114.50 vol=12
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_144830_initial_news_A_quiet_s14227_r12_88343395
+completed quiet seed14227
+round 10/12 price=122.30 vol=16
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_145341_initial_news_A_up_visible_s14227_r12_69d53495
+completed up_visible seed14227
+round 10/12 price=121.20 vol=16
+completed -> runs\20261104_140638_initial_news_ee0f084f\market_runs\20261104_145845_initial_news_A_up_silent_s14227_r12_0403657e
+completed up_silent seed14227
+completed -> runs\20261104_140638_initial_news_ee0f084f

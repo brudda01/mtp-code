@@ -1,0 +1,3704 @@
+{
+  "status": {
+    "status": "completed_all_scheduled_cases",
+    "completed_decisions": 108,
+    "completed_reflections": 24,
+    "valid_decisions": 107,
+    "failed_decisions": 1,
+    "parent_phase": {
+      "status": "provider_error",
+      "rounds": 0,
+      "completed_decisions": 34,
+      "planned_decisions": 108,
+      "completed_reflections": 8,
+      "planned_reflections": 24,
+      "valid_choices": 34,
+      "failure_type": "ProviderUnavailable",
+      "llm_usage": {
+        "requests_made": 49,
+        "max_requests": 264,
+        "reserved_tokens": 641213,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 135427,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 7,
+        "failed_requests": 7,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    "continuation_phase": {
+      "status": "output_truncated",
+      "rounds": 0,
+      "completed_decisions": 16,
+      "planned_decisions": 74,
+      "completed_reflections": 4,
+      "planned_reflections": 16,
+      "inherited_reflection_steps": 2,
+      "cumulative_decisions": 50,
+      "cumulative_reflections": 12,
+      "failure_type": "OutputLimitExceeded",
+      "llm_usage": {
+        "requests_made": 21,
+        "max_requests": 215,
+        "reserved_tokens": 271173,
+        "max_reserved_tokens": 3358787,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 66993,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    "completion_phase": {
+      "status": "completed_all_scheduled_cases",
+      "rounds": 0,
+      "completed_decisions": 57,
+      "planned_decisions": 57,
+      "completed_reflections": 12,
+      "planned_reflections": 12,
+      "inherited_reflection_steps": 2,
+      "cumulative_decisions": 108,
+      "cumulative_reflections": 24,
+      "cumulative_valid_decisions": 107,
+      "cumulative_failed_decisions": 1,
+      "failure_type": null,
+      "llm_usage": {
+        "requests_made": 69,
+        "max_requests": 194,
+        "reserved_tokens": 904490,
+        "max_reserved_tokens": 3087614,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 221622,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    }
+  },
+  "protocol_sha256": "c00c9a09e5892f768b2fd5393f2ed263f9706ec43d25f300f8be570720e75033",
+  "continuation_plan_sha256": "31254d3d934e5a952fd9e53d7b46330b74a8755c9015452a0b401d4d8c52f2c9",
+  "delivery_note": "Three linked phases: original503 stop; later output-cap stop; explicit post-failure independent-case stop amendment. Same model alias/prompts/economics/4096 cap; capped query kept missing, never resampled. Provider/budget/reflection failures still terminal. First-repeat final-frame C news spans the time gap. Reused states, not human/full-market validation or causal delivery improvement.",
+  "identically_reissued_input_count": 1,
+  "frames": [
+    {
+      "frame_id": "s1441_llm_012",
+      "seed": 1441,
+      "agent_id": "llm_012",
+      "constraints": {
+        "cash": 13303.742661639186,
+        "shares": 70,
+        "price": 109.3,
+        "stock_weight": 0.36512020803797834,
+        "executable_price_bounds": [
+          87.5,
+          131.1
+        ],
+        "market_buy_capacity": 101,
+        "maximum_possible_buy_at_band_floor": 152,
+        "sell_capacity": 70
+      },
+      "source_manifest_sha256": "fca1fa68d275a567423aad91b89b2d2c2364bd30524a36a0ed44044d537142f9"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "seed": 1441,
+      "agent_id": "llm_013",
+      "constraints": {
+        "cash": 67.71346946235457,
+        "shares": 192,
+        "price": 109.3,
+        "stock_weight": 0.9967837143753846,
+        "executable_price_bounds": [
+          87.5,
+          131.1
+        ],
+        "market_buy_capacity": 0,
+        "maximum_possible_buy_at_band_floor": 0,
+        "sell_capacity": 192
+      },
+      "source_manifest_sha256": "fca1fa68d275a567423aad91b89b2d2c2364bd30524a36a0ed44044d537142f9"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "seed": 2882,
+      "agent_id": "llm_012",
+      "constraints": {
+        "cash": 10038.792004851315,
+        "shares": 100,
+        "price": 98.1,
+        "stock_weight": 0.4942366264708856,
+        "executable_price_bounds": [
+          78.5,
+          117.7
+        ],
+        "market_buy_capacity": 85,
+        "maximum_possible_buy_at_band_floor": 127,
+        "sell_capacity": 100
+      },
+      "source_manifest_sha256": "ae5ed54cc8f92bf09c4766006c61932f6fda546286a164132d9af43bd913377c"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "seed": 2882,
+      "agent_id": "llm_013",
+      "constraints": {
+        "cash": 16.582282317920022,
+        "shares": 200,
+        "price": 98.1,
+        "stock_weight": 0.9991555413218292,
+        "executable_price_bounds": [
+          78.5,
+          117.7
+        ],
+        "market_buy_capacity": 0,
+        "maximum_possible_buy_at_band_floor": 0,
+        "sell_capacity": 200
+      },
+      "source_manifest_sha256": "ae5ed54cc8f92bf09c4766006c61932f6fda546286a164132d9af43bd913377c"
+    }
+  ],
+  "cells": [
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "A",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        -10,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        -10,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        -10,
+        0
+      ],
+      "mean_accepted": -3.3333333333333335,
+      "sd_accepted": 5.773502691896257,
+      "action_counts": {
+        "hold": 2,
+        "sell": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "A",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        20
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        20
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        20
+      ],
+      "mean_accepted": 6.666666666666667,
+      "sd_accepted": 11.547005383792515,
+      "action_counts": {
+        "hold": 2,
+        "buy": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "A",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -10,
+        -10,
+        -10
+      ],
+      "signed_accepted": [
+        -10,
+        -10,
+        -10
+      ],
+      "accepted_by_repetition": [
+        -10,
+        -10,
+        -10
+      ],
+      "mean_accepted": -10.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "sell": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "B",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -10,
+        -10,
+        -10
+      ],
+      "signed_accepted": [
+        -10,
+        -10,
+        -10
+      ],
+      "accepted_by_repetition": [
+        -10,
+        -10,
+        -10
+      ],
+      "mean_accepted": -10.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "sell": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "B",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        10,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        10,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        10,
+        0,
+        0
+      ],
+      "mean_accepted": 3.3333333333333335,
+      "sd_accepted": 5.773502691896257,
+      "action_counts": {
+        "buy": 1,
+        "hold": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "B",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -10,
+        -10,
+        -10
+      ],
+      "signed_accepted": [
+        -10,
+        -10,
+        -10
+      ],
+      "accepted_by_repetition": [
+        -10,
+        -10,
+        -10
+      ],
+      "mean_accepted": -10.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "sell": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "C",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        -10,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        -10,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        -10,
+        0
+      ],
+      "mean_accepted": -3.3333333333333335,
+      "sd_accepted": 5.773502691896257,
+      "action_counts": {
+        "hold": 2,
+        "sell": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "C",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        20,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        20,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        20,
+        0,
+        0
+      ],
+      "mean_accepted": 6.666666666666667,
+      "sd_accepted": 11.547005383792515,
+      "action_counts": {
+        "buy": 1,
+        "hold": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "C",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -10,
+        -10,
+        -20
+      ],
+      "signed_accepted": [
+        -10,
+        -10,
+        -20
+      ],
+      "accepted_by_repetition": [
+        -10,
+        -10,
+        -20
+      ],
+      "mean_accepted": -13.333333333333334,
+      "sd_accepted": 5.773502691896257,
+      "action_counts": {
+        "sell": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "A",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "A",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "A",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "B",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "B",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "B",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "C",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "C",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "C",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "A",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        50,
+        50,
+        0
+      ],
+      "signed_accepted": [
+        50,
+        50,
+        0
+      ],
+      "accepted_by_repetition": [
+        50,
+        50,
+        0
+      ],
+      "mean_accepted": 33.333333333333336,
+      "sd_accepted": 28.867513459481287,
+      "action_counts": {
+        "buy": 2,
+        "hold": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "A",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        20,
+        40
+      ],
+      "signed_accepted": [
+        0,
+        20,
+        40
+      ],
+      "accepted_by_repetition": [
+        0,
+        20,
+        40
+      ],
+      "mean_accepted": 20.0,
+      "sd_accepted": 20.0,
+      "action_counts": {
+        "hold": 1,
+        "buy": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "A",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "B",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        50,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        50,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        50,
+        0,
+        0
+      ],
+      "mean_accepted": 16.666666666666668,
+      "sd_accepted": 28.867513459481287,
+      "action_counts": {
+        "buy": 1,
+        "hold": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "B",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        30,
+        20,
+        0
+      ],
+      "signed_accepted": [
+        30,
+        20,
+        0
+      ],
+      "accepted_by_repetition": [
+        30,
+        20,
+        0
+      ],
+      "mean_accepted": 16.666666666666668,
+      "sd_accepted": 15.275252316519467,
+      "action_counts": {
+        "buy": 2,
+        "hold": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "B",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "C",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "C",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        20,
+        20,
+        30
+      ],
+      "signed_accepted": [
+        20,
+        20,
+        30
+      ],
+      "accepted_by_repetition": [
+        20,
+        20,
+        30
+      ],
+      "mean_accepted": 23.333333333333332,
+      "sd_accepted": 5.773502691896257,
+      "action_counts": {
+        "buy": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "C",
+      "news": "negative",
+      "completed": 3,
+      "valid": 2,
+      "failed": 1,
+      "signed_requested": [
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        null,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "A",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -100,
+        -80,
+        0
+      ],
+      "signed_accepted": [
+        -100,
+        -80,
+        0
+      ],
+      "accepted_by_repetition": [
+        -100,
+        -80,
+        0
+      ],
+      "mean_accepted": -60.0,
+      "sd_accepted": 52.91502622129181,
+      "action_counts": {
+        "sell": 2,
+        "hold": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "A",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "A",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        -100,
+        -100
+      ],
+      "signed_accepted": [
+        0,
+        -100,
+        -100
+      ],
+      "accepted_by_repetition": [
+        0,
+        -100,
+        -100
+      ],
+      "mean_accepted": -66.66666666666667,
+      "sd_accepted": 57.73502691896258,
+      "action_counts": {
+        "hold": 1,
+        "sell": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "B",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "B",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -50,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        -50,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        -50,
+        0,
+        0
+      ],
+      "mean_accepted": -16.666666666666668,
+      "sd_accepted": 28.867513459481287,
+      "action_counts": {
+        "sell": 1,
+        "hold": 2
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "B",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -100,
+        0,
+        -100
+      ],
+      "signed_accepted": [
+        -100,
+        0,
+        -100
+      ],
+      "accepted_by_repetition": [
+        -100,
+        0,
+        -100
+      ],
+      "mean_accepted": -66.66666666666667,
+      "sd_accepted": 57.73502691896258,
+      "action_counts": {
+        "sell": 2,
+        "hold": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "C",
+      "news": "silent",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "C",
+      "news": "positive",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        0,
+        0,
+        0
+      ],
+      "signed_accepted": [
+        0,
+        0,
+        0
+      ],
+      "accepted_by_repetition": [
+        0,
+        0,
+        0
+      ],
+      "mean_accepted": 0.0,
+      "sd_accepted": 0.0,
+      "action_counts": {
+        "hold": 3
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "C",
+      "news": "negative",
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "signed_requested": [
+        -50,
+        -60,
+        0
+      ],
+      "signed_accepted": [
+        -50,
+        -60,
+        0
+      ],
+      "accepted_by_repetition": [
+        -50,
+        -60,
+        0
+      ],
+      "mean_accepted": -36.666666666666664,
+      "sd_accepted": 32.145502536643185,
+      "action_counts": {
+        "sell": 2,
+        "hold": 1
+      },
+      "resource_reductions": 0,
+      "impossible_at_any_allowed_price": 0
+    }
+  ],
+  "contrasts": {
+    "news_minus_silent": [
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 20,
+        "accepted_signed_quantity": 20
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 20,
+        "accepted_signed_quantity": 20
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 20,
+        "accepted_signed_quantity": 20
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": -20,
+        "accepted_signed_quantity": -20
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": -20,
+        "accepted_signed_quantity": -20
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 20,
+        "accepted_signed_quantity": 20
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": -30,
+        "accepted_signed_quantity": -30
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 20,
+        "accepted_signed_quantity": 20
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 20,
+        "accepted_signed_quantity": 20
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": null,
+        "accepted_signed_quantity": null
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 40,
+        "accepted_signed_quantity": 40
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 30,
+        "accepted_signed_quantity": 30
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 100,
+        "accepted_signed_quantity": 100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": 100,
+        "accepted_signed_quantity": 100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": -100,
+        "accepted_signed_quantity": -100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 80,
+        "accepted_signed_quantity": 80
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": -20,
+        "accepted_signed_quantity": -20
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": -60,
+        "accepted_signed_quantity": -60
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "condition": "A",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "condition": "A",
+        "news": "negative",
+        "requested_signed_quantity": -100,
+        "accepted_signed_quantity": -100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "condition": "B",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "condition": "B",
+        "news": "negative",
+        "requested_signed_quantity": -100,
+        "accepted_signed_quantity": -100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "condition": "C",
+        "news": "positive",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "condition": "C",
+        "news": "negative",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      }
+    ],
+    "adjacent_mode_contrasts": [
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 10,
+        "accepted_signed_quantity": 10
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": -20,
+        "accepted_signed_quantity": -20
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_012",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s1441_llm_013",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 30,
+        "accepted_signed_quantity": 30
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": -10,
+        "accepted_signed_quantity": -10
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": null,
+        "accepted_signed_quantity": null
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": -40,
+        "accepted_signed_quantity": -40
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 30,
+        "accepted_signed_quantity": 30
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_012",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 100,
+        "accepted_signed_quantity": 100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": -50,
+        "accepted_signed_quantity": -50
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 50,
+        "accepted_signed_quantity": 50
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": -100,
+        "accepted_signed_quantity": -100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 1,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 50,
+        "accepted_signed_quantity": 50
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 80,
+        "accepted_signed_quantity": 80
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 100,
+        "accepted_signed_quantity": 100
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 2,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": -60,
+        "accepted_signed_quantity": -60
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "news": "silent",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "news": "positive",
+        "contrast": "C-B",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "B-A",
+        "requested_signed_quantity": 0,
+        "accepted_signed_quantity": 0
+      },
+      {
+        "frame_id": "s2882_llm_013",
+        "repetition": 3,
+        "news": "negative",
+        "contrast": "C-B",
+        "requested_signed_quantity": 100,
+        "accepted_signed_quantity": 100
+      }
+    ],
+    "interpretation": "Fresh repeated queries conditional on four reused states, not market repetitions. Missing failures stay null; direction is not correctness. Neither orders nor possible price intervals are executions."
+  },
+  "news_contrast_summary": [
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "A",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 10.0,
+      "sd": 10.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 1,
+        "positive": 2
+      },
+      "by_repetition": [
+        0,
+        10,
+        20
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "A",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -6.666666666666667,
+      "sd": 5.773502691896258,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 1,
+        "positive": 0
+      },
+      "by_repetition": [
+        -10,
+        0,
+        -10
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "B",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 13.333333333333334,
+      "sd": 5.773502691896257,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 0,
+        "positive": 3
+      },
+      "by_repetition": [
+        20,
+        10,
+        10
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "B",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "C",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 10.0,
+      "sd": 10.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 1,
+        "positive": 2
+      },
+      "by_repetition": [
+        20,
+        10,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "condition": "C",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -10.0,
+      "sd": 10.0,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 1,
+        "positive": 0
+      },
+      "by_repetition": [
+        -10,
+        0,
+        -20
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "A",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "A",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "B",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "B",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "C",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "condition": "C",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "A",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": -13.333333333333334,
+      "sd": 47.258156262526086,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 0,
+        "positive": 1
+      },
+      "by_repetition": [
+        -50,
+        -30,
+        40
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "A",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -33.333333333333336,
+      "sd": 28.867513459481287,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 1,
+        "positive": 0
+      },
+      "by_repetition": [
+        -50,
+        -50,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "B",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 20.0,
+      "sign_counts": {
+        "negative": 1,
+        "zero": 1,
+        "positive": 1
+      },
+      "by_repetition": [
+        -20,
+        20,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "B",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -16.666666666666668,
+      "sd": 28.867513459481287,
+      "sign_counts": {
+        "negative": 1,
+        "zero": 2,
+        "positive": 0
+      },
+      "by_repetition": [
+        -50,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "C",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 23.333333333333332,
+      "sd": 5.773502691896257,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 0,
+        "positive": 3
+      },
+      "by_repetition": [
+        20,
+        20,
+        30
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "condition": "C",
+      "news": "negative",
+      "available_contrasts": 2,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 2,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        null,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "A",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 60.0,
+      "sd": 52.91502622129181,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 1,
+        "positive": 2
+      },
+      "by_repetition": [
+        100,
+        80,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "A",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -6.666666666666667,
+      "sd": 100.66445913694332,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 0,
+        "positive": 1
+      },
+      "by_repetition": [
+        100,
+        -20,
+        -100
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "B",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": -16.666666666666668,
+      "sd": 28.867513459481287,
+      "sign_counts": {
+        "negative": 1,
+        "zero": 2,
+        "positive": 0
+      },
+      "by_repetition": [
+        -50,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "B",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -66.66666666666667,
+      "sd": 57.73502691896258,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 1,
+        "positive": 0
+      },
+      "by_repetition": [
+        -100,
+        0,
+        -100
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "C",
+      "news": "positive",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "sd": 0.0,
+      "sign_counts": {
+        "negative": 0,
+        "zero": 3,
+        "positive": 0
+      },
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "condition": "C",
+      "news": "negative",
+      "available_contrasts": 3,
+      "mean": -36.666666666666664,
+      "sd": 32.145502536643185,
+      "sign_counts": {
+        "negative": 2,
+        "zero": 1,
+        "positive": 0
+      },
+      "by_repetition": [
+        -50,
+        -60,
+        0
+      ]
+    }
+  ],
+  "mode_contrast_summary": [
+    {
+      "frame_id": "s1441_llm_012",
+      "news": "silent",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": -6.666666666666667,
+      "by_repetition": [
+        -10,
+        0,
+        -10
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "news": "silent",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 6.666666666666667,
+      "by_repetition": [
+        10,
+        0,
+        10
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "news": "positive",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": -3.3333333333333335,
+      "by_repetition": [
+        10,
+        0,
+        -20
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "news": "positive",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 3.3333333333333335,
+      "by_repetition": [
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "news": "negative",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "news": "negative",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": -3.3333333333333335,
+      "by_repetition": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "news": "silent",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "news": "silent",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "news": "positive",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "news": "positive",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "news": "negative",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "news": "negative",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "news": "silent",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": -16.666666666666668,
+      "by_repetition": [
+        0,
+        -50,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "news": "silent",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": -16.666666666666668,
+      "by_repetition": [
+        -50,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "news": "positive",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": -3.3333333333333335,
+      "by_repetition": [
+        30,
+        0,
+        -40
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "news": "positive",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 6.666666666666667,
+      "by_repetition": [
+        -10,
+        0,
+        30
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "news": "negative",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "news": "negative",
+      "contrast": "C-B",
+      "available_contrasts": 2,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        null,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "news": "silent",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 60.0,
+      "by_repetition": [
+        100,
+        80,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "news": "silent",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "news": "positive",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": -16.666666666666668,
+      "by_repetition": [
+        -50,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "news": "positive",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 16.666666666666668,
+      "by_repetition": [
+        50,
+        0,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "news": "negative",
+      "contrast": "B-A",
+      "available_contrasts": 3,
+      "mean": 0.0,
+      "by_repetition": [
+        -100,
+        100,
+        0
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "news": "negative",
+      "contrast": "C-B",
+      "available_contrasts": 3,
+      "mean": 30.0,
+      "by_repetition": [
+        50,
+        -60,
+        100
+      ]
+    }
+  ],
+  "usage": {
+    "requests_made": 139,
+    "max_requests": 264,
+    "reserved_tokens": 1816876,
+    "max_reserved_tokens": 4000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 424042,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 7,
+    "failed_requests": 7,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "cost_by_condition_and_call_type": {
+    "C_reflection": {
+      "http_attempts": 24,
+      "reserved_tokens": 262263,
+      "reported_tokens": 59907
+    },
+    "A_decision": {
+      "http_attempts": 38,
+      "reserved_tokens": 494221,
+      "unknown_usage": 2,
+      "reported_tokens": 113515
+    },
+    "B_decision": {
+      "http_attempts": 37,
+      "reserved_tokens": 496528,
+      "reported_tokens": 120274,
+      "unknown_usage": 1
+    },
+    "C_decision": {
+      "http_attempts": 40,
+      "reserved_tokens": 563864,
+      "unknown_usage": 4,
+      "reported_tokens": 130346
+    }
+  },
+  "errors": [
+    {
+      "call_id": "s1441_llm_012:r1:silent:A:11:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": "server_503",
+      "retry_wait_seconds": 10
+    },
+    {
+      "call_id": "s1441_llm_012:r1:negative:A:11:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": "server_503",
+      "retry_wait_seconds": 10
+    },
+    {
+      "call_id": "s1441_llm_012:r1:silent:C:11:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": "server_503",
+      "retry_wait_seconds": 10
+    },
+    {
+      "call_id": "s1441_llm_012:r1:negative:C:11:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": "server_503",
+      "retry_wait_seconds": 10
+    },
+    {
+      "call_id": "s2882_llm_013:r1:negative:B:11:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": "server_503",
+      "retry_wait_seconds": 10
+    },
+    {
+      "call_id": "s2882_llm_013:r1:positive:C:11:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": "server_503",
+      "retry_wait_seconds": 10
+    },
+    {
+      "call_id": "s2882_llm_013:r1:positive:C:11:decision:1:transport2",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": null,
+      "retry_wait_seconds": null
+    }
+  ],
+  "returned_models": {
+    "qwen-3.8-27b": 132
+  },
+  "attempt_kinds": {
+    "initial": 133,
+    "server_retry": 6
+  },
+  "delivery_retry_outcomes": [
+    {
+      "group_id": "s1441_llm_012:r1:silent:A:11:decision:1",
+      "kind": "server_retry",
+      "recovered": true
+    },
+    {
+      "group_id": "s1441_llm_012:r1:negative:A:11:decision:1",
+      "kind": "server_retry",
+      "recovered": true
+    },
+    {
+      "group_id": "s1441_llm_012:r1:silent:C:11:decision:1",
+      "kind": "server_retry",
+      "recovered": true
+    },
+    {
+      "group_id": "s1441_llm_012:r1:negative:C:11:decision:1",
+      "kind": "server_retry",
+      "recovered": true
+    },
+    {
+      "group_id": "s2882_llm_013:r1:negative:B:11:decision:1",
+      "kind": "server_retry",
+      "recovered": true
+    },
+    {
+      "group_id": "s2882_llm_013:r1:positive:C:11:decision:1",
+      "kind": "server_retry",
+      "recovered": false
+    }
+  ],
+  "coverage": {
+    "resolved_cases": 108,
+    "valid_decisions": 107,
+    "failed_decisions": 1,
+    "planned_decisions": 108,
+    "covered_cells": 36,
+    "planned_cells": 36,
+    "cells_with_three_resolved_slots": 36,
+    "cells_with_three_valid_replies": 35
+  },
+  "failed_choice_records": [
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative",
+      "operation": "decision",
+      "valid_choice": false,
+      "failure_type": "output_truncated",
+      "source_call_id": "s2882_llm_012:continuation1:r2:negative:C:11:decision:1",
+      "origin_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261103_172911_components_continue_f62a08f1",
+      "intent": null,
+      "accepted": null,
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null,
+      "requested_notional_over_current_wealth": null,
+      "accepted_notional_over_current_wealth": null,
+      "accepted_sell_quantity": null,
+      "resource_reduced": null,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "output_truncations": 1,
+      "executions": null,
+      "possible_execution_prices": null
+    }
+  ],
+  "query_failures_by_condition": {
+    "C:output_truncated": 1
+  },
+  "completed_reflection_chains": [
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Five rounds, no news. Price drifted from 100.5 to a peak of 108.7, now 108.3. I've held 100 shares at avg cost 100 throughout; wealth rose to ~20,850, most of the gain in round 3. Dividends and interest accrue steadily. **Beliefs:** With no fundamentals to analyze, I read the rise as price noise, not a signal. My position sits comfortably above cost, so holding costs me nothing \u2014 and selling into an unexplained run-up would feel like inviting regret. **Plan:** Keep holding and collecting income. I'll only act on verifiable fundamental news; absent that, patience serves my long horizon.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** No news through round 10. Price peaked at 109.6, now 109.3. I sold 30 shares at 108.8 in round 8; my round-10 limit sell of 10 shares at 109.6 did not fill. I hold 70 shares (cost 100) and ~13,304 cash; wealth ~20,955. **Beliefs:** The climb remains unexplained by fundamentals \u2014 price noise. Selling above cost feels fine, so trimming hasn't pained me. But the unfilled order warns me my limit was set above the market. **Plan:** Hold. Any further trim must use realistic limits, and I'll act only on verifiable news \u2014 patience still suits my horizon.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Price path 100.0 \u2192 100.5 \u2192 101.1 \u2192 108.0 \u2192 108.7 \u2192 108.3. I'm fully deployed: 188 shares, avg cost 103.92, cash only 481.92. Round 5 delivered my first negative wealth change (\u221263.37) despite the uptrend; my round-2 limit at 101 was left behind. **Beliefs:** Momentum is still intact \u2014 price sits well above my average and the series of higher prints dominates. The 108.7 \u2192 108.3 tick is minor noise, not a reversal signal; I trust my read over any caution. **Plan:** Hold everything; I lack cash to add anyway. If price breaks below ~107, I'll reconsider and trim rather than ride a broken trend.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Price path since my last note: 108.3 \u2192 109.1 \u2192 108.8 \u2192 109.6 \u2192 109.3. I'm fully deployed: 192 shares, avg cost 104.01, cash only 67.71. Wealth alternates: +3.75, +156.28, \u221253.09, +157.80, \u221253.76. **Beliefs:** Momentum is intact \u2014 repeated new highs (109.1, 109.6) dominate the two red rounds, and every dip has been bought back. The alternating swings are noise around a rising trend; I trust this read over the caution those \u221253 days suggest. **Plan:** Hold everything; my cash can't buy a share anyway. If price breaks below ~107, I'll trim rather than ride a broken trend.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Price has sat at my 100.0 cost basis for rounds 3\u20135 after dipping to 99.5; no news, dividends and interest flowing steadily, wealth roughly flat-to-up each round. **Beliefs:** With no new fundamental information, there's no compelling edge to add or trim. I still feel losses twice as strongly, so selling below basis would be painful \u2014 though I should watch for genuine deterioration rather than anchor purely to cost. **Plan:** Continue holding my 100 shares and collecting income. Revisit only if price moves meaningfully off basis or fundamentals change.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Price fell from 100.6 (rounds 6\u20138) to 98.6 then 98.1, putting me below my 100.0 basis; no news, income still accruing, wealth declined ~242 over rounds 9\u201310. **Beliefs:** No fundamental deterioration has been reported \u2014 this looks like price noise rather than new information. Still, I notice my discomfort below basis may be anchoring; I should treat a sustained drop plus negative news, not cost, as the real sell signal. **Plan:** Hold 100 shares, keep collecting income; reassess if news emerges or the decline persists several more rounds.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Price dipped to 99.5 in R1, recovered to 100 and flatlined for four rounds. My R3\u2013R4 buys filled at 100 (160 shares total, avg cost 100). My R5 order at limit 100.3 filled nothing \u2014 no momentum confirmation yet. Cash sits at ~$4,020. No news. **Beliefs:** I called this momentum shifting up after the dip was bought; so far it's just sideways. I'm underweight confidence \u2014 the tape hasn't agreed with me yet, but four flat holds at 100 still looks like accumulation to me. **Plan:** Don't force size until price breaks 100 with conviction. If it stalls, my conviction wavers fast \u2014 watch the next round closely.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Breakout to 100.6 filled me at 100.6 (round 7\u20138); I went all-in \u2014 200 shares, avg 100.11, cash $16. Then price fell to 98.6 and 98.1. Wealth down ~$480 over two rounds. No news. **Beliefs:** I called the 98.6 tick a shakeout \u2014 wrong so far. Momentum shifted down, not up. I overcommitted on a breakout that stalled instantly; my size, not my read of the dip, is the real error. I still think supply is thin, but I can't defend averaging in with $16. **Plan:** No cash to act. Hold and watch 98 \u2014 if it breaks, I'm riding 200 shares down without a hedge.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "Observations: Price rose 100.0\u2192100.5\u2192101.1\u2192108.0\u2192108.7, then 108.3. My 101 limit missed; market buys filled 29, 38, and 21 shares. I hold 188 shares at avg cost 103.92, cash $481.92; round-5 wealth fell $63.37. Beliefs: Momentum justified my adds, but 108.7\u2192108.3 is a pause, not yet a reversal. I have little cash left to press. Plan: Hold 188 shares; I won\u2019t force a sale on one soft print. Watch the next price action\u2014stay exposed if momentum resumes, reassess if it breaks. No new order now.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "Observations: Price moved 108.3\u2192109.1\u2192108.8\u2192109.6\u2192109.3. I bought 3 shares at 108.3 and 1 at 108.8, then held twice. I now hold 192 shares at avg cost 104.01, cash $67.71, wealth $21,053.31; round 10 wealth fell $53.76. Beliefs: The uptrend survives but is choppy; 109.6 was a new high, while 109.3 is a soft print. My cash is too small for meaningful adds. Plan: Hold 192 shares and place no new order. Reassess only on a clear momentum break.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Over five rounds the price sat at/near my 100.0 cost basis; I held 100 shares throughout, collecting dividends and interest. Round 1 showed a \u221245.85 wealth dip; subsequent rounds were modestly positive. No news or fundamentals have changed. **Beliefs:** My holding reflects loss aversion\u2014selling below basis feels painful, and I've framed \"no compelling signal\" as justification. I should test whether that's genuine long-horizon conviction or reluctance to realize a small loss. Dividends roughly offset cash interest, so carry isn't clearly superior. **Plan:** Continue holding, but pre-commit to a fundamental trigger (e.g., deteriorating fundamentals or a meaningful premium to fair value) for adding or trimming, rather than anchoring on cost basis.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Rounds 6\u20138 held steady near 100.6 with small gains; rounds 9\u201310 dropped to 98.6 then 98.1, cutting wealth ~196 and ~46. I still hold 100 shares at 100.0 basis. No news, no fills, no fundamental change. **Beliefs:** In round 10 I explicitly said I \"cannot bring myself\" to sell below basis \u2014 that is loss aversion speaking, not analysis. Yet my earlier plan to pre-commit to fundamental triggers remains sound: nothing deteriorated, so holding is defensible, but I should notice that I've never once defined \"fair value.\" **Plan:** Hold, but quantify fair value now so my trigger isn't just cost-basis anchoring.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Price dipped to 99.5 in round 1, then sat at 100.0 for four straight rounds. My round-5 buy of 39 @ 100.3 didn't fill \u2014 frustrating; rounds 3\u20134 filled only partially (22, 38 of 50). I hold 160 shares at 100.0 avg, ~$4,020 cash. Wealth ~$20,020, grinding up on dividends and interest. **Beliefs:** The dip got bought \u2014 buyers absorbing supply at 100.0 confirms upward momentum. No fills at 100.3 despite price at 100.0 tells me liquidity is thinner than I assumed; order mechanics, not sentiment, are blocking me. **Plan:** Re-enter with a marketable limit at 100.0\u2013100.1 to force fills. I'm pressing this trend until it proves otherwise \u2014 cash sitting idle is my biggest drag right now.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Price broke: 100.6 \u2192 98.6 \u2192 98.1. I'm all-in, 200 shares @ 100.11 avg, $16 cash. Wealth fell to $19,637 \u2014 roughly $500 lost in two rounds. **Beliefs:** I called round 9's drop a consolidation and round 10 a shakeout; both reads were wrong \u2014 that's two misses stacked, and the trend I pressed has turned against me. Recent price action outweighs the earlier grind; supply is hitting now, not drying up. My conviction in \"buy every dip\" here is fading. **Plan:** No cash to average down anyway. If round 11 prints below 98, I cut a portion to honor a stop rather than ride a broken momentum trade. Re-enter only on a reclaim of 100.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Five rounds holding 100 shares at avg cost 100; price rose 100.5\u2192108.7, now 108.3. No news, no fundamental signals. Dividends and interest accumulate steadily; wealth rose overall despite a small round-5 dip. **Beliefs:** I lack fundamental data, so price moves look like noise I shouldn't trade on. My long horizon favors collecting dividends overactivity. I notice I'd feel selling any dip below recent highs as a loss, which may keep me passive even if trimming is prudent. **Plan:** Continue holding, but set a personal check: if the price gains further without news, consider a small trim to avoid pure passivity masking indecision.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Rounds 6\u201310, price hovered 108.3\u2192109.6 with no news. I sold 30 shares at 108.8 (round 8, above cost), held in 6, 7, 9, and my round-10 limit sell of 10 shares at 109.6 did not fill. Cash \u2248 13,304, 70 shares remain, avg cost 100, wealth \u2248 20,955. Dividends and interest keep accruing. **Beliefs:** With no fundamental data, price drift remains noise to me. Trimming only above cost feels right \u2014 selling below would pain me disproportionately. The unfilled limit order confirms patience costs little. My earlier worry about passivity is softened: I did act when gains looked stretched. **Plan:** Hold 70 shares with the cash buffer; keep any trim orders above cost, and trade only on real fundamental",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Five rounds without a trade. Price sat at 100.0 (99.5 in round 1), exactly my 100-share cost basis; no news. Dividends and interest accrued (~$2/round), wealth now ~20,020. Round 1 showed a -45.85 dip, later rounds small gains. **Beliefs:** Nothing compels action \u2014 no mispricing versus my long-horizon fundamental view, dividends roughly matching cash interest. My discomfort selling below cost is real, but here the data agrees: no reason to realize anything. **Plan:** Keep holding, but I'll watch whether I'm citing \"cost basis\" as a habit rather than a thesis. If price rises meaningfully with weakening fundamentals, or falls with deteriorating ones, I'll reassess rather than anchor.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Price fell to 98.6 then 98.1, putting me below my 100.0 cost basis; wealth now ~19,849, with dividends and interest still accruing (~$2/round). No news in any round. My round-10 reasoning openly said I \"cannot bring myself\" to sell at a loss. **Beliefs:** Holding is still defensible \u2014 no fundamental change, long horizon, and losses sting me twice as hard, so my aversion is predictable. But I notice my stated reason shifted from thesis to pain. \"Cannot sell below cost\" is a disposition, not analysis. The honest question: if fundamentals were weak, would I admit it, or hide behind cost basis? **Plan:** Continue holding, but next reassessment will ask solely whether fundamentals deteriorated \u2014 ignoring my purchase price entirely.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Price sat at 100.0 for rounds 3\u20135 after the round-1 dip to 99.5. I filled 60 shares across rounds 3\u20134, but round 5's 39-share order at limit 100.3 produced zero fills. Cash is 4019.79, shares 160, wealth ~20019. **Beliefs:** Buyers keep absorbing supply \u2014 the dip was bought and price refuses to drop. Momentum is flat-to-up, and I still like being long here. Partial fills suggest liquidity is thinner than I assumed; I shouldn't count on full execution. **Plan:** Keep pressing buys near 100.3, but size orders to what's realistically fillable. If price breaks below 100, reassess quickly \u2014 my read is momentum, not a stalemate.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Price fell two straight rounds \u2014 100.6 \u2192 98.6 \u2192 98.1. I'm all-in: 200 shares, avg cost 100.11, cash 16.58. Wealth dropped ~490 over rounds 9\u201310; my one-share nibble at 98.1 was too small to matter. **Beliefs:** I still read this as a shakeout, but two consecutive red rounds is more than noise \u2014 my momentum call is under real pressure. The lack of a bounce so far tempers my confidence, though I don't yet see a trend break. **Plan:** Hold and watch the next tick closely. If price reclaims 100, my thesis stands; below 98, I'm wrong and must reassess my full position.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Five rounds, no trades \u2014 I've held 100 shares at cost 100.0 throughout. Price rose from 100.5 to 108.3; wealth grew from ~20,054 to ~20,850 via gains, dividends, and interest. Round 5 showed a small decline of 36. No news has appeared any round. **Beliefs:** The run-up lacks a verifiable fundamental driver, so I read it as noise, not signal. My long horizon and steady income stream make holding rational. Still, the round-5 dip stings more than the gains please me \u2014 a familiar loss-aversion pull. **Plan:** Continue holding. I'll act only on genuine fundamental news, not price movement alone, and revisit if a real signal emerges.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Rounds 6\u201310: I held, then trimmed 30 shares at 108.8 in round 8, locking gains above my 100.0 cost. My round-10 limit sell of 10 at 109.6 didn't fill \u2014 price was 109.3. I now hold 70 shares, cash ~13,304, wealth ~20,955. No news has appeared in any round. **Beliefs:** The run-up still shows no fundamental driver, so my cautious trimming fits my low-risk profile \u2014 each sale was above cost, avoiding the loss-aversion pain I dread. But I notice I'm reacting to price strength alone, which contradicts my stated rule of waiting for real signal. **Plan:** Stop nibbling at price movements. Either wait for genuine fundamental news or set my exit criteria explicitly now, not reflexively.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Prices ran 100.0 \u2192 100.5 \u2192 101.1 \u2192 108.0 \u2192 108.7 \u2192 108.3 \u2014 first down tick. Round 5 wealth change was \u221263.37, my first loss. I'm fully deployed: 188 shares, avg cost 103.92, only $481.92 cash. **Beliefs:** The trend is still intact \u2014 one soft print doesn't break it. My avg cost leaves plenty of cushion. But I've spent my dry powder buying at 108.7 and 108.3, close to the top. **Plan:** Hold this round. No cash to average down anyway, and I won't sell strength into a healthy trend. Wait for the next prints to confirm continuation before deciding whether to trim or ride.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Price: 108.3 \u2192 109.1 \u2192 108.8 \u2192 109.6 \u2192 109.3. New high at 109.6, then a small pullback. I hold 192 shares, avg cost 104.01, cash $67.71 \u2014 effectively fully deployed. Last two rounds: +157.80, then \u221253.76. **Beliefs:** Trend remains intact \u2014 higher highs and higher lows overall. The soft 109.3 print is noise unless it extends. My cushion over avg cost is still ~5 points. **Plan:** Hold. No cash to add, and I won't trim strength in a live uptrend. I'll watch for a decisive break below 108.8 before reconsidering.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "final_output_hashes_checked": true,
+    "source_and_copied_evidence_hashes_verified": true,
+    "exact_A_B_and_reflection_inputs_verified": true,
+    "C_diary_only_difference_from_B_verified": true,
+    "delivery_retries_preserve_inputs": true,
+    "secret_scan_passed": true,
+    "scanned_members": 196
+  },
+  "limitations": "Four reused actual A-control histories, three fresh responses per news/mode/frame; no independent held-out markets. A/B isolate derived facts; B/C adds two generated reflections on the same A-generated past. C's pre-news diary is shared across news variants within frame/repetition. This is not an endogenous C trajectory or a news-retention experiment.",
+  "analysis_source_sha256": "ce7e180c95426b2faa7f5f692070faff2d8abf178a61f82baf1b026c1336f1ea"
+}

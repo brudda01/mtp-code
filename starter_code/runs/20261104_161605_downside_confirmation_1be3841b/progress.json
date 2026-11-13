@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "recorded_markets": 16,
+  "planned_markets": 16,
+  "completed_markets": 16,
+  "completed_seed_checks": 2,
+  "failure_type": null,
+  "usage": {
+    "requests_made": 256,
+    "reserved_tokens": 3823311,
+    "provider_reported_tokens": 588992,
+    "unknown_usage_requests": 0,
+    "blocked_requests": 0
+  },
+  "finished_utc": "2026-11-04T11:50:39.500951+00:00",
+  "active": null
+}

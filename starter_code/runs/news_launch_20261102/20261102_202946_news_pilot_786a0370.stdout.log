@@ -1,0 +1,38 @@
+round 10/20 price=101.70 vol=17
+round 20/20 price=101.40 vol=10
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203035_news_rules_control_s1441_8f52424c
+study market 1/16: rules control seed 1441
+round 10/20 price=101.70 vol=17
+round 20/20 price=101.40 vol=10
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203035_news_rules_headline_only_s1441_1c93e340
+study market 2/16: rules headline_only seed 1441
+round 10/20 price=101.70 vol=17
+round 20/20 price=112.10 vol=12
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203035_news_rules_fundamentals_only_s1441_66f51ebd
+study market 3/16: rules fundamentals_only seed 1441
+round 10/20 price=101.70 vol=17
+round 20/20 price=112.10 vol=12
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203035_news_rules_combined_s1441_bef1ea78
+study market 4/16: rules combined seed 1441
+round 10/20 price=94.00 vol=22
+round 20/20 price=102.20 vol=12
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203035_news_rules_combined_s2882_77d83d88
+study market 5/16: rules combined seed 2882
+round 10/20 price=94.00 vol=22
+round 20/20 price=102.20 vol=12
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203036_news_rules_fundamentals_only_s2882_47766ca6
+study market 6/16: rules fundamentals_only seed 2882
+round 10/20 price=94.00 vol=22
+round 20/20 price=93.10 vol=8
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203036_news_rules_headline_only_s2882_d27882a8
+study market 7/16: rules headline_only seed 2882
+round 10/20 price=94.00 vol=22
+round 20/20 price=93.10 vol=8
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203036_news_rules_control_s2882_1f15eece
+study market 8/16: rules control seed 2882
+round 10/20 price=109.30 vol=8
+round 20/20 price=95.70 vol=56
+completed -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203036_news_qwen_control_s1441_105a279e
+study market 9/16: qwen control seed 1441
+provider_error -> runs\20261102_202946_news_pilot_786a0370\market_runs\20261102_203824_news_qwen_headline_only_s1441_15cf47a5
+stopped study -> runs\20261102_202946_news_pilot_786a0370

@@ -1,0 +1,2452 @@
+{
+  "version": "R050_saved_feedback_execution_audit_v1",
+  "new_api_requests": 0,
+  "new_scientific_markets": 0,
+  "scope": "Post-hoc all24 R047 branches,48 reflections,36 dependent branch pairs; R043 background orders. No causal mediation or independent-pair inference.",
+  "distinct_paths": [
+    {
+      "prefix": "s22853_source1",
+      "requested": 4,
+      "accepted": 4,
+      "fills": 4,
+      "accounts": 4,
+      "price": 3
+    },
+    {
+      "prefix": "s22853_source2",
+      "requested": 3,
+      "accepted": 3,
+      "fills": 3,
+      "accounts": 3,
+      "price": 2
+    },
+    {
+      "prefix": "s23971_source1",
+      "requested": 3,
+      "accepted": 3,
+      "fills": 3,
+      "accounts": 3,
+      "price": 2
+    },
+    {
+      "prefix": "s23971_source2",
+      "requested": 4,
+      "accepted": 4,
+      "fills": 4,
+      "accounts": 4,
+      "price": 2
+    },
+    {
+      "prefix": "s25087_source1",
+      "requested": 4,
+      "accepted": 4,
+      "fills": 4,
+      "accounts": 4,
+      "price": 1
+    },
+    {
+      "prefix": "s25087_source2",
+      "requested": 4,
+      "accepted": 4,
+      "fills": 4,
+      "accounts": 4,
+      "price": 2
+    }
+  ],
+  "pairs": [
+    {
+      "prefix": "s22853_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "B",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": true
+      }
+    },
+    {
+      "prefix": "s22853_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          10,
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source1",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": true
+      }
+    },
+    {
+      "prefix": "s22853_source1",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": true
+      }
+    },
+    {
+      "prefix": "s22853_source1",
+      "left": [
+        "C",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          10,
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "B",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          11,
+          12
+        ],
+        "accounts": [
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          12
+        ],
+        "accounts": [
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          11,
+          12
+        ],
+        "accounts": [
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source2",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          11,
+          12
+        ],
+        "accounts": [
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source2",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [],
+        "accepted": [],
+        "fills": [],
+        "accounts": [],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s22853_source2",
+      "left": [
+        "C",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          11,
+          12
+        ],
+        "accounts": [
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "B",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          11,
+          12
+        ],
+        "accounts": [
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          11,
+          12
+        ],
+        "fills": [
+          6
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          11,
+          12
+        ],
+        "accepted": [
+          11,
+          12
+        ],
+        "fills": [
+          11,
+          12
+        ],
+        "accounts": [
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source1",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source1",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [],
+        "accepted": [],
+        "fills": [],
+        "accounts": [],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source1",
+      "left": [
+        "C",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "B",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          11,
+          12
+        ],
+        "fills": [
+          7,
+          11,
+          12
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          11,
+          12
+        ],
+        "fills": [
+          7,
+          11,
+          12
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          11,
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source2",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          7,
+          10
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source2",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          7,
+          10,
+          12
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s23971_source2",
+      "left": [
+        "C",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          9,
+          12
+        ],
+        "accepted": [
+          12
+        ],
+        "fills": [
+          12
+        ],
+        "accounts": [
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "B",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7
+        ],
+        "accepted": [
+          6,
+          7
+        ],
+        "fills": [
+          6,
+          7
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source1",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7
+        ],
+        "accepted": [
+          6,
+          7
+        ],
+        "fills": [
+          6,
+          7
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source1",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source1",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7
+        ],
+        "accepted": [
+          6,
+          7
+        ],
+        "fills": [
+          6,
+          7
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source1",
+      "left": [
+        "C",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          7
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "B",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          10,
+          12
+        ],
+        "accepted": [
+          7,
+          10,
+          12
+        ],
+        "fills": [
+          7,
+          10,
+          12
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "accepted": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "fills": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source2",
+      "left": [
+        "B",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          8,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          8,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          8,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source2",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        1
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          8,
+          9,
+          10,
+          12
+        ],
+        "accepted": [
+          6,
+          8,
+          9,
+          10,
+          12
+        ],
+        "fills": [
+          6,
+          8,
+          9,
+          10,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": []
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source2",
+      "left": [
+        "B",
+        2
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "cross_mode",
+      "differing_rounds": {
+        "requested": [
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "accepted": [
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "fills": [
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "accounts": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": true,
+        "accepted": true,
+        "fills": true,
+        "accounts": true,
+        "price": false
+      }
+    },
+    {
+      "prefix": "s25087_source2",
+      "left": [
+        "C",
+        1
+      ],
+      "right": [
+        "C",
+        2
+      ],
+      "kind": "same_mode",
+      "differing_rounds": {
+        "requested": [
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "accepted": [
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "fills": [
+          7,
+          9,
+          11,
+          12
+        ],
+        "accounts": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "price": [
+          12
+        ]
+      },
+      "first_common_state_round6": {
+        "requested": false,
+        "accepted": false,
+        "fills": false,
+        "accounts": false,
+        "price": false
+      }
+    }
+  ],
+  "activity": [
+    {
+      "prefix": "s23971_source2",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 5,
+      "adjusted": 2,
+      "sessions_with_fills": 2
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 5,
+      "accepted_hold": 5,
+      "adjusted": 0,
+      "sessions_with_fills": 2
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 3,
+      "accepted_hold": 3,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 1,
+      "accepted_hold": 1,
+      "adjusted": 0,
+      "sessions_with_fills": 6
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 0,
+      "sessions_with_fills": 3
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s23971_source1",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 5,
+      "accepted_hold": 5,
+      "adjusted": 0,
+      "sessions_with_fills": 2
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 5,
+      "accepted_hold": 5,
+      "adjusted": 1,
+      "sessions_with_fills": 2
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 3,
+      "accepted_hold": 3,
+      "adjusted": 0,
+      "sessions_with_fills": 3
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 0,
+      "accepted_hold": 2,
+      "adjusted": 3,
+      "sessions_with_fills": 5
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 5,
+      "accepted_hold": 5,
+      "adjusted": 1,
+      "sessions_with_fills": 2
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 1,
+      "sessions_with_fills": 3
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 1,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "C",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 1,
+      "sessions_with_fills": 3
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 1,
+      "sessions_with_fills": 3
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 6,
+      "accepted_hold": 6,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 5,
+      "accepted_hold": 5,
+      "adjusted": 0,
+      "sessions_with_fills": 2
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 1,
+      "accepted_hold": 1,
+      "adjusted": 0,
+      "sessions_with_fills": 6
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 0,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s23971_source2",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 1,
+      "sessions_with_fills": 3
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s25087_source1",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s22853_source2",
+      "mode": "B",
+      "branch": 2,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s22853_source1",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 1,
+      "accepted_hold": 1,
+      "adjusted": 0,
+      "sessions_with_fills": 6
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "C",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 5,
+      "accepted_hold": 5,
+      "adjusted": 1,
+      "sessions_with_fills": 1
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_012",
+      "decisions": 7,
+      "requested_hold": 7,
+      "accepted_hold": 7,
+      "adjusted": 0,
+      "sessions_with_fills": 0
+    },
+    {
+      "prefix": "s25087_source2",
+      "mode": "B",
+      "branch": 1,
+      "agent_id": "llm_013",
+      "decisions": 7,
+      "requested_hold": 4,
+      "accepted_hold": 4,
+      "adjusted": 1,
+      "sessions_with_fills": 3
+    }
+  ],
+  "background_synchrony": {
+    "fundamentalists": {
+      "sessions": 216,
+      "identical": 216,
+      "active_sessions": 158,
+      "identical_active": 158
+    },
+    "momentum": {
+      "sessions": 216,
+      "identical": 216,
+      "active_sessions": 124,
+      "identical_active": 124
+    }
+  },
+  "reflection_ledger": "reflection_ledger.json",
+  "inputs_sha256": {
+    "runs/20261105_041035_common_prefix_ca10f93d/runs.json": "137a09cc43a78afa151432bdcfd08b0b6020510960ca821d18c72da2b395dc72",
+    "runs/20261105_041035_common_prefix_ca10f93d/protocol.json": "bfa3a2a644b6b4dc9e471f5f2690a5b458d8607dc385edd7970e605e81bb7487",
+    "runs/20261105_012335_quiet_components_5066abab/runs.json": "14ac2adede961341672e77c91efb0682945989acb887c131f4f64833d723f5c1",
+    "research/feedback_audit.py": "232dd209f7ced95b632d47db0966ae71226fb3f8b48a8ae36046d252a39bd453",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd/prices.csv": "a298b364a0507719d31e5b4e71f18c691ed03a24b9c26107ecd6a9c7a8423ab7",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd/orders.csv": "e45f7f6fc8fafa7721a6925fd2146dc3589247e0bda3013234ee784f242eb928",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd/trades.csv": "22bb9f7ef31ee84feb2895a375e773bba3c52a35f19aea22d0c094de5d7417bd",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd/agents_state.csv": "db6b820a94c556771413c104009ad979bde17ec9e5e03055e712464468780aaf",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd/llm_requests.jsonl": "0454c901c709b97c2240fb3f8a1d69d14c3c68fcfa59671156df7437acd5b2c1",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source2/calls.json": "14b198409a157b42cc073fc342ffa08f61a6570ba66123364704190f5a4a5c92",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041550_prefix_s22853_source2_B_branch1_08fc038b/prices.csv": "bcb7023819b7f21930f50c77752248e106515cc939a423d31dce95d86c8e9612",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041550_prefix_s22853_source2_B_branch1_08fc038b/orders.csv": "908e5a42c152f4039c1214e9b912b8748a605b6249e4bb9d312c038dfcc33bfa",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041550_prefix_s22853_source2_B_branch1_08fc038b/trades.csv": "971a5337a4ea17ec5fbb45028cd214ad4fdd04de6eb7c8bab98fbf6ac89a79e2",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041550_prefix_s22853_source2_B_branch1_08fc038b/agents_state.csv": "a2cd471ab5020384b658475c9ca6b60061b36d537a34085614b00b1456fdaea6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041550_prefix_s22853_source2_B_branch1_08fc038b/llm_requests.jsonl": "7007beb9670b5f023b5b35792e77bc1bf4b23e71c7851f00c10d50a66ef472fd",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source2/calls.json": "81bc02e8000b937f07867d4096ad99e499d753258552edc7a7e78ab8d00d6f06",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041902_prefix_s22853_source1_C_branch2_dbfb9e40/prices.csv": "65619c668717b5071c2f3ac128d2af61751c6fa3dbbfe9fbd62ce3bd71d2fc39",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041902_prefix_s22853_source1_C_branch2_dbfb9e40/orders.csv": "cae38ec20fa018f000f4a5ba7c4d7664622c73a71ffdd77020ca9d8eb7d4499c",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041902_prefix_s22853_source1_C_branch2_dbfb9e40/trades.csv": "8bcc283d1fa8fedd3907c9312706c5ad61aea4b74fcec677da6350989a439c2d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041902_prefix_s22853_source1_C_branch2_dbfb9e40/agents_state.csv": "1b84faa4f815147ad4f49cf851b9484c7ac01ae1b33e2d7dbb09b42f777255ee",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041902_prefix_s22853_source1_C_branch2_dbfb9e40/llm_requests.jsonl": "ba0dc01032a944f1cbbf9fe1f1a8bd9b7fecd63a753aacdcef8e970ac82e221f",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source1/calls.json": "1f7ec957e2714194df2fef365e9eb0a9813355347ab5349455bc93e157649033",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042233_prefix_s23971_source1_B_branch1_889b6b7e/prices.csv": "d8408076cbf96b2bd3793272ce52f9219e9465fff1a1c3956cf333119a26bbc4",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042233_prefix_s23971_source1_B_branch1_889b6b7e/orders.csv": "ed3c404d3a582f3e60c19bc9fceff021e215188a3a2f65c9beef3e2229e72f2d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042233_prefix_s23971_source1_B_branch1_889b6b7e/trades.csv": "e6d0da49f8257f72e20e3cfd87b6a2336696c8730a5c4cec57cb20ac78162fb2",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042233_prefix_s23971_source1_B_branch1_889b6b7e/agents_state.csv": "6c5432b9ac14bbba98374e2ad2a7b085734b2b609e465490c48de8f2894b6cc6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042233_prefix_s23971_source1_B_branch1_889b6b7e/llm_requests.jsonl": "2a9f1f6df1cda9a4ae207d34448d577ed21734d331f12aa1b3d0471240ae72a2",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source1/calls.json": "4814e84334b3857bf6e0679e5e29b7e81dbff7bce69281fddc505e55f78064a1",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042515_prefix_s23971_source1_C_branch2_9b5c4268/prices.csv": "6211035dd26002a1e8146cec7787d9b237da6d373eb340d0022ea9d735cdd3f0",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042515_prefix_s23971_source1_C_branch2_9b5c4268/orders.csv": "622faa15eef1d012024b0396d2135f6d8521f4d5e9e79a9f3a4b9c2c94abf003",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042515_prefix_s23971_source1_C_branch2_9b5c4268/trades.csv": "31ea754e7ac9420a3a49a1db91f3ffe626a8e82c01e6cdc61f9a45b51071e175",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042515_prefix_s23971_source1_C_branch2_9b5c4268/agents_state.csv": "9c8ecdf404a3a6dffa3d66751d9950e6528711ece668612deb3f2908eea3a507",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042515_prefix_s23971_source1_C_branch2_9b5c4268/llm_requests.jsonl": "7458499c435604739a66107cca5e3677b087b2e04cf8e522beb267ec4c15342d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042824_prefix_s22853_source2_C_branch2_e75899ab/prices.csv": "8a6e53d70f7c99e86dbef936acf9602df0b7a8b5f8c638ddaff55dac8ecf3a7d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042824_prefix_s22853_source2_C_branch2_e75899ab/orders.csv": "01f23fb20102a28466a458c9abe05c446c562188c1e6524648bd417ec79a95c9",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042824_prefix_s22853_source2_C_branch2_e75899ab/trades.csv": "692f2d22a1c07167a5df5bfe4e2fb5f8f28f1daf71ff26cb5b48074a637457f9",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042824_prefix_s22853_source2_C_branch2_e75899ab/agents_state.csv": "a70db4a1ca92dafbae614473b8fa42139c79fa2f93b4bef5e87d079402acb907",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_042824_prefix_s22853_source2_C_branch2_e75899ab/llm_requests.jsonl": "6fd8633de3aa86330c0a754e66759cfad736ce4f201238fe6f08f07c6c531f30",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043133_prefix_s25087_source1_B_branch1_94428b15/prices.csv": "8631665f8b26c17221c0b2984394b43051e02964db6d502376f11fa117e95772",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043133_prefix_s25087_source1_B_branch1_94428b15/orders.csv": "d48e96eb7289aca0fbc0b20639485bec7d4ce000626c7b8dd6a26ea83c8f3ef9",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043133_prefix_s25087_source1_B_branch1_94428b15/trades.csv": "7aadfec1268477a9b2dd494d27f88b5c4caad8e91fc300a18cabd7ab468121b6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043133_prefix_s25087_source1_B_branch1_94428b15/agents_state.csv": "c78df805b29a36561c0eea49776844b453e4bedca9ecb1547713b69cf20c6378",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043133_prefix_s25087_source1_B_branch1_94428b15/llm_requests.jsonl": "ffeeed48bfabb045828f4a0ed56dcc4723cdb33a6cb3b49edf36d9d578a846dc",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source1/calls.json": "84458945f4ecf26a3c154525ddfc505fb7931e7130ce78b3f79aad5efc38cd30",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043416_prefix_s23971_source1_B_branch2_9d6bed5e/prices.csv": "6211035dd26002a1e8146cec7787d9b237da6d373eb340d0022ea9d735cdd3f0",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043416_prefix_s23971_source1_B_branch2_9d6bed5e/orders.csv": "33d314cb9ea5861ba6eae68442f9b2e46b24f436ec45ba026529ecd1d7685047",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043416_prefix_s23971_source1_B_branch2_9d6bed5e/trades.csv": "31ea754e7ac9420a3a49a1db91f3ffe626a8e82c01e6cdc61f9a45b51071e175",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043416_prefix_s23971_source1_B_branch2_9d6bed5e/agents_state.csv": "9c8ecdf404a3a6dffa3d66751d9950e6528711ece668612deb3f2908eea3a507",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043416_prefix_s23971_source1_B_branch2_9d6bed5e/llm_requests.jsonl": "3444c57b71e330ba51120bc3feb0ba257796a06e863a3506ec35a9a4abc06f2f",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f/prices.csv": "e19e11517a439dfd6d3d36e742c043326041fd9263c02c9f8268a84ae9b8ee90",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f/orders.csv": "c1bce28ecba36e92d2ae41f3d9d6729ab1dbf3bda24b2869e0b7e92b84fa12a9",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f/trades.csv": "10e2b406882dc6c0eb91669aaac898ff0a43af5b31e53ef47a17aaed8599fc4f",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f/agents_state.csv": "8409ea83dc3a405fdb42357273d144b9846a57e604a98329c4414db985bbf836",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f/llm_requests.jsonl": "49018c4826aa4deb1af2976df45ce9cde9d1e437723874105943cfe32f30498a",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044000_prefix_s25087_source2_C_branch2_9ffff715/prices.csv": "3b4b7a22cd6015f588e1e3968ce43c1fc0d72b7c023a78291d1315955d33198d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044000_prefix_s25087_source2_C_branch2_9ffff715/orders.csv": "66968dfb78bc463799a46816c763cc21a78cca2c6125c19b1dca5b25c883faf6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044000_prefix_s25087_source2_C_branch2_9ffff715/trades.csv": "b932a0d23902a2953182794de2cc2564b60644cc3aea5dd250844eb90eebfa42",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044000_prefix_s25087_source2_C_branch2_9ffff715/agents_state.csv": "80fe5655c09a7934e2fd00169e886ea2c15898b91ca23381692d0e14daa4e892",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044000_prefix_s25087_source2_C_branch2_9ffff715/llm_requests.jsonl": "4469bf92e12634f15881df7403c0cfa746306926fcd498c8a70ce72736a2106b",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source2/calls.json": "92b954eb17b9eca164274e47eb0df294262871e39f0e88cee99bbfd854a2053a",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044340_prefix_s22853_source1_B_branch2_5d26f005/prices.csv": "e7ad5d2c0ea8e46d7070555722d4d55b4d3c3105cf0433a7696e83239f4b5350",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044340_prefix_s22853_source1_B_branch2_5d26f005/orders.csv": "949311a28550aa2c0b3eaaec740e3f85eb53066a9bfb6a1f27b25237bddc627a",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044340_prefix_s22853_source1_B_branch2_5d26f005/trades.csv": "942bacb3691e4d7406be717ceecf3e7f76f178bc4dea06d7424ef21fef51aba5",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044340_prefix_s22853_source1_B_branch2_5d26f005/agents_state.csv": "06adbfc74eab6d54f32b6bb3499605d76b6322510ba4ac18f6cac26dba777f36",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044340_prefix_s22853_source1_B_branch2_5d26f005/llm_requests.jsonl": "8dd70cd8a165a64d613b46337caeef21ec8123e8cdccecdd703fef6378848407",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044752_prefix_s25087_source1_B_branch2_b28c8274/prices.csv": "d951056bc587f5aa22d230ef115e718ea0360f852ce54521c4dfdcdb9e67847e",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044752_prefix_s25087_source1_B_branch2_b28c8274/orders.csv": "9fef0d9d81557c1be4054fd06d1a1b02d47fd6c86143f1917f3e09e3c801b496",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044752_prefix_s25087_source1_B_branch2_b28c8274/trades.csv": "611baf4912cdd06d730e413df786a066ba06f831b0e073056842ce0d738c0bf0",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044752_prefix_s25087_source1_B_branch2_b28c8274/agents_state.csv": "ccf0f1e7cc7b7883158e8a808dbd79d847afd98c8c8272da1f0ea7878a3153c5",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_044752_prefix_s25087_source1_B_branch2_b28c8274/llm_requests.jsonl": "e054b21054299cd51a300054b98eb31d69ac59e3bda88bc9f3ac5a5b9a10d626",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045026_prefix_s25087_source2_B_branch2_a6ff121a/prices.csv": "46b3ec12bf295e1d6d9958a77210da1fcc69fc8d4a28401b2fa8f19796a90ec6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045026_prefix_s25087_source2_B_branch2_a6ff121a/orders.csv": "b142be392c1d89603edcdca1afdc9972f38dfd7e626343d4b8b8b9350a64e004",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045026_prefix_s25087_source2_B_branch2_a6ff121a/trades.csv": "dd9d41eb5b3269eb44fbc456d00628ebeacb7078179aea5d7ae6543c43c33d8d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045026_prefix_s25087_source2_B_branch2_a6ff121a/agents_state.csv": "752ca969cb652450070b21fae787c28f26755775d33f59a8d027d539b9b52232",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045026_prefix_s25087_source2_B_branch2_a6ff121a/llm_requests.jsonl": "0d421ea7ad784b7675cfabfb6a3215dac7d291c1c1fc381befcbbd9068933fe9",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045248_prefix_s25087_source1_C_branch2_84d68bc5/prices.csv": "5778ca3e28839ea6f54d5d1fb630bd261afebe73459c060c9e59cf01025602ae",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045248_prefix_s25087_source1_C_branch2_84d68bc5/orders.csv": "57e306d16daa9908412dd9a18a4a03d376d9307ae7239109cff40c841f5a513c",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045248_prefix_s25087_source1_C_branch2_84d68bc5/trades.csv": "40d02feb8284fbe838755bce88ec430d21eb406b8e5339cad8067b8c8ffd7c69",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045248_prefix_s25087_source1_C_branch2_84d68bc5/agents_state.csv": "372642dcf2ddf7a984690e656a1e85a7e31d4c7c06490161fd2cddcf99dc70f5",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045248_prefix_s25087_source1_C_branch2_84d68bc5/llm_requests.jsonl": "5c2746c20dceb237a3a884942130cd88e3eb9a5644a29c25ba9b1067b640a6d8",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045556_prefix_s23971_source2_C_branch2_7ac11682/prices.csv": "703ee6a6a8c350ce9dbed9bc6517446b1209bdd76d723b8c9e6407098dd80616",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045556_prefix_s23971_source2_C_branch2_7ac11682/orders.csv": "3d73e0fece30d046c95b14475d788e3983e64c03293b316b4f722c7390137939",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045556_prefix_s23971_source2_C_branch2_7ac11682/trades.csv": "1c1a03e449141c9deaa829fd6d30ee313949e2d4daf4fa3baffa4470816e17d1",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045556_prefix_s23971_source2_C_branch2_7ac11682/agents_state.csv": "aa5736dc81fbebac4fa7069530ed9462db75e81eddb76a6bbb94c9995aa3fe81",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045556_prefix_s23971_source2_C_branch2_7ac11682/llm_requests.jsonl": "c460cad025dd8cc1bd8063775d09a481ae2e91c8888eae73cde2502060c83a74",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad/prices.csv": "2c697d1ea0962dc41dbde0d7f4796e61cbf23584eca29610ef44d7999ba7c6f5",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad/orders.csv": "14274b024b6efcc0d04515656d4e456d1d3d357fe5b6900528df2f61934ac76e",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad/trades.csv": "8b63f4e6b66409079bed07ded1903d906f29bed032d81e107588c946ae6309f1",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad/agents_state.csv": "a827f45313242f33941e7f46d2a6817247a01a8c53aa1cccf50609f3a9ae5b65",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad/llm_requests.jsonl": "d6d32a4233fb82c5eca5727f6224b7d89184ab6e2012d284c69a4be7343c20f0",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e/prices.csv": "87fe628f8600b05fd50bc5e65f61bca560f8fe77bf0fbb4253464fd44f8dd2fd",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e/orders.csv": "65edc78ab8984bcb046154e0af9b970e6cee2d18eb710fe6759e669565a3d64b",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e/trades.csv": "d6deb9155d539c39d88546acf1c696704730bd99afcf35d94df55b8396e82a68",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e/agents_state.csv": "ac40c968cc19dda04b2a9ee6af5e44687f3edee6827a17e6d6086c5bc0557b12",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e/llm_requests.jsonl": "8c33c3e1217f434193873b9ef3d54d6e5b1a71cafd729ad1b4f4c80634ec80ff",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050606_prefix_s22853_source1_B_branch1_e13442ae/prices.csv": "c03fcd174c6501a4b6efc833e55b3c8ffcb8cecaa213b7a92be908e3015a64c7",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050606_prefix_s22853_source1_B_branch1_e13442ae/orders.csv": "83a12a7c7a8ee2169084a6ea2c070aefb8b90aa0cc1b90614d194206b839aba1",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050606_prefix_s22853_source1_B_branch1_e13442ae/trades.csv": "e37aeb8b1c6b9082de3c7c2052b79fbd5d93483670cf658198d66cc83bf97ea3",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050606_prefix_s22853_source1_B_branch1_e13442ae/agents_state.csv": "3b1fe6bbcbaa1467a780e0ac4aba59b3b02164d1f1a12855d9b2712a42c5f43c",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050606_prefix_s22853_source1_B_branch1_e13442ae/llm_requests.jsonl": "6e51cc48505da5b1b560ce7c4626a2293f2bc7b5b9def30c1f94008b124c3ff7",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050944_prefix_s23971_source2_B_branch2_68736472/prices.csv": "9cd0bd78f5434f614f8ccefcc2a8e001e0920b88f3bd1456ee0b66536af2f701",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050944_prefix_s23971_source2_B_branch2_68736472/orders.csv": "ae9c7a92f6f18afe23187ad6d5aa4c47fd042d1d773cee783ed5b89ad28587ce",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050944_prefix_s23971_source2_B_branch2_68736472/trades.csv": "d6e9276f108f41c86b3fbcc504d70bca1209b3b136dad3d45548fc684ee8c966",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050944_prefix_s23971_source2_B_branch2_68736472/agents_state.csv": "d31c148ae21bd8b687c92f4377e3e78bc684878a986208e1739c09672a725fa1",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050944_prefix_s23971_source2_B_branch2_68736472/llm_requests.jsonl": "59d7d0044ded25e3c6c2e8d777ce6fc42e794c3ce341e0cf0db4f8d79a005981",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5/prices.csv": "761785bf269f96596c277f8da3ac14639fae3549419a5af9e69bb0107551f13b",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5/orders.csv": "19264720799d3de6e4cb52ad53a0f470a2197fe06457a86cc16c15d6ff3fc236",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5/trades.csv": "85a756659bce67fbdfda51dd1267d61181b2fbd8daff956b3490fa9e57f9559f",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5/agents_state.csv": "6255cc9e0e2f92ef901a33a41cedc1b4accc5d3db1d8d6e22f85ff512f187c9e",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5/llm_requests.jsonl": "7d686d52c175c71ab1f8b30f531a1cedd77ffe6b23ab9b80174c5296db2fedd6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051606_prefix_s22853_source2_B_branch2_8493678b/prices.csv": "8a6e53d70f7c99e86dbef936acf9602df0b7a8b5f8c638ddaff55dac8ecf3a7d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051606_prefix_s22853_source2_B_branch2_8493678b/orders.csv": "c5edd88861e48162fc30fa12bfe063bc103e65824d58f02c7fe8c70067eb3be2",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051606_prefix_s22853_source2_B_branch2_8493678b/trades.csv": "692f2d22a1c07167a5df5bfe4e2fb5f8f28f1daf71ff26cb5b48074a637457f9",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051606_prefix_s22853_source2_B_branch2_8493678b/agents_state.csv": "a70db4a1ca92dafbae614473b8fa42139c79fa2f93b4bef5e87d079402acb907",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051606_prefix_s22853_source2_B_branch2_8493678b/llm_requests.jsonl": "0c1b412caa8e002043811f78059d8fb8c8070ab75783aa95156981b213b0041e",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d/prices.csv": "6961e2850e8f08b9fe3348e5c8947a9621209fc2dc1ae0d97302a626e21692bf",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d/orders.csv": "8b629176d92ba536e1c054d76ab5d4a412310ad760f0cb65c38d80f5f635616c",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d/trades.csv": "742f2af922a6799c8205d50b618f799d6868d85851f4e75e35dfbdfa8c79eef5",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d/agents_state.csv": "81f2dfba78bd67b88ce3b7e0c50a209e103a5f0a4b1f06c570429befb6682795",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d/llm_requests.jsonl": "0ed5e4b5661b52472cc898ed66c46ce62c57ca903f27c48b50f471aa81cd4bec",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae/prices.csv": "83428d045e6c5475fab80791240d9879dc8eb057679648a1b3ada8aa32cce3f7",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae/orders.csv": "a8683a7a13491a703b7abc804490fab9ae5992c23eb09ad76e6e6f5e0ae7afec",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae/trades.csv": "23861e8a0a834e3719db3b7f4582482b9ba296a628591ce7778b7eb394fbc1c6",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae/agents_state.csv": "7a0d4f45cb132af7ff5ebfdab1c67c7d4b61cbc7282c12c6bc91d80fc9577556",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae/llm_requests.jsonl": "469a1f920f5c2377691ec1c6aa12100d612db86364cd5a709c964e39344cbf48",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052604_prefix_s25087_source2_B_branch1_fdec6bc0/prices.csv": "57e7bb86080944d03f1a037a0c7b790c8b3972a637524685c2a08e4b7b24e66b",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052604_prefix_s25087_source2_B_branch1_fdec6bc0/orders.csv": "16bd6d48a648d2d5f0ca778bde46365ecb5c7c18395d6efddf0993d57ee45f7d",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052604_prefix_s25087_source2_B_branch1_fdec6bc0/trades.csv": "89137e098ad721077f0b857f7c11af4fb2bbabdc3fe6c7a1bcc969634ff17087",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052604_prefix_s25087_source2_B_branch1_fdec6bc0/agents_state.csv": "863a58a0ee4c955945a46b6d41aaa50d509afb18202bc1524aae253cf5c95865",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052604_prefix_s25087_source2_B_branch1_fdec6bc0/llm_requests.jsonl": "84e16fb14bfefe54e1836d1cb2d7e272adf82bc036c71069f0060e45ecce043d",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8/orders.csv": "094479231ff080beb7f6c6c6e95c5c35dbd12163a5c338fcdd2f2e4e7988bdeb",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5/orders.csv": "95284e7fb6ded4c6e22a306891d88f023b08974d45ae62bd0fb4a2e64d93566a",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7/orders.csv": "eb13cb638632b1e9fd16ab409945beabb837fc6ce3d53216b89283ee152929a9",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00/orders.csv": "80449cc51170088963cea96182f4edbaa1b8740d89cab04644a79a185711992e",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382/orders.csv": "c6c8c9896cb32a85a12f21041f36d2c07854615a785a650ab1c4cb071793ec3f",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c/orders.csv": "5ce0af10cd30a39c6b13ce68ec883c93847420aec2280be0ad1902438fb64f42",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003/orders.csv": "9af584d87f561337c55c92f1b90934fd6c39873f3d44e4f4e7474dbd0bc5f8a1",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74/orders.csv": "d55fc802e9bc7fedeae23f07c3d9b8bf3765ad64921647b12c8e6e8c4690aeb7",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830/orders.csv": "3e888f440182c3dddcd4e345c551bca0498ae68105e88132a3b5de2f1b7a8ca0",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0/orders.csv": "43b919934159294bee13a945b644dbb4186cde45f49040e314abbc57b042e01b",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1/orders.csv": "4e486b3f84180e0018ecce0e8254cd84619cb067649c9f296b62eeecf931bd09",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838/orders.csv": "144a1fa0a9cc2747cfa13f4a83836c45ec33038abd8b85badc079ac866ec76f0",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c/orders.csv": "829fead6c476c493bfea16673508f5401beafa1de0bd67cb9b864085e452d5bf",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c/orders.csv": "ee737239788c6b6f1df843f01923519560c82138dd745dce09ec713da9e07b37",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8/orders.csv": "17a509ce0649b56a2477fd3a94b4cf536e1f7f0cbb0a11d05b36e64247520060",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953/orders.csv": "95d5464c27412225a936b576a4d5af05bcbc56f6b092e27a7f74c0abf0da2c92",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98/orders.csv": "a073b31253b2bb7738d5648b787b92610d0153fe1784c945524e3a63e598e3d4",
+    "runs/20261105_012335_quiet_components_5066abab/market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0/orders.csv": "d5b8fe69f2b9534e9302cd1a2625afa6ba9661bef1a82ac8d723aab9404f91aa"
+  }
+}

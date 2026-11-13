@@ -1,0 +1,29 @@
+{
+  "status": "verified_diagnostic",
+  "offline_tests_passed": 96,
+  "completed_market_runs": 6,
+  "completed_probes": 18,
+  "requests": 71,
+  "provider_tokens": 76839,
+  "primary_output_hashes_verified": 96,
+  "source_archives_verified": 7,
+  "current_source_matches_all_runs": true,
+  "matching_executions_accounts_memories_verified": true,
+  "credential_scan_passed": true,
+  "artifact_sha256": {
+    "qwen_pilot_diagnostic_20261102.json": "91b8ff283c026ed30747870284c3d2db5189ff847e9dd6d7025763246ed73f09",
+    "qwen_pilot_analysis_20261102.py": "794cfbb7950e77e445617c07be947cb61fae5537e7b436f06da61ad43e71ef83",
+    "qwen_valuation_plot_20261102.py": "f8b1a5305de7a547524fd92a248aa8ac4cdb1fcbdf3cd093816479b01cfd57ae",
+    "qwen_valuation_diagnostic_20261102.png": "cea816a6f85cdcdb4498ba4b4b0482a3fb9d482aee925e536511f438e5a4e05a",
+    "qwen_valuation_diagnostic_20261102.pdf": "a6e01d748db208301c19261161a05c9304989b33dab955050b64a165fcc055bf",
+    "bharatcode_access_20261102\\models.json": "667ff37b08e231a4babae4c0595fe7843c1e91b7de997d4bc9159c9858b412a0",
+    "20261102_050006_qwen_probes_e918237e\\market_A_704.yaml": "533cd1ee26c6ec51d3f1271f35333fc1917b8de364135a6c73261114aff8785a",
+    "20261102_050006_qwen_probes_e918237e\\market_A_905.yaml": "296b8d72c3217396f0335f213c69104efc6a498203953033b0e815499e8b986f",
+    "20261102_050006_qwen_probes_e918237e\\market_B_704.yaml": "f6934e4f0233058e63abe4206c8a294361a4fdb502cfd2991e3773aada2cc8be",
+    "20261102_050006_qwen_probes_e918237e\\market_B_905.yaml": "1a1bb8df1a7af755408a7371b5e3ad233b46436f06602816b8564f173fe156cb",
+    "20261102_050006_qwen_probes_e918237e\\market_C_704.yaml": "69d0d768b54547be5bd2b806c19cce94478e7aec050dae340d18d64fbbf153bf",
+    "20261102_050006_qwen_probes_e918237e\\market_C_905.yaml": "dd23a337337162fd6d96d28cd4e848aa84fd16fb05be8df85faf0d261413a7f6",
+    "20261102_050006_qwen_probes_e918237e\\market_runs.json": "0ce58d8d3684ca609e315b874a7f80afec6e2f081b640d83f35a77f0700a2e0e",
+    "20261102_050006_qwen_probes_e918237e\\market_schedule.json": "73f2ebf3e411a33bcc2bcb36b3d9973eeaf07eadfe148e79f62ad1b2e5d33122"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "pid": 17092,
+  "planned_markets": 2,
+  "planned_decisions": 2400,
+  "completed_markets": 2,
+  "delivered_responses": 2400,
+  "markets": [
+    {
+      "path": "s42_heterogeneous_posts",
+      "completed_rounds": 100
+    },
+    {
+      "path": "s43_heterogeneous_posts",
+      "completed_rounds": 100
+    }
+  ],
+  "usage": {
+    "requests_made": 2707,
+    "max_requests": 3000,
+    "reserved_tokens": 27716643,
+    "max_reserved_tokens": 48000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": null,
+    "provider_reported_tokens": 5757931,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 307,
+    "failed_requests": 307,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 110,
+    "input_tokens_per_minute": 200000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "updated_utc": "2026-11-10T05:04:40.239408+00:00",
+  "current_market": "s43_heterogeneous_posts",
+  "current_round": 100,
+  "last_attempt_status": "returned",
+  "last_model": "deepseek/deepseek-v4.1-flash"
+}

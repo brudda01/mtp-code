@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "seed": 4103,
+  "completed_markets": 2,
+  "recorded_markets": 3,
+  "planned_markets": 3,
+  "failure_type": "ProviderUnavailable",
+  "finished_utc": "2026-11-03T13:41:06.903096+00:00"
+}

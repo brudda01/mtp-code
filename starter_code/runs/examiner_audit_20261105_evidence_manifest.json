@@ -1,0 +1,11 @@
+{
+  "path": "starter_code/runs/examiner_audit_20261105_evidence.zip",
+  "sha256": "6a9eb55e3c96ef1cd61422963fab41bb84c883f6afc7271e6198fb05d2481f08",
+  "bytes": 9839710,
+  "exported_file_hashes": 916,
+  "recursive_configured_secret_scan_members": 2052,
+  "previous_archives_unchanged": 11,
+  "all_member_hashes_verified": true,
+  "new_live_calls": 0,
+  "offline_replay_paths": 42
+}

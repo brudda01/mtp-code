@@ -1,0 +1,10 @@
+{
+  "status": "stopped",
+  "completed_markets": 9,
+  "recorded_market_arms": 10,
+  "usable_markets": 9,
+  "planned_markets": 16,
+  "failure_type": "ProviderUnavailable",
+  "finished_utc": "2026-11-02T15:09:03.056265+00:00",
+  "study_sha256": "0a901d2fc24f41d5c7a2207c741f46a34df14e60d1ad0b61733eb621c72d7355"
+}

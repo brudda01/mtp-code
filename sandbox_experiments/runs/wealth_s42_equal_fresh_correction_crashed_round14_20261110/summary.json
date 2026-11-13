@@ -1,0 +1,28 @@
+{
+  "status": "running",
+  "delivered_responses": 167,
+  "replayed_decisions": 0,
+  "completed_rounds": 0,
+  "pid": 5772,
+  "usage": {
+    "requests_made": 168,
+    "max_requests": 1500,
+    "reserved_tokens": 1491141,
+    "max_reserved_tokens": 24000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": null,
+    "provider_reported_tokens": 330062,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 110,
+    "input_tokens_per_minute": 200000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "updated_utc": "2026-11-10T04:30:06.378183+00:00",
+  "last_attempt_status": "returned"
+}

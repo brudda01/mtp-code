@@ -1,0 +1,690 @@
+{
+  "version": "first_live_diagnostic_v4_qwen_student",
+  "question": "Does the live model support a useful bounded pilot?",
+  "probe_cases": [
+    {
+      "family": "disclosed_value",
+      "variant": "value_120",
+      "repetition": 2,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 120,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "disclosed_value",
+      "variant": "value_100",
+      "repetition": 2,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 100,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "constraints",
+      "variant": "empty_account",
+      "repetition": 1,
+      "condition": "B",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 120,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 0,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 0,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "risk_trait",
+      "variant": "high",
+      "repetition": 2,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100,
+          102,
+          104,
+          106,
+          108,
+          110
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 21000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "high",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "constraints",
+      "variant": "empty_account",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 120,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 0,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 0,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "risk_trait",
+      "variant": "low",
+      "repetition": 2,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100,
+          102,
+          104,
+          106,
+          108,
+          110
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 21000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "low",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "headline_only",
+      "variant": "positive_headline",
+      "repetition": 2,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [
+          "A newspaper reports that KGP's future dividends may rise by 20%; this is unverified."
+        ],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "disclosed_value",
+      "variant": "value_120",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 120,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "constraints",
+      "variant": "little_cash_no_shares",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 120,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 10,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "constraints",
+      "variant": "little_cash_no_shares",
+      "repetition": 1,
+      "condition": "B",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 120,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 10,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "disclosed_value",
+      "variant": "value_100",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": 100,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "risk_trait",
+      "variant": "low",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100,
+          102,
+          104,
+          106,
+          108,
+          110
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 21000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "low",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "risk_trait",
+      "variant": "high",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100,
+          102,
+          104,
+          106,
+          108,
+          110
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 21000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "high",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "headline_only",
+      "variant": "positive_headline",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [
+          "A newspaper reports that KGP's future dividends may rise by 20%; this is unverified."
+        ],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "headline_only",
+      "variant": "no_news",
+      "repetition": 1,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    },
+    {
+      "family": "headline_only",
+      "variant": "no_news",
+      "repetition": 2,
+      "condition": "A",
+      "observation": {
+        "round": 6,
+        "total_rounds": 20,
+        "price_history": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "last_volume": 10,
+        "last_dividend": 0.02,
+        "risk_free_rate": 0.0002,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 10000,
+        "my_shares": 100,
+        "my_avg_cost": 100,
+        "my_wealth": 20000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      }
+    }
+  ],
+  "arithmetic_repetitions": 2,
+  "arithmetic_expected": {
+    "price_change_pct": 10,
+    "interest_income": 2,
+    "dividend_income": 2,
+    "maximum_affordable_shares": 96
+  },
+  "market_conditions": [
+    {
+      "seed": 704,
+      "condition": "A"
+    },
+    {
+      "seed": 704,
+      "condition": "B"
+    },
+    {
+      "seed": 704,
+      "condition": "C"
+    },
+    {
+      "seed": 905,
+      "condition": "A"
+    },
+    {
+      "seed": 905,
+      "condition": "B"
+    },
+    {
+      "seed": 905,
+      "condition": "C"
+    }
+  ],
+  "limits": "At most 24 probe attempts + six runs of at most 12 = 96; 700000 byte-based token reservations. Zero incremental student token price; no subscription/upgrade purchased.",
+  "model_change": "User selected BharatCode Qwen student access after Gemini access failures. Preserve earlier Lite/Gemini artifacts separately; not an isolated model-size ablation.",
+  "sampling": "Requested temperature 0.3 decisions/probes, 0 reflections; low reasoning effort, output cap 2048. Provider RNG/seed and effective sampling implementation are not exposed.",
+  "interpretation": "Diagnostic only; independent replies, two repeats per paired probe, no population or long-run realism claim.",
+  "price_source": "https://bharatcode.ai/build",
+  "billing_tier": "User-reported verified student benefit, 10M tokens/day; no per-token billing in this included allowance. Remaining allowance not independently verified.",
+  "quota_basis": "Chosen 10 RPM / 60000 byte-based input estimates per minute; actual RPM/queue limit unknown. 180-second timeout, no hidden retries, stop on provider errors or truncated output."
+}

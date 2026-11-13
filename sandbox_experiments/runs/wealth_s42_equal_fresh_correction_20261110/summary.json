@@ -1,0 +1,29 @@
+{
+  "status": "stopped",
+  "delivered_responses": 432,
+  "replayed_decisions": 0,
+  "completed_rounds": 0,
+  "pid": 30468,
+  "usage": {
+    "requests_made": 857,
+    "max_requests": 1500,
+    "reserved_tokens": 8581789,
+    "max_reserved_tokens": 24000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": null,
+    "provider_reported_tokens": 992165,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 425,
+    "failed_requests": 425,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 110,
+    "input_tokens_per_minute": 200000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "updated_utc": "2026-11-10T05:48:17.997572+00:00",
+  "last_attempt_status": "returned",
+  "error_type": "RuntimeError"
+}

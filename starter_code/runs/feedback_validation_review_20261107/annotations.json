@@ -1,0 +1,132 @@
+{
+  "status": "reviewed",
+  "method": "Focused AI-assisted nonblinded analyst review of fullraw and retained diaries;not independenthuman adjudication. Ancillary examples are not an exhaustive arithmetic-error rate.",
+  "annotations": [
+    {
+      "slot": 1,
+      "case": "s22853_source1_llm_012",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Full raw and retained diary read against the fixed history: no claim that an earlier explanation should have used a later auction price; no full-fill assurance. This is narrow target coding,not comprehensive factual certification."
+    },
+    {
+      "slot": 2,
+      "case": "s22853_source1_llm_012",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Full raw and retained diary read against the fixed history: no claim that an earlier explanation should have used a later auction price; no full-fill assurance. This is narrow target coding,not comprehensive factual certification."
+    },
+    {
+      "slot": 3,
+      "case": "s22853_source1_llm_013",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Reflection criticizes limit pricing against realized clearing and proposes market selling;this does not explicitly accuse an earlier price explanation of misreading its available tape. Both acknowledge partial market fills. No full-fill assurance. The distinction follows the prespecified narrow rubric."
+    },
+    {
+      "slot": 4,
+      "case": "s22853_source1_llm_013",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Reflection criticizes limit pricing against realized clearing and proposes market selling;this does not explicitly accuse an earlier price explanation of misreading its available tape. Both acknowledge partial market fills. No full-fill assurance. The distinction follows the prespecified narrow rubric."
+    },
+    {
+      "slot": 5,
+      "case": "s22853_source2_llm_012",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Full raw and retained diary read against the fixed history: no claim that an earlier explanation should have used a later auction price; no full-fill assurance. This is narrow target coding,not comprehensive factual certification."
+    },
+    {
+      "slot": 6,
+      "case": "s22853_source2_llm_012",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [
+        {
+          "quote": "Wealth grew ~5.6%.",
+          "rationale": "Initial wealth20000 and closing5wealth20579.444508943423 imply2.8972225%growth;5.6%is the stock-price increase100to105.6. This ancillary arithmetic contradiction occurs in both raw and retained diary;it is not the primary temporal-error category."
+        }
+      ],
+      "rationale": "Full raw and retained diary read against the fixed history: no claim that an earlier explanation should have used a later auction price; no full-fill assurance. This is narrow target coding,not comprehensive factual certification."
+    },
+    {
+      "slot": 7,
+      "case": "s22853_source2_llm_013",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Full raw and retained diary read against the fixed history: no claim that an earlier explanation should have used a later auction price; no full-fill assurance. This is narrow target coding,not comprehensive factual certification."
+    },
+    {
+      "slot": 8,
+      "case": "s22853_source2_llm_013",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": "absent",
+      "diary_temporal": "absent",
+      "raw_guarantee": "absent",
+      "diary_guarantee": "absent",
+      "raw_price_discussion": true,
+      "raw_fill_discussion": true,
+      "evidence": [],
+      "ancillary": [],
+      "rationale": "Full raw and retained diary read against the fixed history: no claim that an earlier explanation should have used a later auction price; no full-fill assurance. This is narrow target coding,not comprehensive factual certification."
+    }
+  ],
+  "coverage": "All8delivered replies/fullraw and retained diaries;40planned slots missing after2HTTP503attempts onslot9. No coding of missing slots."
+}

@@ -1,0 +1,26 @@
+{
+  "noisy_proxy": [
+    {
+      "dividend": 0.016,
+      "proxy": 80.0,
+      "side": "sell"
+    },
+    {
+      "dividend": 0.024,
+      "proxy": 120.0,
+      "side": "buy"
+    }
+  ],
+  "anchored_sides": [
+    "hold",
+    "hold"
+  ],
+  "maintenance": "short: maintenance 1500.0 < 1560.0",
+  "boundary": {
+    "initial_cash": 99.99999999999999,
+    "accepted_quantity": 1,
+    "settlement": "ValueError: negative cash",
+    "final_cash": 99.99999999999999,
+    "final_shares": 0
+  }
+}

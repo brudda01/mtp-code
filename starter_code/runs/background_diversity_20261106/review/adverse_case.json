@@ -1,0 +1,32 @@
+{
+  "scope": "Post-hoc adverse-case inspection;not a prespecified endpoint or isolated mechanism test",
+  "seed": 29671,
+  "heterogeneous": true,
+  "skew": 0.02,
+  "source_path": "starter_code/runs/background_diversity_20261106/markets/20261106_010400_diversity_1_skew_20_s29671_5990f50a",
+  "source_sha256": {
+    "agents_state.csv": "971a763ff06a88ac1ac809a2297401035df91cdb3cf361a8d12366d312b4c6ad",
+    "prices.csv": "08974bedd3f579e63252f784cc816de719c3e52a9adee445ec2d09aa1fcbcf75"
+  },
+  "fundamentalist_ids": [
+    "fund_005",
+    "fund_006",
+    "fund_007",
+    "fund_012"
+  ],
+  "all_fundamentalists_zero_shares_rounds_450_through_600": true,
+  "selected_prices": {
+    "450": 119.6,
+    "500": 159.2,
+    "600": 217.5
+  },
+  "whole_path_mean_absolute_relative_gap": 0.21003333333333332,
+  "last_200_sessions": {
+    "start": 401,
+    "end": 600,
+    "acf1": 0.0022002710453392542,
+    "gap": 0.548655,
+    "mm_boundary_fraction": 0.0
+  },
+  "limitations": "No-short constraint is consistent with limited corrective selling;does not isolate the cause of the price run-up. Nested block is not an independent replication."
+}

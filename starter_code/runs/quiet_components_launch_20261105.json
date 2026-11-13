@@ -1,0 +1,7 @@
+{
+    "action":  "single frozen campaign, no automatic restart",
+    "pid":  5560,
+    "campaign":  "R043",
+    "started_utc":  "2026-11-04T19:54:35.0807986Z",
+    "study":  "runs/20261105_012335_quiet_components_5066abab"
+}

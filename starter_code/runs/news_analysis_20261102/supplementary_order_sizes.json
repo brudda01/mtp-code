@@ -1,0 +1,48 @@
+{
+  "status": "post-hoc descriptive diagnostic",
+  "rows": [
+    {
+      "brain": "rules",
+      "cell": "control",
+      "active_target_orders": 29,
+      "median_accepted_quantity": 3.0
+    },
+    {
+      "brain": "rules",
+      "cell": "headline_only",
+      "active_target_orders": 29,
+      "median_accepted_quantity": 3.0
+    },
+    {
+      "brain": "rules",
+      "cell": "fundamentals_only",
+      "active_target_orders": 31,
+      "median_accepted_quantity": 3.0
+    },
+    {
+      "brain": "rules",
+      "cell": "combined",
+      "active_target_orders": 31,
+      "median_accepted_quantity": 3.0
+    },
+    {
+      "brain": "qwen",
+      "cell": "control",
+      "active_target_orders": 21,
+      "median_accepted_quantity": 40.0
+    },
+    {
+      "brain": "qwen",
+      "cell": "headline_only",
+      "active_target_orders": 19,
+      "median_accepted_quantity": 28.0
+    },
+    {
+      "brain": "qwen",
+      "cell": "fundamentals_only",
+      "active_target_orders": 22,
+      "median_accepted_quantity": 57.5
+    }
+  ],
+  "note": "Active accepted orders only, excludes HOLD; not a predeclared optimization target. Quantity-policy differences may explain participation; no default selection or model superiority claim."
+}

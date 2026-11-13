@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "credential_scan": "current configured key absent from source archive, outputs and launch logs",
+  "files_checked": 19,
+  "original_battery_sha256": "67929bd362979762633eef024c2ce88e2ec3b8db2b36af2fd4eef34dc30246b1",
+  "run_manifest_sha256": "50286cff800520e1c58894f486a9a6b291425fbe57fcaab210d74ee8301aab1e",
+  "all_48_first_attempt_messages_verified": true,
+  "all_accepted_orders_reservation_feasible": true,
+  "source_and_output_hashes_verified": true
+}

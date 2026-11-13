@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.0
+pyyaml>=6.0
+matplotlib>=3.8
+pytest>=8.0
+# added in P5/P6:
+arch>=6.0        # GARCH fitting for volatility clustering test
+tqdm>=4.66       # progress bars (P9)

@@ -1,0 +1,65 @@
+{
+  "status": "verified_partial",
+  "attempted_market_arms": 14,
+  "complete_rule_arms": 8,
+  "complete_live_arms": 3,
+  "new_partial_rounds": 14,
+  "same_state_queries": 0,
+  "recorded_http_attempts": 171,
+  "transport_retries_used": 0,
+  "json_repairs": 0,
+  "failures": [
+    {
+      "call_id": "llm_013:1:decision:1",
+      "round": 1,
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": null,
+      "transport_retry_planned": null,
+      "usage": null
+    },
+    {
+      "call_id": "llm_013:10:decision:1",
+      "round": 10,
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": null,
+      "transport_retry_planned": null,
+      "usage": null
+    },
+    {
+      "call_id": "llm_012:15:decision:1",
+      "round": 15,
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "transport_retry_planned": false,
+      "usage": null
+    }
+  ],
+  "usage": {
+    "requests_made": 171,
+    "reserved_tokens": 2055022,
+    "provider_reported_tokens": 479359,
+    "unknown_usage_requests": 3,
+    "failed_requests": 3,
+    "blocked_requests": 1
+  },
+  "source_sets": 2,
+  "protected_methods_and_prompt_checks": {
+    "changed_files": [
+      "sim/agents/llm_agent.py",
+      "sim/config.py",
+      "sim/engine.py",
+      "sim/news_pilot.py",
+      "sim/provenance.py"
+    ],
+    "protected_prompt_policy_methods_equal": true,
+    "engine_equal_after_delivery_parameters_and_summary_counters_removed": true
+  },
+  "credential_scan": "passed",
+  "files_checked": 316,
+  "original_partial_archive_sha256": "c0a0c7c8087dc5f239d8e01bc6ea7dd986a6c9329928c0955983f85e0b4c6ffa"
+}

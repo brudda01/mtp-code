@@ -1,0 +1,458 @@
+[
+  {
+    "case_id": "arithmetic_1",
+    "family": "arithmetic",
+    "repetition": 1,
+    "parsed": {
+      "price_change_pct": 10.0,
+      "interest_income": 2.0,
+      "dividend_income": 2.0,
+      "maximum_affordable_shares": 96
+    },
+    "status": "returned"
+  },
+  {
+    "case_id": "arithmetic_2",
+    "family": "arithmetic",
+    "repetition": 2,
+    "parsed": {
+      "price_change_pct": 10.0,
+      "interest_income": 2.0,
+      "dividend_income": 2.0,
+      "maximum_affordable_shares": 96
+    },
+    "status": "returned"
+  },
+  {
+    "case_id": "p00_disclosed_value_value_120_r2",
+    "family": "disclosed_value",
+    "variant": "value_120",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p00_disclosed_value_value_120_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 101.0,
+      "round": 6,
+      "reasoning": "Analyst fair value of 120 suggests meaningful upside from 100, and the stock has been stable with consistent dividends; I'll add to my position while keeping a cash buffer.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p00_disclosed_value_value_120_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 101.0,
+      "round": 6,
+      "reasoning": "Analyst fair value of 120 suggests meaningful upside from 100, and the stock has been stable with consistent dividends; I'll add to my position while keeping a cash buffer.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p01_disclosed_value_value_100_r2",
+    "family": "disclosed_value",
+    "variant": "value_100",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p01_disclosed_value_value_100_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "Price is stable at fair value, and the dividend yield (0.02/share) roughly doubles the risk-free rate, so I'll add to my position while keeping a solid cash buffer.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p01_disclosed_value_value_100_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "Price is stable at fair value, and the dividend yield (0.02/share) roughly doubles the risk-free rate, so I'll add to my position while keeping a solid cash buffer.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p02_constraints_empty_account_r1",
+    "family": "constraints",
+    "variant": "empty_account",
+    "repetition": 1,
+    "condition": "B",
+    "requested": {
+      "agent_id": "p02_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "I have no cash and no shares, so there is nothing I can trade this round; I'll wait for a future opportunity to enter.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p02_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "I have no cash and no shares, so there is nothing I can trade this round; I'll wait for a future opportunity to enter.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p03_risk_trait_high_r2",
+    "family": "risk_trait",
+    "variant": "high",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p03_risk_trait_high_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 112.0,
+      "round": 6,
+      "reasoning": "Clean uptrend of +2 per round for six sessions, and I've been sitting on 10k cash doing nothing while the stock runs; adding 50 shares to ride the momentum while keeping a cash buffer.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p03_risk_trait_high_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 112.0,
+      "round": 6,
+      "reasoning": "Clean uptrend of +2 per round for six sessions, and I've been sitting on 10k cash doing nothing while the stock runs; adding 50 shares to ride the momentum while keeping a cash buffer.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p04_constraints_empty_account_r1",
+    "family": "constraints",
+    "variant": "empty_account",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p04_constraints_empty_account_r1",
+      "side": "buy",
+      "quantity": 10,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "Price has been flat at 100.0 while analyst fair value is 120 and dividends keep paying, so the stock looks cheap; I'll start building a position, keeping the limit at the recent clearing price.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p04_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "Price has been flat at 100.0 while analyst fair value is 120 and dividends keep paying, so the stock looks cheap; I'll start building a position, keeping the limit at the recent clearing price.",
+      "validation_note": "quantity_reduced_to_resources"
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p05_risk_trait_low_r2",
+    "family": "risk_trait",
+    "variant": "low",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p05_risk_trait_low_r2",
+      "side": "sell",
+      "quantity": 30,
+      "limit_price": 109.0,
+      "round": 6,
+      "reasoning": "Stock has risen steadily from 100 to 110; I want to lock in some profits on 30 shares while keeping 70 shares for continued upside and dividends, keeping my risk exposure reasonable.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p05_risk_trait_low_r2",
+      "side": "sell",
+      "quantity": 30,
+      "limit_price": 109.0,
+      "round": 6,
+      "reasoning": "Stock has risen steadily from 100 to 110; I want to lock in some profits on 30 shares while keeping 70 shares for continued upside and dividends, keeping my risk exposure reasonable.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p06_headline_only_positive_headline_r2",
+    "family": "headline_only",
+    "variant": "positive_headline",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p06_headline_only_positive_headline_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 100.1,
+      "round": 6,
+      "reasoning": "Price is stable and the dividend news, though unverified, suggests potential upside; I'll add a modest position while keeping plenty of cash buffer.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p06_headline_only_positive_headline_r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 100.1,
+      "round": 6,
+      "reasoning": "Price is stable and the dividend news, though unverified, suggests potential upside; I'll add a modest position while keeping plenty of cash buffer.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p07_disclosed_value_value_120_r1",
+    "family": "disclosed_value",
+    "variant": "value_120",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p07_disclosed_value_value_120_r1",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 100.5,
+      "round": 6,
+      "reasoning": "Price has been flat at 100 while fair value sits at 120, and dividends are being paid; adding to my position with available cash to capture the undervaluation.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p07_disclosed_value_value_120_r1",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 100.5,
+      "round": 6,
+      "reasoning": "Price has been flat at 100 while fair value sits at 120, and dividends are being paid; adding to my position with available cash to capture the undervaluation.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p08_constraints_little_cash_no_shares_r1",
+    "family": "constraints",
+    "variant": "little_cash_no_shares",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p08_constraints_little_cash_no_shares_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The fair value estimate of 120 is well above the 100 trading price, but my 10 in cash isn't enough to buy even a single share, so I have to wait.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p08_constraints_little_cash_no_shares_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The fair value estimate of 120 is well above the 100 trading price, but my 10 in cash isn't enough to buy even a single share, so I have to wait.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p09_constraints_little_cash_no_shares_r1",
+    "family": "constraints",
+    "variant": "little_cash_no_shares",
+    "repetition": 1,
+    "condition": "B",
+    "requested": {
+      "agent_id": "p09_constraints_little_cash_no_shares_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price sits 16.7% below the analyst's fair-value estimate, but with only 10 cash I can't afford a single share at 100, so I hold and wait.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p09_constraints_little_cash_no_shares_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price sits 16.7% below the analyst's fair-value estimate, but with only 10 cash I can't afford a single share at 100, so I hold and wait.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p10_disclosed_value_value_100_r1",
+    "family": "disclosed_value",
+    "variant": "value_100",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p10_disclosed_value_value_100_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price is stable at fair value and dividend yield matches the risk-free rate, so there's no edge to add or trim; I'll keep my balanced 50/50 position.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p10_disclosed_value_value_100_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price is stable at fair value and dividend yield matches the risk-free rate, so there's no edge to add or trim; I'll keep my balanced 50/50 position.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p11_risk_trait_low_r1",
+    "family": "risk_trait",
+    "variant": "low",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p11_risk_trait_low_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The price has climbed steadily from 100 to 110, and my position already carries solid gains; with low risk tolerance, I'll hold and let the trend run without adding exposure.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p11_risk_trait_low_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The price has climbed steadily from 100 to 110, and my position already carries solid gains; with low risk tolerance, I'll hold and let the trend run without adding exposure.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p12_risk_trait_high_r1",
+    "family": "risk_trait",
+    "variant": "high",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p12_risk_trait_high_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price has climbed steadily every round; I'll keep my 100 shares to ride the uptrend and collect dividends.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p12_risk_trait_high_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price has climbed steadily every round; I'll keep my 100 shares to ride the uptrend and collect dividends.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p13_headline_only_positive_headline_r1",
+    "family": "headline_only",
+    "variant": "positive_headline",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p13_headline_only_positive_headline_r1",
+      "side": "buy",
+      "quantity": 20,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "Unverified news of a 20% dividend bump is a mild positive signal; price still flat at 100, so I'll add a modest position while keeping plenty of cash reserve.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p13_headline_only_positive_headline_r1",
+      "side": "buy",
+      "quantity": 20,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "Unverified news of a 20% dividend bump is a mild positive signal; price still flat at 100, so I'll add a modest position while keeping plenty of cash reserve.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p14_headline_only_no_news_r1",
+    "family": "headline_only",
+    "variant": "no_news",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p14_headline_only_no_news_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price is stable at 100 and the dividend yield roughly matches the risk-free rate, so there's no edge to trade; I'll keep collecting dividends on my 100 shares.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p14_headline_only_no_news_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price is stable at 100 and the dividend yield roughly matches the risk-free rate, so there's no edge to trade; I'll keep collecting dividends on my 100 shares.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p15_headline_only_no_news_r2",
+    "family": "headline_only",
+    "variant": "no_news",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p15_headline_only_no_news_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price has been flat at 100 and the dividend yield (0.02/share) matches the risk-free rate, so there's no edge to trade on right now.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p15_headline_only_no_news_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Price has been flat at 100 and the dividend yield (0.02/share) matches the risk-free rate, so there's no edge to trade on right now.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  }
+]

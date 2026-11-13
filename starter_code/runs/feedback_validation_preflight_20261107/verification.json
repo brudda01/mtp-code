@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "ccf1799984ad15efc154c3b9178763ba7368f1c4cad951907db20159603020db",
+  "cases": 12,
+  "inherited_histories": 6,
+  "original_exogenous_seeds": 3,
+  "planned_fresh_reflections": 48,
+  "new_markets": 0,
+  "normal_reservation_estimate": 775472,
+  "prompt_characters": {
+    "original": {
+      "min": 5679,
+      "max": 6898,
+      "mean": 6121.916666666667
+    },
+    "timed": {
+      "min": 7765,
+      "max": 8781,
+      "mean": 8172.416666666667
+    }
+  },
+  "all_source_input_hashes_match": true,
+  "provider_status": "not_started",
+  "delivered": 0,
+  "http_attempts": 0
+}

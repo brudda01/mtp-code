@@ -1,0 +1,82 @@
+[
+  {
+    "seed": 13111,
+    "cell": "quiet",
+    "config": "configs/rules_13111_quiet.yaml",
+    "config_sha256": "ff34ed10adc9bdeeac53ea27cfbd62372ef7ae7ed01c74e4169bf56360547fdb",
+    "run_path": "baseline_runs/20261104_140824_initial_news_rules_quiet_s13111_r12_88e7bda7",
+    "manifest_sha256": "92508ba31be41f7704dc63522794f4be0deb068a814d4a1a9ada12fa50de57b4"
+  },
+  {
+    "seed": 13111,
+    "cell": "up_silent",
+    "config": "configs/rules_13111_up_silent.yaml",
+    "config_sha256": "5068ce47195138f1fa0d90115fd4b79eecdf1667e955ef475ea0d6b3559fa38b",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_up_silent_s13111_r12_fc5b3d8f",
+    "manifest_sha256": "61a79cc1758553da3a07374ca8ed4ab9a0cd644bb18465080be5c9b141987d2e"
+  },
+  {
+    "seed": 13111,
+    "cell": "up_visible",
+    "config": "configs/rules_13111_up_visible.yaml",
+    "config_sha256": "99356e4de555cadc8bea5558ce04634ccdba26e88bc74d745c480b77d81d8be9",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_up_visible_s13111_r12_7f2f5bcd",
+    "manifest_sha256": "ac0935b58e456a68489caee7f83fae009808924682d99abddcfbae21f4283777"
+  },
+  {
+    "seed": 13111,
+    "cell": "down_silent",
+    "config": "configs/rules_13111_down_silent.yaml",
+    "config_sha256": "ecdb4754161b62fbe681ef1df871b51f90bd744ad00bd9fe9132168be790246f",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_down_silent_s13111_r12_a3779108",
+    "manifest_sha256": "79e7b6d50aa3ed1f14d2f86fe4adde9eeb675e361ebdb63a116dea92190605da"
+  },
+  {
+    "seed": 13111,
+    "cell": "down_visible",
+    "config": "configs/rules_13111_down_visible.yaml",
+    "config_sha256": "9067a54fe02a0e8d1dfc972ab5f9fefe4c8d1b33dfa879cd17d3a9c560f05003",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_down_visible_s13111_r12_df71f3fb",
+    "manifest_sha256": "952203e553f300a18e3741269678a175f491d91c2ee355a286f804b98325a38a"
+  },
+  {
+    "seed": 14227,
+    "cell": "quiet",
+    "config": "configs/rules_14227_quiet.yaml",
+    "config_sha256": "2a4dc988d6bd1125796693b11e2b3740a428335f0c7462130355f7149d26462c",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_quiet_s14227_r12_f5e6b23e",
+    "manifest_sha256": "34fd29b0309d39c4d52304e3a668abc614d9f9c8da23de94c8e5bedb4ae4b95d"
+  },
+  {
+    "seed": 14227,
+    "cell": "up_silent",
+    "config": "configs/rules_14227_up_silent.yaml",
+    "config_sha256": "d7b96f183738e7a98bd57bcdbe7a059b40e67f46b520d6e91384ffc2228e5f13",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_up_silent_s14227_r12_ec2c401e",
+    "manifest_sha256": "1a8055ed91de595be6a29cf6ba0337dfc58d23ab48b1fca79b6466503733b49b"
+  },
+  {
+    "seed": 14227,
+    "cell": "up_visible",
+    "config": "configs/rules_14227_up_visible.yaml",
+    "config_sha256": "ba3416ce02b738e53ce0c26b8e2d1c05b1886c958a9cc540ca6ea17d7de581bd",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_up_visible_s14227_r12_871b31f8",
+    "manifest_sha256": "6d1c607c0eb629d27ce88ce998bfb08f73d27c96894929b5110e76e4bee86be1"
+  },
+  {
+    "seed": 14227,
+    "cell": "down_silent",
+    "config": "configs/rules_14227_down_silent.yaml",
+    "config_sha256": "17b9e5fa3f8b3b0acb2c2240ae8e83ece50aae76ea134de729f4f22e72cfbc47",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_down_silent_s14227_r12_079a4878",
+    "manifest_sha256": "e763a317eff6bd2610f85f0ad1f0b509885c95a43f203ef3d79d82d889146f82"
+  },
+  {
+    "seed": 14227,
+    "cell": "down_visible",
+    "config": "configs/rules_14227_down_visible.yaml",
+    "config_sha256": "f71c100c4e949031fd1496c9bd66136336b70e3eec0976d9a158fa49ed8ff89c",
+    "run_path": "baseline_runs/20261104_140825_initial_news_rules_down_visible_s14227_r12_b46c7ed0",
+    "manifest_sha256": "c96444163f4d2005b7d7fce3d7acdef3c50ceabd478153a8a5e1c269f8ef1725"
+  }
+]

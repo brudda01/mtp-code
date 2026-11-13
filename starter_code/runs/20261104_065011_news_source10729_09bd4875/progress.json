@@ -1,0 +1,27 @@
+{
+  "status": "completed_phase_schedule",
+  "completed_sources": 1,
+  "planned_phase_sources": 1,
+  "original_study_planned_sources": 2,
+  "completed_auctions": 18,
+  "planned_phase_auctions": 18,
+  "original_study_planned_auctions": 36,
+  "missing_source9623": true,
+  "failure_type": null,
+  "usage": {
+    "requests_made": 48,
+    "reserved_tokens": 702164,
+    "provider_reported_tokens": 124808,
+    "unknown_usage_requests": 0,
+    "blocked_requests": 0
+  },
+  "cumulative_usage": {
+    "requests_made": 50,
+    "reserved_tokens": 724448,
+    "provider_reported_tokens": 124808,
+    "unknown_usage_requests": 2,
+    "blocked_requests": 1
+  },
+  "finished_utc": "2026-11-04T01:31:15.804005+00:00",
+  "active": null
+}

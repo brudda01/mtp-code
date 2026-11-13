@@ -1,0 +1,73 @@
+agents:
+- cash: 30000.0
+  count: 1
+  params:
+    inventory_limit: 300
+    inventory_skew: 0.0
+    inventory_target: 150
+    quote_size: 10
+    spread: 0.005
+  shares: 150
+  type: market_maker
+- cash: 10000.0
+  count: 8
+  params: {}
+  shares: 100
+  type: zero_intelligence
+- cash: 10000.0
+  count: 6
+  params:
+    aggressiveness: 0.5
+    delta: 0.03
+  shares: 100
+  type: fundamentalist
+- cash: 10000.0
+  count: 2
+  params:
+    aggressiveness: 0.5
+    window: 3
+  shares: 100
+  type: momentum
+- cash: 10000.0
+  count: 2
+  params:
+    aggressiveness: 0.5
+    window: 5
+  shares: 100
+  type: momentum
+- cash: 10000.0
+  count: 1
+  params:
+    aggressiveness: 0.5
+    window: 10
+  shares: 100
+  type: momentum
+asset:
+  dividend:
+    mean: 0.02
+    relative_noise: 0.2
+  initial_price: 100.0
+  model: iid_permanent
+  risk_free: 0.0002
+  ticker: KGP
+execution:
+  max_workers: 8
+llm_limits:
+  max_requests: 10000
+  max_reserved_tokens: 20000000
+market:
+  mechanism: call_auction
+  price_band: 0.2
+  tick: 0.1
+  transaction_tax: 0.0
+name: screen_no_skew_varied_202
+news: []
+observation:
+  bbs_sample: 0
+  price_history_len: 20
+reveal_fundamental: true
+rounds: 1000
+seed: 202
+time:
+  periods_per_year: 252
+  round_unit: trading_session

@@ -1,0 +1,12 @@
+{
+  "rounds": 1000,
+  "n_returns": 999,
+  "mean_return": -4.0355893071531124e-05,
+  "volatility": 0.010934229518251579,
+  "excess_kurtosis": 10.725676630893037,
+  "acf_returns_lag1": 0.41950482204181017,
+  "acf_abs_returns_lag1": 0.13172897657171193,
+  "sig_acf_abs_lags_1_10": 3,
+  "volume_absret_spearman": 0.057728711153465985,
+  "zero_volume_fraction": 0.0
+}

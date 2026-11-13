@@ -1,0 +1,8 @@
+{
+  "kind": "OFFLINE_VERIFICATION_REPLAY",
+  "original_study": "R041",
+  "original_run": "market_runs/20261104_165448_downside_A_21727_original_silent_rep1_03f41a6c",
+  "recorded_replies_consumed": 16,
+  "new_http_requests": 0,
+  "usage_warning": "Any provider usage fields in this replay directory are copied historical metadata,not new usage. Do not treat this path as an independent model draw."
+}

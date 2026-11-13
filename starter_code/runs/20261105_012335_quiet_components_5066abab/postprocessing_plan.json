@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-04T20:01:03.014399+00:00",
+  "protocol_sha256": "a1b7a14c64ee7589e44267da23befcd21c1e33055e1ebdc7729d5942587523c7",
+  "source_sha256": {
+    "runs/quiet_components_analysis_20261105.py": "a4a614f6e4bf261186416d5800ce15f32ea9f04020485acd58fa1ec961b56eeb",
+    "runs/quiet_components_analysis_checks_20261105.py": "c8aa6407cb90a30c3b368e246887bd6ad21308a98b4bcb1fd6fe2456c48a4333",
+    "runs/quiet_components_finish_20261105.py": "77a2b714da3f97c045ef328cbb7a4d72290b69198f6fbd3af619664119610abc",
+    "runs/quiet_components_finish_checks_20261105.py": "da1b4ae8d18f2277d0ab4f2afd5b9dad6743bb3e96dc96c9bc82dee1e95d170c"
+  },
+  "offline_analysis_checks": {
+    "passed": 3,
+    "seconds": 8.282
+  },
+  "offline_completion_checks": {
+    "passed": 2,
+    "seconds": 3.221
+  },
+  "action": "After final campaign summary, analyze all arms and preserve once, append neutral receipt; NO API, recovery or model/default change. Visual interpretation remains for review."
+}

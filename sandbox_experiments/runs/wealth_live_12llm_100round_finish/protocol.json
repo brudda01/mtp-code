@@ -1,0 +1,51 @@
+{
+  "status": "continuation_running",
+  "authorization": "User requested retry; continuing s42_equal from decision 63 and running remaining markets",
+  "created_utc": "2026-11-09T19:07:12.475703+00:00",
+  "configs": [
+    {
+      "seed": 42,
+      "rounds": 100,
+      "llm_count": 12,
+      "wealth": "equal",
+      "sigma": 0.7,
+      "assignment": 0,
+      "allow_short": false,
+      "forum": false
+    },
+    {
+      "seed": 42,
+      "rounds": 100,
+      "llm_count": 12,
+      "wealth": "heterogeneous",
+      "sigma": 0.7,
+      "assignment": 0,
+      "allow_short": false,
+      "forum": false
+    },
+    {
+      "seed": 43,
+      "rounds": 100,
+      "llm_count": 12,
+      "wealth": "equal",
+      "sigma": 0.7,
+      "assignment": 0,
+      "allow_short": false,
+      "forum": false
+    },
+    {
+      "seed": 43,
+      "rounds": 100,
+      "llm_count": 12,
+      "wealth": "heterogeneous",
+      "sigma": 0.7,
+      "assignment": 0,
+      "allow_short": false,
+      "forum": false
+    }
+  ],
+  "planned_decisions": 4800,
+  "max_http_attempts": 6000,
+  "max_reserved_tokens": 96000000,
+  "requests_per_minute": 60
+}

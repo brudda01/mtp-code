@@ -1,0 +1,195 @@
+{
+  "status": "setup_only_no_live_launch",
+  "version": "heterogeneous_forum_historical_controls_v2",
+  "scope_confirmation": "User confirmed heterogeneous wealth only; reuse completed no-post controls.",
+  "created_utc": "2026-11-10T00:45:53.117602+00:00",
+  "wealth": "heterogeneous",
+  "sigma": 0.7,
+  "assignment": 0,
+  "new_markets": [
+    {
+      "seed": 42,
+      "condition": "posts",
+      "rounds": 100,
+      "llm_count": 12,
+      "rule_count": 8,
+      "environment_seed": 946,
+      "allocation_seed": 947
+    },
+    {
+      "seed": 43,
+      "condition": "posts",
+      "rounds": 100,
+      "llm_count": 12,
+      "rule_count": 8,
+      "environment_seed": 947,
+      "allocation_seed": 948
+    }
+  ],
+  "historical_controls": [
+    {
+      "seed": 42,
+      "path": "runs\\wealth_live_12llm_100round_fast110\\s42_heterogeneous",
+      "completed_rounds": 100,
+      "config": {
+        "seed": 42,
+        "rounds": 100,
+        "llm_count": 12,
+        "wealth": "heterogeneous",
+        "sigma": 0.7,
+        "assignment": 0,
+        "allow_short": false,
+        "forum": false
+      },
+      "initial_accounts_match": true,
+      "initial_prompt_match": true,
+      "environment_seed": 946,
+      "allocation_seed": 947,
+      "file_sha256": {
+        "manifest.json": "eb1373bcf1c6e6c9bcb99343b306a89bf411ea10b27c72b4abc9c58213a8b69f",
+        "ledger.jsonl": "2f78a661ec5b6090c42e41a99ca8186fb8120cac935e4d2326ff3f8baa214900"
+      }
+    },
+    {
+      "seed": 43,
+      "path": "runs\\wealth_live_12llm_100round_fast110\\s43_heterogeneous",
+      "completed_rounds": 100,
+      "config": {
+        "seed": 43,
+        "rounds": 100,
+        "llm_count": 12,
+        "wealth": "heterogeneous",
+        "sigma": 0.7,
+        "assignment": 0,
+        "allow_short": false,
+        "forum": false
+      },
+      "initial_accounts_match": true,
+      "initial_prompt_match": true,
+      "environment_seed": 947,
+      "allocation_seed": 948,
+      "file_sha256": {
+        "manifest.json": "da5c2310db1e6513dd57b4def089cc9520f14df6fbd408da51cddd3342a6db4e",
+        "ledger.jsonl": "a3d35ca25431d324714a750457798a04d938318941843674b7827be9730e750a"
+      }
+    }
+  ],
+  "new_market_count": 2,
+  "new_decisions": 2400,
+  "new_control_calls": 0,
+  "total_cash": 220000,
+  "total_shares": 2050,
+  "short_selling": false,
+  "reflection": false,
+  "order_cap": 10,
+  "prompt": "EXACT completed-control builder sandbox_outcomes_v1; only current public_forum_posts changes at identical input state. No added forum-policy instruction or version token in the model input.",
+  "parser": "Match completed control parser, including BUY/SELL quantity zero normalized to HOLD; preserve raw responses so the distinction remains auditable.",
+  "provider": {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "temperature": 0.3,
+    "thinking": false,
+    "max_tokens": 2048,
+    "timeout_seconds": 120
+  },
+  "delivery": {
+    "rpm": 110,
+    "concurrent_requests": 4,
+    "input_estimate_tpm": 200000,
+    "max_http_attempts": 3000,
+    "max_reserved_tokens": 48000000
+  },
+  "schedule": [
+    {
+      "start": 1,
+      "end": 20,
+      "label": "silent"
+    },
+    {
+      "start": 21,
+      "end": 40,
+      "label": "bullish opinion"
+    },
+    {
+      "start": 41,
+      "end": 60,
+      "label": "bearish opinion"
+    },
+    {
+      "start": 61,
+      "end": 100,
+      "label": "no new posts"
+    }
+  ],
+  "limitations": "Historical controls, not contemporaneous paired provider draws. Same seeds do not force identical model responses or pre-post histories. Report baseline differences and do not call total divergence a pure causal sentiment effect. No neutral-text control; extra text/attention is part of the intervention. No completed wealth outcomes analyzed during setup.",
+  "preservation": "All new files inside sandbox; no main edits, no equal-wealth trials, no reruns/replays/resumes of completed controls.",
+  "source_sha256": {
+    "sandbox_experiments\\analyze_campaign.py": "65e15109a6e6140d552079b31c304855b814c77f2f3748a1365b161f3ce56f87",
+    "sandbox_experiments\\audit_repaired_followup.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\audit_saved.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\check_reported_claims.py": "aa98969187b2bf95f725199ff36f5584658f79622b5c622da8ce2d8e52ea6375",
+    "sandbox_experiments\\continue_live_campaign.py": "9ed573adb36d03a9dc69ccc697dc3f8529f754d93d01556bffc7bf3da840d08d",
+    "sandbox_experiments\\delivery.py": "eaf5a0c9edd678350fe36dbd3c2616d009f01826bbb889a9566829d8246eda85",
+    "sandbox_experiments\\fast_delivery.py": "c3f53db01d818607becb72408dc05baddc252aaced705f5246e9c4c4f8e76a5a",
+    "sandbox_experiments\\forum_experiment.py": "799ab4ebd57aafadc4a66e9a198ca8fe48dc6d963d9fb0145a25b1205c3ad8be",
+    "sandbox_experiments\\forum_heterogeneous.py": "15a140dfd54a2ca482bddd160d26054cf0b2c4d4a486affc3558fc4415902c1f",
+    "sandbox_experiments\\live_campaign.py": "42e74ab1a4ababd4ed9fd8c8176f936223627cbb6e89dc3cab5ebbab8e1df848",
+    "sandbox_experiments\\one_time_provider_probe.py": "e348a1cfa1c29063127274aed51235ba679c6a3c24e426280aa59ceaf0fc2b60",
+    "sandbox_experiments\\personas.py": "32086c5af88817316087f8e0e0241bd5a28c407e577e0939f2f1408ec2a5439f",
+    "sandbox_experiments\\probe_api.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\probe_concurrency.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\probe_rpm60.py": "191c062968d9310b2f656ac166cbddbe597ba454e97e9d7e4cb2b9ccbafa2019",
+    "sandbox_experiments\\probe_student_concurrency.py": "76380c2f395e978c1eab970084c453fa0fddad829685017a4c134caeb5098808",
+    "sandbox_experiments\\prototype_engine.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\repaired_client.py": "5ec9ff4d0252c149a9cc1a6feb57228e7fde8f2ac0961b22aa9690f6a6333027",
+    "sandbox_experiments\\repaired_engine.py": "a73445ca1114852231323a1834d1ffd08d40fbac45ad608ad7c9856adb374d02",
+    "sandbox_experiments\\repaired_llm_trader.py": "d81207f070bf75c2b107b693a916cea23980c8db56e148b7a9786125cc003701",
+    "sandbox_experiments\\repaired_market_sim.py": "711dc8d249fcf83768cfe8934f370e654ea5029075b2c1b4aa1536595cdaadd6",
+    "sandbox_experiments\\run_fast_campaign.py": "84ccf4a2dcd5dffc999ccc8c6072eee6c8758a1d3f61e38a0dbd5c0b8d2b488a",
+    "sandbox_experiments\\run_grand_100_round_market.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\run_offline_test.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\run_reddit_meme_experiment.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\run_repaired_offline_validation.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\run_repaired_reddit_live.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\run_repaired_short_sale_live.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\run_sandbox.py": "26c4c546cc06084d48ec25d236f1cb4303dbe9e113ac8d16fe5e344abdbc3df3",
+    "sandbox_experiments\\run_short_sale_live_comparison.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\sandbox.py": "ba0a3a09246dc7dae99cbdb5564efb2afa931b0b51defa64e62bc544ea0cb8e7",
+    "sandbox_experiments\\test_delivery.py": "5b92351c6b65e7c57cd835433730cafa9c916714225cec72698bf727ddd059fa",
+    "sandbox_experiments\\test_forum_heterogeneous.py": "9498f4e19a9d3effc769c70f713ef929fa85db887f80af12a7da38edf86de470",
+    "sandbox_experiments\\test_forum_setup.py": "d38095f8c256af53e03834f46f400476695b1f151b78e2bc83eddc13feb193c1",
+    "sandbox_experiments\\test_live_campaign.py": "4934cbbae6838b76efd9e8280ef211f63d355ad6ef2691f54828c63615874171",
+    "sandbox_experiments\\test_repaired_engine.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\test_repaired_parser.py": "7297c570f8ad976addd0666c2a19da1cb23374899b3d883bf53e21e522f7dcf8",
+    "sandbox_experiments\\test_sandbox.py": "a156d69d06ad84be0adc79e466e8f480481ef23fcd4bc7503f4677073f2dd06e",
+    "sandbox_experiments\\verify_mock_run.py": "b0aa3751ca0a7d3588facda3f123b77de6429b537ff33ca55bc2d18d6a488238",
+    "sandbox_experiments\\wealth.py": "d9bd0cbb6ff5bc4019951b654d448f618aab9eee3ac301fe7f7327f351523e6f",
+    "starter_code\\sim\\assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "starter_code\\sim\\background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "starter_code\\sim\\behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "starter_code\\sim\\behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "starter_code\\sim\\capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "starter_code\\sim\\component_continuation.py": "5c386f8d84e7a50654676aaea2dbd33a1365337aadc44be0d52f35a97388426b",
+    "starter_code\\sim\\config.py": "c220ef6fefd4202bee529ca60adbfb97d7eb001f5cab5dac0b743fac4e626bc7",
+    "starter_code\\sim\\engine.py": "abb3424aa0e72bcfdf12a533cbe900b3b654edfd71167f466aa99b8f113421de",
+    "starter_code\\sim\\evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "starter_code\\sim\\market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "starter_code\\sim\\metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "starter_code\\sim\\news_components.py": "d7e611f86fb6ec543feca0b6f0dd8d23fbe61d3d4b9a09e08898000b88879d53",
+    "starter_code\\sim\\news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "starter_code\\sim\\news_pilot.py": "b7d44eda1d8cf78e767431c9f033689fe97e8a330fd53b35f21b9cdda0574560",
+    "starter_code\\sim\\pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "starter_code\\sim\\provenance.py": "2f79828cc6da6c46f15afd2974842cc14c1632a8903adf855be1ab71dde0dbc9",
+    "starter_code\\sim\\sequential_markets.py": "23163329202210ddfd193dde502110a0948da3e35902b7e3efa7e019a1785bcd",
+    "starter_code\\sim\\timed_feedback.py": "5acb11384a35a14f68607073757433510d44894f2b5874aa2b308721b3ee0522",
+    "starter_code\\sim\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "starter_code\\sim\\agents\\base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "starter_code\\sim\\agents\\llm_agent.py": "0346d68c54b34c272d6bc2415209a3862082854f3b8a27f19ce941f19d99f9dd",
+    "starter_code\\sim\\agents\\personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "starter_code\\sim\\agents\\rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "starter_code\\sim\\agents\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "starter_code\\sim\\llm\\client.py": "30920fecf5df77d030fec79502c57c3685266641e01516af78253c623aae2d38",
+    "starter_code\\sim\\llm\\mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "starter_code\\sim\\llm\\usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "starter_code\\sim\\llm\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

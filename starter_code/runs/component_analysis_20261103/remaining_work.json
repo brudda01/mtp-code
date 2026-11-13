@@ -1,0 +1,518 @@
+{
+  "status": "inventory_only_no_execution_or_resume_implemented",
+  "pending_decisions": [
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    }
+  ],
+  "new_two_reflection_blocks": [
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3
+    }
+  ],
+  "existing_pre_news_diaries_to_retain": [
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Price dipped to 99.5 in R1, recovered to 100 and flatlined for four rounds. My R3\u2013R4 buys filled at 100 (160 shares total, avg cost 100). My R5 order at limit 100.3 filled nothing \u2014 no momentum confirmation yet. Cash sits at ~$4,020. No news. **Beliefs:** I called this momentum shifting up after the dip was bought; so far it's just sideways. I'm underweight confidence \u2014 the tape hasn't agreed with me yet, but four flat holds at 100 still looks like accumulation to me. **Plan:** Don't force size until price breaks 100 with conviction. If it stalls, my conviction wavers fast \u2014 watch the next round closely.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Breakout to 100.6 filled me at 100.6 (round 7\u20138); I went all-in \u2014 200 shares, avg 100.11, cash $16. Then price fell to 98.6 and 98.1. Wealth down ~$480 over two rounds. No news. **Beliefs:** I called the 98.6 tick a shakeout \u2014 wrong so far. Momentum shifted down, not up. I overcommitted on a breakout that stalled instantly; my size, not my read of the dip, is the real error. I still think supply is thin, but I can't defend averaging in with $16. **Plan:** No cash to act. Hold and watch 98 \u2014 if it breaks, I'm riding 200 shares down without a hedge.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "planned_remaining_normal_calls": 90,
+  "prior_summary_sha256": "d7fa641086810dc3be82018c0b8d059b86916227c94cad5515fd1bd95d18623e",
+  "remaining_request_cap": 215,
+  "remaining_reservation_cap": 3358787,
+  "note": "Inventory for a future explicit linked continuation, not an automatic restart. Retain all prior usage/failed calls/completed choices, same frozen inputs/model and the existing diary. Do not rerun successful cells or pool another model's replies."
+}

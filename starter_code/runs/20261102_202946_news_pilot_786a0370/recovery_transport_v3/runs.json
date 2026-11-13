@@ -1,0 +1,32 @@
+[
+  {
+    "brain": "qwen",
+    "seed": 1441,
+    "cell": "combined",
+    "config": "configs/qwen_combined_1441.yaml",
+    "config_sha256": "348398d979994b5d2dfe1bfc4957f0dcf6fde3efa3e0083cae3d2b44f59258ea",
+    "run_path": "recovery_transport_v3/market_runs/20261102_213251_news_qwen_combined_s1441_1fd217cd",
+    "status": "provider_error",
+    "parse_failures": 0,
+    "manifest_sha256": "5ddcee24b297d5f50aef50da76d9e3730f6106863855e06f01d913a968ac7c68",
+    "usage": {
+      "requests_made": 29,
+      "max_requests": 60,
+      "reserved_tokens": 345097,
+      "max_reserved_tokens": 773457,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 76460,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 1,
+      "failed_requests": 1,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 1,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": true,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    }
+  }
+]

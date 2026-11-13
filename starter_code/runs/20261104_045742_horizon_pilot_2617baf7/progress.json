@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "recorded_markets": 4,
+  "planned_markets": 4,
+  "completed_markets": 3,
+  "failure_type": "ProviderUnavailable",
+  "finished_utc": "2026-11-04T00:06:09.698210+00:00",
+  "active": null
+}

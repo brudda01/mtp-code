@@ -1,0 +1,17 @@
+{
+  "status": "preserved",
+  "path": "starter_code/runs/completed_thesis_20261109_evidence.zip",
+  "sha256": "e94bf4d028c1540eba27d62bb94d7477420a2ae279e750539b50094acc0b4faa",
+  "bytes": 13237297,
+  "exported_file_hashes": 1621,
+  "recursive_configured_secret_checks": 3708,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "prior_archives_unchanged": 19,
+  "prior_writing_archives_unchanged": 2,
+  "completed_deepseek_scenarios": 2,
+  "completed_market_decisions": 300,
+  "seed31991_market_chain_actual_http": 488,
+  "collection_status": "closed",
+  "formatting": "deferred"
+}

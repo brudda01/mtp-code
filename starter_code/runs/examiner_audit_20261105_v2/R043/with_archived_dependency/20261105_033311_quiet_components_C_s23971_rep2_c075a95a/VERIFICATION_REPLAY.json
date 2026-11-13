@@ -1,0 +1,8 @@
+{
+  "kind": "OFFLINE_VERIFICATION_REPLAY",
+  "original_study": "R043",
+  "original_run": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+  "recorded_replies_consumed": 28,
+  "new_http_requests": 0,
+  "usage_warning": "Any provider usage fields in this replay directory are copied historical metadata,not new usage. Do not treat this path as an independent model draw."
+}

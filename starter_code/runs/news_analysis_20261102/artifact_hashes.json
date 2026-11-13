@@ -1,0 +1,10 @@
+{
+  "analysis_source.py": "3e80b1d5c1857e04b740384e219e9669eb53f387ae8d86efb6bf4e00da2defac",
+  "available_event_frames.json": "de447fa48ea26ed8552336a3e8398b76014f6299041b81ac31ab2cdaad106152",
+  "final_audit.json": "78dd2808a90b19bdbdccd49e6d4a987cf45e4a0ac959a406ff1d7a8e5dd7ee45",
+  "market_paths.pdf": "f4a360641c33b548667154a16f8dd75033e8dbbb2644b4b3d0d55f5ea31acc77",
+  "market_paths.png": "a1c8174a3d83cbe6d248338102d9011c02dc57eace35355582ec93b2c3c0b459",
+  "report.json": "a4b9a856fb8ca8b8d81213ada541ec6ba055e00c2842ae0ecfd8bcba768975c7",
+  "supplementary_order_sizes.json": "ab44adaadf80d82527b9bbfee1392e9b30902fc00f7d5ac3617e09a71d988718",
+  "test_news_pilot.py": "241f8b05deeaef8b9a1aed77463b290fde9ae5264e765afb4e6bc0ee0ae8a753"
+}

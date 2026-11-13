@@ -1,0 +1,112 @@
+# Gödel Machines Inference
+
+> An OpenAI-compatible API with free, student and paid access for DeepSeek V4.1 Flash, served from our own GPUs in Hyderabad, India.
+
+- Base URL: https://api.goedelmachines.com/v1
+- Model id: deepseek/deepseek-v4.1-flash (deepseek-v4.1-flash is also accepted)
+- Context: 1M-token context (1,048,576 tokens). Input and output share this window; plan output limits are listed below.
+- Endpoints: POST /chat/completions (streaming, tool calling, reasoning), GET /models
+- Auth: Authorization: Bearer <your API key> (free and paid keys use the same endpoint)
+
+Free tier data policy: prompts and completions sent with free keys are kept, people at Gödel Machines may read
+them, and they may be used (separated from the account) to train models. Do not send secrets or personal data.
+Policy: https://inference.goedelmachines.com/legal#free-tier
+
+## Plans, prices and retention
+
+Free and Student keys retain prompts/completions; they may be read and used for training.
+Student pass: eligible university email accounts; shared free-tier capacity and priority.
+Paid keys: zero prompt/output retention; metadata-only accounting. Buyers in India can add prepaid credit
+from ₹100 before GST; credit never expires. Paid access outside India is coming soon.
+INR per million tokens: input ₹12, cached input ₹0.25, output ₹50, plus 18% GST.
+- free: 2 concurrent requests, 60 requests/minute; 10,000,000 new input tokens/day, 1,000,000 output tokens/day; max output 235,929 tokens/request; prompts and outputs retained.
+- paid: 8 concurrent requests, 300 requests/minute; no daily cap new input tokens/day, no daily cap output tokens/day; max output 235,929 tokens/request; zero prompt/output retention.
+- student: 4 concurrent requests, 120 requests/minute; 30,000,000 new input tokens/day, 3,000,000 output tokens/day; max output 235,929 tokens/request; prompts and outputs retained.
+Cached input does not consume the new-input allowance. Daily limits reset at 00:00 UTC.
+Compare plans without signing in: https://inference.goedelmachines.com/pricing
+
+## Connect a coding agent in one command
+
+curl -fsSL https://inference.goedelmachines.com/install.sh | sh
+
+Configures OpenCode, Codex CLI, Claude Code, Aider, Crush, Goose, Continue, oh-my-pi and pi (and prints steps for
+Kilo Code, Cline, Roo Code), getting a key (free or paid, chosen in the browser) by device login. Flags: --dry-run, --list, --only h[,h], --yes,
+--new-key (sign in again for a new key, e.g. paid), --uninstall. The key type (free or paid) shows in the model name
+(OpenCode, Claude Code, Crush, Continue, oh-my-pi, pi) or the provider name (Codex CLI, Goose); not in Aider, Kilo Code,
+Cline or Roo Code. Claude Code runs with its own settings file: claude --settings ~/.config/goedel/claude-code.json
+
+## Get a key without a browser (device login)
+
+An agent can get a key for its user in three steps, like `gh auth login`. The user must approve in a browser.
+
+1. POST https://inference.goedelmachines.com/api/device/code
+   Body (optional): {"client_name": "my-agent"}   (1-60 characters; shown to the user)
+   200: {"device_code": "...", "user_code": "ABCD-1234", "verification_uri": "https://inference.goedelmachines.com/device",
+         "verification_uri_complete": "https://inference.goedelmachines.com/device?code=ABCD-1234", "expires_in": 600, "interval": 5}
+   Keep device_code secret. Show the user verification_uri_complete (or verification_uri and user_code).
+
+2. The user opens the link, signs in (Google or GitHub), and approves a free key (prompts stored; accepting the
+   free-tier terms if new) or a paid key (zero data retention; needs a positive credit balance).
+
+3. POST https://inference.goedelmachines.com/api/device/token every `interval` seconds
+   Body: {"device_code": "..."}
+   200: {"api_key": "sk-gm-free-...", "base_url": "https://api.goedelmachines.com/v1",
+         "model": "deepseek/deepseek-v4.1-flash", "key_name": "my-agent", "tier": "free"}
+   tier is "free" or "paid", whichever the user approved; the key's prefix matches (sk-gm-free- / sk-gm-paid-).
+   The key is returned once. Store it; it cannot be fetched again.
+   400 {"error": ..., "error_description": ...} while not done:
+     authorization_pending  keep polling at the interval
+     slow_down              polling too fast; use the "interval" in the answer (it grows by 5 s)
+     key_limit              the user has 5 keys; they must revoke one at https://inference.goedelmachines.com/keys (polling may continue)
+     no_credit              a paid key was approved but the balance ran out; they must add credit at https://inference.goedelmachines.com/billing
+                            (polling may continue)
+     access_denied          the user declined; stop
+     expired_token          10 minutes passed; start again
+     invalid_grant          unknown code or key already collected; start again
+     invalid_request        malformed body
+   429 rate_limited (honour Retry-After). Show error_description to the user.
+
+Shell:
+
+    SITE=https://inference.goedelmachines.com
+    resp=$(curl -s -X POST $SITE/api/device/code \
+      -H "Content-Type: application/json" -d '{"client_name": "my-agent"}')
+    echo "Open $(echo "$resp" | jq -r .verification_uri_complete) and approve"
+    code=$(echo "$resp" | jq -r .device_code)
+    wait=5
+    while sleep $wait; do
+      out=$(curl -s -X POST $SITE/api/device/token \
+        -H "Content-Type: application/json" -d "{\"device_code\": \"$code\"}")
+      key=$(echo "$out" | jq -r '.api_key // empty')
+      [ -n "$key" ] && break
+      case $(echo "$out" | jq -r .error) in
+        authorization_pending|key_limit|no_credit) ;;
+        slow_down) wait=$(echo "$out" | jq -r .interval) ;;
+        *) echo "$out" | jq -r .error_description; exit 1 ;;
+      esac
+    done
+    export GOEDEL_API_KEY=$key
+
+## Calling the API
+
+    curl https://api.goedelmachines.com/v1/chat/completions \
+      -H "Authorization: Bearer $GOEDEL_API_KEY" -H "Content-Type: application/json" \
+      -d '{"model": "deepseek/deepseek-v4.1-flash", "messages": [{"role": "user", "content": "Hello!"}]}'
+
+OpenAI SDK: OpenAI(base_url="https://api.goedelmachines.com/v1", api_key=key), model="deepseek/deepseek-v4.1-flash".
+
+Reasoning is on by default and arrives in message.reasoning (delta.reasoning when streaming). Turn it off with
+"chat_template_kwargs": {"thinking": false} in the request body (extra_body in the OpenAI SDK).
+
+## Limits and errors
+
+Plan limits are public at https://inference.goedelmachines.com/pricing#limits; your own usage is available after sign-in. 429 means over a limit or at capacity:
+wait for Retry-After, then retry with backoff. 401: missing or invalid key. 413: body over 32 MiB (33,554,432 bytes) on the public endpoint (full JSON including base64 images).
+The browser Playground has a separate 4,000,000-byte request limit. Use the API directly for larger requests.
+Cached DNS connections can temporarily retain the previous API limit after an update; reconnect and allow DNS to refresh.
+
+## More
+
+- Docs: https://inference.goedelmachines.com/docs
+- Models (JSON): https://api.goedelmachines.com/v1/models
+- Help: hi@goedelmachines.com

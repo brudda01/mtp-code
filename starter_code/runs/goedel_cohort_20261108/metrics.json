@@ -1,0 +1,13 @@
+{
+  "rounds": 25,
+  "price_return_sd_pct": 2.1410603736168836,
+  "mean_gap_pct": 16.06,
+  "max_drawdown_pct": 7.277187244480777,
+  "maker_boundary_fraction": 0.0,
+  "maker_min": 66,
+  "maker_max": 191,
+  "volume": 557,
+  "terminal_price": 113.4,
+  "target_union_volume": 336,
+  "zero_volume_rounds": 0
+}

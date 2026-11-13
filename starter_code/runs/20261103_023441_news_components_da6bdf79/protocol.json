@@ -1,0 +1,596 @@
+{
+  "version": "common_history_news_components_v1",
+  "prompt_suite_version": "comparable_agents_v2_disclosed_rules",
+  "frames_sha256": "811683d97fc538227d2e890fec8dca8b8a5dc2c29c1b205fe8ea65046c5dabe2",
+  "config_sha256": "e76404de4a7344503d4782357752873571cbb5f6fe410ef43e884ba4a09b89d2",
+  "source_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "0346d68c54b34c272d6bc2415209a3862082854f3b8a27f19ce941f19d99f9dd",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/config.py": "c220ef6fefd4202bee529ca60adbfb97d7eb001f5cab5dac0b743fac4e626bc7",
+    "sim/engine.py": "abb3424aa0e72bcfdf12a533cbe900b3b654edfd71167f466aa99b8f113421de",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "30920fecf5df77d030fec79502c57c3685266641e01516af78253c623aae2d38",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_components.py": "d7e611f86fb6ec543feca0b6f0dd8d23fbe61d3d4b9a09e08898000b88879d53",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/news_pilot.py": "b7d44eda1d8cf78e767431c9f033689fe97e8a330fd53b35f21b9cdda0574560",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "2f79828cc6da6c46f15afd2974842cc14c1632a8903adf855be1ab71dde0dbc9"
+  },
+  "source_archive_sha256": "77d763c7a1a8050061690161f6c66f424da90fbfb45d9b089f31bbd218022691",
+  "source_evidence_sha256": {
+    "sources/1441/agents_state.csv": "08cff31eb4142d91b5b552824cb3ed1759ffb2573cbcf7cb55119071d8d32d5e",
+    "sources/1441/agent_outcomes.jsonl": "2663ed50799e7d68a01dc4bb49f22960caa4e6b66ca7b7ec9b7b7f2dfe20fc0e",
+    "sources/1441/cashflows.csv": "94a767a559c2e3ce51cbf38ffad77ba9314fc5b185005dea2227b763a3b8816e",
+    "sources/1441/config.yaml": "458acabadf2ead8418573f87bcff04c8ad1a0caba817c7349d0560f1b5f3cef6",
+    "sources/1441/events.csv": "f8babd6bf55bcf3f06fd94657cb36f43a369930edb285c75cbe75666842abcd1",
+    "sources/1441/event_audit.jsonl": "2329fd5f4d3da342a3f5730072b55e33c623371ce1d269e0ce92494a7b8a3570",
+    "sources/1441/initial_state.csv": "b5fcefcf47ac2273cde9a75b3dc0f97d703b9bec14d8854597656e4d19833043",
+    "sources/1441/liquidity.csv": "01762e43e419df36e4330667a38568c0f44a9861fdf0af6a5757f7f9afcaa48a",
+    "sources/1441/llm_calls.jsonl": "81b46b4d5b17b96a665fa857b6f725c0d9aeb7fc994a9bc0257db6b2db436b0c",
+    "sources/1441/llm_requests.jsonl": "2796103ad560b5ccec7e8a40672f540e70a8078cae61d3afd87731e3c7c9fb0f",
+    "sources/1441/manifest.json": "fca1fa68d275a567423aad91b89b2d2c2364bd30524a36a0ed44044d537142f9",
+    "sources/1441/orders.csv": "126995d977fdcbbeaf4b5e4374df4aeaa54543391c4c905396ace5fee0aff70c",
+    "sources/1441/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "sources/1441/prices.csv": "c1e317b9212b94a19cb3d0f30b36fe2baaa997dbbb258f6a5d91a3fd268fc54f",
+    "sources/1441/source.zip": "a2513ff5d3904d7918eb5c23dec31f7610bce0a539da8370b75541323ac906c2",
+    "sources/1441/summary.json": "3cf7ef9c387641effc3682e95f0bb2f02dee0e26a6312a430ac31f939d03b81d",
+    "sources/1441/trades.csv": "b8b0f529edeff746e7d549fdcfb03eaa3ae3ccb7f373580ecba7c7d244d76e6d",
+    "sources/2882/agents_state.csv": "c63b7a9bfec3eb5a881fdee16f34f63e416df4390752a427198545fea8205f8b",
+    "sources/2882/agent_outcomes.jsonl": "1e471129966c0103ba1a9618234488fc4882bccacd637a88070ea6722ec8fb32",
+    "sources/2882/cashflows.csv": "e8837024abae84ee4c837695f572fd5755e2011036019e70f995f52c8e3d3cdc",
+    "sources/2882/config.yaml": "11f31d94e3c0905be945718cd1336c6c6dbf721ef42642a73bed910fd3ed0b69",
+    "sources/2882/events.csv": "f8babd6bf55bcf3f06fd94657cb36f43a369930edb285c75cbe75666842abcd1",
+    "sources/2882/event_audit.jsonl": "2329fd5f4d3da342a3f5730072b55e33c623371ce1d269e0ce92494a7b8a3570",
+    "sources/2882/initial_state.csv": "b5fcefcf47ac2273cde9a75b3dc0f97d703b9bec14d8854597656e4d19833043",
+    "sources/2882/liquidity.csv": "dfda7240a4296515672593ea351b2f50f2ecab6f36c82b19ee4d474acea1ed87",
+    "sources/2882/llm_calls.jsonl": "551efc3dec7af51a0f7437d3f87d865e6967b34764962edfb1d2c7b997697f2d",
+    "sources/2882/llm_requests.jsonl": "bf36a7e91935d8ece943b0b6824f49fe35c07f5d2dbeba5eb7de37674efd881a",
+    "sources/2882/manifest.json": "ae5ed54cc8f92bf09c4766006c61932f6fda546286a164132d9af43bd913377c",
+    "sources/2882/orders.csv": "f558aef3a8f684eae69d2ef01bd6d84c9156dd9f73b3d3344bd66ef60e59a723",
+    "sources/2882/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "sources/2882/prices.csv": "5b32fefeddb72ea6a22ad67349f0a7d11a9d204d5558b1b7b66ae61e78d32828",
+    "sources/2882/source.zip": "c0d7e7e13d8166ab1336683fd88cfd84d3fc4ab7d0624ee0e24a14c9d7a8a37d",
+    "sources/2882/summary.json": "9918aada53db2cea4d97a6d6bb8dc5620453e98d5b51ef20166cb71be1263406",
+    "sources/2882/trades.csv": "7c1e8e244833cb0bb0210abda3e840c98c3845b8dfa38845f057dde08065eca2"
+  },
+  "news": {
+    "silent": null,
+    "positive": "A news report forecasts a sustained 20% rise in KGP's dividend per trading session; actual future payments remain uncertain.",
+    "negative": "A news report forecasts a sustained 20% fall in KGP's dividend per trading session; actual future payments remain uncertain."
+  },
+  "schedule": [
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "choices": [
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "choices": [
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "choices": [
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "choices": [
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "choices": [
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "choices": [
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "choices": [
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "choices": [
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "choices": [
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        }
+      ]
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "choices": [
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "choices": [
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        }
+      ]
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "choices": [
+        {
+          "condition": "C",
+          "news": "silent"
+        },
+        {
+          "condition": "C",
+          "news": "positive"
+        },
+        {
+          "condition": "C",
+          "news": "negative"
+        },
+        {
+          "condition": "A",
+          "news": "silent"
+        },
+        {
+          "condition": "A",
+          "news": "positive"
+        },
+        {
+          "condition": "A",
+          "news": "negative"
+        },
+        {
+          "condition": "B",
+          "news": "silent"
+        },
+        {
+          "condition": "B",
+          "news": "positive"
+        },
+        {
+          "condition": "B",
+          "news": "negative"
+        }
+      ]
+    }
+  ],
+  "planned_decisions": 108,
+  "planned_reflections": 24,
+  "planned_requests": 132,
+  "limits": {
+    "max_requests": 264,
+    "max_reserved_tokens": 4000000,
+    "max_cost_usd": 0.0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true
+  },
+  "scope": "Four reused actual A-control histories, three fresh responses per news/mode/frame; no independent held-out markets. A/B isolate derived facts; B/C adds two generated reflections on the same A-generated past. C's pre-news diary is shared across news variants within frame/repetition. This is not an endogenous C trajectory or a news-retention experiment.",
+  "reflection_recipe": "For every frame/repetition, fresh chain: reflect actual outcomes1-5 at round5, then actual6-10 at round10 with the first diary; standard C templates/120-word retention, temperature0. All choices at round11 use actual6-10 memory; no query executes or updates it.",
+  "metrics": "All signed requested/accepted quantities, headroom/resource reductions, possible execution-price intervals, action/quantity variability; positive/silent and negative/silent within mode; adjacent B-A and C-B contrasts; costs/failures. No directional/profit pass oracle, market effects or human-validation claims.",
+  "stops": "One execution only. Stop on terminal provider/output/budget, parse or reflection failure, preserve partials and unknown usage; no blind restart/model swap. Caps include every HTTP retry and JSON repair."
+}

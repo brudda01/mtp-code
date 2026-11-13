@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "rounds": 0,
+  "completed_checks": 8,
+  "planned_checks": 8,
+  "failure_type": null,
+  "llm_usage": {
+    "requests_made": 8,
+    "max_requests": 19,
+    "reserved_tokens": 55643,
+    "max_reserved_tokens": 164061,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 8194,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  }
+}

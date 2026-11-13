@@ -1,0 +1,5 @@
+{
+  "sha256": "10d26710440625c841e2155eef8a45538e5a7e67ec6cec490327e74959eeea0f",
+  "source_requests_sha256": "01ae0d0cf4b1ad9d6252202768fedb44bd698902a4300df4f5456b5503af070f",
+  "audit": "All12 actual requests match frozen messages/profile and rescored raw numeric values. R038 unchanged."
+}

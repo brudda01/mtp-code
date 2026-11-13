@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "account_rounds_independently_reconstructed": 134400,
+  "max_cash_error": 5.602487362921238e-10,
+  "new_rule_markets": 16,
+  "rule_sessions": 9600,
+  "reflection_records_source_checked": 48,
+  "dependent_pair_records": 36,
+  "account_distinctness_survives_cash_rounding_to_5_decimals": true,
+  "all_source_config_output_hashes_match": true,
+  "new_api_requests": 0,
+  "new_replay_executions": 0
+}

@@ -1,0 +1,505 @@
+[
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 1,
+    "condition": "B",
+    "outcome": {
+      "round": 1,
+      "price": 99.5,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "I'm at breakeven on my 100 shares and the price is flat with no signal to act on. I'd rather keep my cash safe and wait for a clearer opportunity before risking more of my savings.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "I'm at breakeven on my 100 shares and the price is flat with no signal to act on. I'd rather keep my cash safe and wait for a clearer opportunity before risking more of my savings.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10003.719640599595,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19953.719640599593,
+      "dividend_income": 1.7196405995943749,
+      "interest_income": 2.0,
+      "wealth_change": -46.28035940040718,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 1,
+    "condition": "B",
+    "outcome": {
+      "round": 1,
+      "price": 99.5,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "Only one price point so far, no momentum signal to trade yet. I'll sit tight and wait for direction to establish before deploying that cash.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 1,
+        "reasoning": "Only one price point so far, no momentum signal to trade yet. I'll sit tight and wait for direction to establish before deploying that cash.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10003.719640599595,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19953.719640599593,
+      "dividend_income": 1.7196405995943749,
+      "interest_income": 2.0,
+      "wealth_change": -46.28035940040718,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 2,
+    "condition": "B",
+    "outcome": {
+      "round": 2,
+      "price": 98.9,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "The price dipped just 0.5% to 99.5, which is a minor wobble I won't panic over. I'm already at a small unrealized loss and selling now would lock in that pain, while buying more without a clear fundamental signal feels reckless with my savings.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "The price dipped just 0.5% to 99.5, which is a minor wobble I won't panic over. I'm already at a small unrealized loss and selling now would lock in that pain, while buying more without a clear fundamental signal feels reckless with my savings.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10007.707389413292,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19897.707389413292,
+      "dividend_income": 1.9870048855780733,
+      "interest_income": 2.000743928119919,
+      "wealth_change": -56.012251186301,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 2,
+    "condition": "B",
+    "outcome": {
+      "round": 2,
+      "price": 98.9,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "One 0.5% dip isn't a momentum signal\u2014it's noise. I need at least two consecutive prints in the same direction before I commit that cash, and I'm not chasing a single-tick wobble.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 2,
+        "reasoning": "One 0.5% dip isn't a momentum signal\u2014it's noise. I need at least two consecutive prints in the same direction before I commit that cash, and I'm not chasing a single-tick wobble.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10007.707389413292,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19897.707389413292,
+      "dividend_income": 1.9870048855780733,
+      "interest_income": 2.000743928119919,
+      "wealth_change": -56.012251186301,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 3,
+    "condition": "B",
+    "outcome": {
+      "round": 3,
+      "price": 98.2,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 3,
+        "reasoning": "A 1.1% dip with no fundamental news is just noise for a long-term holder like me. I won't sell at a loss, and I won't add to the position without a clearer value signal\u2014my savings can't afford reckless averaging down.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 3,
+        "reasoning": "A 1.1% dip with no fundamental news is just noise for a long-term holder like me. I won't sell at a loss, and I won't add to the position without a clearer value signal\u2014my savings can't afford reckless averaging down.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10011.583516242868,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19831.58351624287,
+      "dividend_income": 1.874585351693064,
+      "interest_income": 2.0015414778826583,
+      "wealth_change": -66.12387317042158,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 3,
+    "condition": "B",
+    "outcome": {
+      "round": 3,
+      "price": 98.2,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 75,
+        "limit_price": 98.5,
+        "round": 3,
+        "reasoning": "Two consecutive down prints confirm the downtrend I've been watching\u2014this is the momentum signal I've been waiting for. Cutting 75 shares locks in the exit while I keep 40 in case of a dead-cat bounce I can scalp.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 75,
+        "limit_price": 98.5,
+        "round": 3,
+        "reasoning": "Two consecutive down prints confirm the downtrend I've been watching\u2014this is the momentum signal I've been waiting for. Cutting 75 shares locks in the exit while I keep 40 in case of a dead-cat bounce I can scalp.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10011.583516242868,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19831.58351624287,
+      "dividend_income": 1.874585351693064,
+      "interest_income": 2.0015414778826583,
+      "wealth_change": -66.12387317042158,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 4,
+    "condition": "B",
+    "outcome": {
+      "round": 4,
+      "price": 98.0,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "buy",
+        "quantity": 30,
+        "limit_price": 98.0,
+        "round": 4,
+        "reasoning": "The price has slipped 1.8% over three sessions with no bad news and dividends still arriving, so the fundamentals look unchanged and shares are modestly cheaper than my 100.0 cost. I'll add just 30 shares with a patient limit at 98.0, keeping over 7,000 in cash so I'm not over-committing my savings to a falling tape.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "buy",
+        "quantity": 30,
+        "limit_price": 98.0,
+        "round": 4,
+        "reasoning": "The price has slipped 1.8% over three sessions with no bad news and dividends still arriving, so the fundamentals look unchanged and shares are modestly cheaper than my 100.0 cost. I'll add just 30 shares with a patient limit at 98.0, keeping over 7,000 in cash so I'm not over-committing my savings to a falling tape.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 3,
+      "executed_sell_quantity": 0,
+      "fills": [
+        {
+          "side": "buy",
+          "quantity": 1,
+          "price": 98.0
+        },
+        {
+          "side": "buy",
+          "quantity": 2,
+          "price": 98.0
+        }
+      ],
+      "cash": 9721.698360477398,
+      "shares": 103,
+      "avg_cost": 99.94174757281553,
+      "wealth": 19815.6983604774,
+      "dividend_income": 2.171327531280471,
+      "interest_income": 1.9435167032485738,
+      "wealth_change": -15.8851557654707,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 4,
+    "condition": "B",
+    "outcome": {
+      "round": 4,
+      "price": 98.0,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 75,
+        "limit_price": 98.1,
+        "round": 4,
+        "reasoning": "Three straight down prints\u2014my 98.5 limit got no fill last round, so I'm lowering it to 98.1 to make sure this exit executes; momentum is clearly bearish and I'm cutting 75 to stop the bleed while keeping 25 for any bounce.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 75,
+        "limit_price": 98.1,
+        "round": 4,
+        "reasoning": "Three straight down prints\u2014my 98.5 limit got no fill last round, so I'm lowering it to 98.1 to make sure this exit executes; momentum is clearly bearish and I'm cutting 75 to stop the bleed while keeping 25 for any bounce.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 0,
+      "fills": [],
+      "cash": 10015.693917927943,
+      "shares": 100,
+      "avg_cost": 100.0,
+      "wealth": 19815.693917927943,
+      "dividend_income": 2.1080849818256997,
+      "interest_income": 2.0023167032485736,
+      "wealth_change": -15.889598314926843,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_012",
+    "round": 5,
+    "condition": "B",
+    "outcome": {
+      "round": 5,
+      "price": 97.3,
+      "requested_order": {
+        "agent_id": "llm_012",
+        "side": "buy",
+        "quantity": 20,
+        "limit_price": 98.1,
+        "round": 5,
+        "reasoning": "Price has drifted down 2% with no bad news and dividends still paying, so fundamentals look unchanged and shares are modestly below my 99.94 cost. I'll add a small 20-share lot at a patient 98.1 limit, keeping over 7,700 in cash as my buffer.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_012",
+        "side": "buy",
+        "quantity": 20,
+        "limit_price": 98.1,
+        "round": 5,
+        "reasoning": "Price has drifted down 2% with no bad news and dividends still paying, so fundamentals look unchanged and shares are modestly below my 99.94 cost. I'll add a small 20-share lot at a patient 98.1 limit, keeping over 7,700 in cash as my buffer.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 20,
+      "executed_sell_quantity": 0,
+      "fills": [
+        {
+          "side": "buy",
+          "quantity": 20,
+          "price": 97.3
+        }
+      ],
+      "cash": 7779.402866394723,
+      "shares": 123,
+      "avg_cost": 99.51219512195122,
+      "wealth": 19747.302866394723,
+      "dividend_income": 2.149366245229127,
+      "interest_income": 1.5551396720954795,
+      "wealth_change": -68.39549408267703,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  },
+  {
+    "record_type": "outcome",
+    "agent_id": "llm_013",
+    "round": 5,
+    "condition": "B",
+    "outcome": {
+      "round": 5,
+      "price": 97.3,
+      "requested_order": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 75,
+        "limit_price": null,
+        "round": 5,
+        "reasoning": "Four straight down prints and my last two limit sells never filled because I keep pricing above the clearing print\u2014this time I'm hitting the market to guarantee the exit. Momentum's still bearish, so I'm cutting 75 shares flat and keeping 25 in case the slowing decline (-0.2 vs -0.7) marks a bounce.",
+        "validation_note": ""
+      },
+      "accepted_order": {
+        "agent_id": "llm_013",
+        "side": "sell",
+        "quantity": 75,
+        "limit_price": null,
+        "round": 5,
+        "reasoning": "Four straight down prints and my last two limit sells never filled because I keep pricing above the clearing print\u2014this time I'm hitting the market to guarantee the exit. Momentum's still bearish, so I'm cutting 75 shares flat and keeping 25 in case the slowing decline (-0.2 vs -0.7) marks a bounce.",
+        "validation_note": ""
+      },
+      "executed_buy_quantity": 0,
+      "executed_sell_quantity": 39,
+      "fills": [
+        {
+          "side": "sell",
+          "quantity": 3,
+          "price": 97.3
+        },
+        {
+          "side": "sell",
+          "quantity": 3,
+          "price": 97.3
+        },
+        {
+          "side": "sell",
+          "quantity": 3,
+          "price": 97.3
+        },
+        {
+          "side": "sell",
+          "quantity": 20,
+          "price": 97.3
+        },
+        {
+          "side": "sell",
+          "quantity": 10,
+          "price": 97.3
+        }
+      ],
+      "cash": 13814.221942572985,
+      "shares": 61,
+      "avg_cost": 100.0,
+      "wealth": 19749.521942572985,
+      "dividend_income": 1.0659458614550954,
+      "interest_income": 2.762078783585589,
+      "wealth_change": -66.1719753549587,
+      "news": []
+    },
+    "base_prompt_version": "facts_B_v2",
+    "prompt_version": "quiet_components_v1_hidden_honest_prior:B",
+    "horizon_visibility": "hidden",
+    "research_adapter_version": "horizon_visibility_v1_from_round1",
+    "upstream_prompt_version": "initial_news_A_v1_explicit_prior_reference",
+    "initial_reference_version": "explicit_prior_reference_v1",
+    "quiet_components_version": "quiet_components_v1_hidden_honest_prior"
+  }
+]

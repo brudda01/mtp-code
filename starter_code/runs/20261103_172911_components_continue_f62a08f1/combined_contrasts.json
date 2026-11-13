@@ -1,0 +1,1159 @@
+{
+  "news_minus_silent": [
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": -10,
+      "accepted_signed_quantity": -10
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": 20,
+      "accepted_signed_quantity": 20
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": 20,
+      "accepted_signed_quantity": 20
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": -10,
+      "accepted_signed_quantity": -10
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": -20,
+      "accepted_signed_quantity": -20
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": 20,
+      "accepted_signed_quantity": 20
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": 20,
+      "accepted_signed_quantity": 20
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": 20,
+      "accepted_signed_quantity": 20
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": 100,
+      "accepted_signed_quantity": 100
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": 100,
+      "accepted_signed_quantity": 100
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": -100,
+      "accepted_signed_quantity": -100
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    }
+  ],
+  "adjacent_mode_contrasts": [
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": -10,
+      "accepted_signed_quantity": -10
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": 10,
+      "accepted_signed_quantity": 10
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": 10,
+      "accepted_signed_quantity": 10
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": 10,
+      "accepted_signed_quantity": 10
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": 30,
+      "accepted_signed_quantity": 30
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": -10,
+      "accepted_signed_quantity": -10
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": 100,
+      "accepted_signed_quantity": 100
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": 0,
+      "accepted_signed_quantity": 0
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": -50,
+      "accepted_signed_quantity": -50
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": 50,
+      "accepted_signed_quantity": 50
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": -100,
+      "accepted_signed_quantity": -100
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 1,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": 50,
+      "accepted_signed_quantity": 50
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "news": "silent",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "news": "positive",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "B-A",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "news": "negative",
+      "contrast": "C-B",
+      "requested_signed_quantity": null,
+      "accepted_signed_quantity": null
+    }
+  ],
+  "interpretation": "Fresh repeated queries conditional on four reused states, not market repetitions. Missing failures stay null; direction is not correctness. Neither orders nor possible price intervals are executions."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "analyzed_replayed_and_preserved",
+  "finished_utc": "2026-11-04T23:59:08.600574+00:00",
+  "study_status": "completed",
+  "summary": {
+    "status": "completed",
+    "recorded_branches": 24,
+    "planned_branches": 24,
+    "completed_branches": 24,
+    "failure_type": null,
+    "usage": {
+      "requests_made": 385,
+      "reserved_tokens": 6765217,
+      "provider_reported_tokens": 1249264,
+      "unknown_usage_requests": 1,
+      "blocked_requests": 0
+    },
+    "cached_prefix_requests": 240,
+    "finished_utc": "2026-11-04T23:58:41.015342+00:00"
+  },
+  "analysis": "runs/common_prefix_analysis_20261105",
+  "verification": {
+    "verified_clean_paths": 23,
+    "not_replayed": [
+      {
+        "run": "branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad",
+        "reason": "Recovered error attempt requires exception-aware tape replay;raw evidence retained."
+      }
+    ],
+    "network_attempts": 0
+  },
+  "evidence": {
+    "path": "starter_code/runs/common_prefix_20261105_evidence.zip",
+    "sha256": "0f90fef8947a4f6a37ee485d155cea560905fa263fbdace07cafa5c9b7be7606",
+    "bytes": 9096370,
+    "exported_hashes": 1286,
+    "recursive_secret_checks": 3007,
+    "previous_archives_unchanged": 12,
+    "all_member_hashes_verified": true
+  },
+  "interpretation": "Automated neutral readout,not visual/manual scientific interpretation or a claim of universal reflection/human realism."
+}

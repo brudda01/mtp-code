@@ -1,0 +1,303 @@
+{
+  "version": "quiet_components_v1_hidden_honest_prior",
+  "status": "frozen_before_any_markets",
+  "created_utc": "2026-11-04T19:53:35.281193+00:00",
+  "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    " M ../00_START_HERE.md",
+    " M ../06_EVALUATION_AND_EXPERIMENTS.md",
+    "AM ../AGENTS.md",
+    "AM ../RESEARCH_DIARY.md",
+    " M README.md",
+    " M configs/dev_mock.yaml",
+    " M sim/agents/base.py",
+    " M sim/agents/llm_agent.py",
+    " M sim/agents/rule_agents.py",
+    " M sim/assets.py",
+    " M sim/engine.py",
+    " M sim/llm/client.py",
+    " M sim/llm/mock.py",
+    " M sim/market.py",
+    "?? ../.gitignore",
+    "?? ../THESIS_RESULTS.md",
+    "?? AGENT_EXPERIMENTS.md",
+    "?? ECONOMIC_MODEL.md",
+    "?? configs/baseline_mock.yaml",
+    "?? configs/baseline_rules.yaml",
+    "?? configs/diagnostic_shock.yaml",
+    "?? configs/pilot_a_mock.yaml",
+    "?? configs/pilot_b_mock.yaml",
+    "?? configs/pilot_c_mock.yaml",
+    "?? sim/background_check.py",
+    "?? sim/behaviour_check.py",
+    "?? sim/behaviour_run.py",
+    "?? sim/capability_check.py",
+    "?? sim/component_continuation.py",
+    "?? sim/config.py",
+    "?? sim/evaluation.py",
+    "?? sim/llm/usage.py",
+    "?? sim/news_components.py",
+    "?? sim/news_controls.py",
+    "?? sim/news_pilot.py",
+    "?? sim/pilot.py",
+    "?? sim/provenance.py",
+    "?? sim/sequential_markets.py",
+    "?? tests/test_behaviour_run.py",
+    "?? tests/test_comparable_agents.py",
+    "?? tests/test_component_continuation.py",
+    "?? tests/test_config.py",
+    "?? tests/test_disclosed_rules.py",
+    "?? tests/test_economics.py",
+    "?? tests/test_foundation.py",
+    "?? tests/test_live_pilot.py",
+    "?? tests/test_news_components.py",
+    "?? tests/test_news_controls.py",
+    "?? tests/test_news_pilot.py",
+    "?? tests/test_research_checks.py",
+    "?? tests/test_sequential_markets.py",
+    "?? tests/test_transport_retry.py"
+  ],
+  "source_sha256": {
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/component_continuation.py": "5c386f8d84e7a50654676aaea2dbd33a1365337aadc44be0d52f35a97388426b",
+    "sim/config.py": "c220ef6fefd4202bee529ca60adbfb97d7eb001f5cab5dac0b743fac4e626bc7",
+    "sim/engine.py": "abb3424aa0e72bcfdf12a533cbe900b3b654edfd71167f466aa99b8f113421de",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_components.py": "d7e611f86fb6ec543feca0b6f0dd8d23fbe61d3d4b9a09e08898000b88879d53",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/news_pilot.py": "b7d44eda1d8cf78e767431c9f033689fe97e8a330fd53b35f21b9cdda0574560",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "2f79828cc6da6c46f15afd2974842cc14c1632a8903adf855be1ab71dde0dbc9",
+    "sim/sequential_markets.py": "23163329202210ddfd193dde502110a0948da3e35902b7e3efa7e019a1785bcd",
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "0346d68c54b34c272d6bc2415209a3862082854f3b8a27f19ce941f19d99f9dd",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "30920fecf5df77d030fec79502c57c3685266641e01516af78253c623aae2d38",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/quiet_components_20261105.py": "2a1b99d72edcc2680e69991e8f0d68c5f4de88dae6e19ae7ae6caa31d7eb9bc9",
+    "runs/initial_news_20261104.py": "9f2c3bcba518cd17013beb6fc23e65a0e5a69b5a5feb483987495b78b192ec33",
+    "runs/horizon_pilot_20261104.py": "84b80667233e505f8ef5d1c4a166d373f5602bc51ecb9acda0760e752e857a0b",
+    "runs/sequential_tail_20261104.py": "cb86f8cd944407f17483fe8730d536e1eba4dee12aa9e4f7365d340056957451"
+  },
+  "source_archive_sha256": "4f31a43104b0716475a18baab43e9444ab3e0b16089fe3c2b139f0f623be44a0",
+  "driver_sha256": "2a1b99d72edcc2680e69991e8f0d68c5f4de88dae6e19ae7ae6caa31d7eb9bc9",
+  "baselines": [
+    {
+      "seed": 22853,
+      "mode": "rules",
+      "repetition": 0,
+      "config": "configs/quiet_components_rules_s22853_rep0.yaml",
+      "config_sha256": "8b18e5e9d08af0b5db83b23ccc70a3fe6f9fa143e6a199519f80bc37c12fd1fe"
+    },
+    {
+      "seed": 23971,
+      "mode": "rules",
+      "repetition": 0,
+      "config": "configs/quiet_components_rules_s23971_rep0.yaml",
+      "config_sha256": "28ed7e33af7338b3c30201cd49f36e2d3e16aa66862f2ab8cc2da57ec33b7bcd"
+    },
+    {
+      "seed": 25087,
+      "mode": "rules",
+      "repetition": 0,
+      "config": "configs/quiet_components_rules_s25087_rep0.yaml",
+      "config_sha256": "319a5e6efb117e6960438b6e57ce12dfa126ab39adff40bc0e56b1a4c87b649e"
+    }
+  ],
+  "blocks": [
+    {
+      "seed": 22853,
+      "arms": [
+        {
+          "seed": 22853,
+          "mode": "A",
+          "repetition": 1,
+          "config": "configs/quiet_components_A_s22853_rep1.yaml",
+          "config_sha256": "92bc65d764edfeda80ed19c4c6c3c90566677c3e10b0e323ce43b1cbb72d877d"
+        },
+        {
+          "seed": 22853,
+          "mode": "B",
+          "repetition": 1,
+          "config": "configs/quiet_components_B_s22853_rep1.yaml",
+          "config_sha256": "a88d9143a7658ed106e4dce4851ecf8ea8a4995fdb39dbbfb73d24b235b719e1"
+        },
+        {
+          "seed": 22853,
+          "mode": "C",
+          "repetition": 1,
+          "config": "configs/quiet_components_C_s22853_rep1.yaml",
+          "config_sha256": "67778638505b9c5da26cb04c0b76bbdbb6eb561dd3307e4a5fc14580052b5423"
+        },
+        {
+          "seed": 22853,
+          "mode": "B",
+          "repetition": 2,
+          "config": "configs/quiet_components_B_s22853_rep2.yaml",
+          "config_sha256": "ac84229b615864b6864e7b9f082b224086197151026aaefd905c2bae46f6792a"
+        },
+        {
+          "seed": 22853,
+          "mode": "C",
+          "repetition": 2,
+          "config": "configs/quiet_components_C_s22853_rep2.yaml",
+          "config_sha256": "036fdac8b72f650d0e932d8b1db7675b72d13bcebf01d57ca4ed9a328e5c09a6"
+        },
+        {
+          "seed": 22853,
+          "mode": "A",
+          "repetition": 2,
+          "config": "configs/quiet_components_A_s22853_rep2.yaml",
+          "config_sha256": "493fb3edf38d510df5b820998fb65e2459e3088beefbdaaebc6619e0593c53fc"
+        }
+      ]
+    },
+    {
+      "seed": 23971,
+      "arms": [
+        {
+          "seed": 23971,
+          "mode": "B",
+          "repetition": 1,
+          "config": "configs/quiet_components_B_s23971_rep1.yaml",
+          "config_sha256": "7e51be1b7a8cbb1db77e1d07b6af08abb4334780ab75920d8e4c7cb4dfa73e91"
+        },
+        {
+          "seed": 23971,
+          "mode": "C",
+          "repetition": 1,
+          "config": "configs/quiet_components_C_s23971_rep1.yaml",
+          "config_sha256": "5e9c62b241176c320b038bf4aeca498ed51a92e10992608edae2ba874e1fb3e8"
+        },
+        {
+          "seed": 23971,
+          "mode": "A",
+          "repetition": 1,
+          "config": "configs/quiet_components_A_s23971_rep1.yaml",
+          "config_sha256": "a61a82ec30ecd055195ad72f4741061f17d3eea1d61cdfd9ab4a90f2d8b2cf78"
+        },
+        {
+          "seed": 23971,
+          "mode": "C",
+          "repetition": 2,
+          "config": "configs/quiet_components_C_s23971_rep2.yaml",
+          "config_sha256": "c33ba67ea24b1029f4539fdef60e34bbb4d1d933993f479597aa387a4f530ccf"
+        },
+        {
+          "seed": 23971,
+          "mode": "A",
+          "repetition": 2,
+          "config": "configs/quiet_components_A_s23971_rep2.yaml",
+          "config_sha256": "ee77ab6bafbf513c1df1a96d45db0d5853bc4da35d5637b48fa03e7cc99f8682"
+        },
+        {
+          "seed": 23971,
+          "mode": "B",
+          "repetition": 2,
+          "config": "configs/quiet_components_B_s23971_rep2.yaml",
+          "config_sha256": "c509786a01a871220c5f4c750553befc298fadc626c67543611297f4fbe398f5"
+        }
+      ]
+    },
+    {
+      "seed": 25087,
+      "arms": [
+        {
+          "seed": 25087,
+          "mode": "C",
+          "repetition": 1,
+          "config": "configs/quiet_components_C_s25087_rep1.yaml",
+          "config_sha256": "bbfb4aeeff753751268183fe6738a88cbefa9edff133095b9475c720852010b8"
+        },
+        {
+          "seed": 25087,
+          "mode": "A",
+          "repetition": 1,
+          "config": "configs/quiet_components_A_s25087_rep1.yaml",
+          "config_sha256": "2ba3bc9f439052e2825dbe296cbcaacb3358e5d94782cd8211ad14ea8f8e546d"
+        },
+        {
+          "seed": 25087,
+          "mode": "B",
+          "repetition": 1,
+          "config": "configs/quiet_components_B_s25087_rep1.yaml",
+          "config_sha256": "c97dd88c54a72fdaa36d77ea4228a01ae02338df4243b51aec3027316da02a52"
+        },
+        {
+          "seed": 25087,
+          "mode": "A",
+          "repetition": 2,
+          "config": "configs/quiet_components_A_s25087_rep2.yaml",
+          "config_sha256": "75eee4a728f9ca4f10fd637066986d92c51ff27eb78a7aa91b4457f360c43b3d"
+        },
+        {
+          "seed": 25087,
+          "mode": "B",
+          "repetition": 2,
+          "config": "configs/quiet_components_B_s25087_rep2.yaml",
+          "config_sha256": "24bb6aa16cea9e5a240be2b8328f86b4ea173973f57551e68217cfb15b49afa7"
+        },
+        {
+          "seed": 25087,
+          "mode": "C",
+          "repetition": 2,
+          "config": "configs/quiet_components_C_s25087_rep2.yaml",
+          "config_sha256": "8ae0fdae6071bce50cbb639008f2618cfe8f9fe61321248fb5df958444832baa"
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    22853,
+    23971,
+    25087
+  ],
+  "repetitions": 2,
+  "rounds": 12,
+  "prompt_suite": "comparable_agents_v2_disclosed_rules",
+  "condition_versions": {
+    "A": "simple_A_v2",
+    "B": "facts_B_v2",
+    "C": "reflection_C_v2"
+  },
+  "question": "Do factual summaries or own-history reflections show repeatable policy-level differences in fresh quiet matched markets, and at what token cost?",
+  "common_design": "No news or fundamental shifts. Same initial resources/personas/economics, MMskew.02/window1. Hidden recording length, continuing stock and honest initialization prior from common R036 adapter applied to ALL modes. Actual modes A raw/B factual summaries/C own endogenous history reflections after5/10. Production defaults/sim source unchanged.",
+  "profile": {
+    "model": "qwen-3.8-27b",
+    "endpoint": "https://bharatcode.ai/api/model/v1",
+    "max_tokens": 8192,
+    "reasoning_effort": "low",
+    "decision_temperature": 0.3,
+    "reflection_temperature": 0,
+    "timeout_seconds": 180,
+    "memory_window": 5,
+    "provider_seed": null,
+    "backend_fingerprint": null,
+    "requests_per_minute": 10,
+    "input_estimate_tokens_per_minute": 60000
+  },
+  "limits": {
+    "per_arm_requests": 36,
+    "per_arm_reservations": 550000,
+    "campaign_requests": 648,
+    "campaign_reservations": 9900000,
+    "normal_decisions": 432,
+    "normal_reflections": 24,
+    "normal_requests": 456
+  },
+  "primary": "Descriptive B-A and C-B contrasts per seed/repeat: target full12 conditional passive excess returns under BOTH auction/private benchmark marks; whole-path mean absolute relative value gap; provider-reported tokens/reservations/failures. Show all signs and repeat-averaged contrasts within each of THREE exogenous seeds. No scalar winner, pvalue, profitability=realism or selected default.",
+  "secondary": "Requested/accepted/executed sizing and fill opportunities; exposure, turnover/liquidity/MM inventory/participation; all counterpart accounts and both marks. Prespecified round1-5 pre-reflection and6-12 executed-flow summaries; B/C can differ before reflection through unseeded draws.",
+  "failure_policy": "Existing one shared identical-message transport/503 extra attempt and engine JSON repair policy retained and logged. First fatal provider/output/budget or any operationally affected arm stops campaign; JSON repair also flags affected. No independent-arm continuation, resampling, restart, prefix splicing, delivery amendment or model/billing switch. Retain unknown usage and delivered-but-uncleared choices. Clean technical gates only, never gate on financial sign.",
+  "limitations": "Three exogenous scenarios, two unseeded model trajectories per mode within each; not six independent seed replications. Short quiet markets cannot validate long-run stylized facts, human realism, news response or intrinsic LLM superiority. Treatment changes endogenous state/history; no paired provider seed, isolated same-history reflection effect, causal prose/trait claim or universal benefit. Old ambiguous-news/disclosed-horizon cohorts remain separate."
+}

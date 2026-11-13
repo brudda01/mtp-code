@@ -1,0 +1,9 @@
+{
+  "status": "active_seed31991_exception",
+  "created_utc": "2026-11-08T18:39:11.348950+00:00",
+  "authority": "User explicitly lifts freeze, requests Retry-After plus1second HTTP429 handling and new seed31991 execution, then thesis integration.",
+  "only_authorized_root": "starter_code/runs/goedel_seed2_backoff_20261109",
+  "supersedes": "R057 freeze only for this new root; both old aborted roots and R052 remain closed.",
+  "settings": "Unchanged economic/model/persona/prompt settings; delivery backoff amendment only. New600HTTP/8M reservation ceiling;150normal decisions,atmost10HTTP429retries perlogicalrequest.",
+  "after_attempt": "Close exception and freeze further collection; no additional scenario."
+}

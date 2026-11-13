@@ -1,0 +1,72 @@
+[
+  {
+    "mode": "B",
+    "config": "configs/B_5209.yaml",
+    "config_sha256": "cf0a84c4bc3c803cd5bfece8ed560cc2b8a7ece77cd21769bb652d3cca211eaf",
+    "seed": 5209,
+    "run_path": "block_5209/market_runs/20261103_195428_sequential_B_combined_s5209_r24_9b9f25bf",
+    "manifest_sha256": "dd0120d1943ae97671306fe8c6081737b29c934421a8a6ade9b7b49294580675",
+    "status": "completed",
+    "rounds": 24,
+    "usage": {
+      "requests_made": 49,
+      "max_requests": 90,
+      "reserved_tokens": 827936,
+      "max_reserved_tokens": 1100000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 152561,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 1,
+      "failed_requests": 1,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0
+    }
+  },
+  {
+    "mode": "C",
+    "config": "configs/C_5209.yaml",
+    "config_sha256": "bee953a5c9fda4c5dc4f5f381bf64c46ca9e86216951eb773482368e509c5ae5",
+    "seed": 5209,
+    "run_path": "block_5209/market_runs/20261103_201052_sequential_C_combined_s5209_r24_94d71744",
+    "manifest_sha256": "7bd44e595f66451ce99dbbaa149d42b6ed62b3655aa029f439af97f1a8eea775",
+    "status": "provider_error",
+    "rounds": 19,
+    "usage": {
+      "requests_made": 48,
+      "max_requests": 90,
+      "reserved_tokens": 814630,
+      "max_reserved_tokens": 1100000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 144495,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 3,
+      "failed_requests": 3,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": true,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 1,
+      "reflection_failures": 0,
+      "output_truncations": 0
+    }
+  }
+]

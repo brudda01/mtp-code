@@ -1,0 +1,107 @@
+[
+  {
+    "mode": "A",
+    "config": "configs/A_4103.yaml",
+    "config_sha256": "af888049d0ef068913769a6300dc30b33fd83991c1c557216883615b9262fe17",
+    "seed": 4103,
+    "run_path": "block_4103/market_runs/20261103_183350_sequential_A_combined_s4103_r24_18a4432b",
+    "manifest_sha256": "a7fe7be73906465e035bb84b65889db3c3bab9d812b10833219acc360487c92b",
+    "status": "completed",
+    "rounds": 24,
+    "usage": {
+      "requests_made": 48,
+      "max_requests": 90,
+      "reserved_tokens": 776896,
+      "max_reserved_tokens": 1100000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 136981,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0
+    }
+  },
+  {
+    "mode": "B",
+    "config": "configs/B_4103.yaml",
+    "config_sha256": "76d0342ce1b1540eaeff6e43f5d094f945e8bc8f344e658566946f11eaa4b64c",
+    "seed": 4103,
+    "run_path": "block_4103/market_runs/20261103_184528_sequential_B_combined_s4103_r24_74bfb78f",
+    "manifest_sha256": "c81d6676d81ef198eb979f69840eb299d496ae24f87c764a9b3aa5a0b77e065d",
+    "status": "completed",
+    "rounds": 24,
+    "usage": {
+      "requests_made": 48,
+      "max_requests": 90,
+      "reserved_tokens": 803649,
+      "max_reserved_tokens": 1100000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 146181,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0
+    }
+  },
+  {
+    "mode": "C",
+    "config": "configs/C_4103.yaml",
+    "config_sha256": "4bcf8cc5a47cc219884f8e5beb5c840e622ceb4438152772e1b8eaf164b658ab",
+    "seed": 4103,
+    "run_path": "block_4103/market_runs/20261103_185412_sequential_C_combined_s4103_r24_81e8e977",
+    "manifest_sha256": "b4f12946419d28e55bd51dae486bc5a54cd572eea26207ce2e4ef244379f013a",
+    "status": "provider_error",
+    "rounds": 22,
+    "usage": {
+      "requests_made": 54,
+      "max_requests": 90,
+      "reserved_tokens": 927229,
+      "max_reserved_tokens": 1100000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 172842,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 2,
+      "failed_requests": 2,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 1,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": true,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 1,
+      "reflection_failures": 0,
+      "output_truncations": 0
+    }
+  }
+]

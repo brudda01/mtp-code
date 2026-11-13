@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "candidate_price_volume_checks": 432,
+  "account_settlements": 6048,
+  "max_cash_error": 0.0,
+  "note": "Independent calculation of documented candidate/price rule and cash/share flows;not external market validation."
+}

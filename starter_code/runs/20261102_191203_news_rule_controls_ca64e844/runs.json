@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 211,
+    "cell": "control",
+    "run_path": "market_runs/20261102_191203_news_control_2b6d4345",
+    "manifest_sha256": "32b3163b441b0cccdca997389ce48cf0d3be7c67cb5e3a10defba87f3537853b"
+  },
+  {
+    "seed": 211,
+    "cell": "headline_only",
+    "run_path": "market_runs/20261102_191204_news_headline_only_16ea2800",
+    "manifest_sha256": "6476ad9d20f02cac2e08edf7954466d23bc2f37aca6c33f5120d9000aadc11a6"
+  },
+  {
+    "seed": 211,
+    "cell": "fundamentals_only",
+    "run_path": "market_runs/20261102_191205_news_fundamentals_only_556b8680",
+    "manifest_sha256": "6be055b84ec55a4fca63777a71cea33619555c9dbd53935bc0322e06865171b7"
+  },
+  {
+    "seed": 211,
+    "cell": "combined",
+    "run_path": "market_runs/20261102_191206_news_combined_ec883235",
+    "manifest_sha256": "55b4d1d7cad1f05f3e96bed61316a3a151d539da896494b962acb4b57b0b1d13"
+  },
+  {
+    "seed": 422,
+    "cell": "control",
+    "run_path": "market_runs/20261102_191207_news_control_6298a1cf",
+    "manifest_sha256": "a6859c42b9b13ba21621c7696c19edb01dffd3167a57da6ad54ca2335d2e4c68"
+  },
+  {
+    "seed": 422,
+    "cell": "headline_only",
+    "run_path": "market_runs/20261102_191208_news_headline_only_590526a7",
+    "manifest_sha256": "f4531bf1dec4c5928289c20668ca0c0c5cd0ed60d879ce48eeb72feb51477df1"
+  },
+  {
+    "seed": 422,
+    "cell": "fundamentals_only",
+    "run_path": "market_runs/20261102_191209_news_fundamentals_only_2a02dfec",
+    "manifest_sha256": "e9179c9b36cf9a6daa0b423bc71376e0e298ee759ad006193eddd31540b2697f"
+  },
+  {
+    "seed": 422,
+    "cell": "combined",
+    "run_path": "market_runs/20261102_191210_news_combined_6dfb6f10",
+    "manifest_sha256": "44f1ef4ce5a5c1e8cf60f68a389eb94273d1b699efc8893b8fe33b49ca3318b3"
+  },
+  {
+    "seed": 633,
+    "cell": "control",
+    "run_path": "market_runs/20261102_191211_news_control_1dd95580",
+    "manifest_sha256": "b3042f20e62cd70ad0bcc4f8e00b0cfc60a3037fe6793ebf9a9d3ec69aaae46b"
+  },
+  {
+    "seed": 633,
+    "cell": "headline_only",
+    "run_path": "market_runs/20261102_191213_news_headline_only_18b201bd",
+    "manifest_sha256": "adf72e29df3ce6e418118b3d854723d0521b92193c8fc7b457769e7ad2e03993"
+  },
+  {
+    "seed": 633,
+    "cell": "fundamentals_only",
+    "run_path": "market_runs/20261102_191214_news_fundamentals_only_1b4306a1",
+    "manifest_sha256": "43b451be603df6156cd37fe9973b4e692982657cf0678bba88e70994f8fe2405"
+  },
+  {
+    "seed": 633,
+    "cell": "combined",
+    "run_path": "market_runs/20261102_191215_news_combined_a8039a9c",
+    "manifest_sha256": "b37303462ef336870f4e705110422a5523de9737972cd29e0ef6b0f228d862a4"
+  }
+]

@@ -1,0 +1,263 @@
+{
+  "status": "passed",
+  "kind": "Recorded-output verification,not fresh model replication",
+  "network_attempts": 0,
+  "markets": [
+    {
+      "original_run": "market_runs/20261104_161708_downside_A_20611_original_silent_rep1_d2edacdd",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235637_downside_A_20611_original_silent_rep1_cfffe4ea",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_162032_downside_A_20611_original_visible_rep1_a2ac19fd",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235637_downside_A_20611_original_visible_rep1_2ae27928",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_162407_downside_A_20611_no_skew_visible_rep1_1655d46f",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235637_downside_A_20611_no_skew_visible_rep1_9d0a92f3",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_162830_downside_A_20611_no_skew_silent_rep1_5b6df65b",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235638_downside_A_20611_no_skew_silent_rep1_51143943",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_163148_downside_A_20611_original_visible_rep2_1a24bbfc",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235638_downside_A_20611_original_visible_rep2_35d37bbc",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_163755_downside_A_20611_no_skew_visible_rep2_97423586",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235639_downside_A_20611_no_skew_visible_rep2_facfecc5",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_164104_downside_A_20611_no_skew_silent_rep2_d4283014",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235640_downside_A_20611_no_skew_silent_rep2_ba69d7b3",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_164401_downside_A_20611_original_silent_rep2_6fc9cda1",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235641_downside_A_20611_original_silent_rep2_79fe9ece",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_164732_downside_A_21727_no_skew_visible_rep1_511f4681",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235642_downside_A_21727_no_skew_visible_rep1_90d3ac31",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_165115_downside_A_21727_no_skew_silent_rep1_04f7ee9a",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235643_downside_A_21727_no_skew_silent_rep1_6c32848d",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_165448_downside_A_21727_original_silent_rep1_03f41a6c",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235644_downside_A_21727_original_silent_rep1_5bae24d7",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_165836_downside_A_21727_original_visible_rep1_f12f19c0",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235645_downside_A_21727_original_visible_rep1_77506953",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_170211_downside_A_21727_no_skew_silent_rep2_919d5d00",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235646_downside_A_21727_no_skew_silent_rep2_b408eef8",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_170450_downside_A_21727_original_silent_rep2_2aa6256f",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235647_downside_A_21727_original_silent_rep2_2c7eec31",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_170749_downside_A_21727_original_visible_rep2_12499ef7",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235648_downside_A_21727_original_visible_rep2_d95f6c58",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261104_171335_downside_A_21727_no_skew_visible_rep2_936822c2",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R041\\original_bundle\\20261105_235649_downside_A_21727_no_skew_visible_rep2_31cac48f",
+      "rounds": 8,
+      "recorded_calls_consumed": 16,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    }
+  ]
+}

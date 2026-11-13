@@ -1,0 +1,114 @@
+[
+  {
+    "frame_id": "s1441_llm_012",
+    "repetition": 1,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "**Observations:** Five rounds, no news. Price drifted from 100.5 to a peak of 108.7, now 108.3. I've held 100 shares at avg cost 100 throughout; wealth rose to ~20,850, most of the gain in round 3. Dividends and interest accrue steadily. **Beliefs:** With no fundamentals to analyze, I read the rise as price noise, not a signal. My position sits comfortably above cost, so holding costs me nothing \u2014 and selling into an unexplained run-up would feel like inviting regret. **Plan:** Keep holding and collecting income. I'll only act on verifiable fundamental news; absent that, patience serves my long horizon.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "**Observations:** No news through round 10. Price peaked at 109.6, now 109.3. I sold 30 shares at 108.8 in round 8; my round-10 limit sell of 10 shares at 109.6 did not fill. I hold 70 shares (cost 100) and ~13,304 cash; wealth ~20,955. **Beliefs:** The climb remains unexplained by fundamentals \u2014 price noise. Selling above cost feels fine, so trimming hasn't pained me. But the unfilled order warns me my limit was set above the market. **Plan:** Hold. Any further trim must use realistic limits, and I'll act only on verifiable news \u2014 patience still suits my horizon.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "frame_id": "s1441_llm_013",
+    "repetition": 1,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "**Observations:** Price path 100.0 \u2192 100.5 \u2192 101.1 \u2192 108.0 \u2192 108.7 \u2192 108.3. I'm fully deployed: 188 shares, avg cost 103.92, cash only 481.92. Round 5 delivered my first negative wealth change (\u221263.37) despite the uptrend; my round-2 limit at 101 was left behind. **Beliefs:** Momentum is still intact \u2014 price sits well above my average and the series of higher prints dominates. The 108.7 \u2192 108.3 tick is minor noise, not a reversal signal; I trust my read over any caution. **Plan:** Hold everything; I lack cash to add anyway. If price breaks below ~107, I'll reconsider and trim rather than ride a broken trend.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "**Observations:** Price path since my last note: 108.3 \u2192 109.1 \u2192 108.8 \u2192 109.6 \u2192 109.3. I'm fully deployed: 192 shares, avg cost 104.01, cash only 67.71. Wealth alternates: +3.75, +156.28, \u221253.09, +157.80, \u221253.76. **Beliefs:** Momentum is intact \u2014 repeated new highs (109.1, 109.6) dominate the two red rounds, and every dip has been bought back. The alternating swings are noise around a rising trend; I trust this read over the caution those \u221253 days suggest. **Plan:** Hold everything; my cash can't buy a share anyway. If price breaks below ~107, I'll trim rather than ride a broken trend.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "frame_id": "s2882_llm_012",
+    "repetition": 1,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "**Observations:** Price has sat at my 100.0 cost basis for rounds 3\u20135 after dipping to 99.5; no news, dividends and interest flowing steadily, wealth roughly flat-to-up each round. **Beliefs:** With no new fundamental information, there's no compelling edge to add or trim. I still feel losses twice as strongly, so selling below basis would be painful \u2014 though I should watch for genuine deterioration rather than anchor purely to cost. **Plan:** Continue holding my 100 shares and collecting income. Revisit only if price moves meaningfully off basis or fundamentals change.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "**Observations:** Price fell from 100.6 (rounds 6\u20138) to 98.6 then 98.1, putting me below my 100.0 basis; no news, income still accruing, wealth declined ~242 over rounds 9\u201310. **Beliefs:** No fundamental deterioration has been reported \u2014 this looks like price noise rather than new information. Still, I notice my discomfort below basis may be anchoring; I should treat a sustained drop plus negative news, not cost, as the real sell signal. **Plan:** Hold 100 shares, keep collecting income; reassess if news emerges or the decline persists several more rounds.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "frame_id": "s2882_llm_013",
+    "repetition": 1,
+    "steps": [
+      {
+        "round": 5,
+        "diary": "**Observations:** Price dipped to 99.5 in R1, recovered to 100 and flatlined for four rounds. My R3\u2013R4 buys filled at 100 (160 shares total, avg cost 100). My R5 order at limit 100.3 filled nothing \u2014 no momentum confirmation yet. Cash sits at ~$4,020. No news. **Beliefs:** I called this momentum shifting up after the dip was bought; so far it's just sideways. I'm underweight confidence \u2014 the tape hasn't agreed with me yet, but four flat holds at 100 still looks like accumulation to me. **Plan:** Don't force size until price breaks 100 with conviction. If it stalls, my conviction wavers fast \u2014 watch the next round closely.",
+        "source_rounds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "round": 10,
+        "diary": "**Observations:** Breakout to 100.6 filled me at 100.6 (round 7\u20138); I went all-in \u2014 200 shares, avg 100.11, cash $16. Then price fell to 98.6 and 98.1. Wealth down ~$480 over two rounds. No news. **Beliefs:** I called the 98.6 tick a shakeout \u2014 wrong so far. Momentum shifted down, not up. I overcommitted on a breakout that stalled instantly; my size, not my read of the dip, is the real error. I still think supply is thin, but I can't defend averaging in with $16. **Plan:** No cash to act. Hold and watch 98 \u2014 if it breaks, I'm riding 200 shares down without a hedge.",
+        "source_rounds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  }
+]

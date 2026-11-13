@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\quiet_components_finish_20261105.py", line 117, in <module>
+    print(json.dumps(watch(args.study,args.output)),flush=True)
+                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\quiet_components_finish_20261105.py", line 106, in watch
+    return finish(root,out)
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\quiet_components_finish_20261105.py", line 71, in finish
+    receipt=preserve(root,out)
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\quiet_components_finish_20261105.py", line 31, in preserve
+    files={p.relative_to(repo).as_posix():p.read_bytes() for p in paths}
+           ~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\pathlib\_local.py", line 385, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'runs\\20261105_012335_quiet_components_5066abab\\baseline_execution.json' is not in the subpath of 'C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp'

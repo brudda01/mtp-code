@@ -1,0 +1,290 @@
+[
+  {
+    "case": "llm_012_down",
+    "repetition": 1,
+    "parsed": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016,
+      "reasoning": "The prior dividend reference is 0.02 per share. A one-time 20% decrease gives 0.02 * (1 - 0.20) = 0.016 per share, effective starting this session (session 1). The forecast states the expected dividend remains at this new level in all later sessions with no further changes, so the expected level is 0.016 in session 5 and 0.016 in session 10 as well. These are expected levels, not realized random payments."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_012_up",
+    "repetition": 1,
+    "parsed": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024,
+      "reasoning": "The prior expected dividend per share was 0.02. The report forecasts a one-time 20% increase starting this session (session 1) and that the new level persists: 0.02 * 1.20 = 0.024. Conditional on the forecast being accurate, the expected dividend remains 0.024 in session 1, session 5, and session 10. These are expected levels; realized payments may vary."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_013_down",
+    "repetition": 1,
+    "parsed": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016,
+      "reasoning": "The report forecasts a one-time 20% cut from the pre-report expected dividend of 0.02 per share. 0.02 * (1 - 0.20) = 0.016 per share. Since the forecast states the expected dividend stays at this new level in later sessions, the expected level is 0.016 in session 1 (this session), and remains 0.016 in sessions 5 and 10."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_013_up",
+    "repetition": 1,
+    "parsed": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024,
+      "reasoning": "The pre-report expected dividend is 0.02 per share. The news forecasts a one-time 20% increase starting this session (session 1) and that the new level persists: 0.02 * 1.20 = 0.024. So the implied expected dividend per share is 0.024 in session 1, 0.024 in session 5, and 0.024 in session 10, conditional on the forecast being accurate. These are expected levels, not realized payments."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_012_up",
+    "repetition": 2,
+    "parsed": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024,
+      "reasoning": "The report forecasts a one-time 20% increase in expected dividend per share starting this session (session 1), with the new level maintained in later sessions. Baseline expected dividend immediately before the report is 0.02. New expected level = 0.02 * 1.20 = 0.024 per share. Conditional on the forecast being accurate, the expected dividend is 0.024 in session 1, and remains 0.024 in sessions 5 and 10, since the report states the increased level persists unchanged in later sessions. These are expected levels, not realized payments."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_013_down",
+    "repetition": 2,
+    "parsed": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016,
+      "reasoning": "The pre-report expected dividend per share is 0.02. The forecast calls for a one-time 20% decrease starting this session (session 1), so the new expected level is 0.02 * (1 - 0.20) = 0.016. The report states the expected dividend remains at this new level in later sessions, so the implied expected dividend stays 0.016 in sessions 5 and 10 as well. These are expected levels, not realized payments."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_013_up",
+    "repetition": 2,
+    "parsed": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024,
+      "reasoning": "The report states a one-time 20% increase to the expected dividend per share starting this trading session (session 1), with the new level held constant in later sessions. Baseline expected dividend immediately before the report is 0.02 per share. Applying the one-time adjustment: 0.02 * 1.20 = 0.024 per share. Since the forecast says the expected dividend remains at this new level in all subsequent sessions, the expected level in session 1, session 5, and session 10 is each 0.024 per share. These are expected (mean) levels, not realized payments, which remain uncertain."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_012_down",
+    "repetition": 2,
+    "parsed": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016,
+      "reasoning": "Prior expected dividend per share was 0.02. The report forecasts a one-time 20% decrease starting this session: 0.02 * (1 - 0.20) = 0.016. Since the forecast states the expected dividend remains at this new level in later sessions, the expected dividend is 0.016 in session 1, 0.016 in session 5, and 0.016 in session 10."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_013_down",
+    "repetition": 3,
+    "parsed": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016,
+      "reasoning": "Baseline expected dividend immediately before the report is 0.02 per share. The report forecasts a one-time 20% decrease starting this trading session (session 1) and that the new level persists: 0.02 * (1 - 0.20) = 0.016. Conditional on the forecast being accurate, the expected dividend per share is therefore 0.016 in session 1, and it remains 0.016 in sessions 5 and 10 since the report says the expected dividend stays at this new level with no further changes."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_013_up",
+    "repetition": 3,
+    "parsed": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024,
+      "reasoning": "The pre-report expected dividend per share is 0.02. The news forecasts a one-time 20% increase to expected dividends starting this trading session (session 1) and holding at that new level in all later sessions. So the implied expected dividend is 0.02 * 1.20 = 0.024 per share, and since the report states the new level persists, expected dividends in sessions 1, 5, and 10 are all 0.024 per share. These are expected (mean) levels, not realized payments, which remain uncertain."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_012_down",
+    "repetition": 3,
+    "parsed": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016,
+      "reasoning": "The pre-report expected dividend is 0.02 per share. The forecast is a one-time 20% decrease, so the new expected level is 0.02 * (1 - 0.20) = 0.016 per share, taking effect this trading session (session 1) and remaining at that level in later sessions. Therefore the expected dividend per share is 0.016 in session 1, 0.016 in session 5, and 0.016 in session 10, conditional on the forecast being accurate."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.016,
+      "expected_dividend_session_5": 0.016,
+      "expected_dividend_session_10": 0.016
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  },
+  {
+    "case": "llm_012_up",
+    "repetition": 3,
+    "parsed": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024,
+      "reasoning": "The prior expected dividend was 0.02 per share. The report forecasts a one-time 20% increase starting this session (session 1) and that the new level persists: 0.02 * 1.20 = 0.024. Conditional on the forecast being accurate, the expected dividend remains 0.024 in session 1, session 5, and session 10, since the increase is one-time and the level is held constant afterward. These are expected levels, not the randomly realized payments."
+    },
+    "valid_numeric_reading": true,
+    "numeric_values": {
+      "expected_dividend_session_1": 0.024,
+      "expected_dividend_session_5": 0.024,
+      "expected_dividend_session_10": 0.024
+    },
+    "extracted_string_fields": [],
+    "strict_json_numbers": true,
+    "matches_level": [
+      true,
+      true,
+      true
+    ],
+    "interpretation": "level"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "seed": 9623,
+    "mode": "A",
+    "config": "configs/A_9623.yaml",
+    "config_sha256": "d872f40f19558aa4f9ca5d58780230b3ef26f5296c9302320bd566e5ba361c31",
+    "run_path": "source_runs/20261104_055733_news_auction_source_A_s9623_ec7f0baa",
+    "manifest_sha256": "de8bb3835a4229e3f39ee3d36f153938663259f71e2bc8ebbb8d73fab28bdecd",
+    "status": "provider_error",
+    "rounds": 0,
+    "usage": {
+      "requests_made": 2,
+      "max_requests": 40,
+      "reserved_tokens": 22284,
+      "max_reserved_tokens": 600000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 0,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 2,
+      "failed_requests": 2,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 1,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": true,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    }
+  }
+]

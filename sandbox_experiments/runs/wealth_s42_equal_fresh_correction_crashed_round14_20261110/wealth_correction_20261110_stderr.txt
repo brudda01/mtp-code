@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\sandbox_experiments\run_wealth_correction.py", line 109, in run
+    run_concurrent_market(CONFIG,OUTPUT/'s42_equal',factory)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\sandbox_experiments\run_fast_campaign.py", line 123, in run_concurrent_market
+    raise RuntimeError(f"missing/invalid decision for {aid}; stop without auction")
+RuntimeError: missing/invalid decision for llm_9; stop without auction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\sandbox_experiments\run_wealth_correction.py", line 127, in <module>
+    if __name__=='__main__': run()
+                             ~~~^^
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\sandbox_experiments\run_wealth_correction.py", line 120, in run
+    save()
+    ~~~~^^
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\sandbox_experiments\run_wealth_correction.py", line 95, in save
+    write_json(OUTPUT/'summary.json',summary)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\sandbox_experiments\run_fast_campaign.py", line 39, in write_json
+    temp.replace(path)
+    ~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\pathlib\_local.py", line 780, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\sandbox_experiments\\runs\\wealth_s42_equal_fresh_correction_20261110\\summary.json.tmp' -> 'C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\sandbox_experiments\\runs\\wealth_s42_equal_fresh_correction_20261110\\summary.json'

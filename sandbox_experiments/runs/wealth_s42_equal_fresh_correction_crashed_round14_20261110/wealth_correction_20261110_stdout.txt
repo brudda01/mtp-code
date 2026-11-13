@@ -1,0 +1,2 @@
+ [EQUAL]: Round 005/100 Cleared | Price: $101.10 | Volume: 27 sh
+ [EQUAL]: Round 010/100 Cleared | Price: $102.50 | Volume: 18 sh

@@ -1,0 +1,29 @@
+{
+  "version": "first_live_diagnostic_v1",
+  "runs": [
+    {
+      "seed": 704,
+      "condition": "A"
+    },
+    {
+      "seed": 704,
+      "condition": "B"
+    },
+    {
+      "seed": 704,
+      "condition": "C"
+    },
+    {
+      "seed": 905,
+      "condition": "C"
+    },
+    {
+      "seed": 905,
+      "condition": "B"
+    },
+    {
+      "seed": 905,
+      "condition": "A"
+    }
+  ]
+}

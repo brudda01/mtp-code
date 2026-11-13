@@ -1,0 +1,26 @@
+{
+  "status": "verified_42_check_completion",
+  "offline_tests_passed": 107,
+  "completed_checks": 42,
+  "objective_fields_correct": 54,
+  "objective_fields_total": 54,
+  "valid_reservation_compliant_orders": 30,
+  "known_main_requests": 43,
+  "known_main_reported_tokens": 49019,
+  "main_unknown_usage_requests": 1,
+  "excluded_interrupted_prefix_requests_observed": 13,
+  "excluded_prefix_unlogged_usage_possible": true,
+  "NVIDIA_requests_made": 0,
+  "primary_output_hashes_checked": 18,
+  "source_archives_checked": 3,
+  "current_source_matches_continuation": true,
+  "original_battery_unchanged": true,
+  "credential_scan_passed": true,
+  "artifact_sha256": {
+    "runs\\qwen_capability_completion_20261102.json": "1d5409a0e99659679dd318e6cc41fecaffd9f2cc10302d2d79c9ffdcb7fefa56",
+    "runs\\capability_completion_analysis_20261102.py": "e500dea246d5094f570ebe6e451edc04865e9536b7da58ef14570d82f4dd79bb",
+    "runs\\capability_analysis_20261102.py": "142bf89d57cb106001134a16ecb290b8d69cec38c9d794fb9f09039694aca103",
+    "runs\\20261102_053910_capability_battery_fa9fc215\\battery.json": "86c76fa1e64e1d05fa78170b371bb1a0882c0f158e2328dedb4fd52692d5a4f5",
+    "runs\\capability_remaining_20261102\\battery.json": "11d958ce4f5834ac7e7bbf8e946e97bcd51101a15304387fb48910db528d548e"
+  }
+}

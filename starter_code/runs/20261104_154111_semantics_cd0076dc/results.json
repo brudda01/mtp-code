@@ -1,0 +1,20 @@
+[
+  {
+    "case": "llm_012_down",
+    "wording": "original",
+    "repetition": 1,
+    "valid": false,
+    "parsed": {
+      "expected_dividend_session_1": "0.02",
+      "expected_dividend_session_5": "0.008192",
+      "expected_dividend_session_10": "0.00268435",
+      "reasoning": "The forecast implies a 20% decline each session from the 0.02 base, so session n pays 0.02*0.8^(n-1): session 1 stays 0.02, session 5 is 0.02*0.8^4 = 0.008192, and session 10 is 0.02*0.8^9 \u2248 0.002684."
+    },
+    "interpretation": "malformed",
+    "matches_level": [
+      false,
+      false,
+      false
+    ]
+  }
+]

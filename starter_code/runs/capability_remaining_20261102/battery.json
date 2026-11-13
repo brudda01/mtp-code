@@ -1,0 +1,701 @@
+{
+  "version": "fresh_capability_v1_disclosed_rules",
+  "prompt_suite_version": "comparable_agents_v2_disclosed_rules",
+  "setup_seed": 1103,
+  "repetitions": 3,
+  "cases": [
+    {
+      "case_id": "empty_A",
+      "family": "resources",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": 90,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 0,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 0,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.25,
+        "band": 0.1,
+        "tax": 0.02
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.1; transaction tax rate 0.02 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nAnalyst fair-value estimate: 90\nYour account: cash 0, shares 0 (avg cost 0), total wealth 0.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "tight_cash_A",
+      "family": "resources",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": 90,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 75.1,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 75.1,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.25,
+        "band": 0.1,
+        "tax": 0.02
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.1; transaction tax rate 0.02 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nAnalyst fair-value estimate: 90\nYour account: cash 75.1, shares 0 (avg cost 0), total wealth 75.1.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "empty_B",
+      "family": "resources",
+      "kind": "order",
+      "condition": "B",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": 90,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 0,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 0,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.25,
+        "band": 0.1,
+        "tax": 0.02
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.1; transaction tax rate 0.02 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nAnalyst fair-value estimate: 90\nYour account: cash 0, shares 0 (avg cost 0), total wealth 0.\nYour recent trades: none\nYour recent verified outcomes: []\nComputed facts (derived from the same observations, no recommendation): {\"price_change_lookback_rounds\": 5, \"price_change_pct\": 0.0, \"stock_weight_pct\": null, \"unrealized_gain_loss_amount\": 0.0, \"previous_dividend_yield_pct\": 0.04, \"cash_interest_pct_per_round\": 0.04, \"price_gap_vs_disclosed_value_pct\": -16.666666666666664}\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "tight_cash_B",
+      "family": "resources",
+      "kind": "order",
+      "condition": "B",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": 90,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 75.1,
+        "my_shares": 0,
+        "my_avg_cost": 0,
+        "my_wealth": 75.1,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.25,
+        "band": 0.1,
+        "tax": 0.02
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.1; transaction tax rate 0.02 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nAnalyst fair-value estimate: 90\nYour account: cash 75.1, shares 0 (avg cost 0), total wealth 75.1.\nYour recent trades: none\nYour recent verified outcomes: []\nComputed facts (derived from the same observations, no recommendation): {\"price_change_lookback_rounds\": 5, \"price_change_pct\": 0.0, \"stock_weight_pct\": 0.0, \"unrealized_gain_loss_amount\": 0.0, \"previous_dividend_yield_pct\": 0.04, \"cash_interest_pct_per_round\": 0.04, \"price_gap_vs_disclosed_value_pct\": -16.666666666666664}\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "control",
+      "family": "news",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 9000,
+        "my_shares": 120,
+        "my_avg_cost": 75,
+        "my_wealth": 18000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.1,
+        "band": 0.2,
+        "tax": 0.0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0.0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nYour account: cash 9000, shares 120 (avg cost 75), total wealth 18000.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "headline",
+      "family": "news",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": null,
+        "news": [
+          "A local newspaper reports that KGP's future dividends may increase 25%; this report is unverified."
+        ],
+        "bbs_posts": [],
+        "my_cash": 9000,
+        "my_shares": 120,
+        "my_avg_cost": 75,
+        "my_wealth": 18000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.1,
+        "band": 0.2,
+        "tax": 0.0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0.0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nNews today: A local newspaper reports that KGP's future dividends may increase 25%; this report is unverified.\nYour account: cash 9000, shares 120 (avg cost 75), total wealth 18000.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "risk_low",
+      "family": "risk_trait",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 9000,
+        "my_shares": 120,
+        "my_avg_cost": 75,
+        "my_wealth": 18600,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "low",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.1,
+        "band": 0.2,
+        "tax": 0.0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance low; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0.0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [74, 75, 76, 77, 78, 79, 80]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nYour account: cash 9000, shares 120 (avg cost 75), total wealth 18600.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "risk_high",
+      "family": "risk_trait",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": null,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 9000,
+        "my_shares": 120,
+        "my_avg_cost": 75,
+        "my_wealth": 18600,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "high",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.1,
+        "band": 0.2,
+        "tax": 0.0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance high; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0.0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [74, 75, 76, 77, 78, 79, 80]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nYour account: cash 9000, shares 120 (avg cost 75), total wealth 18600.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "value_75",
+      "family": "disclosed_value",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": 75,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 9000,
+        "my_shares": 120,
+        "my_avg_cost": 75,
+        "my_wealth": 18000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.1,
+        "band": 0.2,
+        "tax": 0.0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0.0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nAnalyst fair-value estimate: 75\nYour account: cash 9000, shares 120 (avg cost 75), total wealth 18000.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "value_90",
+      "family": "disclosed_value",
+      "kind": "order",
+      "condition": "A",
+      "observation": {
+        "round": 7,
+        "total_rounds": 24,
+        "price_history": [
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "last_volume": 12,
+        "last_dividend": 0.03,
+        "risk_free_rate": 0.0004,
+        "fundamental_hint": 90,
+        "news": [],
+        "bbs_posts": [],
+        "my_cash": 9000,
+        "my_shares": 120,
+        "my_avg_cost": 75,
+        "my_wealth": 18000,
+        "my_recent_trades": [],
+        "round_unit": "trading_session"
+      },
+      "persona": {
+        "name": "Pilot Trader",
+        "age": 35,
+        "occupation": "professional",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "medium",
+        "backstory": "You invest your savings in stocks and cash.",
+        "bias_clauses": ""
+      },
+      "rules": {
+        "tick": 0.1,
+        "band": 0.2,
+        "tax": 0.0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are Pilot Trader, a 35-year-old professional trading stocks with your personal savings.\nProfile: risk tolerance medium; style balanced; horizon medium. You invest your savings in stocks and cash. \nYou trade shares of KGP on a simulated exchange. Each round is one trading session.\nThe exchange batches all orders and clears at one price. No short selling, no borrowing:\nyou can only sell shares you own and spend cash you have. limit_price is in currency units\n(e.g. 101.5), or null to accept the clearing price.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0.0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade.\nAfter the auction, holders receive the dividend; remaining cash earns interest.\nThe interest rate quoted below is per round. Dividend income earns interest from the next round.\nThe stock continues beyond the recorded episode; shares do not expire at its end.\nEnd-of-run wealth includes the shares valued at the last auction price.\nRespond ONLY with a JSON object, no other text:\n{\"action\": \"buy\"|\"sell\"|\"hold\", \"quantity\": <int >= 0>, \"limit_price\": <number or null>, \"reasoning\": \"<1-2 sentences in character>\"}"
+        },
+        {
+          "role": "user",
+          "content": "Round 7/24. Recent auction closing prices (old to new): [75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0]\nPrevious round: volume 12, dividend paid 0.03 per share. Risk-free rate: 0.0004 per round.\nAnalyst fair-value estimate: 90\nYour account: cash 9000, shares 120 (avg cost 75), total wealth 18000.\nYour recent trades: none\nYour recent verified outcomes: []\nDecide your order for today. Remember: JSON only."
+        }
+      ]
+    },
+    {
+      "case_id": "raw_market_reserve",
+      "family": "mechanics",
+      "kind": "objective",
+      "expected": {
+        "raw_upper_price": 120.12,
+        "tick_execution_upper_price": 120.1,
+        "maximum_buy_quantity": 0
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are auditing a synthetic trading scenario. Use the stated exchange rules and records. Return ONLY a JSON object with the requested keys.\nExchange rules (common to every trader): price tick 0.1; fractional price band 0.2; transaction tax rate 0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade."
+        },
+        {
+          "role": "user",
+          "content": "Last price P=100.1, cash=120.11, shares=0. For a MARKET buy with null limit, compute raw_upper_price, tick_execution_upper_price, maximum_buy_quantity under the exchange reservation rule."
+        }
+      ]
+    },
+    {
+      "case_id": "taxed_raw_limit",
+      "family": "mechanics",
+      "kind": "objective",
+      "expected": {
+        "reserved_cost_per_share": 76.6224,
+        "rounded_buy_limit": 75.0,
+        "maximum_buy_quantity": 1
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are auditing a synthetic trading scenario. Use the stated exchange rules and records. Return ONLY a JSON object with the requested keys.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.1; transaction tax rate 0.02 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade."
+        },
+        {
+          "role": "user",
+          "content": "Last price P=75, cash=153.24. A limit buy submits L=75.12. Compute reserved_cost_per_share, rounded_buy_limit, maximum_buy_quantity. Reservation precedes tick rounding."
+        }
+      ]
+    },
+    {
+      "case_id": "cashflow_units",
+      "family": "cashflows",
+      "kind": "objective",
+      "expected": {
+        "interest_income": 3.6,
+        "dividend_income": 3.6,
+        "closing_cash": 9007.2,
+        "dividend_yield_pct": 0.04,
+        "cash_interest_pct_per_round": 0.04
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are auditing a synthetic trading scenario. Use the stated exchange rules and records. Return ONLY a JSON object with the requested keys.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.1; transaction tax rate 0.02 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade."
+        },
+        {
+          "role": "user",
+          "content": "No trades occur. Closing cash before income is 9000, shares=120, price=75. Cash interest is 0.0004 per round; the dividend paid is 0.03 per share. New dividend income earns interest only next round. Compute interest_income, dividend_income, closing_cash, dividend_yield_pct, cash_interest_pct_per_round."
+        }
+      ]
+    },
+    {
+      "case_id": "executions_not_requests",
+      "family": "verified_memory",
+      "kind": "objective",
+      "expected": {
+        "requested_quantity": 12,
+        "accepted_quantity": 9,
+        "executed_buy_quantity": 3,
+        "current_shares": 83,
+        "closing_cash": 496.9377,
+        "dividend_income": 2.49,
+        "interest_income": 0.1977
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are auditing a synthetic trading scenario. Use the stated exchange rules and records. Return ONLY a JSON object with the requested keys.\nExchange rules (common to every trader): price tick 0.25; fractional price band 0.2; transaction tax rate 0 on each side of an executed trade.\nLet P be the last closing price. Execution prices must be tick multiples within [P*(1-band), P*(1+band)].\nBuy limits round DOWN to the tick; sell limits round UP. A limit outside the executable band may remain unfilled.\nCash reservation is deliberately conservative and uses RAW prices BEFORE tick rounding:\nU=P*(1+band). For a market buy (limit_price null), reserve q*U*(1+tax).\nFor a limit buy at submitted L, reserve q*min(L,U)*(1+tax).\nThe maximum accepted buy quantity is floor(cash / reserved_cost_per_share); the maximum sell quantity is your current shares.\nOversized quantities are reduced, or become HOLD if zero shares are affordable/available. Execution may be partial or absent even for an accepted order.\nOn a fill at price p, a buyer pays q*p*(1+tax) and a seller receives q*p*(1-tax).\nSale proceeds and new dividends/interest cannot fund orders in the same auction. An order request or acceptance is not an executed trade."
+        },
+        {
+          "role": "user",
+          "content": "This synthetic record is generated by the simulator's actual validation, auction and settlement. Read actual executions separately from intent/acceptance. Report requested_quantity, accepted_quantity, executed_buy_quantity, current_shares, closing_cash, dividend_income, interest_income. Record: {\"round\": 1, \"price\": 75.25, \"requested_order\": {\"agent_id\": \"memory_agent\", \"side\": \"buy\", \"quantity\": 12, \"limit_price\": 75.25, \"round\": 1, \"reasoning\": \"Requested twelve shares.\", \"validation_note\": \"\"}, \"accepted_order\": {\"agent_id\": \"memory_agent\", \"side\": \"buy\", \"quantity\": 9, \"limit_price\": 75.25, \"round\": 1, \"reasoning\": \"Requested twelve shares.\", \"validation_note\": \"quantity_reduced_to_resources\"}, \"executed_buy_quantity\": 3, \"executed_sell_quantity\": 0, \"fills\": [{\"side\": \"buy\", \"quantity\": 3, \"price\": 75.25}], \"cash\": 496.9377, \"shares\": 83, \"avg_cost\": 75.00903614457832, \"wealth\": 6742.6877, \"dividend_income\": 2.4899999999999998, \"interest_income\": 0.19770000000000001, \"wealth_change\": 22.687700000000405, \"news\": []}"
+        }
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "case_id": "tight_cash_B",
+      "repetition": 2
+    },
+    {
+      "case_id": "tight_cash_B",
+      "repetition": 3
+    },
+    {
+      "case_id": "risk_high",
+      "repetition": 3
+    },
+    {
+      "case_id": "tight_cash_A",
+      "repetition": 3
+    },
+    {
+      "case_id": "risk_high",
+      "repetition": 2
+    },
+    {
+      "case_id": "empty_B",
+      "repetition": 2
+    },
+    {
+      "case_id": "headline",
+      "repetition": 3
+    },
+    {
+      "case_id": "taxed_raw_limit",
+      "repetition": 2
+    }
+  ],
+  "scoring": "Numeric fields use absolute/relative tolerance 1e-7. Order choices have no directional/profit oracle; evaluate disclosed reservation compliance separately.",
+  "limitations": "Small diagnostic; fresh values but the same research families as prior pilots. Not a controlled historical before/after or human-validation study.",
+  "challenger": "Reuse exact first-attempt messages and full schedule. Record backend defaults, output caps, repairs, failures and unknown usage. A truncated run is not evidence of model weakness.",
+  "continuation": {
+    "parent_run_id": "20261102_055044_capability_qwen_65a10623",
+    "parent_battery_sha256": "86c76fa1e64e1d05fa78170b371bb1a0882c0f158e2328dedb4fd52692d5a4f5",
+    "completed_prefix_length": 34,
+    "reason": "Explicit continuation after provider TimeoutError; same cases and oracles, only the eight remaining schedule entries.",
+    "recorded_utc": "2026-11-02T13:04:32.433536+00:00",
+    "parent_unknown_usage_requests": 1
+  }
+}

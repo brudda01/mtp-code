@@ -1,0 +1,151 @@
+{
+  "scope": "Saved evidence and synthetic unit cases only",
+  "cases": {
+    "partial_short_cover_cost_basis": {
+      "actual": 320.0,
+      "expected_remaining_entry_basis": 100
+    },
+    "partial_long_sale_cost_basis": {
+      "actual": 80.0,
+      "expected": 100
+    },
+    "existing_short_not_reserved": {
+      "accepted_new_short": 11,
+      "cash": 2000,
+      "existing_short": -10,
+      "required_ceiling_collateral_existing": 1800
+    },
+    "buy_can_spend_short_collateral": 10,
+    "duplicate_sells_reuse_shares": [
+      10,
+      10
+    ],
+    "wrong_agent_id_accepted": "someone_else",
+    "negative_quantity_accepted": -5,
+    "fundamentalist_cannot_initiate_short": {
+      "side": "hold",
+      "quantity": 0,
+      "mro": [
+        "MarginFundamentalist",
+        "FundamentalistAgent",
+        "MarginAgent",
+        "Agent",
+        "object"
+      ]
+    },
+    "unfunded_settlement_passes_conservation": {
+      "buyer_cash": -99.0,
+      "seller_cash": 100.0
+    },
+    "banned_short_settlement_passes": -1
+  },
+  "mock_parser_cases": {
+    "run_reddit_meme_experiment.py": {
+      "fractional_quantity": {
+        "side": "buy",
+        "quantity": 2,
+        "limit_price": 100.0,
+        "reasoning": ""
+      },
+      "invalid_limit": {
+        "side": "buy",
+        "quantity": 2,
+        "limit_price": null,
+        "reasoning": ""
+      },
+      "empty_object": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "reasoning": ""
+      },
+      "boolean_quantity": {
+        "side": "buy",
+        "quantity": 1,
+        "limit_price": 100.0,
+        "reasoning": ""
+      }
+    },
+    "run_short_sale_live_comparison.py": {
+      "fractional_quantity": {
+        "side": "buy",
+        "quantity": 2,
+        "limit_price": 100.0,
+        "reasoning": ""
+      },
+      "invalid_limit": {
+        "side": "buy",
+        "quantity": 2,
+        "limit_price": null,
+        "reasoning": ""
+      },
+      "empty_object": {
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "reasoning": ""
+      },
+      "boolean_quantity": {
+        "side": "buy",
+        "quantity": 1,
+        "limit_price": 100.0,
+        "reasoning": ""
+      }
+    }
+  },
+  "reddit": {
+    "rounds": 16,
+    "orders": 96,
+    "complete_six_per_round": true,
+    "unique_round_agent_pairs": 96,
+    "sides": {
+      "buy": 32,
+      "hold": 60,
+      "sell": 4
+    },
+    "fallback_rows": [],
+    "price_min": 98.1,
+    "price_max": 107.5,
+    "total_volume": 102
+  },
+  "comparison": {
+    "rounds": 15,
+    "max_short_interest": 0,
+    "no_short": {
+      "mean_price": 105.08,
+      "mean_absolute_gap_percent": 5.079999999999997,
+      "total_volume": 143,
+      "zero_volume_rounds": 5
+    },
+    "short_allowed": {
+      "mean_price": 102.99333333333333,
+      "mean_absolute_gap_percent": 2.99333333333333,
+      "total_volume": 86,
+      "zero_volume_rounds": 6
+    }
+  },
+  "source_parse": {
+    "audit_saved.py": "OK",
+    "probe_api.py": "OK",
+    "probe_concurrency.py": "OK",
+    "prototype_engine.py": "OK",
+    "run_grand_100_round_market.py": "OK",
+    "run_offline_test.py": "OK",
+    "run_reddit_meme_experiment.py": "OK",
+    "run_short_sale_live_comparison.py": "OK"
+  },
+  "evidence_sha256": {
+    "probe_api.py": "c3149d797e2239754d15ed7a7de9a515bf3bcef90e33e51037d83be68c859ecc",
+    "probe_concurrency.py": "83a391edaa3ff87d11838bf3ad6aa02a2a57b55bf9aba8bcde41cfce357a4547",
+    "prototype_engine.py": "0e04df2a666a7701d88f95ade9524aa4e07eb28e093f08bdc9263235fef3ad1f",
+    "run_grand_100_round_market.py": "9fb0c18dce598f5430bfc06fd2da416e8da82f901a52c1e461bcd2715ce0780e",
+    "run_offline_test.py": "ab19fe429375f10082b829c72d55e7692d02a671017194b0cf4cc2c84faa27e4",
+    "run_reddit_meme_experiment.py": "29cc8d71f0f763b392a6f6c1dcd92d293ea6ecf904c8ca2142953184594d833b",
+    "run_short_sale_live_comparison.py": "b6d19c370788335feb6c902b6fffa6e08d3c799a83367bceedbb67e31f3bde0f",
+    "results\\reddit_market.csv": "69e459f0621ede75753d3085823503eecd30736068b400776618ef751d056277",
+    "results\\reddit_meme_bubble_chart.png": "3a6bd2bdefa768f0a39bc31e016aa7e761eaedbd4c628c15866dd2acd5757775",
+    "results\\reddit_orders.csv": "1c34bbd03ce930c25a8c985aeae3bdb17761261cfa4358698b22264499837856",
+    "results_short_sale_comparison\\market_comparison.csv": "c6e37329f0bf7ffbc8a6dd2b548fc05d0d59788920eea4b2abb24d5f6caff7c0",
+    "results_short_sale_comparison\\short_sale_vs_ban_chart.png": "632564cf1d83d72857b992732d5c7a105a0f2b2980790cc1625f83a576b1e48e"
+  }
+}

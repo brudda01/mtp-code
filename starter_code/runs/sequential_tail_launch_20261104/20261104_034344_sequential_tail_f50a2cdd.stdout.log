@@ -1,0 +1,17 @@
+round 10/24 price=112.20 vol=31
+round 20/24 price=118.20 vol=18
+completed -> runs\20261104_034344_sequential_tail_f50a2cdd\market_runs\20261104_034427_sequential_A_combined_s5209_r24_9195b8b8
+recorded A seed5209 24/24 completed
+round 10/24 price=104.40 vol=20
+round 20/24 price=116.00 vol=34
+completed -> runs\20261104_034344_sequential_tail_f50a2cdd\market_runs\20261104_035253_sequential_C_combined_s6317_r24_ec1106a0
+recorded C seed6317 24/24 completed
+round 10/24 price=104.90 vol=17
+round 20/24 price=117.60 vol=34
+completed -> runs\20261104_034344_sequential_tail_f50a2cdd\market_runs\20261104_040254_sequential_A_combined_s6317_r24_05dd2593
+recorded A seed6317 24/24 completed
+round 10/24 price=104.40 vol=20
+round 20/24 price=117.10 vol=34
+completed -> runs\20261104_034344_sequential_tail_f50a2cdd\market_runs\20261104_041039_sequential_B_combined_s6317_r24_80746ff3
+recorded B seed6317 24/24 completed
+completed -> runs\20261104_034344_sequential_tail_f50a2cdd

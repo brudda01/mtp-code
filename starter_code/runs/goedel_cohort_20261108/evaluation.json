@@ -1,0 +1,377 @@
+{
+  "version": "conditional_passive_evaluation_v1",
+  "status": "completed",
+  "interpretation": "Conditional realized-price-path accounting, not an equilibrium no-trading counterfactual or risk-adjusted alpha. Returns use initial market wealth for both terminal marks.",
+  "metrics": {
+    "rounds": 25,
+    "return_observations": 25,
+    "mean_absolute_relative_gap": 0.1606,
+    "acf_returns_lag1": 0.09333970532663341,
+    "acf_absolute_returns_lag1": -0.09872506237922479,
+    "zero_volume_fraction": 0.0,
+    "turnover_per_round": 0.015365517241379311,
+    "volume_weighted_mm_share": 0.37881508078994613,
+    "mean_fill_rate": 0.5741339459137631,
+    "band_hit_fraction": 0.0,
+    "mm_inventory_min": 66,
+    "mm_inventory_max": 191,
+    "aggregate_cash_growth": 0.009636548937723921,
+    "max_share_concentration": 0.1317241379310345
+  },
+  "accounts": [
+    {
+      "agent_id": "mark_000",
+      "type": "MarketMakerAgent",
+      "initial_market_wealth": 45000.0,
+      "passive_cash": 30226.904506000254,
+      "passive_shares": 150,
+      "marks": {
+        "auction": {
+          "active_wealth": 46760.52129906841,
+          "passive_wealth": 47236.90450600025,
+          "active_minus_passive": -476.38320693184505,
+          "active_return": 0.03912269553485359,
+          "passive_return": 0.049708989022227756,
+          "excess_return": -0.010586293487374334
+        },
+        "regime_benchmark": {
+          "active_wealth": 44201.121299068414,
+          "passive_wealth": 45226.90450600025,
+          "active_minus_passive": -1025.7832069318392,
+          "active_return": -0.017752860020701866,
+          "passive_return": 0.005042322355561124,
+          "excess_return": -0.022795182376263094
+        }
+      }
+    },
+    {
+      "agent_id": "zero_001",
+      "type": "ZeroIntelligenceAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21357.03995793893,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": -84.10952852533592,
+          "active_return": 0.06785199789694651,
+          "passive_return": 0.07205747432321341,
+          "excess_return": -0.004205476426266796
+        },
+        "regime_benchmark": {
+          "active_wealth": 19722.239957938928,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -378.9095285253388,
+          "active_return": -0.013888002103053632,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.01894547642626694
+        }
+      }
+    },
+    {
+      "agent_id": "zero_002",
+      "type": "ZeroIntelligenceAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21489.846297587428,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 48.69681112316175,
+          "active_return": 0.07449231487937147,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.0024348405561580876
+        },
+        "regime_benchmark": {
+          "active_wealth": 20082.846297587428,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -18.30318887683825,
+          "active_return": 0.004142314879371334,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.0009151594438419125
+        }
+      }
+    },
+    {
+      "agent_id": "fund_003",
+      "type": "FundamentalistAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21804.718294651546,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 363.5688081872795,
+          "active_return": 0.0902359147325773,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.018178440409363974
+        },
+        "regime_benchmark": {
+          "active_wealth": 21804.718294651546,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": 1703.5688081872795,
+          "active_return": 0.0902359147325773,
+          "passive_return": 0.00505747432321324,
+          "excess_return": 0.08517844040936398
+        }
+      }
+    },
+    {
+      "agent_id": "fund_004",
+      "type": "FundamentalistAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21813.57805609528,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 372.4285696310144,
+          "active_return": 0.0906789028047641,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.01862142848155072
+        },
+        "regime_benchmark": {
+          "active_wealth": 21813.57805609528,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": 1712.4285696310144,
+          "active_return": 0.0906789028047641,
+          "passive_return": 0.00505747432321324,
+          "excess_return": 0.08562142848155072
+        }
+      }
+    },
+    {
+      "agent_id": "fund_005",
+      "type": "FundamentalistAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21814.284538727,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 373.13505226273264,
+          "active_return": 0.0907142269363499,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.01865675261313663
+        },
+        "regime_benchmark": {
+          "active_wealth": 21814.284538727,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": 1713.1350522627326,
+          "active_return": 0.0907142269363499,
+          "passive_return": 0.00505747432321324,
+          "excess_return": 0.08565675261313663
+        }
+      }
+    },
+    {
+      "agent_id": "mome_006",
+      "type": "MomentumAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21093.369038808432,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": -347.780447655834,
+          "active_return": 0.05466845194042169,
+          "passive_return": 0.07205747432321341,
+          "excess_return": -0.017389022382791698
+        },
+        "regime_benchmark": {
+          "active_wealth": 19136.96903880843,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -964.1804476558355,
+          "active_return": -0.04315154805957844,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.048209022382791775
+        }
+      }
+    },
+    {
+      "agent_id": "mome_007",
+      "type": "MomentumAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21066.567419595965,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": -374.5820668683009,
+          "active_return": 0.053328370979798256,
+          "passive_return": 0.07205747432321341,
+          "excess_return": -0.018729103343415043
+        },
+        "regime_benchmark": {
+          "active_wealth": 19043.167419595964,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -1057.9820668683024,
+          "active_return": -0.04784162902020184,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.05289910334341512
+        }
+      }
+    },
+    {
+      "agent_id": "llm_008",
+      "type": "CappedAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21441.149486464274,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 7.275957614183426e-12,
+          "active_return": 0.07205747432321363,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 3.637978807091713e-16
+        },
+        "regime_benchmark": {
+          "active_wealth": 20101.149486464274,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": 7.275957614183426e-12,
+          "active_return": 0.005057474323213684,
+          "passive_return": 0.00505747432321324,
+          "excess_return": 3.637978807091713e-16
+        }
+      }
+    },
+    {
+      "agent_id": "llm_009",
+      "type": "CappedAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21470.18005857723,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 29.030572112962545,
+          "active_return": 0.07350900292886142,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.0014515286056481272
+        },
+        "regime_benchmark": {
+          "active_wealth": 19902.380058577226,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -198.76942788704037,
+          "active_return": -0.0048809970711386486,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.009938471394352019
+        }
+      }
+    },
+    {
+      "agent_id": "llm_010",
+      "type": "CappedAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21799.791675294575,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 358.64218883030844,
+          "active_return": 0.08998958376472865,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.017932109441515423
+        },
+        "regime_benchmark": {
+          "active_wealth": 21143.191675294576,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": 1042.04218883031,
+          "active_return": 0.05715958376472874,
+          "passive_return": 0.00505747432321324,
+          "excess_return": 0.05210210944151549
+        }
+      }
+    },
+    {
+      "agent_id": "llm_011",
+      "type": "CappedAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21246.831246686583,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": -194.31823977768363,
+          "active_return": 0.06234156233432908,
+          "passive_return": 0.07205747432321341,
+          "excess_return": -0.009715911988884182
+        },
+        "regime_benchmark": {
+          "active_wealth": 19062.63124668658,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -1038.518239777688,
+          "active_return": -0.04686843766567106,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.0519259119888844
+        }
+      }
+    },
+    {
+      "agent_id": "llm_012",
+      "type": "CappedAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21332.707128890845,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": -108.44235757342176,
+          "active_return": 0.06663535644454233,
+          "passive_return": 0.07205747432321341,
+          "excess_return": -0.005422117878671088
+        },
+        "regime_benchmark": {
+          "active_wealth": 18826.907128890845,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -1274.242357573421,
+          "active_return": -0.058654643555457686,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.06371211787867105
+        }
+      }
+    },
+    {
+      "agent_id": "llm_013",
+      "type": "CappedAgent",
+      "initial_market_wealth": 20000.0,
+      "passive_cash": 10101.149486464268,
+      "passive_shares": 100,
+      "marks": {
+        "auction": {
+          "active_wealth": 21481.263331649337,
+          "passive_wealth": 21441.149486464266,
+          "active_minus_passive": 40.11384518507111,
+          "active_return": 0.07406316658246692,
+          "passive_return": 0.07205747432321341,
+          "excess_return": 0.0020056922592535556
+        },
+        "regime_benchmark": {
+          "active_wealth": 19886.66333164934,
+          "passive_wealth": 20101.149486464266,
+          "active_minus_passive": -214.48615481492743,
+          "active_return": -0.005666833417533046,
+          "passive_return": 0.00505747432321324,
+          "excess_return": -0.010724307740746371
+        }
+      }
+    }
+  ],
+  "aggregate_active_minus_passive": {
+    "auction": 1.1641532182693481e-10,
+    "regime_benchmark": 1.127773430198431e-10
+  }
+}

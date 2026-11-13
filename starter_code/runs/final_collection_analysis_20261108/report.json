@@ -1,0 +1,199 @@
+{
+  "stage": "R057 final collection closure",
+  "collection_status": "permanently_frozen",
+  "planned_scenarios": 2,
+  "attempted_scenarios": 2,
+  "completed_scenarios": 1,
+  "seed31991_delivered_decisions": 1,
+  "seed31991_missing_decisions": 149,
+  "seed31991_completed_rounds": 0,
+  "seed31991_market_metrics": null,
+  "two_seed_mean": null,
+  "two_seed_contrast": null,
+  "seed31991_usage": {
+    "requests_made": 3,
+    "reserved_tokens": 16592,
+    "provider_reported_tokens": 803,
+    "unknown_usage_requests": 2,
+    "failed_requests": 2,
+    "blocked_requests": 7
+  },
+  "attempts": [
+    {
+      "seed": 30841,
+      "root": "runs/goedel_cohort_20261108",
+      "summary": {
+        "status": "completed",
+        "run_path": "market/20261108_161359_goedel_6LLM_B_cap10_s30841_c838033f",
+        "completed_rounds": 25,
+        "planned_rounds": 25,
+        "delivered_decisions": 150,
+        "planned_decisions": 150,
+        "missing_decisions": 0,
+        "usage": {
+          "requests_made": 150,
+          "max_requests": 180,
+          "reserved_tokens": 1607502,
+          "max_reserved_tokens": 3000000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 369984,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 0,
+          "failed_requests": 0,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 0,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": false,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "failure_type": null,
+        "no_resume": true,
+        "finished_utc": "2026-11-08T11:07:32.682044+00:00"
+      },
+      "protocol_sha256": "6306bfa9b7b99e87db5e8658c8b4b8cba90b8974c4dbcab6c7f0464edb6b0c21",
+      "output_manifest_sha256": "343f1e3ad42ad98a47f806dcffd8e85189c03c6cfd98ca04ba81c4c2ceca2b05",
+      "http_errors": [],
+      "audit": {
+        "status": "passed",
+        "account_rounds": 350,
+        "max_individual_cash_error": 7.275957614183426e-12,
+        "rounds": 25
+      },
+      "own_history_messages_checked": 150,
+      "complete_actual_input_pairs_checked": 150,
+      "market_metrics": {
+        "rounds": 25,
+        "price_return_sd_pct": 2.1410603736168836,
+        "mean_gap_pct": 16.06,
+        "max_drawdown_pct": 7.277187244480777,
+        "maker_boundary_fraction": 0.0,
+        "maker_min": 66,
+        "maker_max": 191,
+        "volume": 557,
+        "terminal_price": 113.4,
+        "target_union_volume": 336,
+        "zero_volume_rounds": 0
+      },
+      "financial_outcomes_available": true,
+      "no_round_audit_claim_when_zero_rounds": false
+    },
+    {
+      "seed": 31991,
+      "root": "runs/goedel_second_seed_20261108",
+      "summary": {
+        "status": "stopped",
+        "run_path": "market/20261108_233603_goedel_6LLM_B_cap10_s31991_51eb0074",
+        "completed_rounds": 0,
+        "planned_rounds": 25,
+        "delivered_decisions": 0,
+        "planned_decisions": 150,
+        "missing_decisions": 150,
+        "usage": {
+          "requests_made": 1,
+          "max_requests": 180,
+          "reserved_tokens": 5520,
+          "max_reserved_tokens": 3000000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 0,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 1,
+          "failed_requests": 1,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 5,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": true,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "failure_type": "ProviderUnavailable",
+        "no_resume": true,
+        "finished_utc": "2026-11-08T18:06:04.136075+00:00"
+      },
+      "protocol_sha256": "0fff4c7c1100c2afddeed15bb6288ddfa0d769082ed6cb021810e3d169d7abc0",
+      "output_manifest_sha256": "82a649fcb1676295c5cfb8803031e236bf2b44f0285128ba1390313c77c48a81",
+      "http_errors": [
+        {
+          "http_status": 429,
+          "retry_after_present": true,
+          "retry_after_valid": true,
+          "retry_after_seconds": 2.0
+        }
+      ],
+      "audit": {
+        "status": "passed",
+        "account_rounds": 0,
+        "max_individual_cash_error": 0.0,
+        "rounds": 0
+      },
+      "own_history_messages_checked": 0,
+      "complete_actual_input_pairs_checked": 0,
+      "market_metrics": null,
+      "financial_outcomes_available": false,
+      "no_round_audit_claim_when_zero_rounds": true
+    },
+    {
+      "seed": 31991,
+      "root": "runs/goedel_second_seed_retry_20261108",
+      "summary": {
+        "status": "stopped",
+        "run_path": "market/20261108_233727_goedel_6LLM_B_cap10_s31991_d03f6636",
+        "completed_rounds": 0,
+        "planned_rounds": 25,
+        "delivered_decisions": 1,
+        "planned_decisions": 150,
+        "missing_decisions": 149,
+        "usage": {
+          "requests_made": 2,
+          "max_requests": 179,
+          "reserved_tokens": 11072,
+          "max_reserved_tokens": 2994480,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 803,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 1,
+          "failed_requests": 1,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 2,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": true,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "failure_type": "ProviderUnavailable",
+        "no_resume": true,
+        "finished_utc": "2026-11-08T18:07:34.387217+00:00"
+      },
+      "protocol_sha256": "53bb415a24341208bcae6ff84580f288451a793b24183754fd7f6e09a92c1583",
+      "output_manifest_sha256": "3072a074dcd19b3f52540a742748a0922411ccba97142f01ed7d4b4e6cf1f1ee",
+      "http_errors": [
+        {
+          "http_status": 429,
+          "retry_after_present": true,
+          "retry_after_valid": true,
+          "retry_after_seconds": 2.0
+        }
+      ],
+      "audit": {
+        "status": "passed",
+        "account_rounds": 0,
+        "max_individual_cash_error": 0.0,
+        "rounds": 0
+      },
+      "own_history_messages_checked": 1,
+      "complete_actual_input_pairs_checked": 1,
+      "market_metrics": null,
+      "financial_outcomes_available": false,
+      "no_round_audit_claim_when_zero_rounds": true
+    }
+  ],
+  "configuration_and_persona_match": "passed; only seed/name differ; amended attempt deducts prior failed request/reservation from safety ceilings",
+  "limitations": "No second market path exists. Single unexecuted reply is retained but is not trading, a return, an inventory result or an independent market replication. HTTP429 is a provider availability outcome; precise quota cause is unknown. Zero audited account-rounds in missing seed are not positive conservation evidence. No pooled mean, stability comparison or two-seed result.",
+  "protocol_deviation": "One disclosed re-entry after original first-request HTTP429 and zero behavioral replies. Original no-restart rule explicitly amended before any outcome; amended run then stopped after one reply and another429. No further restart."
+}

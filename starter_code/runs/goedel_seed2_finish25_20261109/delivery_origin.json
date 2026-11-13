@@ -1,0 +1,7 @@
+{
+  "historical_prefix_http_records": 342,
+  "historical_prefix_decisions": 116,
+  "fresh_http_attempts": 41,
+  "fresh_delivered_decisions": 34,
+  "note": "summary usage includes historical replay metadata. Only provider_transport.jsonl in this root represents new HTTP attempts. Prefix metadata must not be counted twice."
+}

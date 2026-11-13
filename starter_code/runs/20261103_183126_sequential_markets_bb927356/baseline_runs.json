@@ -1,0 +1,83 @@
+[
+  {
+    "seed": 4103,
+    "cell": "quiet",
+    "rounds": 24,
+    "config": "configs/rules_quiet_4103.yaml",
+    "config_sha256": "7a45961c4ac3725fa47d095c06a0f97835f627b507435391a1870e0ae128e2f3",
+    "run_path": "baseline_runs/20261103_183151_sequential_rules_quiet_s4103_r24_73c4ba01",
+    "manifest_sha256": "78622e8c2fe248d9ad39d6aa06c97433bb3a7a56ebc316a7914edb8ba812baec"
+  },
+  {
+    "seed": 4103,
+    "cell": "combined",
+    "rounds": 24,
+    "config": "configs/rules_combined_4103.yaml",
+    "config_sha256": "5f3121dfb946727dfea6c78dcf60b0711caac510b00fd910191f2bbcf1ff728e",
+    "run_path": "baseline_runs/20261103_183151_sequential_rules_combined_s4103_r24_5a3a5886",
+    "manifest_sha256": "ec25051488fec5e9b6001f72a1fac22c3938ee3c492ff20beaa019a51903bb9b"
+  },
+  {
+    "seed": 4103,
+    "cell": "long_quiet",
+    "rounds": 600,
+    "config": "configs/rules_long_quiet_4103.yaml",
+    "config_sha256": "b1f7d346df62d0dd55cbdce0258780cd5e33e14ba38c9ee3968101faa97318b9",
+    "run_path": "baseline_runs/20261103_183151_sequential_rules_quiet_s4103_r600_3ce1d617",
+    "manifest_sha256": "15b7154930a9d23a0fd53db3d36d6858dfde580db3f55fc621f780f19bd736b4"
+  },
+  {
+    "seed": 5209,
+    "cell": "quiet",
+    "rounds": 24,
+    "config": "configs/rules_quiet_5209.yaml",
+    "config_sha256": "6f04e88b56d591485068eaf23270b185355942079acaaced91a10a6afb2a5bd5",
+    "run_path": "baseline_runs/20261103_183152_sequential_rules_quiet_s5209_r24_b91d7923",
+    "manifest_sha256": "717e53a5264799349bc26bf299818c38379cc324a67b6953635c39812bca8809"
+  },
+  {
+    "seed": 5209,
+    "cell": "combined",
+    "rounds": 24,
+    "config": "configs/rules_combined_5209.yaml",
+    "config_sha256": "37af292c982ef62cb3c7767ed8b4c6a02175e968d01bde863de007da506bdb07",
+    "run_path": "baseline_runs/20261103_183152_sequential_rules_combined_s5209_r24_eac1c8ad",
+    "manifest_sha256": "5c798662e1cb4524eb2f7abebe0c784026aeca6de8f19bb9a8aa133c9cefae10"
+  },
+  {
+    "seed": 5209,
+    "cell": "long_quiet",
+    "rounds": 600,
+    "config": "configs/rules_long_quiet_5209.yaml",
+    "config_sha256": "7acbf14f8ccbb2d36d25f0b5df6be47305d63fc9c0611c31c9169db21c10f5ae",
+    "run_path": "baseline_runs/20261103_183152_sequential_rules_quiet_s5209_r600_f11f9809",
+    "manifest_sha256": "4fdaa75c2445a95a9f6bd7ba3354e69249a719237127f80c984cde5dca428499"
+  },
+  {
+    "seed": 6317,
+    "cell": "quiet",
+    "rounds": 24,
+    "config": "configs/rules_quiet_6317.yaml",
+    "config_sha256": "366a08770589dfb9ce062715150ed38de72157dffbf7acc71a68bc8c1a2f7e67",
+    "run_path": "baseline_runs/20261103_183153_sequential_rules_quiet_s6317_r24_625dc28b",
+    "manifest_sha256": "332ba462b28071d29b8dd4f6678d7850a7b27dd5b491cfd166acc92630e1aea7"
+  },
+  {
+    "seed": 6317,
+    "cell": "combined",
+    "rounds": 24,
+    "config": "configs/rules_combined_6317.yaml",
+    "config_sha256": "24e6a30f9672596d97176c142a10ce2b3ea73283397f9cd44ff53c9e0e63b7de",
+    "run_path": "baseline_runs/20261103_183153_sequential_rules_combined_s6317_r24_394873a6",
+    "manifest_sha256": "650783a0662c44a70f3b6af8187df48785c2895afbbe5146d33e1a8be60657e5"
+  },
+  {
+    "seed": 6317,
+    "cell": "long_quiet",
+    "rounds": 600,
+    "config": "configs/rules_long_quiet_6317.yaml",
+    "config_sha256": "be029134e723458988f2c63b17d4dc555bff87cd24fd1ca6fa0c317daebec5c9",
+    "run_path": "baseline_runs/20261103_183153_sequential_rules_quiet_s6317_r600_870171bc",
+    "manifest_sha256": "44aeb2a8a420a3b41b9af37b52eacacbc6ea02887f1db8a9836bfff22d6bc9b9"
+  }
+]

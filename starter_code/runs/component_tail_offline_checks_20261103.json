@@ -1,0 +1,10 @@
+{
+  "passed": 3,
+  "live_calls": 0,
+  "driver_sha256": "624b62f2df4f8d6168eb05c259c5fa53296023550677a5821138e62273289f1d",
+  "checks": [
+    "skip all prior cases/keep caps and inherited diary",
+    "length failure stays missing and independent tail completes",
+    "provider failure still stops"
+  ]
+}

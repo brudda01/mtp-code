@@ -1,0 +1,1069 @@
+{
+  "evaluation": {
+    "version": "conditional_passive_evaluation_v1",
+    "status": "completed",
+    "interpretation": "Conditional realized-price-path accounting, not an equilibrium no-trading counterfactual or risk-adjusted alpha. Returns use initial market wealth for both terminal marks.",
+    "metrics": {
+      "rounds": 20,
+      "return_observations": 20,
+      "mean_absolute_relative_gap": 0.010849999999999981,
+      "acf_returns_lag1": -0.07338128219123749,
+      "acf_absolute_returns_lag1": -0.13068659349541892,
+      "zero_volume_fraction": 0.0,
+      "turnover_per_round": 0.011034482758620689,
+      "volume_weighted_mm_share": 0.515625,
+      "mean_fill_rate": 0.5321126022736917,
+      "band_hit_fraction": 0.0,
+      "mm_inventory_min": 133,
+      "mm_inventory_max": 193,
+      "aggregate_cash_growth": 0.00760836511257601,
+      "max_share_concentration": 0.13310344827586207
+    },
+    "accounts": [
+      {
+        "agent_id": "mark_000",
+        "type": "MarketMakerAgent",
+        "initial_market_wealth": 45000.0,
+        "passive_cash": 30179.82699358144,
+        "passive_shares": 150,
+        "marks": {
+          "auction": {
+            "active_wealth": 45517.14705797071,
+            "passive_wealth": 45389.82699358144,
+            "active_minus_passive": 127.32006438927056,
+            "active_return": 0.011492156843793566,
+            "passive_return": 0.008662822079587462,
+            "excess_return": 0.0028293347642060125
+          },
+          "regime_benchmark": {
+            "active_wealth": 45330.94705797071,
+            "passive_wealth": 45179.82699358144,
+            "active_minus_passive": 151.12006438927347,
+            "active_return": 0.00735437906601577,
+            "passive_return": 0.003996155412920865,
+            "excess_return": 0.0033582236530949657
+          }
+        }
+      },
+      {
+        "agent_id": "zero_001",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20193.399591517154,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -26.408979592895776,
+            "active_return": 0.00966997957585769,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.0013204489796447888
+          },
+          "regime_benchmark": {
+            "active_wealth": 20043.59959151715,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -36.208979592898686,
+            "active_return": 0.0021799795758574714,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0018104489796449343
+          }
+        }
+      },
+      {
+        "agent_id": "zero_002",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20285.39025611535,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": 65.58168500530155,
+            "active_return": 0.014269512805767492,
+            "passive_return": 0.010990428555502474,
+            "excess_return": 0.0032790842502650776
+          },
+          "regime_benchmark": {
+            "active_wealth": 20131.39025611535,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": 51.58168500530155,
+            "active_return": 0.006569512805767674,
+            "passive_return": 0.003990428555502579,
+            "excess_return": 0.0025790842502650775
+          }
+        }
+      },
+      {
+        "agent_id": "zero_003",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20244.3460129519,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": 24.537441841850523,
+            "active_return": 0.012217300647594964,
+            "passive_return": 0.010990428555502474,
+            "excess_return": 0.001226872092092526
+          },
+          "regime_benchmark": {
+            "active_wealth": 20091.746012951902,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": 11.937441841851978,
+            "active_return": 0.0045873006475951605,
+            "passive_return": 0.003990428555502579,
+            "excess_return": 0.0005968720920925989
+          }
+        }
+      },
+      {
+        "agent_id": "zero_004",
+        "type": "ZeroIntelligenceAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20249.985808583122,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": 30.177237473071727,
+            "active_return": 0.012499290429156096,
+            "passive_return": 0.010990428555502474,
+            "excess_return": 0.0015088618736535863
+          },
+          "regime_benchmark": {
+            "active_wealth": 20111.38580858312,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": 31.577237473069545,
+            "active_return": 0.005569290429155993,
+            "passive_return": 0.003990428555502579,
+            "excess_return": 0.0015788618736534772
+          }
+        }
+      },
+      {
+        "agent_id": "fund_005",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20171.38912113136,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -48.419449978689954,
+            "active_return": 0.008569456056568114,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.002420972498934498
+          },
+          "regime_benchmark": {
+            "active_wealth": 20029.98912113136,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -49.81944997869141,
+            "active_return": 0.0014994560565679826,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0024909724989345705
+          }
+        }
+      },
+      {
+        "agent_id": "fund_006",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20179.18874051861,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -40.619830591440405,
+            "active_return": 0.008959437025930495,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.00203099152957202
+          },
+          "regime_benchmark": {
+            "active_wealth": 20033.588740518608,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -46.21983059144259,
+            "active_return": 0.0016794370259303193,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0023109915295721293
+          }
+        }
+      },
+      {
+        "agent_id": "fund_007",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20175.886667753824,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -43.92190335622581,
+            "active_return": 0.0087943333876912,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.002196095167811291
+          },
+          "regime_benchmark": {
+            "active_wealth": 20031.686667753824,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -48.12190335622654,
+            "active_return": 0.0015843333876912613,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.002406095167811327
+          }
+        }
+      },
+      {
+        "agent_id": "mome_008",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20212.48371450467,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -7.3248566053807735,
+            "active_return": 0.010624185725233382,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.00036624283026903866
+          },
+          "regime_benchmark": {
+            "active_wealth": 20076.683714504667,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -3.124856605383684,
+            "active_return": 0.003834185725233308,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0001562428302691842
+          }
+        }
+      },
+      {
+        "agent_id": "mome_009",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20212.48371450467,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -7.3248566053807735,
+            "active_return": 0.010624185725233382,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.00036624283026903866
+          },
+          "regime_benchmark": {
+            "active_wealth": 20076.683714504667,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -3.124856605383684,
+            "active_return": 0.003834185725233308,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0001562428302691842
+          }
+        }
+      },
+      {
+        "agent_id": "mome_010",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20212.48371450467,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -7.3248566053807735,
+            "active_return": 0.010624185725233382,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.00036624283026903866
+          },
+          "regime_benchmark": {
+            "active_wealth": 20076.683714504667,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -3.124856605383684,
+            "active_return": 0.003834185725233308,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0001562428302691842
+          }
+        }
+      },
+      {
+        "agent_id": "mome_011",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20212.48371450467,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -7.3248566053807735,
+            "active_return": 0.010624185725233382,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.00036624283026903866
+          },
+          "regime_benchmark": {
+            "active_wealth": 20076.683714504667,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -3.124856605383684,
+            "active_return": 0.003834185725233308,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0001562428302691842
+          }
+        }
+      },
+      {
+        "agent_id": "fund_012",
+        "type": "FundamentalistAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20170.389205832915,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -49.41936527713551,
+            "active_return": 0.00851946029164563,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.0024709682638567754
+          },
+          "regime_benchmark": {
+            "active_wealth": 20030.389205832915,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -49.41936527713551,
+            "active_return": 0.0015194602916457356,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.0024709682638567754
+          }
+        }
+      },
+      {
+        "agent_id": "mome_013",
+        "type": "MomentumAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10079.808571110052,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 20210.281097618543,
+            "passive_wealth": 20219.80857111005,
+            "active_minus_passive": -9.527473491507408,
+            "active_return": 0.010514054880927048,
+            "passive_return": 0.010990428555502474,
+            "excess_return": -0.0004763736745753704
+          },
+          "regime_benchmark": {
+            "active_wealth": 20075.88109761854,
+            "passive_wealth": 20079.80857111005,
+            "active_minus_passive": -3.927473491508863,
+            "active_return": 0.003794054880926989,
+            "passive_return": 0.003990428555502579,
+            "excess_return": -0.00019637367457544315
+          }
+        }
+      }
+    ],
+    "aggregate_active_minus_passive": {
+      "auction": 7.639755494892597e-11,
+      "regime_benchmark": 5.820766091346741e-11
+    }
+  },
+  "target_rounds": [
+    {
+      "round": 1,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 1,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 2,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 8,
+      "accepted_side": "buy",
+      "accepted_quantity": 8,
+      "executed_buy": 3,
+      "executed_sell": 0,
+      "executed_signed": 3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 2,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 3,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -3,
+      "accepted_side": "sell",
+      "accepted_quantity": 3,
+      "executed_buy": 0,
+      "executed_sell": 3,
+      "executed_signed": -3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 3,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 4,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -5,
+      "accepted_side": "sell",
+      "accepted_quantity": 5,
+      "executed_buy": 0,
+      "executed_sell": 4,
+      "executed_signed": -4,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 4,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 5,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -5,
+      "accepted_side": "sell",
+      "accepted_quantity": 5,
+      "executed_buy": 0,
+      "executed_sell": 3,
+      "executed_signed": -3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 5,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 6,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -5,
+      "accepted_side": "sell",
+      "accepted_quantity": 5,
+      "executed_buy": 0,
+      "executed_sell": 2,
+      "executed_signed": -2,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 6,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -1,
+      "accepted_side": "sell",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 7,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 7,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -1,
+      "accepted_side": "sell",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 1,
+      "executed_signed": -1,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 8,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -3,
+      "accepted_side": "sell",
+      "accepted_quantity": 3,
+      "executed_buy": 0,
+      "executed_sell": 3,
+      "executed_signed": -3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 8,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -2,
+      "accepted_side": "sell",
+      "accepted_quantity": 2,
+      "executed_buy": 0,
+      "executed_sell": 2,
+      "executed_signed": -2,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 9,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 6,
+      "accepted_side": "buy",
+      "accepted_quantity": 6,
+      "executed_buy": 5,
+      "executed_sell": 0,
+      "executed_signed": 5,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 9,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -3,
+      "accepted_side": "sell",
+      "accepted_quantity": 3,
+      "executed_buy": 0,
+      "executed_sell": 3,
+      "executed_signed": -3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 10,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 3,
+      "accepted_side": "buy",
+      "accepted_quantity": 3,
+      "executed_buy": 3,
+      "executed_sell": 0,
+      "executed_signed": 3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 10,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 1,
+      "accepted_side": "buy",
+      "accepted_quantity": 1,
+      "executed_buy": 1,
+      "executed_sell": 0,
+      "executed_signed": 1,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 11,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 11,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 2,
+      "accepted_side": "buy",
+      "accepted_quantity": 2,
+      "executed_buy": 2,
+      "executed_sell": 0,
+      "executed_signed": 2,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 12,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 5,
+      "accepted_side": "buy",
+      "accepted_quantity": 5,
+      "executed_buy": 4,
+      "executed_sell": 0,
+      "executed_signed": 4,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 12,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 3,
+      "accepted_side": "buy",
+      "accepted_quantity": 3,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 13,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -10,
+      "accepted_side": "sell",
+      "accepted_quantity": 10,
+      "executed_buy": 0,
+      "executed_sell": 9,
+      "executed_signed": -9,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 13,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 4,
+      "accepted_side": "buy",
+      "accepted_quantity": 4,
+      "executed_buy": 4,
+      "executed_sell": 0,
+      "executed_signed": 4,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 14,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 14,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 1,
+      "accepted_side": "buy",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 15,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 3,
+      "accepted_side": "buy",
+      "accepted_quantity": 3,
+      "executed_buy": 3,
+      "executed_sell": 0,
+      "executed_signed": 3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 15,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -2,
+      "accepted_side": "sell",
+      "accepted_quantity": 2,
+      "executed_buy": 0,
+      "executed_sell": 2,
+      "executed_signed": -2,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 16,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 16,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -1,
+      "accepted_side": "sell",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 1,
+      "executed_signed": -1,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 17,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -7,
+      "accepted_side": "sell",
+      "accepted_quantity": 7,
+      "executed_buy": 0,
+      "executed_sell": 1,
+      "executed_signed": -1,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 17,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -1,
+      "accepted_side": "sell",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 18,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 4,
+      "accepted_side": "buy",
+      "accepted_quantity": 4,
+      "executed_buy": 4,
+      "executed_sell": 0,
+      "executed_signed": 4,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 18,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": -2,
+      "accepted_side": "sell",
+      "accepted_quantity": 2,
+      "executed_buy": 0,
+      "executed_sell": 2,
+      "executed_signed": -2,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 19,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 9,
+      "accepted_side": "buy",
+      "accepted_quantity": 9,
+      "executed_buy": 3,
+      "executed_sell": 0,
+      "executed_signed": 3,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 19,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 1,
+      "accepted_side": "buy",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 20,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 20,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 1,
+      "accepted_side": "buy",
+      "accepted_quantity": 1,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    }
+  ],
+  "event_decisions": [
+    {
+      "round": 11,
+      "agent_id": "fund_012",
+      "slot": 12,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 0,
+      "accepted_side": "hold",
+      "accepted_quantity": 0,
+      "executed_buy": 0,
+      "executed_sell": 0,
+      "executed_signed": 0,
+      "validation_note": "",
+      "failure_type": null
+    },
+    {
+      "round": 11,
+      "agent_id": "mome_013",
+      "slot": 13,
+      "persona": null,
+      "valid_choice": true,
+      "requested_signed": null,
+      "accepted_signed": 2,
+      "accepted_side": "buy",
+      "accepted_quantity": 2,
+      "executed_buy": 2,
+      "executed_sell": 0,
+      "executed_signed": 2,
+      "validation_note": "",
+      "failure_type": null
+    }
+  ],
+  "event_metrics": {
+    "pre_event_price": 101.7,
+    "pre_mean_price": 99.91,
+    "event_price": 102.1,
+    "event_log_return": 0.003925422116105512,
+    "post_mean_price": 100.49999999999999,
+    "post_mean_absolute_relative_gap": 0.009999999999999976,
+    "half_pre_event_gap_time": 3,
+    "half_gap_right_censored": false,
+    "target_union_volume_share": 0.19161676646706588,
+    "target_trade_leg_share": 0.10479041916167664,
+    "post_total_volume": 167
+  },
+  "timing_note": "Half-gap time starts at event round (lag 0), uses the new regime benchmark and pre-event close, and is null/censored if not reached. It is not a causal headline-response latency. Requested quantities unavailable for rules; fills come from actual trades."
+}

@@ -1,0 +1,4245 @@
+{
+  "status": "available",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip",
+  "attempted_utc": "2026-11-04T10:18:28.461420+00:00",
+  "sha256": "96c23b88e651cbfff3740a53f8225e59ee39893371e96385a1d8125ec2cd9c89",
+  "bytes": 178326,
+  "zip_member": "F-F_Research_Data_Factors_daily.csv",
+  "banner": [
+    "This file was created by using the 202609 CRSP database.",
+    "The Tbill return is the simple daily rate that, over the number of trading days",
+    "compounds to 1-month TBill rate. The 1-month TBill rate data until 202405 are from Ibbotson Associates. Starting from 202406, the 1-month TBill rate is from ICE BofA US 1-Month Treasury Bill Index.",
+    "",
+    ",Mkt-RF,SMB,HML,RF"
+  ],
+  "records": [
+    {
+      "date": "20230811",
+      "market_excess_pct": -0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0009,
+      "log_total_return": -0.0009004052431641432
+    },
+    {
+      "date": "20230814",
+      "market_excess_pct": 0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0053,
+      "log_total_return": 0.005286004429237356
+    },
+    {
+      "date": "20230815",
+      "market_excess_pct": -1.18,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0116,
+      "log_total_return": -0.011667804867682045
+    },
+    {
+      "date": "20230816",
+      "market_excess_pct": -0.81,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0079,
+      "log_total_return": -0.007931370326280263
+    },
+    {
+      "date": "20230817",
+      "market_excess_pct": -0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0085,
+      "log_total_return": -0.008536331022286384
+    },
+    {
+      "date": "20230818",
+      "market_excess_pct": 0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0006,
+      "log_total_return": 0.0005998200719676155
+    },
+    {
+      "date": "20230821",
+      "market_excess_pct": 0.64,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0066,
+      "log_total_return": 0.0065783153601225676
+    },
+    {
+      "date": "20230822",
+      "market_excess_pct": -0.32,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.003,
+      "log_total_return": -0.0030045090202987217
+    },
+    {
+      "date": "20230823",
+      "market_excess_pct": 1.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011000000000000001,
+      "log_total_return": 0.010939940038334364
+    },
+    {
+      "date": "20230824",
+      "market_excess_pct": -1.42,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.013999999999999999,
+      "log_total_return": -0.014098924379501634
+    },
+    {
+      "date": "20230825",
+      "market_excess_pct": 0.65,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0067,
+      "log_total_return": 0.006677654753240568
+    },
+    {
+      "date": "20230828",
+      "market_excess_pct": 0.63,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006500000000000001,
+      "log_total_return": 0.006478966097709124
+    },
+    {
+      "date": "20230829",
+      "market_excess_pct": 1.5,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0152,
+      "log_total_return": 0.015085637418040853
+    },
+    {
+      "date": "20230830",
+      "market_excess_pct": 0.41,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0043,
+      "log_total_return": 0.004290781417156275
+    },
+    {
+      "date": "20230831",
+      "market_excess_pct": -0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006,
+      "log_total_return": -0.0006001800720324156
+    },
+    {
+      "date": "20230901",
+      "market_excess_pct": 0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0028000000000000004,
+      "log_total_return": 0.0027960873020012743
+    },
+    {
+      "date": "20230905",
+      "market_excess_pct": -0.54,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0052,
+      "log_total_return": -0.005213567052887451
+    },
+    {
+      "date": "20230906",
+      "market_excess_pct": -0.71,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0069,
+      "log_total_return": -0.006923915072824181
+    },
+    {
+      "date": "20230907",
+      "market_excess_pct": -0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0038,
+      "log_total_return": -0.0038072383429540407
+    },
+    {
+      "date": "20230908",
+      "market_excess_pct": 0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013999999999999998,
+      "log_total_return": 0.0013990209137073406
+    },
+    {
+      "date": "20230911",
+      "market_excess_pct": 0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0068000000000000005,
+      "log_total_return": 0.006776984279023752
+    },
+    {
+      "date": "20230912",
+      "market_excess_pct": -0.59,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005699999999999999,
+      "log_total_return": -0.005716306996109153
+    },
+    {
+      "date": "20230913",
+      "market_excess_pct": 0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0005,
+      "log_total_return": 0.000499875041651048
+    },
+    {
+      "date": "20230914",
+      "market_excess_pct": 0.83,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0085,
+      "log_total_return": 0.008464078412129412
+    },
+    {
+      "date": "20230915",
+      "market_excess_pct": -1.21,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.011899999999999999,
+      "log_total_return": -0.011971371781219936
+    },
+    {
+      "date": "20230918",
+      "market_excess_pct": -0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0002,
+      "log_total_return": -0.00020002000266706673
+    },
+    {
+      "date": "20230919",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20230920",
+      "market_excess_pct": -0.95,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0093,
+      "log_total_return": -0.009343515003152489
+    },
+    {
+      "date": "20230921",
+      "market_excess_pct": -1.68,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0166,
+      "log_total_return": -0.016739324004298048
+    },
+    {
+      "date": "20230922",
+      "market_excess_pct": -0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0023,
+      "log_total_return": -0.002302649062675589
+    },
+    {
+      "date": "20230925",
+      "market_excess_pct": 0.39,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0041,
+      "log_total_return": 0.004091617903253565
+    },
+    {
+      "date": "20230926",
+      "market_excess_pct": -1.46,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0144,
+      "log_total_return": -0.01450468620288172
+    },
+    {
+      "date": "20230927",
+      "market_excess_pct": 0.13,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0015,
+      "log_total_return": 0.0014988761237358919
+    },
+    {
+      "date": "20230928",
+      "market_excess_pct": 0.65,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0067,
+      "log_total_return": 0.006677654753240568
+    },
+    {
+      "date": "20230929",
+      "market_excess_pct": -0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0025,
+      "log_total_return": -0.0025031302181185303
+    },
+    {
+      "date": "20231002",
+      "market_excess_pct": -0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0012000000000000001,
+      "log_total_return": -0.0012007205765188983
+    },
+    {
+      "date": "20231003",
+      "market_excess_pct": -1.49,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0147,
+      "log_total_return": -0.014809115653708179
+    },
+    {
+      "date": "20231004",
+      "market_excess_pct": 0.77,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0079,
+      "log_total_return": 0.00786895837869518
+    },
+    {
+      "date": "20231005",
+      "market_excess_pct": -0.15,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0013,
+      "log_total_return": -0.0013008457330481017
+    },
+    {
+      "date": "20231006",
+      "market_excess_pct": 1.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0123,
+      "log_total_return": 0.01222496962256897
+    },
+    {
+      "date": "20231009",
+      "market_excess_pct": 0.59,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0060999999999999995,
+      "log_total_return": 0.006081470315867959
+    },
+    {
+      "date": "20231010",
+      "market_excess_pct": 0.6,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0062,
+      "log_total_return": 0.006180859075081115
+    },
+    {
+      "date": "20231011",
+      "market_excess_pct": 0.33,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0035000000000000005,
+      "log_total_return": 0.00349388925425578
+    },
+    {
+      "date": "20231012",
+      "market_excess_pct": -0.81,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0079,
+      "log_total_return": -0.007931370326280263
+    },
+    {
+      "date": "20231013",
+      "market_excess_pct": -0.59,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005699999999999999,
+      "log_total_return": -0.005716306996109153
+    },
+    {
+      "date": "20231016",
+      "market_excess_pct": 1.13,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0115,
+      "log_total_return": 0.011434377625663104
+    },
+    {
+      "date": "20231017",
+      "market_excess_pct": 0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0011,
+      "log_total_return": 0.0010993954433009636
+    },
+    {
+      "date": "20231018",
+      "market_excess_pct": -1.46,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0144,
+      "log_total_return": -0.01450468620288172
+    },
+    {
+      "date": "20231019",
+      "market_excess_pct": -0.92,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.009000000000000001,
+      "log_total_return": -0.009040744652149064
+    },
+    {
+      "date": "20231020",
+      "market_excess_pct": -1.32,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.013000000000000001,
+      "log_total_return": -0.01308523954865547
+    },
+    {
+      "date": "20231023",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20231024",
+      "market_excess_pct": 0.74,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0076,
+      "log_total_return": 0.007571265496318075
+    },
+    {
+      "date": "20231025",
+      "market_excess_pct": -1.57,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0155,
+      "log_total_return": -0.015621380902956821
+    },
+    {
+      "date": "20231026",
+      "market_excess_pct": -1.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.011199999999999998,
+      "log_total_return": -0.011263192278710725
+    },
+    {
+      "date": "20231027",
+      "market_excess_pct": -0.52,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005,
+      "log_total_return": -0.005012541823544282
+    },
+    {
+      "date": "20231030",
+      "market_excess_pct": 1.15,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011699999999999999,
+      "log_total_return": 0.011632084229707651
+    },
+    {
+      "date": "20231031",
+      "market_excess_pct": 0.63,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006500000000000001,
+      "log_total_return": 0.006478966097709124
+    },
+    {
+      "date": "20231101",
+      "market_excess_pct": 0.93,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009500000000000001,
+      "log_total_return": 0.009455158770755135
+    },
+    {
+      "date": "20231102",
+      "market_excess_pct": 1.94,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0196,
+      "log_total_return": 0.019410393519823325
+    },
+    {
+      "date": "20231103",
+      "market_excess_pct": 1.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011200000000000002,
+      "log_total_return": 0.011137744410455926
+    },
+    {
+      "date": "20231106",
+      "market_excess_pct": 0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0003,
+      "log_total_return": 0.00029995500899797546
+    },
+    {
+      "date": "20231107",
+      "market_excess_pct": 0.35,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0037,
+      "log_total_return": 0.0036931718376175702
+    },
+    {
+      "date": "20231108",
+      "market_excess_pct": -0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": -9.999999999999999e-05,
+      "log_total_return": -0.00010000500033335833
+    },
+    {
+      "date": "20231109",
+      "market_excess_pct": -0.89,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0087,
+      "log_total_return": -0.008738065943285257
+    },
+    {
+      "date": "20231110",
+      "market_excess_pct": 1.49,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0151,
+      "log_total_return": 0.014987129808248345
+    },
+    {
+      "date": "20231113",
+      "market_excess_pct": -0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00030000000000000003,
+      "log_total_return": -0.0003000450090020255
+    },
+    {
+      "date": "20231114",
+      "market_excess_pct": 2.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.022000000000000002,
+      "log_total_return": 0.021761491781512692
+    },
+    {
+      "date": "20231115",
+      "market_excess_pct": 0.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.002,
+      "log_total_return": 0.001998002662673056
+    },
+    {
+      "date": "20231116",
+      "market_excess_pct": -0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0009,
+      "log_total_return": -0.0009004052431641432
+    },
+    {
+      "date": "20231117",
+      "market_excess_pct": 0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0027,
+      "log_total_return": 0.0026963615477426086
+    },
+    {
+      "date": "20231120",
+      "market_excess_pct": 0.73,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0075,
+      "log_total_return": 0.007472014838700995
+    },
+    {
+      "date": "20231121",
+      "market_excess_pct": -0.32,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.003,
+      "log_total_return": -0.0030045090202987217
+    },
+    {
+      "date": "20231122",
+      "market_excess_pct": 0.47,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0049,
+      "log_total_return": 0.004888034072775961
+    },
+    {
+      "date": "20231124",
+      "market_excess_pct": 0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013,
+      "log_total_return": 0.0012991557316200499
+    },
+    {
+      "date": "20231127",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20231128",
+      "market_excess_pct": 0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0007000000000000001,
+      "log_total_return": 0.0006997551142733421
+    },
+    {
+      "date": "20231129",
+      "market_excess_pct": 0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0003,
+      "log_total_return": 0.00029995500899797546
+    },
+    {
+      "date": "20231130",
+      "market_excess_pct": 0.35,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0037,
+      "log_total_return": 0.0036931718376175702
+    },
+    {
+      "date": "20231201",
+      "market_excess_pct": 0.81,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0083,
+      "log_total_return": 0.008265744417032619
+    },
+    {
+      "date": "20231204",
+      "market_excess_pct": -0.44,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0042,
+      "log_total_return": -0.0042088447740547
+    },
+    {
+      "date": "20231205",
+      "market_excess_pct": -0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0019,
+      "log_total_return": -0.0019018072895963184
+    },
+    {
+      "date": "20231206",
+      "market_excess_pct": -0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0038,
+      "log_total_return": -0.0038072383429540407
+    },
+    {
+      "date": "20231207",
+      "market_excess_pct": 0.81,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0083,
+      "log_total_return": 0.008265744417032619
+    },
+    {
+      "date": "20231208",
+      "market_excess_pct": 0.44,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0046,
+      "log_total_return": 0.0045894523338072864
+    },
+    {
+      "date": "20231211",
+      "market_excess_pct": 0.36,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0038,
+      "log_total_return": 0.003792798238696237
+    },
+    {
+      "date": "20231212",
+      "market_excess_pct": 0.34,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0036000000000000003,
+      "log_total_return": 0.003593535510130171
+    },
+    {
+      "date": "20231213",
+      "market_excess_pct": 1.54,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.015600000000000001,
+      "log_total_return": 0.01547957084838632
+    },
+    {
+      "date": "20231214",
+      "market_excess_pct": 0.5,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0052,
+      "log_total_return": 0.005186526687300061
+    },
+    {
+      "date": "20231215",
+      "market_excess_pct": -0.06,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00039999999999999996,
+      "log_total_return": -0.00040008002133973535
+    },
+    {
+      "date": "20231218",
+      "market_excess_pct": 0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0044,
+      "log_total_return": 0.004390348301292895
+    },
+    {
+      "date": "20231219",
+      "market_excess_pct": 0.72,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0074,
+      "log_total_return": 0.007372754329413085
+    },
+    {
+      "date": "20231220",
+      "market_excess_pct": -1.55,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.015300000000000001,
+      "log_total_return": -0.015418252728380665
+    },
+    {
+      "date": "20231221",
+      "market_excess_pct": 1.09,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0111,
+      "log_total_return": 0.011038847115216341
+    },
+    {
+      "date": "20231222",
+      "market_excess_pct": 0.2,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0022,
+      "log_total_return": 0.0021975835434872217
+    },
+    {
+      "date": "20231226",
+      "market_excess_pct": 0.48,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005,
+      "log_total_return": 0.004987541511039074
+    },
+    {
+      "date": "20231227",
+      "market_excess_pct": 0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0018,
+      "log_total_return": 0.0017983819413793735
+    },
+    {
+      "date": "20231228",
+      "market_excess_pct": -0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0001,
+      "log_total_return": 9.999500033330834e-05
+    },
+    {
+      "date": "20231229",
+      "market_excess_pct": -0.43,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0040999999999999995,
+      "log_total_return": -0.004108428044543198
+    },
+    {
+      "date": "20240102",
+      "market_excess_pct": -0.7,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0068,
+      "log_total_return": -0.006823225348125508
+    },
+    {
+      "date": "20240103",
+      "market_excess_pct": -1.01,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.009899999999999999,
+      "log_total_return": -0.009949330853668082
+    },
+    {
+      "date": "20240104",
+      "market_excess_pct": -0.33,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0031,
+      "log_total_return": -0.0031048149534787647
+    },
+    {
+      "date": "20240105",
+      "market_excess_pct": 0.15,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0017,
+      "log_total_return": 0.0016985566355814771
+    },
+    {
+      "date": "20240108",
+      "market_excess_pct": 1.49,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0151,
+      "log_total_return": 0.014987129808248345
+    },
+    {
+      "date": "20240109",
+      "market_excess_pct": -0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0019,
+      "log_total_return": -0.0019018072895963184
+    },
+    {
+      "date": "20240110",
+      "market_excess_pct": 0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0053,
+      "log_total_return": 0.005286004429237356
+    },
+    {
+      "date": "20240111",
+      "market_excess_pct": -0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0012000000000000001,
+      "log_total_return": -0.0012007205765188983
+    },
+    {
+      "date": "20240112",
+      "market_excess_pct": -0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0001,
+      "log_total_return": 9.999500033330834e-05
+    },
+    {
+      "date": "20240116",
+      "market_excess_pct": -0.47,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0045,
+      "log_total_return": -0.00451015547788607
+    },
+    {
+      "date": "20240117",
+      "market_excess_pct": -0.59,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005699999999999999,
+      "log_total_return": -0.005716306996109153
+    },
+    {
+      "date": "20240118",
+      "market_excess_pct": 0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0089,
+      "log_total_return": 0.008860628432196559
+    },
+    {
+      "date": "20240119",
+      "market_excess_pct": 1.19,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0121,
+      "log_total_return": 0.012027380212718455
+    },
+    {
+      "date": "20240122",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20240123",
+      "market_excess_pct": 0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0024,
+      "log_total_return": 0.0023971245997214934
+    },
+    {
+      "date": "20240124",
+      "market_excess_pct": -0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0001,
+      "log_total_return": 9.999500033330834e-05
+    },
+    {
+      "date": "20240125",
+      "market_excess_pct": 0.46,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0048000000000000004,
+      "log_total_return": 0.004788516731797179
+    },
+    {
+      "date": "20240126",
+      "market_excess_pct": -0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0,
+      "log_total_return": 0.0
+    },
+    {
+      "date": "20240129",
+      "market_excess_pct": 0.85,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0087,
+      "log_total_return": 0.008662373078652657
+    },
+    {
+      "date": "20240130",
+      "market_excess_pct": -0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.001,
+      "log_total_return": -0.0010005003335835335
+    },
+    {
+      "date": "20240131",
+      "market_excess_pct": -1.74,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0172,
+      "log_total_return": -0.017349638335113
+    },
+    {
+      "date": "20240201",
+      "market_excess_pct": 1.22,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0124,
+      "log_total_return": 0.012323749688831936
+    },
+    {
+      "date": "20240202",
+      "market_excess_pct": 0.99,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0101,
+      "log_total_return": 0.01004933585300144
+    },
+    {
+      "date": "20240205",
+      "market_excess_pct": -0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004,
+      "log_total_return": -0.004008021397538818
+    },
+    {
+      "date": "20240206",
+      "market_excess_pct": 0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0029000000000000002,
+      "log_total_return": 0.0028958031120255652
+    },
+    {
+      "date": "20240207",
+      "market_excess_pct": 0.77,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0079,
+      "log_total_return": 0.00786895837869518
+    },
+    {
+      "date": "20240208",
+      "market_excess_pct": 0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0023,
+      "log_total_return": 0.0022973590486834897
+    },
+    {
+      "date": "20240209",
+      "market_excess_pct": 0.65,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0067,
+      "log_total_return": 0.006677654753240568
+    },
+    {
+      "date": "20240212",
+      "market_excess_pct": 0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0006,
+      "log_total_return": 0.0005998200719676155
+    },
+    {
+      "date": "20240213",
+      "market_excess_pct": -1.6,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0158,
+      "log_total_return": -0.01592615055025922
+    },
+    {
+      "date": "20240214",
+      "market_excess_pct": 1.14,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0116,
+      "log_total_return": 0.01153323581367303
+    },
+    {
+      "date": "20240215",
+      "market_excess_pct": 0.67,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006900000000000001,
+      "log_total_return": 0.006876303939432157
+    },
+    {
+      "date": "20240216",
+      "market_excess_pct": -0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0051,
+      "log_total_return": -0.005113049386823021
+    },
+    {
+      "date": "20240220",
+      "market_excess_pct": -0.73,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0070999999999999995,
+      "log_total_return": -0.007125324942588631
+    },
+    {
+      "date": "20240221",
+      "market_excess_pct": -0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0,
+      "log_total_return": 0.0
+    },
+    {
+      "date": "20240222",
+      "market_excess_pct": 2.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0204,
+      "log_total_return": 0.02019470728551928
+    },
+    {
+      "date": "20240223",
+      "market_excess_pct": 0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0004,
+      "log_total_return": 0.0003999200213269354
+    },
+    {
+      "date": "20240226",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20240227",
+      "market_excess_pct": 0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0028000000000000004,
+      "log_total_return": 0.0027960873020012743
+    },
+    {
+      "date": "20240228",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20240229",
+      "market_excess_pct": 0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0055000000000000005,
+      "log_total_return": 0.005484930230569686
+    },
+    {
+      "date": "20240301",
+      "market_excess_pct": 0.76,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0078000000000000005,
+      "log_total_return": 0.007769737264360665
+    },
+    {
+      "date": "20240304",
+      "market_excess_pct": -0.18,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0016,
+      "log_total_return": -0.0016012813669738335
+    },
+    {
+      "date": "20240305",
+      "market_excess_pct": -1.07,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0105,
+      "log_total_return": -0.010555513939516634
+    },
+    {
+      "date": "20240306",
+      "market_excess_pct": 0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0055000000000000005,
+      "log_total_return": 0.005484930230569686
+    },
+    {
+      "date": "20240307",
+      "market_excess_pct": 1.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0104,
+      "log_total_return": 0.010346292054144302
+    },
+    {
+      "date": "20240308",
+      "market_excess_pct": -0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0064,
+      "log_total_return": -0.006420567802922734
+    },
+    {
+      "date": "20240311",
+      "market_excess_pct": -0.2,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0018000000000000002,
+      "log_total_return": -0.0018016219466281851
+    },
+    {
+      "date": "20240312",
+      "market_excess_pct": 1.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0106,
+      "log_total_return": 0.010544213875671154
+    },
+    {
+      "date": "20240313",
+      "market_excess_pct": -0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0012000000000000001,
+      "log_total_return": -0.0012007205765188983
+    },
+    {
+      "date": "20240314",
+      "market_excess_pct": -0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004,
+      "log_total_return": -0.004008021397538818
+    },
+    {
+      "date": "20240315",
+      "market_excess_pct": -0.58,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005599999999999999,
+      "log_total_return": -0.005615738785635695
+    },
+    {
+      "date": "20240318",
+      "market_excess_pct": 0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0055000000000000005,
+      "log_total_return": 0.005484930230569686
+    },
+    {
+      "date": "20240319",
+      "market_excess_pct": 0.54,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005600000000000001,
+      "log_total_return": 0.005584378293900615
+    },
+    {
+      "date": "20240320",
+      "market_excess_pct": 1.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0104,
+      "log_total_return": 0.010346292054144302
+    },
+    {
+      "date": "20240321",
+      "market_excess_pct": 0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0044,
+      "log_total_return": 0.004390348301292895
+    },
+    {
+      "date": "20240322",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20240325",
+      "market_excess_pct": -0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0025,
+      "log_total_return": -0.0025031302181185303
+    },
+    {
+      "date": "20240326",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20240327",
+      "market_excess_pct": 0.88,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009000000000000001,
+      "log_total_return": 0.008959741371471904
+    },
+    {
+      "date": "20240328",
+      "market_excess_pct": 0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013,
+      "log_total_return": 0.0012991557316200499
+    },
+    {
+      "date": "20240401",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20240402",
+      "market_excess_pct": -0.85,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0083,
+      "log_total_return": -0.008334636790057654
+    },
+    {
+      "date": "20240403",
+      "market_excess_pct": 0.17,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0019,
+      "log_total_return": 0.0018981972830802527
+    },
+    {
+      "date": "20240404",
+      "market_excess_pct": -1.22,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.012,
+      "log_total_return": -0.012072581234269238
+    },
+    {
+      "date": "20240405",
+      "market_excess_pct": 1.06,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0108,
+      "log_total_return": 0.010742096531902109
+    },
+    {
+      "date": "20240408",
+      "market_excess_pct": 0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0003,
+      "log_total_return": 0.00029995500899797546
+    },
+    {
+      "date": "20240409",
+      "market_excess_pct": 0.13,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0015,
+      "log_total_return": 0.0014988761237358919
+    },
+    {
+      "date": "20240410",
+      "market_excess_pct": -1.0,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0098,
+      "log_total_return": -0.009848336054814374
+    },
+    {
+      "date": "20240411",
+      "market_excess_pct": 0.73,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0075,
+      "log_total_return": 0.007472014838700995
+    },
+    {
+      "date": "20240412",
+      "market_excess_pct": -1.53,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0151,
+      "log_total_return": -0.015215165806480375
+    },
+    {
+      "date": "20240415",
+      "market_excess_pct": -1.29,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0127,
+      "log_total_return": -0.012781334364733107
+    },
+    {
+      "date": "20240416",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20240417",
+      "market_excess_pct": -0.64,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0062,
+      "log_total_return": -0.006219299813916849
+    },
+    {
+      "date": "20240418",
+      "market_excess_pct": -0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0025,
+      "log_total_return": -0.0025031302181185303
+    },
+    {
+      "date": "20240419",
+      "market_excess_pct": -0.82,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.008,
+      "log_total_return": -0.00803217169726426
+    },
+    {
+      "date": "20240422",
+      "market_excess_pct": 0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0089,
+      "log_total_return": 0.008860628432196559
+    },
+    {
+      "date": "20240423",
+      "market_excess_pct": 1.27,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0129,
+      "log_total_return": 0.01281750371061443
+    },
+    {
+      "date": "20240424",
+      "market_excess_pct": -0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0001,
+      "log_total_return": 9.999500033330834e-05
+    },
+    {
+      "date": "20240425",
+      "market_excess_pct": -0.47,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0045,
+      "log_total_return": -0.00451015547788607
+    },
+    {
+      "date": "20240426",
+      "market_excess_pct": 1.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0105,
+      "log_total_return": 0.01044525786153865
+    },
+    {
+      "date": "20240429",
+      "market_excess_pct": 0.33,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0035000000000000005,
+      "log_total_return": 0.00349388925425578
+    },
+    {
+      "date": "20240430",
+      "market_excess_pct": -1.67,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0165,
+      "log_total_return": -0.01663764115302329
+    },
+    {
+      "date": "20240501",
+      "market_excess_pct": -0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0025,
+      "log_total_return": -0.0025031302181185303
+    },
+    {
+      "date": "20240502",
+      "market_excess_pct": 1.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0103,
+      "log_total_return": 0.010247316451549523
+    },
+    {
+      "date": "20240503",
+      "market_excess_pct": 1.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.012,
+      "log_total_return": 0.011928570865273802
+    },
+    {
+      "date": "20240506",
+      "market_excess_pct": 1.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011000000000000001,
+      "log_total_return": 0.010939940038334364
+    },
+    {
+      "date": "20240507",
+      "market_excess_pct": 0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0007000000000000001,
+      "log_total_return": 0.0006997551142733421
+    },
+    {
+      "date": "20240508",
+      "market_excess_pct": -0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006999999999999999,
+      "log_total_return": -0.0007002451143933918
+    },
+    {
+      "date": "20240509",
+      "market_excess_pct": 0.52,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0054,
+      "log_total_return": 0.005385472276337817
+    },
+    {
+      "date": "20240510",
+      "market_excess_pct": 0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0011,
+      "log_total_return": 0.0010993954433009636
+    },
+    {
+      "date": "20240513",
+      "market_excess_pct": -0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0002,
+      "log_total_return": -0.00020002000266706673
+    },
+    {
+      "date": "20240514",
+      "market_excess_pct": 0.56,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0058000000000000005,
+      "log_total_return": 0.005783244755727334
+    },
+    {
+      "date": "20240515",
+      "market_excess_pct": 1.15,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011699999999999999,
+      "log_total_return": 0.011632084229707651
+    },
+    {
+      "date": "20240516",
+      "market_excess_pct": -0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0023,
+      "log_total_return": -0.002302649062675589
+    },
+    {
+      "date": "20240517",
+      "market_excess_pct": 0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013,
+      "log_total_return": 0.0012991557316200499
+    },
+    {
+      "date": "20240520",
+      "market_excess_pct": 0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0016,
+      "log_total_return": 0.0015987213636970278
+    },
+    {
+      "date": "20240521",
+      "market_excess_pct": 0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0018,
+      "log_total_return": 0.0017983819413793735
+    },
+    {
+      "date": "20240522",
+      "market_excess_pct": -0.35,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0032999999999999995,
+      "log_total_return": -0.003305457008726511
+    },
+    {
+      "date": "20240523",
+      "market_excess_pct": -0.84,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.008199999999999999,
+      "log_total_return": -0.008233804927103556
+    },
+    {
+      "date": "20240524",
+      "market_excess_pct": 0.71,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0073,
+      "log_total_return": 0.007273483966498386
+    },
+    {
+      "date": "20240528",
+      "market_excess_pct": -0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0002,
+      "log_total_return": -0.00020002000266706673
+    },
+    {
+      "date": "20240529",
+      "market_excess_pct": -0.77,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0075,
+      "log_total_return": -0.007528266420791573
+    },
+    {
+      "date": "20240530",
+      "market_excess_pct": -0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0051,
+      "log_total_return": -0.005113049386823021
+    },
+    {
+      "date": "20240531",
+      "market_excess_pct": 0.68,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.007000000000000001,
+      "log_total_return": 0.006975613736425243
+    },
+    {
+      "date": "20240603",
+      "market_excess_pct": 0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0007000000000000001,
+      "log_total_return": 0.0006997551142733421
+    },
+    {
+      "date": "20240604",
+      "market_excess_pct": -0.06,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00039999999999999996,
+      "log_total_return": -0.00040008002133973535
+    },
+    {
+      "date": "20240605",
+      "market_excess_pct": 1.23,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0125,
+      "log_total_return": 0.012422519998557155
+    },
+    {
+      "date": "20240606",
+      "market_excess_pct": -0.06,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00039999999999999996,
+      "log_total_return": -0.00040008002133973535
+    },
+    {
+      "date": "20240607",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20240610",
+      "market_excess_pct": 0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0029000000000000002,
+      "log_total_return": 0.0028958031120255652
+    },
+    {
+      "date": "20240611",
+      "market_excess_pct": 0.2,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0022,
+      "log_total_return": 0.0021975835434872217
+    },
+    {
+      "date": "20240612",
+      "market_excess_pct": 0.94,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0096,
+      "log_total_return": 0.009554212804811658
+    },
+    {
+      "date": "20240613",
+      "market_excess_pct": 0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0007000000000000001,
+      "log_total_return": 0.0006997551142733421
+    },
+    {
+      "date": "20240614",
+      "market_excess_pct": -0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0014000000000000002,
+      "log_total_return": -0.0014009809156281436
+    },
+    {
+      "date": "20240617",
+      "market_excess_pct": 0.78,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.008,
+      "log_total_return": 0.007968169649176874
+    },
+    {
+      "date": "20240618",
+      "market_excess_pct": 0.2,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0022,
+      "log_total_return": 0.0021975835434872217
+    },
+    {
+      "date": "20240620",
+      "market_excess_pct": -0.3,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0027999999999999995,
+      "log_total_return": -0.002803927332734234
+    },
+    {
+      "date": "20240621",
+      "market_excess_pct": -0.13,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0011,
+      "log_total_return": -0.001100605444033014
+    },
+    {
+      "date": "20240624",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20240625",
+      "market_excess_pct": 0.31,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0033,
+      "log_total_return": 0.003294566949430031
+    },
+    {
+      "date": "20240626",
+      "market_excess_pct": 0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0018,
+      "log_total_return": 0.0017983819413793735
+    },
+    {
+      "date": "20240627",
+      "market_excess_pct": 0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0016,
+      "log_total_return": 0.0015987213636970278
+    },
+    {
+      "date": "20240628",
+      "market_excess_pct": -0.35,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0032999999999999995,
+      "log_total_return": -0.003305457008726511
+    },
+    {
+      "date": "20240701",
+      "market_excess_pct": 0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0025,
+      "log_total_return": 0.002496880198587199
+    },
+    {
+      "date": "20240702",
+      "market_excess_pct": 0.57,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0059,
+      "log_total_return": 0.005882663158155495
+    },
+    {
+      "date": "20240703",
+      "market_excess_pct": 0.48,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005,
+      "log_total_return": 0.004987541511039074
+    },
+    {
+      "date": "20240705",
+      "market_excess_pct": 0.48,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005,
+      "log_total_return": 0.004987541511039074
+    },
+    {
+      "date": "20240708",
+      "market_excess_pct": 0.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0012000000000000001,
+      "log_total_return": 0.0011992805754820971
+    },
+    {
+      "date": "20240709",
+      "market_excess_pct": 0.0,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0002,
+      "log_total_return": 0.00019998000266626675
+    },
+    {
+      "date": "20240710",
+      "market_excess_pct": 0.97,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009899999999999999,
+      "log_total_return": 0.009851316050374181
+    },
+    {
+      "date": "20240711",
+      "market_excess_pct": -0.6,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0058,
+      "log_total_return": -0.005816885321564823
+    },
+    {
+      "date": "20240712",
+      "market_excess_pct": 0.58,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006,
+      "log_total_return": 0.005982071677547464
+    },
+    {
+      "date": "20240715",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20240716",
+      "market_excess_pct": 0.82,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0084,
+      "log_total_return": 0.008364916331627708
+    },
+    {
+      "date": "20240717",
+      "market_excess_pct": -1.49,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0147,
+      "log_total_return": -0.014809115653708179
+    },
+    {
+      "date": "20240718",
+      "market_excess_pct": -0.95,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0093,
+      "log_total_return": -0.009343515003152489
+    },
+    {
+      "date": "20240719",
+      "market_excess_pct": -0.68,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0066,
+      "log_total_return": -0.006621876308886919
+    },
+    {
+      "date": "20240722",
+      "market_excess_pct": 1.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011000000000000001,
+      "log_total_return": 0.010939940038334364
+    },
+    {
+      "date": "20240723",
+      "market_excess_pct": -0.07,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0005,
+      "log_total_return": -0.0005001250416822979
+    },
+    {
+      "date": "20240724",
+      "market_excess_pct": -2.4,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.023799999999999998,
+      "log_total_return": -0.024087795529089937
+    },
+    {
+      "date": "20240725",
+      "market_excess_pct": -0.3,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0027999999999999995,
+      "log_total_return": -0.002803927332734234
+    },
+    {
+      "date": "20240726",
+      "market_excess_pct": 1.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011200000000000002,
+      "log_total_return": 0.011137744410455926
+    },
+    {
+      "date": "20240729",
+      "market_excess_pct": -0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0,
+      "log_total_return": 0.0
+    },
+    {
+      "date": "20240730",
+      "market_excess_pct": -0.49,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004699999999999999,
+      "log_total_return": -0.004711079730119185
+    },
+    {
+      "date": "20240731",
+      "market_excess_pct": 1.52,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0154,
+      "log_total_return": 0.015282623531156904
+    },
+    {
+      "date": "20240801",
+      "market_excess_pct": -1.61,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0159,
+      "log_total_return": -0.016027761077197226
+    },
+    {
+      "date": "20240802",
+      "market_excess_pct": -2.11,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0209,
+      "log_total_return": -0.021121496622111387
+    },
+    {
+      "date": "20240805",
+      "market_excess_pct": -3.02,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.03,
+      "log_total_return": -0.030459207484708546
+    },
+    {
+      "date": "20240806",
+      "market_excess_pct": 1.0,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0102,
+      "log_total_return": 0.01014833105181515
+    },
+    {
+      "date": "20240807",
+      "market_excess_pct": -0.83,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0081,
+      "log_total_return": -0.008132983230188994
+    },
+    {
+      "date": "20240808",
+      "market_excess_pct": 2.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.024,
+      "log_total_return": 0.023716526617316044
+    },
+    {
+      "date": "20240809",
+      "market_excess_pct": 0.43,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0045000000000000005,
+      "log_total_return": 0.004489905272852053
+    },
+    {
+      "date": "20240812",
+      "market_excess_pct": -0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006,
+      "log_total_return": -0.0006001800720324156
+    },
+    {
+      "date": "20240813",
+      "market_excess_pct": 1.69,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0171,
+      "log_total_return": 0.016955440649413473
+    },
+    {
+      "date": "20240814",
+      "market_excess_pct": 0.3,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0032,
+      "log_total_return": 0.0031948908965191976
+    },
+    {
+      "date": "20240815",
+      "market_excess_pct": 1.77,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0179,
+      "log_total_return": 0.0177416814761571
+    },
+    {
+      "date": "20240816",
+      "market_excess_pct": 0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0024,
+      "log_total_return": 0.0023971245997214934
+    },
+    {
+      "date": "20240819",
+      "market_excess_pct": 0.98,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.01,
+      "log_total_return": 0.009950330853168083
+    },
+    {
+      "date": "20240820",
+      "market_excess_pct": -0.31,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0029,
+      "log_total_return": -0.002904213147389813
+    },
+    {
+      "date": "20240821",
+      "market_excess_pct": 0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0053,
+      "log_total_return": 0.005286004429237356
+    },
+    {
+      "date": "20240822",
+      "market_excess_pct": -0.96,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.009399999999999999,
+      "log_total_return": -0.009444458827999724
+    },
+    {
+      "date": "20240823",
+      "market_excess_pct": 1.29,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0131,
+      "log_total_return": 0.013014937077494654
+    },
+    {
+      "date": "20240826",
+      "market_excess_pct": -0.34,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0032,
+      "log_total_return": -0.0032051309489483553
+    },
+    {
+      "date": "20240827",
+      "market_excess_pct": 0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0007000000000000001,
+      "log_total_return": 0.0006997551142733421
+    },
+    {
+      "date": "20240828",
+      "market_excess_pct": -0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0064,
+      "log_total_return": -0.006420567802922734
+    },
+    {
+      "date": "20240829",
+      "market_excess_pct": 0.07,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0009000000000000001,
+      "log_total_return": 0.000899595242836093
+    },
+    {
+      "date": "20240830",
+      "market_excess_pct": 0.98,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.01,
+      "log_total_return": 0.009950330853168083
+    },
+    {
+      "date": "20240903",
+      "market_excess_pct": -2.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.022399999999999996,
+      "log_total_return": -0.022654690564806172
+    },
+    {
+      "date": "20240904",
+      "market_excess_pct": -0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.002,
+      "log_total_return": -0.0020020026706730775
+    },
+    {
+      "date": "20240905",
+      "market_excess_pct": -0.31,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0029,
+      "log_total_return": -0.002904213147389813
+    },
+    {
+      "date": "20240906",
+      "market_excess_pct": -1.82,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.018000000000000002,
+      "log_total_return": -0.018163970627671167
+    },
+    {
+      "date": "20240909",
+      "market_excess_pct": 1.09,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0111,
+      "log_total_return": 0.011038847115216341
+    },
+    {
+      "date": "20240910",
+      "market_excess_pct": 0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004200000000000001,
+      "log_total_return": 0.0041912046184680715
+    },
+    {
+      "date": "20240911",
+      "market_excess_pct": 1.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0106,
+      "log_total_return": 0.010544213875671154
+    },
+    {
+      "date": "20240912",
+      "market_excess_pct": 0.8,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0082,
+      "log_total_return": 0.008166562666393417
+    },
+    {
+      "date": "20240913",
+      "market_excess_pct": 0.7,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0072,
+      "log_total_return": 0.007174203748000358
+    },
+    {
+      "date": "20240916",
+      "market_excess_pct": 0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0018,
+      "log_total_return": 0.0017983819413793735
+    },
+    {
+      "date": "20240917",
+      "market_excess_pct": 0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.001,
+      "log_total_return": 0.0009995003330835331
+    },
+    {
+      "date": "20240918",
+      "market_excess_pct": -0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0023,
+      "log_total_return": -0.002302649062675589
+    },
+    {
+      "date": "20240919",
+      "market_excess_pct": 1.77,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0179,
+      "log_total_return": 0.0177416814761571
+    },
+    {
+      "date": "20240920",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20240923",
+      "market_excess_pct": 0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0023,
+      "log_total_return": 0.0022973590486834897
+    },
+    {
+      "date": "20240924",
+      "market_excess_pct": 0.24,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0026,
+      "log_total_return": 0.0025966258472659783
+    },
+    {
+      "date": "20240925",
+      "market_excess_pct": -0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0026999999999999997,
+      "log_total_return": -0.002703651574314787
+    },
+    {
+      "date": "20240926",
+      "market_excess_pct": 0.43,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0045000000000000005,
+      "log_total_return": 0.004489905272852053
+    },
+    {
+      "date": "20240927",
+      "market_excess_pct": -0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006999999999999999,
+      "log_total_return": -0.0007002451143933918
+    },
+    {
+      "date": "20240930",
+      "market_excess_pct": 0.36,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0038,
+      "log_total_return": 0.003792798238696237
+    },
+    {
+      "date": "20241001",
+      "market_excess_pct": -0.97,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0095,
+      "log_total_return": -0.009545412843531432
+    },
+    {
+      "date": "20241002",
+      "market_excess_pct": 0.0,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0002,
+      "log_total_return": 0.00019998000266626675
+    },
+    {
+      "date": "20241003",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20241004",
+      "market_excess_pct": 1.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0105,
+      "log_total_return": 0.01044525786153865
+    },
+    {
+      "date": "20241007",
+      "market_excess_pct": -0.97,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0095,
+      "log_total_return": -0.009545412843531432
+    },
+    {
+      "date": "20241008",
+      "market_excess_pct": 0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0089,
+      "log_total_return": 0.008860628432196559
+    },
+    {
+      "date": "20241009",
+      "market_excess_pct": 0.69,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0070999999999999995,
+      "log_total_return": 0.007074913671961879
+    },
+    {
+      "date": "20241010",
+      "market_excess_pct": -0.2,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0018000000000000002,
+      "log_total_return": -0.0018016219466281851
+    },
+    {
+      "date": "20241011",
+      "market_excess_pct": 0.75,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0077,
+      "log_total_return": 0.0076705063042197
+    },
+    {
+      "date": "20241014",
+      "market_excess_pct": 0.7,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0072,
+      "log_total_return": 0.007174203748000358
+    },
+    {
+      "date": "20241015",
+      "market_excess_pct": -0.72,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.006999999999999999,
+      "log_total_return": -0.007024614936964459
+    },
+    {
+      "date": "20241016",
+      "market_excess_pct": 0.52,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0054,
+      "log_total_return": 0.005385472276337817
+    },
+    {
+      "date": "20241017",
+      "market_excess_pct": -0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00030000000000000003,
+      "log_total_return": -0.0003000450090020255
+    },
+    {
+      "date": "20241018",
+      "market_excess_pct": 0.36,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0038,
+      "log_total_return": 0.003792798238696237
+    },
+    {
+      "date": "20241021",
+      "market_excess_pct": -0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0026999999999999997,
+      "log_total_return": -0.002703651574314787
+    },
+    {
+      "date": "20241022",
+      "market_excess_pct": -0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0009,
+      "log_total_return": -0.0009004052431641432
+    },
+    {
+      "date": "20241023",
+      "market_excess_pct": -0.97,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0095,
+      "log_total_return": -0.009545412843531432
+    },
+    {
+      "date": "20241024",
+      "market_excess_pct": 0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0031,
+      "log_total_return": 0.0030952049073024192
+    },
+    {
+      "date": "20241025",
+      "market_excess_pct": -0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006,
+      "log_total_return": -0.0006001800720324156
+    },
+    {
+      "date": "20241028",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20241029",
+      "market_excess_pct": 0.15,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0017,
+      "log_total_return": 0.0016985566355814771
+    },
+    {
+      "date": "20241030",
+      "market_excess_pct": -0.32,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.003,
+      "log_total_return": -0.0030045090202987217
+    },
+    {
+      "date": "20241031",
+      "market_excess_pct": -1.8,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0178,
+      "log_total_return": -0.017960325376992832
+    },
+    {
+      "date": "20241101",
+      "market_excess_pct": 0.47,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0049,
+      "log_total_return": 0.004888034072775961
+    },
+    {
+      "date": "20241104",
+      "market_excess_pct": -0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0025,
+      "log_total_return": -0.0025031302181185303
+    },
+    {
+      "date": "20241105",
+      "market_excess_pct": 1.3,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0132,
+      "log_total_return": 0.013113639145383105
+    },
+    {
+      "date": "20241106",
+      "market_excess_pct": 2.91,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.029300000000000003,
+      "log_total_return": 0.028878959550376674
+    },
+    {
+      "date": "20241107",
+      "market_excess_pct": 0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0068000000000000005,
+      "log_total_return": 0.006776984279023752
+    },
+    {
+      "date": "20241108",
+      "market_excess_pct": 0.43,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0045000000000000005,
+      "log_total_return": 0.004489905272852053
+    },
+    {
+      "date": "20241111",
+      "market_excess_pct": 0.32,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0034000000000000002,
+      "log_total_return": 0.003394233068015548
+    },
+    {
+      "date": "20241112",
+      "market_excess_pct": -0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0036,
+      "log_total_return": -0.0036064955941116964
+    },
+    {
+      "date": "20241113",
+      "market_excess_pct": -0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.001,
+      "log_total_return": -0.0010005003335835335
+    },
+    {
+      "date": "20241114",
+      "market_excess_pct": -0.71,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0069,
+      "log_total_return": -0.006923915072824181
+    },
+    {
+      "date": "20241115",
+      "market_excess_pct": -1.38,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0136,
+      "log_total_return": -0.013693327132002508
+    },
+    {
+      "date": "20241118",
+      "market_excess_pct": 0.41,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0043,
+      "log_total_return": 0.004290781417156275
+    },
+    {
+      "date": "20241119",
+      "market_excess_pct": 0.49,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0051,
+      "log_total_return": 0.005087039048557106
+    },
+    {
+      "date": "20241120",
+      "market_excess_pct": 0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0006,
+      "log_total_return": 0.0005998200719676155
+    },
+    {
+      "date": "20241121",
+      "market_excess_pct": 0.65,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0067,
+      "log_total_return": 0.006677654753240568
+    },
+    {
+      "date": "20241122",
+      "market_excess_pct": 0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0055000000000000005,
+      "log_total_return": 0.005484930230569686
+    },
+    {
+      "date": "20241125",
+      "market_excess_pct": 0.41,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0043,
+      "log_total_return": 0.004290781417156275
+    },
+    {
+      "date": "20241126",
+      "market_excess_pct": 0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0044,
+      "log_total_return": 0.004390348301292895
+    },
+    {
+      "date": "20241127",
+      "market_excess_pct": -0.39,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0037,
+      "log_total_return": -0.0037068619313264757
+    },
+    {
+      "date": "20241129",
+      "market_excess_pct": 0.54,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005600000000000001,
+      "log_total_return": 0.005584378293900615
+    },
+    {
+      "date": "20241202",
+      "market_excess_pct": 0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0025,
+      "log_total_return": 0.002496880198587199
+    },
+    {
+      "date": "20241203",
+      "market_excess_pct": 0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0006,
+      "log_total_return": 0.0005998200719676155
+    },
+    {
+      "date": "20241204",
+      "market_excess_pct": 0.7,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0072,
+      "log_total_return": 0.007174203748000358
+    },
+    {
+      "date": "20241205",
+      "market_excess_pct": -0.28,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0026,
+      "log_total_return": -0.002603385870114881
+    },
+    {
+      "date": "20241206",
+      "market_excess_pct": 0.35,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0037,
+      "log_total_return": 0.0036931718376175702
+    },
+    {
+      "date": "20241209",
+      "market_excess_pct": -0.73,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0070999999999999995,
+      "log_total_return": -0.007125324942588631
+    },
+    {
+      "date": "20241210",
+      "market_excess_pct": -0.36,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0034,
+      "log_total_return": -0.003405793134832862
+    },
+    {
+      "date": "20241211",
+      "market_excess_pct": 0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0089,
+      "log_total_return": 0.008860628432196559
+    },
+    {
+      "date": "20241212",
+      "market_excess_pct": -0.62,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.006,
+      "log_total_return": -0.006018072325563016
+    },
+    {
+      "date": "20241213",
+      "market_excess_pct": -0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00030000000000000003,
+      "log_total_return": -0.0003000450090020255
+    },
+    {
+      "date": "20241216",
+      "market_excess_pct": 0.46,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0048000000000000004,
+      "log_total_return": 0.004788516731797179
+    },
+    {
+      "date": "20241217",
+      "market_excess_pct": -0.49,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004699999999999999,
+      "log_total_return": -0.004711079730119185
+    },
+    {
+      "date": "20241218",
+      "market_excess_pct": -3.17,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0315,
+      "log_total_return": -0.03200679613508648
+    },
+    {
+      "date": "20241219",
+      "market_excess_pct": -0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.001,
+      "log_total_return": -0.0010005003335835335
+    },
+    {
+      "date": "20241220",
+      "market_excess_pct": 1.07,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0109,
+      "log_total_return": 0.010841023177874857
+    },
+    {
+      "date": "20241223",
+      "market_excess_pct": 0.61,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0063,
+      "log_total_return": 0.006280237957150484
+    },
+    {
+      "date": "20241224",
+      "market_excess_pct": 1.11,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011300000000000001,
+      "log_total_return": 0.011236631925987683
+    },
+    {
+      "date": "20241226",
+      "market_excess_pct": 0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0003,
+      "log_total_return": 0.00029995500899797546
+    },
+    {
+      "date": "20241227",
+      "market_excess_pct": -1.17,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0115,
+      "log_total_return": -0.01156663637146545
+    },
+    {
+      "date": "20241230",
+      "market_excess_pct": -1.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.010700000000000001,
+      "log_total_return": -0.010757656652960166
+    },
+    {
+      "date": "20241231",
+      "market_excess_pct": -0.46,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0044,
+      "log_total_return": -0.004409708488700113
+    },
+    {
+      "date": "20250102",
+      "market_excess_pct": -0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0014000000000000002,
+      "log_total_return": -0.0014009809156281436
+    },
+    {
+      "date": "20250103",
+      "market_excess_pct": 1.34,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.013600000000000001,
+      "log_total_return": 0.013508350024792245
+    },
+    {
+      "date": "20250106",
+      "market_excess_pct": 0.55,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0057,
+      "log_total_return": 0.005683816468297671
+    },
+    {
+      "date": "20250107",
+      "market_excess_pct": -1.18,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0116,
+      "log_total_return": -0.011667804867682045
+    },
+    {
+      "date": "20250108",
+      "market_excess_pct": 0.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0012000000000000001,
+      "log_total_return": 0.0011992805754820971
+    },
+    {
+      "date": "20250110",
+      "market_excess_pct": -1.55,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.015300000000000001,
+      "log_total_return": -0.015418252728380665
+    },
+    {
+      "date": "20250113",
+      "market_excess_pct": 0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013999999999999998,
+      "log_total_return": 0.0013990209137073406
+    },
+    {
+      "date": "20250114",
+      "market_excess_pct": 0.17,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0019,
+      "log_total_return": 0.0018981972830802527
+    },
+    {
+      "date": "20250115",
+      "market_excess_pct": 1.91,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.019299999999999998,
+      "log_total_return": 0.01911611719223005
+    },
+    {
+      "date": "20250116",
+      "market_excess_pct": -0.19,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0017000000000000001,
+      "log_total_return": -0.0017014466397575357
+    },
+    {
+      "date": "20250117",
+      "market_excess_pct": 0.96,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0098,
+      "log_total_return": 0.00975229144267827
+    },
+    {
+      "date": "20250121",
+      "market_excess_pct": 0.96,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0098,
+      "log_total_return": 0.00975229144267827
+    },
+    {
+      "date": "20250122",
+      "market_excess_pct": 0.54,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005600000000000001,
+      "log_total_return": 0.005584378293900615
+    },
+    {
+      "date": "20250123",
+      "market_excess_pct": 0.48,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005,
+      "log_total_return": 0.004987541511039074
+    },
+    {
+      "date": "20250124",
+      "market_excess_pct": -0.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0025,
+      "log_total_return": -0.0025031302181185303
+    },
+    {
+      "date": "20250127",
+      "market_excess_pct": -1.49,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0147,
+      "log_total_return": -0.014809115653708179
+    },
+    {
+      "date": "20250128",
+      "market_excess_pct": 0.92,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0094,
+      "log_total_return": 0.009356094924024954
+    },
+    {
+      "date": "20250129",
+      "market_excess_pct": -0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004,
+      "log_total_return": -0.004008021397538818
+    },
+    {
+      "date": "20250130",
+      "market_excess_pct": 0.58,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006,
+      "log_total_return": 0.005982071677547464
+    },
+    {
+      "date": "20250131",
+      "market_excess_pct": -0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0051,
+      "log_total_return": -0.005113049386823021
+    },
+    {
+      "date": "20250203",
+      "market_excess_pct": -0.82,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.008,
+      "log_total_return": -0.00803217169726426
+    },
+    {
+      "date": "20250204",
+      "market_excess_pct": 0.77,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0079,
+      "log_total_return": 0.00786895837869518
+    },
+    {
+      "date": "20250205",
+      "market_excess_pct": 0.39,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0041,
+      "log_total_return": 0.004091617903253565
+    },
+    {
+      "date": "20250206",
+      "market_excess_pct": 0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0031,
+      "log_total_return": 0.0030952049073024192
+    },
+    {
+      "date": "20250207",
+      "market_excess_pct": -0.98,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0096,
+      "log_total_return": -0.009646377051805396
+    },
+    {
+      "date": "20250210",
+      "market_excess_pct": 0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0068000000000000005,
+      "log_total_return": 0.006776984279023752
+    },
+    {
+      "date": "20250211",
+      "market_excess_pct": -0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0012000000000000001,
+      "log_total_return": -0.0012007205765188983
+    },
+    {
+      "date": "20250212",
+      "market_excess_pct": -0.31,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0029,
+      "log_total_return": -0.002904213147389813
+    },
+    {
+      "date": "20250213",
+      "market_excess_pct": 1.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011200000000000002,
+      "log_total_return": 0.011137744410455926
+    },
+    {
+      "date": "20250214",
+      "market_excess_pct": 0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0004,
+      "log_total_return": 0.0003999200213269354
+    },
+    {
+      "date": "20250218",
+      "market_excess_pct": 0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0027,
+      "log_total_return": 0.0026963615477426086
+    },
+    {
+      "date": "20250219",
+      "market_excess_pct": 0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0011,
+      "log_total_return": 0.0010993954433009636
+    },
+    {
+      "date": "20250220",
+      "market_excess_pct": -0.61,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0059,
+      "log_total_return": -0.005917473764037606
+    },
+    {
+      "date": "20250221",
+      "market_excess_pct": -1.9,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.018799999999999997,
+      "log_total_return": -0.018978966597802814
+    },
+    {
+      "date": "20250224",
+      "market_excess_pct": -0.57,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0055,
+      "log_total_return": -0.0055151806881101615
+    },
+    {
+      "date": "20250225",
+      "market_excess_pct": -0.58,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005599999999999999,
+      "log_total_return": -0.005615738785635695
+    },
+    {
+      "date": "20250226",
+      "market_excess_pct": 0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0004,
+      "log_total_return": 0.0003999200213269354
+    },
+    {
+      "date": "20250227",
+      "market_excess_pct": -1.65,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0163,
+      "log_total_return": -0.01643430646342479
+    },
+    {
+      "date": "20250228",
+      "market_excess_pct": 1.59,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0161,
+      "log_total_return": 0.015971769509698662
+    },
+    {
+      "date": "20250303",
+      "market_excess_pct": -1.92,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.019,
+      "log_total_return": -0.01918281941677397
+    },
+    {
+      "date": "20250304",
+      "market_excess_pct": -1.27,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0125,
+      "log_total_return": -0.012578782206860118
+    },
+    {
+      "date": "20250305",
+      "market_excess_pct": 1.16,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0118,
+      "log_total_return": 0.011730922875698666
+    },
+    {
+      "date": "20250306",
+      "market_excess_pct": -1.92,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.019,
+      "log_total_return": -0.01918281941677397
+    },
+    {
+      "date": "20250307",
+      "market_excess_pct": 0.47,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0049,
+      "log_total_return": 0.004888034072775961
+    },
+    {
+      "date": "20250310",
+      "market_excess_pct": -2.9,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0288,
+      "log_total_return": -0.029222858676903236
+    },
+    {
+      "date": "20250311",
+      "market_excess_pct": -0.63,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0060999999999999995,
+      "log_total_return": -0.006118681008177182
+    },
+    {
+      "date": "20250312",
+      "market_excess_pct": 0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0053,
+      "log_total_return": 0.005286004429237356
+    },
+    {
+      "date": "20250313",
+      "market_excess_pct": -1.49,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0147,
+      "log_total_return": -0.014809115653708179
+    },
+    {
+      "date": "20250314",
+      "market_excess_pct": 2.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0223,
+      "log_total_return": 0.022054990780831327
+    },
+    {
+      "date": "20250317",
+      "market_excess_pct": 0.72,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0074,
+      "log_total_return": 0.007372754329413085
+    },
+    {
+      "date": "20250318",
+      "market_excess_pct": -1.13,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.011099999999999999,
+      "log_total_return": -0.011162064706191917
+    },
+    {
+      "date": "20250319",
+      "market_excess_pct": 1.2,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.012199999999999999,
+      "log_total_return": 0.012126179797840565
+    },
+    {
+      "date": "20250320",
+      "market_excess_pct": -0.24,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0022,
+      "log_total_return": -0.0022024235552000598
+    },
+    {
+      "date": "20250321",
+      "market_excess_pct": 0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.001,
+      "log_total_return": 0.0009995003330835331
+    },
+    {
+      "date": "20250324",
+      "market_excess_pct": 1.93,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0195,
+      "log_total_return": 0.01931231103237281
+    },
+    {
+      "date": "20250325",
+      "market_excess_pct": 0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013999999999999998,
+      "log_total_return": 0.0013990209137073406
+    },
+    {
+      "date": "20250326",
+      "market_excess_pct": -1.22,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.012,
+      "log_total_return": -0.012072581234269238
+    },
+    {
+      "date": "20250327",
+      "market_excess_pct": -0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004,
+      "log_total_return": -0.004008021397538818
+    },
+    {
+      "date": "20250328",
+      "market_excess_pct": -2.07,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.020499999999999997,
+      "log_total_return": -0.020713041597541604
+    },
+    {
+      "date": "20250331",
+      "market_excess_pct": 0.39,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0041,
+      "log_total_return": 0.004091617903253565
+    },
+    {
+      "date": "20250401",
+      "market_excess_pct": 0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004200000000000001,
+      "log_total_return": 0.0041912046184680715
+    },
+    {
+      "date": "20250402",
+      "market_excess_pct": 0.81,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0083,
+      "log_total_return": 0.008265744417032619
+    },
+    {
+      "date": "20250403",
+      "market_excess_pct": -5.13,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.051100000000000007,
+      "log_total_return": -0.05245186000242421
+    },
+    {
+      "date": "20250404",
+      "market_excess_pct": -5.92,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.059000000000000004,
+      "log_total_return": -0.06081213939675743
+    },
+    {
+      "date": "20250407",
+      "market_excess_pct": -0.23,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0021000000000000003,
+      "log_total_return": -0.002102208091870208
+    },
+    {
+      "date": "20250408",
+      "market_excess_pct": -1.67,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0165,
+      "log_total_return": -0.01663764115302329
+    },
+    {
+      "date": "20250409",
+      "market_excess_pct": 9.65,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0967,
+      "log_total_return": 0.09230567078402613
+    },
+    {
+      "date": "20250410",
+      "market_excess_pct": -3.54,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0352,
+      "log_total_return": -0.03583445300921606
+    },
+    {
+      "date": "20250411",
+      "market_excess_pct": 1.76,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0178,
+      "log_total_return": 0.017643435172595243
+    },
+    {
+      "date": "20250414",
+      "market_excess_pct": 0.79,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.008100000000000001,
+      "log_total_return": 0.008067371077758798
+    },
+    {
+      "date": "20250415",
+      "market_excess_pct": -0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0012000000000000001,
+      "log_total_return": -0.0012007205765188983
+    },
+    {
+      "date": "20250416",
+      "market_excess_pct": -2.22,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.022000000000000002,
+      "log_total_return": -0.02224560894731972
+    },
+    {
+      "date": "20250417",
+      "market_excess_pct": 0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0024,
+      "log_total_return": 0.0023971245997214934
+    },
+    {
+      "date": "20250421",
+      "market_excess_pct": -2.4,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.023799999999999998,
+      "log_total_return": -0.024087795529089937
+    },
+    {
+      "date": "20250422",
+      "market_excess_pct": 2.56,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0258,
+      "log_total_return": 0.025472795973031023
+    },
+    {
+      "date": "20250423",
+      "market_excess_pct": 1.75,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0177,
+      "log_total_return": 0.017545179215748816
+    },
+    {
+      "date": "20250424",
+      "market_excess_pct": 2.14,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0216,
+      "log_total_return": 0.021370025736192483
+    },
+    {
+      "date": "20250425",
+      "market_excess_pct": 0.64,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0066,
+      "log_total_return": 0.0065783153601225676
+    },
+    {
+      "date": "20250428",
+      "market_excess_pct": 0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.001,
+      "log_total_return": 0.0009995003330835331
+    },
+    {
+      "date": "20250429",
+      "market_excess_pct": 0.58,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006,
+      "log_total_return": 0.005982071677547464
+    },
+    {
+      "date": "20250430",
+      "market_excess_pct": 0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0005,
+      "log_total_return": 0.000499875041651048
+    },
+    {
+      "date": "20250501",
+      "market_excess_pct": 0.59,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0060999999999999995,
+      "log_total_return": 0.006081470315867959
+    },
+    {
+      "date": "20250502",
+      "market_excess_pct": 1.56,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0158,
+      "log_total_return": 0.01567647938500758
+    },
+    {
+      "date": "20250505",
+      "market_excess_pct": -0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0064,
+      "log_total_return": -0.006420567802922734
+    },
+    {
+      "date": "20250506",
+      "market_excess_pct": -0.81,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0079,
+      "log_total_return": -0.007931370326280263
+    },
+    {
+      "date": "20250507",
+      "market_excess_pct": 0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004200000000000001,
+      "log_total_return": 0.0041912046184680715
+    },
+    {
+      "date": "20250508",
+      "market_excess_pct": 0.74,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0076,
+      "log_total_return": 0.007571265496318075
+    },
+    {
+      "date": "20250509",
+      "market_excess_pct": -0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006999999999999999,
+      "log_total_return": -0.0007002451143933918
+    },
+    {
+      "date": "20250512",
+      "market_excess_pct": 3.36,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0338,
+      "log_total_return": 0.03324133377980188
+    },
+    {
+      "date": "20250513",
+      "market_excess_pct": 0.79,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.008100000000000001,
+      "log_total_return": 0.008067371077758798
+    },
+    {
+      "date": "20250514",
+      "market_excess_pct": 0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.001,
+      "log_total_return": 0.0009995003330835331
+    },
+    {
+      "date": "20250515",
+      "market_excess_pct": 0.3,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0032,
+      "log_total_return": 0.0031948908965191976
+    },
+    {
+      "date": "20250516",
+      "market_excess_pct": 0.74,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0076,
+      "log_total_return": 0.007571265496318075
+    },
+    {
+      "date": "20250519",
+      "market_excess_pct": 0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0003,
+      "log_total_return": 0.00029995500899797546
+    },
+    {
+      "date": "20250520",
+      "market_excess_pct": -0.37,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0034999999999999996,
+      "log_total_return": -0.003506139329287642
+    },
+    {
+      "date": "20250521",
+      "market_excess_pct": -1.73,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0171,
+      "log_total_return": -0.017247893409553388
+    },
+    {
+      "date": "20250522",
+      "market_excess_pct": -0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0001,
+      "log_total_return": 9.999500033330834e-05
+    },
+    {
+      "date": "20250523",
+      "market_excess_pct": -0.67,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.006500000000000001,
+      "log_total_return": -0.0065212169902655135
+    },
+    {
+      "date": "20250527",
+      "market_excess_pct": 2.07,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0209,
+      "log_total_return": 0.020684591192832683
+    },
+    {
+      "date": "20250528",
+      "market_excess_pct": -0.62,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.006,
+      "log_total_return": -0.006018072325563016
+    },
+    {
+      "date": "20250529",
+      "market_excess_pct": 0.33,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0035000000000000005,
+      "log_total_return": 0.00349388925425578
+    },
+    {
+      "date": "20250530",
+      "market_excess_pct": -0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0,
+      "log_total_return": 0.0
+    },
+    {
+      "date": "20250602",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20250603",
+      "market_excess_pct": 0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0068000000000000005,
+      "log_total_return": 0.006776984279023752
+    },
+    {
+      "date": "20250604",
+      "market_excess_pct": -0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0,
+      "log_total_return": 0.0
+    },
+    {
+      "date": "20250605",
+      "market_excess_pct": -0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0049,
+      "log_total_return": -0.004912044361020626
+    },
+    {
+      "date": "20250606",
+      "market_excess_pct": 1.07,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0109,
+      "log_total_return": 0.010841023177874857
+    },
+    {
+      "date": "20250609",
+      "market_excess_pct": 0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013,
+      "log_total_return": 0.0012991557316200499
+    },
+    {
+      "date": "20250610",
+      "market_excess_pct": 0.5,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0052,
+      "log_total_return": 0.005186526687300061
+    },
+    {
+      "date": "20250611",
+      "market_excess_pct": -0.32,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.003,
+      "log_total_return": -0.0030045090202987217
+    },
+    {
+      "date": "20250612",
+      "market_excess_pct": 0.3,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0032,
+      "log_total_return": 0.0031948908965191976
+    },
+    {
+      "date": "20250613",
+      "market_excess_pct": -1.15,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0113,
+      "log_total_return": -0.011364330079049781
+    },
+    {
+      "date": "20250616",
+      "market_excess_pct": 0.97,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009899999999999999,
+      "log_total_return": 0.009851316050374181
+    },
+    {
+      "date": "20250617",
+      "market_excess_pct": -0.88,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0086,
+      "log_total_return": -0.008637193395663536
+    },
+    {
+      "date": "20250618",
+      "market_excess_pct": 0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0005,
+      "log_total_return": 0.000499875041651048
+    },
+    {
+      "date": "20250620",
+      "market_excess_pct": -0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.002,
+      "log_total_return": -0.0020020026706730775
+    },
+    {
+      "date": "20250623",
+      "market_excess_pct": 0.93,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009500000000000001,
+      "log_total_return": 0.009455158770755135
+    },
+    {
+      "date": "20250624",
+      "market_excess_pct": 1.17,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011899999999999999,
+      "log_total_return": 0.011829751753577198
+    },
+    {
+      "date": "20250625",
+      "market_excess_pct": -0.07,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0005,
+      "log_total_return": -0.0005001250416822979
+    },
+    {
+      "date": "20250626",
+      "market_excess_pct": 0.88,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009000000000000001,
+      "log_total_return": 0.008959741371471904
+    },
+    {
+      "date": "20250627",
+      "market_excess_pct": 0.46,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0048000000000000004,
+      "log_total_return": 0.004788516731797179
+    },
+    {
+      "date": "20250630",
+      "market_excess_pct": 0.49,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0051,
+      "log_total_return": 0.005087039048557106
+    },
+    {
+      "date": "20250701",
+      "market_excess_pct": -0.1,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0008,
+      "log_total_return": -0.0008003201707691323
+    },
+    {
+      "date": "20250702",
+      "market_excess_pct": 0.56,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0058000000000000005,
+      "log_total_return": 0.005783244755727334
+    },
+    {
+      "date": "20250703",
+      "market_excess_pct": 0.88,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.009000000000000001,
+      "log_total_return": 0.008959741371471904
+    },
+    {
+      "date": "20250707",
+      "market_excess_pct": -0.84,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.008199999999999999,
+      "log_total_return": -0.008233804927103556
+    },
+    {
+      "date": "20250708",
+      "market_excess_pct": -0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006,
+      "log_total_return": -0.0006001800720324156
+    },
+    {
+      "date": "20250709",
+      "market_excess_pct": 0.63,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.006500000000000001,
+      "log_total_return": 0.006478966097709124
+    },
+    {
+      "date": "20250710",
+      "market_excess_pct": 0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0027,
+      "log_total_return": 0.0026963615477426086
+    },
+    {
+      "date": "20250711",
+      "market_excess_pct": -0.44,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0042,
+      "log_total_return": -0.0042088447740547
+    },
+    {
+      "date": "20250714",
+      "market_excess_pct": 0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0023,
+      "log_total_return": 0.0022973590486834897
+    },
+    {
+      "date": "20250715",
+      "market_excess_pct": -0.52,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005,
+      "log_total_return": -0.005012541823544282
+    },
+    {
+      "date": "20250716",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20250717",
+      "market_excess_pct": 0.59,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0060999999999999995,
+      "log_total_return": 0.006081470315867959
+    },
+    {
+      "date": "20250718",
+      "market_excess_pct": -0.02,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0,
+      "log_total_return": 0.0
+    },
+    {
+      "date": "20250721",
+      "market_excess_pct": 0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0007000000000000001,
+      "log_total_return": 0.0006997551142733421
+    },
+    {
+      "date": "20250722",
+      "market_excess_pct": 0.08,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.001,
+      "log_total_return": 0.0009995003330835331
+    },
+    {
+      "date": "20250723",
+      "market_excess_pct": 0.77,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0079,
+      "log_total_return": 0.00786895837869518
+    },
+    {
+      "date": "20250724",
+      "market_excess_pct": -0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": -9.999999999999999e-05,
+      "log_total_return": -0.00010000500033335833
+    },
+    {
+      "date": "20250725",
+      "market_excess_pct": 0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004200000000000001,
+      "log_total_return": 0.0041912046184680715
+    },
+    {
+      "date": "20250728",
+      "market_excess_pct": 0.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0006,
+      "log_total_return": 0.0005998200719676155
+    },
+    {
+      "date": "20250729",
+      "market_excess_pct": -0.37,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0034999999999999996,
+      "log_total_return": -0.003506139329287642
+    },
+    {
+      "date": "20250730",
+      "market_excess_pct": -0.11,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0009,
+      "log_total_return": -0.0009004052431641432
+    },
+    {
+      "date": "20250731",
+      "market_excess_pct": -0.34,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0032,
+      "log_total_return": -0.0032051309489483553
+    },
+    {
+      "date": "20250801",
+      "market_excess_pct": -1.74,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0172,
+      "log_total_return": -0.017349638335113
+    },
+    {
+      "date": "20250804",
+      "market_excess_pct": 1.53,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0155,
+      "log_total_return": 0.015381102038302324
+    },
+    {
+      "date": "20250805",
+      "market_excess_pct": -0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.004,
+      "log_total_return": -0.004008021397538818
+    },
+    {
+      "date": "20250806",
+      "market_excess_pct": 0.71,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0073,
+      "log_total_return": 0.007273483966498386
+    },
+    {
+      "date": "20250807",
+      "market_excess_pct": -0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0012000000000000001,
+      "log_total_return": -0.0012007205765188983
+    },
+    {
+      "date": "20250808",
+      "market_excess_pct": 0.69,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0070999999999999995,
+      "log_total_return": 0.007074913671961879
+    },
+    {
+      "date": "20250811",
+      "market_excess_pct": -0.24,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0022,
+      "log_total_return": -0.0022024235552000598
+    },
+    {
+      "date": "20250812",
+      "market_excess_pct": 1.25,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0127,
+      "log_total_return": 0.012620031356102264
+    },
+    {
+      "date": "20250813",
+      "market_excess_pct": 0.39,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0041,
+      "log_total_return": 0.004091617903253565
+    },
+    {
+      "date": "20250814",
+      "market_excess_pct": -0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006999999999999999,
+      "log_total_return": -0.0007002451143933918
+    },
+    {
+      "date": "20250815",
+      "market_excess_pct": -0.28,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0026,
+      "log_total_return": -0.002603385870114881
+    },
+    {
+      "date": "20250818",
+      "market_excess_pct": 0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0005,
+      "log_total_return": 0.000499875041651048
+    },
+    {
+      "date": "20250819",
+      "market_excess_pct": -0.7,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0068,
+      "log_total_return": -0.006823225348125508
+    },
+    {
+      "date": "20250820",
+      "market_excess_pct": -0.28,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0026,
+      "log_total_return": -0.002603385870114881
+    },
+    {
+      "date": "20250821",
+      "market_excess_pct": -0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0036,
+      "log_total_return": -0.0036064955941116964
+    },
+    {
+      "date": "20250822",
+      "market_excess_pct": 1.7,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0172,
+      "log_total_return": 0.01705375456582752
+    },
+    {
+      "date": "20250825",
+      "market_excess_pct": -0.48,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0046,
+      "log_total_return": -0.004610612557683245
+    },
+    {
+      "date": "20250826",
+      "market_excess_pct": 0.43,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0045000000000000005,
+      "log_total_return": 0.004489905272852053
+    },
+    {
+      "date": "20250827",
+      "market_excess_pct": 0.24,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0026,
+      "log_total_return": 0.0025966258472659783
+    },
+    {
+      "date": "20250828",
+      "market_excess_pct": 0.35,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0037,
+      "log_total_return": 0.0036931718376175702
+    },
+    {
+      "date": "20250829",
+      "market_excess_pct": -0.68,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0066,
+      "log_total_return": -0.006621876308886919
+    },
+    {
+      "date": "20250902",
+      "market_excess_pct": -0.61,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0059,
+      "log_total_return": -0.005917473764037606
+    },
+    {
+      "date": "20250903",
+      "market_excess_pct": 0.44,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0046,
+      "log_total_return": 0.0045894523338072864
+    },
+    {
+      "date": "20250904",
+      "market_excess_pct": 0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0089,
+      "log_total_return": 0.008860628432196559
+    },
+    {
+      "date": "20250905",
+      "market_excess_pct": -0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.002,
+      "log_total_return": -0.0020020026706730775
+    },
+    {
+      "date": "20250908",
+      "market_excess_pct": 0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0028000000000000004,
+      "log_total_return": 0.0027960873020012743
+    },
+    {
+      "date": "20250909",
+      "market_excess_pct": 0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0023,
+      "log_total_return": 0.0022973590486834897
+    },
+    {
+      "date": "20250910",
+      "market_excess_pct": 0.36,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0038,
+      "log_total_return": 0.003792798238696237
+    },
+    {
+      "date": "20250911",
+      "market_excess_pct": 0.87,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0089,
+      "log_total_return": 0.008860628432196559
+    },
+    {
+      "date": "20250912",
+      "market_excess_pct": -0.16,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0014000000000000002,
+      "log_total_return": -0.0014009809156281436
+    },
+    {
+      "date": "20250915",
+      "market_excess_pct": 0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0053,
+      "log_total_return": 0.005286004429237356
+    },
+    {
+      "date": "20250916",
+      "market_excess_pct": -0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006999999999999999,
+      "log_total_return": -0.0007002451143933918
+    },
+    {
+      "date": "20250917",
+      "market_excess_pct": -0.1,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0008,
+      "log_total_return": -0.0008003201707691323
+    },
+    {
+      "date": "20250918",
+      "market_excess_pct": 0.61,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0063,
+      "log_total_return": 0.006280237957150484
+    },
+    {
+      "date": "20250919",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20250922",
+      "market_excess_pct": 0.43,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0045000000000000005,
+      "log_total_return": 0.004489905272852053
+    },
+    {
+      "date": "20250923",
+      "market_excess_pct": -0.61,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0059,
+      "log_total_return": -0.005917473764037606
+    },
+    {
+      "date": "20250924",
+      "market_excess_pct": -0.34,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0032,
+      "log_total_return": -0.0032051309489483553
+    },
+    {
+      "date": "20250925",
+      "market_excess_pct": -0.58,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.005599999999999999,
+      "log_total_return": -0.005615738785635695
+    },
+    {
+      "date": "20250926",
+      "market_excess_pct": 0.6,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0062,
+      "log_total_return": 0.006180859075081115
+    },
+    {
+      "date": "20250929",
+      "market_excess_pct": 0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0027,
+      "log_total_return": 0.0026963615477426086
+    },
+    {
+      "date": "20250930",
+      "market_excess_pct": 0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0031,
+      "log_total_return": 0.0030952049073024192
+    },
+    {
+      "date": "20251001",
+      "market_excess_pct": 0.33,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0035000000000000005,
+      "log_total_return": 0.00349388925425578
+    },
+    {
+      "date": "20251002",
+      "market_excess_pct": 0.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0012000000000000001,
+      "log_total_return": 0.0011992805754820971
+    },
+    {
+      "date": "20251003",
+      "market_excess_pct": 0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0005,
+      "log_total_return": 0.000499875041651048
+    },
+    {
+      "date": "20251006",
+      "market_excess_pct": 0.39,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0041,
+      "log_total_return": 0.004091617903253565
+    },
+    {
+      "date": "20251007",
+      "market_excess_pct": -0.51,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0049,
+      "log_total_return": -0.004912044361020626
+    },
+    {
+      "date": "20251008",
+      "market_excess_pct": 0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0068000000000000005,
+      "log_total_return": 0.006776984279023752
+    },
+    {
+      "date": "20251009",
+      "market_excess_pct": -0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0026999999999999997,
+      "log_total_return": -0.002703651574314787
+    },
+    {
+      "date": "20251010",
+      "market_excess_pct": -2.78,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0276,
+      "log_total_return": -0.027988036540168754
+    },
+    {
+      "date": "20251013",
+      "market_excess_pct": 1.64,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0166,
+      "log_total_return": 0.016463726030665083
+    },
+    {
+      "date": "20251014",
+      "market_excess_pct": -0.06,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00039999999999999996,
+      "log_total_return": -0.00040008002133973535
+    },
+    {
+      "date": "20251015",
+      "market_excess_pct": 0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0044,
+      "log_total_return": 0.004390348301292895
+    },
+    {
+      "date": "20251016",
+      "market_excess_pct": -0.73,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0070999999999999995,
+      "log_total_return": -0.007125324942588631
+    },
+    {
+      "date": "20251017",
+      "market_excess_pct": 0.38,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004,
+      "log_total_return": 0.003992021269537453
+    },
+    {
+      "date": "20251020",
+      "market_excess_pct": 1.1,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.011200000000000002,
+      "log_total_return": 0.011137744410455926
+    },
+    {
+      "date": "20251021",
+      "market_excess_pct": -0.01,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0001,
+      "log_total_return": 9.999500033330834e-05
+    },
+    {
+      "date": "20251022",
+      "market_excess_pct": -0.67,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.006500000000000001,
+      "log_total_return": -0.0065212169902655135
+    },
+    {
+      "date": "20251023",
+      "market_excess_pct": 0.66,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0068000000000000005,
+      "log_total_return": 0.006776984279023752
+    },
+    {
+      "date": "20251024",
+      "market_excess_pct": 0.79,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.008100000000000001,
+      "log_total_return": 0.008067371077758798
+    },
+    {
+      "date": "20251027",
+      "market_excess_pct": 1.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.012,
+      "log_total_return": 0.011928570865273802
+    },
+    {
+      "date": "20251028",
+      "market_excess_pct": 0.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.002,
+      "log_total_return": 0.001998002662673056
+    },
+    {
+      "date": "20251029",
+      "market_excess_pct": -0.09,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0006999999999999999,
+      "log_total_return": -0.0007002451143933918
+    },
+    {
+      "date": "20251030",
+      "market_excess_pct": -1.1,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0108,
+      "log_total_return": -0.010858743334875914
+    },
+    {
+      "date": "20251031",
+      "market_excess_pct": 0.4,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.004200000000000001,
+      "log_total_return": 0.0041912046184680715
+    },
+    {
+      "date": "20251103",
+      "market_excess_pct": 0.12,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0013999999999999998,
+      "log_total_return": 0.0013990209137073406
+    },
+    {
+      "date": "20251104",
+      "market_excess_pct": -1.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0124,
+      "log_total_return": -0.012477521511112612
+    },
+    {
+      "date": "20251105",
+      "market_excess_pct": 0.42,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0044,
+      "log_total_return": 0.004390348301292895
+    },
+    {
+      "date": "20251106",
+      "market_excess_pct": -1.21,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.011899999999999999,
+      "log_total_return": -0.011971371781219936
+    },
+    {
+      "date": "20251107",
+      "market_excess_pct": 0.13,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0015,
+      "log_total_return": 0.0014988761237358919
+    },
+    {
+      "date": "20251110",
+      "market_excess_pct": 1.51,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.015300000000000001,
+      "log_total_return": 0.015184135325039967
+    },
+    {
+      "date": "20251111",
+      "market_excess_pct": 0.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.002,
+      "log_total_return": 0.001998002662673056
+    },
+    {
+      "date": "20251112",
+      "market_excess_pct": 0.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0005,
+      "log_total_return": 0.000499875041651048
+    },
+    {
+      "date": "20251113",
+      "market_excess_pct": -1.79,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0177,
+      "log_total_return": -0.017858518301313145
+    },
+    {
+      "date": "20251114",
+      "market_excess_pct": -0.05,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00030000000000000003,
+      "log_total_return": -0.0003000450090020255
+    },
+    {
+      "date": "20251117",
+      "market_excess_pct": -1.03,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0101,
+      "log_total_return": -0.010151351056375357
+    },
+    {
+      "date": "20251118",
+      "market_excess_pct": -0.76,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0074,
+      "log_total_return": -0.0074275158287966225
+    },
+    {
+      "date": "20251119",
+      "market_excess_pct": 0.34,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0036000000000000003,
+      "log_total_return": 0.003593535510130171
+    },
+    {
+      "date": "20251120",
+      "market_excess_pct": -1.58,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.015600000000000001,
+      "log_total_return": -0.015722960465236253
+    },
+    {
+      "date": "20251121",
+      "market_excess_pct": 1.03,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0105,
+      "log_total_return": 0.01044525786153865
+    },
+    {
+      "date": "20251124",
+      "market_excess_pct": 1.61,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.016300000000000002,
+      "log_total_return": 0.01616858116158371
+    },
+    {
+      "date": "20251125",
+      "market_excess_pct": 1.04,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0106,
+      "log_total_return": 0.010544213875671154
+    },
+    {
+      "date": "20251126",
+      "market_excess_pct": 0.69,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0070999999999999995,
+      "log_total_return": 0.007074913671961879
+    },
+    {
+      "date": "20251128",
+      "market_excess_pct": 0.54,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.005600000000000001,
+      "log_total_return": 0.005584378293900615
+    },
+    {
+      "date": "20251201",
+      "market_excess_pct": -0.53,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0051,
+      "log_total_return": -0.005113049386823021
+    },
+    {
+      "date": "20251202",
+      "market_excess_pct": 0.21,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0023,
+      "log_total_return": 0.0022973590486834897
+    },
+    {
+      "date": "20251203",
+      "market_excess_pct": 0.44,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0046,
+      "log_total_return": 0.0045894523338072864
+    },
+    {
+      "date": "20251204",
+      "market_excess_pct": 0.14,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0016,
+      "log_total_return": 0.0015987213636970278
+    },
+    {
+      "date": "20251205",
+      "market_excess_pct": 0.18,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.002,
+      "log_total_return": 0.001998002662673056
+    },
+    {
+      "date": "20251208",
+      "market_excess_pct": -0.37,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0034999999999999996,
+      "log_total_return": -0.003506139329287642
+    },
+    {
+      "date": "20251209",
+      "market_excess_pct": -0.07,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0005,
+      "log_total_return": -0.0005001250416822979
+    },
+    {
+      "date": "20251210",
+      "market_excess_pct": 0.68,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.007000000000000001,
+      "log_total_return": 0.006975613736425243
+    },
+    {
+      "date": "20251211",
+      "market_excess_pct": 0.22,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0024,
+      "log_total_return": 0.0023971245997214934
+    },
+    {
+      "date": "20251212",
+      "market_excess_pct": -1.11,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0109,
+      "log_total_return": -0.010959840236341991
+    },
+    {
+      "date": "20251215",
+      "market_excess_pct": -0.26,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0024000000000000002,
+      "log_total_return": -0.0024028846163103574
+    },
+    {
+      "date": "20251216",
+      "market_excess_pct": -0.25,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0023,
+      "log_total_return": -0.002302649062675589
+    },
+    {
+      "date": "20251217",
+      "market_excess_pct": -1.16,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.011399999999999999,
+      "log_total_return": -0.01146547810927813
+    },
+    {
+      "date": "20251218",
+      "market_excess_pct": 0.8,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0082,
+      "log_total_return": 0.008166562666393417
+    },
+    {
+      "date": "20251219",
+      "market_excess_pct": 0.9,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0092,
+      "log_total_return": 0.009157937784765629
+    },
+    {
+      "date": "20251222",
+      "market_excess_pct": 0.69,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0070999999999999995,
+      "log_total_return": 0.007074913671961879
+    },
+    {
+      "date": "20251223",
+      "market_excess_pct": 0.32,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0034000000000000002,
+      "log_total_return": 0.003394233068015548
+    },
+    {
+      "date": "20251224",
+      "market_excess_pct": 0.29,
+      "rf_pct": 0.02,
+      "simple_total_return": 0.0031,
+      "log_total_return": 0.0030952049073024192
+    },
+    {
+      "date": "20251226",
+      "market_excess_pct": -0.06,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.00039999999999999996,
+      "log_total_return": -0.00040008002133973535
+    },
+    {
+      "date": "20251229",
+      "market_excess_pct": -0.41,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0038999999999999994,
+      "log_total_return": -0.003907624831017061
+    },
+    {
+      "date": "20251230",
+      "market_excess_pct": -0.2,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0018000000000000002,
+      "log_total_return": -0.0018016219466281851
+    },
+    {
+      "date": "20251231",
+      "market_excess_pct": -0.76,
+      "rf_pct": 0.02,
+      "simple_total_return": -0.0074,
+      "log_total_return": -0.0074275158287966225
+    }
+  ],
+  "first_date": "20230811",
+  "last_date": "20251231",
+  "acf_total": [
+    -0.03870765525148535,
+    0.06872357594994113,
+    -0.09762665906232335,
+    -0.07021339751393194,
+    -0.011931967556349564,
+    0.021623179242733014,
+    -0.02616749073228692,
+    0.01904548171395768,
+    -0.02199402511501851,
+    0.026121778180161048
+  ],
+  "acf_abs_total": [
+    0.20788588409231404,
+    0.08079814085570279,
+    0.21528263701024963,
+    0.21657422950741093,
+    0.16432738626311835,
+    0.08051437320906152,
+    0.09760868714428045,
+    0.1790650180256163,
+    0.07266553539856095,
+    0.10532344990958317
+  ],
+  "zero_return_count": 6,
+  "count": 600
+}

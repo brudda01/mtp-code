@@ -1,0 +1,11 @@
+{
+  "status": "inventory_only_no_execution_or_resume_implemented",
+  "pending_decisions": [],
+  "new_two_reflection_blocks": [],
+  "existing_pre_news_diaries_to_retain": [],
+  "planned_remaining_normal_calls": 0,
+  "prior_summary_sha256": "d4d92fea469047c99f5d15746b7f81018c4975b11d26e18299435c4af2fc0734",
+  "remaining_request_cap": 125,
+  "remaining_reservation_cap": 2183124,
+  "note": "Inventory for a future explicit linked continuation, not an automatic restart. Retain all prior usage/failed calls/completed choices, same frozen inputs/model and the existing diary. Do not rerun successful cells or pool another model's replies."
+}

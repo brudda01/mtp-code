@@ -1,0 +1,2813 @@
+{
+  "analysis_kind": "Descriptive Qwen qualification completed via explicitly linked continuation",
+  "analysis_source_sha256": "e500dea246d5094f570ebe6e451edc04865e9536b7da58ef14570d82f4dd79bb",
+  "original_battery_sha256": "86c76fa1e64e1d05fa78170b371bb1a0882c0f158e2328dedb4fd52692d5a4f5",
+  "completed_checks": 42,
+  "planned_checks": 42,
+  "settings": [
+    {
+      "provider": "openai_compatible",
+      "configured_model": "qwen-3.8-27b",
+      "condition": "A",
+      "temperature": 0.3,
+      "reflect_every": 0,
+      "memory_window": 10,
+      "max_tokens": 4096,
+      "timeout_seconds": 180.0,
+      "reasoning_effort": "low",
+      "send_temperature": true,
+      "input_usd_per_million": 0.0,
+      "output_usd_per_million": 0.0
+    }
+  ],
+  "prompt_suite_version": "comparable_agents_v2_disclosed_rules",
+  "parent_run": "20261102_055044_capability_qwen_65a10623",
+  "continuation_run": "20261102_183644_capability_qwen_2d10464c",
+  "parent_audit": {
+    "run_id": "20261102_055044_capability_qwen_65a10623",
+    "status": "provider_error",
+    "battery_sha256": "86c76fa1e64e1d05fa78170b371bb1a0882c0f158e2328dedb4fd52692d5a4f5",
+    "configured_model": "qwen-3.8-27b",
+    "actual_models": [
+      "qwen-3.8-27b",
+      "unknown"
+    ],
+    "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+    "prompt_suite_version": "comparable_agents_v2_disclosed_rules",
+    "source_sha256": {
+      "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+      "sim/agents/llm_agent.py": "49337c030bb19d7c2e6439fe3c899625bf08eb92537a16a762c9a43ef0b9b6f1",
+      "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+      "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+      "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+      "sim/capability_check.py": "d720f369a5181e1dd047e61f80ade615c8f08ac8568b0b64d08e9639775e1810",
+      "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+      "sim/engine.py": "11642c2f2b0925b7a3e0eb6b7637ff07c4e8e71502d60268e02b3b173e7b210a",
+      "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/llm/client.py": "a75e79fb6ed1b7f5fe6c57740b05faed792a6058b46af8046b92777164c822fe",
+      "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+      "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+      "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+      "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+      "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+      "sim/provenance.py": "c18b001111b4427df8d25415849b05e7e7745062c21d8b3e59dd1109af440d37"
+    },
+    "manifest_sha256": "191df68c77be9ba37ff29759381f3310b74277175fd09fe382ba4c99b6d5cda5",
+    "settings": [
+      {
+        "provider": "openai_compatible",
+        "configured_model": "qwen-3.8-27b",
+        "condition": "A",
+        "temperature": 0.3,
+        "reflect_every": 0,
+        "memory_window": 10,
+        "max_tokens": 4096,
+        "timeout_seconds": 180.0,
+        "reasoning_effort": "low",
+        "send_temperature": true,
+        "input_usd_per_million": 0.0,
+        "output_usd_per_million": 0.0
+      }
+    ],
+    "completed_checks": 34,
+    "planned_checks": 42,
+    "objective_all_fields_correct": 11,
+    "objective_checks": 11,
+    "objective_fields_correct": 51,
+    "objective_fields": 51,
+    "valid_order_checks": 23,
+    "order_checks": 23,
+    "reservation_compliant_orders": 23,
+    "repaired_order_checks": 0,
+    "provider_request_errors": 1,
+    "mean_provider_seconds": 161.7006656371423,
+    "reported_reasoning_tokens": 0,
+    "reasoning_detail_calls": 0,
+    "usage": {
+      "requests_made": 35,
+      "max_requests": 54,
+      "reserved_tokens": 235939,
+      "max_reserved_tokens": 400000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 40825,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 1,
+      "failed_requests": 1,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": true,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "cases": {
+      "empty_A": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "empty_A",
+            "repetition": 1,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "empty_A:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before deploying into this undervalued stock.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "empty_A:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before deploying into this undervalued stock.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "empty_A",
+            "repetition": 2,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "empty_A:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have no cash and no shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "empty_A:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have no cash and no shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "empty_A",
+            "repetition": 3,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "empty_A:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "empty_A:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "tight_cash_A": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "tight_cash_A",
+            "repetition": 1,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "tight_cash_A:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock is undervalued at 75 versus 90 fair value, but my cash of 75.1 can't cover the reservation cost for even one share at any realistic limit price near the current level. I'll wait for a pullback or accumulate more cash before entering.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "tight_cash_A:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock is undervalued at 75 versus 90 fair value, but my cash of 75.1 can't cover the reservation cost for even one share at any realistic limit price near the current level. I'll wait for a pullback or accumulate more cash before entering.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "tight_cash_A",
+            "repetition": 2,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "tight_cash_A:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock is undervalued at 75 vs 90 fair value, but my cash of 75.1 can't cover the conservative reservation for even one share at the current clearing price. I'll wait for a price dip or accumulate more cash before entering.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "tight_cash_A:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock is undervalued at 75 vs 90 fair value, but my cash of 75.1 can't cover the conservative reservation for even one share at the current clearing price. I'll wait for a price dip or accumulate more cash before entering.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "empty_B": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "empty_B",
+            "repetition": 1,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "empty_B:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have no cash and no shares, so there's nothing I can do this round. The stock looks undervalued at 75 vs 90 fair value, but I need capital to act on it.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "empty_B:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have no cash and no shares, so there's nothing I can do this round. The stock looks undervalued at 75 vs 90 fair value, but I need capital to act on it.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "empty_B",
+            "repetition": 3,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "empty_B:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have zero cash and zero shares, so there's nothing to trade. I'll wait until I have capital to deploy toward what looks like a 16.7% undervaluation.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "empty_B:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have zero cash and zero shares, so there's nothing to trade. I'll wait until I have capital to deploy toward what looks like a 16.7% undervaluation.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "tight_cash_B": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "tight_cash_B",
+            "repetition": 1,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "tight_cash_B:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock is trading at a 16.7% discount to fair value, which is attractive, but my cash of 75.1 can't cover even one share at current prices after the conservative reservation. I'll wait for a pullback or accumulate more capital before entering.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "tight_cash_B:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock is trading at a 16.7% discount to fair value, which is attractive, but my cash of 75.1 can't cover even one share at current prices after the conservative reservation. I'll wait for a pullback or accumulate more capital before entering.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "control": {
+        "kind": "order",
+        "family": "news",
+        "repetitions": [
+          {
+            "case_id": "control",
+            "repetition": 1,
+            "kind": "order",
+            "family": "news",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "control:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price has been flat at 75.0 for seven straight rounds with no trend or volatility to exploit; my 50/50 stock-to-cash allocation is already balanced for my medium risk tolerance, so I'll wait for a signal before acting.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "control:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price has been flat at 75.0 for seven straight rounds with no trend or volatility to exploit; my 50/50 stock-to-cash allocation is already balanced for my medium risk tolerance, so I'll wait for a signal before acting.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "control",
+            "repetition": 2,
+            "kind": "order",
+            "family": "news",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "control:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock has been flat at 75 for seven straight rounds with no clear directional signal, and I'm at breakeven on my position. I'll wait for a price move or volume shift before deploying my cash or trimming shares.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "control:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock has been flat at 75 for seven straight rounds with no clear directional signal, and I'm at breakeven on my position. I'll wait for a price move or volume shift before deploying my cash or trimming shares.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "control",
+            "repetition": 3,
+            "kind": "order",
+            "family": "news",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "control:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Stock has been flat at 75.0 for seven rounds with no momentum or signal; my 50/50 cash-to-shares allocation is well-balanced for my medium risk tolerance, so I'll stay put and let the dividends accumulate.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "control:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Stock has been flat at 75.0 for seven rounds with no momentum or signal; my 50/50 cash-to-shares allocation is well-balanced for my medium risk tolerance, so I'll stay put and let the dividends accumulate.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "headline": {
+        "kind": "order",
+        "family": "news",
+        "repetitions": [
+          {
+            "case_id": "headline",
+            "repetition": 1,
+            "kind": "order",
+            "family": "news",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "headline:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The dividend increase report is unverified and the absolute impact would be minimal (0.03 to 0.0375 per share). With the stock flat at 75 for seven rounds and no confirmed catalyst, I'll wait for verification before adding to my position.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "headline:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The dividend increase report is unverified and the absolute impact would be minimal (0.03 to 0.0375 per share). With the stock flat at 75 for seven rounds and no confirmed catalyst, I'll wait for verification before adding to my position.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "headline",
+            "repetition": 2,
+            "kind": "order",
+            "family": "news",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "headline:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The dividend increase report is unverified and the stock has been flat at 75 for seven rounds with no momentum; I'll wait for confirmation before adjusting my balanced position.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "headline:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The dividend increase report is unverified and the stock has been flat at 75 for seven rounds with no momentum; I'll wait for confirmation before adjusting my balanced position.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "risk_low": {
+        "kind": "order",
+        "family": "risk_trait",
+        "repetitions": [
+          {
+            "case_id": "risk_low",
+            "repetition": 1,
+            "kind": "order",
+            "family": "risk_trait",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "risk_low:r1",
+              "side": "sell",
+              "quantity": 20,
+              "limit_price": 80.0,
+              "round": 7,
+              "reasoning": "Seven consecutive up rounds have pushed my average cost well below market; trimming 20 shares locks in modest gains while keeping my core position intact for the medium-term horizon.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "risk_low:r1",
+              "side": "sell",
+              "quantity": 20,
+              "limit_price": 80.0,
+              "round": 7,
+              "reasoning": "Seven consecutive up rounds have pushed my average cost well below market; trimming 20 shares locks in modest gains while keeping my core position intact for the medium-term horizon.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "risk_low",
+            "repetition": 2,
+            "kind": "order",
+            "family": "risk_trait",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "risk_low:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock has risen steadily for seven rounds and I'm already well-positioned with 120 shares at a 5-point unrealized gain. With my low risk tolerance, I'll let the position ride rather than chase the uptrend or prematurely exit.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "risk_low:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock has risen steadily for seven rounds and I'm already well-positioned with 120 shares at a 5-point unrealized gain. With my low risk tolerance, I'll let the position ride rather than chase the uptrend or prematurely exit.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "risk_low",
+            "repetition": 3,
+            "kind": "order",
+            "family": "risk_trait",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "risk_low:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock has risen seven consecutive rounds and I already hold a balanced position with roughly half in cash. With my low risk tolerance, I'll avoid chasing the uptrend or selling into strength.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "risk_low:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "The stock has risen seven consecutive rounds and I already hold a balanced position with roughly half in cash. With my low risk tolerance, I'll avoid chasing the uptrend or selling into strength.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "risk_high": {
+        "kind": "order",
+        "family": "risk_trait",
+        "repetitions": [
+          {
+            "case_id": "risk_high",
+            "repetition": 1,
+            "kind": "order",
+            "family": "risk_trait",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "risk_high:r1",
+              "side": "buy",
+              "quantity": 50,
+              "limit_price": 81.0,
+              "round": 7,
+              "reasoning": "The stock has a rock-solid +1 uptrend for 7 straight rounds and I still have 9000 in cash sitting idle. Adding 50 shares at a modest 81 limit keeps me positioned for continuation while leaving dry powder for a potential pullback.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "risk_high:r1",
+              "side": "buy",
+              "quantity": 50,
+              "limit_price": 81.0,
+              "round": 7,
+              "reasoning": "The stock has a rock-solid +1 uptrend for 7 straight rounds and I still have 9000 in cash sitting idle. Adding 50 shares at a modest 81 limit keeps me positioned for continuation while leaving dry powder for a potential pullback.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "value_75": {
+        "kind": "order",
+        "family": "disclosed_value",
+        "repetitions": [
+          {
+            "case_id": "value_75",
+            "repetition": 1,
+            "kind": "order",
+            "family": "disclosed_value",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "value_75:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price is flat at 75 for seven rounds and matches the analyst fair value exactly, so there's no edge to add or reduce exposure. I'll stay put and wait for a mispricing to develop.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "value_75:r1",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price is flat at 75 for seven rounds and matches the analyst fair value exactly, so there's no edge to add or reduce exposure. I'll stay put and wait for a mispricing to develop.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "value_75",
+            "repetition": 2,
+            "kind": "order",
+            "family": "disclosed_value",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "value_75:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price is flat at 75, exactly matching the analyst's fair value estimate with no momentum or mispricing to exploit. I'll stay balanced and wait for a dislocation before acting.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "value_75:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price is flat at 75, exactly matching the analyst's fair value estimate with no momentum or mispricing to exploit. I'll stay balanced and wait for a dislocation before acting.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "value_75",
+            "repetition": 3,
+            "kind": "order",
+            "family": "disclosed_value",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "value_75:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price is flat at 75, exactly matching analyst fair value with no edge to exploit. I'll wait for a dislocation before deploying capital.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "value_75:r3",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Price is flat at 75, exactly matching analyst fair value with no edge to exploit. I'll wait for a dislocation before deploying capital.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "value_90": {
+        "kind": "order",
+        "family": "disclosed_value",
+        "repetitions": [
+          {
+            "case_id": "value_90",
+            "repetition": 1,
+            "kind": "order",
+            "family": "disclosed_value",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "value_90:r1",
+              "side": "buy",
+              "quantity": 50,
+              "limit_price": 75.0,
+              "round": 7,
+              "reasoning": "Stock is 20% below analyst fair value and I have ample cash; adding a measured 50 shares at current price keeps my position balanced while capturing the undervaluation.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "value_90:r1",
+              "side": "buy",
+              "quantity": 50,
+              "limit_price": 75.0,
+              "round": 7,
+              "reasoning": "Stock is 20% below analyst fair value and I have ample cash; adding a measured 50 shares at current price keeps my position balanced while capturing the undervaluation.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "value_90",
+            "repetition": 2,
+            "kind": "order",
+            "family": "disclosed_value",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "value_90:r2",
+              "side": "buy",
+              "quantity": 60,
+              "limit_price": 75.0,
+              "round": 7,
+              "reasoning": "Stock is flat at 75 while fair value sits at 90, a 20% gap that justifies adding to my position. I'll buy 60 shares to increase exposure without overconcentrating, keeping 4500 in cash for flexibility.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "value_90:r2",
+              "side": "buy",
+              "quantity": 60,
+              "limit_price": 75.0,
+              "round": 7,
+              "reasoning": "Stock is flat at 75 while fair value sits at 90, a 20% gap that justifies adding to my position. I'll buy 60 shares to increase exposure without overconcentrating, keeping 4500 in cash for flexibility.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "value_90",
+            "repetition": 3,
+            "kind": "order",
+            "family": "disclosed_value",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "value_90:r3",
+              "side": "buy",
+              "quantity": 50,
+              "limit_price": 75.2,
+              "round": 7,
+              "reasoning": "Stock is trading well below the analyst's fair value of 90, and the flat price for 7 rounds suggests a good entry point. Adding 50 shares at a modest premium to current price keeps my risk moderate while positioning for upside.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "value_90:r3",
+              "side": "buy",
+              "quantity": 50,
+              "limit_price": 75.2,
+              "round": 7,
+              "reasoning": "Stock is trading well below the analyst's fair value of 90, and the flat price for 7 rounds suggests a good entry point. Adding 50 shares at a modest premium to current price keeps my risk moderate while positioning for upside.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "raw_market_reserve": {
+        "kind": "objective",
+        "family": "mechanics",
+        "repetitions": [
+          {
+            "case_id": "raw_market_reserve",
+            "repetition": 1,
+            "kind": "objective",
+            "family": "mechanics",
+            "request_count": 1,
+            "parsed": {
+              "raw_upper_price": 120.12,
+              "tick_execution_upper_price": 120.1,
+              "maximum_buy_quantity": 0
+            },
+            "correct_fields": {
+              "raw_upper_price": true,
+              "tick_execution_upper_price": true,
+              "maximum_buy_quantity": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "raw_market_reserve",
+            "repetition": 2,
+            "kind": "objective",
+            "family": "mechanics",
+            "request_count": 1,
+            "parsed": {
+              "raw_upper_price": 120.12,
+              "tick_execution_upper_price": 120.1,
+              "maximum_buy_quantity": 0
+            },
+            "correct_fields": {
+              "raw_upper_price": true,
+              "tick_execution_upper_price": true,
+              "maximum_buy_quantity": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "raw_market_reserve",
+            "repetition": 3,
+            "kind": "objective",
+            "family": "mechanics",
+            "request_count": 1,
+            "parsed": {
+              "raw_upper_price": 120.12,
+              "tick_execution_upper_price": 120.1,
+              "maximum_buy_quantity": 0
+            },
+            "correct_fields": {
+              "raw_upper_price": true,
+              "tick_execution_upper_price": true,
+              "maximum_buy_quantity": true
+            },
+            "all_correct": true
+          }
+        ]
+      },
+      "taxed_raw_limit": {
+        "kind": "objective",
+        "family": "mechanics",
+        "repetitions": [
+          {
+            "case_id": "taxed_raw_limit",
+            "repetition": 1,
+            "kind": "objective",
+            "family": "mechanics",
+            "request_count": 1,
+            "parsed": {
+              "reserved_cost_per_share": 76.6224,
+              "rounded_buy_limit": 75.0,
+              "maximum_buy_quantity": 1
+            },
+            "correct_fields": {
+              "reserved_cost_per_share": true,
+              "rounded_buy_limit": true,
+              "maximum_buy_quantity": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "taxed_raw_limit",
+            "repetition": 3,
+            "kind": "objective",
+            "family": "mechanics",
+            "request_count": 1,
+            "parsed": {
+              "reserved_cost_per_share": 76.6224,
+              "rounded_buy_limit": 75.0,
+              "maximum_buy_quantity": 1
+            },
+            "correct_fields": {
+              "reserved_cost_per_share": true,
+              "rounded_buy_limit": true,
+              "maximum_buy_quantity": true
+            },
+            "all_correct": true
+          }
+        ]
+      },
+      "cashflow_units": {
+        "kind": "objective",
+        "family": "cashflows",
+        "repetitions": [
+          {
+            "case_id": "cashflow_units",
+            "repetition": 1,
+            "kind": "objective",
+            "family": "cashflows",
+            "request_count": 1,
+            "parsed": {
+              "interest_income": 3.6,
+              "dividend_income": 3.6,
+              "closing_cash": 9007.2,
+              "dividend_yield_pct": 0.04,
+              "cash_interest_pct_per_round": 0.04
+            },
+            "correct_fields": {
+              "interest_income": true,
+              "dividend_income": true,
+              "closing_cash": true,
+              "dividend_yield_pct": true,
+              "cash_interest_pct_per_round": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "cashflow_units",
+            "repetition": 2,
+            "kind": "objective",
+            "family": "cashflows",
+            "request_count": 1,
+            "parsed": {
+              "interest_income": 3.6,
+              "dividend_income": 3.6,
+              "closing_cash": 9007.2,
+              "dividend_yield_pct": 0.04,
+              "cash_interest_pct_per_round": 0.04
+            },
+            "correct_fields": {
+              "interest_income": true,
+              "dividend_income": true,
+              "closing_cash": true,
+              "dividend_yield_pct": true,
+              "cash_interest_pct_per_round": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "cashflow_units",
+            "repetition": 3,
+            "kind": "objective",
+            "family": "cashflows",
+            "request_count": 1,
+            "parsed": {
+              "interest_income": 3.6,
+              "dividend_income": 3.6,
+              "closing_cash": 9007.2,
+              "dividend_yield_pct": 0.04,
+              "cash_interest_pct_per_round": 0.04
+            },
+            "correct_fields": {
+              "interest_income": true,
+              "dividend_income": true,
+              "closing_cash": true,
+              "dividend_yield_pct": true,
+              "cash_interest_pct_per_round": true
+            },
+            "all_correct": true
+          }
+        ]
+      },
+      "executions_not_requests": {
+        "kind": "objective",
+        "family": "verified_memory",
+        "repetitions": [
+          {
+            "case_id": "executions_not_requests",
+            "repetition": 1,
+            "kind": "objective",
+            "family": "verified_memory",
+            "request_count": 1,
+            "parsed": {
+              "requested_quantity": 12,
+              "accepted_quantity": 9,
+              "executed_buy_quantity": 3,
+              "current_shares": 83,
+              "closing_cash": 496.9377,
+              "dividend_income": 2.49,
+              "interest_income": 0.1977
+            },
+            "correct_fields": {
+              "requested_quantity": true,
+              "accepted_quantity": true,
+              "executed_buy_quantity": true,
+              "current_shares": true,
+              "closing_cash": true,
+              "dividend_income": true,
+              "interest_income": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "executions_not_requests",
+            "repetition": 2,
+            "kind": "objective",
+            "family": "verified_memory",
+            "request_count": 1,
+            "parsed": {
+              "requested_quantity": 12,
+              "accepted_quantity": 9,
+              "executed_buy_quantity": 3,
+              "current_shares": 83,
+              "closing_cash": 496.9377,
+              "dividend_income": 2.49,
+              "interest_income": 0.1977
+            },
+            "correct_fields": {
+              "requested_quantity": true,
+              "accepted_quantity": true,
+              "executed_buy_quantity": true,
+              "current_shares": true,
+              "closing_cash": true,
+              "dividend_income": true,
+              "interest_income": true
+            },
+            "all_correct": true
+          },
+          {
+            "case_id": "executions_not_requests",
+            "repetition": 3,
+            "kind": "objective",
+            "family": "verified_memory",
+            "request_count": 1,
+            "parsed": {
+              "requested_quantity": 12,
+              "accepted_quantity": 9,
+              "executed_buy_quantity": 3,
+              "current_shares": 83,
+              "closing_cash": 496.9377,
+              "dividend_income": 2.49,
+              "interest_income": 0.1977
+            },
+            "correct_fields": {
+              "requested_quantity": true,
+              "accepted_quantity": true,
+              "executed_buy_quantity": true,
+              "current_shares": true,
+              "closing_cash": true,
+              "dividend_income": true,
+              "interest_income": true
+            },
+            "all_correct": true
+          }
+        ]
+      }
+    },
+    "paired_choices": [
+      {
+        "family": "news",
+        "repetition": 1,
+        "cases": [
+          "control",
+          "headline"
+        ],
+        "signed_quantities": [
+          0,
+          0
+        ],
+        "limits": [
+          null,
+          null
+        ],
+        "delta_signed_quantity": 0
+      },
+      {
+        "family": "news",
+        "repetition": 2,
+        "cases": [
+          "control",
+          "headline"
+        ],
+        "signed_quantities": [
+          0,
+          0
+        ],
+        "limits": [
+          null,
+          null
+        ],
+        "delta_signed_quantity": 0
+      },
+      {
+        "family": "risk",
+        "repetition": 1,
+        "cases": [
+          "risk_low",
+          "risk_high"
+        ],
+        "signed_quantities": [
+          -20,
+          50
+        ],
+        "limits": [
+          80.0,
+          81.0
+        ],
+        "delta_signed_quantity": 70
+      },
+      {
+        "family": "value",
+        "repetition": 1,
+        "cases": [
+          "value_75",
+          "value_90"
+        ],
+        "signed_quantities": [
+          0,
+          50
+        ],
+        "limits": [
+          null,
+          75.0
+        ],
+        "delta_signed_quantity": 50
+      },
+      {
+        "family": "value",
+        "repetition": 2,
+        "cases": [
+          "value_75",
+          "value_90"
+        ],
+        "signed_quantities": [
+          0,
+          60
+        ],
+        "limits": [
+          null,
+          75.0
+        ],
+        "delta_signed_quantity": 60
+      },
+      {
+        "family": "value",
+        "repetition": 3,
+        "cases": [
+          "value_75",
+          "value_90"
+        ],
+        "signed_quantities": [
+          0,
+          50
+        ],
+        "limits": [
+          null,
+          75.2
+        ],
+        "delta_signed_quantity": 50
+      }
+    ],
+    "scoring_note": "Objective scores use the frozen strict tolerance; inspect rounding/formatting cases separately before judging competence. Orders have no directional or profit oracle. A HOLD is resource-compliant but not an arithmetic pass."
+  },
+  "continuation_audit": {
+    "run_id": "20261102_183644_capability_qwen_2d10464c",
+    "status": "completed",
+    "battery_sha256": "11d958ce4f5834ac7e7bbf8e946e97bcd51101a15304387fb48910db528d548e",
+    "configured_model": "qwen-3.8-27b",
+    "actual_models": [
+      "qwen-3.8-27b"
+    ],
+    "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+    "prompt_suite_version": "comparable_agents_v2_disclosed_rules",
+    "source_sha256": {
+      "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+      "sim/agents/llm_agent.py": "49337c030bb19d7c2e6439fe3c899625bf08eb92537a16a762c9a43ef0b9b6f1",
+      "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+      "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+      "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+      "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+      "sim/config.py": "341def09a13a7c12323db401b5635a2174c5ae728574a7d568004018f9ac8972",
+      "sim/engine.py": "11642c2f2b0925b7a3e0eb6b7637ff07c4e8e71502d60268e02b3b173e7b210a",
+      "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/llm/client.py": "a75e79fb6ed1b7f5fe6c57740b05faed792a6058b46af8046b92777164c822fe",
+      "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+      "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+      "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+      "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+      "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+      "sim/provenance.py": "c18b001111b4427df8d25415849b05e7e7745062c21d8b3e59dd1109af440d37"
+    },
+    "manifest_sha256": "03cf1ef138538c067466d26c0b81a073de9efef16471784164813139cb7df4d0",
+    "settings": [
+      {
+        "provider": "openai_compatible",
+        "configured_model": "qwen-3.8-27b",
+        "condition": "A",
+        "temperature": 0.3,
+        "reflect_every": 0,
+        "memory_window": 10,
+        "max_tokens": 4096,
+        "timeout_seconds": 180.0,
+        "reasoning_effort": "low",
+        "send_temperature": true,
+        "input_usd_per_million": 0.0,
+        "output_usd_per_million": 0.0
+      }
+    ],
+    "completed_checks": 8,
+    "planned_checks": 8,
+    "objective_all_fields_correct": 1,
+    "objective_checks": 1,
+    "objective_fields_correct": 3,
+    "objective_fields": 3,
+    "valid_order_checks": 7,
+    "order_checks": 7,
+    "reservation_compliant_orders": 7,
+    "repaired_order_checks": 0,
+    "provider_request_errors": 0,
+    "mean_provider_seconds": 7.772408287499275,
+    "reported_reasoning_tokens": 2497,
+    "reasoning_detail_calls": 8,
+    "usage": {
+      "requests_made": 8,
+      "max_requests": 19,
+      "reserved_tokens": 55643,
+      "max_reserved_tokens": 164061,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 8194,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "cases": {
+      "empty_A": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": []
+      },
+      "tight_cash_A": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "tight_cash_A",
+            "repetition": 3,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "tight_cash_A:r3",
+              "side": "buy",
+              "quantity": 1,
+              "limit_price": 73.5,
+              "round": 7,
+              "reasoning": "Analyst fair value of 90 is far above the stuck price of 75, so I want exposure; my cash only allows a reservation at 73.5 with tax, so I bid there for a discounted fill.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "tight_cash_A:r3",
+              "side": "buy",
+              "quantity": 1,
+              "limit_price": 73.5,
+              "round": 7,
+              "reasoning": "Analyst fair value of 90 is far above the stuck price of 75, so I want exposure; my cash only allows a reservation at 73.5 with tax, so I bid there for a discounted fill.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "empty_B": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "empty_B",
+            "repetition": 2,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "empty_B:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have no cash and no shares, so there is nothing I can trade this round.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "empty_B:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "I have no cash and no shares, so there is nothing I can trade this round.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "tight_cash_B": {
+        "kind": "order",
+        "family": "resources",
+        "repetitions": [
+          {
+            "case_id": "tight_cash_B",
+            "repetition": 2,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "tight_cash_B:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "With only 75.1 cash and a reserve near 81 per share after the 6% band and tax, I cannot afford a single share this round; holding until I have enough cash or price offers better value.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "tight_cash_B:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "With only 75.1 cash and a reserve near 81 per share after the 6% band and tax, I cannot afford a single share this round; holding until I have enough cash or price offers better value.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "tight_cash_B",
+            "repetition": 3,
+            "kind": "order",
+            "family": "resources",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "tight_cash_B:r3",
+              "side": "buy",
+              "quantity": 1,
+              "limit_price": 73.5,
+              "round": 7,
+              "reasoning": "Fair value of 90 sits well above the stagnant 75 price, so I want exposure, but with only 75.1 cash I can afford just one share at a conservative bid under the band midpoint rather than chasing a market order I can't fund.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "tight_cash_B:r3",
+              "side": "buy",
+              "quantity": 1,
+              "limit_price": 73.5,
+              "round": 7,
+              "reasoning": "Fair value of 90 sits well above the stagnant 75 price, so I want exposure, but with only 75.1 cash I can afford just one share at a conservative bid under the band midpoint rather than chasing a market order I can't fund.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "control": {
+        "kind": "order",
+        "family": "news",
+        "repetitions": []
+      },
+      "headline": {
+        "kind": "order",
+        "family": "news",
+        "repetitions": [
+          {
+            "case_id": "headline",
+            "repetition": 3,
+            "kind": "order",
+            "family": "news",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "headline:r3",
+              "side": "buy",
+              "quantity": 40,
+              "limit_price": 75.1,
+              "round": 7,
+              "reasoning": "Stable price with a solid dividend yield; the unverified report of a 25% dividend increase is a modest positive signal worth adding to while keeping plenty of cash on hand.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "headline:r3",
+              "side": "buy",
+              "quantity": 40,
+              "limit_price": 75.1,
+              "round": 7,
+              "reasoning": "Stable price with a solid dividend yield; the unverified report of a 25% dividend increase is a modest positive signal worth adding to while keeping plenty of cash on hand.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "risk_low": {
+        "kind": "order",
+        "family": "risk_trait",
+        "repetitions": []
+      },
+      "risk_high": {
+        "kind": "order",
+        "family": "risk_trait",
+        "repetitions": [
+          {
+            "case_id": "risk_high",
+            "repetition": 2,
+            "kind": "order",
+            "family": "risk_trait",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "risk_high:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Steady uptrend with my 120 shares already about half my wealth; no need to add concentration here, let the trend run.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "risk_high:r2",
+              "side": "hold",
+              "quantity": 0,
+              "limit_price": null,
+              "round": 7,
+              "reasoning": "Steady uptrend with my 120 shares already about half my wealth; no need to add concentration here, let the trend run.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          },
+          {
+            "case_id": "risk_high",
+            "repetition": 3,
+            "kind": "order",
+            "family": "risk_trait",
+            "request_count": 1,
+            "intent": {
+              "agent_id": "risk_high:r3",
+              "side": "buy",
+              "quantity": 70,
+              "limit_price": 81.0,
+              "round": 7,
+              "reasoning": "Steady uptrend of +1 per round with a tiny dividend \u2014 deploying more cash into the momentum while keeping a buffer for fees and volatility.",
+              "validation_note": ""
+            },
+            "accepted": {
+              "agent_id": "risk_high:r3",
+              "side": "buy",
+              "quantity": 70,
+              "limit_price": 81.0,
+              "round": 7,
+              "reasoning": "Steady uptrend of +1 per round with a tiny dividend \u2014 deploying more cash into the momentum while keeping a buffer for fees and volatility.",
+              "validation_note": ""
+            },
+            "resource_compliant": true,
+            "parse_failures": 0,
+            "repaired": false
+          }
+        ]
+      },
+      "value_75": {
+        "kind": "order",
+        "family": "disclosed_value",
+        "repetitions": []
+      },
+      "value_90": {
+        "kind": "order",
+        "family": "disclosed_value",
+        "repetitions": []
+      },
+      "raw_market_reserve": {
+        "kind": "objective",
+        "family": "mechanics",
+        "repetitions": []
+      },
+      "taxed_raw_limit": {
+        "kind": "objective",
+        "family": "mechanics",
+        "repetitions": [
+          {
+            "case_id": "taxed_raw_limit",
+            "repetition": 2,
+            "kind": "objective",
+            "family": "mechanics",
+            "request_count": 1,
+            "parsed": {
+              "reserved_cost_per_share": 76.6224,
+              "rounded_buy_limit": 75.0,
+              "maximum_buy_quantity": 1
+            },
+            "correct_fields": {
+              "reserved_cost_per_share": true,
+              "rounded_buy_limit": true,
+              "maximum_buy_quantity": true
+            },
+            "all_correct": true
+          }
+        ]
+      },
+      "cashflow_units": {
+        "kind": "objective",
+        "family": "cashflows",
+        "repetitions": []
+      },
+      "executions_not_requests": {
+        "kind": "objective",
+        "family": "verified_memory",
+        "repetitions": []
+      }
+    },
+    "paired_choices": [],
+    "scoring_note": "Objective scores use the frozen strict tolerance; inspect rounding/formatting cases separately before judging competence. Orders have no directional or profit oracle. A HOLD is resource-compliant but not an arithmetic pass."
+  },
+  "source_difference": [
+    "sim/capability_check.py"
+  ],
+  "protected_case_rendering_fixture_grading_and_profile_functions_equal": true,
+  "objective_checks": 12,
+  "objective_all_correct": 12,
+  "objective_fields": 54,
+  "objective_correct_fields": 54,
+  "valid_order_checks": 30,
+  "order_checks": 30,
+  "reservation_compliant_orders": 30,
+  "repaired_order_checks": 0,
+  "usage_totals": {
+    "requests_made": 43,
+    "provider_reported_tokens": 49019,
+    "reserved_tokens": 291582,
+    "failed_requests": 1,
+    "unknown_usage_requests": 1
+  },
+  "case_results": [
+    {
+      "case_id": "risk_low",
+      "repetition": 2,
+      "kind": "order",
+      "family": "risk_trait",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "risk_low:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock has risen steadily for seven rounds and I'm already well-positioned with 120 shares at a 5-point unrealized gain. With my low risk tolerance, I'll let the position ride rather than chase the uptrend or prematurely exit.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "risk_low:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock has risen steadily for seven rounds and I'm already well-positioned with 120 shares at a 5-point unrealized gain. With my low risk tolerance, I'll let the position ride rather than chase the uptrend or prematurely exit.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "executions_not_requests",
+      "repetition": 1,
+      "kind": "objective",
+      "family": "verified_memory",
+      "request_count": 1,
+      "parsed": {
+        "requested_quantity": 12,
+        "accepted_quantity": 9,
+        "executed_buy_quantity": 3,
+        "current_shares": 83,
+        "closing_cash": 496.9377,
+        "dividend_income": 2.49,
+        "interest_income": 0.1977
+      },
+      "correct_fields": {
+        "requested_quantity": true,
+        "accepted_quantity": true,
+        "executed_buy_quantity": true,
+        "current_shares": true,
+        "closing_cash": true,
+        "dividend_income": true,
+        "interest_income": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "risk_low",
+      "repetition": 3,
+      "kind": "order",
+      "family": "risk_trait",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "risk_low:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock has risen seven consecutive rounds and I already hold a balanced position with roughly half in cash. With my low risk tolerance, I'll avoid chasing the uptrend or selling into strength.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "risk_low:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock has risen seven consecutive rounds and I already hold a balanced position with roughly half in cash. With my low risk tolerance, I'll avoid chasing the uptrend or selling into strength.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "raw_market_reserve",
+      "repetition": 1,
+      "kind": "objective",
+      "family": "mechanics",
+      "request_count": 1,
+      "parsed": {
+        "raw_upper_price": 120.12,
+        "tick_execution_upper_price": 120.1,
+        "maximum_buy_quantity": 0
+      },
+      "correct_fields": {
+        "raw_upper_price": true,
+        "tick_execution_upper_price": true,
+        "maximum_buy_quantity": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "control",
+      "repetition": 3,
+      "kind": "order",
+      "family": "news",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "control:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Stock has been flat at 75.0 for seven rounds with no momentum or signal; my 50/50 cash-to-shares allocation is well-balanced for my medium risk tolerance, so I'll stay put and let the dividends accumulate.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "control:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Stock has been flat at 75.0 for seven rounds with no momentum or signal; my 50/50 cash-to-shares allocation is well-balanced for my medium risk tolerance, so I'll stay put and let the dividends accumulate.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "taxed_raw_limit",
+      "repetition": 3,
+      "kind": "objective",
+      "family": "mechanics",
+      "request_count": 1,
+      "parsed": {
+        "reserved_cost_per_share": 76.6224,
+        "rounded_buy_limit": 75.0,
+        "maximum_buy_quantity": 1
+      },
+      "correct_fields": {
+        "reserved_cost_per_share": true,
+        "rounded_buy_limit": true,
+        "maximum_buy_quantity": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "value_75",
+      "repetition": 2,
+      "kind": "order",
+      "family": "disclosed_value",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "value_75:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price is flat at 75, exactly matching the analyst's fair value estimate with no momentum or mispricing to exploit. I'll stay balanced and wait for a dislocation before acting.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "value_75:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price is flat at 75, exactly matching the analyst's fair value estimate with no momentum or mispricing to exploit. I'll stay balanced and wait for a dislocation before acting.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "value_90",
+      "repetition": 3,
+      "kind": "order",
+      "family": "disclosed_value",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "value_90:r3",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 75.2,
+        "round": 7,
+        "reasoning": "Stock is trading well below the analyst's fair value of 90, and the flat price for 7 rounds suggests a good entry point. Adding 50 shares at a modest premium to current price keeps my risk moderate while positioning for upside.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "value_90:r3",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 75.2,
+        "round": 7,
+        "reasoning": "Stock is trading well below the analyst's fair value of 90, and the flat price for 7 rounds suggests a good entry point. Adding 50 shares at a modest premium to current price keeps my risk moderate while positioning for upside.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "executions_not_requests",
+      "repetition": 3,
+      "kind": "objective",
+      "family": "verified_memory",
+      "request_count": 1,
+      "parsed": {
+        "requested_quantity": 12,
+        "accepted_quantity": 9,
+        "executed_buy_quantity": 3,
+        "current_shares": 83,
+        "closing_cash": 496.9377,
+        "dividend_income": 2.49,
+        "interest_income": 0.1977
+      },
+      "correct_fields": {
+        "requested_quantity": true,
+        "accepted_quantity": true,
+        "executed_buy_quantity": true,
+        "current_shares": true,
+        "closing_cash": true,
+        "dividend_income": true,
+        "interest_income": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "cashflow_units",
+      "repetition": 1,
+      "kind": "objective",
+      "family": "cashflows",
+      "request_count": 1,
+      "parsed": {
+        "interest_income": 3.6,
+        "dividend_income": 3.6,
+        "closing_cash": 9007.2,
+        "dividend_yield_pct": 0.04,
+        "cash_interest_pct_per_round": 0.04
+      },
+      "correct_fields": {
+        "interest_income": true,
+        "dividend_income": true,
+        "closing_cash": true,
+        "dividend_yield_pct": true,
+        "cash_interest_pct_per_round": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "raw_market_reserve",
+      "repetition": 2,
+      "kind": "objective",
+      "family": "mechanics",
+      "request_count": 1,
+      "parsed": {
+        "raw_upper_price": 120.12,
+        "tick_execution_upper_price": 120.1,
+        "maximum_buy_quantity": 0
+      },
+      "correct_fields": {
+        "raw_upper_price": true,
+        "tick_execution_upper_price": true,
+        "maximum_buy_quantity": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "value_90",
+      "repetition": 2,
+      "kind": "order",
+      "family": "disclosed_value",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "value_90:r2",
+        "side": "buy",
+        "quantity": 60,
+        "limit_price": 75.0,
+        "round": 7,
+        "reasoning": "Stock is flat at 75 while fair value sits at 90, a 20% gap that justifies adding to my position. I'll buy 60 shares to increase exposure without overconcentrating, keeping 4500 in cash for flexibility.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "value_90:r2",
+        "side": "buy",
+        "quantity": 60,
+        "limit_price": 75.0,
+        "round": 7,
+        "reasoning": "Stock is flat at 75 while fair value sits at 90, a 20% gap that justifies adding to my position. I'll buy 60 shares to increase exposure without overconcentrating, keeping 4500 in cash for flexibility.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "empty_B",
+      "repetition": 3,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "empty_B:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have zero cash and zero shares, so there's nothing to trade. I'll wait until I have capital to deploy toward what looks like a 16.7% undervaluation.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "empty_B:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have zero cash and zero shares, so there's nothing to trade. I'll wait until I have capital to deploy toward what looks like a 16.7% undervaluation.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "taxed_raw_limit",
+      "repetition": 1,
+      "kind": "objective",
+      "family": "mechanics",
+      "request_count": 1,
+      "parsed": {
+        "reserved_cost_per_share": 76.6224,
+        "rounded_buy_limit": 75.0,
+        "maximum_buy_quantity": 1
+      },
+      "correct_fields": {
+        "reserved_cost_per_share": true,
+        "rounded_buy_limit": true,
+        "maximum_buy_quantity": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "value_90",
+      "repetition": 1,
+      "kind": "order",
+      "family": "disclosed_value",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "value_90:r1",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 75.0,
+        "round": 7,
+        "reasoning": "Stock is 20% below analyst fair value and I have ample cash; adding a measured 50 shares at current price keeps my position balanced while capturing the undervaluation.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "value_90:r1",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 75.0,
+        "round": 7,
+        "reasoning": "Stock is 20% below analyst fair value and I have ample cash; adding a measured 50 shares at current price keeps my position balanced while capturing the undervaluation.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "empty_A",
+      "repetition": 3,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "empty_A:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "empty_A:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "tight_cash_B",
+      "repetition": 1,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "tight_cash_B:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock is trading at a 16.7% discount to fair value, which is attractive, but my cash of 75.1 can't cover even one share at current prices after the conservative reservation. I'll wait for a pullback or accumulate more capital before entering.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "tight_cash_B:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock is trading at a 16.7% discount to fair value, which is attractive, but my cash of 75.1 can't cover even one share at current prices after the conservative reservation. I'll wait for a pullback or accumulate more capital before entering.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "tight_cash_A",
+      "repetition": 1,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "tight_cash_A:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock is undervalued at 75 versus 90 fair value, but my cash of 75.1 can't cover the reservation cost for even one share at any realistic limit price near the current level. I'll wait for a pullback or accumulate more cash before entering.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "tight_cash_A:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock is undervalued at 75 versus 90 fair value, but my cash of 75.1 can't cover the reservation cost for even one share at any realistic limit price near the current level. I'll wait for a pullback or accumulate more cash before entering.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "headline",
+      "repetition": 2,
+      "kind": "order",
+      "family": "news",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "headline:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The dividend increase report is unverified and the stock has been flat at 75 for seven rounds with no momentum; I'll wait for confirmation before adjusting my balanced position.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "headline:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The dividend increase report is unverified and the stock has been flat at 75 for seven rounds with no momentum; I'll wait for confirmation before adjusting my balanced position.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "tight_cash_A",
+      "repetition": 2,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "tight_cash_A:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock is undervalued at 75 vs 90 fair value, but my cash of 75.1 can't cover the conservative reservation for even one share at the current clearing price. I'll wait for a price dip or accumulate more cash before entering.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "tight_cash_A:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock is undervalued at 75 vs 90 fair value, but my cash of 75.1 can't cover the conservative reservation for even one share at the current clearing price. I'll wait for a price dip or accumulate more cash before entering.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "value_75",
+      "repetition": 1,
+      "kind": "order",
+      "family": "disclosed_value",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "value_75:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price is flat at 75 for seven rounds and matches the analyst fair value exactly, so there's no edge to add or reduce exposure. I'll stay put and wait for a mispricing to develop.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "value_75:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price is flat at 75 for seven rounds and matches the analyst fair value exactly, so there's no edge to add or reduce exposure. I'll stay put and wait for a mispricing to develop.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "risk_low",
+      "repetition": 1,
+      "kind": "order",
+      "family": "risk_trait",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "risk_low:r1",
+        "side": "sell",
+        "quantity": 20,
+        "limit_price": 80.0,
+        "round": 7,
+        "reasoning": "Seven consecutive up rounds have pushed my average cost well below market; trimming 20 shares locks in modest gains while keeping my core position intact for the medium-term horizon.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "risk_low:r1",
+        "side": "sell",
+        "quantity": 20,
+        "limit_price": 80.0,
+        "round": 7,
+        "reasoning": "Seven consecutive up rounds have pushed my average cost well below market; trimming 20 shares locks in modest gains while keeping my core position intact for the medium-term horizon.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "raw_market_reserve",
+      "repetition": 3,
+      "kind": "objective",
+      "family": "mechanics",
+      "request_count": 1,
+      "parsed": {
+        "raw_upper_price": 120.12,
+        "tick_execution_upper_price": 120.1,
+        "maximum_buy_quantity": 0
+      },
+      "correct_fields": {
+        "raw_upper_price": true,
+        "tick_execution_upper_price": true,
+        "maximum_buy_quantity": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "headline",
+      "repetition": 1,
+      "kind": "order",
+      "family": "news",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "headline:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The dividend increase report is unverified and the absolute impact would be minimal (0.03 to 0.0375 per share). With the stock flat at 75 for seven rounds and no confirmed catalyst, I'll wait for verification before adding to my position.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "headline:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The dividend increase report is unverified and the absolute impact would be minimal (0.03 to 0.0375 per share). With the stock flat at 75 for seven rounds and no confirmed catalyst, I'll wait for verification before adding to my position.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "control",
+      "repetition": 2,
+      "kind": "order",
+      "family": "news",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "control:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock has been flat at 75 for seven straight rounds with no clear directional signal, and I'm at breakeven on my position. I'll wait for a price move or volume shift before deploying my cash or trimming shares.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "control:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "The stock has been flat at 75 for seven straight rounds with no clear directional signal, and I'm at breakeven on my position. I'll wait for a price move or volume shift before deploying my cash or trimming shares.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "control",
+      "repetition": 1,
+      "kind": "order",
+      "family": "news",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "control:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price has been flat at 75.0 for seven straight rounds with no trend or volatility to exploit; my 50/50 stock-to-cash allocation is already balanced for my medium risk tolerance, so I'll wait for a signal before acting.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "control:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price has been flat at 75.0 for seven straight rounds with no trend or volatility to exploit; my 50/50 stock-to-cash allocation is already balanced for my medium risk tolerance, so I'll wait for a signal before acting.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "empty_A",
+      "repetition": 2,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "empty_A:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have no cash and no shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "empty_A:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have no cash and no shares, so there's nothing I can do this round. I'll wait for capital to become available before entering a position.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "cashflow_units",
+      "repetition": 2,
+      "kind": "objective",
+      "family": "cashflows",
+      "request_count": 1,
+      "parsed": {
+        "interest_income": 3.6,
+        "dividend_income": 3.6,
+        "closing_cash": 9007.2,
+        "dividend_yield_pct": 0.04,
+        "cash_interest_pct_per_round": 0.04
+      },
+      "correct_fields": {
+        "interest_income": true,
+        "dividend_income": true,
+        "closing_cash": true,
+        "dividend_yield_pct": true,
+        "cash_interest_pct_per_round": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "cashflow_units",
+      "repetition": 3,
+      "kind": "objective",
+      "family": "cashflows",
+      "request_count": 1,
+      "parsed": {
+        "interest_income": 3.6,
+        "dividend_income": 3.6,
+        "closing_cash": 9007.2,
+        "dividend_yield_pct": 0.04,
+        "cash_interest_pct_per_round": 0.04
+      },
+      "correct_fields": {
+        "interest_income": true,
+        "dividend_income": true,
+        "closing_cash": true,
+        "dividend_yield_pct": true,
+        "cash_interest_pct_per_round": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "empty_A",
+      "repetition": 1,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "empty_A:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before deploying into this undervalued stock.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "empty_A:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have zero cash and zero shares, so there's nothing I can do this round. I'll wait for capital to become available before deploying into this undervalued stock.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "risk_high",
+      "repetition": 1,
+      "kind": "order",
+      "family": "risk_trait",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "risk_high:r1",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 81.0,
+        "round": 7,
+        "reasoning": "The stock has a rock-solid +1 uptrend for 7 straight rounds and I still have 9000 in cash sitting idle. Adding 50 shares at a modest 81 limit keeps me positioned for continuation while leaving dry powder for a potential pullback.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "risk_high:r1",
+        "side": "buy",
+        "quantity": 50,
+        "limit_price": 81.0,
+        "round": 7,
+        "reasoning": "The stock has a rock-solid +1 uptrend for 7 straight rounds and I still have 9000 in cash sitting idle. Adding 50 shares at a modest 81 limit keeps me positioned for continuation while leaving dry powder for a potential pullback.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "empty_B",
+      "repetition": 1,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "empty_B:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have no cash and no shares, so there's nothing I can do this round. The stock looks undervalued at 75 vs 90 fair value, but I need capital to act on it.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "empty_B:r1",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have no cash and no shares, so there's nothing I can do this round. The stock looks undervalued at 75 vs 90 fair value, but I need capital to act on it.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "executions_not_requests",
+      "repetition": 2,
+      "kind": "objective",
+      "family": "verified_memory",
+      "request_count": 1,
+      "parsed": {
+        "requested_quantity": 12,
+        "accepted_quantity": 9,
+        "executed_buy_quantity": 3,
+        "current_shares": 83,
+        "closing_cash": 496.9377,
+        "dividend_income": 2.49,
+        "interest_income": 0.1977
+      },
+      "correct_fields": {
+        "requested_quantity": true,
+        "accepted_quantity": true,
+        "executed_buy_quantity": true,
+        "current_shares": true,
+        "closing_cash": true,
+        "dividend_income": true,
+        "interest_income": true
+      },
+      "all_correct": true
+    },
+    {
+      "case_id": "value_75",
+      "repetition": 3,
+      "kind": "order",
+      "family": "disclosed_value",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "value_75:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price is flat at 75, exactly matching analyst fair value with no edge to exploit. I'll wait for a dislocation before deploying capital.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "value_75:r3",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Price is flat at 75, exactly matching analyst fair value with no edge to exploit. I'll wait for a dislocation before deploying capital.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "tight_cash_B",
+      "repetition": 2,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "tight_cash_B:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "With only 75.1 cash and a reserve near 81 per share after the 6% band and tax, I cannot afford a single share this round; holding until I have enough cash or price offers better value.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "tight_cash_B:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "With only 75.1 cash and a reserve near 81 per share after the 6% band and tax, I cannot afford a single share this round; holding until I have enough cash or price offers better value.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "tight_cash_B",
+      "repetition": 3,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "tight_cash_B:r3",
+        "side": "buy",
+        "quantity": 1,
+        "limit_price": 73.5,
+        "round": 7,
+        "reasoning": "Fair value of 90 sits well above the stagnant 75 price, so I want exposure, but with only 75.1 cash I can afford just one share at a conservative bid under the band midpoint rather than chasing a market order I can't fund.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "tight_cash_B:r3",
+        "side": "buy",
+        "quantity": 1,
+        "limit_price": 73.5,
+        "round": 7,
+        "reasoning": "Fair value of 90 sits well above the stagnant 75 price, so I want exposure, but with only 75.1 cash I can afford just one share at a conservative bid under the band midpoint rather than chasing a market order I can't fund.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "risk_high",
+      "repetition": 3,
+      "kind": "order",
+      "family": "risk_trait",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "risk_high:r3",
+        "side": "buy",
+        "quantity": 70,
+        "limit_price": 81.0,
+        "round": 7,
+        "reasoning": "Steady uptrend of +1 per round with a tiny dividend \u2014 deploying more cash into the momentum while keeping a buffer for fees and volatility.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "risk_high:r3",
+        "side": "buy",
+        "quantity": 70,
+        "limit_price": 81.0,
+        "round": 7,
+        "reasoning": "Steady uptrend of +1 per round with a tiny dividend \u2014 deploying more cash into the momentum while keeping a buffer for fees and volatility.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "tight_cash_A",
+      "repetition": 3,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "tight_cash_A:r3",
+        "side": "buy",
+        "quantity": 1,
+        "limit_price": 73.5,
+        "round": 7,
+        "reasoning": "Analyst fair value of 90 is far above the stuck price of 75, so I want exposure; my cash only allows a reservation at 73.5 with tax, so I bid there for a discounted fill.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "tight_cash_A:r3",
+        "side": "buy",
+        "quantity": 1,
+        "limit_price": 73.5,
+        "round": 7,
+        "reasoning": "Analyst fair value of 90 is far above the stuck price of 75, so I want exposure; my cash only allows a reservation at 73.5 with tax, so I bid there for a discounted fill.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "risk_high",
+      "repetition": 2,
+      "kind": "order",
+      "family": "risk_trait",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "risk_high:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Steady uptrend with my 120 shares already about half my wealth; no need to add concentration here, let the trend run.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "risk_high:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "Steady uptrend with my 120 shares already about half my wealth; no need to add concentration here, let the trend run.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "empty_B",
+      "repetition": 2,
+      "kind": "order",
+      "family": "resources",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "empty_B:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have no cash and no shares, so there is nothing I can trade this round.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "empty_B:r2",
+        "side": "hold",
+        "quantity": 0,
+        "limit_price": null,
+        "round": 7,
+        "reasoning": "I have no cash and no shares, so there is nothing I can trade this round.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "headline",
+      "repetition": 3,
+      "kind": "order",
+      "family": "news",
+      "request_count": 1,
+      "intent": {
+        "agent_id": "headline:r3",
+        "side": "buy",
+        "quantity": 40,
+        "limit_price": 75.1,
+        "round": 7,
+        "reasoning": "Stable price with a solid dividend yield; the unverified report of a 25% dividend increase is a modest positive signal worth adding to while keeping plenty of cash on hand.",
+        "validation_note": ""
+      },
+      "accepted": {
+        "agent_id": "headline:r3",
+        "side": "buy",
+        "quantity": 40,
+        "limit_price": 75.1,
+        "round": 7,
+        "reasoning": "Stable price with a solid dividend yield; the unverified report of a 25% dividend increase is a modest positive signal worth adding to while keeping plenty of cash on hand.",
+        "validation_note": ""
+      },
+      "resource_compliant": true,
+      "parse_failures": 0,
+      "repaired": false
+    },
+    {
+      "case_id": "taxed_raw_limit",
+      "repetition": 2,
+      "kind": "objective",
+      "family": "mechanics",
+      "request_count": 1,
+      "parsed": {
+        "reserved_cost_per_share": 76.6224,
+        "rounded_buy_limit": 75.0,
+        "maximum_buy_quantity": 1
+      },
+      "correct_fields": {
+        "reserved_cost_per_share": true,
+        "rounded_buy_limit": true,
+        "maximum_buy_quantity": true
+      },
+      "all_correct": true
+    }
+  ],
+  "paired_choices": [
+    {
+      "family": "news",
+      "repetition": 1,
+      "cases": [
+        "control",
+        "headline"
+      ],
+      "signed_quantities": [
+        0,
+        0
+      ],
+      "limits": [
+        null,
+        null
+      ]
+    },
+    {
+      "family": "news",
+      "repetition": 2,
+      "cases": [
+        "control",
+        "headline"
+      ],
+      "signed_quantities": [
+        0,
+        0
+      ],
+      "limits": [
+        null,
+        null
+      ]
+    },
+    {
+      "family": "news",
+      "repetition": 3,
+      "cases": [
+        "control",
+        "headline"
+      ],
+      "signed_quantities": [
+        0,
+        40
+      ],
+      "limits": [
+        null,
+        75.1
+      ]
+    },
+    {
+      "family": "risk",
+      "repetition": 1,
+      "cases": [
+        "risk_low",
+        "risk_high"
+      ],
+      "signed_quantities": [
+        -20,
+        50
+      ],
+      "limits": [
+        80.0,
+        81.0
+      ]
+    },
+    {
+      "family": "risk",
+      "repetition": 2,
+      "cases": [
+        "risk_low",
+        "risk_high"
+      ],
+      "signed_quantities": [
+        0,
+        0
+      ],
+      "limits": [
+        null,
+        null
+      ]
+    },
+    {
+      "family": "risk",
+      "repetition": 3,
+      "cases": [
+        "risk_low",
+        "risk_high"
+      ],
+      "signed_quantities": [
+        0,
+        70
+      ],
+      "limits": [
+        null,
+        81.0
+      ]
+    },
+    {
+      "family": "value",
+      "repetition": 1,
+      "cases": [
+        "value_75",
+        "value_90"
+      ],
+      "signed_quantities": [
+        0,
+        50
+      ],
+      "limits": [
+        null,
+        75.0
+      ]
+    },
+    {
+      "family": "value",
+      "repetition": 2,
+      "cases": [
+        "value_75",
+        "value_90"
+      ],
+      "signed_quantities": [
+        0,
+        60
+      ],
+      "limits": [
+        null,
+        75.0
+      ]
+    },
+    {
+      "family": "value",
+      "repetition": 3,
+      "cases": [
+        "value_75",
+        "value_90"
+      ],
+      "signed_quantities": [
+        0,
+        50
+      ],
+      "limits": [
+        null,
+        75.2
+      ]
+    }
+  ],
+  "exclusions": "The earlier externally interrupted 13-check prefix 20261102_053929_capability_qwen_6cdca7bd is preserved and excluded. No answer was selected from that run.",
+  "limitations": "The main run had a provider TimeoutError after 34 checks, including measured elapsed 5161 seconds despite configured 180-second I/O timeout. Host/runtime suspension cannot be separated from provider delay. The eight-case tail ran later. Do not use this run to rank inference latency or claim a model-size/human-realism effect. Unknown failed-request usage is not reconstructed."
+}

@@ -1,0 +1,13 @@
+{
+  "analysis_source.py": "03455f8112ed963816b25aac64b7bc59071e492f74a525d1657692390eca825c",
+  "audit_source.py": "4111f6e2e620aeefffe4459e457d50297ffbda027eeea62b9d92489ffe2e223d",
+  "delivery_audit.json": "da756e32e367b528a7afc0df3fc07adccfc6e4227b256663881019160e2318e6",
+  "market_paths.pdf": "805766ba77d4dfe9bf26e39d8fd70422b71c18d956e2508090a36edab856c458",
+  "market_paths.png": "b627c710098b469ccb46c0b3953373d70cff1a29b1d4c7f65e4a8f0c625fb501",
+  "READOUT.md": "0203af482e1dbaad1140e1e1d665ff71e30078211d72ba622b9955f4487fe28f",
+  "report.json": "fed48b07cbf39b7829c153de1ca36f92a521f41675da2d97ec67fd965f6c835f",
+  "same_state_news.pdf": "fd685efd5d894434b229ff135000d8bdfc92db6c274e51efd62d4249cb6bb3c1",
+  "same_state_news.png": "6e178302b22298c6df15598ce8c3eecf271e8b753146309aa8f176b54e697106",
+  "test_news_pilot.py": "7edd22a80cca28998ca617d4298018673277a1c91b6a53b37083e666dbf6dd25",
+  "test_transport_retry.py": "0acffe38d82e588e6221996a270c099e4f616531092d7515e2d2dd4717397702"
+}

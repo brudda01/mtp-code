@@ -1,0 +1,62 @@
+{
+  "checked_utc": "2026-11-01T23:27:53.823257+00:00",
+  "response": {
+    "object": "list",
+    "data": [
+      {
+        "id": "qwen-3.8-27b",
+        "object": "model",
+        "created": 0,
+        "owned_by": "bharatcode",
+        "modality": "vision_chat",
+        "endpoint": "/v1/chat/completions",
+        "protocol": "openai_chat_completions",
+        "runtime": "bharatcode",
+        "status": "live",
+        "display_name": "Qwen 3.8 27B",
+        "context_window": 262144,
+        "max_output_tokens": 32000,
+        "max_input_mb": null,
+        "access_tier": "standard",
+        "metadata": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ],
+          "toolCalling": true,
+          "reasoning": true
+        }
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "object": "model",
+        "created": 0,
+        "owned_by": "bharatcode",
+        "modality": "vision_chat",
+        "endpoint": "/v1/chat/completions",
+        "protocol": "openai_chat_completions",
+        "runtime": "bharatcode",
+        "status": "live",
+        "display_name": "BharatCode DeepSeek V4.1 Flash",
+        "context_window": 1000000,
+        "max_output_tokens": 32000,
+        "max_input_mb": 8,
+        "access_tier": "heavy",
+        "metadata": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ],
+          "toolCalling": true,
+          "reasoning": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "financial_files_rechecked": 294,
+  "pre_reflection_negative_pairs": 6,
+  "prior_archives_unchanged": 11,
+  "original_source_files_unchanged": 103,
+  "local_thesis_links": 45,
+  "new_live_calls": 0,
+  "verification_replays_not_new_samples": true
+}

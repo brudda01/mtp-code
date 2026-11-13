@@ -1,0 +1,15 @@
+{
+  "status": "preserved",
+  "path": "starter_code/runs/evidence_synthesis_20261107_evidence.zip",
+  "sha256": "c0d76bf8462c80c98997372c27ec35898c0af1194fd26544f2364f8d086e102e",
+  "bytes": 4116892,
+  "exported_file_hashes": 267,
+  "recursive_configured_secret_checks": 267,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "prior_archives_unchanged": 15,
+  "prior_writing_archives_unchanged": 2,
+  "new_api_requests": 0,
+  "new_markets": 0,
+  "new_replays": 0
+}

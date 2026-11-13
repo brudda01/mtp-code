@@ -1,0 +1,247 @@
+{
+  "scope": "Post-hoc all-case diagnostics and reproducibility audit;no causal difference-in-differences or new independent replication.",
+  "source_report_sha256": "5cf72448f71c321a0468339b37aca4dffb464379d124cd3dd7b9072a7cbfc864",
+  "windows": [
+    {
+      "seed": 22853,
+      "repetition": 1,
+      "C_B_pre_reflection_gap_pp": -1.5200000000000014,
+      "C_B_later_gap_pp": -0.5285714285714317,
+      "C_B_full_gap_pp": -0.9416666666666694
+    },
+    {
+      "seed": 22853,
+      "repetition": 2,
+      "C_B_pre_reflection_gap_pp": -0.8600000000000031,
+      "C_B_later_gap_pp": 0.8142857142857118,
+      "C_B_full_gap_pp": 0.11666666666666423
+    },
+    {
+      "seed": 23971,
+      "repetition": 1,
+      "C_B_pre_reflection_gap_pp": -0.4600000000000024,
+      "C_B_later_gap_pp": -2.085714285714282,
+      "C_B_full_gap_pp": -1.4083333333333317
+    },
+    {
+      "seed": 23971,
+      "repetition": 2,
+      "C_B_pre_reflection_gap_pp": -2.2800000000000065,
+      "C_B_later_gap_pp": -1.9571428571428537,
+      "C_B_full_gap_pp": -2.0916666666666677
+    },
+    {
+      "seed": 25087,
+      "repetition": 1,
+      "C_B_pre_reflection_gap_pp": -2.9200000000000017,
+      "C_B_later_gap_pp": -6.371428571428569,
+      "C_B_full_gap_pp": -4.933333333333334
+    },
+    {
+      "seed": 25087,
+      "repetition": 2,
+      "C_B_pre_reflection_gap_pp": -1.5399999999999996,
+      "C_B_later_gap_pp": -4.885714285714276,
+      "C_B_full_gap_pp": -3.4916666666666623
+    }
+  ],
+  "within_seed_window_averages": [
+    {
+      "seed": 22853,
+      "pre_reflection_gap_pp": -1.1900000000000022,
+      "later_gap_pp": 0.14285714285714007
+    },
+    {
+      "seed": 23971,
+      "pre_reflection_gap_pp": -1.3700000000000045,
+      "later_gap_pp": -2.021428571428568
+    },
+    {
+      "seed": 25087,
+      "pre_reflection_gap_pp": -2.2300000000000004,
+      "later_gap_pp": -5.628571428571423
+    }
+  ],
+  "pre_reflection_gap_negative_pairs": 6,
+  "target_order_sizing_and_participation": [
+    {
+      "seed": 22853,
+      "repetition": 1,
+      "mode": "A",
+      "target_union_fraction": 0.6366366366366366,
+      "target_trade_leg_fraction": 0.4084084084084084,
+      "median_target_nonhold_accepted_quantity": 80,
+      "median_background_nonhold_accepted_quantity": 8.0
+    },
+    {
+      "seed": 22853,
+      "repetition": 1,
+      "mode": "B",
+      "target_union_fraction": 0.7961165048543689,
+      "target_trade_leg_fraction": 0.43042071197411,
+      "median_target_nonhold_accepted_quantity": 45,
+      "median_background_nonhold_accepted_quantity": 6
+    },
+    {
+      "seed": 22853,
+      "repetition": 1,
+      "mode": "C",
+      "target_union_fraction": 0.47783251231527096,
+      "target_trade_leg_fraction": 0.23891625615763548,
+      "median_target_nonhold_accepted_quantity": 40.0,
+      "median_background_nonhold_accepted_quantity": 6
+    },
+    {
+      "seed": 22853,
+      "repetition": 2,
+      "mode": "B",
+      "target_union_fraction": 0.6039215686274509,
+      "target_trade_leg_fraction": 0.30196078431372547,
+      "median_target_nonhold_accepted_quantity": 21.5,
+      "median_background_nonhold_accepted_quantity": 5.0
+    },
+    {
+      "seed": 22853,
+      "repetition": 2,
+      "mode": "C",
+      "target_union_fraction": 0.4309623430962343,
+      "target_trade_leg_fraction": 0.24686192468619247,
+      "median_target_nonhold_accepted_quantity": 15,
+      "median_background_nonhold_accepted_quantity": 5
+    },
+    {
+      "seed": 22853,
+      "repetition": 2,
+      "mode": "A",
+      "target_union_fraction": 0.4978902953586498,
+      "target_trade_leg_fraction": 0.2890295358649789,
+      "median_target_nonhold_accepted_quantity": 37.5,
+      "median_background_nonhold_accepted_quantity": 6
+    },
+    {
+      "seed": 23971,
+      "repetition": 1,
+      "mode": "B",
+      "target_union_fraction": 0.36923076923076925,
+      "target_trade_leg_fraction": 0.18461538461538463,
+      "median_target_nonhold_accepted_quantity": 29,
+      "median_background_nonhold_accepted_quantity": 5.0
+    },
+    {
+      "seed": 23971,
+      "repetition": 1,
+      "mode": "C",
+      "target_union_fraction": 0.5431654676258992,
+      "target_trade_leg_fraction": 0.2715827338129496,
+      "median_target_nonhold_accepted_quantity": 50,
+      "median_background_nonhold_accepted_quantity": 5
+    },
+    {
+      "seed": 23971,
+      "repetition": 1,
+      "mode": "A",
+      "target_union_fraction": 0.3800738007380074,
+      "target_trade_leg_fraction": 0.1900369003690037,
+      "median_target_nonhold_accepted_quantity": 30,
+      "median_background_nonhold_accepted_quantity": 5.0
+    },
+    {
+      "seed": 23971,
+      "repetition": 2,
+      "mode": "C",
+      "target_union_fraction": 0.4375,
+      "target_trade_leg_fraction": 0.21875,
+      "median_target_nonhold_accepted_quantity": 30,
+      "median_background_nonhold_accepted_quantity": 5.0
+    },
+    {
+      "seed": 23971,
+      "repetition": 2,
+      "mode": "A",
+      "target_union_fraction": 0.5206896551724138,
+      "target_trade_leg_fraction": 0.2603448275862069,
+      "median_target_nonhold_accepted_quantity": 50,
+      "median_background_nonhold_accepted_quantity": 5
+    },
+    {
+      "seed": 23971,
+      "repetition": 2,
+      "mode": "B",
+      "target_union_fraction": 0.4269230769230769,
+      "target_trade_leg_fraction": 0.21346153846153845,
+      "median_target_nonhold_accepted_quantity": 17.5,
+      "median_background_nonhold_accepted_quantity": 5
+    },
+    {
+      "seed": 25087,
+      "repetition": 1,
+      "mode": "C",
+      "target_union_fraction": 0.3734567901234568,
+      "target_trade_leg_fraction": 0.24074074074074073,
+      "median_target_nonhold_accepted_quantity": 50.5,
+      "median_background_nonhold_accepted_quantity": 7.0
+    },
+    {
+      "seed": 25087,
+      "repetition": 1,
+      "mode": "A",
+      "target_union_fraction": 0.28164556962025317,
+      "target_trade_leg_fraction": 0.2199367088607595,
+      "median_target_nonhold_accepted_quantity": 50,
+      "median_background_nonhold_accepted_quantity": 7
+    },
+    {
+      "seed": 25087,
+      "repetition": 1,
+      "mode": "B",
+      "target_union_fraction": 0.32386363636363635,
+      "target_trade_leg_fraction": 0.18181818181818182,
+      "median_target_nonhold_accepted_quantity": 35,
+      "median_background_nonhold_accepted_quantity": 9
+    },
+    {
+      "seed": 25087,
+      "repetition": 2,
+      "mode": "A",
+      "target_union_fraction": 0.4166666666666667,
+      "target_trade_leg_fraction": 0.22756410256410256,
+      "median_target_nonhold_accepted_quantity": 53,
+      "median_background_nonhold_accepted_quantity": 7
+    },
+    {
+      "seed": 25087,
+      "repetition": 2,
+      "mode": "B",
+      "target_union_fraction": 0.24926686217008798,
+      "target_trade_leg_fraction": 0.16862170087976538,
+      "median_target_nonhold_accepted_quantity": 33.0,
+      "median_background_nonhold_accepted_quantity": 9.0
+    },
+    {
+      "seed": 25087,
+      "repetition": 2,
+      "mode": "C",
+      "target_union_fraction": 0.28662420382165604,
+      "target_trade_leg_fraction": 0.1910828025477707,
+      "median_target_nonhold_accepted_quantity": 32.5,
+      "median_background_nonhold_accepted_quantity": 7.0
+    }
+  ],
+  "replay": {
+    "verification_markets": 42,
+    "financial_rounds": 5144,
+    "financial_file_matches": 294,
+    "recorded_calls_consumed": 712,
+    "network_attempts": 0
+  },
+  "realism_design_arithmetic": {
+    "fundamentalist_window1_baseline_proxy_range": [
+      80.0,
+      120.0
+    ],
+    "expected_dividend_one_session_downside_difference": 0.004,
+    "permanent_risk_neutral_value_difference": 20,
+    "label": "Arithmetic from the configured model,not estimated human expectations."
+  },
+  "new_live_calls": 0
+}

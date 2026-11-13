@@ -1,0 +1,7 @@
+{
+  "python": "3.13.1",
+  "numpy": "2.1.3",
+  "PyYAML": "6.0.3",
+  "paths_checked": 42,
+  "scope": "Same installed interpreter/dependencies used in original and replay;independent machine not tested."
+}

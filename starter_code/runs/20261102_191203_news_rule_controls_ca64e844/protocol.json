@@ -1,0 +1,35 @@
+{
+  "version": "news_factorial_controls_v1",
+  "purpose": "Verify independent announcement and economic controls before live news experiments",
+  "cells": {
+    "control": {
+      "economic_shift": false,
+      "announcement": false
+    },
+    "headline_only": {
+      "economic_shift": false,
+      "announcement": true
+    },
+    "fundamentals_only": {
+      "economic_shift": true,
+      "announcement": false
+    },
+    "combined": {
+      "economic_shift": true,
+      "announcement": true
+    }
+  },
+  "seeds": [
+    211,
+    422,
+    633
+  ],
+  "rounds": 600,
+  "event_round": 301,
+  "shift_multiplier": 1.2,
+  "headline": "A news report forecasts a sustained 20% rise in KGP's dividend per trading session; actual future payments remain uncertain.",
+  "reveal_fundamental": false,
+  "population": "unchanged 20-rule-agent baseline; all ignore headline text",
+  "expectation": "Announcement-only/control and combined/quiet-shock financial paths must match exactly. Current payout is unknown before the event auction.",
+  "interpretation": "Engineering negative control; not live semantic behaviour, human realism, optimal calibration or an LLM-versus-rule population comparison."
+}

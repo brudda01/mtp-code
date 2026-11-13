@@ -1,0 +1,740 @@
+[
+  {
+    "seed": 22853,
+    "mode": "A",
+    "repetition": 1,
+    "config": "configs/quiet_components_A_s22853_rep1.yaml",
+    "config_sha256": "92bc65d764edfeda80ed19c4c6c3c90566677c3e10b0e323ce43b1cbb72d877d",
+    "run_path": "market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8",
+    "manifest_sha256": "df65737ef75c8d2fe3cbe595b592ac9cb88d2ed9d2e69db25a0d13dcb43933da",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 374501,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 61610,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "B",
+    "repetition": 1,
+    "config": "configs/quiet_components_B_s22853_rep1.yaml",
+    "config_sha256": "a88d9143a7658ed106e4dce4851ecf8ea8a4995fdb39dbbfb73d24b235b719e1",
+    "run_path": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+    "manifest_sha256": "991c0e1f046fb194f7b89e6bf68220a5cbf91bf1724fd98ec6c99f92a81ace6e",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 392741,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 73740,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "C",
+    "repetition": 1,
+    "config": "configs/quiet_components_C_s22853_rep1.yaml",
+    "config_sha256": "67778638505b9c5da26cb04c0b76bbdbb6eb561dd3307e4a5fc14580052b5423",
+    "run_path": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+    "manifest_sha256": "674a7a9714049330272d5bb5c28a2c0d0f98abf4d25941c1c7720b500dc24585",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 28,
+      "max_requests": 36,
+      "reserved_tokens": 446848,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 73436,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 28,
+      "reflections_recorded": 4
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "B",
+    "repetition": 2,
+    "config": "configs/quiet_components_B_s22853_rep2.yaml",
+    "config_sha256": "ac84229b615864b6864e7b9f082b224086197151026aaefd905c2bae46f6792a",
+    "run_path": "market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00",
+    "manifest_sha256": "c087c01714122daefc53a8bb0d736c134386429e78a3f805bc2a6fa0581eeb76",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 384973,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 64561,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "C",
+    "repetition": 2,
+    "config": "configs/quiet_components_C_s22853_rep2.yaml",
+    "config_sha256": "036fdac8b72f650d0e932d8b1db7675b72d13bcebf01d57ca4ed9a328e5c09a6",
+    "run_path": "market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382",
+    "manifest_sha256": "94e7e2512d75108e0e6650c8a3b39dbcfebe09a78bc2b8566631468bed8ef327",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 28,
+      "max_requests": 36,
+      "reserved_tokens": 450592,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 77754,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 28,
+      "reflections_recorded": 4
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "A",
+    "repetition": 2,
+    "config": "configs/quiet_components_A_s22853_rep2.yaml",
+    "config_sha256": "493fb3edf38d510df5b820998fb65e2459e3088beefbdaaebc6619e0593c53fc",
+    "run_path": "market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c",
+    "manifest_sha256": "e2adcfc51cbecfb63c1801cd15e1ab0e86d90da200f70f4e7674a3cc15707a59",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 369366,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 57584,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "B",
+    "repetition": 1,
+    "config": "configs/quiet_components_B_s23971_rep1.yaml",
+    "config_sha256": "7e51be1b7a8cbb1db77e1d07b6af08abb4334780ab75920d8e4c7cb4dfa73e91",
+    "run_path": "market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003",
+    "manifest_sha256": "f561ab820d7ef51f9ed0bf904019d7b18bc5568e59440d195d7410fd679e1ca1",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 385329,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 63880,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "C",
+    "repetition": 1,
+    "config": "configs/quiet_components_C_s23971_rep1.yaml",
+    "config_sha256": "5e9c62b241176c320b038bf4aeca498ed51a92e10992608edae2ba874e1fb3e8",
+    "run_path": "market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74",
+    "manifest_sha256": "704bd687a61e49fe1522c668f1252962c63c8e64d3ee3ab1146db4d955f6706d",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 28,
+      "max_requests": 36,
+      "reserved_tokens": 456193,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 77987,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 28,
+      "reflections_recorded": 4
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "A",
+    "repetition": 1,
+    "config": "configs/quiet_components_A_s23971_rep1.yaml",
+    "config_sha256": "a61a82ec30ecd055195ad72f4741061f17d3eea1d61cdfd9ab4a90f2d8b2cf78",
+    "run_path": "market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830",
+    "manifest_sha256": "c00f972873b2bb1e1358bddcd69a7dad39a50492cf4eec99fb9f2e92bed2fb32",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 375848,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 62348,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "C",
+    "repetition": 2,
+    "config": "configs/quiet_components_C_s23971_rep2.yaml",
+    "config_sha256": "c33ba67ea24b1029f4539fdef60e34bbb4d1d933993f479597aa387a4f530ccf",
+    "run_path": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+    "manifest_sha256": "9dd7d26e946994cdb677a6c46b40ca41108484f2b14f7d8cc088aa5b0d936e63",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 28,
+      "max_requests": 36,
+      "reserved_tokens": 458709,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 78401,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 28,
+      "reflections_recorded": 4
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "A",
+    "repetition": 2,
+    "config": "configs/quiet_components_A_s23971_rep2.yaml",
+    "config_sha256": "ee77ab6bafbf513c1df1a96d45db0d5853bc4da35d5637b48fa03e7cc99f8682",
+    "run_path": "market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1",
+    "manifest_sha256": "7815ea0269ccf056738c97b3fa85fa4264def852e4d159a9965ccae0822ac5a6",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 372787,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 57403,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "B",
+    "repetition": 2,
+    "config": "configs/quiet_components_B_s23971_rep2.yaml",
+    "config_sha256": "c509786a01a871220c5f4c750553befc298fadc626c67543611297f4fbe398f5",
+    "run_path": "market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838",
+    "manifest_sha256": "c4a2b5abd47bf2ba5f8503e321aeea0fea61950b234dc10fbc49a93dcadb2713",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 383511,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 64013,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "C",
+    "repetition": 1,
+    "config": "configs/quiet_components_C_s25087_rep1.yaml",
+    "config_sha256": "bbfb4aeeff753751268183fe6738a88cbefa9edff133095b9475c720852010b8",
+    "run_path": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+    "manifest_sha256": "ee2a8536011952f08d090101d54e1d286c55e2d14f9fe95f5d58549c96b39b94",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 28,
+      "max_requests": 36,
+      "reserved_tokens": 449928,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 75695,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 28,
+      "reflections_recorded": 4
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "A",
+    "repetition": 1,
+    "config": "configs/quiet_components_A_s25087_rep1.yaml",
+    "config_sha256": "2ba3bc9f439052e2825dbe296cbcaacb3358e5d94782cd8211ad14ea8f8e546d",
+    "run_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+    "manifest_sha256": "b8d5d1f8d1ccd9f2860f798292709cd7ace0979983383c19067af9400a5e5020",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 371606,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 58914,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "B",
+    "repetition": 1,
+    "config": "configs/quiet_components_B_s25087_rep1.yaml",
+    "config_sha256": "c97dd88c54a72fdaa36d77ea4228a01ae02338df4243b51aec3027316da02a52",
+    "run_path": "market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8",
+    "manifest_sha256": "df1233ad905cf1469af17576ab046b93c74fa4b597d72f1392657f003730687a",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 387566,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 66012,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "A",
+    "repetition": 2,
+    "config": "configs/quiet_components_A_s25087_rep2.yaml",
+    "config_sha256": "75eee4a728f9ca4f10fd637066986d92c51ff27eb78a7aa91b4457f360c43b3d",
+    "run_path": "market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953",
+    "manifest_sha256": "2be3af1671c62cbc3ab0bef996cd59dbbe96742a76795ff495d2eb5fae8df361",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 374828,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 61374,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "B",
+    "repetition": 2,
+    "config": "configs/quiet_components_B_s25087_rep2.yaml",
+    "config_sha256": "24bb6aa16cea9e5a240be2b8328f86b4ea173973f57551e68217cfb15b49afa7",
+    "run_path": "market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98",
+    "manifest_sha256": "de924ac9e6755433843a6d2d459cf3a01d97cd1da7cca95218b1cbd4a8dc1ca8",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 24,
+      "max_requests": 36,
+      "reserved_tokens": 379407,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 62240,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 24,
+      "reflections_recorded": 0
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "C",
+    "repetition": 2,
+    "config": "configs/quiet_components_C_s25087_rep2.yaml",
+    "config_sha256": "8ae0fdae6071bce50cbb639008f2618cfe8f9fe61321248fb5df958444832baa",
+    "run_path": "market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0",
+    "manifest_sha256": "a9b1aa2bfa6cd716cf2d0ae7b8c705e12bf74584c63e322b653056a9156cef5c",
+    "status": "completed",
+    "rounds": 12,
+    "usage": {
+      "requests_made": 28,
+      "max_requests": 36,
+      "reserved_tokens": 452178,
+      "max_reserved_tokens": 550000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 76117,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "operational_failures": {
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "output_truncations": 0,
+      "json_repairs": 0
+    },
+    "history_audit": {
+      "actual_history_requests_checked": 28,
+      "reflections_recorded": 4
+    }
+  }
+]

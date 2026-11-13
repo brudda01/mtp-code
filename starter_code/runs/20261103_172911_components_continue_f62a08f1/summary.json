@@ -1,0 +1,31 @@
+{
+  "status": "output_truncated",
+  "rounds": 0,
+  "completed_decisions": 16,
+  "planned_decisions": 74,
+  "completed_reflections": 4,
+  "planned_reflections": 16,
+  "inherited_reflection_steps": 2,
+  "cumulative_decisions": 50,
+  "cumulative_reflections": 12,
+  "failure_type": "OutputLimitExceeded",
+  "llm_usage": {
+    "requests_made": 21,
+    "max_requests": 215,
+    "reserved_tokens": 271173,
+    "max_reserved_tokens": 3358787,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 66993,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  }
+}

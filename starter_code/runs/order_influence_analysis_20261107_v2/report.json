@@ -1,0 +1,3122 @@
+{
+  "stage": "R054 conditional auction influence",
+  "protocol_sha256": "37661f94606ee36002245eaefdcec326c8e1aeaf656abab14eab7204d37f34fe",
+  "inputs_sha256": {
+    "runs/order_influence_20261107/execution.json": "c050944b90504defaeb2d2924aca67af7021715cc1ceb4b9faed4687f510cd77",
+    "runs/order_influence_20261107/factual_verification.json": "81522489ce66487477a0401cf63576ccb47cb71a8f700eaca0801244484121a7",
+    "runs/order_influence_20261107/frames.json": "01ac22f8d7c77de5937d767f5dbeb34fe7f1e03640810c8e41634b5f1c6c25b6",
+    "runs/order_influence_20261107/gate_execution.json": "408e20472011b16169b793f77108716b4d655d1f9bc2657e37309ebfab125bec",
+    "runs/order_influence_20261107/output_manifest.json": "2d1700ffdae7e78844099be97181ce4a7aeebc8904094e6dc159d82b6a2e4729",
+    "runs/order_influence_20261107/preparation.json": "b2323bde1b9532b6c2e579bbd8ff67050ed4182ddcc9262796972a902af79cd6",
+    "runs/order_influence_20261107/protocol.json": "37661f94606ee36002245eaefdcec326c8e1aeaf656abab14eab7204d37f34fe",
+    "runs/order_influence_20261107/results.json": "c03afcd1ed660d6d0588b098e3fa47ea1429e4c2064722d27bc56b485649e6c2",
+    "runs/order_influence_20261107/source.zip": "7e8f56181173c4835740f234bffc9f96728f3b1d26837be9503723b981cfa48c",
+    "runs/order_influence_20261107/summary.json": "37309a2019da53657202d1e2f245177eb4e26835dd7416f31617c3e481886a8e"
+  },
+  "aggregates": {
+    "condition": [
+      {
+        "condition": "cap10",
+        "frames": 216,
+        "cap_affected": 105,
+        "price_changes": 49,
+        "price_change_pct": 22.685185185185187,
+        "mean_absolute_impact_pct": 0.7105577244260755,
+        "affected_price_changes": 49,
+        "affected_price_change_pct": 46.666666666666664,
+        "affected_mean_absolute_impact_pct": 1.4617187473907838,
+        "max_absolute_impact_pct": 9.361233480176212,
+        "factual_volume": 5118,
+        "counterfactual_volume": 4339,
+        "volume_reduction_pct": 15.220789370847987,
+        "factual_target_volume_share_pct": 44.33372411098085,
+        "changed_fills_same_price": 27,
+        "price_up": 8,
+        "price_down": 41,
+        "gap_improves": 37,
+        "gap_worsens": 12,
+        "gap_equal": 167,
+        "mean_gap_difference_pp": -0.3995370370370369,
+        "maker_inventory_changes": 53
+      },
+      {
+        "condition": "remove",
+        "frames": 216,
+        "cap_affected": 105,
+        "price_changes": 74,
+        "price_change_pct": 34.25925925925926,
+        "mean_absolute_impact_pct": 0.9776748987946298,
+        "affected_price_changes": 69,
+        "affected_price_change_pct": 65.71428571428571,
+        "affected_mean_absolute_impact_pct": 1.979618204548941,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 5118,
+        "counterfactual_volume": 3801,
+        "volume_reduction_pct": 25.732708089097304,
+        "factual_target_volume_share_pct": 44.33372411098085,
+        "changed_fills_same_price": 44,
+        "price_up": 13,
+        "price_down": 61,
+        "gap_improves": 45,
+        "gap_worsens": 29,
+        "gap_equal": 142,
+        "mean_gap_difference_pp": -0.3282407407407407,
+        "maker_inventory_changes": 90
+      }
+    ],
+    "seed_condition": [
+      {
+        "seed": 22853,
+        "condition": "cap10",
+        "frames": 72,
+        "cap_affected": 47,
+        "price_changes": 18,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 0.6994297076554169,
+        "affected_price_changes": 18,
+        "affected_price_change_pct": 38.297872340425535,
+        "affected_mean_absolute_impact_pct": 1.0714667861955323,
+        "max_absolute_impact_pct": 9.361233480176212,
+        "factual_volume": 1576,
+        "counterfactual_volume": 1299,
+        "volume_reduction_pct": 17.576142131979694,
+        "factual_target_volume_share_pct": 59.01015228426396,
+        "changed_fills_same_price": 13,
+        "price_up": 4,
+        "price_down": 14,
+        "gap_improves": 10,
+        "gap_worsens": 8,
+        "gap_equal": 54,
+        "mean_gap_difference_pp": -0.023611111111110663,
+        "maker_inventory_changes": 22
+      },
+      {
+        "seed": 22853,
+        "condition": "remove",
+        "frames": 72,
+        "cap_affected": 47,
+        "price_changes": 33,
+        "price_change_pct": 45.833333333333336,
+        "mean_absolute_impact_pct": 0.9416248948475237,
+        "affected_price_changes": 31,
+        "affected_price_change_pct": 65.95744680851064,
+        "affected_mean_absolute_impact_pct": 1.4078580591161127,
+        "max_absolute_impact_pct": 9.361233480176212,
+        "factual_volume": 1576,
+        "counterfactual_volume": 1105,
+        "volume_reduction_pct": 29.885786802030456,
+        "factual_target_volume_share_pct": 59.01015228426396,
+        "changed_fills_same_price": 14,
+        "price_up": 6,
+        "price_down": 27,
+        "gap_improves": 17,
+        "gap_worsens": 16,
+        "gap_equal": 39,
+        "mean_gap_difference_pp": -0.06527777777777784,
+        "maker_inventory_changes": 38
+      },
+      {
+        "seed": 23971,
+        "condition": "cap10",
+        "frames": 72,
+        "cap_affected": 30,
+        "price_changes": 20,
+        "price_change_pct": 27.77777777777778,
+        "mean_absolute_impact_pct": 0.5246462845980852,
+        "affected_price_changes": 20,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 1.2591510830354045,
+        "max_absolute_impact_pct": 6.60377358490566,
+        "factual_volume": 1583,
+        "counterfactual_volume": 1355,
+        "volume_reduction_pct": 14.403032217308906,
+        "factual_target_volume_share_pct": 44.85154769425142,
+        "changed_fills_same_price": 5,
+        "price_up": 2,
+        "price_down": 18,
+        "gap_improves": 18,
+        "gap_worsens": 2,
+        "gap_equal": 52,
+        "mean_gap_difference_pp": -0.2694444444444444,
+        "maker_inventory_changes": 23
+      },
+      {
+        "seed": 23971,
+        "condition": "remove",
+        "frames": 72,
+        "cap_affected": 30,
+        "price_changes": 23,
+        "price_change_pct": 31.944444444444443,
+        "mean_absolute_impact_pct": 0.9259977673582089,
+        "affected_price_changes": 23,
+        "affected_price_change_pct": 76.66666666666667,
+        "affected_mean_absolute_impact_pct": 2.2223946416597014,
+        "max_absolute_impact_pct": 7.735849056603776,
+        "factual_volume": 1583,
+        "counterfactual_volume": 1209,
+        "volume_reduction_pct": 23.626026531901452,
+        "factual_target_volume_share_pct": 44.85154769425142,
+        "changed_fills_same_price": 15,
+        "price_up": 4,
+        "price_down": 19,
+        "gap_improves": 13,
+        "gap_worsens": 10,
+        "gap_equal": 49,
+        "mean_gap_difference_pp": 0.07083333333333355,
+        "maker_inventory_changes": 29
+      },
+      {
+        "seed": 25087,
+        "condition": "cap10",
+        "frames": 72,
+        "cap_affected": 28,
+        "price_changes": 11,
+        "price_change_pct": 15.277777777777779,
+        "mean_absolute_impact_pct": 0.9075971810247243,
+        "affected_price_changes": 11,
+        "affected_price_change_pct": 39.285714285714285,
+        "affected_mean_absolute_impact_pct": 2.3338213226350053,
+        "max_absolute_impact_pct": 9.19881305637982,
+        "factual_volume": 1959,
+        "counterfactual_volume": 1685,
+        "volume_reduction_pct": 13.986727922409392,
+        "factual_target_volume_share_pct": 32.10821847881572,
+        "changed_fills_same_price": 9,
+        "price_up": 2,
+        "price_down": 9,
+        "gap_improves": 9,
+        "gap_worsens": 2,
+        "gap_equal": 61,
+        "mean_gap_difference_pp": -0.9055555555555558,
+        "maker_inventory_changes": 8
+      },
+      {
+        "seed": 25087,
+        "condition": "remove",
+        "frames": 72,
+        "cap_affected": 28,
+        "price_changes": 18,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 1.0654020341781567,
+        "affected_price_changes": 15,
+        "affected_price_change_pct": 53.57142857142857,
+        "affected_mean_absolute_impact_pct": 2.6792408374782313,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 1959,
+        "counterfactual_volume": 1487,
+        "volume_reduction_pct": 24.093925472179684,
+        "factual_target_volume_share_pct": 32.10821847881572,
+        "changed_fills_same_price": 15,
+        "price_up": 3,
+        "price_down": 15,
+        "gap_improves": 15,
+        "gap_worsens": 3,
+        "gap_equal": 54,
+        "mean_gap_difference_pp": -0.9902777777777779,
+        "maker_inventory_changes": 23
+      }
+    ],
+    "mode_condition": [
+      {
+        "mode": "A",
+        "condition": "cap10",
+        "frames": 72,
+        "cap_affected": 39,
+        "price_changes": 17,
+        "price_change_pct": 23.61111111111111,
+        "mean_absolute_impact_pct": 0.6825113594538128,
+        "affected_price_changes": 17,
+        "affected_price_change_pct": 43.58974358974359,
+        "affected_mean_absolute_impact_pct": 1.2600209712993466,
+        "max_absolute_impact_pct": 9.19881305637982,
+        "factual_volume": 1759,
+        "counterfactual_volume": 1465,
+        "volume_reduction_pct": 16.71404206935759,
+        "factual_target_volume_share_pct": 45.65093803297328,
+        "changed_fills_same_price": 7,
+        "price_up": 3,
+        "price_down": 14,
+        "gap_improves": 12,
+        "gap_worsens": 5,
+        "gap_equal": 55,
+        "mean_gap_difference_pp": -0.26666666666666644,
+        "maker_inventory_changes": 18
+      },
+      {
+        "mode": "A",
+        "condition": "remove",
+        "frames": 72,
+        "cap_affected": 39,
+        "price_changes": 24,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 0.8979454712251319,
+        "affected_price_changes": 23,
+        "affected_price_change_pct": 58.97435897435897,
+        "affected_mean_absolute_impact_pct": 1.6439969461209967,
+        "max_absolute_impact_pct": 9.31818181818182,
+        "factual_volume": 1759,
+        "counterfactual_volume": 1280,
+        "volume_reduction_pct": 27.231381466742466,
+        "factual_target_volume_share_pct": 45.65093803297328,
+        "changed_fills_same_price": 16,
+        "price_up": 5,
+        "price_down": 19,
+        "gap_improves": 13,
+        "gap_worsens": 11,
+        "gap_equal": 48,
+        "mean_gap_difference_pp": -0.11527777777777773,
+        "maker_inventory_changes": 30
+      },
+      {
+        "mode": "B",
+        "condition": "cap10",
+        "frames": 72,
+        "cap_affected": 32,
+        "price_changes": 17,
+        "price_change_pct": 23.61111111111111,
+        "mean_absolute_impact_pct": 0.9002519006812544,
+        "affected_price_changes": 17,
+        "affected_price_change_pct": 53.125,
+        "affected_mean_absolute_impact_pct": 2.0255667765328225,
+        "max_absolute_impact_pct": 9.361233480176212,
+        "factual_volume": 1777,
+        "counterfactual_volume": 1484,
+        "volume_reduction_pct": 16.488463702870007,
+        "factual_target_volume_share_pct": 45.35734383792909,
+        "changed_fills_same_price": 10,
+        "price_up": 3,
+        "price_down": 14,
+        "gap_improves": 14,
+        "gap_worsens": 3,
+        "gap_equal": 55,
+        "mean_gap_difference_pp": -0.5583333333333336,
+        "maker_inventory_changes": 16
+      },
+      {
+        "mode": "B",
+        "condition": "remove",
+        "frames": 72,
+        "cap_affected": 32,
+        "price_changes": 24,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 1.1865734341230334,
+        "affected_price_changes": 23,
+        "affected_price_change_pct": 71.875,
+        "affected_mean_absolute_impact_pct": 2.634007784028734,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 1777,
+        "counterfactual_volume": 1294,
+        "volume_reduction_pct": 27.180641530669668,
+        "factual_target_volume_share_pct": 45.35734383792909,
+        "changed_fills_same_price": 15,
+        "price_up": 4,
+        "price_down": 20,
+        "gap_improves": 16,
+        "gap_worsens": 8,
+        "gap_equal": 48,
+        "mean_gap_difference_pp": -0.5652777777777784,
+        "maker_inventory_changes": 26
+      },
+      {
+        "mode": "C",
+        "condition": "cap10",
+        "frames": 72,
+        "cap_affected": 34,
+        "price_changes": 15,
+        "price_change_pct": 20.833333333333332,
+        "mean_absolute_impact_pct": 0.5489099131431593,
+        "affected_price_changes": 15,
+        "affected_price_change_pct": 44.11764705882353,
+        "affected_mean_absolute_impact_pct": 1.1623974631266902,
+        "max_absolute_impact_pct": 9.179687500000005,
+        "factual_volume": 1582,
+        "counterfactual_volume": 1390,
+        "volume_reduction_pct": 12.13653603034134,
+        "factual_target_volume_share_pct": 41.719342604298355,
+        "changed_fills_same_price": 10,
+        "price_up": 2,
+        "price_down": 13,
+        "gap_improves": 11,
+        "gap_worsens": 4,
+        "gap_equal": 57,
+        "mean_gap_difference_pp": -0.37361111111111084,
+        "maker_inventory_changes": 19
+      },
+      {
+        "mode": "C",
+        "condition": "remove",
+        "frames": 72,
+        "cap_affected": 34,
+        "price_changes": 26,
+        "price_change_pct": 36.111111111111114,
+        "mean_absolute_impact_pct": 0.848505791035724,
+        "affected_price_changes": 23,
+        "affected_price_change_pct": 67.6470588235294,
+        "affected_mean_absolute_impact_pct": 1.7486994555882487,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 1582,
+        "counterfactual_volume": 1227,
+        "volume_reduction_pct": 22.439949431099873,
+        "factual_target_volume_share_pct": 41.719342604298355,
+        "changed_fills_same_price": 13,
+        "price_up": 4,
+        "price_down": 22,
+        "gap_improves": 16,
+        "gap_worsens": 10,
+        "gap_equal": 46,
+        "mean_gap_difference_pp": -0.30416666666666603,
+        "maker_inventory_changes": 34
+      }
+    ],
+    "seed_mode_repetition_condition": [
+      {
+        "seed": 22853,
+        "mode": "A",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 1.5220563212193086,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 3.044112642438617,
+        "max_absolute_impact_pct": 8.181818181818185,
+        "factual_volume": 333,
+        "counterfactual_volume": 248,
+        "volume_reduction_pct": 25.525525525525527,
+        "factual_target_volume_share_pct": 63.66366366366366,
+        "changed_fills_same_price": 1,
+        "price_up": 2,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 2,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -0.05833333333333331,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 22853,
+        "mode": "A",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 1.6452270950165055,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 3.290454190033011,
+        "max_absolute_impact_pct": 9.31818181818182,
+        "factual_volume": 333,
+        "counterfactual_volume": 213,
+        "volume_reduction_pct": 36.03603603603604,
+        "factual_target_volume_share_pct": 63.66366366366366,
+        "changed_fills_same_price": 2,
+        "price_up": 2,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 2,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": 0.050000000000000044,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 22853,
+        "mode": "A",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 10,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 0.12479270315091211,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 30.0,
+        "affected_mean_absolute_impact_pct": 0.14975124378109453,
+        "max_absolute_impact_pct": 0.5,
+        "factual_volume": 237,
+        "counterfactual_volume": 217,
+        "volume_reduction_pct": 8.438818565400844,
+        "factual_target_volume_share_pct": 49.78902953586498,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 1,
+        "gap_worsens": 2,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": 0.04166666666666763,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 22853,
+        "mode": "A",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 10,
+        "price_changes": 7,
+        "price_change_pct": 58.333333333333336,
+        "mean_absolute_impact_pct": 0.3423497847804886,
+        "affected_price_changes": 7,
+        "affected_price_change_pct": 70.0,
+        "affected_mean_absolute_impact_pct": 0.41081974173658636,
+        "max_absolute_impact_pct": 1.113172541743973,
+        "factual_volume": 237,
+        "counterfactual_volume": 182,
+        "volume_reduction_pct": 23.206751054852322,
+        "factual_target_volume_share_pct": 49.78902953586498,
+        "changed_fills_same_price": 2,
+        "price_up": 1,
+        "price_down": 6,
+        "gap_improves": 2,
+        "gap_worsens": 5,
+        "gap_equal": 5,
+        "mean_gap_difference_pp": 0.18333333333333535,
+        "maker_inventory_changes": 8
+      },
+      {
+        "seed": 22853,
+        "mode": "B",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 10,
+        "price_changes": 2,
+        "price_change_pct": 16.666666666666668,
+        "mean_absolute_impact_pct": 0.8396265995384941,
+        "affected_price_changes": 2,
+        "affected_price_change_pct": 20.0,
+        "affected_mean_absolute_impact_pct": 1.0075519194461928,
+        "max_absolute_impact_pct": 9.361233480176212,
+        "factual_volume": 309,
+        "counterfactual_volume": 239,
+        "volume_reduction_pct": 22.653721682847895,
+        "factual_target_volume_share_pct": 79.6116504854369,
+        "changed_fills_same_price": 6,
+        "price_up": 1,
+        "price_down": 1,
+        "gap_improves": 1,
+        "gap_worsens": 1,
+        "gap_equal": 10,
+        "mean_gap_difference_pp": 0.6500000000000006,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 22853,
+        "mode": "B",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 10,
+        "price_changes": 6,
+        "price_change_pct": 50.0,
+        "mean_absolute_impact_pct": 1.5635053906227727,
+        "affected_price_changes": 6,
+        "affected_price_change_pct": 60.0,
+        "affected_mean_absolute_impact_pct": 1.8762064687473272,
+        "max_absolute_impact_pct": 9.361233480176212,
+        "factual_volume": 309,
+        "counterfactual_volume": 189,
+        "volume_reduction_pct": 38.83495145631068,
+        "factual_target_volume_share_pct": 79.6116504854369,
+        "changed_fills_same_price": 3,
+        "price_up": 2,
+        "price_down": 4,
+        "gap_improves": 2,
+        "gap_worsens": 4,
+        "gap_equal": 6,
+        "mean_gap_difference_pp": 0.3833333333333318,
+        "maker_inventory_changes": 5
+      },
+      {
+        "seed": 22853,
+        "mode": "B",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 1.1302769155725447,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 80.0,
+        "affected_mean_absolute_impact_pct": 2.7126645973741073,
+        "max_absolute_impact_pct": 7.788461538461533,
+        "factual_volume": 255,
+        "counterfactual_volume": 196,
+        "volume_reduction_pct": 23.137254901960784,
+        "factual_target_volume_share_pct": 60.3921568627451,
+        "changed_fills_same_price": 1,
+        "price_up": 1,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 1,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -0.44166666666666615,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 22853,
+        "mode": "B",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 6,
+        "price_change_pct": 50.0,
+        "mean_absolute_impact_pct": 1.3134160611464027,
+        "affected_price_changes": 5,
+        "affected_price_change_pct": 100.0,
+        "affected_mean_absolute_impact_pct": 2.9231909131635825,
+        "max_absolute_impact_pct": 7.788461538461533,
+        "factual_volume": 255,
+        "counterfactual_volume": 162,
+        "volume_reduction_pct": 36.470588235294116,
+        "factual_target_volume_share_pct": 60.3921568627451,
+        "changed_fills_same_price": 1,
+        "price_up": 1,
+        "price_down": 5,
+        "gap_improves": 5,
+        "gap_worsens": 1,
+        "gap_equal": 6,
+        "mean_gap_difference_pp": -0.6333333333333339,
+        "maker_inventory_changes": 6
+      },
+      {
+        "seed": 22853,
+        "mode": "C",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 11,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 0.12479270315091211,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 27.272727272727273,
+        "affected_mean_absolute_impact_pct": 0.13613749434644956,
+        "max_absolute_impact_pct": 0.5,
+        "factual_volume": 203,
+        "counterfactual_volume": 203,
+        "volume_reduction_pct": 0.0,
+        "factual_target_volume_share_pct": 47.783251231527096,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 1,
+        "gap_worsens": 2,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": 0.04166666666666763,
+        "maker_inventory_changes": 3
+      },
+      {
+        "seed": 22853,
+        "mode": "C",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 11,
+        "price_changes": 6,
+        "price_change_pct": 50.0,
+        "mean_absolute_impact_pct": 0.24958540630182421,
+        "affected_price_changes": 6,
+        "affected_price_change_pct": 54.54545454545455,
+        "affected_mean_absolute_impact_pct": 0.2722749886928991,
+        "max_absolute_impact_pct": 0.5,
+        "factual_volume": 203,
+        "counterfactual_volume": 182,
+        "volume_reduction_pct": 10.344827586206897,
+        "factual_target_volume_share_pct": 47.783251231527096,
+        "changed_fills_same_price": 3,
+        "price_up": 0,
+        "price_down": 6,
+        "gap_improves": 2,
+        "gap_worsens": 4,
+        "gap_equal": 6,
+        "mean_gap_difference_pp": 0.08333333333333526,
+        "maker_inventory_changes": 8
+      },
+      {
+        "seed": 22853,
+        "mode": "C",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 2,
+        "price_change_pct": 16.666666666666668,
+        "mean_absolute_impact_pct": 0.45503300330033003,
+        "affected_price_changes": 2,
+        "affected_price_change_pct": 40.0,
+        "affected_mean_absolute_impact_pct": 1.0920792079207922,
+        "max_absolute_impact_pct": 3.9603960396039604,
+        "factual_volume": 239,
+        "counterfactual_volume": 196,
+        "volume_reduction_pct": 17.99163179916318,
+        "factual_target_volume_share_pct": 43.09623430962343,
+        "changed_fills_same_price": 1,
+        "price_up": 0,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 0,
+        "gap_equal": 10,
+        "mean_gap_difference_pp": -0.37500000000000033,
+        "maker_inventory_changes": 3
+      },
+      {
+        "seed": 22853,
+        "mode": "C",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 0.535665631217148,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 60.0,
+        "affected_mean_absolute_impact_pct": 1.1890724183960588,
+        "max_absolute_impact_pct": 3.9603960396039604,
+        "factual_volume": 239,
+        "counterfactual_volume": 177,
+        "volume_reduction_pct": 25.94142259414226,
+        "factual_target_volume_share_pct": 43.09623430962343,
+        "changed_fills_same_price": 3,
+        "price_up": 0,
+        "price_down": 4,
+        "gap_improves": 4,
+        "gap_worsens": 0,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -0.4583333333333356,
+        "maker_inventory_changes": 7
+      },
+      {
+        "seed": 23971,
+        "mode": "A",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 8,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 0.2884434544020747,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 50.0,
+        "affected_mean_absolute_impact_pct": 0.432665181603112,
+        "max_absolute_impact_pct": 1.094527363184074,
+        "factual_volume": 271,
+        "counterfactual_volume": 238,
+        "volume_reduction_pct": 12.177121771217712,
+        "factual_target_volume_share_pct": 38.00738007380074,
+        "changed_fills_same_price": 0,
+        "price_up": 0,
+        "price_down": 4,
+        "gap_improves": 4,
+        "gap_worsens": 0,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -0.291666666666666,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 23971,
+        "mode": "A",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 8,
+        "price_changes": 5,
+        "price_change_pct": 41.666666666666664,
+        "mean_absolute_impact_pct": 0.700425180619828,
+        "affected_price_changes": 5,
+        "affected_price_change_pct": 62.5,
+        "affected_mean_absolute_impact_pct": 1.0506377709297419,
+        "max_absolute_impact_pct": 4.1791044776119435,
+        "factual_volume": 271,
+        "counterfactual_volume": 213,
+        "volume_reduction_pct": 21.40221402214022,
+        "factual_target_volume_share_pct": 38.00738007380074,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 5,
+        "gap_improves": 4,
+        "gap_worsens": 1,
+        "gap_equal": 7,
+        "mean_gap_difference_pp": -0.09166666666666674,
+        "maker_inventory_changes": 5
+      },
+      {
+        "seed": 23971,
+        "mode": "A",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 0.9845540770984176,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 80.0,
+        "affected_mean_absolute_impact_pct": 2.362929785036202,
+        "max_absolute_impact_pct": 6.60377358490566,
+        "factual_volume": 290,
+        "counterfactual_volume": 234,
+        "volume_reduction_pct": 19.310344827586206,
+        "factual_target_volume_share_pct": 52.06896551724138,
+        "changed_fills_same_price": 1,
+        "price_up": 1,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 1,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -0.09166666666666767,
+        "maker_inventory_changes": 5
+      },
+      {
+        "seed": 23971,
+        "mode": "A",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 5,
+        "price_change_pct": 41.666666666666664,
+        "mean_absolute_impact_pct": 1.4797664136242532,
+        "affected_price_changes": 5,
+        "affected_price_change_pct": 100.0,
+        "affected_mean_absolute_impact_pct": 3.5514393926982075,
+        "max_absolute_impact_pct": 7.735849056603776,
+        "factual_volume": 290,
+        "counterfactual_volume": 207,
+        "volume_reduction_pct": 28.620689655172413,
+        "factual_target_volume_share_pct": 52.06896551724138,
+        "changed_fills_same_price": 2,
+        "price_up": 2,
+        "price_down": 3,
+        "gap_improves": 2,
+        "gap_worsens": 3,
+        "gap_equal": 7,
+        "mean_gap_difference_pp": 0.41666666666666613,
+        "maker_inventory_changes": 6
+      },
+      {
+        "seed": 23971,
+        "mode": "B",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 3,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 0.4342396116896125,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 100.0,
+        "affected_mean_absolute_impact_pct": 1.73695844675845,
+        "max_absolute_impact_pct": 2.985074626865672,
+        "factual_volume": 260,
+        "counterfactual_volume": 229,
+        "volume_reduction_pct": 11.923076923076923,
+        "factual_target_volume_share_pct": 36.92307692307692,
+        "changed_fills_same_price": 0,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 0,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -0.441666666666668,
+        "maker_inventory_changes": 3
+      },
+      {
+        "seed": 23971,
+        "mode": "B",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 3,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 0.7410389483396956,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 100.0,
+        "affected_mean_absolute_impact_pct": 2.9641557933587825,
+        "max_absolute_impact_pct": 6.666666666666669,
+        "factual_volume": 260,
+        "counterfactual_volume": 211,
+        "volume_reduction_pct": 18.846153846153847,
+        "factual_target_volume_share_pct": 36.92307692307692,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 2,
+        "gap_worsens": 1,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -0.1333333333333344,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 23971,
+        "mode": "B",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 3,
+        "price_changes": 2,
+        "price_change_pct": 16.666666666666668,
+        "mean_absolute_impact_pct": 0.3458435975462496,
+        "affected_price_changes": 2,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 1.3833743901849984,
+        "max_absolute_impact_pct": 2.985074626865672,
+        "factual_volume": 260,
+        "counterfactual_volume": 219,
+        "volume_reduction_pct": 15.76923076923077,
+        "factual_target_volume_share_pct": 42.69230769230769,
+        "changed_fills_same_price": 1,
+        "price_up": 0,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 0,
+        "gap_equal": 10,
+        "mean_gap_difference_pp": -0.3500000000000003,
+        "maker_inventory_changes": 2
+      },
+      {
+        "seed": 23971,
+        "mode": "B",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 3,
+        "price_changes": 2,
+        "price_change_pct": 16.666666666666668,
+        "mean_absolute_impact_pct": 0.6526429341963327,
+        "affected_price_changes": 2,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 2.6105717367853307,
+        "max_absolute_impact_pct": 6.666666666666669,
+        "factual_volume": 260,
+        "counterfactual_volume": 197,
+        "volume_reduction_pct": 24.23076923076923,
+        "factual_target_volume_share_pct": 42.69230769230769,
+        "changed_fills_same_price": 4,
+        "price_up": 0,
+        "price_down": 2,
+        "gap_improves": 1,
+        "gap_worsens": 1,
+        "gap_equal": 10,
+        "mean_gap_difference_pp": -0.041666666666666706,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 23971,
+        "mode": "C",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 0.8879922171092787,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 50.0,
+        "affected_mean_absolute_impact_pct": 1.7759844342185573,
+        "max_absolute_impact_pct": 6.602870813397121,
+        "factual_volume": 278,
+        "counterfactual_volume": 226,
+        "volume_reduction_pct": 18.705035971223023,
+        "factual_target_volume_share_pct": 54.31654676258993,
+        "changed_fills_same_price": 3,
+        "price_up": 1,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 1,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -0.23333333333333353,
+        "maker_inventory_changes": 5
+      },
+      {
+        "seed": 23971,
+        "mode": "C",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 1.3778397366570263,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 2.7556794733140526,
+        "max_absolute_impact_pct": 7.655502392344498,
+        "factual_volume": 278,
+        "counterfactual_volume": 193,
+        "volume_reduction_pct": 30.575539568345324,
+        "factual_target_volume_share_pct": 54.31654676258993,
+        "changed_fills_same_price": 3,
+        "price_up": 2,
+        "price_down": 2,
+        "gap_improves": 1,
+        "gap_worsens": 3,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": 0.26666666666666783,
+        "maker_inventory_changes": 6
+      },
+      {
+        "seed": 23971,
+        "mode": "C",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 0.2068047497428781,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 80.0,
+        "affected_mean_absolute_impact_pct": 0.49633139938290743,
+        "max_absolute_impact_pct": 0.9891196834817013,
+        "factual_volume": 224,
+        "counterfactual_volume": 209,
+        "volume_reduction_pct": 6.696428571428571,
+        "factual_target_volume_share_pct": 43.75,
+        "changed_fills_same_price": 0,
+        "price_up": 0,
+        "price_down": 4,
+        "gap_improves": 4,
+        "gap_worsens": 0,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -0.20833333333333073,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 23971,
+        "mode": "C",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 0.6042733907121179,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 80.0,
+        "affected_mean_absolute_impact_pct": 1.450256137709083,
+        "max_absolute_impact_pct": 4.1791044776119435,
+        "factual_volume": 224,
+        "counterfactual_volume": 188,
+        "volume_reduction_pct": 16.071428571428573,
+        "factual_target_volume_share_pct": 43.75,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 4,
+        "gap_improves": 3,
+        "gap_worsens": 1,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": 0.008333333333335191,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 25087,
+        "mode": "A",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 4,
+        "price_changes": 1,
+        "price_change_pct": 8.333333333333334,
+        "mean_absolute_impact_pct": 0.7665677546983183,
+        "affected_price_changes": 1,
+        "affected_price_change_pct": 25.0,
+        "affected_mean_absolute_impact_pct": 2.299703264094955,
+        "max_absolute_impact_pct": 9.19881305637982,
+        "factual_volume": 316,
+        "counterfactual_volume": 260,
+        "volume_reduction_pct": 17.72151898734177,
+        "factual_target_volume_share_pct": 28.164556962025316,
+        "changed_fills_same_price": 1,
+        "price_up": 0,
+        "price_down": 1,
+        "gap_improves": 1,
+        "gap_worsens": 0,
+        "gap_equal": 11,
+        "mean_gap_difference_pp": -0.7749999999999998,
+        "maker_inventory_changes": 1
+      },
+      {
+        "seed": 25087,
+        "mode": "A",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 4,
+        "price_changes": 2,
+        "price_change_pct": 16.666666666666668,
+        "mean_absolute_impact_pct": 0.8112505071558703,
+        "affected_price_changes": 1,
+        "affected_price_change_pct": 25.0,
+        "affected_mean_absolute_impact_pct": 2.299703264094955,
+        "max_absolute_impact_pct": 9.19881305637982,
+        "factual_volume": 316,
+        "counterfactual_volume": 233,
+        "volume_reduction_pct": 26.265822784810126,
+        "factual_target_volume_share_pct": 28.164556962025316,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 0,
+        "gap_equal": 10,
+        "mean_gap_difference_pp": -0.8250000000000016,
+        "maker_inventory_changes": 3
+      },
+      {
+        "seed": 25087,
+        "mode": "A",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 1,
+        "price_change_pct": 8.333333333333334,
+        "mean_absolute_impact_pct": 0.40865384615384565,
+        "affected_price_changes": 1,
+        "affected_price_change_pct": 16.666666666666668,
+        "affected_mean_absolute_impact_pct": 0.8173076923076913,
+        "max_absolute_impact_pct": 4.903846153846148,
+        "factual_volume": 312,
+        "counterfactual_volume": 268,
+        "volume_reduction_pct": 14.102564102564102,
+        "factual_target_volume_share_pct": 41.666666666666664,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 1,
+        "gap_improves": 1,
+        "gap_worsens": 0,
+        "gap_equal": 11,
+        "mean_gap_difference_pp": -0.42499999999999943,
+        "maker_inventory_changes": 0
+      },
+      {
+        "seed": 25087,
+        "mode": "A",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 1,
+        "price_change_pct": 8.333333333333334,
+        "mean_absolute_impact_pct": 0.40865384615384565,
+        "affected_price_changes": 1,
+        "affected_price_change_pct": 16.666666666666668,
+        "affected_mean_absolute_impact_pct": 0.8173076923076913,
+        "max_absolute_impact_pct": 4.903846153846148,
+        "factual_volume": 312,
+        "counterfactual_volume": 232,
+        "volume_reduction_pct": 25.641025641025642,
+        "factual_target_volume_share_pct": 41.666666666666664,
+        "changed_fills_same_price": 6,
+        "price_up": 0,
+        "price_down": 1,
+        "gap_improves": 1,
+        "gap_worsens": 0,
+        "gap_equal": 11,
+        "mean_gap_difference_pp": -0.42499999999999943,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 25087,
+        "mode": "B",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 1.3042738567354764,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 50.0,
+        "affected_mean_absolute_impact_pct": 2.6085477134709527,
+        "max_absolute_impact_pct": 9.179687500000005,
+        "factual_volume": 352,
+        "counterfactual_volume": 307,
+        "volume_reduction_pct": 12.784090909090908,
+        "factual_target_volume_share_pct": 32.38636363636363,
+        "changed_fills_same_price": 2,
+        "price_up": 1,
+        "price_down": 2,
+        "gap_improves": 2,
+        "gap_worsens": 1,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -1.341666666666667,
+        "maker_inventory_changes": 2
+      },
+      {
+        "seed": 25087,
+        "mode": "B",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 6,
+        "price_changes": 4,
+        "price_change_pct": 33.333333333333336,
+        "mean_absolute_impact_pct": 1.5015864474278484,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 3.003172894855697,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 352,
+        "counterfactual_volume": 266,
+        "volume_reduction_pct": 24.431818181818183,
+        "factual_target_volume_share_pct": 32.38636363636363,
+        "changed_fills_same_price": 2,
+        "price_up": 1,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 1,
+        "gap_equal": 8,
+        "mean_gap_difference_pp": -1.5416666666666672,
+        "maker_inventory_changes": 4
+      },
+      {
+        "seed": 25087,
+        "mode": "B",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 1.3472508230051488,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 60.0,
+        "affected_mean_absolute_impact_pct": 3.233401975212357,
+        "max_absolute_impact_pct": 9.19881305637982,
+        "factual_volume": 341,
+        "counterfactual_volume": 294,
+        "volume_reduction_pct": 13.782991202346041,
+        "factual_target_volume_share_pct": 24.926686217008797,
+        "changed_fills_same_price": 0,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 0,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -1.4250000000000003,
+        "maker_inventory_changes": 1
+      },
+      {
+        "seed": 25087,
+        "mode": "B",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 5,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 1.3472508230051488,
+        "affected_price_changes": 3,
+        "affected_price_change_pct": 60.0,
+        "affected_mean_absolute_impact_pct": 3.233401975212357,
+        "max_absolute_impact_pct": 9.19881305637982,
+        "factual_volume": 341,
+        "counterfactual_volume": 269,
+        "volume_reduction_pct": 21.114369501466275,
+        "factual_target_volume_share_pct": 24.926686217008797,
+        "changed_fills_same_price": 3,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 0,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -1.4250000000000003,
+        "maker_inventory_changes": 3
+      },
+      {
+        "seed": 25087,
+        "mode": "C",
+        "repetition": 1,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 4,
+        "price_changes": 2,
+        "price_change_pct": 16.666666666666668,
+        "mean_absolute_impact_pct": 0.8538628472222228,
+        "affected_price_changes": 2,
+        "affected_price_change_pct": 50.0,
+        "affected_mean_absolute_impact_pct": 2.5615885416666684,
+        "max_absolute_impact_pct": 9.179687500000005,
+        "factual_volume": 324,
+        "counterfactual_volume": 280,
+        "volume_reduction_pct": 13.580246913580247,
+        "factual_target_volume_share_pct": 37.34567901234568,
+        "changed_fills_same_price": 2,
+        "price_up": 1,
+        "price_down": 1,
+        "gap_improves": 1,
+        "gap_worsens": 1,
+        "gap_equal": 10,
+        "mean_gap_difference_pp": -0.683333333333334,
+        "maker_inventory_changes": 2
+      },
+      {
+        "seed": 25087,
+        "mode": "C",
+        "repetition": 1,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 4,
+        "price_changes": 5,
+        "price_change_pct": 41.666666666666664,
+        "mean_absolute_impact_pct": 1.3172534056456235,
+        "affected_price_changes": 4,
+        "affected_price_change_pct": 100.0,
+        "affected_mean_absolute_impact_pct": 3.7956496014150174,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 324,
+        "counterfactual_volume": 240,
+        "volume_reduction_pct": 25.925925925925927,
+        "factual_target_volume_share_pct": 37.34567901234568,
+        "changed_fills_same_price": 0,
+        "price_up": 2,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 2,
+        "gap_equal": 7,
+        "mean_gap_difference_pp": -0.6916666666666663,
+        "maker_inventory_changes": 5
+      },
+      {
+        "seed": 25087,
+        "mode": "C",
+        "repetition": 2,
+        "condition": "cap10",
+        "frames": 12,
+        "cap_affected": 3,
+        "price_changes": 1,
+        "price_change_pct": 8.333333333333334,
+        "mean_absolute_impact_pct": 0.7649739583333338,
+        "affected_price_changes": 1,
+        "affected_price_change_pct": 33.333333333333336,
+        "affected_mean_absolute_impact_pct": 3.0598958333333353,
+        "max_absolute_impact_pct": 9.179687500000005,
+        "factual_volume": 314,
+        "counterfactual_volume": 276,
+        "volume_reduction_pct": 12.101910828025478,
+        "factual_target_volume_share_pct": 28.662420382165607,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 1,
+        "gap_improves": 1,
+        "gap_worsens": 0,
+        "gap_equal": 11,
+        "mean_gap_difference_pp": -0.7833333333333341,
+        "maker_inventory_changes": 2
+      },
+      {
+        "seed": 25087,
+        "mode": "C",
+        "repetition": 2,
+        "condition": "remove",
+        "frames": 12,
+        "cap_affected": 3,
+        "price_changes": 3,
+        "price_change_pct": 25.0,
+        "mean_absolute_impact_pct": 1.0064171756806037,
+        "affected_price_changes": 2,
+        "affected_price_change_pct": 66.66666666666667,
+        "affected_mean_absolute_impact_pct": 3.849146196102823,
+        "max_absolute_impact_pct": 10.25390625,
+        "factual_volume": 314,
+        "counterfactual_volume": 247,
+        "volume_reduction_pct": 21.337579617834393,
+        "factual_target_volume_share_pct": 28.662420382165607,
+        "changed_fills_same_price": 2,
+        "price_up": 0,
+        "price_down": 3,
+        "gap_improves": 3,
+        "gap_worsens": 0,
+        "gap_equal": 9,
+        "mean_gap_difference_pp": -1.0333333333333323,
+        "maker_inventory_changes": 4
+      }
+    ]
+  },
+  "audit": {
+    "status": "passed",
+    "candidate_price_volume_checks": 432,
+    "account_settlements": 6048,
+    "max_cash_error": 0.0,
+    "note": "Independent calculation of documented candidate/price rule and cash/share flows;not external market validation."
+  },
+  "examples": [
+    {
+      "selection_rule": "largest_absolute_price_change",
+      "record": {
+        "frame_index": 21,
+        "seed": 22853,
+        "mode": "B",
+        "repetition": 1,
+        "run_path": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+        "round": 10,
+        "cap_affected": true,
+        "targets_active": true,
+        "previous_price": 90.8,
+        "benchmark": 100.0,
+        "condition": "cap10",
+        "factual": {
+          "price": 98.6,
+          "volume": 48,
+          "unmatched": 128,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 0
+            },
+            "llm_013": {
+              "buy": 48,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 48,
+          "target_net_buy": 48,
+          "maker_closing_shares": 172,
+          "trades": [
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mome_008",
+              "quantity": 7,
+              "price": 98.6
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mome_009",
+              "quantity": 7,
+              "price": 98.6
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mome_010",
+              "quantity": 7,
+              "price": 98.6
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mome_011",
+              "quantity": 7,
+              "price": 98.6
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mark_000",
+              "quantity": 10,
+              "price": 98.6
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "zero_002",
+              "quantity": 3,
+              "price": 98.6
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "zero_003",
+              "quantity": 7,
+              "price": 98.6
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 27911.132497024664,
+              "shares": 172,
+              "avg_cost": 98.85841584158416
+            },
+            "zero_001": {
+              "cash": 8387.972350303899,
+              "shares": 118,
+              "avg_cost": 98.70508474576272
+            },
+            "zero_002": {
+              "cash": 10678.394470009222,
+              "shares": 93,
+              "avg_cost": 99.97843137254901
+            },
+            "zero_003": {
+              "cash": 10330.195122831135,
+              "shares": 97,
+              "avg_cost": 99.95769230769231
+            },
+            "zero_004": {
+              "cash": 11127.52300730359,
+              "shares": 89,
+              "avg_cost": 100.0
+            },
+            "fund_005": {
+              "cash": 8812.752751777525,
+              "shares": 114,
+              "avg_cost": 98.35350877192982
+            },
+            "fund_006": {
+              "cash": 8713.85297524797,
+              "shares": 115,
+              "avg_cost": 98.36782608695651
+            },
+            "fund_007": {
+              "cash": 8713.85297524797,
+              "shares": 115,
+              "avg_cost": 98.36782608695651
+            },
+            "mome_008": {
+              "cash": 12086.179657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 12086.179657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 12086.179657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 12086.179657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 6889.648234409336,
+              "shares": 133,
+              "avg_cost": 98.84210526315789
+            },
+            "llm_013": {
+              "cash": 10633.09491656142,
+              "shares": 92,
+              "avg_cost": 94.86956521739128
+            }
+          }
+        },
+        "result": {
+          "price": 90.1,
+          "volume": 28,
+          "unmatched": 32,
+          "target_fills": {
+            "llm_012": {
+              "buy": 10,
+              "sell": 0
+            },
+            "llm_013": {
+              "buy": 10,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 20,
+          "target_net_buy": 20,
+          "maker_closing_shares": 190,
+          "trades": [
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mome_008",
+              "quantity": 7,
+              "price": 90.1
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_013",
+              "seller_id": "mome_009",
+              "quantity": 3,
+              "price": 90.1
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_012",
+              "seller_id": "mome_009",
+              "quantity": 4,
+              "price": 90.1
+            },
+            {
+              "round": 10,
+              "buyer_id": "llm_012",
+              "seller_id": "mome_010",
+              "quantity": 6,
+              "price": 90.1
+            },
+            {
+              "round": 10,
+              "buyer_id": "mark_000",
+              "seller_id": "mome_010",
+              "quantity": 1,
+              "price": 90.1
+            },
+            {
+              "round": 10,
+              "buyer_id": "mark_000",
+              "seller_id": "mome_011",
+              "quantity": 7,
+              "price": 90.1
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 26204.332497024665,
+              "shares": 190,
+              "avg_cost": 98.48964043772797
+            },
+            "zero_001": {
+              "cash": 8387.972350303899,
+              "shares": 118,
+              "avg_cost": 98.70508474576272
+            },
+            "zero_002": {
+              "cash": 10382.594470009222,
+              "shares": 96,
+              "avg_cost": 99.97843137254901
+            },
+            "zero_003": {
+              "cash": 9639.995122831135,
+              "shares": 104,
+              "avg_cost": 99.95769230769231
+            },
+            "zero_004": {
+              "cash": 11127.52300730359,
+              "shares": 89,
+              "avg_cost": 100.0
+            },
+            "fund_005": {
+              "cash": 8812.752751777525,
+              "shares": 114,
+              "avg_cost": 98.35350877192982
+            },
+            "fund_006": {
+              "cash": 8713.85297524797,
+              "shares": 115,
+              "avg_cost": 98.36782608695651
+            },
+            "fund_007": {
+              "cash": 8713.85297524797,
+              "shares": 115,
+              "avg_cost": 98.36782608695651
+            },
+            "mome_008": {
+              "cash": 12026.679657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 12026.679657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 12026.679657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 12026.679657283034,
+              "shares": 78,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 5988.648234409336,
+              "shares": 143,
+              "avg_cost": 98.23076923076923
+            },
+            "llm_013": {
+              "cash": 14464.89491656142,
+              "shares": 54,
+              "avg_cost": 90.67037037037036
+            }
+          }
+        },
+        "price_changed": true,
+        "absolute_price_impact_pct": 9.361233480176212,
+        "signed_price_difference": -8.5,
+        "volume_difference": -20,
+        "gap_difference_pp": 8.500000000000007,
+        "target_fills_changed": true
+      },
+      "accepted_orders": [
+        {
+          "round": "10",
+          "agent_id": "fund_005",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "fund_006",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "fund_007",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "llm_012",
+          "side": "buy",
+          "quantity": "15",
+          "limit_price": "91.0",
+          "reasoning": "The tape has stabilized and even ticked up to 90.8 with no bad news and dividends still paying, so fundamentals look intact and shares are ~8% below my 98.84 cost. I'll add a small 15-share lot with a patient 91.0 limit to modestly lower my average while keeping over 5,500 in cash as my buffer.",
+          "validation_note": "",
+          "llm_requested_side": "buy",
+          "llm_requested_quantity": "15",
+          "llm_requested_limit_price": "91.0"
+        },
+        {
+          "round": "10",
+          "agent_id": "llm_013",
+          "side": "buy",
+          "quantity": "141",
+          "limit_price": "",
+          "reasoning": "Three straight green prints off the base at 90.4-90.6-90.8 \u2014 momentum's turned and I'm adding hard while the confirmation is fresh before the bounce accelerates.",
+          "validation_note": "quantity_reduced_to_resources",
+          "llm_requested_side": "buy",
+          "llm_requested_quantity": "165",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "mark_000",
+          "side": "buy",
+          "quantity": "10",
+          "limit_price": "90.15326186666665",
+          "reasoning": "MM bid",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "mark_000",
+          "side": "sell",
+          "quantity": "10",
+          "limit_price": "91.05932479999998",
+          "reasoning": "MM ask",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "mome_008",
+          "side": "sell",
+          "quantity": "7",
+          "limit_price": "88.984",
+          "reasoning": "downtrend -7.3%",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "mome_009",
+          "side": "sell",
+          "quantity": "7",
+          "limit_price": "88.984",
+          "reasoning": "downtrend -7.3%",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "mome_010",
+          "side": "sell",
+          "quantity": "7",
+          "limit_price": "88.984",
+          "reasoning": "downtrend -7.3%",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "mome_011",
+          "side": "sell",
+          "quantity": "7",
+          "limit_price": "88.984",
+          "reasoning": "downtrend -7.3%",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "zero_001",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "zero_002",
+          "side": "sell",
+          "quantity": "3",
+          "limit_price": "96.5570240890496",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "zero_003",
+          "side": "sell",
+          "quantity": "7",
+          "limit_price": "98.52685624395423",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "10",
+          "agent_id": "zero_004",
+          "side": "buy",
+          "quantity": "10",
+          "limit_price": "88.96496992786169",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        }
+      ]
+    },
+    {
+      "selection_rule": "largest_volume_reduction_without_price_change",
+      "record": {
+        "frame_index": 159,
+        "seed": 25087,
+        "mode": "A",
+        "repetition": 1,
+        "run_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+        "round": 4,
+        "cap_affected": true,
+        "targets_active": true,
+        "previous_price": 111.1,
+        "benchmark": 100.0,
+        "condition": "cap10",
+        "factual": {
+          "price": 111.9,
+          "volume": 60,
+          "unmatched": 24,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 50
+            },
+            "llm_013": {
+              "buy": 59,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 59,
+          "target_net_buy": 9,
+          "maker_closing_shares": 115,
+          "trades": [
+            {
+              "round": 4,
+              "buyer_id": "llm_013",
+              "seller_id": "llm_012",
+              "quantity": 50,
+              "price": 111.9
+            },
+            {
+              "round": 4,
+              "buyer_id": "llm_013",
+              "seller_id": "mark_000",
+              "quantity": 9,
+              "price": 111.9
+            },
+            {
+              "round": 4,
+              "buyer_id": "zero_001",
+              "seller_id": "mark_000",
+              "quantity": 1,
+              "price": 111.9
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 33767.92774193852,
+              "shares": 115,
+              "avg_cost": 100.0
+            },
+            "zero_001": {
+              "cash": 9400.926284444251,
+              "shares": 106,
+              "avg_cost": 100.1572898799314
+            },
+            "zero_002": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "zero_003": {
+              "cash": 11618.799216492096,
+              "shares": 85,
+              "avg_cost": 100.0
+            },
+            "zero_004": {
+              "cash": 9304.61389060184,
+              "shares": 107,
+              "avg_cost": 100.07196261682243
+            },
+            "fund_005": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "fund_006": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495146
+            },
+            "fund_007": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "mome_008": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 15607.30520696309,
+              "shares": 50,
+              "avg_cost": 100.0
+            },
+            "llm_013": {
+              "cash": 1299.3021402618924,
+              "shares": 178,
+              "avg_cost": 105.12921348314607
+            }
+          }
+        },
+        "result": {
+          "price": 111.9,
+          "volume": 13,
+          "unmatched": 29,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 10
+            },
+            "llm_013": {
+              "buy": 10,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 10,
+          "target_net_buy": 0,
+          "maker_closing_shares": 122,
+          "trades": [
+            {
+              "round": 4,
+              "buyer_id": "llm_013",
+              "seller_id": "llm_012",
+              "quantity": 10,
+              "price": 111.9
+            },
+            {
+              "round": 4,
+              "buyer_id": "zero_001",
+              "seller_id": "mark_000",
+              "quantity": 3,
+              "price": 111.9
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 32984.627741938515,
+              "shares": 122,
+              "avg_cost": 100.0
+            },
+            "zero_001": {
+              "cash": 9177.12628444425,
+              "shares": 108,
+              "avg_cost": 100.3747474747475
+            },
+            "zero_002": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "zero_003": {
+              "cash": 11618.799216492096,
+              "shares": 85,
+              "avg_cost": 100.0
+            },
+            "zero_004": {
+              "cash": 9304.61389060184,
+              "shares": 107,
+              "avg_cost": 100.07196261682243
+            },
+            "fund_005": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "fund_006": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495146
+            },
+            "fund_007": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "mome_008": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 11131.30520696309,
+              "shares": 90,
+              "avg_cost": 100.0
+            },
+            "llm_013": {
+              "cash": 6782.402140261893,
+              "shares": 129,
+              "avg_cost": 102.55736434108528
+            }
+          }
+        },
+        "price_changed": false,
+        "absolute_price_impact_pct": 0.0,
+        "signed_price_difference": 0.0,
+        "volume_difference": -47,
+        "gap_difference_pp": 0.0,
+        "target_fills_changed": true
+      },
+      "accepted_orders": [
+        {
+          "round": "4",
+          "agent_id": "fund_005",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "fund_006",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "fund_007",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "side": "sell",
+          "quantity": "50",
+          "limit_price": "",
+          "reasoning": "The price spiked nearly 10% in one session on thin volume, and locking in a gain on half my shares banks real profit I'd hate to watch evaporate; I'll keep the other 50 for the long-term dividend stream.",
+          "validation_note": "",
+          "llm_requested_side": "sell",
+          "llm_requested_quantity": "50",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "side": "buy",
+          "quantity": "59",
+          "limit_price": "",
+          "reasoning": "Four straight up prints with the last one gapping hard to 111.1 \u2014 momentum is accelerating, so I'm going market to load the rest of my cash before this runs further.",
+          "validation_note": "quantity_reduced_to_resources",
+          "llm_requested_side": "buy",
+          "llm_requested_quantity": "69",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mark_000",
+          "side": "buy",
+          "quantity": "10",
+          "limit_price": "110.72874083333333",
+          "reasoning": "MM bid",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mark_000",
+          "side": "sell",
+          "quantity": "10",
+          "limit_price": "111.84159249999999",
+          "reasoning": "MM ask",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_008",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_009",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_010",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_011",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_001",
+          "side": "buy",
+          "quantity": "3",
+          "limit_price": "118.15564193539618",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_002",
+          "side": "sell",
+          "quantity": "10",
+          "limit_price": "118.78280645408512",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_003",
+          "side": "sell",
+          "quantity": "2",
+          "limit_price": "118.49163622442951",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_004",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        }
+      ]
+    },
+    {
+      "selection_rule": "largest_absolute_price_change",
+      "record": {
+        "frame_index": 146,
+        "seed": 25087,
+        "mode": "C",
+        "repetition": 1,
+        "run_path": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+        "round": 3,
+        "cap_affected": true,
+        "targets_active": true,
+        "previous_price": 102.4,
+        "benchmark": 100.0,
+        "condition": "remove",
+        "factual": {
+          "price": 112.5,
+          "volume": 25,
+          "unmatched": 55,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 0
+            },
+            "llm_013": {
+              "buy": 25,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 25,
+          "target_net_buy": 25,
+          "maker_closing_shares": 120,
+          "trades": [
+            {
+              "round": 3,
+              "buyer_id": "llm_013",
+              "seller_id": "fund_005",
+              "quantity": 2,
+              "price": 112.5
+            },
+            {
+              "round": 3,
+              "buyer_id": "llm_013",
+              "seller_id": "fund_006",
+              "quantity": 2,
+              "price": 112.5
+            },
+            {
+              "round": 3,
+              "buyer_id": "llm_013",
+              "seller_id": "fund_007",
+              "quantity": 2,
+              "price": 112.5
+            },
+            {
+              "round": 3,
+              "buyer_id": "llm_013",
+              "seller_id": "mark_000",
+              "quantity": 10,
+              "price": 112.5
+            },
+            {
+              "round": 3,
+              "buyer_id": "llm_013",
+              "seller_id": "zero_003",
+              "quantity": 9,
+              "price": 112.5
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 33172.14807888278,
+              "shares": 120,
+              "avg_cost": 100.0
+            },
+            "zero_001": {
+              "cash": 9515.10971032144,
+              "shares": 105,
+              "avg_cost": 100.04545454545455
+            },
+            "zero_002": {
+              "cash": 10315.300301815905,
+              "shares": 97,
+              "avg_cost": 100.0
+            },
+            "zero_003": {
+              "cash": 11635.002875681688,
+              "shares": 85,
+              "avg_cost": 100.0
+            },
+            "zero_004": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "fund_005": {
+              "cash": 10233.097727950122,
+              "shares": 98,
+              "avg_cost": 100.0
+            },
+            "fund_006": {
+              "cash": 10233.097727950122,
+              "shares": 98,
+              "avg_cost": 100.0
+            },
+            "fund_007": {
+              "cash": 10233.097727950122,
+              "shares": 98,
+              "avg_cost": 100.0
+            },
+            "mome_008": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_013": {
+              "cash": 4737.977137023857,
+              "shares": 149,
+              "avg_cost": 102.48389261744967
+            }
+          }
+        },
+        "result": {
+          "price": 102.0,
+          "volume": 6,
+          "unmatched": 32,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 0
+            },
+            "llm_013": {
+              "buy": 0,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 0,
+          "target_net_buy": 0,
+          "maker_closing_shares": 134,
+          "trades": [
+            {
+              "round": 3,
+              "buyer_id": "zero_002",
+              "seller_id": "fund_005",
+              "quantity": 2,
+              "price": 102.0
+            },
+            {
+              "round": 3,
+              "buyer_id": "mark_000",
+              "seller_id": "fund_006",
+              "quantity": 2,
+              "price": 102.0
+            },
+            {
+              "round": 3,
+              "buyer_id": "mark_000",
+              "seller_id": "fund_007",
+              "quantity": 2,
+              "price": 102.0
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 31639.148078882783,
+              "shares": 134,
+              "avg_cost": 100.05970149253731
+            },
+            "zero_001": {
+              "cash": 9515.10971032144,
+              "shares": 105,
+              "avg_cost": 100.04545454545455
+            },
+            "zero_002": {
+              "cash": 10111.300301815905,
+              "shares": 99,
+              "avg_cost": 100.04040404040404
+            },
+            "zero_003": {
+              "cash": 10622.502875681688,
+              "shares": 94,
+              "avg_cost": 100.0
+            },
+            "zero_004": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "fund_005": {
+              "cash": 10212.097727950122,
+              "shares": 98,
+              "avg_cost": 100.0
+            },
+            "fund_006": {
+              "cash": 10212.097727950122,
+              "shares": 98,
+              "avg_cost": 100.0
+            },
+            "fund_007": {
+              "cash": 10212.097727950122,
+              "shares": 98,
+              "avg_cost": 100.0
+            },
+            "mome_008": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 10008.097727950122,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_013": {
+              "cash": 7550.477137023857,
+              "shares": 124,
+              "avg_cost": 100.46451612903226
+            }
+          }
+        },
+        "price_changed": true,
+        "absolute_price_impact_pct": 10.25390625,
+        "signed_price_difference": -10.5,
+        "volume_difference": -19,
+        "gap_difference_pp": -10.499999999999998,
+        "target_fills_changed": true
+      },
+      "accepted_orders": [
+        {
+          "round": "3",
+          "agent_id": "fund_005",
+          "side": "sell",
+          "quantity": "2",
+          "limit_price": "100.25511184751532",
+          "reasoning": "overpriced vs F=98.1",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "fund_006",
+          "side": "sell",
+          "quantity": "2",
+          "limit_price": "100.25511184751532",
+          "reasoning": "overpriced vs F=98.1",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "fund_007",
+          "side": "sell",
+          "quantity": "2",
+          "limit_price": "100.25511184751532",
+          "reasoning": "overpriced vs F=98.1",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "llm_012",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "The price has risen nicely to 102.4 with no news to justify acting, and my allocation is balanced at roughly 50/50. As a patient long-term investor, I'll keep my shares and cash steady rather than trade on noise.",
+          "validation_note": "",
+          "llm_requested_side": "hold",
+          "llm_requested_quantity": "0",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "llm_013",
+          "side": "buy",
+          "quantity": "61",
+          "limit_price": "",
+          "reasoning": "Two straight up-closes with a 2.4% push and momentum squarely on my side \u2014 I'm leaning in with nearly all remaining cash to ride the trend, taking whatever the auction fills.",
+          "validation_note": "quantity_reduced_to_resources",
+          "llm_requested_side": "buy",
+          "llm_requested_quantity": "73",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "mark_000",
+          "side": "buy",
+          "quantity": "10",
+          "limit_price": "102.02385066666669",
+          "reasoning": "MM bid",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "mark_000",
+          "side": "sell",
+          "quantity": "10",
+          "limit_price": "103.049216",
+          "reasoning": "MM ask",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "mome_008",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "mome_009",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "mome_010",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "mome_011",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "zero_001",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "zero_002",
+          "side": "buy",
+          "quantity": "2",
+          "limit_price": "105.14623900968473",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "zero_003",
+          "side": "sell",
+          "quantity": "9",
+          "limit_price": "112.47765966962973",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "3",
+          "agent_id": "zero_004",
+          "side": "buy",
+          "quantity": "7",
+          "limit_price": "97.92651381380387",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        }
+      ]
+    },
+    {
+      "selection_rule": "largest_volume_reduction_without_price_change",
+      "record": {
+        "frame_index": 159,
+        "seed": 25087,
+        "mode": "A",
+        "repetition": 1,
+        "run_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+        "round": 4,
+        "cap_affected": true,
+        "targets_active": true,
+        "previous_price": 111.1,
+        "benchmark": 100.0,
+        "condition": "remove",
+        "factual": {
+          "price": 111.9,
+          "volume": 60,
+          "unmatched": 24,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 50
+            },
+            "llm_013": {
+              "buy": 59,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 59,
+          "target_net_buy": 9,
+          "maker_closing_shares": 115,
+          "trades": [
+            {
+              "round": 4,
+              "buyer_id": "llm_013",
+              "seller_id": "llm_012",
+              "quantity": 50,
+              "price": 111.9
+            },
+            {
+              "round": 4,
+              "buyer_id": "llm_013",
+              "seller_id": "mark_000",
+              "quantity": 9,
+              "price": 111.9
+            },
+            {
+              "round": 4,
+              "buyer_id": "zero_001",
+              "seller_id": "mark_000",
+              "quantity": 1,
+              "price": 111.9
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 33767.92774193852,
+              "shares": 115,
+              "avg_cost": 100.0
+            },
+            "zero_001": {
+              "cash": 9400.926284444251,
+              "shares": 106,
+              "avg_cost": 100.1572898799314
+            },
+            "zero_002": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "zero_003": {
+              "cash": 11618.799216492096,
+              "shares": 85,
+              "avg_cost": 100.0
+            },
+            "zero_004": {
+              "cash": 9304.61389060184,
+              "shares": 107,
+              "avg_cost": 100.07196261682243
+            },
+            "fund_005": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "fund_006": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495146
+            },
+            "fund_007": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "mome_008": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 15607.30520696309,
+              "shares": 50,
+              "avg_cost": 100.0
+            },
+            "llm_013": {
+              "cash": 1299.3021402618924,
+              "shares": 178,
+              "avg_cost": 105.12921348314607
+            }
+          }
+        },
+        "result": {
+          "price": 111.9,
+          "volume": 3,
+          "unmatched": 29,
+          "target_fills": {
+            "llm_012": {
+              "buy": 0,
+              "sell": 0
+            },
+            "llm_013": {
+              "buy": 0,
+              "sell": 0
+            }
+          },
+          "target_involved_volume": 0,
+          "target_net_buy": 0,
+          "maker_closing_shares": 122,
+          "trades": [
+            {
+              "round": 4,
+              "buyer_id": "zero_001",
+              "seller_id": "mark_000",
+              "quantity": 3,
+              "price": 111.9
+            }
+          ],
+          "posttrade_accounts": {
+            "mark_000": {
+              "cash": 32984.627741938515,
+              "shares": 122,
+              "avg_cost": 100.0
+            },
+            "zero_001": {
+              "cash": 9177.12628444425,
+              "shares": 108,
+              "avg_cost": 100.3747474747475
+            },
+            "zero_002": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "zero_003": {
+              "cash": 11618.799216492096,
+              "shares": 85,
+              "avg_cost": 100.0
+            },
+            "zero_004": {
+              "cash": 9304.61389060184,
+              "shares": 107,
+              "avg_cost": 100.07196261682243
+            },
+            "fund_005": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "fund_006": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495146
+            },
+            "fund_007": {
+              "cash": 9709.008928522559,
+              "shares": 103,
+              "avg_cost": 100.03203883495145
+            },
+            "mome_008": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_009": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_010": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "mome_011": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_012": {
+              "cash": 10012.30520696309,
+              "shares": 100,
+              "avg_cost": 100.0
+            },
+            "llm_013": {
+              "cash": 7901.402140261893,
+              "shares": 119,
+              "avg_cost": 101.77226890756302
+            }
+          }
+        },
+        "price_changed": false,
+        "absolute_price_impact_pct": 0.0,
+        "signed_price_difference": 0.0,
+        "volume_difference": -57,
+        "gap_difference_pp": 0.0,
+        "target_fills_changed": true
+      },
+      "accepted_orders": [
+        {
+          "round": "4",
+          "agent_id": "fund_005",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "fund_006",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "fund_007",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "side": "sell",
+          "quantity": "50",
+          "limit_price": "",
+          "reasoning": "The price spiked nearly 10% in one session on thin volume, and locking in a gain on half my shares banks real profit I'd hate to watch evaporate; I'll keep the other 50 for the long-term dividend stream.",
+          "validation_note": "",
+          "llm_requested_side": "sell",
+          "llm_requested_quantity": "50",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "side": "buy",
+          "quantity": "59",
+          "limit_price": "",
+          "reasoning": "Four straight up prints with the last one gapping hard to 111.1 \u2014 momentum is accelerating, so I'm going market to load the rest of my cash before this runs further.",
+          "validation_note": "quantity_reduced_to_resources",
+          "llm_requested_side": "buy",
+          "llm_requested_quantity": "69",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mark_000",
+          "side": "buy",
+          "quantity": "10",
+          "limit_price": "110.72874083333333",
+          "reasoning": "MM bid",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mark_000",
+          "side": "sell",
+          "quantity": "10",
+          "limit_price": "111.84159249999999",
+          "reasoning": "MM ask",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_008",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_009",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_010",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "mome_011",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_001",
+          "side": "buy",
+          "quantity": "3",
+          "limit_price": "118.15564193539618",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_002",
+          "side": "sell",
+          "quantity": "10",
+          "limit_price": "118.78280645408512",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_003",
+          "side": "sell",
+          "quantity": "2",
+          "limit_price": "118.49163622442951",
+          "reasoning": "random (ZI)",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        },
+        {
+          "round": "4",
+          "agent_id": "zero_004",
+          "side": "hold",
+          "quantity": "0",
+          "limit_price": "",
+          "reasoning": "",
+          "validation_note": "",
+          "llm_requested_side": "",
+          "llm_requested_quantity": "",
+          "llm_requested_limit_price": ""
+        }
+      ]
+    }
+  ],
+  "independent_exogenous_seeds": 3,
+  "new_model_samples": 0,
+  "new_endogenous_markets": 0,
+  "new_api_requests": 0,
+  "note": "All 216 nested observed auctions;432 isolated interventions. Descriptive aggregation,not independent sample inference. Examples selected after results by stated extreme rules;not representative."
+}

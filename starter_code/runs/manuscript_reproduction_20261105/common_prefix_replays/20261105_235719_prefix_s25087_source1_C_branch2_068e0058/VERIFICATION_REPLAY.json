@@ -1,0 +1,5 @@
+{
+  "kind": "OFFLINE_R047_VERIFICATION",
+  "new_http_requests": 0,
+  "warning": "Replayed usage metadata is historical,not new provider usage or independent decisions."
+}

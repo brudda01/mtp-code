@@ -1,0 +1,7 @@
+{
+  "sha256": "924a7b75d90d5af956fbae322c73d221179e679627d8291be5ebedd9c7393660",
+  "report_sha256": "a522c7c10aff1745f322f494f72b4706ff479b35d4bdf5f0640d1d2f7be9acae",
+  "supplement_manifest_sha256": "2e5aa37ed1ed4d3f7a0ad4a5098a1328817024379fa442cb3628e54098d046e5",
+  "figure_v2_manifest_sha256": "03964e3e8037fc21c17487a20a949d285092fd1887a18fabc70b3353bddaf64f",
+  "scope": "Manual full-sample interpretation;primary/core artifacts unchanged. All8 primary contrasts/v2 matrix,per-arm/campaign bounds and sign counts checked. Mechanism examples preserve actual source links."
+}

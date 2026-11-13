@@ -1,0 +1,9 @@
+{
+  "path": "starter_code/runs/horizon_environment_20261104_evidence.zip",
+  "sha256": "28bd727d162f6a586b2c697634318d57822f1e5d52052adc92cd9f16202cb812",
+  "bytes": 10645118,
+  "files": 455,
+  "recursive_secret_scan_members": 1043,
+  "zip_and_member_hash_checks": true,
+  "prior_bundles_unchanged": true
+}

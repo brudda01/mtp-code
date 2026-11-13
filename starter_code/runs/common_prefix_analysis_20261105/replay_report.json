@@ -1,0 +1,359 @@
+{
+  "status": "passed",
+  "verified_clean_paths": 23,
+  "records": [
+    {
+      "original": "branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052857_prefix_s23971_source2_C_branch1_ae57a79b",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_041550_prefix_s22853_source2_B_branch1_08fc038b",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052857_prefix_s22853_source2_B_branch1_bd83c2ac",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_041902_prefix_s22853_source1_C_branch2_dbfb9e40",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052857_prefix_s22853_source1_C_branch2_3fde74a8",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_042233_prefix_s23971_source1_B_branch1_889b6b7e",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052858_prefix_s23971_source1_B_branch1_8f3f48e3",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_042515_prefix_s23971_source1_C_branch2_9b5c4268",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052858_prefix_s23971_source1_C_branch2_2256199e",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_042824_prefix_s22853_source2_C_branch2_e75899ab",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052858_prefix_s22853_source2_C_branch2_c9c30cf0",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_043133_prefix_s25087_source1_B_branch1_94428b15",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052858_prefix_s25087_source1_B_branch1_956fccb6",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_043416_prefix_s23971_source1_B_branch2_9d6bed5e",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052859_prefix_s23971_source1_B_branch2_0447611b",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052859_prefix_s23971_source1_C_branch1_54989759",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_044000_prefix_s25087_source2_C_branch2_9ffff715",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052900_prefix_s25087_source2_C_branch2_22fe0471",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_044340_prefix_s22853_source1_B_branch2_5d26f005",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052900_prefix_s22853_source1_B_branch2_f758de49",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_044752_prefix_s25087_source1_B_branch2_b28c8274",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052901_prefix_s25087_source1_B_branch2_f5d68654",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_045026_prefix_s25087_source2_B_branch2_a6ff121a",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052901_prefix_s25087_source2_B_branch2_943e1479",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_045248_prefix_s25087_source1_C_branch2_84d68bc5",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052901_prefix_s25087_source1_C_branch2_ce13544c",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_045556_prefix_s23971_source2_C_branch2_7ac11682",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052902_prefix_s23971_source2_C_branch2_875b934c",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052902_prefix_s22853_source2_C_branch1_e68527f6",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_050606_prefix_s22853_source1_B_branch1_e13442ae",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052903_prefix_s22853_source1_B_branch1_febd5d2e",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_050944_prefix_s23971_source2_B_branch2_68736472",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052903_prefix_s23971_source2_B_branch2_827643fb",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052904_prefix_s25087_source1_C_branch1_55e40642",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_051606_prefix_s22853_source2_B_branch2_8493678b",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052904_prefix_s22853_source2_B_branch2_9d0eccdc",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052904_prefix_s22853_source1_C_branch1_3d5f9e5b",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052905_prefix_s25087_source2_C_branch1_d00df346",
+      "fresh_tape_replies": 18,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    },
+    {
+      "original": "branch_runs/20261105_052604_prefix_s25087_source2_B_branch1_fdec6bc0",
+      "replay": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\20261105_041035_common_prefix_ca10f93d\\verification_replays\\20261105_052905_prefix_s25087_source2_B_branch1_e95c2726",
+      "fresh_tape_replies": 14,
+      "cached_prefix": 10,
+      "financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      }
+    }
+  ],
+  "not_replayed": [
+    {
+      "run": "branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad",
+      "reason": "Recovered error attempt requires exception-aware tape replay;raw evidence retained."
+    }
+  ],
+  "network_attempts": 0,
+  "scope": "Recorded-reply verification only. Partial/affected/recovered-error paths retained but not silently reclassified as successful replays."
+}

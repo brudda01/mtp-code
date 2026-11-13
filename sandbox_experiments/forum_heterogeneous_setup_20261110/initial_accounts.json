@@ -1,0 +1,206 @@
+{
+  "42": {
+    "maker": {
+      "cash": 30000.0,
+      "shares": 150,
+      "wealth": 45000.0
+    },
+    "fund_0": {
+      "cash": 4359.3,
+      "shares": 44,
+      "wealth": 8759.3
+    },
+    "fund_1": {
+      "cash": 3590.18,
+      "shares": 36,
+      "wealth": 7190.18
+    },
+    "fund_2": {
+      "cash": 15881.4,
+      "shares": 159,
+      "wealth": 31781.4
+    },
+    "mom_0": {
+      "cash": 4957.67,
+      "shares": 50,
+      "wealth": 9957.67
+    },
+    "mom_1": {
+      "cash": 2688.62,
+      "shares": 27,
+      "wealth": 5388.62
+    },
+    "zi_0": {
+      "cash": 2997.48,
+      "shares": 30,
+      "wealth": 5997.48
+    },
+    "zi_1": {
+      "cash": 6332.49,
+      "shares": 63,
+      "wealth": 12632.49
+    },
+    "llm_0": {
+      "cash": 5950.7,
+      "shares": 59,
+      "wealth": 11850.7
+    },
+    "llm_1": {
+      "cash": 51976.96,
+      "shares": 520,
+      "wealth": 103976.95999999999
+    },
+    "llm_2": {
+      "cash": 11169.83,
+      "shares": 112,
+      "wealth": 22369.83
+    },
+    "llm_3": {
+      "cash": 5394.52,
+      "shares": 54,
+      "wealth": 10794.52
+    },
+    "llm_4": {
+      "cash": 7935.01,
+      "shares": 79,
+      "wealth": 15835.01
+    },
+    "llm_5": {
+      "cash": 9788.39,
+      "shares": 98,
+      "wealth": 19588.39
+    },
+    "llm_6": {
+      "cash": 19837.41,
+      "shares": 198,
+      "wealth": 39637.41
+    },
+    "llm_7": {
+      "cash": 7850.57,
+      "shares": 78,
+      "wealth": 15650.57
+    },
+    "llm_8": {
+      "cash": 4837.82,
+      "shares": 48,
+      "wealth": 9637.82
+    },
+    "llm_9": {
+      "cash": 9481.03,
+      "shares": 95,
+      "wealth": 18981.03
+    },
+    "llm_10": {
+      "cash": 3883.43,
+      "shares": 39,
+      "wealth": 7783.43
+    },
+    "llm_11": {
+      "cash": 11087.19,
+      "shares": 111,
+      "wealth": 22187.190000000002
+    }
+  },
+  "43": {
+    "maker": {
+      "cash": 30000.0,
+      "shares": 150,
+      "wealth": 45000.0
+    },
+    "fund_0": {
+      "cash": 9899.24,
+      "shares": 99,
+      "wealth": 19799.239999999998
+    },
+    "fund_1": {
+      "cash": 9544.99,
+      "shares": 95,
+      "wealth": 19044.989999999998
+    },
+    "fund_2": {
+      "cash": 3866.77,
+      "shares": 39,
+      "wealth": 7766.77
+    },
+    "mom_0": {
+      "cash": 13459.42,
+      "shares": 135,
+      "wealth": 26959.42
+    },
+    "mom_1": {
+      "cash": 12127.74,
+      "shares": 121,
+      "wealth": 24227.739999999998
+    },
+    "zi_0": {
+      "cash": 8163.3,
+      "shares": 82,
+      "wealth": 16363.3
+    },
+    "zi_1": {
+      "cash": 6850.87,
+      "shares": 69,
+      "wealth": 13750.869999999999
+    },
+    "llm_0": {
+      "cash": 6172.81,
+      "shares": 62,
+      "wealth": 12372.810000000001
+    },
+    "llm_1": {
+      "cash": 10131.74,
+      "shares": 101,
+      "wealth": 20231.739999999998
+    },
+    "llm_2": {
+      "cash": 7923.99,
+      "shares": 79,
+      "wealth": 15823.99
+    },
+    "llm_3": {
+      "cash": 16888.94,
+      "shares": 169,
+      "wealth": 33788.94
+    },
+    "llm_4": {
+      "cash": 8044.05,
+      "shares": 80,
+      "wealth": 16044.05
+    },
+    "llm_5": {
+      "cash": 10020.38,
+      "shares": 100,
+      "wealth": 20020.379999999997
+    },
+    "llm_6": {
+      "cash": 15687.09,
+      "shares": 157,
+      "wealth": 31387.09
+    },
+    "llm_7": {
+      "cash": 26756.03,
+      "shares": 268,
+      "wealth": 53556.03
+    },
+    "llm_8": {
+      "cash": 7770.5,
+      "shares": 78,
+      "wealth": 15570.5
+    },
+    "llm_9": {
+      "cash": 1640.55,
+      "shares": 16,
+      "wealth": 3240.55
+    },
+    "llm_10": {
+      "cash": 4633.31,
+      "shares": 46,
+      "wealth": 9233.310000000001
+    },
+    "llm_11": {
+      "cash": 10418.28,
+      "shares": 104,
+      "wealth": 20818.28
+    }
+  }
+}

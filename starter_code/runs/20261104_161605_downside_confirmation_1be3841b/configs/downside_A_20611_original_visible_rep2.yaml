@@ -1,0 +1,94 @@
+agents:
+- cash: 30000.0
+  count: 1
+  params:
+    inventory_limit: 300
+    inventory_skew: 0.02
+    inventory_target: 150
+    quote_size: 10
+    spread: 0.005
+  shares: 150
+  type: market_maker
+- cash: 10000.0
+  count: 4
+  params: {}
+  shares: 100
+  type: zero_intelligence
+- cash: 10000.0
+  count: 3
+  params:
+    aggressiveness: 0.5
+    delta: 0.03
+    dividend_window: 1
+  shares: 100
+  type: fundamentalist
+- cash: 10000.0
+  count: 4
+  params:
+    aggressiveness: 0.5
+    window: 5
+  shares: 100
+  type: momentum
+- cash: 10000.0
+  count: 2
+  llm:
+    base_url: https://bharatcode.ai/api/model/v1
+    condition: A
+    input_usd_per_million: 0.0
+    max_tokens: 8192
+    memory_window: 5
+    model: qwen-3.8-27b
+    output_usd_per_million: 0.0
+    provider: openai_compatible
+    reasoning_effort: low
+    reflect_every: 0
+    retry_http_503: true
+    send_temperature: true
+    temperature: 0.3
+    timeout_seconds: 180.0
+    transport_retries: 1
+  params: {}
+  persona_source: library
+  shares: 100
+  type: llm
+asset:
+  dividend:
+    mean: 0.02
+    relative_noise: 0.2
+  initial_price: 100.0
+  model: iid_permanent
+  risk_free: 0.0002
+  ticker: KGP
+execution:
+  max_workers: 1
+llm_limits:
+  input_tokens_per_minute: 60000
+  max_cost_usd: 0.0
+  max_requests: 24
+  max_reserved_tokens: 450000
+  requests_per_minute: 10
+  stop_on_api_error: true
+market:
+  mechanism: call_auction
+  price_band: 0.2
+  tick: 0.1
+  transaction_tax: 0.0
+name: downside_A_20611_original_visible_rep2
+news:
+- announce: true
+  effect:
+    dbar_mult: 0.8
+  headline: A news report forecasts a one-time 20% decrease in KGP's expected dividend
+    per share, starting this trading session. The forecast is that the expected dividend
+    will remain at this new level in later sessions. Actual future payments remain
+    uncertain.
+  round: 1
+observation:
+  bbs_sample: 0
+  price_history_len: 20
+reveal_fundamental: false
+rounds: 8
+seed: 20611
+time:
+  periods_per_year: 252
+  round_unit: trading_session

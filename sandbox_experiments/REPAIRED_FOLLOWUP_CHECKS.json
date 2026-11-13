@@ -1,0 +1,61 @@
+{
+  "forum_prompts_identical": true,
+  "forum_post_absent": true,
+  "price_history_ignored": true,
+  "market_buy_violates_sell_limit": {
+    "price": 125.0,
+    "ask": 150,
+    "volume": 1
+  },
+  "price_band_not_enforced": {
+    "price": 200.0,
+    "previous": 100,
+    "expected_upper_bound": 120
+  },
+  "tick_not_enforced": {
+    "price": 100.05,
+    "expected_tick": 0.1
+  },
+  "fractional_trade_cash_without_share_transfer": {
+    "executed": 1,
+    "buyer_cash": 950.0,
+    "buyer_shares": 0,
+    "seller_shares": 1
+  },
+  "batch_partially_settles": {
+    "executed": 1,
+    "buyer_cash": 0.0,
+    "buyer_shares": 1
+  },
+  "same_batch_sale_proceeds_finance_buy": {
+    "executed": 2,
+    "initial_buyer_cash": 0
+  },
+  "self_trade_accepted": 1,
+  "fully_funded_short_cover_blocked": [],
+  "hold_bypasses_schema_checks": {
+    "agent_id": "a",
+    "side": "hold",
+    "quantity": 0,
+    "limit_price": null,
+    "reasoning": "",
+    "status": "valid"
+  },
+  "interest_paid_on_current_dividend": {
+    "actual_cash": 100.040004,
+    "thesis_timing_cash": 100.03999999999999
+  },
+  "original_sandbox_files_changed_since_first_audit": [],
+  "current_source_sha256": {
+    "audit_repaired_followup.py": "ccf44bfa36054fa68e2f19c3befb7a6f7262461a120b093323158ada3060ab36",
+    "repaired_client.py": "20659384a109866d81f23840fa1e3bad2bc3cc6fd93ea629421982b0f7e9e9ba",
+    "repaired_engine.py": "972e367327771a5d56999a92d1e20a48544f7ba5970cec083da11d3ca2713f11",
+    "repaired_llm_trader.py": "90ff5d1534deca560068db3852804e7f64f224a78c31531a5d0c3d6da8c8d3b5",
+    "repaired_market_sim.py": "76201d4f491266873376a89f2a60f6165a02fa09cf95a6702c18114081ab94c2",
+    "run_repaired_offline_validation.py": "c367bd494a31aa06d7d29e18cde4c456b517e072a07f489e27da866932e86a61",
+    "run_repaired_reddit_live.py": "9e2cd1ff916bbe0255b9061875f5a3c805f381e9a2ee230e37e31924808717a0",
+    "run_repaired_short_sale_live.py": "0b6b4eb5daf45842778ba8c32b900b44e637bbecdbf196a707d90df31bc7a652",
+    "test_repaired_engine.py": "9ff064833eeb100c77edb455673a591b499dca05a24a84f5b2bcc62761ffd6c4",
+    "test_repaired_parser.py": "46c3054eaf0afed28bc81af247120e68b8a57020413b8ee58c8420b3e5a0aec2"
+  }
+}

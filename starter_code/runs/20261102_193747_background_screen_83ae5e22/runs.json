@@ -1,0 +1,98 @@
+[
+  {
+    "seed": 317,
+    "cell": "original",
+    "run_path": "market_runs/20261102_193747_background_rules_w1_k20_5acd6b55",
+    "manifest_sha256": "ae050229467b4049d9db7de58f88f296dc59ae578ddedca676eb68278d859493",
+    "evaluation": "evaluation_original_317.json",
+    "evaluation_sha256": "64c705922fa5c8370463d70f100e36ce418b369ac4dd8b7aba895d0454c3ff50"
+  },
+  {
+    "seed": 317,
+    "cell": "average5",
+    "run_path": "market_runs/20261102_193748_background_rules_w5_k20_3173563b",
+    "manifest_sha256": "baf2ace00839b7879620e5f8894245846d68a89cbbb737512719d0ffe165c1a3",
+    "evaluation": "evaluation_average5_317.json",
+    "evaluation_sha256": "f35696eba5d53c3e3f820ecb4b612c5e6ef5ab451693cba8b3f32ab46ae7cfc2"
+  },
+  {
+    "seed": 317,
+    "cell": "no_skew",
+    "run_path": "market_runs/20261102_193749_background_rules_w1_k0_3d2b270e",
+    "manifest_sha256": "bac7341b50d770705fb21420ba272486f2e6ffb7b6773207ee2f901fcd4d7253",
+    "evaluation": "evaluation_no_skew_317.json",
+    "evaluation_sha256": "45e03eb306cbd48fc8c412a8d879865ea103ce0f714d4923578b7cd79f360d81"
+  },
+  {
+    "seed": 317,
+    "cell": "no_skew_average5",
+    "run_path": "market_runs/20261102_193750_background_rules_w5_k0_49871f8f",
+    "manifest_sha256": "ab2878dd4756afd886871fc4b68a67fef7ebe627ed4c18dfe7afaa445ec89257",
+    "evaluation": "evaluation_no_skew_average5_317.json",
+    "evaluation_sha256": "7fa0037b553feaa78d5aa73feebe096caa79e79b2bebeb011a3a92b6b97375aa"
+  },
+  {
+    "seed": 628,
+    "cell": "original",
+    "run_path": "market_runs/20261102_193751_background_rules_w1_k20_4f7df7db",
+    "manifest_sha256": "e1463c7edaf70d9e8006a7624eaf09b85cc4407cb1574b008aa1a422a145bddd",
+    "evaluation": "evaluation_original_628.json",
+    "evaluation_sha256": "c62fec59db8172c5ef719a906fa5bab4bea249202b4ecab0cd579d7aaa6695b4"
+  },
+  {
+    "seed": 628,
+    "cell": "average5",
+    "run_path": "market_runs/20261102_193752_background_rules_w5_k20_a0e0b119",
+    "manifest_sha256": "d41652a7995cc742016c48089d48fda85b0cadde76d115971529e3d7af2d24a0",
+    "evaluation": "evaluation_average5_628.json",
+    "evaluation_sha256": "c8b4761bc89cd555c3c4df0c40927b89651e687ea60e791258bba8dc7a6581bc"
+  },
+  {
+    "seed": 628,
+    "cell": "no_skew",
+    "run_path": "market_runs/20261102_193752_background_rules_w1_k0_3cd5b655",
+    "manifest_sha256": "42d7e5ebd7463a6cb2f9f502ab3981c0bfdef5d03ce8d577bd9721223d5be515",
+    "evaluation": "evaluation_no_skew_628.json",
+    "evaluation_sha256": "71876386ac51dcbcefcd6be9df2bdafcc56c6a8b30f8f426cf5519399c13cb85"
+  },
+  {
+    "seed": 628,
+    "cell": "no_skew_average5",
+    "run_path": "market_runs/20261102_193753_background_rules_w5_k0_560ee4e0",
+    "manifest_sha256": "404ef843ad0af10c57a0b42a64e14fc9be61925c32f1e01b192a638c5ad226cc",
+    "evaluation": "evaluation_no_skew_average5_628.json",
+    "evaluation_sha256": "d6569e04e9746fd6756cba7c9a14102ac638d86f240bca7d3ddbf3175d8cf1de"
+  },
+  {
+    "seed": 939,
+    "cell": "original",
+    "run_path": "market_runs/20261102_193754_background_rules_w1_k20_7a563449",
+    "manifest_sha256": "14244f16529aac95d94e0832946557842a73268b5dc9b7d89ad7984f1e170138",
+    "evaluation": "evaluation_original_939.json",
+    "evaluation_sha256": "242110d61dddf1d0bb7d206457861100299fa00778a02ba67a5fb344660742ca"
+  },
+  {
+    "seed": 939,
+    "cell": "average5",
+    "run_path": "market_runs/20261102_193755_background_rules_w5_k20_adc44df5",
+    "manifest_sha256": "39e6fc29ed107e452d4a70b6d805bb4f1b12ff9b10f2626b61a6a528564e6165",
+    "evaluation": "evaluation_average5_939.json",
+    "evaluation_sha256": "26fe92e4b8be21604ad45f7417333b642e80b34e2dae55abab2d0ce58d2baf5b"
+  },
+  {
+    "seed": 939,
+    "cell": "no_skew",
+    "run_path": "market_runs/20261102_193756_background_rules_w1_k0_ecce67f7",
+    "manifest_sha256": "2b0e01926b22445a020c91118edc4d6f1d099f9690ba347c2ffe09d6c2c25e52",
+    "evaluation": "evaluation_no_skew_939.json",
+    "evaluation_sha256": "b428dfe212543f0e31535fa7e2bbb5847aa4f05b6d5db7d778e553ea4b805267"
+  },
+  {
+    "seed": 939,
+    "cell": "no_skew_average5",
+    "run_path": "market_runs/20261102_193757_background_rules_w5_k0_2ea01c83",
+    "manifest_sha256": "4618c86b76eebcc1e632dfbde0ec19fac13afc570806a3892f5f743db9a3c395",
+    "evaluation": "evaluation_no_skew_average5_939.json",
+    "evaluation_sha256": "958aabb5164824f8d8f535f97f9891e7c3bb959ab1057e1455b71a11ab499359"
+  }
+]

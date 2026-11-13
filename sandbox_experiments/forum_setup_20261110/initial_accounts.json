@@ -1,0 +1,462 @@
+{
+  "44": {
+    "maker": {
+      "cash": 30000.0,
+      "shares": 150,
+      "wealth": 45000.0,
+      "persona": null
+    },
+    "fund_0": {
+      "cash": 9803.23,
+      "shares": 98,
+      "wealth": 19603.23,
+      "persona": null
+    },
+    "fund_1": {
+      "cash": 9461.22,
+      "shares": 95,
+      "wealth": 18961.22,
+      "persona": null
+    },
+    "fund_2": {
+      "cash": 4309.02,
+      "shares": 43,
+      "wealth": 8609.02,
+      "persona": null
+    },
+    "mom_0": {
+      "cash": 18116.84,
+      "shares": 181,
+      "wealth": 36216.84,
+      "persona": null
+    },
+    "mom_1": {
+      "cash": 8371.71,
+      "shares": 84,
+      "wealth": 16771.71,
+      "persona": null
+    },
+    "zi_0": {
+      "cash": 19477.61,
+      "shares": 195,
+      "wealth": 38977.61,
+      "persona": null
+    },
+    "zi_1": {
+      "cash": 8994.7,
+      "shares": 90,
+      "wealth": 17994.7,
+      "persona": null
+    },
+    "llm_0": {
+      "cash": 4454.7,
+      "shares": 45,
+      "wealth": 8954.7,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      }
+    },
+    "llm_1": {
+      "cash": 3615.6,
+      "shares": 36,
+      "wealth": 7215.6,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      }
+    },
+    "llm_2": {
+      "cash": 10869.34,
+      "shares": 109,
+      "wealth": 21769.34,
+      "persona": {
+        "name": "Prakash Rao",
+        "age": 58,
+        "occupation": "retired bank officer",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "Decades in banking taught you to respect intrinsic value.",
+        "bias_clauses": ""
+      }
+    },
+    "llm_3": {
+      "cash": 2508.56,
+      "shares": 25,
+      "wealth": 5008.5599999999995,
+      "persona": {
+        "name": "Sana Sheikh",
+        "age": 41,
+        "occupation": "restaurant owner",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "contrarian",
+        "horizon": "medium",
+        "backstory": "You like buying what others are panicking about, carefully.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      }
+    },
+    "llm_4": {
+      "cash": 6319.2,
+      "shares": 63,
+      "wealth": 12619.2,
+      "persona": {
+        "name": "Vikram Bose",
+        "age": 23,
+        "occupation": "engineering student",
+        "risk_tolerance": "high",
+        "strategy_inclination": "novice",
+        "horizon": "short",
+        "backstory": "This is your first market; you mostly follow the crowd.",
+        "bias_clauses": "You feel safer doing what most other people seem to be doing. The last few days weigh far more in your mind than older history."
+      }
+    },
+    "llm_5": {
+      "cash": 21391.4,
+      "shares": 214,
+      "wealth": 42791.4,
+      "persona": {
+        "name": "Lakshmi Nair",
+        "age": 47,
+        "occupation": "pharmacist",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "long",
+        "backstory": "You invest steadily and dislike drama.",
+        "bias_clauses": ""
+      }
+    },
+    "llm_6": {
+      "cash": 14235.57,
+      "shares": 142,
+      "wealth": 28435.57,
+      "persona": {
+        "name": "Rohan DayTrader",
+        "age": 25,
+        "occupation": "crypto and options trader",
+        "risk_tolerance": "very high",
+        "strategy_inclination": "breakout trader",
+        "horizon": "short",
+        "bias_clauses": "You focus on recent price moves.",
+        "backstory": "You buy breakouts and exit when momentum stalls."
+      }
+    },
+    "llm_7": {
+      "cash": 7600.43,
+      "shares": 76,
+      "wealth": 15200.43,
+      "persona": {
+        "name": "Rohit QuantDev",
+        "age": 31,
+        "occupation": "software engineer",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "trend analysis",
+        "horizon": "medium",
+        "bias_clauses": "",
+        "backstory": "You examine numerical trends and prefer systematic decisions."
+      }
+    },
+    "llm_8": {
+      "cash": 7472.66,
+      "shares": 75,
+      "wealth": 14972.66,
+      "persona": {
+        "name": "Kavita Lawyer",
+        "age": 39,
+        "occupation": "corporate lawyer",
+        "risk_tolerance": "medium-low",
+        "strategy_inclination": "contrarian valuation",
+        "horizon": "medium-long",
+        "bias_clauses": "",
+        "backstory": "You question rapid unsupported price rises and compare valuation signals."
+      }
+    },
+    "llm_9": {
+      "cash": 10745.54,
+      "shares": 107,
+      "wealth": 21445.54,
+      "persona": {
+        "name": "Ananya Director",
+        "age": 52,
+        "occupation": "nonprofit director",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "bias_clauses": "",
+        "backstory": "You prioritize prudence, stable income and fair valuation."
+      }
+    },
+    "llm_10": {
+      "cash": 11424.11,
+      "shares": 114,
+      "wealth": 22824.11,
+      "persona": {
+        "name": "Devendra Builder",
+        "age": 45,
+        "occupation": "real estate developer",
+        "risk_tolerance": "medium-high",
+        "strategy_inclination": "value opportunist",
+        "horizon": "medium",
+        "bias_clauses": "",
+        "backstory": "You seek undervalued assets and trim positions when prices look extended."
+      }
+    },
+    "llm_11": {
+      "cash": 10828.56,
+      "shares": 108,
+      "wealth": 21628.559999999998,
+      "persona": {
+        "name": "Vijay Investor",
+        "age": 62,
+        "occupation": "angel investor",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "liquidity provision",
+        "horizon": "long",
+        "bias_clauses": "",
+        "backstory": "You consider buying during panics and selling during euphoria, subject to resources."
+      }
+    }
+  },
+  "45": {
+    "maker": {
+      "cash": 30000.0,
+      "shares": 150,
+      "wealth": 45000.0,
+      "persona": null
+    },
+    "fund_0": {
+      "cash": 20258.84,
+      "shares": 203,
+      "wealth": 40558.84,
+      "persona": null
+    },
+    "fund_1": {
+      "cash": 9521.45,
+      "shares": 95,
+      "wealth": 19021.45,
+      "persona": null
+    },
+    "fund_2": {
+      "cash": 1513.58,
+      "shares": 15,
+      "wealth": 3013.58,
+      "persona": null
+    },
+    "mom_0": {
+      "cash": 1562.06,
+      "shares": 16,
+      "wealth": 3162.06,
+      "persona": null
+    },
+    "mom_1": {
+      "cash": 10505.35,
+      "shares": 105,
+      "wealth": 21005.35,
+      "persona": null
+    },
+    "zi_0": {
+      "cash": 5359.24,
+      "shares": 54,
+      "wealth": 10759.24,
+      "persona": null
+    },
+    "zi_1": {
+      "cash": 51094.7,
+      "shares": 511,
+      "wealth": 102194.7,
+      "persona": null
+    },
+    "llm_0": {
+      "cash": 1555.73,
+      "shares": 16,
+      "wealth": 3155.73,
+      "persona": {
+        "name": "Meera Iyer",
+        "age": 34,
+        "occupation": "school teacher",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "You save carefully from a modest salary and hate losing money.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      }
+    },
+    "llm_1": {
+      "cash": 5426.72,
+      "shares": 54,
+      "wealth": 10826.720000000001,
+      "persona": {
+        "name": "Arjun Malhotra",
+        "age": 27,
+        "occupation": "startup marketer",
+        "risk_tolerance": "high",
+        "strategy_inclination": "momentum",
+        "horizon": "short",
+        "backstory": "You believe you can read momentum better than most.",
+        "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+      }
+    },
+    "llm_2": {
+      "cash": 2374.83,
+      "shares": 24,
+      "wealth": 4774.83,
+      "persona": {
+        "name": "Prakash Rao",
+        "age": 58,
+        "occupation": "retired bank officer",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "backstory": "Decades in banking taught you to respect intrinsic value.",
+        "bias_clauses": ""
+      }
+    },
+    "llm_3": {
+      "cash": 14451.05,
+      "shares": 144,
+      "wealth": 28851.05,
+      "persona": {
+        "name": "Sana Sheikh",
+        "age": 41,
+        "occupation": "restaurant owner",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "contrarian",
+        "horizon": "medium",
+        "backstory": "You like buying what others are panicking about, carefully.",
+        "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+      }
+    },
+    "llm_4": {
+      "cash": 6348.23,
+      "shares": 63,
+      "wealth": 12648.23,
+      "persona": {
+        "name": "Vikram Bose",
+        "age": 23,
+        "occupation": "engineering student",
+        "risk_tolerance": "high",
+        "strategy_inclination": "novice",
+        "horizon": "short",
+        "backstory": "This is your first market; you mostly follow the crowd.",
+        "bias_clauses": "You feel safer doing what most other people seem to be doing. The last few days weigh far more in your mind than older history."
+      }
+    },
+    "llm_5": {
+      "cash": 1201.92,
+      "shares": 12,
+      "wealth": 2401.92,
+      "persona": {
+        "name": "Lakshmi Nair",
+        "age": 47,
+        "occupation": "pharmacist",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "balanced",
+        "horizon": "long",
+        "backstory": "You invest steadily and dislike drama.",
+        "bias_clauses": ""
+      }
+    },
+    "llm_6": {
+      "cash": 20706.25,
+      "shares": 207,
+      "wealth": 41406.25,
+      "persona": {
+        "name": "Rohan DayTrader",
+        "age": 25,
+        "occupation": "crypto and options trader",
+        "risk_tolerance": "very high",
+        "strategy_inclination": "breakout trader",
+        "horizon": "short",
+        "bias_clauses": "You focus on recent price moves.",
+        "backstory": "You buy breakouts and exit when momentum stalls."
+      }
+    },
+    "llm_7": {
+      "cash": 4350.21,
+      "shares": 43,
+      "wealth": 8650.21,
+      "persona": {
+        "name": "Rohit QuantDev",
+        "age": 31,
+        "occupation": "software engineer",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "trend analysis",
+        "horizon": "medium",
+        "bias_clauses": "",
+        "backstory": "You examine numerical trends and prefer systematic decisions."
+      }
+    },
+    "llm_8": {
+      "cash": 5199.44,
+      "shares": 52,
+      "wealth": 10399.439999999999,
+      "persona": {
+        "name": "Kavita Lawyer",
+        "age": 39,
+        "occupation": "corporate lawyer",
+        "risk_tolerance": "medium-low",
+        "strategy_inclination": "contrarian valuation",
+        "horizon": "medium-long",
+        "bias_clauses": "",
+        "backstory": "You question rapid unsupported price rises and compare valuation signals."
+      }
+    },
+    "llm_9": {
+      "cash": 14497.38,
+      "shares": 145,
+      "wealth": 28997.379999999997,
+      "persona": {
+        "name": "Ananya Director",
+        "age": 52,
+        "occupation": "nonprofit director",
+        "risk_tolerance": "low",
+        "strategy_inclination": "fundamentalist",
+        "horizon": "long",
+        "bias_clauses": "",
+        "backstory": "You prioritize prudence, stable income and fair valuation."
+      }
+    },
+    "llm_10": {
+      "cash": 8769.71,
+      "shares": 88,
+      "wealth": 17569.71,
+      "persona": {
+        "name": "Devendra Builder",
+        "age": 45,
+        "occupation": "real estate developer",
+        "risk_tolerance": "medium-high",
+        "strategy_inclination": "value opportunist",
+        "horizon": "medium",
+        "bias_clauses": "",
+        "backstory": "You seek undervalued assets and trim positions when prices look extended."
+      }
+    },
+    "llm_11": {
+      "cash": 5303.31,
+      "shares": 53,
+      "wealth": 10603.310000000001,
+      "persona": {
+        "name": "Vijay Investor",
+        "age": 62,
+        "occupation": "angel investor",
+        "risk_tolerance": "medium",
+        "strategy_inclination": "liquidity provision",
+        "horizon": "long",
+        "bias_clauses": "",
+        "backstory": "You consider buying during panics and selling during euphoria, subject to resources."
+      }
+    }
+  }
+}

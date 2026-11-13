@@ -1,0 +1,12 @@
+{
+  "background_tradeoff.pdf": "3557186a574ecdf75106297ce52b8b09fa8aa3d67c6d361b3d696d8070a9480a",
+  "background_tradeoff.png": "6c3670e36cf276fd561be50835214fb8acfabeccbd4cb015cda508400f1bcb1f",
+  "checks.json": "9b11057d10f70fd60ae185f5266695cb186eb57552b35c3be3213340590cf3eb",
+  "preserve.py": "2f6069f8aef4bf6c306ca336e72cc525f056d27ad7c8a9b5223147927e48d2d1",
+  "README.md": "62a362801baf7d2da6960133cd3dd9e7f182f68d6d951f3521929bb674e94d14",
+  "report.json": "3be3034483154820eb734b1f5f1faaf6e36febcaab6c9dd6c63ebf3cedd996db",
+  "sources.json": "29723c9839da3bce3c8b35673e3059c8103a4b09afd41b80d537ce3567c29976",
+  "start_state.json": "63289a6361dc4a6b7ddcf5b3958937b176d6285223619c53c3abbb9d46283c30",
+  "synthesize.py": "8f60a9b6ee824fa7b92bf7d5c2fdd681e97cb405a0401fe80730a6e6d0668d24",
+  "../../../THESIS_RESULTS.md": "e4e116ecb558472fbe952132e610ba3f978bc1bc11685dbb35d2e4119ae01d47"
+}

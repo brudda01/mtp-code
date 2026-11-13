@@ -1,0 +1,11 @@
+﻿{
+    "pid":  22644,
+    "phase":  "runs/20261102_202946_news_pilot_786a0370/delivery_v4_query_first",
+    "stdout":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.delivery_v4_query_first.stdout.log",
+    "stderr":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.delivery_v4_query_first.stderr.log",
+    "planned_query_decisions":  24,
+    "unfinished_markets":  5,
+    "maximum_cumulative_attempts":  619,
+    "maximum_cumulative_reservations":  8055022,
+    "original_global_limits":  "688 attempts / 9M reservations"
+}

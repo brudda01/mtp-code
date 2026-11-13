@@ -1,0 +1,582 @@
+[
+  {
+    "session": 1,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 2,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 3,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 4,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 5,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 6,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 7,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 8,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 9,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 10,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 11,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 12,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 13,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 14,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 15,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 16,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 17,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 18,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 19,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 20,
+    "phase": "baseline_silence",
+    "posts": []
+  },
+  {
+    "session": 21,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am optimistic about this stock and would consider buying within my budget."
+    ]
+  },
+  {
+    "session": 22,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could rise; I prefer holding rather than selling."
+    ]
+  },
+  {
+    "session": 23,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bullish. I would consider adding shares, but I could be wrong."
+    ]
+  },
+  {
+    "session": 24,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect higher prices and would consider a small purchase. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 25,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am optimistic about this stock and would consider buying within my budget."
+    ]
+  },
+  {
+    "session": 26,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could rise; I prefer holding rather than selling."
+    ]
+  },
+  {
+    "session": 27,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bullish. I would consider adding shares, but I could be wrong."
+    ]
+  },
+  {
+    "session": 28,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect higher prices and would consider a small purchase. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 29,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am optimistic about this stock and would consider buying within my budget."
+    ]
+  },
+  {
+    "session": 30,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could rise; I prefer holding rather than selling."
+    ]
+  },
+  {
+    "session": 31,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bullish. I would consider adding shares, but I could be wrong."
+    ]
+  },
+  {
+    "session": 32,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect higher prices and would consider a small purchase. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 33,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am optimistic about this stock and would consider buying within my budget."
+    ]
+  },
+  {
+    "session": 34,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could rise; I prefer holding rather than selling."
+    ]
+  },
+  {
+    "session": 35,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bullish. I would consider adding shares, but I could be wrong."
+    ]
+  },
+  {
+    "session": 36,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect higher prices and would consider a small purchase. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 37,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am optimistic about this stock and would consider buying within my budget."
+    ]
+  },
+  {
+    "session": 38,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could rise; I prefer holding rather than selling."
+    ]
+  },
+  {
+    "session": 39,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bullish. I would consider adding shares, but I could be wrong."
+    ]
+  },
+  {
+    "session": 40,
+    "phase": "bullish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect higher prices and would consider a small purchase. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 41,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am pessimistic about this stock and would consider selling shares I own."
+    ]
+  },
+  {
+    "session": 42,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could fall; I prefer holding cash rather than adding shares."
+    ]
+  },
+  {
+    "session": 43,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bearish. I would consider reducing holdings, but I could be wrong."
+    ]
+  },
+  {
+    "session": 44,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect lower prices and would consider a small sale. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 45,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am pessimistic about this stock and would consider selling shares I own."
+    ]
+  },
+  {
+    "session": 46,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could fall; I prefer holding cash rather than adding shares."
+    ]
+  },
+  {
+    "session": 47,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bearish. I would consider reducing holdings, but I could be wrong."
+    ]
+  },
+  {
+    "session": 48,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect lower prices and would consider a small sale. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 49,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am pessimistic about this stock and would consider selling shares I own."
+    ]
+  },
+  {
+    "session": 50,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could fall; I prefer holding cash rather than adding shares."
+    ]
+  },
+  {
+    "session": 51,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bearish. I would consider reducing holdings, but I could be wrong."
+    ]
+  },
+  {
+    "session": 52,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect lower prices and would consider a small sale. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 53,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am pessimistic about this stock and would consider selling shares I own."
+    ]
+  },
+  {
+    "session": 54,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could fall; I prefer holding cash rather than adding shares."
+    ]
+  },
+  {
+    "session": 55,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bearish. I would consider reducing holdings, but I could be wrong."
+    ]
+  },
+  {
+    "session": 56,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect lower prices and would consider a small sale. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 57,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I am pessimistic about this stock and would consider selling shares I own."
+    ]
+  },
+  {
+    "session": 58,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I think the stock could fall; I prefer holding cash rather than adding shares."
+    ]
+  },
+  {
+    "session": 59,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): My personal view is bearish. I would consider reducing holdings, but I could be wrong."
+    ]
+  },
+  {
+    "session": 60,
+    "phase": "bearish_opinions",
+    "posts": [
+      "Anonymous forum opinion (unverified): I expect lower prices and would consider a small sale. This is speculation, not verified news."
+    ]
+  },
+  {
+    "session": 61,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 62,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 63,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 64,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 65,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 66,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 67,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 68,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 69,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 70,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 71,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 72,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 73,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 74,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 75,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 76,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 77,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 78,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 79,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 80,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 81,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 82,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 83,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 84,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 85,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 86,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 87,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 88,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 89,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 90,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 91,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 92,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 93,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 94,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 95,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 96,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 97,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 98,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 99,
+    "phase": "post_feed_silence",
+    "posts": []
+  },
+  {
+    "session": 100,
+    "phase": "post_feed_silence",
+    "posts": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "question": "Can the original completed outputs be archived without rerunning any experiment or numerical analysis?",
+  "change": "Normalize study/analysis directories to absolute paths before calling unchanged original preserve().",
+  "rationale": "Original worker supplied relative paths to relative_to(absolute repo), raising ValueError before creating archive.",
+  "old_failure_sha256": "c186fb4f31b075ea8dc9d0cb772ec1f6976d64257f1990bbfb63dda6a33fac10",
+  "report_sha256": "5cf72448f71c321a0468339b37aca4dffb464379d124cd3dd7b9072a7cbfc864",
+  "repair_source_sha256": "fca2889e5938469e42f869ef67b76445a205669be68f770ab6245c37c92925c9",
+  "checks": "Relative/absolute inputs normalize identically; paths constrained within runs; original frozen code and every analysis artifact hash match.",
+  "new_api_requests": 0,
+  "new_market_paths": 0,
+  "new_analysis_runs": 0
+}

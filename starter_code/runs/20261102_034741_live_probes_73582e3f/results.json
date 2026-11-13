@@ -1,0 +1,458 @@
+[
+  {
+    "case_id": "arithmetic_1",
+    "family": "arithmetic",
+    "repetition": 1,
+    "parsed": {
+      "price_change_pct": 10.0,
+      "interest_income": 2.0,
+      "dividend_income": 2.0,
+      "maximum_affordable_shares": 96
+    },
+    "status": "returned"
+  },
+  {
+    "case_id": "arithmetic_2",
+    "family": "arithmetic",
+    "repetition": 2,
+    "parsed": {
+      "price_change_pct": 10.0,
+      "interest_income": 2.0,
+      "dividend_income": 2.0,
+      "maximum_affordable_shares": 96
+    },
+    "status": "returned"
+  },
+  {
+    "case_id": "p00_disclosed_value_value_120_r2",
+    "family": "disclosed_value",
+    "variant": "value_120",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p00_disclosed_value_value_120_r2",
+      "side": "buy",
+      "quantity": 10,
+      "limit_price": 100.5,
+      "round": 6,
+      "reasoning": "With the analyst fair-value estimate significantly above the current steady price of 100 and a steady dividend yield, I am modestly increasing my position to capture long-term upside while keeping risk balanced.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p00_disclosed_value_value_120_r2",
+      "side": "buy",
+      "quantity": 10,
+      "limit_price": 100.5,
+      "round": 6,
+      "reasoning": "With the analyst fair-value estimate significantly above the current steady price of 100 and a steady dividend yield, I am modestly increasing my position to capture long-term upside while keeping risk balanced.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p01_disclosed_value_value_100_r2",
+    "family": "disclosed_value",
+    "variant": "value_100",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p01_disclosed_value_value_100_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With the price stably anchored at the fair-value estimate of 100 and minimal volume, I see no reason to adjust my balanced position.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p01_disclosed_value_value_100_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With the price stably anchored at the fair-value estimate of 100 and minimal volume, I see no reason to adjust my balanced position.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p02_constraints_empty_account_r1",
+    "family": "constraints",
+    "variant": "empty_account",
+    "repetition": 1,
+    "condition": "B",
+    "requested": {
+      "agent_id": "p02_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With zero cash and zero shares in my account, I cannot place any buy or sell orders this round.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p02_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With zero cash and zero shares in my account, I cannot place any buy or sell orders this round.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p03_risk_trait_high_r2",
+    "family": "risk_trait",
+    "variant": "high",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p03_risk_trait_high_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The steady upward trend in KGP prices is encouraging, and with a balanced strategy, I'll hold my position to capture further gains.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p03_risk_trait_high_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The steady upward trend in KGP prices is encouraging, and with a balanced strategy, I'll hold my position to capture further gains.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p04_constraints_empty_account_r1",
+    "family": "constraints",
+    "variant": "empty_account",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p04_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Since my cash balance is zero, I cannot purchase any shares this round and must simply observe the market.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p04_constraints_empty_account_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Since my cash balance is zero, I cannot purchase any shares this round and must simply observe the market.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p05_risk_trait_low_r2",
+    "family": "risk_trait",
+    "variant": "low",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p05_risk_trait_low_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Given my low risk tolerance and balanced style, the steady upward trend in price is appealing, but at 110 the stock is getting pricey relative to the small dividend, so I prefer to hold my current position.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p05_risk_trait_low_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Given my low risk tolerance and balanced style, the steady upward trend in price is appealing, but at 110 the stock is getting pricey relative to the small dividend, so I prefer to hold my current position.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p06_headline_only_positive_headline_r2",
+    "family": "headline_only",
+    "variant": "positive_headline",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p06_headline_only_positive_headline_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The news about potential dividend increases is unverified and the price has remained completely stagnant, so I'll maintain my balanced position.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p06_headline_only_positive_headline_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The news about potential dividend increases is unverified and the price has remained completely stagnant, so I'll maintain my balanced position.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p07_disclosed_value_value_120_r1",
+    "family": "disclosed_value",
+    "variant": "value_120",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p07_disclosed_value_value_120_r1",
+      "side": "buy",
+      "quantity": 10,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "The stock continues to trade stably at 100 while the analyst fair value is significantly higher at 120, offering a good medium-term value opportunity.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p07_disclosed_value_value_120_r1",
+      "side": "buy",
+      "quantity": 10,
+      "limit_price": 100.0,
+      "round": 6,
+      "reasoning": "The stock continues to trade stably at 100 while the analyst fair value is significantly higher at 120, offering a good medium-term value opportunity.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p08_constraints_little_cash_no_shares_r1",
+    "family": "constraints",
+    "variant": "little_cash_no_shares",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p08_constraints_little_cash_no_shares_r1",
+      "side": "buy",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Since I have no cash available after deployment in previous rounds, I must hold my position and wait for liquidity.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p08_constraints_little_cash_no_shares_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "Since I have no cash available after deployment in previous rounds, I must hold my position and wait for liquidity.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p09_constraints_little_cash_no_shares_r1",
+    "family": "constraints",
+    "variant": "little_cash_no_shares",
+    "repetition": 1,
+    "condition": "B",
+    "requested": {
+      "agent_id": "p09_constraints_little_cash_no_shares_r1",
+      "side": "buy",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With zero cash available in my account, I cannot place any buy orders despite the attractive valuation gap.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p09_constraints_little_cash_no_shares_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With zero cash available in my account, I cannot place any buy orders despite the attractive valuation gap.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p10_disclosed_value_value_100_r1",
+    "family": "disclosed_value",
+    "variant": "value_100",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p10_disclosed_value_value_100_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The stock price and fair value remain stable at 100 with a steady dividend, so I will maintain my balanced position.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p10_disclosed_value_value_100_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The stock price and fair value remain stable at 100 with a steady dividend, so I will maintain my balanced position.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p11_risk_trait_low_r1",
+    "family": "risk_trait",
+    "variant": "low",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p11_risk_trait_low_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With a low risk tolerance and steady upward price momentum, my balanced strategy favors holding my current position to secure steady dividend income without overextending my cash.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p11_risk_trait_low_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "With a low risk tolerance and steady upward price momentum, my balanced strategy favors holding my current position to secure steady dividend income without overextending my cash.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p12_risk_trait_high_r1",
+    "family": "risk_trait",
+    "variant": "high",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p12_risk_trait_high_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The steady upward trend in KGP prices reflects solid momentum, so I will maintain my current position and let my portfolio compound.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p12_risk_trait_high_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The steady upward trend in KGP prices reflects solid momentum, so I will maintain my current position and let my portfolio compound.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p13_headline_only_positive_headline_r1",
+    "family": "headline_only",
+    "variant": "positive_headline",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p13_headline_only_positive_headline_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The news about potential dividend increases is unverified and the price has remained completely stable, so I will maintain my current position without making any new trades.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p13_headline_only_positive_headline_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The news about potential dividend increases is unverified and the price has remained completely stable, so I will maintain my current position without making any new trades.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p14_headline_only_no_news_r1",
+    "family": "headline_only",
+    "variant": "no_news",
+    "repetition": 1,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p14_headline_only_no_news_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The stock price and volume remain completely stable, offering a steady dividend yield with no clear momentum to justify new trades.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p14_headline_only_no_news_r1",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The stock price and volume remain completely stable, offering a steady dividend yield with no clear momentum to justify new trades.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  },
+  {
+    "case_id": "p15_headline_only_no_news_r2",
+    "family": "headline_only",
+    "variant": "no_news",
+    "repetition": 2,
+    "condition": "A",
+    "requested": {
+      "agent_id": "p15_headline_only_no_news_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The stock price has remained completely stable at 100 while generating a steady dividend yield, so I am content holding my current balanced position.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "p15_headline_only_no_news_r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 6,
+      "reasoning": "The stock price has remained completely stable at 100 while generating a steady dividend yield, so I am content holding my current balanced position.",
+      "validation_note": ""
+    },
+    "parse_failures": 0,
+    "api_failures": 0
+  }
+]

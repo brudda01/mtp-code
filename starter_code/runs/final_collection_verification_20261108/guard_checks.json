@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "module": "research.goedel_second_seed",
+      "result": "blocked_by_permanent_freeze_before_worker",
+      "output_manifest_unchanged": true
+    },
+    {
+      "module": "research.goedel_seed2_transport_amendment",
+      "result": "blocked_by_permanent_freeze_before_worker",
+      "output_manifest_unchanged": true
+    }
+  ],
+  "new_provider_calls": 0,
+  "new_market_paths": 0,
+  "freeze_sha256": "5c7fe9db4e2c72ad3ad64299e701b58a61f93ff8717aa823c692118f987277a3"
+}

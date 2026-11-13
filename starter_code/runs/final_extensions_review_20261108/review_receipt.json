@@ -1,0 +1,38 @@
+{
+  "status": "reviewed",
+  "date": "2026-11-08",
+  "reviewer": "AI-assisted numerical and visual review;not external or blinded human review",
+  "observed_tests": {
+    "test_final_extensions": 4,
+    "test_dynamic_order_tape": 3
+  },
+  "mock_only_data_excluded_from_findings": true,
+  "figures_inspected": [
+    "dynamic_contrasts.png",
+    "dynamic_price_paths.png",
+    "dynamic_inventory_paths.png",
+    "goedel_path.png"
+  ],
+  "r055_control_paths": 18,
+  "r055_dynamic_paths": 36,
+  "r055_distinct_removal_paths": 3,
+  "r055_cash_share_account_rounds": 9072,
+  "r056_status": "completed",
+  "r056_actual_input_pairs": 150,
+  "r056_cash_share_account_rounds": 350,
+  "r056_http_attempts": 150,
+  "r056_provider_tokens": 369984,
+  "r056_reservations": 1607502,
+  "r056_unknown_usage_requests": 0,
+  "adverse_and_null_results_retained": true,
+  "all_primary_tables_verified": true,
+  "no_causal_cross_model_or_scaling_claim": true,
+  "source_hashes": {
+    "research/goedel_cohort.py": "67e1c2ce6c81aaa90986f60d82dc7be6bc88e8b1d9ee2468f1aae88b998451c9",
+    "research/dynamic_order_tape.py": "1ad1a27702881c5746e1a36a4a013234486a57ae830ad473c4d6948938ba675f",
+    "research/analyze_final_extensions.py": "7f08e98224bd9ff72d626146665048a554250bc48a623b7b05e819c686a1f0a5",
+    "research/render_dynamic_paths.py": "e561ce2c11f74b30df6396bb5b311cd1c35f184345f2ead02e1b976f0629edf3",
+    "tests/test_final_extensions.py": "6741288a010136fa1d3636c88590d29acb88a071305b786fbbc0fa3cd1eb9087",
+    "tests/test_dynamic_order_tape.py": "9d03a97503da22305dfc2da93121216c0ab0455004760ef82beb2d6fe27847f3"
+  }
+}

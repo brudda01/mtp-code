@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "root": "goedel_seed2_detached_20261109",
+      "completed_rounds_preserved": 5,
+      "rows_checked": {
+        "prices.csv": 5,
+        "trades.csv": 23,
+        "orders.csv": 75,
+        "agents_state.csv": 70,
+        "cashflows.csv": 5,
+        "liquidity.csv": 5
+      }
+    },
+    {
+      "root": "goedel_seed2_expbackoff_20261109",
+      "completed_rounds_preserved": 17,
+      "rows_checked": {
+        "prices.csv": 17,
+        "trades.csv": 91,
+        "orders.csv": 255,
+        "agents_state.csv": 238,
+        "cashflows.csv": 17,
+        "liquidity.csv": 17
+      }
+    },
+    {
+      "root": "goedel_seed2_full25_20261109",
+      "completed_rounds_preserved": 18,
+      "rows_checked": {
+        "prices.csv": 18,
+        "trades.csv": 94,
+        "orders.csv": 270,
+        "agents_state.csv": 252,
+        "cashflows.csv": 18,
+        "liquidity.csv": 18
+      }
+    },
+    {
+      "root": "goedel_seed2_final_20261109",
+      "completed_rounds_preserved": 19,
+      "rows_checked": {
+        "prices.csv": 19,
+        "trades.csv": 99,
+        "orders.csv": 285,
+        "agents_state.csv": 266,
+        "cashflows.csv": 19,
+        "liquidity.csv": 19
+      }
+    }
+  ],
+  "normalization": "Only Python agent type label excluded; every other financial CSV field exact. Overlapping prefixes,not new independent data."
+}

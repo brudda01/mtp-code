@@ -1,0 +1,78 @@
+{
+  "report_sha256": "a522c7c10aff1745f322f494f72b4706ff479b35d4bdf5f0640d1d2f7be9acae",
+  "values": [
+    [
+      0,
+      0,
+      -13,
+      0,
+      0,
+      0,
+      -90,
+      20
+    ],
+    [
+      -2,
+      -156,
+      -109,
+      0,
+      -106,
+      -106,
+      87,
+      -148
+    ],
+    [
+      -2,
+      -156,
+      -122,
+      0,
+      -106,
+      -106,
+      -3,
+      -128
+    ]
+  ],
+  "columns": [
+    {
+      "seed": 20611,
+      "repetition": 1,
+      "background": "original"
+    },
+    {
+      "seed": 20611,
+      "repetition": 1,
+      "background": "no_skew"
+    },
+    {
+      "seed": 20611,
+      "repetition": 2,
+      "background": "original"
+    },
+    {
+      "seed": 20611,
+      "repetition": 2,
+      "background": "no_skew"
+    },
+    {
+      "seed": 21727,
+      "repetition": 1,
+      "background": "original"
+    },
+    {
+      "seed": 21727,
+      "repetition": 1,
+      "background": "no_skew"
+    },
+    {
+      "seed": 21727,
+      "repetition": 2,
+      "background": "original"
+    },
+    {
+      "seed": 21727,
+      "repetition": 2,
+      "background": "no_skew"
+    }
+  ],
+  "note": "Layout correction only: shorter colorbar label and tight bounding box. Original v1 plot/manifest retained. No outcome/data selection or new calls."
+}

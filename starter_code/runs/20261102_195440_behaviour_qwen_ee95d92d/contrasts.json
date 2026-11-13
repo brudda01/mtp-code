@@ -1,0 +1,146 @@
+{
+  "version": "matched_trait_actions_v1",
+  "risk": [
+    {
+      "repetition": 1,
+      "context": "rising",
+      "wording": "label",
+      "high_minus_low_requested": 50,
+      "high_minus_low_accepted": 50
+    },
+    {
+      "repetition": 1,
+      "context": "rising",
+      "wording": "description",
+      "high_minus_low_requested": 40,
+      "high_minus_low_accepted": 40
+    },
+    {
+      "repetition": 1,
+      "context": "falling",
+      "wording": "label",
+      "high_minus_low_requested": 30,
+      "high_minus_low_accepted": 30
+    },
+    {
+      "repetition": 1,
+      "context": "falling",
+      "wording": "description",
+      "high_minus_low_requested": -20,
+      "high_minus_low_accepted": -20
+    },
+    {
+      "repetition": 2,
+      "context": "rising",
+      "wording": "label",
+      "high_minus_low_requested": 20,
+      "high_minus_low_accepted": 20
+    },
+    {
+      "repetition": 2,
+      "context": "rising",
+      "wording": "description",
+      "high_minus_low_requested": 50,
+      "high_minus_low_accepted": 50
+    },
+    {
+      "repetition": 2,
+      "context": "falling",
+      "wording": "label",
+      "high_minus_low_requested": -100,
+      "high_minus_low_accepted": -100
+    },
+    {
+      "repetition": 2,
+      "context": "falling",
+      "wording": "description",
+      "high_minus_low_requested": 50,
+      "high_minus_low_accepted": 50
+    },
+    {
+      "repetition": 3,
+      "context": "rising",
+      "wording": "label",
+      "high_minus_low_requested": 80,
+      "high_minus_low_accepted": 80
+    },
+    {
+      "repetition": 3,
+      "context": "rising",
+      "wording": "description",
+      "high_minus_low_requested": 30,
+      "high_minus_low_accepted": 30
+    },
+    {
+      "repetition": 3,
+      "context": "falling",
+      "wording": "label",
+      "high_minus_low_requested": 50,
+      "high_minus_low_accepted": 50
+    },
+    {
+      "repetition": 3,
+      "context": "falling",
+      "wording": "description",
+      "high_minus_low_requested": 50,
+      "high_minus_low_accepted": 50
+    }
+  ],
+  "gain_loss": [
+    {
+      "repetition": 1,
+      "wording": "pain",
+      "gain_minus_loss_sell_quantity": {
+        "neutral": 0,
+        "loss_sensitive": 0
+      },
+      "trait_by_basis_sell_interaction": 0
+    },
+    {
+      "repetition": 1,
+      "wording": "weight",
+      "gain_minus_loss_sell_quantity": {
+        "neutral": 0,
+        "loss_sensitive": 0
+      },
+      "trait_by_basis_sell_interaction": 0
+    },
+    {
+      "repetition": 2,
+      "wording": "pain",
+      "gain_minus_loss_sell_quantity": {
+        "neutral": 0,
+        "loss_sensitive": 0
+      },
+      "trait_by_basis_sell_interaction": 0
+    },
+    {
+      "repetition": 2,
+      "wording": "weight",
+      "gain_minus_loss_sell_quantity": {
+        "neutral": 0,
+        "loss_sensitive": 0
+      },
+      "trait_by_basis_sell_interaction": 0
+    },
+    {
+      "repetition": 3,
+      "wording": "pain",
+      "gain_minus_loss_sell_quantity": {
+        "neutral": 0,
+        "loss_sensitive": 0
+      },
+      "trait_by_basis_sell_interaction": 0
+    },
+    {
+      "repetition": 3,
+      "wording": "weight",
+      "gain_minus_loss_sell_quantity": {
+        "neutral": 0,
+        "loss_sensitive": 0
+      },
+      "trait_by_basis_sell_interaction": 0
+    }
+  ],
+  "interpretation": "Positive risk contrast means greater requested/accepted stock exposure for high-risk wording. Positive sell interaction means the gain-minus-loss selling contrast is larger with the loss-sensitive clause. No direction is a correctness oracle; no simulated fills, human-validation or independent-market inference."
+}

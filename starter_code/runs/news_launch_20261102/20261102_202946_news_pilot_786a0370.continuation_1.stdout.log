@@ -1,0 +1,10 @@
+round 10/20 price=113.90 vol=14
+round 20/20 price=97.90 vol=26
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\continuation_1\market_runs\20261102_204658_news_qwen_headline_only_s1441_b617ea4f
+continuation market 1/7 headline_only seed 1441
+round 10/20 price=104.40 vol=13
+round 20/20 price=118.40 vol=19
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\continuation_1\market_runs\20261102_205501_news_qwen_fundamentals_only_s1441_bd4736a0
+continuation market 2/7 fundamentals_only seed 1441
+provider_error -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\continuation_1\market_runs\20261102_210149_news_qwen_combined_s1441_f6732630
+stopped -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\continuation_1

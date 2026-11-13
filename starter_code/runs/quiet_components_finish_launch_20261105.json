@@ -1,0 +1,6 @@
+{
+    "action":  "local-only analyze/preserve once after final summary; no API calls or restart",
+    "pid":  11928,
+    "started_utc":  "2026-11-04T20:01:11.7409878Z",
+    "study":  "runs/20261105_012335_quiet_components_5066abab"
+}

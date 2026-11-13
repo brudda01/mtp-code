@@ -1,0 +1,13 @@
+{
+  "interpretation_sha256": "a8f252e935b06d2d3d816fdfec43c25df2ca827c2d15016b1907d4a3589369f9",
+  "v1_report_sha256": "8bbeda5653c0be85b4fc37f68de117abfa1c8299d27e19569ef9f6b16079e72a",
+  "v2_report_sha256": "8bbeda5653c0be85b4fc37f68de117abfa1c8299d27e19569ef9f6b16079e72a",
+  "correction": "Only consistent condition colors in v2; all numeric results identical. v1 retained.",
+  "planned_decisions": 192,
+  "valid_delivered": 169,
+  "cleared_round_decisions": 168,
+  "cancelled_delivered": 1,
+  "failed_decision_slots": 1,
+  "unattempted_later_decisions": 22,
+  "unattempted_market_arms": 0
+}

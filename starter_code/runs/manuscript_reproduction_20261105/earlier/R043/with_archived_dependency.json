@@ -1,0 +1,295 @@
+{
+  "status": "passed",
+  "kind": "Recorded-output verification,not fresh model replication",
+  "network_attempts": 0,
+  "markets": [
+    {
+      "original_run": "market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235652_quiet_components_A_s22853_rep1_ab9b08d4",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235652_quiet_components_B_s22853_rep1_eb8a2d7a",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235653_quiet_components_C_s22853_rep1_a0487faa",
+      "rounds": 12,
+      "recorded_calls_consumed": 28,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235653_quiet_components_B_s22853_rep2_1349f8ce",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235654_quiet_components_C_s22853_rep2_cb1f1f39",
+      "rounds": 12,
+      "recorded_calls_consumed": 28,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235655_quiet_components_A_s22853_rep2_60f44a09",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235656_quiet_components_B_s23971_rep1_73c33934",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235657_quiet_components_C_s23971_rep1_17eefa02",
+      "rounds": 12,
+      "recorded_calls_consumed": 28,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235658_quiet_components_A_s23971_rep1_ab294982",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235659_quiet_components_C_s23971_rep2_9e382bdb",
+      "rounds": 12,
+      "recorded_calls_consumed": 28,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235700_quiet_components_A_s23971_rep2_5e2b51dc",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235702_quiet_components_B_s23971_rep2_a3b316fa",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235702_quiet_components_C_s25087_rep1_40ac8bd6",
+      "rounds": 12,
+      "recorded_calls_consumed": 28,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235703_quiet_components_A_s25087_rep1_02b3948b",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235703_quiet_components_B_s25087_rep1_0e1e6ade",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235704_quiet_components_A_s25087_rep2_42ec5e0c",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235705_quiet_components_B_s25087_rep2_94435716",
+      "rounds": 12,
+      "recorded_calls_consumed": 24,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    },
+    {
+      "original_run": "market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0",
+      "replay_run": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\manuscript_reproduction_20261105\\earlier\\R043\\with_archived_dependency\\20261105_235705_quiet_components_C_s25087_rep2_c981ec2e",
+      "rounds": 12,
+      "recorded_calls_consumed": 28,
+      "exact_financial_files": {
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true,
+        "initial_state.csv": true
+      },
+      "source_snapshot_matches": true
+    }
+  ]
+}

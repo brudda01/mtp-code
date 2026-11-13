@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 22853,
+    "mode": "rules",
+    "repetition": 0,
+    "config": "configs/quiet_components_rules_s22853_rep0.yaml",
+    "config_sha256": "8b18e5e9d08af0b5db83b23ccc70a3fe6f9fa143e6a199519f80bc37c12fd1fe",
+    "run_path": "baseline_runs/20261105_012335_quiet_components_rules_s22853_rep0_ae18e39f",
+    "manifest_sha256": "0aa8479b1ecca9234502f4757d63eb1de9480ef9e7e2619f99155331bce9549d"
+  },
+  {
+    "seed": 23971,
+    "mode": "rules",
+    "repetition": 0,
+    "config": "configs/quiet_components_rules_s23971_rep0.yaml",
+    "config_sha256": "28ed7e33af7338b3c30201cd49f36e2d3e16aa66862f2ab8cc2da57ec33b7bcd",
+    "run_path": "baseline_runs/20261105_012335_quiet_components_rules_s23971_rep0_0258823c",
+    "manifest_sha256": "0c49e677e5dda898d9ff831c765c1284a06a40f62d05224a2abf2670c6785f86"
+  },
+  {
+    "seed": 25087,
+    "mode": "rules",
+    "repetition": 0,
+    "config": "configs/quiet_components_rules_s25087_rep0.yaml",
+    "config_sha256": "319a5e6efb117e6960438b6e57ce12dfa126ab39adff40bc0e56b1a4c87b649e",
+    "run_path": "baseline_runs/20261105_012335_quiet_components_rules_s25087_rep0_5ba6bb42",
+    "manifest_sha256": "e311b096781fad4524f62f6aaa4dd61e0891ea6e8226af9ab8cfccdd6f430682"
+  }
+]

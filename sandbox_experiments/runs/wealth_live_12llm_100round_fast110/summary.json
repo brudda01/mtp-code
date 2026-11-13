@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "pid": 30148,
+  "completed_markets": 4,
+  "planned_markets": 4,
+  "markets": [
+    {
+      "path": "s42_equal",
+      "completed_rounds": 100
+    },
+    {
+      "path": "s42_heterogeneous",
+      "completed_rounds": 100
+    },
+    {
+      "path": "s43_equal",
+      "completed_rounds": 100
+    },
+    {
+      "path": "s43_heterogeneous",
+      "completed_rounds": 100
+    }
+  ],
+  "replayed_decisions": 410,
+  "usage": {
+    "requests_made": 4390,
+    "max_requests": 6000,
+    "reserved_tokens": 45793823,
+    "max_reserved_tokens": 96000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": null,
+    "provider_reported_tokens": 10627580,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 110,
+    "input_tokens_per_minute": 200000,
+    "stop_on_api_error": false,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "updated_utc": "2026-11-09T23:15:44.297811+00:00",
+  "current_market": "s43_heterogeneous",
+  "current_market_path": "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\sandbox_experiments\\runs\\wealth_live_12llm_100round_fast110\\s43_heterogeneous",
+  "last_attempt_status": "returned",
+  "last_attempt_model": "deepseek/deepseek-v4.1-flash",
+  "delivered_responses": 4800
+}

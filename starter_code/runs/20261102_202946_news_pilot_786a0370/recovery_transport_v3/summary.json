@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "completed_markets": 11,
+  "recorded_recovery_arms": 1,
+  "failure_type": "ProviderUnavailable",
+  "finished_utc": "2026-11-02T16:07:36.551306+00:00",
+  "plan_sha256": "bf950d7c93044f5e7201b5387631bafde86fac3d5ac4ca657136a7d697b7939e"
+}

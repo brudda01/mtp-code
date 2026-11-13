@@ -1,0 +1,974 @@
+[
+  {
+    "seed": 22853,
+    "mode": "A",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8",
+    "run_path": "cap10/20261108_161612_quiet_components_A_s22853_rep1_aa6ebf92",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4897348945908222,
+      "mean_gap_pct": 1.9916666666666676,
+      "max_drawdown_pct": 3.7000000000000033,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 148,
+      "maker_max": 198,
+      "volume": 193,
+      "terminal_price": 102.7,
+      "target_union_volume": 60,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "A",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_012435_quiet_components_A_s22853_rep1_132e66b8",
+    "run_path": "remove/20261108_161612_quiet_components_A_s22853_rep1_2b34b654",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4778094250827885,
+      "mean_gap_pct": 2.141666666666665,
+      "max_drawdown_pct": 3.400000000000003,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 158,
+      "maker_max": 185,
+      "volume": 162,
+      "terminal_price": 103.3,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "B",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+    "run_path": "cap10/20261108_161612_quiet_components_B_s22853_rep1_32a9bf17",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.7052879407570898,
+      "mean_gap_pct": 6.016666666666666,
+      "max_drawdown_pct": 10.40000000000001,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 160,
+      "maker_max": 200,
+      "volume": 224,
+      "terminal_price": 89.8,
+      "target_union_volume": 96,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "B",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_012903_quiet_components_B_s22853_rep1_430976d5",
+    "run_path": "remove/20261108_161612_quiet_components_B_s22853_rep1_199d25d2",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4778094250827885,
+      "mean_gap_pct": 2.141666666666665,
+      "max_drawdown_pct": 3.400000000000003,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 158,
+      "maker_max": 185,
+      "volume": 162,
+      "terminal_price": 103.3,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "C",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+    "run_path": "cap10/20261108_161613_quiet_components_C_s22853_rep1_2dc69577",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.349698593140952,
+      "mean_gap_pct": 3.3166666666666655,
+      "max_drawdown_pct": 1.0999999999999899,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 98,
+      "maker_max": 156,
+      "volume": 220,
+      "terminal_price": 108.9,
+      "target_union_volume": 82,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 7.275957614183426e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "C",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_013500_quiet_components_C_s22853_rep1_b8e3a0e7",
+    "run_path": "remove/20261108_161613_quiet_components_C_s22853_rep1_8b2f65a4",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4778094250827885,
+      "mean_gap_pct": 2.141666666666665,
+      "max_drawdown_pct": 3.400000000000003,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 158,
+      "maker_max": 185,
+      "volume": 162,
+      "terminal_price": 103.3,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "B",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00",
+    "run_path": "cap10/20261108_161613_quiet_components_B_s22853_rep2_f911fd33",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.425522520519041,
+      "mean_gap_pct": 2.416666666666665,
+      "max_drawdown_pct": 1.0999999999999899,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 129,
+      "maker_max": 156,
+      "volume": 190,
+      "terminal_price": 104.9,
+      "target_union_volume": 50,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "B",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_013927_quiet_components_B_s22853_rep2_c3971b00",
+    "run_path": "remove/20261108_161613_quiet_components_B_s22853_rep2_27342574",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4778094250827885,
+      "mean_gap_pct": 2.141666666666665,
+      "max_drawdown_pct": 3.400000000000003,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 158,
+      "maker_max": 185,
+      "volume": 162,
+      "terminal_price": 103.3,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "C",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382",
+    "run_path": "cap10/20261108_161613_quiet_components_C_s22853_rep2_65fae0de",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.3513948235085476,
+      "mean_gap_pct": 3.2583333333333298,
+      "max_drawdown_pct": 1.0999999999999899,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 112,
+      "maker_max": 156,
+      "volume": 204,
+      "terminal_price": 108.7,
+      "target_union_volume": 46,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "C",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_014353_quiet_components_C_s22853_rep2_af52a382",
+    "run_path": "remove/20261108_161613_quiet_components_C_s22853_rep2_2005ad42",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4778094250827885,
+      "mean_gap_pct": 2.141666666666665,
+      "max_drawdown_pct": 3.400000000000003,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 158,
+      "maker_max": 185,
+      "volume": 162,
+      "terminal_price": 103.3,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "A",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c",
+    "run_path": "cap10/20261108_161614_quiet_components_A_s22853_rep2_5a1cfa61",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.3760185469783905,
+      "mean_gap_pct": 3.2166666666666655,
+      "max_drawdown_pct": 1.0999999999999899,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 104,
+      "maker_max": 156,
+      "volume": 234,
+      "terminal_price": 107.7,
+      "target_union_volume": 90,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 7.275957614183426e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 22853,
+    "mode": "A",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_014839_quiet_components_A_s22853_rep2_9058a10c",
+    "run_path": "remove/20261108_161614_quiet_components_A_s22853_rep2_3ecdb530",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.4778094250827885,
+      "mean_gap_pct": 2.141666666666665,
+      "max_drawdown_pct": 3.400000000000003,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 158,
+      "maker_max": 185,
+      "volume": 162,
+      "terminal_price": 103.3,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "B",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003",
+    "run_path": "cap10/20261108_161614_quiet_components_B_s23971_rep1_cba38c2c",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.5032901450262677,
+      "mean_gap_pct": 1.3749999999999984,
+      "max_drawdown_pct": 3.2835820895522394,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 174,
+      "volume": 206,
+      "terminal_price": 98.0,
+      "target_union_volume": 36,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "B",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_015223_quiet_components_B_s23971_rep1_4cbf4003",
+    "run_path": "remove/20261108_161614_quiet_components_B_s23971_rep1_2d58a958",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.2679581681469845,
+      "mean_gap_pct": 4.424999999999998,
+      "max_drawdown_pct": 6.169154228855723,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 175,
+      "volume": 195,
+      "terminal_price": 95.2,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "C",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74",
+    "run_path": "cap10/20261108_161614_quiet_components_C_s23971_rep1_835eadec",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.49262847241187274,
+      "mean_gap_pct": 1.1833333333333327,
+      "max_drawdown_pct": 3.383084577114437,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 140,
+      "maker_max": 174,
+      "volume": 220,
+      "terminal_price": 97.5,
+      "target_union_volume": 63,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "C",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_015623_quiet_components_C_s23971_rep1_31b3cf74",
+    "run_path": "remove/20261108_161614_quiet_components_C_s23971_rep1_6eea7ac2",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.2679581681469845,
+      "mean_gap_pct": 4.424999999999998,
+      "max_drawdown_pct": 6.169154228855723,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 175,
+      "volume": 195,
+      "terminal_price": 95.2,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "A",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830",
+    "run_path": "cap10/20261108_161615_quiet_components_A_s23971_rep1_4547dcc3",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.4582576043876199,
+      "mean_gap_pct": 1.9166666666666654,
+      "max_drawdown_pct": 1.0945273631840724,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 90,
+      "maker_max": 156,
+      "volume": 236,
+      "terminal_price": 105.4,
+      "target_union_volume": 94,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 7.275957614183426e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "A",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_020106_quiet_components_A_s23971_rep1_107ec830",
+    "run_path": "remove/20261108_161615_quiet_components_A_s23971_rep1_5b0f5f58",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.2679581681469845,
+      "mean_gap_pct": 4.424999999999998,
+      "max_drawdown_pct": 6.169154228855723,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 175,
+      "volume": 195,
+      "terminal_price": 95.2,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "C",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+    "run_path": "cap10/20261108_161615_quiet_components_C_s23971_rep2_09a83b6b",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.5094475531483383,
+      "mean_gap_pct": 1.241666666666664,
+      "max_drawdown_pct": 2.985074626865669,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 146,
+      "maker_max": 167,
+      "volume": 207,
+      "terminal_price": 98.4,
+      "target_union_volume": 49,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "C",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_020719_quiet_components_C_s23971_rep2_06a7eee0",
+    "run_path": "remove/20261108_161615_quiet_components_C_s23971_rep2_22ab50b4",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.2679581681469845,
+      "mean_gap_pct": 4.424999999999998,
+      "max_drawdown_pct": 6.169154228855723,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 175,
+      "volume": 195,
+      "terminal_price": 95.2,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "A",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1",
+    "run_path": "cap10/20261108_161615_quiet_components_A_s23971_rep2_b9ac28f0",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.4620620801986974,
+      "mean_gap_pct": 1.6499999999999986,
+      "max_drawdown_pct": 4.676616915422893,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 185,
+      "volume": 218,
+      "terminal_price": 95.8,
+      "target_union_volume": 56,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "A",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_021227_quiet_components_A_s23971_rep2_e45502f1",
+    "run_path": "remove/20261108_161615_quiet_components_A_s23971_rep2_ce4f220f",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.2679581681469845,
+      "mean_gap_pct": 4.424999999999998,
+      "max_drawdown_pct": 6.169154228855723,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 175,
+      "volume": 195,
+      "terminal_price": 95.2,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "B",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838",
+    "run_path": "cap10/20261108_161616_quiet_components_B_s23971_rep2_28611b34",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.5133269438062616,
+      "mean_gap_pct": 1.3249999999999984,
+      "max_drawdown_pct": 3.184079601990053,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 172,
+      "volume": 209,
+      "terminal_price": 98.1,
+      "target_union_volume": 38,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 23971,
+    "mode": "B",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_021608_quiet_components_B_s23971_rep2_1f655838",
+    "run_path": "remove/20261108_161616_quiet_components_B_s23971_rep2_786a2b6a",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 1.2679581681469845,
+      "mean_gap_pct": 4.424999999999998,
+      "max_drawdown_pct": 6.169154228855723,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 147,
+      "maker_max": 175,
+      "volume": 195,
+      "terminal_price": 95.2,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "C",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+    "run_path": "cap10/20261108_161616_quiet_components_C_s25087_rep1_317c6bed",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8661328855479428,
+      "mean_gap_pct": 5.2749999999999995,
+      "max_drawdown_pct": 1.7592592592592604,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 79,
+      "maker_max": 140,
+      "volume": 188,
+      "terminal_price": 107.0,
+      "target_union_volume": 46,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 7.275957614183426e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "C",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_021954_quiet_components_C_s25087_rep1_21b7da9c",
+    "run_path": "remove/20261108_161616_quiet_components_C_s25087_rep1_897586c4",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8069405120248149,
+      "mean_gap_pct": 3.241666666666667,
+      "max_drawdown_pct": 1.8095238095238164,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 96,
+      "maker_max": 140,
+      "volume": 144,
+      "terminal_price": 104.9,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "A",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+    "run_path": "cap10/20261108_161616_quiet_components_A_s25087_rep1_e68d7f08",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.7931615519697023,
+      "mean_gap_pct": 3.550000000000001,
+      "max_drawdown_pct": 1.7992424242424199,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 86,
+      "maker_max": 140,
+      "volume": 169,
+      "terminal_price": 105.6,
+      "target_union_volume": 31,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "A",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_022441_quiet_components_A_s25087_rep1_ef65f36c",
+    "run_path": "remove/20261108_161617_quiet_components_A_s25087_rep1_5881d52e",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8069405120248149,
+      "mean_gap_pct": 3.241666666666667,
+      "max_drawdown_pct": 1.8095238095238164,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 96,
+      "maker_max": 140,
+      "volume": 144,
+      "terminal_price": 104.9,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "B",
+    "repetition": 1,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8",
+    "run_path": "cap10/20261108_161617_quiet_components_B_s25087_rep1_e86471ef",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8519495843579337,
+      "mean_gap_pct": 5.424999999999999,
+      "max_drawdown_pct": 1.7576318223866738,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 77,
+      "maker_max": 140,
+      "volume": 186,
+      "terminal_price": 108.3,
+      "target_union_volume": 43,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "B",
+    "repetition": 1,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_022925_quiet_components_B_s25087_rep1_af34c9b8",
+    "run_path": "remove/20261108_161617_quiet_components_B_s25087_rep1_2d6da315",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8069405120248149,
+      "mean_gap_pct": 3.241666666666667,
+      "max_drawdown_pct": 1.8095238095238164,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 96,
+      "maker_max": 140,
+      "volume": 144,
+      "terminal_price": 104.9,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "A",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953",
+    "run_path": "cap10/20261108_161617_quiet_components_A_s25087_rep2_ac28a727",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.6704158990969742,
+      "mean_gap_pct": 6.375000000000003,
+      "max_drawdown_pct": 0.0,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 51,
+      "maker_max": 140,
+      "volume": 226,
+      "terminal_price": 112.7,
+      "target_union_volume": 56,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "A",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_023445_quiet_components_A_s25087_rep2_a5249953",
+    "run_path": "remove/20261108_161617_quiet_components_A_s25087_rep2_59b0a49a",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8069405120248149,
+      "mean_gap_pct": 3.241666666666667,
+      "max_drawdown_pct": 1.8095238095238164,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 96,
+      "maker_max": 140,
+      "volume": 144,
+      "terminal_price": 104.9,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "B",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98",
+    "run_path": "cap10/20261108_161617_quiet_components_B_s25087_rep2_347ada6e",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.7547699644676578,
+      "mean_gap_pct": 4.341666666666666,
+      "max_drawdown_pct": 1.7740429505135324,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 82,
+      "maker_max": 140,
+      "volume": 180,
+      "terminal_price": 107.2,
+      "target_union_volume": 40,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "B",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_023927_quiet_components_B_s25087_rep2_3fc07e98",
+    "run_path": "remove/20261108_161617_quiet_components_B_s25087_rep2_48225cd4",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8069405120248149,
+      "mean_gap_pct": 3.241666666666667,
+      "max_drawdown_pct": 1.8095238095238164,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 96,
+      "maker_max": 140,
+      "volume": 144,
+      "terminal_price": 104.9,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "C",
+    "repetition": 2,
+    "condition": "cap10",
+    "donor_path": "market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0",
+    "run_path": "cap10/20261108_161618_quiet_components_C_s25087_rep2_af5be7ef",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8519495843579337,
+      "mean_gap_pct": 5.424999999999999,
+      "max_drawdown_pct": 1.7576318223866738,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 78,
+      "maker_max": 140,
+      "volume": 185,
+      "terminal_price": 108.3,
+      "target_union_volume": 36,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 3.637978807091713e-12,
+      "rounds": 12
+    }
+  },
+  {
+    "seed": 25087,
+    "mode": "C",
+    "repetition": 2,
+    "condition": "remove",
+    "donor_path": "market_runs/20261105_024342_quiet_components_C_s25087_rep2_bcee3bd0",
+    "run_path": "remove/20261108_161618_quiet_components_C_s25087_rep2_4186bc14",
+    "metrics": {
+      "rounds": 12,
+      "price_return_sd_pct": 0.8069405120248149,
+      "mean_gap_pct": 3.241666666666667,
+      "max_drawdown_pct": 1.8095238095238164,
+      "maker_boundary_fraction": 0.0,
+      "maker_min": 96,
+      "maker_max": 140,
+      "volume": 144,
+      "terminal_price": 104.9,
+      "target_union_volume": 0,
+      "zero_volume_rounds": 0
+    },
+    "audit": {
+      "status": "passed",
+      "account_rounds": 168,
+      "max_individual_cash_error": 1.8189894035458565e-12,
+      "rounds": 12
+    }
+  }
+]

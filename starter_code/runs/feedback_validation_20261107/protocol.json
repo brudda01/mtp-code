@@ -1,0 +1,412 @@
+{
+  "version": "matched_first_reflection_v1_original_vs_timed",
+  "status": "frozen_before_calls",
+  "created_utc": "2026-11-06T20:04:02.032150+00:00",
+  "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    " M ../00_START_HERE.md",
+    " M ../06_EVALUATION_AND_EXPERIMENTS.md",
+    " M ../07_REPORT_TEMPLATES.md",
+    "AM ../AGENTS.md",
+    "AM ../RESEARCH_DIARY.md",
+    " M README.md",
+    " M configs/dev_mock.yaml",
+    " M sim/agents/base.py",
+    " M sim/agents/llm_agent.py",
+    " M sim/agents/rule_agents.py",
+    " M sim/assets.py",
+    " M sim/engine.py",
+    " M sim/llm/client.py",
+    " M sim/llm/mock.py",
+    " M sim/market.py",
+    "?? ../.gitignore",
+    "?? ../THESIS_RESULTS.md",
+    "?? AGENT_EXPERIMENTS.md",
+    "?? ECONOMIC_MODEL.md",
+    "?? configs/baseline_mock.yaml",
+    "?? configs/baseline_rules.yaml",
+    "?? configs/diagnostic_shock.yaml",
+    "?? configs/pilot_a_mock.yaml",
+    "?? configs/pilot_b_mock.yaml",
+    "?? configs/pilot_c_mock.yaml",
+    "?? research/",
+    "?? sim/background_check.py",
+    "?? sim/behaviour_check.py",
+    "?? sim/behaviour_run.py",
+    "?? sim/capability_check.py",
+    "?? sim/component_continuation.py",
+    "?? sim/config.py",
+    "?? sim/evaluation.py",
+    "?? sim/llm/usage.py",
+    "?? sim/news_components.py",
+    "?? sim/news_controls.py",
+    "?? sim/news_pilot.py",
+    "?? sim/pilot.py",
+    "?? sim/provenance.py",
+    "?? sim/sequential_markets.py",
+    "?? sim/timed_feedback.py",
+    "?? tests/test_background_diversity.py",
+    "?? tests/test_behaviour_run.py",
+    "?? tests/test_comparable_agents.py",
+    "?? tests/test_component_continuation.py",
+    "?? tests/test_config.py",
+    "?? tests/test_disclosed_rules.py",
+    "?? tests/test_economics.py",
+    "?? tests/test_feedback_validation.py",
+    "?? tests/test_foundation.py",
+    "?? tests/test_live_pilot.py",
+    "?? tests/test_news_components.py",
+    "?? tests/test_news_controls.py",
+    "?? tests/test_news_pilot.py",
+    "?? tests/test_research_checks.py",
+    "?? tests/test_sequential_markets.py",
+    "?? tests/test_timed_feedback.py",
+    "?? tests/test_transport_retry.py",
+    "?? ../thesis/"
+  ],
+  "libraries": {
+    "numpy": "2.1.3",
+    "PyYAML": "6.0.3"
+  },
+  "source_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "0346d68c54b34c272d6bc2415209a3862082854f3b8a27f19ce941f19d99f9dd",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/component_continuation.py": "5c386f8d84e7a50654676aaea2dbd33a1365337aadc44be0d52f35a97388426b",
+    "sim/config.py": "c220ef6fefd4202bee529ca60adbfb97d7eb001f5cab5dac0b743fac4e626bc7",
+    "sim/engine.py": "abb3424aa0e72bcfdf12a533cbe900b3b654edfd71167f466aa99b8f113421de",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "30920fecf5df77d030fec79502c57c3685266641e01516af78253c623aae2d38",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_components.py": "d7e611f86fb6ec543feca0b6f0dd8d23fbe61d3d4b9a09e08898000b88879d53",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/news_pilot.py": "b7d44eda1d8cf78e767431c9f033689fe97e8a330fd53b35f21b9cdda0574560",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "2f79828cc6da6c46f15afd2974842cc14c1632a8903adf855be1ab71dde0dbc9",
+    "sim/sequential_markets.py": "23163329202210ddfd193dde502110a0948da3e35902b7e3efa7e019a1785bcd",
+    "sim/timed_feedback.py": "5acb11384a35a14f68607073757433510d44894f2b5874aa2b308721b3ee0522",
+    "research/feedback_validation.py": "0ba7176ba8bca97c753efb4471901fb558500ad8692fcb3a808d0a7f51bf246e",
+    "tests/test_feedback_validation.py": "0cb234c24c1169554572fae142553df584fe84ae0d320b31984ec863792f2afc"
+  },
+  "source_zip_sha256": "4a8ca5831282ee3973cad07acc3e6b785556bf7799c703e973720811bc95add6",
+  "inputs_sha256": {
+    "runs/feedback_audit_20261106/reflection_ledger.json": "f9102302441a72dd2b25103f2812da104838f1350d6cd63d47354756194b9154",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source2/calls.json": "14b198409a157b42cc073fc342ffa08f61a6570ba66123364704190f5a4a5c92",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source2/initial_state.csv": "8236d439fee3c18f5bf587c40451c5b5f4f0e378b1ece601e8118be1f35e62b7",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source2/agents_state.csv": "f9c58ebd610408273b3ebb27670bb581eaf8a5bb35f6f7a4804d1ebe6a145c7e",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source2/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source2/config.yaml": "c509786a01a871220c5f4c750553befc298fadc626c67543611297f4fbe398f5",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_041227_prefix_s23971_source2_C_branch1_191e39cd/llm_requests.jsonl": "0454c901c709b97c2240fb3f8a1d69d14c3c68fcfa59671156df7437acd5b2c1",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source1/calls.json": "4814e84334b3857bf6e0679e5e29b7e81dbff7bce69281fddc505e55f78064a1",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source1/initial_state.csv": "8236d439fee3c18f5bf587c40451c5b5f4f0e378b1ece601e8118be1f35e62b7",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source1/agents_state.csv": "b06a65737b35f8f14b3cdfd395c1a79f2d22e1949d395f5a328347f40ebe6bcb",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source1/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s23971_source1/config.yaml": "7e51be1b7a8cbb1db77e1d07b6af08abb4334780ab75920d8e4c7cb4dfa73e91",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_043639_prefix_s23971_source1_C_branch1_88cd0a4f/llm_requests.jsonl": "49018c4826aa4deb1af2976df45ce9cde9d1e437723874105943cfe32f30498a",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source2/calls.json": "81bc02e8000b937f07867d4096ad99e499d753258552edc7a7e78ab8d00d6f06",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source2/initial_state.csv": "8236d439fee3c18f5bf587c40451c5b5f4f0e378b1ece601e8118be1f35e62b7",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source2/agents_state.csv": "3ef4bc35800de9894fd2385c57a9931528b7daa206d5965b97aef904e620bcbb",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source2/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source2/config.yaml": "ac84229b615864b6864e7b9f082b224086197151026aaefd905c2bae46f6792a",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_050201_prefix_s22853_source2_C_branch1_f8a8fb5e/llm_requests.jsonl": "8c33c3e1217f434193873b9ef3d54d6e5b1a71cafd729ad1b4f4c80634ec80ff",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source1/calls.json": "84458945f4ecf26a3c154525ddfc505fb7931e7130ce78b3f79aad5efc38cd30",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source1/initial_state.csv": "8236d439fee3c18f5bf587c40451c5b5f4f0e378b1ece601e8118be1f35e62b7",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source1/agents_state.csv": "d324c396d816baf498eebd6d051c595f38c90e05d59f8aba3fca246900262bbb",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source1/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source1/config.yaml": "c97dd88c54a72fdaa36d77ea4228a01ae02338df4243b51aec3027316da02a52",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051258_prefix_s25087_source1_C_branch1_296840a5/llm_requests.jsonl": "7d686d52c175c71ab1f8b30f531a1cedd77ffe6b23ab9b80174c5296db2fedd6",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source1/calls.json": "1f7ec957e2714194df2fef365e9eb0a9813355347ab5349455bc93e157649033",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source1/initial_state.csv": "8236d439fee3c18f5bf587c40451c5b5f4f0e378b1ece601e8118be1f35e62b7",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source1/agents_state.csv": "d87db1270f29bec625058e51e796f35f8d86e16bafad6668b010becebc484451",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source1/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s22853_source1/config.yaml": "a88d9143a7658ed106e4dce4851ecf8ea8a4995fdb39dbbfb73d24b235b719e1",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_051847_prefix_s22853_source1_C_branch1_9787d07d/llm_requests.jsonl": "0ed5e4b5661b52472cc898ed66c46ce62c57ca903f27c48b50f471aa81cd4bec",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source2/calls.json": "92b954eb17b9eca164274e47eb0df294262871e39f0e88cee99bbfd854a2053a",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source2/initial_state.csv": "8236d439fee3c18f5bf587c40451c5b5f4f0e378b1ece601e8118be1f35e62b7",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source2/agents_state.csv": "951eea8c4f9b88c01203d8a735521c8778323a2d249632d4ec4e6b0bc2bffc5f",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source2/personas.json": "3a4665b2a14d163b77705fb5af16dd55b62761bbdee7f82cf8780f978df2c364",
+    "runs/20261105_041035_common_prefix_ca10f93d/prefixes/s25087_source2/config.yaml": "24bb6aa16cea9e5a240be2b8328f86b4ea173973f57551e68217cfb15b49afa7",
+    "runs/20261105_041035_common_prefix_ca10f93d/branch_runs/20261105_052229_prefix_s25087_source2_C_branch1_e82ffbae/llm_requests.jsonl": "469a1f920f5c2377691ec1c6aa12100d612db86364cd5a709c964e39344cbf48"
+  },
+  "cases_sha256": "47601e3971e2d3a8df9c8acfd14bb00b095698506e2352426418c96a980d640f",
+  "schedule": [
+    {
+      "case": "s22853_source1_llm_012",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source1_llm_012",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source1_llm_013",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source1_llm_013",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source2_llm_012",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source2_llm_012",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source2_llm_013",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source2_llm_013",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source1_llm_012",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source1_llm_012",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source1_llm_013",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source1_llm_013",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source2_llm_012",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source2_llm_012",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source2_llm_013",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s23971_source2_llm_013",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source1_llm_012",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source1_llm_012",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source1_llm_013",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source1_llm_013",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source2_llm_012",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source2_llm_012",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source2_llm_013",
+      "format": "timed",
+      "repetition": 1
+    },
+    {
+      "case": "s25087_source2_llm_013",
+      "format": "original",
+      "repetition": 1
+    },
+    {
+      "case": "s22853_source1_llm_013",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source1_llm_013",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source2_llm_012",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source2_llm_012",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source2_llm_013",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source2_llm_013",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source1_llm_012",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source1_llm_012",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source1_llm_013",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source1_llm_013",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source2_llm_012",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source2_llm_012",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source2_llm_013",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s23971_source2_llm_013",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source1_llm_012",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source1_llm_012",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source1_llm_013",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source1_llm_013",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source2_llm_012",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source2_llm_012",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source2_llm_013",
+      "format": "timed",
+      "repetition": 2
+    },
+    {
+      "case": "s25087_source2_llm_013",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source1_llm_012",
+      "format": "original",
+      "repetition": 2
+    },
+    {
+      "case": "s22853_source1_llm_012",
+      "format": "timed",
+      "repetition": 2
+    }
+  ],
+  "profile": {
+    "model": "qwen-3.8-27b",
+    "base_url": "https://bharatcode.ai/api/model/v1",
+    "reasoning_effort": "low",
+    "timeout": 180,
+    "send_temperature": true
+  },
+  "limits": {
+    "max_requests": 80,
+    "max_reserved_tokens": 1600000,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "max_cost_usd": 0,
+    "stop_on_api_error": true
+  },
+  "temperature": 0.0,
+  "max_tokens": 8192,
+  "json_mode": false,
+  "normal_reservation_estimate": 775472,
+  "design": "All12unique first-reflection actor histories from all6R047prefixes;two fresh draws per original/timed format=48. Three original exogenous seeds,two inherited histories each,two personas. Existing branch1/2first reflection prompts match. No cases selected by errors or financial results;round10excluded because endogenous histories and inherited diaries diverge.",
+  "intervention": "Original actual reflection prompt versus exact timed_feedback_v1 runtime prompt;same past trades/persona/no previous diary. Bundle adds explicit earlier observed prices/accounts,temporal labels,fallible-prose labels and execution constraints. Not a pure label,context-length-matched or cognitive mechanism test. Historical actions remain from original policy.",
+  "primary": "Per delivered reflection,focused analyst-coded definite temporal misattribution: blaming an earlier explanation for not matching a clearing price/trend unavailable when that decision was made. Preserve exact evidence quotes and time-grounded rationale;ambiguous separately. Code full raw and retained first120whitespace-word diary separately. Report every context/format/draw;contrasts descriptive,not48independent markets.",
+  "secondary": "Unsupported full-fill guarantees for market orders;whether prices/fills are discussed at all;other concrete factual contradictions as qualitative ancillary observations;actual model/usage/failure and context size. No mention is absence of detected target issue,not comprehensive correctness or proven comprehension.",
+  "scoring": "Before-call rubric. Focused AI-assisted nonblinded review,not independent human adjudication. Acknowledging an actual erroneous earlier number/count is not a timing error. Wanting better fills is not a guarantee;explicit assurance/full execution is required. No desired score gates,automatic grader,repair or outcome-dependent resampling. Two repetitions attemperature0still unseeded provider calls.",
+  "failure_policy": "First fatal provider,budget,wrong-model,empty or truncated output stops entire campaign after existing at-most-one identical-message transport/503 retry. Retain all attempts/missing slots. No retry of delivered prose,model substitution,cap increase,resume or automatic market continuation.",
+  "limitations": "Fixed-history reflection content only;not subsequent choices,portfolio performance,full closed-loop C efficacy,held-out generalization,human realism or pure timing-label causal effect. Token ceiling is conservative reservation,not billing quote;zero configured prices mean dollars unavailable."
+}

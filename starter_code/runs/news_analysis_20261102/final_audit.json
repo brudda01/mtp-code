@@ -1,0 +1,45 @@
+{
+  "status": "verified_partial_study",
+  "attempted_market_arms": 13,
+  "completed_rule_arms": 8,
+  "completed_live_arms": 3,
+  "financial_rounds_in_partial_combined": 9,
+  "same_state_responses": 0,
+  "usage": {
+    "requests_made": 142,
+    "reserved_tokens": 1709925,
+    "provider_reported_tokens": 402899,
+    "unknown_usage_requests": 2,
+    "failed_requests": 2,
+    "blocked_requests": 0
+  },
+  "failures": [
+    {
+      "agent_id": "llm_013",
+      "round": 1,
+      "call_id": "llm_013:1:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "provider_latency_seconds": 21.104700899973977,
+      "usage": null
+    },
+    {
+      "agent_id": "llm_013",
+      "round": 10,
+      "call_id": "llm_013:10:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "provider_latency_seconds": 21.050444299995434,
+      "usage": null
+    }
+  ],
+  "returned_models": [
+    "qwen-3.8-27b"
+  ],
+  "max_cash_conservation_error": 2.9103830456733704e-11,
+  "credential_scan": "passed",
+  "files_scanned": 283,
+  "source_and_output_hashes_verified": true,
+  "original_study_sha256": "0a901d2fc24f41d5c7a2207c741f46a34df14e60d1ad0b61733eb621c72d7355",
+  "continuation_plan_sha256": "5bc7231ac7e2224ac876680b2ce84ef1cc9e882d3c602a3e608439b0f7f584d8"
+}

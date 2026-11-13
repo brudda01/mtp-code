@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "kind": "Recorded-output verification,not fresh model replication",
+  "network_attempts": 0,
+  "markets": [],
+  "error_type": "ModuleNotFoundError",
+  "error": "No module named 'runs.sequential_next_20261103'"
+}

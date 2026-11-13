@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "date": "2026-11-05",
+  "new_api_requests": 0,
+  "new_market_paths": 0,
+  "source_files_identical_to_recorded_hashes": 41,
+  "consumed_original_inputs_identical_to_sealed_archive_members": 40,
+  "unchanged_source_files": 103,
+  "valid_local_links": 12,
+  "brief_numeric_tables_and_component_differences_checked": true,
+  "all_nine_archives_verified_in_synthesis": true,
+  "figure_visually_inspected": true,
+  "scope": "Saved-evidence numerical/provenance checks. No behavioural validation inferred from these checks."
+}

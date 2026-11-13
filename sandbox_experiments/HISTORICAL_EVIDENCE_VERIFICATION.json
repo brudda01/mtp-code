@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "historical_source_and_result_files": 12,
+  "mismatches": [],
+  "sha256": {
+    "probe_api.py": "c3149d797e2239754d15ed7a7de9a515bf3bcef90e33e51037d83be68c859ecc",
+    "probe_concurrency.py": "83a391edaa3ff87d11838bf3ad6aa02a2a57b55bf9aba8bcde41cfce357a4547",
+    "prototype_engine.py": "0e04df2a666a7701d88f95ade9524aa4e07eb28e093f08bdc9263235fef3ad1f",
+    "run_grand_100_round_market.py": "9fb0c18dce598f5430bfc06fd2da416e8da82f901a52c1e461bcd2715ce0780e",
+    "run_offline_test.py": "ab19fe429375f10082b829c72d55e7692d02a671017194b0cf4cc2c84faa27e4",
+    "run_reddit_meme_experiment.py": "29cc8d71f0f763b392a6f6c1dcd92d293ea6ecf904c8ca2142953184594d833b",
+    "run_short_sale_live_comparison.py": "b6d19c370788335feb6c902b6fffa6e08d3c799a83367bceedbb67e31f3bde0f",
+    "results\\reddit_market.csv": "69e459f0621ede75753d3085823503eecd30736068b400776618ef751d056277",
+    "results\\reddit_meme_bubble_chart.png": "3a6bd2bdefa768f0a39bc31e016aa7e761eaedbd4c628c15866dd2acd5757775",
+    "results\\reddit_orders.csv": "1c34bbd03ce930c25a8c985aeae3bdb17761261cfa4358698b22264499837856",
+    "results_short_sale_comparison\\market_comparison.csv": "c6e37329f0bf7ffbc8a6dd2b548fc05d0d59788920eea4b2abb24d5f6caff7c0",
+    "results_short_sale_comparison\\short_sale_vs_ban_chart.png": "632564cf1d83d72857b992732d5c7a105a0f2b2980790cc1625f83a576b1e48e"
+  }
+}

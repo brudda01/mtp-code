@@ -1,0 +1,299 @@
+{
+  "study": "R056",
+  "summary": {
+    "status": "completed",
+    "run_path": "market/20261108_161359_goedel_6LLM_B_cap10_s30841_c838033f",
+    "completed_rounds": 25,
+    "planned_rounds": 25,
+    "delivered_decisions": 150,
+    "planned_decisions": 150,
+    "missing_decisions": 0,
+    "usage": {
+      "requests_made": 150,
+      "max_requests": 180,
+      "reserved_tokens": 1607502,
+      "max_reserved_tokens": 3000000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 369984,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "failure_type": null,
+    "no_resume": true,
+    "finished_utc": "2026-11-08T11:07:32.682044+00:00"
+  },
+  "metrics": {
+    "rounds": 25,
+    "price_return_sd_pct": 2.1410603736168836,
+    "mean_gap_pct": 16.06,
+    "max_drawdown_pct": 7.277187244480777,
+    "maker_boundary_fraction": 0.0,
+    "maker_min": 66,
+    "maker_max": 191,
+    "volume": 557,
+    "terminal_price": 113.4,
+    "target_union_volume": 336,
+    "zero_volume_rounds": 0
+  },
+  "audit": {
+    "status": "passed",
+    "account_rounds": 350,
+    "max_individual_cash_error": 7.275957614183426e-12,
+    "rounds": 25
+  },
+  "own_history_messages_checked": 150,
+  "complete_actual_input_pairs_checked": 150,
+  "per_persona": [
+    {
+      "agent_id": "llm_008",
+      "name": "Meera Iyer",
+      "requested_actions": {
+        "hold": 25
+      },
+      "accepted_actions": {
+        "hold": 25
+      },
+      "cap_adjustments": 0,
+      "bought": 0,
+      "sold": 0,
+      "account": {
+        "agent_id": "llm_008",
+        "type": "CappedAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10101.149486464268,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21441.149486464274,
+            "passive_wealth": 21441.149486464266,
+            "active_minus_passive": 7.275957614183426e-12,
+            "active_return": 0.07205747432321363,
+            "passive_return": 0.07205747432321341,
+            "excess_return": 3.637978807091713e-16
+          },
+          "regime_benchmark": {
+            "active_wealth": 20101.149486464274,
+            "passive_wealth": 20101.149486464266,
+            "active_minus_passive": 7.275957614183426e-12,
+            "active_return": 0.005057474323213684,
+            "passive_return": 0.00505747432321324,
+            "excess_return": 3.637978807091713e-16
+          }
+        }
+      }
+    },
+    {
+      "agent_id": "llm_009",
+      "name": "Arjun Malhotra",
+      "requested_actions": {
+        "buy": 13,
+        "hold": 5,
+        "sell": 7
+      },
+      "accepted_actions": {
+        "buy": 12,
+        "hold": 6,
+        "sell": 7
+      },
+      "cap_adjustments": 0,
+      "bought": 87,
+      "sold": 70,
+      "account": {
+        "agent_id": "llm_009",
+        "type": "CappedAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10101.149486464268,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21470.18005857723,
+            "passive_wealth": 21441.149486464266,
+            "active_minus_passive": 29.030572112962545,
+            "active_return": 0.07350900292886142,
+            "passive_return": 0.07205747432321341,
+            "excess_return": 0.0014515286056481272
+          },
+          "regime_benchmark": {
+            "active_wealth": 19902.380058577226,
+            "passive_wealth": 20101.149486464266,
+            "active_minus_passive": -198.76942788704037,
+            "active_return": -0.0048809970711386486,
+            "passive_return": 0.00505747432321324,
+            "excess_return": -0.009938471394352019
+          }
+        }
+      }
+    },
+    {
+      "agent_id": "llm_010",
+      "name": "Prakash Rao",
+      "requested_actions": {
+        "hold": 6,
+        "sell": 19
+      },
+      "accepted_actions": {
+        "hold": 6,
+        "sell": 19
+      },
+      "cap_adjustments": 0,
+      "bought": 0,
+      "sold": 51,
+      "account": {
+        "agent_id": "llm_010",
+        "type": "CappedAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10101.149486464268,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21799.791675294575,
+            "passive_wealth": 21441.149486464266,
+            "active_minus_passive": 358.64218883030844,
+            "active_return": 0.08998958376472865,
+            "passive_return": 0.07205747432321341,
+            "excess_return": 0.017932109441515423
+          },
+          "regime_benchmark": {
+            "active_wealth": 21143.191675294576,
+            "passive_wealth": 20101.149486464266,
+            "active_minus_passive": 1042.04218883031,
+            "active_return": 0.05715958376472874,
+            "passive_return": 0.00505747432321324,
+            "excess_return": 0.05210210944151549
+          }
+        }
+      }
+    },
+    {
+      "agent_id": "llm_011",
+      "name": "Sana Sheikh",
+      "requested_actions": {
+        "buy": 25
+      },
+      "accepted_actions": {
+        "buy": 25
+      },
+      "cap_adjustments": 0,
+      "bought": 63,
+      "sold": 0,
+      "account": {
+        "agent_id": "llm_011",
+        "type": "CappedAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10101.149486464268,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21246.831246686583,
+            "passive_wealth": 21441.149486464266,
+            "active_minus_passive": -194.31823977768363,
+            "active_return": 0.06234156233432908,
+            "passive_return": 0.07205747432321341,
+            "excess_return": -0.009715911988884182
+          },
+          "regime_benchmark": {
+            "active_wealth": 19062.63124668658,
+            "passive_wealth": 20101.149486464266,
+            "active_minus_passive": -1038.518239777688,
+            "active_return": -0.04686843766567106,
+            "passive_return": 0.00505747432321324,
+            "excess_return": -0.0519259119888844
+          }
+        }
+      }
+    },
+    {
+      "agent_id": "llm_012",
+      "name": "Vikram Bose",
+      "requested_actions": {
+        "buy": 12,
+        "hold": 13
+      },
+      "accepted_actions": {
+        "buy": 11,
+        "hold": 14
+      },
+      "cap_adjustments": 0,
+      "bought": 87,
+      "sold": 0,
+      "account": {
+        "agent_id": "llm_012",
+        "type": "CappedAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10101.149486464268,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21332.707128890845,
+            "passive_wealth": 21441.149486464266,
+            "active_minus_passive": -108.44235757342176,
+            "active_return": 0.06663535644454233,
+            "passive_return": 0.07205747432321341,
+            "excess_return": -0.005422117878671088
+          },
+          "regime_benchmark": {
+            "active_wealth": 18826.907128890845,
+            "passive_wealth": 20101.149486464266,
+            "active_minus_passive": -1274.242357573421,
+            "active_return": -0.058654643555457686,
+            "passive_return": 0.00505747432321324,
+            "excess_return": -0.06371211787867105
+          }
+        }
+      }
+    },
+    {
+      "agent_id": "llm_013",
+      "name": "Lakshmi Nair",
+      "requested_actions": {
+        "buy": 10,
+        "hold": 15
+      },
+      "accepted_actions": {
+        "buy": 10,
+        "hold": 15
+      },
+      "cap_adjustments": 0,
+      "bought": 19,
+      "sold": 0,
+      "account": {
+        "agent_id": "llm_013",
+        "type": "CappedAgent",
+        "initial_market_wealth": 20000.0,
+        "passive_cash": 10101.149486464268,
+        "passive_shares": 100,
+        "marks": {
+          "auction": {
+            "active_wealth": 21481.263331649337,
+            "passive_wealth": 21441.149486464266,
+            "active_minus_passive": 40.11384518507111,
+            "active_return": 0.07406316658246692,
+            "passive_return": 0.07205747432321341,
+            "excess_return": 0.0020056922592535556
+          },
+          "regime_benchmark": {
+            "active_wealth": 19886.66333164934,
+            "passive_wealth": 20101.149486464266,
+            "active_minus_passive": -214.48615481492743,
+            "active_return": -0.005666833417533046,
+            "passive_return": 0.00505747432321324,
+            "excess_return": -0.010724307740746371
+          }
+        }
+      }
+    }
+  ],
+  "status": "completed",
+  "protocol_sha256": "6306bfa9b7b99e87db5e8658c8b4b8cba90b8974c4dbcab6c7f0464edb6b0c21",
+  "independent_scenarios": 1,
+  "limitations": "Single six-LLM capped25-session cohort with newmodel/population/horizon. No isolated cross-model/count effect or general stability claim."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "preserved",
+  "path": "starter_code/runs/final_extensions_20261108_evidence.zip",
+  "sha256": "f14dcde1f157b8d2716f969656d22a44a1eecf58d8d8113785cd5670523e15b4",
+  "bytes": 9126864,
+  "exported_file_hashes": 1280,
+  "recursive_configured_secret_checks": 2883,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "prior_archives_unchanged": 17,
+  "prior_writing_archives_unchanged": 2,
+  "dynamic_paths": 36,
+  "distinct_removal_paths": 3,
+  "live_status": "completed",
+  "fresh_decisions": 150,
+  "live_http_attempts": 150
+}

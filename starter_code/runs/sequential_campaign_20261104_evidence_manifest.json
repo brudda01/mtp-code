@@ -1,0 +1,9 @@
+{
+  "path": "starter_code/runs/sequential_campaign_20261104_evidence.zip",
+  "sha256": "527bf047b71a0081b579a7530afe3311ec18ddf199dd7048f998e9ef1bd1e5de",
+  "bytes": 5474432,
+  "files": 124,
+  "recursive_secret_scan_members": 1005,
+  "zip_and_member_hash_checks": true,
+  "prior_bundles_unchanged": true
+}

@@ -1,0 +1,614 @@
+{
+  "analysis_kind": "descriptive exploratory diagnostic, not confirmatory inference",
+  "analysis_script_sha256": "a389db81be4a8560ed577e25ced996344519a72a48422e2b2084f4103686e8f2",
+  "protocol_sha256": "e44d816008b75437b26358ed1895195d8f73ac4ad966ea431a6a97c296222c72",
+  "market_schedule_sha256": "108011ef479e0ee050624ae4b7c9a66a073d6e0a0017d3f7f907c33360ed4fe0",
+  "market_runs_index_sha256": "4f52e6cc784259c098922db261a7205c7d72ea630e9da1e19dbe34357cc9b9c7",
+  "probe_run_id": "20261102_034741_live_probes_73582e3f",
+  "probe_audit": {
+    "manifest_sha256": "75db9ec81f78b797eb6939c14bb445b6a241518aebfb957e7c64246c8a6a5ced",
+    "source_sha256": {
+      "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+      "sim/agents/llm_agent.py": "04b0675ec8093ce4ec31ae3f4cd527bef07421048a8121a3ddcb6671552626fa",
+      "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+      "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+      "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+      "sim/config.py": "1355c73d2b1c03335cc09fb392cacbf93a0d3f115fe4a4a1e9f9fd58ac0e692b",
+      "sim/engine.py": "39d7da41170f150f000684cd1d1655ad4791607286692a99013dcced3b25d744",
+      "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/llm/client.py": "f35526867e525fc2ef761cc9947b0a68b3acb4ba81c5c167bba167d9c700d69d",
+      "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+      "sim/llm/usage.py": "190d8794ff9a0bd95cf62b6a7df20929602abe36029a4439fbdaa7cf979e7782",
+      "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+      "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+      "sim/pilot.py": "50615944af8af801f4237f9faf6c91b27d1a9ca6cc28b32d79d41005213474e3",
+      "sim/provenance.py": "e97bd58fe14212ce8e21943ba09241e18e8af209ad33a5c0216834945cefacbd"
+    },
+    "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+    "prompt_suite_version": "comparable_agents_v1",
+    "models": [
+      {
+        "provider": "openai_compatible",
+        "configured_model": "gemini-3.5-flash-lite",
+        "condition": "A",
+        "temperature": 0.3,
+        "reflect_every": 0,
+        "memory_window": 2,
+        "max_tokens": 512,
+        "timeout_seconds": 45.0,
+        "input_usd_per_million": 0.3,
+        "output_usd_per_million": 2.5
+      }
+    ]
+  },
+  "arithmetic_correct_fields": 8,
+  "arithmetic_total_fields": 8,
+  "constraint_cases": 4,
+  "constraint_nonzero_orders": 0,
+  "paired_probe_actions": [
+    {
+      "family": "disclosed_value",
+      "repetition": 1,
+      "variants": [
+        "value_100",
+        "value_120"
+      ],
+      "requested_signed_quantities": [
+        0,
+        10
+      ],
+      "requested_limit_prices": [
+        null,
+        100.0
+      ],
+      "case_ids": [
+        "p10_disclosed_value_value_100_r1",
+        "p07_disclosed_value_value_120_r1"
+      ]
+    },
+    {
+      "family": "disclosed_value",
+      "repetition": 2,
+      "variants": [
+        "value_100",
+        "value_120"
+      ],
+      "requested_signed_quantities": [
+        0,
+        10
+      ],
+      "requested_limit_prices": [
+        null,
+        100.5
+      ],
+      "case_ids": [
+        "p01_disclosed_value_value_100_r2",
+        "p00_disclosed_value_value_120_r2"
+      ]
+    },
+    {
+      "family": "headline_only",
+      "repetition": 1,
+      "variants": [
+        "no_news",
+        "positive_headline"
+      ],
+      "requested_signed_quantities": [
+        0,
+        0
+      ],
+      "requested_limit_prices": [
+        null,
+        null
+      ],
+      "case_ids": [
+        "p14_headline_only_no_news_r1",
+        "p13_headline_only_positive_headline_r1"
+      ]
+    },
+    {
+      "family": "headline_only",
+      "repetition": 2,
+      "variants": [
+        "no_news",
+        "positive_headline"
+      ],
+      "requested_signed_quantities": [
+        0,
+        0
+      ],
+      "requested_limit_prices": [
+        null,
+        null
+      ],
+      "case_ids": [
+        "p15_headline_only_no_news_r2",
+        "p06_headline_only_positive_headline_r2"
+      ]
+    },
+    {
+      "family": "risk_trait",
+      "repetition": 1,
+      "variants": [
+        "low",
+        "high"
+      ],
+      "requested_signed_quantities": [
+        0,
+        0
+      ],
+      "requested_limit_prices": [
+        null,
+        null
+      ],
+      "case_ids": [
+        "p11_risk_trait_low_r1",
+        "p12_risk_trait_high_r1"
+      ]
+    },
+    {
+      "family": "risk_trait",
+      "repetition": 2,
+      "variants": [
+        "low",
+        "high"
+      ],
+      "requested_signed_quantities": [
+        0,
+        0
+      ],
+      "requested_limit_prices": [
+        null,
+        null
+      ],
+      "case_ids": [
+        "p05_risk_trait_low_r2",
+        "p03_risk_trait_high_r2"
+      ]
+    }
+  ],
+  "market_runs": [
+    {
+      "seed": 704,
+      "condition": "A",
+      "run_id": "20261102_035159_live_a_s704_15bbdf90",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "7e2bfddb971bbf82d6f7e7debfc374f8632e3703470c6adff2b7b84374f8ad05",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "166898101684377dcb1cd0e87b76ac0fd01f4be1606c56300e2b44a1ccb4d1cc",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "1355c73d2b1c03335cc09fb392cacbf93a0d3f115fe4a4a1e9f9fd58ac0e692b",
+          "sim/engine.py": "39d7da41170f150f000684cd1d1655ad4791607286692a99013dcced3b25d744",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "f35526867e525fc2ef761cc9947b0a68b3acb4ba81c5c167bba167d9c700d69d",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "ac211259a76642cfaeb25e8a3199c5f330fa9627e856487d64acba777841fa52",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "50615944af8af801f4237f9faf6c91b27d1a9ca6cc28b32d79d41005213474e3",
+          "sim/provenance.py": "e97bd58fe14212ce8e21943ba09241e18e8af209ad33a5c0216834945cefacbd"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "gemini-3.5-flash-lite",
+            "condition": "A",
+            "temperature": 0.3,
+            "reflect_every": 0,
+            "memory_window": 2,
+            "max_tokens": 512,
+            "timeout_seconds": 45.0,
+            "input_usd_per_million": 0.3,
+            "output_usd_per_million": 2.5
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 0,
+        "hold": 4
+      },
+      "requested_quantity_reductions": 3,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [
+        {
+          "agent_id": "llm_013",
+          "round": 2,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 80,
+            "limit_price": null,
+            "round": 2,
+            "reasoning": "The upward price tick confirms my momentum read, and I'm aggressively scaling in while the trend is building.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 69,
+            "limit_price": null,
+            "round": 2,
+            "reasoning": "The upward price tick confirms my momentum read, and I'm aggressively scaling in while the trend is building.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 3,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 50,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "That sharp breakout to 105.9 proves my momentum read is spot on and the trend is accelerating. I'm doubling down to ride this wave even higher.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 44,
+            "limit_price": null,
+            "round": 3,
+            "reasoning": "That sharp breakout to 105.9 proves my momentum read is spot on and the trend is accelerating. I'm doubling down to ride this wave even higher.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "round": 4,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 25,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "The momentum is undeniably strong with another explosive leg up to 110.0. I'm leveraging my remaining cash to chase this breakout to the very end.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 24,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "The momentum is undeniably strong with another explosive leg up to 110.0. I'm leveraging my remaining cash to chase this breakout to the very end.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        }
+      ],
+      "executed_llm_quantity": 88,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10015.837630238308",
+          "shares": "100",
+          "wealth": "21985.837630238308",
+          "avg_cost": "100.0",
+          "dividend_income": "1.6232946040740401",
+          "interest_income": "2.0024423786511165"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "361.13979071164897",
+          "shares": "188",
+          "wealth": "22864.73979071165",
+          "avg_cost": "104.54361702127656",
+          "dividend_income": "3.0517938556591955",
+          "interest_income": "0.07160327871545487"
+        }
+      ],
+      "final_price": 119.7,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 0,
+      "usage": {
+        "requests_made": 8,
+        "max_requests": 12,
+        "reserved_tokens": 30129,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0180499,
+        "max_cost_usd": 0.03,
+        "provider_reported_tokens": 7961,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0035037,
+        "blocked_requests": 0,
+        "requests_per_minute": 5,
+        "input_tokens_per_minute": 15000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 704,
+      "condition": "B",
+      "run_id": "20261102_035349_live_b_s704_39e8ae92",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "85dd65d2356b150600f76dc536029963a76c9636aee19d196858586bea9bc345",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "166898101684377dcb1cd0e87b76ac0fd01f4be1606c56300e2b44a1ccb4d1cc",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "1355c73d2b1c03335cc09fb392cacbf93a0d3f115fe4a4a1e9f9fd58ac0e692b",
+          "sim/engine.py": "39d7da41170f150f000684cd1d1655ad4791607286692a99013dcced3b25d744",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "f35526867e525fc2ef761cc9947b0a68b3acb4ba81c5c167bba167d9c700d69d",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "ac211259a76642cfaeb25e8a3199c5f330fa9627e856487d64acba777841fa52",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "50615944af8af801f4237f9faf6c91b27d1a9ca6cc28b32d79d41005213474e3",
+          "sim/provenance.py": "e97bd58fe14212ce8e21943ba09241e18e8af209ad33a5c0216834945cefacbd"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "gemini-3.5-flash-lite",
+            "condition": "B",
+            "temperature": 0.3,
+            "reflect_every": 0,
+            "memory_window": 2,
+            "max_tokens": 512,
+            "timeout_seconds": 45.0,
+            "input_usd_per_million": 0.3,
+            "output_usd_per_million": 2.5
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "requested_action_counts": {
+        "buy": 1,
+        "sell": 1,
+        "hold": 6
+      },
+      "requested_quantity_reductions": 0,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [],
+      "executed_llm_quantity": 31,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10015.837630238308",
+          "shares": "100",
+          "wealth": "20275.837630238308",
+          "avg_cost": "100.0",
+          "dividend_income": "1.6232946040740401",
+          "interest_income": "2.0024423786511165"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "9155.899271820914",
+          "shares": "107",
+          "wealth": "20134.099271820913",
+          "avg_cost": "100.46168224299065",
+          "dividend_income": "1.736925226359223",
+          "interest_income": "1.8304663760437019"
+        }
+      ],
+      "final_price": 102.6,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 0,
+      "usage": {
+        "requests_made": 8,
+        "max_requests": 12,
+        "reserved_tokens": 32336,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.018712,
+        "max_cost_usd": 0.03,
+        "provider_reported_tokens": 8729,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0036197,
+        "blocked_requests": 0,
+        "requests_per_minute": 5,
+        "input_tokens_per_minute": 15000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "seed": 704,
+      "condition": "C",
+      "run_id": "20261102_035600_live_c_s704_d127f351",
+      "status": "completed",
+      "audit": {
+        "manifest_sha256": "464a629f5ac96f24f76451e1e852afff7b29ec703e29a405372b1a6615cc7520",
+        "source_sha256": {
+          "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+          "sim/agents/llm_agent.py": "166898101684377dcb1cd0e87b76ac0fd01f4be1606c56300e2b44a1ccb4d1cc",
+          "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+          "sim/agents/rule_agents.py": "00664647827e8a6d3d3db5e67d94655da3ac9c04ef2228e038074876806f746f",
+          "sim/assets.py": "2158720cc4704ba6d5d2584cbb8092cfb5d58380352895b7deb69daf42619bb0",
+          "sim/config.py": "1355c73d2b1c03335cc09fb392cacbf93a0d3f115fe4a4a1e9f9fd58ac0e692b",
+          "sim/engine.py": "39d7da41170f150f000684cd1d1655ad4791607286692a99013dcced3b25d744",
+          "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sim/llm/client.py": "f35526867e525fc2ef761cc9947b0a68b3acb4ba81c5c167bba167d9c700d69d",
+          "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+          "sim/llm/usage.py": "ac211259a76642cfaeb25e8a3199c5f330fa9627e856487d64acba777841fa52",
+          "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+          "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+          "sim/pilot.py": "50615944af8af801f4237f9faf6c91b27d1a9ca6cc28b32d79d41005213474e3",
+          "sim/provenance.py": "e97bd58fe14212ce8e21943ba09241e18e8af209ad33a5c0216834945cefacbd"
+        },
+        "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+        "prompt_suite_version": "comparable_agents_v1",
+        "models": [
+          {
+            "provider": "openai_compatible",
+            "configured_model": "gemini-3.5-flash-lite",
+            "condition": "C",
+            "temperature": 0.3,
+            "reflect_every": 2,
+            "memory_window": 2,
+            "max_tokens": 512,
+            "timeout_seconds": 45.0,
+            "input_usd_per_million": 0.3,
+            "output_usd_per_million": 2.5
+          }
+        ]
+      },
+      "completed_rounds": 4,
+      "parse_failures": 0,
+      "api_failures": 0,
+      "reflection_failures": 0,
+      "requested_action_counts": {
+        "buy": 4,
+        "sell": 0,
+        "hold": 4
+      },
+      "requested_quantity_reductions": 1,
+      "buys_unaffordable_even_at_lower_band": [],
+      "adjusted_decisions": [
+        {
+          "agent_id": "llm_013",
+          "round": 4,
+          "requested": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 25,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "The momentum is accelerating aggressively with another surge to 110.0, and I'm diving in deeper to milk this unstoppable wave for all it's worth.",
+            "validation_note": ""
+          },
+          "accepted": {
+            "agent_id": "llm_013",
+            "side": "buy",
+            "quantity": 24,
+            "limit_price": null,
+            "round": 4,
+            "reasoning": "The momentum is accelerating aggressively with another surge to 110.0, and I'm diving in deeper to milk this unstoppable wave for all it's worth.",
+            "validation_note": "quantity_reduced_to_resources"
+          }
+        }
+      ],
+      "executed_llm_quantity": 88,
+      "final_llm_accounts": [
+        {
+          "round": "4",
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "cash": "10015.837630238308",
+          "shares": "100",
+          "wealth": "21985.837630238308",
+          "avg_cost": "100.0",
+          "dividend_income": "1.6232946040740401",
+          "interest_income": "2.0024423786511165"
+        },
+        {
+          "round": "4",
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "cash": "361.13979071164897",
+          "shares": "188",
+          "wealth": "22864.73979071165",
+          "avg_cost": "104.54361702127656",
+          "dividend_income": "3.0517938556591955",
+          "interest_income": "0.07160327871545487"
+        }
+      ],
+      "final_price": 119.7,
+      "cash_conservation_error": 2.9103830456733704e-11,
+      "reflection_count": 2,
+      "usage": {
+        "requests_made": 10,
+        "max_requests": 12,
+        "reserved_tokens": 42657,
+        "max_reserved_tokens": 100000,
+        "reserved_cost_usd": 0.0240611,
+        "max_cost_usd": 0.03,
+        "provider_reported_tokens": 11853,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0051795,
+        "blocked_requests": 0,
+        "requests_per_minute": 5,
+        "input_tokens_per_minute": 15000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    }
+  ],
+  "matched_checks": [
+    {
+      "seed": 704,
+      "initial_accounts_equal": true,
+      "personas_equal": true,
+      "dividends_equal": true
+    },
+    {
+      "seed": 905,
+      "status": "incomplete"
+    }
+  ],
+  "usage_totals": {
+    "requests_made": 44,
+    "provider_reported_tokens": 36609,
+    "reserved_tokens": 144923,
+    "reserved_cost_usd": 0.0930385,
+    "observed_cost_estimate_usd": 0.0170569,
+    "failed_requests": 0,
+    "unknown_usage_requests": 0,
+    "blocked_requests": 0
+  },
+  "returned_models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "market_source_identical": true,
+  "finish_reasons": {
+    "stop": 44
+  },
+  "billing_note": "Estimates apply published paid rates, not actual invoices or proof of a charge. Account tier is unknown.",
+  "model_status": "Lite preliminary batch superseded by user-selected 3.8 Flash; three complete markets, not six.",
+  "interrupted_run": "20261102_035925_live_c_s905_ed83224d",
+  "interruption_record": {
+    "status": "externally_interrupted",
+    "reason": "User requested switching primary pilot from Flash-Lite to Gemini 3.8 Flash.",
+    "recorded_utc": "2026-11-01T22:32:37.502093+00:00",
+    "observed_completed_rounds": 2,
+    "observed_model_call_records": 5,
+    "limitation": "Process stopped externally. No engine summary was finalized. An in-flight or reserved but unlogged request cannot be excluded; logged usage is a lower bound."
+  },
+  "usage_totals_scope": "Completed probes plus three completed markets only; partial Lite run is excluded."
+}

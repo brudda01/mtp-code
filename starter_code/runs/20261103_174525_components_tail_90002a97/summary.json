@@ -1,0 +1,33 @@
+{
+  "status": "completed_all_scheduled_cases",
+  "rounds": 0,
+  "completed_decisions": 57,
+  "planned_decisions": 57,
+  "completed_reflections": 12,
+  "planned_reflections": 12,
+  "inherited_reflection_steps": 2,
+  "cumulative_decisions": 108,
+  "cumulative_reflections": 24,
+  "cumulative_valid_decisions": 107,
+  "cumulative_failed_decisions": 1,
+  "failure_type": null,
+  "llm_usage": {
+    "requests_made": 69,
+    "max_requests": 194,
+    "reserved_tokens": 904490,
+    "max_reserved_tokens": 3087614,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 221622,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "suite_tests": 11,
+  "suite_seconds": 55.594,
+  "modules": {
+    "common_prefix_checks_20261105.py": "623c57136bc83a7b5c37e7ca5107ed98bf491bfecfbddb1cce4ea6bfbeab6bd2",
+    "common_prefix_analysis_checks_20261105.py": "a01740878122b420f0d501beae0283b8f65149ce91d66ea304539fccb5668ca6",
+    "common_prefix_finish_checks_20261105.py": "5bac33f02438d123764065edffb70d3e1c2b9721024cf878ebab2b5f75b450e0"
+  },
+  "includes": "24mock branches/384mock fresh calls,common-state guard,prefix/cost isolation,missing endpoints,both-mark common5 accounting,24isolated replays/168identical financial CSVs,actual temporary archive path check.",
+  "actual_prefix_gate": {
+    "status": "passed",
+    "prefix_paths": 12,
+    "replayed_requests": 120,
+    "new_api_requests": 0,
+    "financial_prefix_files_compared": 84
+  },
+  "new_live_requests": 0,
+  "note": "Offline calls are mocks or recorded prefix replay,not behavioural evidence."
+}

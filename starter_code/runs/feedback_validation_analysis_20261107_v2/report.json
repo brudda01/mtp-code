@@ -1,0 +1,449 @@
+{
+  "verification": {
+    "protocol_sha256": "ccf1799984ad15efc154c3b9178763ba7368f1c4cad951907db20159603020db",
+    "cases": 12,
+    "inherited_histories": 6,
+    "original_exogenous_seeds": 3,
+    "planned_fresh_reflections": 48,
+    "new_markets": 0,
+    "normal_reservation_estimate": 775472,
+    "prompt_characters": {
+      "original": {
+        "min": 5679,
+        "max": 6898,
+        "mean": 6121.916666666667
+      },
+      "timed": {
+        "min": 7765,
+        "max": 8781,
+        "mean": 8172.416666666667
+      }
+    },
+    "all_source_input_hashes_match": true,
+    "provider_status": "stopped",
+    "delivered": 8,
+    "http_attempts": 10,
+    "usage": {
+      "requests_made": 10,
+      "max_requests": 80,
+      "reserved_tokens": 159122,
+      "max_reserved_tokens": 1600000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0,
+      "provider_reported_tokens": 26788,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 2,
+      "failed_requests": 2,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": true,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    },
+    "raw_over_120_words": 0
+  },
+  "annotation_sha256": "ee93689b8541ed091b10393d133c1f3ed8328253d1e017789f108cb1f1594a48",
+  "totals": {
+    "original": {
+      "delivered": 4,
+      "raw_temporal": {
+        "absent": 4
+      },
+      "diary_temporal": {
+        "absent": 4
+      },
+      "raw_guarantee": {
+        "absent": 4
+      },
+      "diary_guarantee": {
+        "absent": 4
+      },
+      "price_discussion": 4,
+      "fill_discussion": 4
+    },
+    "timed": {
+      "delivered": 4,
+      "raw_temporal": {
+        "absent": 4
+      },
+      "diary_temporal": {
+        "absent": 4
+      },
+      "raw_guarantee": {
+        "absent": 4
+      },
+      "diary_guarantee": {
+        "absent": 4
+      },
+      "price_discussion": 4,
+      "fill_discussion": 4
+    }
+  },
+  "contexts": [
+    {
+      "case": "s22853_source1_llm_012",
+      "original": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      },
+      "timed": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      }
+    },
+    {
+      "case": "s22853_source1_llm_013",
+      "original": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      },
+      "timed": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      }
+    },
+    {
+      "case": "s22853_source2_llm_012",
+      "original": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      },
+      "timed": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      }
+    },
+    {
+      "case": "s22853_source2_llm_013",
+      "original": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      },
+      "timed": {
+        "delivered": 1,
+        "raw_temporal": 0,
+        "diary_temporal": 0,
+        "raw_guarantee": 0,
+        "diary_guarantee": 0,
+        "ambiguous": {
+          "raw_temporal": 0,
+          "diary_temporal": 0,
+          "raw_guarantee": 0,
+          "diary_guarantee": 0
+        }
+      }
+    },
+    {
+      "case": "s23971_source1_llm_012",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s23971_source1_llm_013",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s23971_source2_llm_012",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s23971_source2_llm_013",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s25087_source1_llm_012",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s25087_source1_llm_013",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s25087_source2_llm_012",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    },
+    {
+      "case": "s25087_source2_llm_013",
+      "original": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      },
+      "timed": {
+        "delivered": 0,
+        "raw_temporal": null,
+        "diary_temporal": null,
+        "raw_guarantee": null,
+        "diary_guarantee": null,
+        "ambiguous": {
+          "raw_temporal": null,
+          "diary_temporal": null,
+          "raw_guarantee": null,
+          "diary_guarantee": null
+        }
+      }
+    }
+  ],
+  "cost": {
+    "original": {
+      "http_attempts": 6,
+      "reported_tokens": 11914,
+      "unknown_usage_attempts": 2,
+      "reserved_tokens": 90141
+    },
+    "timed": {
+      "http_attempts": 4,
+      "reported_tokens": 14874,
+      "unknown_usage_attempts": 0,
+      "reserved_tokens": 68981
+    }
+  },
+  "scope": "Fixed-history prompt-bundle comparison;focused nonblinded AI-assisted coding;not independent human scoring,closed-loop behavior,profits or generalization."
+}

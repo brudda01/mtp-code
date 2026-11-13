@@ -1,0 +1,7 @@
+{
+  "sha256": "a38e8cee9d9182c55057e1e9cf270d05049956a15e39cdeedd691b4e77447cd9",
+  "semantic_examples_sha256": "b7badbc9e10ba68acffa39ef360af5cccb960aeae161a38182e82237b53456e5",
+  "numeric_artifact_manifest_sha256": "2025a9a670c00849eefe2397b9ef6ce301188620a17a3482b27517bfdae55717",
+  "scope": "Retrospective manual interpretation and ALL8 initial visible-news source examples. Numerical report/source/figures remain unchanged. No new API calls or causal wording-benefit claim.",
+  "numeric_summary_checks": "All ten paired turnover/MM inequalities and per-arm bounds checked; all8 semantic copies exactly match stored requests/intents and source hashes;3360 reconstructed account-rounds."
+}

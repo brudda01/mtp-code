@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 704,
+    "condition": "A",
+    "run_id": "20261102_050336_qwen_a_s704_7ca8fc82",
+    "status": "completed"
+  },
+  {
+    "seed": 704,
+    "condition": "B",
+    "run_id": "20261102_050453_qwen_b_s704_73a19b55",
+    "status": "completed"
+  },
+  {
+    "seed": 704,
+    "condition": "C",
+    "run_id": "20261102_050605_qwen_c_s704_068eb41c",
+    "status": "completed"
+  },
+  {
+    "seed": 905,
+    "condition": "C",
+    "run_id": "20261102_050746_qwen_c_s905_d4c0a05d",
+    "status": "completed"
+  },
+  {
+    "seed": 905,
+    "condition": "B",
+    "run_id": "20261102_050952_qwen_b_s905_895d7aa5",
+    "status": "completed"
+  },
+  {
+    "seed": 905,
+    "condition": "A",
+    "run_id": "20261102_051108_qwen_a_s905_4500d16f",
+    "status": "completed"
+  }
+]

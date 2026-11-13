@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "recorded_branches": 24,
+  "planned_branches": 24,
+  "completed_branches": 24,
+  "failure_type": null,
+  "usage": {
+    "requests_made": 385,
+    "reserved_tokens": 6765217,
+    "provider_reported_tokens": 1249264,
+    "unknown_usage_requests": 1,
+    "blocked_requests": 0
+  },
+  "cached_prefix_requests": 240,
+  "finished_utc": "2026-11-04T23:58:41.015342+00:00",
+  "active": null
+}

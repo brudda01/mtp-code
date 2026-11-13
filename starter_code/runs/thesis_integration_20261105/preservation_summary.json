@@ -1,0 +1,13 @@
+{
+  "status": "preserved",
+  "path": "starter_code/runs/thesis_integration_20261105_writing.zip",
+  "sha256": "54077e750dd1d5db33cc566d8658c99cc516541d742addf85d0f1be7b4194957",
+  "bytes": 1047521,
+  "exported_file_hashes": 79,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "prior_archives_verified": 13,
+  "scope": "Writing,history and direct linked non-ZIP inputs;complete experimental archives remain separate dependencies",
+  "new_api_requests": 0,
+  "new_markets": 0
+}

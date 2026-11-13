@@ -1,0 +1,21 @@
+round 10/20 price=102.60 vol=9
+round 20/20 price=116.80 vol=12
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\delivery_v4_query_first\market_runs\20261102_222649_news_qwen_combined_s1441_cdc7e25e
+recovery market 1/5 combined seed 1441
+round 10/20 price=101.80 vol=22
+round 20/20 price=111.40 vol=12
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\delivery_v4_query_first\market_runs\20261102_223402_news_qwen_combined_s2882_14b65fb9
+recovery market 2/5 combined seed 2882
+round 10/20 price=101.00 vol=22
+round 20/20 price=110.70 vol=12
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\delivery_v4_query_first\market_runs\20261102_224110_news_qwen_fundamentals_only_s2882_5da57629
+recovery market 3/5 fundamentals_only seed 2882
+round 10/20 price=100.00 vol=22
+round 20/20 price=100.00 vol=15
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\delivery_v4_query_first\market_runs\20261102_224838_news_qwen_headline_only_s2882_2d7e62c0
+recovery market 4/5 headline_only seed 2882
+round 10/20 price=98.10 vol=13
+round 20/20 price=84.80 vol=16
+completed -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\delivery_v4_query_first\market_runs\20261102_225618_news_qwen_control_s2882_df5a45ff
+recovery market 5/5 control seed 2882
+completed_query_first_delivery -> C:\Users\sarth\OneDrive - iitkgp.ac.in\Desktop\mtp\starter_code\runs\20261102_202946_news_pilot_786a0370\delivery_v4_query_first

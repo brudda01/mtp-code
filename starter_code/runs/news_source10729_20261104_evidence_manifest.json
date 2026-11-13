@@ -1,0 +1,9 @@
+{
+  "path": "starter_code/runs/news_source10729_20261104_evidence.zip",
+  "sha256": "e3eda51c100d5eac2a7b59295e02509a691132e0df325a2019422a28d934b8c5",
+  "bytes": 1046836,
+  "files": 94,
+  "recursive_secret_scan_members": 236,
+  "zip_member_hashes_checked": true,
+  "prior_archives_unchanged": true
+}

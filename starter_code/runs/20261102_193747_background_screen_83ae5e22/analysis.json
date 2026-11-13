@@ -1,0 +1,251 @@
+{
+  "status": "verified_exploratory",
+  "aggregates": [
+    {
+      "cell": "original",
+      "metric": "mean_absolute_relative_gap",
+      "mean_native_units": 0.057312777777777775,
+      "sample_sd_native_units": 0.009416105784672777
+    },
+    {
+      "cell": "average5",
+      "metric": "mean_absolute_relative_gap",
+      "mean_native_units": 0.06088111111111111,
+      "sample_sd_native_units": 0.004753265641562573
+    },
+    {
+      "cell": "no_skew",
+      "metric": "mean_absolute_relative_gap",
+      "mean_native_units": 0.059573333333333346,
+      "sample_sd_native_units": 0.013874076545846221
+    },
+    {
+      "cell": "no_skew_average5",
+      "metric": "mean_absolute_relative_gap",
+      "mean_native_units": 0.03259222222222222,
+      "sample_sd_native_units": 0.0026591896913937658
+    },
+    {
+      "cell": "original",
+      "metric": "acf_returns_lag1",
+      "mean_native_units": 0.19588441020709627,
+      "sample_sd_native_units": 0.018086853930630597
+    },
+    {
+      "cell": "average5",
+      "metric": "acf_returns_lag1",
+      "mean_native_units": 0.45030628254036764,
+      "sample_sd_native_units": 0.030968406583423487
+    },
+    {
+      "cell": "no_skew",
+      "metric": "acf_returns_lag1",
+      "mean_native_units": 0.10222627935471645,
+      "sample_sd_native_units": 0.07046357971456878
+    },
+    {
+      "cell": "no_skew_average5",
+      "metric": "acf_returns_lag1",
+      "mean_native_units": 0.3993861251138038,
+      "sample_sd_native_units": 0.0193987239128473
+    },
+    {
+      "cell": "original",
+      "metric": "turnover_per_round",
+      "mean_native_units": 0.013547126436781607,
+      "sample_sd_native_units": 0.00024358868450508818
+    },
+    {
+      "cell": "average5",
+      "metric": "turnover_per_round",
+      "mean_native_units": 0.011763218390804598,
+      "sample_sd_native_units": 0.0003254335401187443
+    },
+    {
+      "cell": "no_skew",
+      "metric": "turnover_per_round",
+      "mean_native_units": 0.01132337164750958,
+      "sample_sd_native_units": 0.0007975159059261601
+    },
+    {
+      "cell": "no_skew_average5",
+      "metric": "turnover_per_round",
+      "mean_native_units": 0.009538697318007662,
+      "sample_sd_native_units": 0.00019943550052794684
+    },
+    {
+      "cell": "original",
+      "metric": "volume_weighted_mm_share",
+      "mean_native_units": 0.4395678485917319,
+      "sample_sd_native_units": 0.01092538824022763
+    },
+    {
+      "cell": "average5",
+      "metric": "volume_weighted_mm_share",
+      "mean_native_units": 0.46834585400090306,
+      "sample_sd_native_units": 0.015594841788059087
+    },
+    {
+      "cell": "no_skew",
+      "metric": "volume_weighted_mm_share",
+      "mean_native_units": 0.48346685610934675,
+      "sample_sd_native_units": 0.014011907885268205
+    },
+    {
+      "cell": "no_skew_average5",
+      "metric": "volume_weighted_mm_share",
+      "mean_native_units": 0.5323967716723874,
+      "sample_sd_native_units": 0.0050422360400643506
+    }
+  ],
+  "supplementary_mm_boundary_counts": [
+    {
+      "seed": 317,
+      "cell": "original",
+      "fraction_at_0_or_300": 0.006666666666666667
+    },
+    {
+      "seed": 317,
+      "cell": "average5",
+      "fraction_at_0_or_300": 0.03166666666666667
+    },
+    {
+      "seed": 317,
+      "cell": "no_skew",
+      "fraction_at_0_or_300": 0.028333333333333332
+    },
+    {
+      "seed": 317,
+      "cell": "no_skew_average5",
+      "fraction_at_0_or_300": 0.07
+    },
+    {
+      "seed": 628,
+      "cell": "original",
+      "fraction_at_0_or_300": 0.0
+    },
+    {
+      "seed": 628,
+      "cell": "average5",
+      "fraction_at_0_or_300": 0.035
+    },
+    {
+      "seed": 628,
+      "cell": "no_skew",
+      "fraction_at_0_or_300": 0.018333333333333333
+    },
+    {
+      "seed": 628,
+      "cell": "no_skew_average5",
+      "fraction_at_0_or_300": 0.03333333333333333
+    },
+    {
+      "seed": 939,
+      "cell": "original",
+      "fraction_at_0_or_300": 0.0
+    },
+    {
+      "seed": 939,
+      "cell": "average5",
+      "fraction_at_0_or_300": 0.028333333333333332
+    },
+    {
+      "seed": 939,
+      "cell": "no_skew",
+      "fraction_at_0_or_300": 0.03833333333333333
+    },
+    {
+      "seed": 939,
+      "cell": "no_skew_average5",
+      "fraction_at_0_or_300": 0.02
+    }
+  ],
+  "inventory_count_note": "Supplementary post-screen diagnostic, not a predeclared optimization target.",
+  "max_cash_error": 5.820766091346741e-11,
+  "max_aggregate_passive_excess_residual": 2.950400812551379e-09,
+  "source_parent": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    " M ../../06_EVALUATION_AND_EXPERIMENTS.md",
+    "AM ../../AGENTS.md",
+    "AM ../../RESEARCH_DIARY.md",
+    " M ../README.md",
+    " M ../configs/dev_mock.yaml",
+    " M agents/base.py",
+    " M agents/llm_agent.py",
+    " M agents/rule_agents.py",
+    " M assets.py",
+    " M engine.py",
+    " M llm/client.py",
+    " M llm/mock.py",
+    " M market.py",
+    "?? ../../.gitignore",
+    "?? ../AGENT_EXPERIMENTS.md",
+    "?? ../ECONOMIC_MODEL.md",
+    "?? ../configs/baseline_mock.yaml",
+    "?? ../configs/baseline_rules.yaml",
+    "?? ../configs/diagnostic_shock.yaml",
+    "?? ../configs/pilot_a_mock.yaml",
+    "?? ../configs/pilot_b_mock.yaml",
+    "?? ../configs/pilot_c_mock.yaml",
+    "?? background_check.py",
+    "?? behaviour_check.py",
+    "?? capability_check.py",
+    "?? config.py",
+    "?? evaluation.py",
+    "?? llm/usage.py",
+    "?? news_controls.py",
+    "?? pilot.py",
+    "?? provenance.py",
+    "?? ../tests/test_comparable_agents.py",
+    "?? ../tests/test_config.py",
+    "?? ../tests/test_disclosed_rules.py",
+    "?? ../tests/test_economics.py",
+    "?? ../tests/test_foundation.py",
+    "?? ../tests/test_live_pilot.py",
+    "?? ../tests/test_news_controls.py",
+    "?? ../tests/test_research_checks.py"
+  ],
+  "source_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "49337c030bb19d7c2e6439fe3c899625bf08eb92537a16a762c9a43ef0b9b6f1",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/config.py": "4c7afd62a067bb9771a9169d8fad57537232efe8bed718135e20ebcb5f4a27ec",
+    "sim/engine.py": "71b41a3c2727e1b1221a9d852bc2e947021245895ebfa3b972f80326639d784e",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "a75e79fb6ed1b7f5fe6c57740b05faed792a6058b46af8046b92777164c822fe",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "c18b001111b4427df8d25415849b05e7e7745062c21d8b3e59dd1109af440d37"
+  },
+  "baseline_regression": {
+    "status": "verified",
+    "old_run": "runs\\20261102_191234_baseline_rules_a5b83fd1",
+    "new_run": "runs\\20261102_193818_baseline_rules_35efef16",
+    "identical_files": {
+      "prices.csv": true,
+      "orders.csv": true,
+      "trades.csv": true,
+      "agents_state.csv": true,
+      "cashflows.csv": true,
+      "liquidity.csv": true,
+      "initial_state.csv": true
+    },
+    "manifest_sha256": "ed0eed427d42867efbc73002e001911f55e7507d0abe2b879077ed142d41d5f3"
+  },
+  "behaviour_battery": "runs\\20261102_193749_behaviour_inputs_5e633670",
+  "behaviour_battery_sha256": "67929bd362979762633eef024c2ce88e2ec3b8db2b36af2fd4eef34dc30246b1",
+  "analysis_source_sha256": "8417d650b847bda58849fecf15c93d8662311dea5efb87d7101be6ade3ecd445",
+  "decision": "Keep defaults. Five-payout averaging is a sensitivity option, not a validated realism improvement. No live behavioural generation or empirical comparison here."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "stopped",
+  "completed_sources": 0,
+  "planned_sources": 2,
+  "completed_auctions": 0,
+  "planned_auctions": 36,
+  "failure_type": "ProviderUnavailable",
+  "usage": {
+    "requests_made": 2,
+    "reserved_tokens": 22284,
+    "provider_reported_tokens": 0,
+    "unknown_usage_requests": 2,
+    "blocked_requests": 1
+  },
+  "finished_utc": "2026-11-04T00:33:36.210705+00:00",
+  "active": null
+}

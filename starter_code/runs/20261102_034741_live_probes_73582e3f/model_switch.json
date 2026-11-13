@@ -1,0 +1,35 @@
+{
+  "status": "superseded_primary_model",
+  "old_model": "gemini-3.5-flash-lite",
+  "new_model": "gemini-3.8-flash",
+  "completed_markets": [
+    {
+      "seed": 704,
+      "condition": "A",
+      "run_id": "20261102_035159_live_a_s704_15bbdf90",
+      "status": "completed"
+    },
+    {
+      "seed": 704,
+      "condition": "B",
+      "run_id": "20261102_035349_live_b_s704_39e8ae92",
+      "status": "completed"
+    },
+    {
+      "seed": 704,
+      "condition": "C",
+      "run_id": "20261102_035600_live_c_s704_d127f351",
+      "status": "completed"
+    }
+  ],
+  "interrupted_market": "20261102_035925_live_c_s905_ed83224d",
+  "interruption": {
+    "status": "externally_interrupted",
+    "reason": "User requested switching primary pilot from Flash-Lite to Gemini 3.8 Flash.",
+    "recorded_utc": "2026-11-01T22:32:37.502093+00:00",
+    "observed_completed_rounds": 2,
+    "observed_model_call_records": 5,
+    "limitation": "Process stopped externally. No engine summary was finalized. An in-flight or reserved but unlogged request cannot be excluded; logged usage is a lower bound."
+  },
+  "note": "Preserve all replies. Do not combine these with 3.8 results as one A/B/C experiment."
+}

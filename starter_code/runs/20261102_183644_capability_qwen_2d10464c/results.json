@@ -1,0 +1,216 @@
+[
+  {
+    "case_id": "tight_cash_B",
+    "repetition": 2,
+    "kind": "order",
+    "family": "resources",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "tight_cash_B:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "With only 75.1 cash and a reserve near 81 per share after the 6% band and tax, I cannot afford a single share this round; holding until I have enough cash or price offers better value.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "tight_cash_B:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "With only 75.1 cash and a reserve near 81 per share after the 6% band and tax, I cannot afford a single share this round; holding until I have enough cash or price offers better value.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "tight_cash_B",
+    "repetition": 3,
+    "kind": "order",
+    "family": "resources",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "tight_cash_B:r3",
+      "side": "buy",
+      "quantity": 1,
+      "limit_price": 73.5,
+      "round": 7,
+      "reasoning": "Fair value of 90 sits well above the stagnant 75 price, so I want exposure, but with only 75.1 cash I can afford just one share at a conservative bid under the band midpoint rather than chasing a market order I can't fund.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "tight_cash_B:r3",
+      "side": "buy",
+      "quantity": 1,
+      "limit_price": 73.5,
+      "round": 7,
+      "reasoning": "Fair value of 90 sits well above the stagnant 75 price, so I want exposure, but with only 75.1 cash I can afford just one share at a conservative bid under the band midpoint rather than chasing a market order I can't fund.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "risk_high",
+    "repetition": 3,
+    "kind": "order",
+    "family": "risk_trait",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "risk_high:r3",
+      "side": "buy",
+      "quantity": 70,
+      "limit_price": 81.0,
+      "round": 7,
+      "reasoning": "Steady uptrend of +1 per round with a tiny dividend \u2014 deploying more cash into the momentum while keeping a buffer for fees and volatility.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "risk_high:r3",
+      "side": "buy",
+      "quantity": 70,
+      "limit_price": 81.0,
+      "round": 7,
+      "reasoning": "Steady uptrend of +1 per round with a tiny dividend \u2014 deploying more cash into the momentum while keeping a buffer for fees and volatility.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "tight_cash_A",
+    "repetition": 3,
+    "kind": "order",
+    "family": "resources",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "tight_cash_A:r3",
+      "side": "buy",
+      "quantity": 1,
+      "limit_price": 73.5,
+      "round": 7,
+      "reasoning": "Analyst fair value of 90 is far above the stuck price of 75, so I want exposure; my cash only allows a reservation at 73.5 with tax, so I bid there for a discounted fill.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "tight_cash_A:r3",
+      "side": "buy",
+      "quantity": 1,
+      "limit_price": 73.5,
+      "round": 7,
+      "reasoning": "Analyst fair value of 90 is far above the stuck price of 75, so I want exposure; my cash only allows a reservation at 73.5 with tax, so I bid there for a discounted fill.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "risk_high",
+    "repetition": 2,
+    "kind": "order",
+    "family": "risk_trait",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "risk_high:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "Steady uptrend with my 120 shares already about half my wealth; no need to add concentration here, let the trend run.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "risk_high:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "Steady uptrend with my 120 shares already about half my wealth; no need to add concentration here, let the trend run.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "empty_B",
+    "repetition": 2,
+    "kind": "order",
+    "family": "resources",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "empty_B:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "I have no cash and no shares, so there is nothing I can trade this round.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "empty_B:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "I have no cash and no shares, so there is nothing I can trade this round.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "headline",
+    "repetition": 3,
+    "kind": "order",
+    "family": "news",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "headline:r3",
+      "side": "buy",
+      "quantity": 40,
+      "limit_price": 75.1,
+      "round": 7,
+      "reasoning": "Stable price with a solid dividend yield; the unverified report of a 25% dividend increase is a modest positive signal worth adding to while keeping plenty of cash on hand.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "headline:r3",
+      "side": "buy",
+      "quantity": 40,
+      "limit_price": 75.1,
+      "round": 7,
+      "reasoning": "Stable price with a solid dividend yield; the unverified report of a 25% dividend increase is a modest positive signal worth adding to while keeping plenty of cash on hand.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "taxed_raw_limit",
+    "repetition": 2,
+    "kind": "objective",
+    "family": "mechanics",
+    "request_count": 1,
+    "parsed": {
+      "reserved_cost_per_share": 76.6224,
+      "rounded_buy_limit": 75.0,
+      "maximum_buy_quantity": 1
+    },
+    "correct_fields": {
+      "reserved_cost_per_share": true,
+      "rounded_buy_limit": true,
+      "maximum_buy_quantity": true
+    },
+    "all_correct": true
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "version": "initial_news_A_v1_explicit_prior_reference",
+  "status": "frozen_before_runs",
+  "created_utc": "2026-11-04T08:36:38.370148+00:00",
+  "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    " M ../06_EVALUATION_AND_EXPERIMENTS.md",
+    "AM ../AGENTS.md",
+    "AM ../RESEARCH_DIARY.md",
+    " M README.md",
+    " M configs/dev_mock.yaml",
+    " M sim/agents/base.py",
+    " M sim/agents/llm_agent.py",
+    " M sim/agents/rule_agents.py",
+    " M sim/assets.py",
+    " M sim/engine.py",
+    " M sim/llm/client.py",
+    " M sim/llm/mock.py",
+    " M sim/market.py",
+    "?? ../.gitignore",
+    "?? AGENT_EXPERIMENTS.md",
+    "?? ECONOMIC_MODEL.md",
+    "?? configs/baseline_mock.yaml",
+    "?? configs/baseline_rules.yaml",
+    "?? configs/diagnostic_shock.yaml",
+    "?? configs/pilot_a_mock.yaml",
+    "?? configs/pilot_b_mock.yaml",
+    "?? configs/pilot_c_mock.yaml",
+    "?? sim/background_check.py",
+    "?? sim/behaviour_check.py",
+    "?? sim/behaviour_run.py",
+    "?? sim/capability_check.py",
+    "?? sim/component_continuation.py",
+    "?? sim/config.py",
+    "?? sim/evaluation.py",
+    "?? sim/llm/usage.py",
+    "?? sim/news_components.py",
+    "?? sim/news_controls.py",
+    "?? sim/news_pilot.py",
+    "?? sim/pilot.py",
+    "?? sim/provenance.py",
+    "?? sim/sequential_markets.py",
+    "?? tests/test_behaviour_run.py",
+    "?? tests/test_comparable_agents.py",
+    "?? tests/test_component_continuation.py",
+    "?? tests/test_config.py",
+    "?? tests/test_disclosed_rules.py",
+    "?? tests/test_economics.py",
+    "?? tests/test_foundation.py",
+    "?? tests/test_live_pilot.py",
+    "?? tests/test_news_components.py",
+    "?? tests/test_news_controls.py",
+    "?? tests/test_news_pilot.py",
+    "?? tests/test_research_checks.py",
+    "?? tests/test_sequential_markets.py",
+    "?? tests/test_transport_retry.py"
+  ],
+  "source_sha256": {
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/component_continuation.py": "5c386f8d84e7a50654676aaea2dbd33a1365337aadc44be0d52f35a97388426b",
+    "sim/config.py": "c220ef6fefd4202bee529ca60adbfb97d7eb001f5cab5dac0b743fac4e626bc7",
+    "sim/engine.py": "abb3424aa0e72bcfdf12a533cbe900b3b654edfd71167f466aa99b8f113421de",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_components.py": "d7e611f86fb6ec543feca0b6f0dd8d23fbe61d3d4b9a09e08898000b88879d53",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/news_pilot.py": "b7d44eda1d8cf78e767431c9f033689fe97e8a330fd53b35f21b9cdda0574560",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "2f79828cc6da6c46f15afd2974842cc14c1632a8903adf855be1ab71dde0dbc9",
+    "sim/sequential_markets.py": "23163329202210ddfd193dde502110a0948da3e35902b7e3efa7e019a1785bcd",
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "0346d68c54b34c272d6bc2415209a3862082854f3b8a27f19ce941f19d99f9dd",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "30920fecf5df77d030fec79502c57c3685266641e01516af78253c623aae2d38",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/initial_news_20261104.py": "9f2c3bcba518cd17013beb6fc23e65a0e5a69b5a5feb483987495b78b192ec33",
+    "runs/horizon_pilot_20261104.py": "84b80667233e505f8ef5d1c4a166d373f5602bc51ecb9acda0760e752e857a0b",
+    "runs/sequential_tail_20261104.py": "cb86f8cd944407f17483fe8730d536e1eba4dee12aa9e4f7365d340056957451"
+  },
+  "source_archive_sha256": "bcafc660889accad44957c715857339014f3dc9686e59f0d59e2a334b4cdcaf5",
+  "driver_sha256": "9f2c3bcba518cd17013beb6fc23e65a0e5a69b5a5feb483987495b78b192ec33",
+  "baselines": [
+    {
+      "seed": 13111,
+      "cell": "quiet",
+      "config": "configs/rules_13111_quiet.yaml",
+      "config_sha256": "ff34ed10adc9bdeeac53ea27cfbd62372ef7ae7ed01c74e4169bf56360547fdb"
+    },
+    {
+      "seed": 13111,
+      "cell": "up_silent",
+      "config": "configs/rules_13111_up_silent.yaml",
+      "config_sha256": "5068ce47195138f1fa0d90115fd4b79eecdf1667e955ef475ea0d6b3559fa38b"
+    },
+    {
+      "seed": 13111,
+      "cell": "up_visible",
+      "config": "configs/rules_13111_up_visible.yaml",
+      "config_sha256": "99356e4de555cadc8bea5558ce04634ccdba26e88bc74d745c480b77d81d8be9"
+    },
+    {
+      "seed": 13111,
+      "cell": "down_silent",
+      "config": "configs/rules_13111_down_silent.yaml",
+      "config_sha256": "ecdb4754161b62fbe681ef1df871b51f90bd744ad00bd9fe9132168be790246f"
+    },
+    {
+      "seed": 13111,
+      "cell": "down_visible",
+      "config": "configs/rules_13111_down_visible.yaml",
+      "config_sha256": "9067a54fe02a0e8d1dfc972ab5f9fefe4c8d1b33dfa879cd17d3a9c560f05003"
+    },
+    {
+      "seed": 14227,
+      "cell": "quiet",
+      "config": "configs/rules_14227_quiet.yaml",
+      "config_sha256": "2a4dc988d6bd1125796693b11e2b3740a428335f0c7462130355f7149d26462c"
+    },
+    {
+      "seed": 14227,
+      "cell": "up_silent",
+      "config": "configs/rules_14227_up_silent.yaml",
+      "config_sha256": "d7b96f183738e7a98bd57bcdbe7a059b40e67f46b520d6e91384ffc2228e5f13"
+    },
+    {
+      "seed": 14227,
+      "cell": "up_visible",
+      "config": "configs/rules_14227_up_visible.yaml",
+      "config_sha256": "ba3416ce02b738e53ce0c26b8e2d1c05b1886c958a9cc540ca6ea17d7de581bd"
+    },
+    {
+      "seed": 14227,
+      "cell": "down_silent",
+      "config": "configs/rules_14227_down_silent.yaml",
+      "config_sha256": "17b9e5fa3f8b3b0acb2c2240ae8e83ece50aae76ea134de729f4f22e72cfbc47"
+    },
+    {
+      "seed": 14227,
+      "cell": "down_visible",
+      "config": "configs/rules_14227_down_visible.yaml",
+      "config_sha256": "f71c100c4e949031fd1496c9bd66136336b70e3eec0976d9a158fa49ed8ff89c"
+    }
+  ],
+  "blocks": [
+    {
+      "seed": 13111,
+      "arms": [
+        {
+          "seed": 13111,
+          "cell": "quiet",
+          "config": "configs/A_13111_quiet.yaml",
+          "config_sha256": "4479efc40a875d95b7d73af86b88645aa80fb40979ff496015b78ecb7d66001e"
+        },
+        {
+          "seed": 13111,
+          "cell": "up_silent",
+          "config": "configs/A_13111_up_silent.yaml",
+          "config_sha256": "e41d9b9be8c7ed462aba09195ad7a73222533c6bac6519100f1b13cb461c226a"
+        },
+        {
+          "seed": 13111,
+          "cell": "up_visible",
+          "config": "configs/A_13111_up_visible.yaml",
+          "config_sha256": "1bf54bc76c4fe0c469ffe1908de29e4c5b65585979fb4298ebe48864fe409af6"
+        },
+        {
+          "seed": 13111,
+          "cell": "down_visible",
+          "config": "configs/A_13111_down_visible.yaml",
+          "config_sha256": "2c4060964e439a8973e27c7871b4f25125b50020f8ecc6e4daf6d4e04a044244"
+        },
+        {
+          "seed": 13111,
+          "cell": "down_silent",
+          "config": "configs/A_13111_down_silent.yaml",
+          "config_sha256": "8e3f7e98f0da9dc2cf59bc69ceec09f3d51167dfc5a6e7d8851d8ec65dbca7cf"
+        }
+      ]
+    },
+    {
+      "seed": 14227,
+      "arms": [
+        {
+          "seed": 14227,
+          "cell": "down_silent",
+          "config": "configs/A_14227_down_silent.yaml",
+          "config_sha256": "e195f05059c56a7a313d05024d579eaa69ce518dcd4ab79eaaf8fec1ae04e921"
+        },
+        {
+          "seed": 14227,
+          "cell": "down_visible",
+          "config": "configs/A_14227_down_visible.yaml",
+          "config_sha256": "5230e3638d49e9f9270248bfaba3ff57867bd8528aca9e7442d5494ca1f36a4e"
+        },
+        {
+          "seed": 14227,
+          "cell": "quiet",
+          "config": "configs/A_14227_quiet.yaml",
+          "config_sha256": "796a2cabff4ef48ac423b103253de0a16c2b0aeb6684cef2f443ae1f8598dfa8"
+        },
+        {
+          "seed": 14227,
+          "cell": "up_visible",
+          "config": "configs/A_14227_up_visible.yaml",
+          "config_sha256": "53fe876fa0816a1b225141879cd8059310a8cb7e4048d92d82a0ad7b02581f40"
+        },
+        {
+          "seed": 14227,
+          "cell": "up_silent",
+          "config": "configs/A_14227_up_silent.yaml",
+          "config_sha256": "6e935e3bcc5ba0c18f41a1e04478c9e5eeabedd1e62d8f07a368ebc3ffdaf165"
+        }
+      ]
+    }
+  ],
+  "seeds": [
+    13111,
+    14227
+  ],
+  "rounds": 12,
+  "event_round": 1,
+  "condition": "A",
+  "question": "Incremental visible-versus-silent forecast effect under the SAME real permanent mean shift, from matched initial states, with endogenous joint downstream feedback. Quiet reference for silent-regime contrasts; direction is not a pass oracle.",
+  "initial_information": "All base initial means/reference dividends.02 and price100/resources/personas identical within seed. Event applied at round1; hidden new regime not disclosed in first silent prompt. Round1 explicitly labels supplied dividend as initialization prior, not verified payment. All later paid observations remain literal. Common hidden recording length/continuing-stock rule. New research variant, no tested before/after semantic benefit or production default change.",
+  "primary": "Within each seed, visible-minus-silent cumulative executed target signed flow(buys-sells) over rounds1-3, separately up/down, per actor and combined. A partial path can support this only if all3 financial rounds complete without model fallback;12-round terminal outcomes stay missing unless full path clean.",
+  "secondary": "First-auction requested/accepted/executed/gross flow and price/volume/counterparty response; all12-round paths/gaps/turnover/fill/MM/inventory, natural headroom/exposure, both full-horizon conditional passive auction/private-benchmark marks and all counterparts/costs. Silent up/down minus quiet as secondary regime contrasts. No risk-adjusted alpha/welfare/human-realism oracle.",
+  "gates": "All10 zero-API rule companions first; same-regime visible/silent financial CSVs identical, all5 initial rule books/trades identical, quiet dividends scaled1.2/.8, resources/cash/shares/MM/passive accounting. Live first silent inputs match across quiet/up/down; visible first inputs differ only headline; personas/initial resources/12 background first orders match. Later divergence is a treatment/feedback outcome.",
+  "profile": {
+    "model": "qwen-3.8-27b",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "reasoning_effort": "low",
+    "timeout_seconds": 180,
+    "memory_window": 5,
+    "reflections": 0,
+    "provider_seed": null,
+    "backend_fingerprint": null
+  },
+  "limits": {
+    "per_arm_requests": 40,
+    "per_arm_reservations": 700000,
+    "phase_requests": 400,
+    "phase_reservations": 7000000,
+    "normal_decisions": 240
+  },
+  "failure_policy": "Existing first fatal provider/output/budget or persistent parse fallback stops whole campaign; existing one shared identical-message extra transport/503 attempt. No next seed after failure, automatic restart, selected resampling, prefix splicing or model/billing switch. Partial/uncleared/unknown usage retained. Continue predeclared block2 only after clean technical block1 gates, regardless of financial signs.",
+  "limitations": "Only2 exogenous scenarios, one unseeded model path per condition; not10 independent treatment repetitions. Initial event lacks established pre-event trends; later paths include model-sampling/feedback variation. No human validation, universal headline effect, long-run stylized facts or intrinsic LLM superiority. F/M companions are specified equal-slot policies that ignore text. New prompt variant not pooled with old matched-query studies or interpreted as a semantic-before/after improvement. Initial prior is shared, not a disclosed new-regime oracle. A raw reasoning history can carry news beliefs beyond the5-round window."
+}

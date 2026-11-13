@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 704,
+    "condition": "A",
+    "run_id": "20261102_035159_live_a_s704_15bbdf90",
+    "status": "completed"
+  },
+  {
+    "seed": 704,
+    "condition": "B",
+    "run_id": "20261102_035349_live_b_s704_39e8ae92",
+    "status": "completed"
+  },
+  {
+    "seed": 704,
+    "condition": "C",
+    "run_id": "20261102_035600_live_c_s704_d127f351",
+    "status": "completed"
+  }
+]

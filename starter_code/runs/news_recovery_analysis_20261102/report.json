@@ -1,0 +1,2186 @@
+{
+  "version": "news_live_pilot_v2_matched_event_probes",
+  "study_status": {
+    "status": "stopped",
+    "completed_markets": 11,
+    "recorded_recovery_arms": 1,
+    "failure_type": "ProviderUnavailable",
+    "finished_utc": "2026-11-02T16:07:36.551306+00:00",
+    "plan_sha256": "bf950d7c93044f5e7201b5387631bafde86fac3d5ac4ca657136a7d697b7939e"
+  },
+  "parent_phase_status": {
+    "status": "stopped",
+    "completed_markets": 9,
+    "recorded_market_arms": 10,
+    "usable_markets": 9,
+    "planned_markets": 16,
+    "failure_type": "ProviderUnavailable",
+    "finished_utc": "2026-11-02T15:09:03.056265+00:00",
+    "study_sha256": "0a901d2fc24f41d5c7a2207c741f46a34df14e60d1ad0b61733eb621c72d7355"
+  },
+  "arms": [
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "control",
+      "run_path": "market_runs/20261102_203035_news_rules_control_s1441_8f52424c",
+      "event_metrics": {
+        "pre_event_price": 101.7,
+        "pre_mean_price": 99.91,
+        "event_price": 102.1,
+        "event_log_return": 0.003925422116105512,
+        "post_mean_price": 100.49999999999999,
+        "post_mean_absolute_relative_gap": 0.009999999999999976,
+        "half_pre_event_gap_time": 3,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.19161676646706588,
+        "target_trade_leg_share": 0.10479041916167664,
+        "post_total_volume": 167
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.010849999999999981,
+        "acf_returns_lag1": -0.07338128219123749,
+        "acf_absolute_returns_lag1": -0.13068659349541892,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.011034482758620689,
+        "volume_weighted_mm_share": 0.515625,
+        "mean_fill_rate": 0.5321126022736917,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 133,
+        "mm_inventory_max": 193,
+        "aggregate_cash_growth": 0.00760836511257601,
+        "max_share_concentration": 0.13310344827586207
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 2,
+          "accepted_side": "buy",
+          "accepted_quantity": 2,
+          "executed_buy": 2,
+          "executed_sell": 0,
+          "executed_signed": 2,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20170.389205832915,
+              "passive_wealth": 20219.80857111005,
+              "active_minus_passive": -49.41936527713551,
+              "active_return": 0.00851946029164563,
+              "passive_return": 0.010990428555502474,
+              "excess_return": -0.0024709682638567754
+            },
+            "regime_benchmark": {
+              "active_wealth": 20030.389205832915,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": -49.41936527713551,
+              "active_return": 0.0015194602916457356,
+              "passive_return": 0.003990428555502579,
+              "excess_return": -0.0024709682638567754
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20210.281097618543,
+              "passive_wealth": 20219.80857111005,
+              "active_minus_passive": -9.527473491507408,
+              "active_return": 0.010514054880927048,
+              "passive_return": 0.010990428555502474,
+              "excess_return": -0.0004763736745753704
+            },
+            "regime_benchmark": {
+              "active_wealth": 20075.88109761854,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": -3.927473491508863,
+              "active_return": 0.003794054880926989,
+              "passive_return": 0.003990428555502579,
+              "excess_return": -0.00019637367457544315
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "headline_only",
+      "run_path": "market_runs/20261102_203035_news_rules_headline_only_s1441_1c93e340",
+      "event_metrics": {
+        "pre_event_price": 101.7,
+        "pre_mean_price": 99.91,
+        "event_price": 102.1,
+        "event_log_return": 0.003925422116105512,
+        "post_mean_price": 100.49999999999999,
+        "post_mean_absolute_relative_gap": 0.009999999999999976,
+        "half_pre_event_gap_time": 3,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.19161676646706588,
+        "target_trade_leg_share": 0.10479041916167664,
+        "post_total_volume": 167
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.010849999999999981,
+        "acf_returns_lag1": -0.07338128219123749,
+        "acf_absolute_returns_lag1": -0.13068659349541892,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.011034482758620689,
+        "volume_weighted_mm_share": 0.515625,
+        "mean_fill_rate": 0.5321126022736917,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 133,
+        "mm_inventory_max": 193,
+        "aggregate_cash_growth": 0.00760836511257601,
+        "max_share_concentration": 0.13310344827586207
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 2,
+          "accepted_side": "buy",
+          "accepted_quantity": 2,
+          "executed_buy": 2,
+          "executed_sell": 0,
+          "executed_signed": 2,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20170.389205832915,
+              "passive_wealth": 20219.80857111005,
+              "active_minus_passive": -49.41936527713551,
+              "active_return": 0.00851946029164563,
+              "passive_return": 0.010990428555502474,
+              "excess_return": -0.0024709682638567754
+            },
+            "regime_benchmark": {
+              "active_wealth": 20030.389205832915,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": -49.41936527713551,
+              "active_return": 0.0015194602916457356,
+              "passive_return": 0.003990428555502579,
+              "excess_return": -0.0024709682638567754
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20210.281097618543,
+              "passive_wealth": 20219.80857111005,
+              "active_minus_passive": -9.527473491507408,
+              "active_return": 0.010514054880927048,
+              "passive_return": 0.010990428555502474,
+              "excess_return": -0.0004763736745753704
+            },
+            "regime_benchmark": {
+              "active_wealth": 20075.88109761854,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": -3.927473491508863,
+              "active_return": 0.003794054880926989,
+              "passive_return": 0.003990428555502579,
+              "excess_return": -0.00019637367457544315
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "fundamentals_only",
+      "run_path": "market_runs/20261102_203035_news_rules_fundamentals_only_s1441_66f51ebd",
+      "event_metrics": {
+        "pre_event_price": 101.7,
+        "pre_mean_price": 99.91,
+        "event_price": 102.1,
+        "event_log_return": 0.003925422116105512,
+        "post_mean_price": 105.28,
+        "post_mean_absolute_relative_gap": 0.1226666666666667,
+        "half_pre_event_gap_time": 9,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.19014084507042253,
+        "target_trade_leg_share": 0.09507042253521127,
+        "post_total_volume": 142
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.06718333333333333,
+        "acf_returns_lag1": 0.07190818974436503,
+        "acf_absolute_returns_lag1": -0.026608202074357438,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.010172413793103447,
+        "volume_weighted_mm_share": 0.5864406779661017,
+        "mean_fill_rate": 0.45164157889252,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 85,
+        "mm_inventory_max": 193,
+        "aggregate_cash_growth": 0.007971191280241596,
+        "max_share_concentration": 0.13310344827586207
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 2,
+          "accepted_side": "buy",
+          "accepted_quantity": 2,
+          "executed_buy": 2,
+          "executed_sell": 0,
+          "executed_signed": 2,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10083.812170201538,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21302.647121383678,
+              "passive_wealth": 21293.812170201538,
+              "active_minus_passive": 8.834951182139775,
+              "active_return": 0.06513235606918388,
+              "passive_return": 0.06469060851007691,
+              "excess_return": 0.00044174755910698877
+            },
+            "regime_benchmark": {
+              "active_wealth": 22163.747121383676,
+              "passive_wealth": 22083.812170201538,
+              "active_minus_passive": 79.93495118213832,
+              "active_return": 0.10818735606918373,
+              "passive_return": 0.104190608510077,
+              "excess_return": 0.003996747559106916
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10083.812170201538,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21297.10019924079,
+              "passive_wealth": 21293.812170201538,
+              "active_minus_passive": 3.2880290392531606,
+              "active_return": 0.06485500996203952,
+              "passive_return": 0.06469060851007691,
+              "excess_return": 0.00016440145196265803
+            },
+            "regime_benchmark": {
+              "active_wealth": 22110.80019924079,
+              "passive_wealth": 22083.812170201538,
+              "active_minus_passive": 26.988029039253888,
+              "active_return": 0.1055400099620396,
+              "passive_return": 0.104190608510077,
+              "excess_return": 0.0013494014519626943
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "combined",
+      "run_path": "market_runs/20261102_203035_news_rules_combined_s1441_bef1ea78",
+      "event_metrics": {
+        "pre_event_price": 101.7,
+        "pre_mean_price": 99.91,
+        "event_price": 102.1,
+        "event_log_return": 0.003925422116105512,
+        "post_mean_price": 105.28,
+        "post_mean_absolute_relative_gap": 0.1226666666666667,
+        "half_pre_event_gap_time": 9,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.19014084507042253,
+        "target_trade_leg_share": 0.09507042253521127,
+        "post_total_volume": 142
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.06718333333333333,
+        "acf_returns_lag1": 0.07190818974436503,
+        "acf_absolute_returns_lag1": -0.026608202074357438,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.010172413793103447,
+        "volume_weighted_mm_share": 0.5864406779661017,
+        "mean_fill_rate": 0.45164157889252,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 85,
+        "mm_inventory_max": 193,
+        "aggregate_cash_growth": 0.007971191280241596,
+        "max_share_concentration": 0.13310344827586207
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 2,
+          "accepted_side": "buy",
+          "accepted_quantity": 2,
+          "executed_buy": 2,
+          "executed_sell": 0,
+          "executed_signed": 2,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10083.812170201538,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21302.647121383678,
+              "passive_wealth": 21293.812170201538,
+              "active_minus_passive": 8.834951182139775,
+              "active_return": 0.06513235606918388,
+              "passive_return": 0.06469060851007691,
+              "excess_return": 0.00044174755910698877
+            },
+            "regime_benchmark": {
+              "active_wealth": 22163.747121383676,
+              "passive_wealth": 22083.812170201538,
+              "active_minus_passive": 79.93495118213832,
+              "active_return": 0.10818735606918373,
+              "passive_return": 0.104190608510077,
+              "excess_return": 0.003996747559106916
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10083.812170201538,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21297.10019924079,
+              "passive_wealth": 21293.812170201538,
+              "active_minus_passive": 3.2880290392531606,
+              "active_return": 0.06485500996203952,
+              "passive_return": 0.06469060851007691,
+              "excess_return": 0.00016440145196265803
+            },
+            "regime_benchmark": {
+              "active_wealth": 22110.80019924079,
+              "passive_wealth": 22083.812170201538,
+              "active_minus_passive": 26.988029039253888,
+              "active_return": 0.1055400099620396,
+              "passive_return": 0.104190608510077,
+              "excess_return": 0.0013494014519626943
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "combined",
+      "run_path": "market_runs/20261102_203035_news_rules_combined_s2882_77d83d88",
+      "event_metrics": {
+        "pre_event_price": 94.0,
+        "pre_mean_price": 97.88999999999999,
+        "event_price": 93.2,
+        "event_log_return": -0.008547060578458408,
+        "post_mean_price": 99.08000000000001,
+        "post_mean_absolute_relative_gap": 0.1743333333333333,
+        "half_pre_event_gap_time": null,
+        "half_gap_right_censored": true,
+        "target_union_volume_share": 0.25,
+        "target_trade_leg_share": 0.125,
+        "post_total_volume": 204
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.09771666666666665,
+        "acf_returns_lag1": 0.19428308326431024,
+        "acf_absolute_returns_lag1": 0.05444984020374977,
+        "zero_volume_fraction": 0.05,
+        "turnover_per_round": 0.011931034482758621,
+        "volume_weighted_mm_share": 0.523121387283237,
+        "mean_fill_rate": 0.43575185563301744,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 111,
+        "mm_inventory_max": 201,
+        "aggregate_cash_growth": 0.007867142690043849,
+        "max_share_concentration": 0.1386206896551724
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 3,
+          "accepted_side": "buy",
+          "accepted_quantity": 3,
+          "executed_buy": 3,
+          "executed_sell": 0,
+          "executed_signed": 3,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": -4,
+          "accepted_side": "sell",
+          "accepted_quantity": 4,
+          "executed_buy": 0,
+          "executed_sell": 4,
+          "executed_signed": -4,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10082.664047826935,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20361.63613349779,
+              "passive_wealth": 20302.664047826933,
+              "active_minus_passive": 58.97208567085545,
+              "active_return": 0.018081806674889345,
+              "passive_return": 0.015133202391346634,
+              "excess_return": 0.0029486042835427727
+            },
+            "regime_benchmark": {
+              "active_wealth": 22586.63613349779,
+              "passive_wealth": 22082.664047826933,
+              "active_minus_passive": 503.97208567085545,
+              "active_return": 0.12933180667488942,
+              "passive_return": 0.1041332023913466,
+              "excess_return": 0.025198604283542772
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10082.664047826935,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20213.977761057613,
+              "passive_wealth": 20302.664047826933,
+              "active_minus_passive": -88.68628676931985,
+              "active_return": 0.010698888052880662,
+              "passive_return": 0.015133202391346634,
+              "excess_return": -0.004434314338465992
+            },
+            "regime_benchmark": {
+              "active_wealth": 21780.377761057614,
+              "passive_wealth": 22082.664047826933,
+              "active_minus_passive": -302.2862867693184,
+              "active_return": 0.08901888805288083,
+              "passive_return": 0.1041332023913466,
+              "excess_return": -0.01511431433846592
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "fundamentals_only",
+      "run_path": "market_runs/20261102_203036_news_rules_fundamentals_only_s2882_47766ca6",
+      "event_metrics": {
+        "pre_event_price": 94.0,
+        "pre_mean_price": 97.88999999999999,
+        "event_price": 93.2,
+        "event_log_return": -0.008547060578458408,
+        "post_mean_price": 99.08000000000001,
+        "post_mean_absolute_relative_gap": 0.1743333333333333,
+        "half_pre_event_gap_time": null,
+        "half_gap_right_censored": true,
+        "target_union_volume_share": 0.25,
+        "target_trade_leg_share": 0.125,
+        "post_total_volume": 204
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.09771666666666665,
+        "acf_returns_lag1": 0.19428308326431024,
+        "acf_absolute_returns_lag1": 0.05444984020374977,
+        "zero_volume_fraction": 0.05,
+        "turnover_per_round": 0.011931034482758621,
+        "volume_weighted_mm_share": 0.523121387283237,
+        "mean_fill_rate": 0.43575185563301744,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 111,
+        "mm_inventory_max": 201,
+        "aggregate_cash_growth": 0.007867142690043849,
+        "max_share_concentration": 0.1386206896551724
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 3,
+          "accepted_side": "buy",
+          "accepted_quantity": 3,
+          "executed_buy": 3,
+          "executed_sell": 0,
+          "executed_signed": 3,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": -4,
+          "accepted_side": "sell",
+          "accepted_quantity": 4,
+          "executed_buy": 0,
+          "executed_sell": 4,
+          "executed_signed": -4,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10082.664047826935,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20361.63613349779,
+              "passive_wealth": 20302.664047826933,
+              "active_minus_passive": 58.97208567085545,
+              "active_return": 0.018081806674889345,
+              "passive_return": 0.015133202391346634,
+              "excess_return": 0.0029486042835427727
+            },
+            "regime_benchmark": {
+              "active_wealth": 22586.63613349779,
+              "passive_wealth": 22082.664047826933,
+              "active_minus_passive": 503.97208567085545,
+              "active_return": 0.12933180667488942,
+              "passive_return": 0.1041332023913466,
+              "excess_return": 0.025198604283542772
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10082.664047826935,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20213.977761057613,
+              "passive_wealth": 20302.664047826933,
+              "active_minus_passive": -88.68628676931985,
+              "active_return": 0.010698888052880662,
+              "passive_return": 0.015133202391346634,
+              "excess_return": -0.004434314338465992
+            },
+            "regime_benchmark": {
+              "active_wealth": 21780.377761057614,
+              "passive_wealth": 22082.664047826933,
+              "active_minus_passive": -302.2862867693184,
+              "active_return": 0.08901888805288083,
+              "passive_return": 0.1041332023913466,
+              "excess_return": -0.01511431433846592
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "headline_only",
+      "run_path": "market_runs/20261102_203036_news_rules_headline_only_s2882_d27882a8",
+      "event_metrics": {
+        "pre_event_price": 94.0,
+        "pre_mean_price": 97.88999999999999,
+        "event_price": 93.2,
+        "event_log_return": -0.008547060578458408,
+        "post_mean_price": 93.28,
+        "post_mean_absolute_relative_gap": 0.0672,
+        "half_pre_event_gap_time": null,
+        "half_gap_right_censored": true,
+        "target_union_volume_share": 0.25,
+        "target_trade_leg_share": 0.14722222222222223,
+        "post_total_volume": 180
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.04414999999999999,
+        "acf_returns_lag1": 0.10057201273049204,
+        "acf_absolute_returns_lag1": 0.12991964709478632,
+        "zero_volume_fraction": 0.05,
+        "turnover_per_round": 0.01110344827586207,
+        "volume_weighted_mm_share": 0.4161490683229814,
+        "mean_fill_rate": 0.47615269090046225,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 146,
+        "mm_inventory_max": 207,
+        "aggregate_cash_growth": 0.007508020291350448,
+        "max_share_concentration": 0.14275862068965517
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 3,
+          "accepted_side": "buy",
+          "accepted_quantity": 3,
+          "executed_buy": 3,
+          "executed_sell": 0,
+          "executed_signed": 3,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": -4,
+          "accepted_side": "sell",
+          "accepted_quantity": 4,
+          "executed_buy": 0,
+          "executed_sell": 4,
+          "executed_signed": -4,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10078.70131791032,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19431.503862057732,
+              "passive_wealth": 19388.70131791032,
+              "active_minus_passive": 42.802544147412846,
+              "active_return": -0.028424806897113353,
+              "passive_return": -0.03056493410448402,
+              "excess_return": 0.0021401272073706423
+            },
+            "regime_benchmark": {
+              "active_wealth": 20176.703862057737,
+              "passive_wealth": 20078.70131791032,
+              "active_minus_passive": 98.00254414741721,
+              "active_return": 0.00883519310288694,
+              "passive_return": 0.0039350658955159545,
+              "excess_return": 0.004900127207370861
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10078.70131791032,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19400.62385242053,
+              "passive_wealth": 19388.70131791032,
+              "active_minus_passive": 11.922534510209516,
+              "active_return": -0.02996880737897356,
+              "passive_return": -0.03056493410448402,
+              "excess_return": 0.0005961267255104758
+            },
+            "regime_benchmark": {
+              "active_wealth": 19931.92385242053,
+              "passive_wealth": 20078.70131791032,
+              "active_minus_passive": -146.7774654897912,
+              "active_return": -0.003403807378973611,
+              "passive_return": 0.0039350658955159545,
+              "excess_return": -0.0073388732744895605
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "control",
+      "run_path": "market_runs/20261102_203036_news_rules_control_s2882_1f15eece",
+      "event_metrics": {
+        "pre_event_price": 94.0,
+        "pre_mean_price": 97.88999999999999,
+        "event_price": 93.2,
+        "event_log_return": -0.008547060578458408,
+        "post_mean_price": 93.28,
+        "post_mean_absolute_relative_gap": 0.0672,
+        "half_pre_event_gap_time": null,
+        "half_gap_right_censored": true,
+        "target_union_volume_share": 0.25,
+        "target_trade_leg_share": 0.14722222222222223,
+        "post_total_volume": 180
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.04414999999999999,
+        "acf_returns_lag1": 0.10057201273049204,
+        "acf_absolute_returns_lag1": 0.12991964709478632,
+        "zero_volume_fraction": 0.05,
+        "turnover_per_round": 0.01110344827586207,
+        "volume_weighted_mm_share": 0.4161490683229814,
+        "mean_fill_rate": 0.47615269090046225,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 146,
+        "mm_inventory_max": 207,
+        "aggregate_cash_growth": 0.007508020291350448,
+        "max_share_concentration": 0.14275862068965517
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "fund_012",
+          "slot": 12,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": 3,
+          "accepted_side": "buy",
+          "accepted_quantity": 3,
+          "executed_buy": 3,
+          "executed_sell": 0,
+          "executed_signed": 3,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "mome_013",
+          "slot": 13,
+          "persona": null,
+          "valid_choice": true,
+          "requested_signed": null,
+          "accepted_signed": -4,
+          "accepted_side": "sell",
+          "accepted_quantity": 4,
+          "executed_buy": 0,
+          "executed_sell": 4,
+          "executed_signed": -4,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10078.70131791032,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19431.503862057732,
+              "passive_wealth": 19388.70131791032,
+              "active_minus_passive": 42.802544147412846,
+              "active_return": -0.028424806897113353,
+              "passive_return": -0.03056493410448402,
+              "excess_return": 0.0021401272073706423
+            },
+            "regime_benchmark": {
+              "active_wealth": 20176.703862057737,
+              "passive_wealth": 20078.70131791032,
+              "active_minus_passive": 98.00254414741721,
+              "active_return": 0.00883519310288694,
+              "passive_return": 0.0039350658955159545,
+              "excess_return": 0.004900127207370861
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10078.70131791032,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19400.62385242053,
+              "passive_wealth": 19388.70131791032,
+              "active_minus_passive": 11.922534510209516,
+              "active_return": -0.02996880737897356,
+              "passive_return": -0.03056493410448402,
+              "excess_return": 0.0005961267255104758
+            },
+            "regime_benchmark": {
+              "active_wealth": 19931.92385242053,
+              "passive_wealth": 20078.70131791032,
+              "active_minus_passive": -146.7774654897912,
+              "active_return": -0.003403807378973611,
+              "passive_return": 0.0039350658955159545,
+              "excess_return": -0.0073388732744895605
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "control",
+      "run_path": "market_runs/20261102_203036_news_qwen_control_s1441_105a279e",
+      "event_metrics": {
+        "pre_event_price": 109.3,
+        "pre_mean_price": 107.17,
+        "event_price": 108.9,
+        "event_log_return": -0.0036663652435779564,
+        "post_mean_price": 102.29,
+        "post_mean_absolute_relative_gap": 0.04809999999999996,
+        "half_pre_event_gap_time": 2,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.7619047619047619,
+        "target_trade_leg_share": 0.38095238095238093,
+        "post_total_volume": 252
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.05989999999999997,
+        "acf_returns_lag1": -0.13496192219373207,
+        "acf_absolute_returns_lag1": 0.13230321750097282,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.017413793103448275,
+        "volume_weighted_mm_share": 0.3207920792079208,
+        "mean_fill_rate": 0.46629752303485095,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 114,
+        "mm_inventory_max": 202,
+        "aggregate_cash_growth": 0.007608365112576232,
+        "max_share_concentration": 0.1393103448275862
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "llm_012",
+          "slot": 12,
+          "persona": {
+            "name": "Meera Iyer",
+            "age": 34,
+            "occupation": "school teacher",
+            "risk_tolerance": "low",
+            "strategy_inclination": "fundamentalist",
+            "horizon": "long",
+            "backstory": "You save carefully from a modest salary and hate losing money.",
+            "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+          },
+          "valid_choice": true,
+          "requested_signed": -10,
+          "accepted_signed": -10,
+          "accepted_side": "sell",
+          "accepted_quantity": 10,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "llm_013",
+          "slot": 13,
+          "persona": {
+            "name": "Arjun Malhotra",
+            "age": 27,
+            "occupation": "startup marketer",
+            "risk_tolerance": "high",
+            "strategy_inclination": "momentum",
+            "horizon": "short",
+            "backstory": "You believe you can read momentum better than most.",
+            "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+          },
+          "valid_choice": true,
+          "requested_signed": 0,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20254.823955289787,
+              "passive_wealth": 19649.80857111005,
+              "active_minus_passive": 605.0153841797364,
+              "active_return": 0.012741197764489343,
+              "passive_return": -0.017509571444497496,
+              "excess_return": 0.03025076920898682
+            },
+            "regime_benchmark": {
+              "active_wealth": 20444.023955289787,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": 364.21538417973716,
+              "active_return": 0.022201197764489367,
+              "passive_return": 0.003990428555502579,
+              "excess_return": 0.018210769208986857
+            }
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 18911.945372528455,
+              "passive_wealth": 19649.80857111005,
+              "active_minus_passive": -737.8631985815955,
+              "active_return": -0.05440273137357732,
+              "passive_return": -0.017509571444497496,
+              "excess_return": -0.03689315992907977
+            },
+            "regime_benchmark": {
+              "active_wealth": 19367.74537252845,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": -712.0631985815999,
+              "active_return": -0.03161273137357745,
+              "passive_return": 0.003990428555502579,
+              "excess_return": -0.035603159929079996
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "headline_only",
+      "run_path": "continuation_1/market_runs/20261102_204658_news_qwen_headline_only_s1441_b617ea4f",
+      "event_metrics": {
+        "pre_event_price": 113.9,
+        "pre_mean_price": 114.76000000000002,
+        "event_price": 114.5,
+        "event_log_return": 0.005253952541157729,
+        "post_mean_price": 103.87,
+        "post_mean_absolute_relative_gap": 0.05089999999999999,
+        "half_pre_event_gap_time": 4,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.6350974930362117,
+        "target_trade_leg_share": 0.34540389972144847,
+        "post_total_volume": 359
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.09924999999999999,
+        "acf_returns_lag1": 0.3752762862821739,
+        "acf_absolute_returns_lag1": 0.12507195795922346,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.022620689655172412,
+        "volume_weighted_mm_share": 0.22560975609756098,
+        "mean_fill_rate": 0.5508617256656494,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 129,
+        "mm_inventory_max": 212,
+        "aggregate_cash_growth": 0.00760836511257601,
+        "max_share_concentration": 0.14620689655172414
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "llm_012",
+          "slot": 12,
+          "persona": {
+            "name": "Meera Iyer",
+            "age": 34,
+            "occupation": "school teacher",
+            "risk_tolerance": "low",
+            "strategy_inclination": "fundamentalist",
+            "horizon": "long",
+            "backstory": "You save carefully from a modest salary and hate losing money.",
+            "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+          },
+          "valid_choice": true,
+          "requested_signed": 40,
+          "accepted_signed": 40,
+          "accepted_side": "buy",
+          "accepted_quantity": 40,
+          "executed_buy": 38,
+          "executed_sell": 0,
+          "executed_signed": 38,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "llm_013",
+          "slot": 13,
+          "persona": {
+            "name": "Arjun Malhotra",
+            "age": 27,
+            "occupation": "startup marketer",
+            "risk_tolerance": "high",
+            "strategy_inclination": "momentum",
+            "horizon": "short",
+            "backstory": "You believe you can read momentum better than most.",
+            "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+          },
+          "valid_choice": true,
+          "requested_signed": 0,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20100.718275619834,
+              "passive_wealth": 19869.80857111005,
+              "active_minus_passive": 230.9097045097842,
+              "active_return": 0.005035913780991663,
+              "passive_return": -0.006509571444497486,
+              "excess_return": 0.01154548522548921
+            },
+            "regime_benchmark": {
+              "active_wealth": 20359.018275619834,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": 279.2097045097835,
+              "active_return": 0.017950913780991673,
+              "passive_return": 0.003990428555502579,
+              "excess_return": 0.013960485225489174
+            }
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10079.808571110052,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 18564.90170618914,
+              "passive_wealth": 19869.80857111005,
+              "active_minus_passive": -1304.9068649209112,
+              "active_return": -0.07175491469054307,
+              "passive_return": -0.006509571444497486,
+              "excess_return": -0.06524534324604556
+            },
+            "regime_benchmark": {
+              "active_wealth": 18949.20170618914,
+              "passive_wealth": 20079.80857111005,
+              "active_minus_passive": -1130.606864920912,
+              "active_return": -0.05253991469054309,
+              "passive_return": 0.003990428555502579,
+              "excess_return": -0.0565303432460456
+            }
+          }
+        }
+      ]
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "fundamentals_only",
+      "run_path": "continuation_1/market_runs/20261102_205501_news_qwen_fundamentals_only_s1441_bd4736a0",
+      "event_metrics": {
+        "pre_event_price": 104.4,
+        "pre_mean_price": 108.35,
+        "event_price": 102.8,
+        "event_log_return": -0.015444322427473742,
+        "post_mean_price": 105.16000000000001,
+        "post_mean_absolute_relative_gap": 0.12366666666666663,
+        "half_pre_event_gap_time": 9,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.6808510638297872,
+        "target_trade_leg_share": 0.4012158054711246,
+        "post_total_volume": 329
+      },
+      "overall_metrics": {
+        "rounds": 20,
+        "return_observations": 20,
+        "mean_absolute_relative_gap": 0.10358333333333332,
+        "acf_returns_lag1": 0.09898485269251817,
+        "acf_absolute_returns_lag1": -0.1691234555503114,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.020931034482758622,
+        "volume_weighted_mm_share": 0.28500823723228996,
+        "mean_fill_rate": 0.4155957366531986,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 137,
+        "mm_inventory_max": 227,
+        "aggregate_cash_growth": 0.007971191280241596,
+        "max_share_concentration": 0.15655172413793103
+      },
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "llm_012",
+          "slot": 12,
+          "persona": {
+            "name": "Meera Iyer",
+            "age": 34,
+            "occupation": "school teacher",
+            "risk_tolerance": "low",
+            "strategy_inclination": "fundamentalist",
+            "horizon": "long",
+            "backstory": "You save carefully from a modest salary and hate losing money.",
+            "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+          },
+          "valid_choice": true,
+          "requested_signed": 0,
+          "accepted_signed": 0,
+          "accepted_side": "hold",
+          "accepted_quantity": 0,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "llm_013",
+          "slot": 13,
+          "persona": {
+            "name": "Arjun Malhotra",
+            "age": 27,
+            "occupation": "startup marketer",
+            "risk_tolerance": "high",
+            "strategy_inclination": "momentum",
+            "horizon": "short",
+            "backstory": "You believe you can read momentum better than most.",
+            "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+          },
+          "valid_choice": true,
+          "requested_signed": -70,
+          "accepted_signed": -70,
+          "accepted_side": "sell",
+          "accepted_quantity": 70,
+          "executed_buy": 0,
+          "executed_sell": 15,
+          "executed_signed": -15,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "target_passive_comparisons": [
+        {
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10083.812170201538,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21075.822379135105,
+              "passive_wealth": 21923.812170201538,
+              "active_minus_passive": -847.9897910664331,
+              "active_return": 0.05379111895675526,
+              "passive_return": 0.09619060851007699,
+              "excess_return": -0.04239948955332166
+            },
+            "regime_benchmark": {
+              "active_wealth": 21075.822379135105,
+              "passive_wealth": 22083.812170201538,
+              "active_minus_passive": -1007.9897910664331,
+              "active_return": 0.05379111895675526,
+              "passive_return": 0.104190608510077,
+              "excess_return": -0.05039948955332166
+            }
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10083.812170201538,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21564.66749247387,
+              "passive_wealth": 21923.812170201538,
+              "active_minus_passive": -359.14467772766875,
+              "active_return": 0.0782333746236934,
+              "passive_return": 0.09619060851007699,
+              "excess_return": -0.01795723388638344
+            },
+            "regime_benchmark": {
+              "active_wealth": 21779.06749247387,
+              "passive_wealth": 22083.812170201538,
+              "active_minus_passive": -304.7446777276673,
+              "active_return": 0.08895337462369346,
+              "passive_return": 0.104190608510077,
+              "excess_return": -0.015237233886383365
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_recorded_market_statuses": [
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "control",
+      "config": "configs/rules_control_1441.yaml",
+      "config_sha256": "be217500e242e2906605647ce1f85516f788503f169157af89dbe7546e688d99",
+      "run_path": "market_runs/20261102_203035_news_rules_control_s1441_8f52424c",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "20956a9da1773d5881385c958407e9a6d166347e09e04ed1f8375d7bad05328e",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "headline_only",
+      "config": "configs/rules_headline_only_1441.yaml",
+      "config_sha256": "b59964c8c2d392141adba7009f03ee237f171fe59d842d8cd6317468ea11e494",
+      "run_path": "market_runs/20261102_203035_news_rules_headline_only_s1441_1c93e340",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "c556a1fb36bd6eff0eff1290cb09130c38360a9231dbd4bedbfdfa69a7df96fd",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "fundamentals_only",
+      "config": "configs/rules_fundamentals_only_1441.yaml",
+      "config_sha256": "6b45bcbfe61060687ffe28f95f5064d3d3d4409e93dff9a5f6eec054e0b4d8e1",
+      "run_path": "market_runs/20261102_203035_news_rules_fundamentals_only_s1441_66f51ebd",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "d9f120e5c7566b79653cfec579b4d1c0d1879e8d2bef818ac081ae5ec7a3d02d",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "cell": "combined",
+      "config": "configs/rules_combined_1441.yaml",
+      "config_sha256": "ee9d8bb09ed8823c544a24942b56bd49c66ebe965b1f9516df5605b03d0fd8da",
+      "run_path": "market_runs/20261102_203035_news_rules_combined_s1441_bef1ea78",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "e7027b7d173bc2d436550e4fe703cf174a92e8cc37183cd69bcdcc5b0f2a8955",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "combined",
+      "config": "configs/rules_combined_2882.yaml",
+      "config_sha256": "c9d886d2440e2404e543952fc3dd53c47703e9b3c641e81b1a837d68f77ee5c0",
+      "run_path": "market_runs/20261102_203035_news_rules_combined_s2882_77d83d88",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "be12fb8647d6e942d1921ba18f4184c413623f3d68a8d97815e423e408b218cf",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "fundamentals_only",
+      "config": "configs/rules_fundamentals_only_2882.yaml",
+      "config_sha256": "fa6980ef9981c25f61f8143d6624b669a40fedc85dd7836b379114589ddfd010",
+      "run_path": "market_runs/20261102_203036_news_rules_fundamentals_only_s2882_47766ca6",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "e9186e4881721ca7d67f89c5a1d26e309851fa76374f3375bcf92981620c1a0c",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "headline_only",
+      "config": "configs/rules_headline_only_2882.yaml",
+      "config_sha256": "f70e802eb3a689498279c63a5383ef8f6a33ef072835e39b6489875031826800",
+      "run_path": "market_runs/20261102_203036_news_rules_headline_only_s2882_d27882a8",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "8e694da553e282a636f86d390378f0c1ead2ce7b7551f2936513eab42b8fa937",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "cell": "control",
+      "config": "configs/rules_control_2882.yaml",
+      "config_sha256": "d344aa123a5ceb645df8a606b1376c87816e79548215682797f2b03972755826",
+      "run_path": "market_runs/20261102_203036_news_rules_control_s2882_1f15eece",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "15ef1753dedda0f6977aa05bd206ccb9c4c50afe2c65d6ed0b41ba90cb207df1",
+      "usage": {
+        "requests_made": 0,
+        "max_requests": 0,
+        "reserved_tokens": 0,
+        "max_reserved_tokens": 0,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": null,
+        "input_tokens_per_minute": null,
+        "stop_on_api_error": false,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "control",
+      "config": "configs/qwen_control_1441.yaml",
+      "config_sha256": "458acabadf2ead8418573f87bcff04c8ad1a0caba817c7349d0560f1b5f3cef6",
+      "run_path": "market_runs/20261102_203036_news_qwen_control_s1441_105a279e",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "fca1fa68d275a567423aad91b89b2d2c2364bd30524a36a0ed44044d537142f9",
+      "usage": {
+        "requests_made": 40,
+        "max_requests": 80,
+        "reserved_tokens": 487002,
+        "max_reserved_tokens": 1000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 115956,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "headline_only",
+      "config": "configs/qwen_headline_only_1441.yaml",
+      "config_sha256": "795590880445228f3d59904c46c19e1e6183c8930f650800f2ba3fc8da14c9bd",
+      "run_path": "market_runs/20261102_203824_news_qwen_headline_only_s1441_15cf47a5",
+      "status": "provider_error",
+      "parse_failures": 0,
+      "manifest_sha256": "34c9e03a138f60e77a5941a4c549c94db1a3426a9fa0c169fd5a4ca00fde6cb2",
+      "usage": {
+        "requests_made": 2,
+        "max_requests": 80,
+        "reserved_tokens": 14130,
+        "max_reserved_tokens": 1000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 1247,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 1,
+        "failed_requests": 1,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "headline_only",
+      "config": "configs/qwen_headline_only_1441.yaml",
+      "config_sha256": "c7a0712bc343a19ce33b761120a1132fd5192c9fc01b9f22e698e69b36f0b668",
+      "run_path": "continuation_1/market_runs/20261102_204658_news_qwen_headline_only_s1441_b617ea4f",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "e4e64841de814c5148a31b0de76653e57a880ea5968e750766b3f23621389b40",
+      "usage": {
+        "requests_made": 40,
+        "max_requests": 78,
+        "reserved_tokens": 494506,
+        "max_reserved_tokens": 985870,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 121248,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "fundamentals_only",
+      "config": "configs/qwen_fundamentals_only_1441.yaml",
+      "config_sha256": "4e36ce2cd80c094c4e4777144b1a920df853647eeb7d15578bb5e7e18748b728",
+      "run_path": "continuation_1/market_runs/20261102_205501_news_qwen_fundamentals_only_s1441_bd4736a0",
+      "status": "completed",
+      "parse_failures": 0,
+      "manifest_sha256": "134914bd72d85bc42aab33a99f5baaf62e7a82476d4fa9217a02fc8ed6b7b223",
+      "usage": {
+        "requests_made": 40,
+        "max_requests": 80,
+        "reserved_tokens": 487744,
+        "max_reserved_tokens": 1000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 115516,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "combined",
+      "config": "configs/qwen_combined_1441.yaml",
+      "config_sha256": "527c6f067a27ecfb7010567f450e9a19e9cf7773511502af68d2a6db4617a509",
+      "run_path": "continuation_1/market_runs/20261102_210149_news_qwen_combined_s1441_f6732630",
+      "status": "provider_error",
+      "parse_failures": 0,
+      "manifest_sha256": "59912ffbd681c495d013ed94744caeffabe3b4d696dc4bc64be5f449ede91453",
+      "usage": {
+        "requests_made": 20,
+        "max_requests": 80,
+        "reserved_tokens": 226543,
+        "max_reserved_tokens": 1000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 48932,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 1,
+        "failed_requests": 1,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "combined",
+      "config": "configs/qwen_combined_1441.yaml",
+      "config_sha256": "348398d979994b5d2dfe1bfc4957f0dcf6fde3efa3e0083cae3d2b44f59258ea",
+      "run_path": "recovery_transport_v3/market_runs/20261102_213251_news_qwen_combined_s1441_1fd217cd",
+      "status": "provider_error",
+      "parse_failures": 0,
+      "manifest_sha256": "5ddcee24b297d5f50aef50da76d9e3730f6106863855e06f01d913a968ac7c68",
+      "usage": {
+        "requests_made": 29,
+        "max_requests": 60,
+        "reserved_tokens": 345097,
+        "max_reserved_tokens": 773457,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 76460,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 1,
+        "failed_requests": 1,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 1,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    }
+  ],
+  "unfinished_arms": [
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "combined",
+      "config": "configs/qwen_combined_1441.yaml",
+      "config_sha256": "527c6f067a27ecfb7010567f450e9a19e9cf7773511502af68d2a6db4617a509"
+    },
+    {
+      "brain": "qwen",
+      "seed": 2882,
+      "cell": "combined",
+      "config": "configs/qwen_combined_2882.yaml",
+      "config_sha256": "c1e947110394cb21262d874fe139110dc2635a3179dfaba685dd55c184522e9b"
+    },
+    {
+      "brain": "qwen",
+      "seed": 2882,
+      "cell": "fundamentals_only",
+      "config": "configs/qwen_fundamentals_only_2882.yaml",
+      "config_sha256": "452fcb62895282c04e822430326e5d1bc073474f1bc209da339dc03eec63951f"
+    },
+    {
+      "brain": "qwen",
+      "seed": 2882,
+      "cell": "headline_only",
+      "config": "configs/qwen_headline_only_2882.yaml",
+      "config_sha256": "77a5e1be30ff86332d12589649474083526ae245e2cb6ccd65dadcc8ea83e9e5"
+    },
+    {
+      "brain": "qwen",
+      "seed": 2882,
+      "cell": "control",
+      "config": "configs/qwen_control_2882.yaml",
+      "config_sha256": "435c39b8842ef6a1645a0981b571876cf6ad457e77d80edb03bb6b4741f56a24"
+    }
+  ],
+  "partial_price_paths": [
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "combined",
+      "config": "configs/qwen_combined_1441.yaml",
+      "config_sha256": "527c6f067a27ecfb7010567f450e9a19e9cf7773511502af68d2a6db4617a509",
+      "run_path": "continuation_1/market_runs/20261102_210149_news_qwen_combined_s1441_f6732630",
+      "status": "provider_error",
+      "parse_failures": 0,
+      "manifest_sha256": "59912ffbd681c495d013ed94744caeffabe3b4d696dc4bc64be5f449ede91453",
+      "usage": {
+        "requests_made": 20,
+        "max_requests": 80,
+        "reserved_tokens": 226543,
+        "max_reserved_tokens": 1000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 48932,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 1,
+        "failed_requests": 1,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "cell": "combined",
+      "config": "configs/qwen_combined_1441.yaml",
+      "config_sha256": "348398d979994b5d2dfe1bfc4957f0dcf6fde3efa3e0083cae3d2b44f59258ea",
+      "run_path": "recovery_transport_v3/market_runs/20261102_213251_news_qwen_combined_s1441_1fd217cd",
+      "status": "provider_error",
+      "parse_failures": 0,
+      "manifest_sha256": "5ddcee24b297d5f50aef50da76d9e3730f6106863855e06f01d913a968ac7c68",
+      "usage": {
+        "requests_made": 29,
+        "max_requests": 60,
+        "reserved_tokens": 345097,
+        "max_reserved_tokens": 773457,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 76460,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 1,
+        "failed_requests": 1,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 1,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      }
+    }
+  ],
+  "partial_event_evidence": [
+    {
+      "run_path": "recovery_transport_v3/market_runs/20261102_213251_news_qwen_combined_s1441_1fd217cd",
+      "cell": "combined",
+      "seed": 1441,
+      "observed_rounds": 14,
+      "observed_post_event_rounds": 4,
+      "event_decisions": [
+        {
+          "round": 11,
+          "agent_id": "llm_012",
+          "slot": 12,
+          "persona": {
+            "name": "Meera Iyer",
+            "age": 34,
+            "occupation": "school teacher",
+            "risk_tolerance": "low",
+            "strategy_inclination": "fundamentalist",
+            "horizon": "long",
+            "backstory": "You save carefully from a modest salary and hate losing money.",
+            "bias_clauses": "You feel losses about twice as strongly as equivalent gains and find it painful to sell below your purchase price."
+          },
+          "valid_choice": true,
+          "requested_signed": 30,
+          "accepted_signed": 30,
+          "accepted_side": "buy",
+          "accepted_quantity": 30,
+          "executed_buy": 0,
+          "executed_sell": 0,
+          "executed_signed": 0,
+          "validation_note": "",
+          "failure_type": null
+        },
+        {
+          "round": 11,
+          "agent_id": "llm_013",
+          "slot": 13,
+          "persona": {
+            "name": "Arjun Malhotra",
+            "age": 27,
+            "occupation": "startup marketer",
+            "risk_tolerance": "high",
+            "strategy_inclination": "momentum",
+            "horizon": "short",
+            "backstory": "You believe you can read momentum better than most.",
+            "bias_clauses": "You trust your own reading of the market more than consensus and rarely doubt your calls. The last few days weigh far more in your mind than older history."
+          },
+          "valid_choice": true,
+          "requested_signed": 100,
+          "accepted_signed": 100,
+          "accepted_side": "buy",
+          "accepted_quantity": 100,
+          "executed_buy": 44,
+          "executed_sell": 0,
+          "executed_signed": 44,
+          "validation_note": "",
+          "failure_type": null
+        }
+      ],
+      "event_metrics": {
+        "pre_event_price": 102.7,
+        "pre_mean_price": 105.72,
+        "event_price": 112.5,
+        "event_log_return": 0.09114110470996223,
+        "post_mean_price": 119.375,
+        "post_mean_absolute_relative_gap": 0.02604166666666663,
+        "half_pre_event_gap_time": 0,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.7810650887573964,
+        "target_trade_leg_share": 0.4349112426035503,
+        "post_total_volume": 169
+      },
+      "scope": "Partial horizon only; excluded from complete-arm comparisons and end-of-episode performance. Never joined to an earlier partial."
+    }
+  ],
+  "checks": [
+    {
+      "seed": 1441,
+      "verified_complete_arms": 7,
+      "equal_slot_resources": true,
+      "matched_dividend_innovations": true,
+      "rule_headline_pairs_exact": true
+    },
+    {
+      "seed": 2882,
+      "verified_complete_arms": 4,
+      "equal_slot_resources": true,
+      "matched_dividend_innovations": true,
+      "rule_headline_pairs_exact": true
+    }
+  ],
+  "exploratory_announcement_run_contrasts": [
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "silent_cell": "control",
+      "announced_cell": "headline_only",
+      "pre_event_close_difference": 0.0,
+      "pre_mean_price_difference": 0.0,
+      "event_price_difference": 0.0,
+      "post_mean_price_difference": 0.0,
+      "post_gap_difference": 0.0,
+      "interpretation": "Matched exogenous runs; stochastic pre-event state differences retained. Not a clean causal headline effect."
+    },
+    {
+      "brain": "rules",
+      "seed": 1441,
+      "silent_cell": "fundamentals_only",
+      "announced_cell": "combined",
+      "pre_event_close_difference": 0.0,
+      "pre_mean_price_difference": 0.0,
+      "event_price_difference": 0.0,
+      "post_mean_price_difference": 0.0,
+      "post_gap_difference": 0.0,
+      "interpretation": "Matched exogenous runs; stochastic pre-event state differences retained. Not a clean causal headline effect."
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "silent_cell": "control",
+      "announced_cell": "headline_only",
+      "pre_event_close_difference": 0.0,
+      "pre_mean_price_difference": 0.0,
+      "event_price_difference": 0.0,
+      "post_mean_price_difference": 0.0,
+      "post_gap_difference": 0.0,
+      "interpretation": "Matched exogenous runs; stochastic pre-event state differences retained. Not a clean causal headline effect."
+    },
+    {
+      "brain": "rules",
+      "seed": 2882,
+      "silent_cell": "fundamentals_only",
+      "announced_cell": "combined",
+      "pre_event_close_difference": 0.0,
+      "pre_mean_price_difference": 0.0,
+      "event_price_difference": 0.0,
+      "post_mean_price_difference": 0.0,
+      "post_gap_difference": 0.0,
+      "interpretation": "Matched exogenous runs; stochastic pre-event state differences retained. Not a clean causal headline effect."
+    },
+    {
+      "brain": "qwen",
+      "seed": 1441,
+      "silent_cell": "control",
+      "announced_cell": "headline_only",
+      "pre_event_close_difference": 4.6000000000000085,
+      "pre_mean_price_difference": 7.590000000000018,
+      "event_price_difference": 5.599999999999994,
+      "post_mean_price_difference": 1.5799999999999983,
+      "post_gap_difference": 0.0028000000000000247,
+      "interpretation": "Matched exogenous runs; stochastic pre-event state differences retained. Not a clean causal headline effect."
+    }
+  ],
+  "specified_slot_brain_contrasts": [
+    {
+      "seed": 1441,
+      "cell": "control",
+      "post_gap_delta": 0.03809999999999999,
+      "turnover_delta": 0.006379310344827586,
+      "scope": "Two specified rule slots replaced by two specified bundled LLM personas; not intrinsic brain superiority."
+    },
+    {
+      "seed": 1441,
+      "cell": "headline_only",
+      "post_gap_delta": 0.04090000000000001,
+      "turnover_delta": 0.011586206896551723,
+      "scope": "Two specified rule slots replaced by two specified bundled LLM personas; not intrinsic brain superiority."
+    },
+    {
+      "seed": 1441,
+      "cell": "fundamentals_only",
+      "post_gap_delta": 0.0009999999999999315,
+      "turnover_delta": 0.010758620689655175,
+      "scope": "Two specified rule slots replaced by two specified bundled LLM personas; not intrinsic brain superiority."
+    }
+  ],
+  "same_state_probe_contrasts": [],
+  "probe_summary": null,
+  "usage": {
+    "requests_made": 171,
+    "reserved_tokens": 2055022,
+    "provider_reported_tokens": 479359,
+    "unknown_usage_requests": 3,
+    "failed_requests": 3,
+    "blocked_requests": 1
+  },
+  "max_cash_error": 2.9103830456733704e-11,
+  "study_sha256": "0a901d2fc24f41d5c7a2207c741f46a34df14e60d1ad0b61733eb621c72d7355",
+  "source_sets": {
+    "4af3446aaa5cd817d7f9ed256d2a5551aaa507225fa896726840ad4dceebf030": {
+      "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+      "sim/agents/llm_agent.py": "49337c030bb19d7c2e6439fe3c899625bf08eb92537a16a762c9a43ef0b9b6f1",
+      "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+      "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+      "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+      "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+      "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+      "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+      "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+      "sim/config.py": "4c7afd62a067bb9771a9169d8fad57537232efe8bed718135e20ebcb5f4a27ec",
+      "sim/engine.py": "71b41a3c2727e1b1221a9d852bc2e947021245895ebfa3b972f80326639d784e",
+      "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+      "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/llm/client.py": "a75e79fb6ed1b7f5fe6c57740b05faed792a6058b46af8046b92777164c822fe",
+      "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+      "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+      "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+      "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+      "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+      "sim/news_pilot.py": "01a8978db7d8caeb041d22daf82c231d28dbc84a33a419cce01e92ff07462f64",
+      "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+      "sim/provenance.py": "c18b001111b4427df8d25415849b05e7e7745062c21d8b3e59dd1109af440d37"
+    },
+    "e03c5167d9fc1858b4c2d5e4daa9ca90ec7d0322c0e9f6fa77d941c45006d5c6": {
+      "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+      "sim/agents/llm_agent.py": "cba79ad0eea08175c8dbe321b11b7a0a93745acdd0d11119f7406d0e0d8c7365",
+      "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+      "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+      "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+      "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+      "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+      "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+      "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+      "sim/config.py": "8606bd025a6ce27b3d68a0b3993f4fd7928850b1bcd33212e5232019713ff36c",
+      "sim/engine.py": "3a37f4826b3b92aa99addebefdf3d6eeab2933c5e187bca2af8da741f5dfce76",
+      "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+      "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sim/llm/client.py": "a75e79fb6ed1b7f5fe6c57740b05faed792a6058b46af8046b92777164c822fe",
+      "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+      "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+      "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+      "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+      "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+      "sim/news_pilot.py": "d535adb07f33a78ead53e77743c49ac138add4a1984bb809f56ed0fabd1704cb",
+      "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+      "sim/provenance.py": "b56ab7c553f48e1cdb46234b2933e74e793f11e6ef0673e35530311cd83e30b5"
+    }
+  },
+  "recovery_plan_sha256": "bf950d7c93044f5e7201b5387631bafde86fac3d5ac4ca657136a7d697b7939e",
+  "source_checks": {
+    "changed_files": [
+      "sim/agents/llm_agent.py",
+      "sim/config.py",
+      "sim/engine.py",
+      "sim/news_pilot.py",
+      "sim/provenance.py"
+    ],
+    "protected_prompt_policy_methods_equal": true,
+    "engine_equal_after_delivery_parameters_and_summary_counters_removed": true
+  },
+  "delivery_note": "Two source/delivery profiles: earlier zero-retry phases and linked opt-in retry phase. Prompt/policy/economics checked unchanged, but this is not an uninterrupted study or a causal before/after delivery comparison.",
+  "analysis_source_sha256": "597648b6a09a2f61d55cb73ad03c1233a7ebdbc4dc48f7db51852f7b00b26098",
+  "interpretation": "Two independent exogenous seeds, two bundled personas, twenty rounds/ten post-event rounds: feasibility and exploratory leads only. Model draws unseeded. Full market pairs have matched exogenous paths, not identical states. Same-state queries do not execute or identify full market price effects. Rule replacement contrasts concern these policies/personas in these fixed slots, not intrinsic LLM superiority. No human validation or A/B/C benefit claim."
+}

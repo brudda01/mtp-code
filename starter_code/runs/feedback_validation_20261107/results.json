@@ -1,0 +1,114 @@
+[
+  {
+    "slot": 1,
+    "case": "s22853_source1_llm_012",
+    "format": "original",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** Price drifted from 99.5 to 97.3 across five rounds with no news. I added 23 shares (3 at 98.0, 20 at 97.3), now holding 123 at 99.51 average cost. Wealth fell roughly 206 from round one.\n\n**Beliefs:** No negative catalyst has appeared; dividends continue. The dip reads as noise, not a fundamental break. My cost basis is only ~2.2% above market.\n\n**Plan:** Hold. Selling at 97.3 against my 99.51 cost would crystallize a loss that hits me roughly twice as hard as an equivalent gain would feel good. I won't add further without a clearer value signal or fundamental catalyst. Patience is my edge here.",
+    "retained_diary": "**Observations:** Price drifted from 99.5 to 97.3 across five rounds with no news. I added 23 shares (3 at 98.0, 20 at 97.3), now holding 123 at 99.51 average cost. Wealth fell roughly 206 from round one. **Beliefs:** No negative catalyst has appeared; dividends continue. The dip reads as noise, not a fundamental break. My cost basis is only ~2.2% above market. **Plan:** Hold. Selling at 97.3 against my 99.51 cost would crystallize a loss that hits me roughly twice as hard as an equivalent gain would feel good. I won't add further without a clearer value signal or fundamental catalyst. Patience is my edge here.",
+    "raw_words": 106,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "332fc439-5b12-45b8-bb96-55725586ee7e",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 2,
+    "case": "s22853_source1_llm_012",
+    "format": "timed",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** Price has fallen steadily from 100.0 to 97.3 over five sessions. I held for three rounds, then added 3 shares at 98.0 and 20 at 97.3. I now hold 123 shares at 99.51 average cost with ~7,779 cash. Wealth is down ~250 from start.\n\n**Beliefs:** No fundamental deterioration has appeared; the decline looks like a slow drift. My long horizon and fundamentalist view say the underlying value is intact. The pain of sitting on a 2.3% unrealized loss is real and amplified by my loss aversion, but selling now would crystallize it.\n\n**Plan:** I'll hold and watch for a fundamental catalyst or a deeper discount before adding more. My cash buffer is still healthy.",
+    "retained_diary": "**Observations:** Price has fallen steadily from 100.0 to 97.3 over five sessions. I held for three rounds, then added 3 shares at 98.0 and 20 at 97.3. I now hold 123 shares at 99.51 average cost with ~7,779 cash. Wealth is down ~250 from start. **Beliefs:** No fundamental deterioration has appeared; the decline looks like a slow drift. My long horizon and fundamentalist view say the underlying value is intact. The pain of sitting on a 2.3% unrealized loss is real and amplified by my loss aversion, but selling now would crystallize it. **Plan:** I'll hold and watch for a fundamental catalyst or a deeper discount before adding more. My cash buffer is still healthy.",
+    "raw_words": 115,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "83a89ec1-d5b7-469a-a1e8-b8c83d092365",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 3,
+    "case": "s22853_source1_llm_013",
+    "format": "timed",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** Five consecutive down prints: 100\u219299.5\u219298.9\u219298.2\u219298.0\u219297.3. My limit sells at 98.5 and 98.1 both missed because clearing landed below my bids. The market sell in round 5 filled only 39 of 75 at 97.3. I still hold 61 shares.\n\n**Beliefs:** The downtrend hasn't broken. My earlier limits were priced too high relative to where the tape was actually clearing\u2014I was anchoring to the last observed price instead of the clearing trajectory. The partial fill confirms thin liquidity at the clearing level.\n\n**Plan:** Sell the remaining 61 shares at market next round. No more limit pricing above the last print. Momentum is still bearish and I'm not sitting on a losing bag hoping for a bounce.",
+    "retained_diary": "**Observations:** Five consecutive down prints: 100\u219299.5\u219298.9\u219298.2\u219298.0\u219297.3. My limit sells at 98.5 and 98.1 both missed because clearing landed below my bids. The market sell in round 5 filled only 39 of 75 at 97.3. I still hold 61 shares. **Beliefs:** The downtrend hasn't broken. My earlier limits were priced too high relative to where the tape was actually clearing\u2014I was anchoring to the last observed price instead of the clearing trajectory. The partial fill confirms thin liquidity at the clearing level. **Plan:** Sell the remaining 61 shares at market next round. No more limit pricing above the last print. Momentum is still bearish and I'm not sitting on a losing bag hoping for a bounce.",
+    "raw_words": 115,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "2bd38cfc-564d-4885-a050-d03c40d61b21",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 4,
+    "case": "s22853_source1_llm_013",
+    "format": "original",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** Four consecutive down prints: 99.5 \u2192 98.9 \u2192 98.2 \u2192 98.0 \u2192 97.3. My limit sells at 98.5 and 98.1 never filled\u2014both priced above the clearing print. Round 5 market order filled only 39 of 75 requested shares at 97.3. I still hold 61 shares at 100.0 avg cost.\n\n**Beliefs:** The downtrend is intact and the last move (\u22120.7) is the largest yet\u2014momentum is accelerating, not fading. My earlier hesitation cost me; pricing limits above market in a falling tape is a mechanical error I won't repeat.\n\n**Plan:** Sell remaining 61 shares at market. No bounce signal exists. I'm not holding through a confirmed trend to save a few cents.",
+    "retained_diary": "**Observations:** Four consecutive down prints: 99.5 \u2192 98.9 \u2192 98.2 \u2192 98.0 \u2192 97.3. My limit sells at 98.5 and 98.1 never filled\u2014both priced above the clearing print. Round 5 market order filled only 39 of 75 requested shares at 97.3. I still hold 61 shares at 100.0 avg cost. **Beliefs:** The downtrend is intact and the last move (\u22120.7) is the largest yet\u2014momentum is accelerating, not fading. My earlier hesitation cost me; pricing limits above market in a falling tape is a mechanical error I won't repeat. **Plan:** Sell remaining 61 shares at market. No bounce signal exists. I'm not holding through a confirmed trend to save a few cents.",
+    "raw_words": 111,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "4e773ccb-71de-4fa7-8800-e70eb05f3ea6",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 5,
+    "case": "s22853_source2_llm_012",
+    "format": "original",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** I've held 100 shares at a $100 average cost through five rounds. Price drifted from 101 to 105.6 with no news. My wealth grew roughly $475, driven by price appreciation plus small dividend and interest income. No trades were executed.\n\n**Beliefs:** The rise lacks a fundamental catalyst I can verify. My position sits in unrealized gain, which feels safe. I'm loss-averse, so I'd resist selling below $100, but I'm not there. I don't want to raise my average cost by buying into an unexplained rally.\n\n**Plan:** Continue holding. I'll keep collecting dividends and interest, preserve my cash cushion, and wait for a verifiable fundamental signal before adding or trimming.",
+    "retained_diary": "**Observations:** I've held 100 shares at a $100 average cost through five rounds. Price drifted from 101 to 105.6 with no news. My wealth grew roughly $475, driven by price appreciation plus small dividend and interest income. No trades were executed. **Beliefs:** The rise lacks a fundamental catalyst I can verify. My position sits in unrealized gain, which feels safe. I'm loss-averse, so I'd resist selling below $100, but I'm not there. I don't want to raise my average cost by buying into an unexplained rally. **Plan:** Continue holding. I'll keep collecting dividends and interest, preserve my cash cushion, and wait for a verifiable fundamental signal before adding or trimming.",
+    "raw_words": 110,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "467d1cf8-1703-457c-b178-3f1700232ad4",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 6,
+    "case": "s22853_source2_llm_012",
+    "format": "timed",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** I've held 100 shares (avg cost 100.0) through five rounds. Price moved 100\u2192105.6. No fills. Wealth grew ~5.6%.\n\n**Beliefs:** I keep citing \"no fundamental catalyst\" to justify holding, but I haven't actually articulated what fundamentals would change my mind. My low-risk, long-horizon profile makes me comfortable sitting on gains, and my loss-aversion makes me even more reluctant to sell. That's a disposition effect, not a strategy.\n\n**Plan:** I'll continue holding. But I should stop treating \"no news\" as a reason to do nothing and instead ask: at what price or fundamental shift would I actually act? Without that threshold, I'm just drifting.",
+    "retained_diary": "**Observations:** I've held 100 shares (avg cost 100.0) through five rounds. Price moved 100\u2192105.6. No fills. Wealth grew ~5.6%. **Beliefs:** I keep citing \"no fundamental catalyst\" to justify holding, but I haven't actually articulated what fundamentals would change my mind. My low-risk, long-horizon profile makes me comfortable sitting on gains, and my loss-aversion makes me even more reluctant to sell. That's a disposition effect, not a strategy. **Plan:** I'll continue holding. But I should stop treating \"no news\" as a reason to do nothing and instead ask: at what price or fundamental shift would I actually act? Without that threshold, I'm just drifting.",
+    "raw_words": 103,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "a5fcd107-8a7b-44c7-9abf-f21d261038ff",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 7,
+    "case": "s22853_source2_llm_013",
+    "format": "timed",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** Price path 100\u2192101\u2192104.5\u2192105.2\u2192104.8\u2192105.6. I've bought every round, now holding 196 shares at avg 101.81. Cash is down to ~64. The round-4 dip to 104.8 cost me ~70 in wealth; round-5 recovery to 105.6 gave it back and more.\n\n**Beliefs:** The pullback was shallow and the trend is intact. I'm up ~3.7% on position. I'm essentially all-in\u2014no meaningful cash left to deploy.\n\n**Plan:** HOLD. I can't afford even one share at current prices with my remaining cash, and selling would mean exiting a position I still believe in. The momentum reading hasn't broken. I'll reassess if price stalls or reverses.",
+    "retained_diary": "**Observations:** Price path 100\u2192101\u2192104.5\u2192105.2\u2192104.8\u2192105.6. I've bought every round, now holding 196 shares at avg 101.81. Cash is down to ~64. The round-4 dip to 104.8 cost me ~70 in wealth; round-5 recovery to 105.6 gave it back and more. **Beliefs:** The pullback was shallow and the trend is intact. I'm up ~3.7% on position. I'm essentially all-in\u2014no meaningful cash left to deploy. **Plan:** HOLD. I can't afford even one share at current prices with my remaining cash, and selling would mean exiting a position I still believe in. The momentum reading hasn't broken. I'll reassess if price stalls or reverses.",
+    "raw_words": 100,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "3bdbde1c-5478-4e34-98cc-497cd8a28a45",
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "slot": 8,
+    "case": "s22853_source2_llm_013",
+    "format": "original",
+    "repetition": 1,
+    "raw": "\n\n**Observations:** Price ground from 101 to 105.6 over five rounds. I bought every single round\u201427, 41, 18, 8, 2 shares. Cash is down to 64. Avg cost 101.81. Round 4 dipped to 104.8 and I still added.\n\n**Beliefs:** The trend is intact. That 0.4 pullback was noise, not a reversal. I'm up ~3.7% and the last two prints confirm momentum hasn't broken. I trust this read more than any fade signal.\n\n**Plan:** I'm essentially all-in with no dry powder. If price holds above 105, I hold. If it breaks below 104, I trim\u2014my stop is the round-4 low. No new buys possible anyway. The risk now is concentration, not direction.",
+    "retained_diary": "**Observations:** Price ground from 101 to 105.6 over five rounds. I bought every single round\u201427, 41, 18, 8, 2 shares. Cash is down to 64. Avg cost 101.81. Round 4 dipped to 104.8 and I still added. **Beliefs:** The trend is intact. That 0.4 pullback was noise, not a reversal. I'm up ~3.7% and the last two prints confirm momentum hasn't broken. I trust this read more than any fade signal. **Plan:** I'm essentially all-in with no dry powder. If price holds above 105, I hold. If it breaks below 104, I trim\u2014my stop is the round-4 low. No new buys possible anyway. The risk now is concentration, not direction.",
+    "raw_words": 110,
+    "response_metadata": {
+      "model": "qwen-3.8-27b",
+      "request_id": "ecd0af7c-4835-42c6-b122-e9c5096f26c5",
+      "finish_reason": "stop"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "Recorded-output reproduction,not fresh model draws or independent implementation",
+  "new_api_requests": 0,
+  "fresh_model_samples": 0,
+  "live_campaigns_started": 0,
+  "earlier": {
+    "paths": 42,
+    "financial_csvs": 294,
+    "network_attempts": 0
+  },
+  "common_prefix": {
+    "paths": 23,
+    "financial_csvs": 161,
+    "network_attempts": 0,
+    "explicit_exclusions": [
+      {
+        "run": "branch_runs/20261105_045916_prefix_s23971_source2_B_branch1_79bd15ad",
+        "reason": "Recovered error attempt requires exception-aware tape replay;raw evidence retained."
+      }
+    ]
+  },
+  "inputs": {
+    "r047_protocol_sha256": "bfa3a2a644b6b4dc9e471f5f2690a5b458d8607dc385edd7970e605e81bb7487",
+    "r047_source_zip_sha256": "cfaf7d5b0104425b6ce55bcb789d4eee5078ea2dacd9f5e51be31be1ea3fa3e3"
+  },
+  "limitation": "Same-environment saved-response replay;no independent machine,provider repeatability or human-market validation."
+}

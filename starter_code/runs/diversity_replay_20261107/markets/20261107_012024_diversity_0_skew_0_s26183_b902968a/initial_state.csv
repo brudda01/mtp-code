@@ -1,0 +1,15 @@
+agent_id,type,cash,shares,avg_cost,wealth
+mark_000,MarketMakerAgent,30000.0,150,100.0,45000.0
+zero_001,ZeroIntelligenceAgent,10000.0,100,100.0,20000.0
+zero_002,ZeroIntelligenceAgent,10000.0,100,100.0,20000.0
+zero_003,ZeroIntelligenceAgent,10000.0,100,100.0,20000.0
+zero_004,ZeroIntelligenceAgent,10000.0,100,100.0,20000.0
+fund_005,FundamentalistAgent,10000.0,100,100.0,20000.0
+fund_006,FundamentalistAgent,10000.0,100,100.0,20000.0
+fund_007,FundamentalistAgent,10000.0,100,100.0,20000.0
+mome_008,MomentumAgent,10000.0,100,100.0,20000.0
+mome_009,MomentumAgent,10000.0,100,100.0,20000.0
+mome_010,MomentumAgent,10000.0,100,100.0,20000.0
+mome_011,MomentumAgent,10000.0,100,100.0,20000.0
+fund_012,FundamentalistAgent,10000.0,100,100.0,20000.0
+mome_013,MomentumAgent,10000.0,100,100.0,20000.0

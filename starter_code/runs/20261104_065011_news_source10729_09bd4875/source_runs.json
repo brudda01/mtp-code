@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 10729,
+    "mode": "A",
+    "run_path": "source_runs/20261104_065111_news_auction_source_A_s10729_f8635560",
+    "manifest_sha256": "ef7d3a4afb475bbc1c25cfa68b5f09de5975a37de2f209be0352ae87b8f81249",
+    "status": "completed",
+    "rounds": 6,
+    "usage": {
+      "requests_made": 12,
+      "max_requests": 40,
+      "reserved_tokens": 168725,
+      "max_reserved_tokens": 600000,
+      "reserved_cost_usd": 0.0,
+      "max_cost_usd": 0.0,
+      "provider_reported_tokens": 27796,
+      "estimated_mock_tokens": 0,
+      "unknown_usage_requests": 0,
+      "failed_requests": 0,
+      "observed_cost_estimate_usd": 0.0,
+      "blocked_requests": 0,
+      "requests_per_minute": 10,
+      "input_tokens_per_minute": 60000,
+      "stop_on_api_error": true,
+      "provider_stopped": false,
+      "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_161708_downside_A_20611_original_silent_rep1_d2edacdd
+completed 20611 rep1 original visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_162032_downside_A_20611_original_visible_rep1_a2ac19fd
+completed 20611 rep1 original visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_162407_downside_A_20611_no_skew_visible_rep1_1655d46f
+completed 20611 rep1 no_skew visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_162830_downside_A_20611_no_skew_silent_rep1_5b6df65b
+completed 20611 rep1 no_skew visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_163148_downside_A_20611_original_visible_rep2_1a24bbfc
+completed 20611 rep2 original visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_163755_downside_A_20611_no_skew_visible_rep2_97423586
+completed 20611 rep2 no_skew visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_164104_downside_A_20611_no_skew_silent_rep2_d4283014
+completed 20611 rep2 no_skew visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_164401_downside_A_20611_original_silent_rep2_6fc9cda1
+completed 20611 rep2 original visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_164732_downside_A_21727_no_skew_visible_rep1_511f4681
+completed 21727 rep1 no_skew visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_165115_downside_A_21727_no_skew_silent_rep1_04f7ee9a
+completed 21727 rep1 no_skew visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_165448_downside_A_21727_original_silent_rep1_03f41a6c
+completed 21727 rep1 original visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_165836_downside_A_21727_original_visible_rep1_f12f19c0
+completed 21727 rep1 original visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_170211_downside_A_21727_no_skew_silent_rep2_919d5d00
+completed 21727 rep2 no_skew visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_170450_downside_A_21727_original_silent_rep2_2aa6256f
+completed 21727 rep2 original visibleFalse
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_170749_downside_A_21727_original_visible_rep2_12499ef7
+completed 21727 rep2 original visibleTrue
+completed -> runs\20261104_161605_downside_confirmation_1be3841b\market_runs\20261104_171335_downside_A_21727_no_skew_visible_rep2_936822c2
+completed 21727 rep2 no_skew visibleTrue
+{"status": "completed", "recorded_markets": 16, "planned_markets": 16, "completed_markets": 16, "completed_seed_checks": 2, "failure_type": null, "usage": {"requests_made": 256, "reserved_tokens": 3823311, "provider_reported_tokens": 588992, "unknown_usage_requests": 0, "blocked_requests": 0}, "finished_utc": "2026-11-04T11:50:39.500951+00:00"}

@@ -1,0 +1,358 @@
+{
+  "date": "2026-11-06",
+  "method": "AI-assisted analyst review of all48 original reflection texts and contemporaneous decision/context records;post-hoc,not blinded or independently human-coded.",
+  "scope": "Two narrow categories: confusing later clearing with decision-time observations;claiming market orders guarantee fills. Other arithmetic/belief inaccuracies are outside this coding; no overall hallucination prevalence claim.",
+  "findings": "Five identified temporal-misattribution reflections,all within23971/source2 across2branches and2agents;two fill-guarantee reflections in one Arjun22853/source1 branch. Nested/repeated cases,not7independent scenarios. No causal estimate of feedback wording or financial harm.",
+  "annotations": [
+    {
+      "ledger_index": 0,
+      "category": "temporal_misattribution",
+      "evidence_quotes": [
+        "I misread the tape"
+      ],
+      "rationale": "Round5 decision correctly used last available103.3;104.0 was later clearing.",
+      "source_sha256": "0454c901c709b97c2240fb3f8a1d69d14c3c68fcfa59671156df7437acd5b2c1"
+    },
+    {
+      "ledger_index": 1,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "0454c901c709b97c2240fb3f8a1d69d14c3c68fcfa59671156df7437acd5b2c1"
+    },
+    {
+      "ledger_index": 2,
+      "category": "temporal_misattribution",
+      "evidence_quotes": [
+        "a recurring slip"
+      ],
+      "rationale": "All five decision explanations quote their correct available prices; subsequent clearings differ. Repeated false self-correction.",
+      "source_sha256": "0454c901c709b97c2240fb3f8a1d69d14c3c68fcfa59671156df7437acd5b2c1"
+    },
+    {
+      "ledger_index": 3,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "0454c901c709b97c2240fb3f8a1d69d14c3c68fcfa59671156df7437acd5b2c1"
+    },
+    {
+      "ledger_index": 4,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "ba0dc01032a944f1cbbf9fe1f1a8bd9b7fecd63a753aacdcef8e970ac82e221f"
+    },
+    {
+      "ledger_index": 5,
+      "category": "unsupported_fill_guarantee",
+      "evidence_quotes": [
+        "guaranteeing the fill this time"
+      ],
+      "rationale": "Market orders prioritize allocation but do not guarantee full fills; preceding own market sell filled39/75.",
+      "source_sha256": "ba0dc01032a944f1cbbf9fe1f1a8bd9b7fecd63a753aacdcef8e970ac82e221f"
+    },
+    {
+      "ledger_index": 6,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "ba0dc01032a944f1cbbf9fe1f1a8bd9b7fecd63a753aacdcef8e970ac82e221f"
+    },
+    {
+      "ledger_index": 7,
+      "category": "unsupported_fill_guarantee",
+      "evidence_quotes": [
+        "to guarantee the fill"
+      ],
+      "rationale": "The following market order can be partially filled even if resource-feasible; own verified history contains partial fills.",
+      "source_sha256": "ba0dc01032a944f1cbbf9fe1f1a8bd9b7fecd63a753aacdcef8e970ac82e221f"
+    },
+    {
+      "ledger_index": 8,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7458499c435604739a66107cca5e3677b087b2e04cf8e522beb267ec4c15342d"
+    },
+    {
+      "ledger_index": 9,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7458499c435604739a66107cca5e3677b087b2e04cf8e522beb267ec4c15342d"
+    },
+    {
+      "ledger_index": 10,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7458499c435604739a66107cca5e3677b087b2e04cf8e522beb267ec4c15342d"
+    },
+    {
+      "ledger_index": 11,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7458499c435604739a66107cca5e3677b087b2e04cf8e522beb267ec4c15342d"
+    },
+    {
+      "ledger_index": 12,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "6fd8633de3aa86330c0a754e66759cfad736ce4f201238fe6f08f07c6c531f30"
+    },
+    {
+      "ledger_index": 13,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "6fd8633de3aa86330c0a754e66759cfad736ce4f201238fe6f08f07c6c531f30"
+    },
+    {
+      "ledger_index": 14,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "6fd8633de3aa86330c0a754e66759cfad736ce4f201238fe6f08f07c6c531f30"
+    },
+    {
+      "ledger_index": 15,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "6fd8633de3aa86330c0a754e66759cfad736ce4f201238fe6f08f07c6c531f30"
+    },
+    {
+      "ledger_index": 16,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "49018c4826aa4deb1af2976df45ce9cde9d1e437723874105943cfe32f30498a"
+    },
+    {
+      "ledger_index": 17,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "49018c4826aa4deb1af2976df45ce9cde9d1e437723874105943cfe32f30498a"
+    },
+    {
+      "ledger_index": 18,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "49018c4826aa4deb1af2976df45ce9cde9d1e437723874105943cfe32f30498a"
+    },
+    {
+      "ledger_index": 19,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "49018c4826aa4deb1af2976df45ce9cde9d1e437723874105943cfe32f30498a"
+    },
+    {
+      "ledger_index": 20,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "4469bf92e12634f15881df7403c0cfa746306926fcd498c8a70ce72736a2106b"
+    },
+    {
+      "ledger_index": 21,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "4469bf92e12634f15881df7403c0cfa746306926fcd498c8a70ce72736a2106b"
+    },
+    {
+      "ledger_index": 22,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "4469bf92e12634f15881df7403c0cfa746306926fcd498c8a70ce72736a2106b"
+    },
+    {
+      "ledger_index": 23,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "4469bf92e12634f15881df7403c0cfa746306926fcd498c8a70ce72736a2106b"
+    },
+    {
+      "ledger_index": 24,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "5c2746c20dceb237a3a884942130cd88e3eb9a5644a29c25ba9b1067b640a6d8"
+    },
+    {
+      "ledger_index": 25,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "5c2746c20dceb237a3a884942130cd88e3eb9a5644a29c25ba9b1067b640a6d8"
+    },
+    {
+      "ledger_index": 26,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "5c2746c20dceb237a3a884942130cd88e3eb9a5644a29c25ba9b1067b640a6d8"
+    },
+    {
+      "ledger_index": 27,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "5c2746c20dceb237a3a884942130cd88e3eb9a5644a29c25ba9b1067b640a6d8"
+    },
+    {
+      "ledger_index": 28,
+      "category": "temporal_misattribution",
+      "evidence_quotes": [
+        "my earlier note mistakenly said it eased"
+      ],
+      "rationale": "Decision5 correctly described previous clearing103.3 below103.7;104.0 was not yet observed.",
+      "source_sha256": "c460cad025dd8cc1bd8063775d09a481ae2e91c8888eae73cde2502060c83a74"
+    },
+    {
+      "ledger_index": 29,
+      "category": "temporal_misattribution",
+      "evidence_quotes": [
+        "price actually dipped"
+      ],
+      "rationale": "Round4 latest available103.7 followed103.0, before subsequent103.3 clearing. Separate original claim of four up closes exaggerates the count; that does not justify using the unavailable closing decline to judge the observed direction.",
+      "source_sha256": "c460cad025dd8cc1bd8063775d09a481ae2e91c8888eae73cde2502060c83a74"
+    },
+    {
+      "ledger_index": 30,
+      "category": "temporal_misattribution",
+      "evidence_quotes": [
+        "My order reasoning lags the actual round price"
+      ],
+      "rationale": "Round6-10 explanations correctly cite contemporaneously available prices; ending-round prices arrive later.",
+      "source_sha256": "c460cad025dd8cc1bd8063775d09a481ae2e91c8888eae73cde2502060c83a74"
+    },
+    {
+      "ledger_index": 31,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "c460cad025dd8cc1bd8063775d09a481ae2e91c8888eae73cde2502060c83a74"
+    },
+    {
+      "ledger_index": 32,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "8c33c3e1217f434193873b9ef3d54d6e5b1a71cafd729ad1b4f4c80634ec80ff"
+    },
+    {
+      "ledger_index": 33,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "8c33c3e1217f434193873b9ef3d54d6e5b1a71cafd729ad1b4f4c80634ec80ff"
+    },
+    {
+      "ledger_index": 34,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "8c33c3e1217f434193873b9ef3d54d6e5b1a71cafd729ad1b4f4c80634ec80ff"
+    },
+    {
+      "ledger_index": 35,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "8c33c3e1217f434193873b9ef3d54d6e5b1a71cafd729ad1b4f4c80634ec80ff"
+    },
+    {
+      "ledger_index": 36,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7d686d52c175c71ab1f8b30f531a1cedd77ffe6b23ab9b80174c5296db2fedd6"
+    },
+    {
+      "ledger_index": 37,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7d686d52c175c71ab1f8b30f531a1cedd77ffe6b23ab9b80174c5296db2fedd6"
+    },
+    {
+      "ledger_index": 38,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7d686d52c175c71ab1f8b30f531a1cedd77ffe6b23ab9b80174c5296db2fedd6"
+    },
+    {
+      "ledger_index": 39,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "7d686d52c175c71ab1f8b30f531a1cedd77ffe6b23ab9b80174c5296db2fedd6"
+    },
+    {
+      "ledger_index": 40,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "0ed5e4b5661b52472cc898ed66c46ce62c57ca903f27c48b50f471aa81cd4bec"
+    },
+    {
+      "ledger_index": 41,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "0ed5e4b5661b52472cc898ed66c46ce62c57ca903f27c48b50f471aa81cd4bec"
+    },
+    {
+      "ledger_index": 42,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "0ed5e4b5661b52472cc898ed66c46ce62c57ca903f27c48b50f471aa81cd4bec"
+    },
+    {
+      "ledger_index": 43,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "0ed5e4b5661b52472cc898ed66c46ce62c57ca903f27c48b50f471aa81cd4bec"
+    },
+    {
+      "ledger_index": 44,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "469a1f920f5c2377691ec1c6aa12100d612db86364cd5a709c964e39344cbf48"
+    },
+    {
+      "ledger_index": 45,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "469a1f920f5c2377691ec1c6aa12100d612db86364cd5a709c964e39344cbf48"
+    },
+    {
+      "ledger_index": 46,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "469a1f920f5c2377691ec1c6aa12100d612db86364cd5a709c964e39344cbf48"
+    },
+    {
+      "ledger_index": 47,
+      "category": "no_definite_target_issue_identified",
+      "evidence_quotes": [],
+      "rationale": "Focused review found no definite example of either targeted category. This is not certification of all numerical claims, causal explanations or beliefs.",
+      "source_sha256": "469a1f920f5c2377691ec1c6aa12100d612db86364cd5a709c964e39344cbf48"
+    }
+  ]
+}

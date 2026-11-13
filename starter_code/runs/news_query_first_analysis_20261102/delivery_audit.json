@@ -1,0 +1,217 @@
+{
+  "status": {
+    "status": "completed_query_first_delivery",
+    "completed_markets": 16,
+    "recorded_recovery_arms": 5,
+    "failure_type": null,
+    "finished_utc": "2026-11-02T17:36:44.397200+00:00",
+    "plan_sha256": "0983b91ad944252c91edd2915434b36de8f178ff66cd9ca49e739ba7e23cc7e2"
+  },
+  "scope": "Finalized arms/subsets only; active arms excluded while study in progress.",
+  "finalized_market_runs": 19,
+  "finalized_probe_subsets": 2,
+  "usage": {
+    "requests_made": 402,
+    "reserved_tokens": 4879158,
+    "provider_reported_tokens": 1122587,
+    "unknown_usage_requests": 10,
+    "failed_requests": 10,
+    "blocked_requests": 1
+  },
+  "actual_model_calls": 402,
+  "returned_models": {
+    "qwen-3.8-27b": 392
+  },
+  "attempt_kinds": {
+    "legacy_initial": 142,
+    "initial": 253,
+    "transport_retry": 7
+  },
+  "errors": [
+    {
+      "run": "market_runs/20261102_203824_news_qwen_headline_only_s1441_15cf47a5",
+      "call_id": "llm_013:1:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": null,
+      "retry_category": null,
+      "retry_wait_seconds": null,
+      "transport_retry_planned": null
+    },
+    {
+      "run": "continuation_1/market_runs/20261102_210149_news_qwen_combined_s1441_f6732630",
+      "call_id": "llm_013:10:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": null,
+      "retry_category": null,
+      "retry_wait_seconds": null,
+      "transport_retry_planned": null
+    },
+    {
+      "run": "recovery_transport_v3/market_runs/20261102_213251_news_qwen_combined_s1441_1fd217cd",
+      "call_id": "llm_012:15:decision:1",
+      "error_type": "HTTPError",
+      "http_status": 503,
+      "transport_diagnostics": {
+        "reason_type": "str"
+      },
+      "retry_category": null,
+      "retry_wait_seconds": null,
+      "transport_retry_planned": false
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_222649_news_qwen_combined_s1441_cdc7e25e",
+      "call_id": "llm_013:11:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_223402_news_qwen_combined_s2882_14b65fb9",
+      "call_id": "llm_013:16:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_224110_news_qwen_fundamentals_only_s2882_5da57629",
+      "call_id": "llm_012:11:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_224838_news_qwen_headline_only_s2882_2d7e62c0",
+      "call_id": "llm_013:3:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_224838_news_qwen_headline_only_s2882_2d7e62c0",
+      "call_id": "llm_013:6:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_225618_news_qwen_control_s2882_df5a45ff",
+      "call_id": "llm_013:13:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    },
+    {
+      "run": "delivery_v4_query_first/probes_seed_1441/same_state_probes",
+      "call_id": "s1441_llm_013_silent:r1:11:decision:1",
+      "error_type": "URLError",
+      "http_status": null,
+      "transport_diagnostics": {
+        "reason_type": "TimeoutError",
+        "errno": 10060,
+        "winerror": 10060
+      },
+      "retry_category": "transport",
+      "retry_wait_seconds": 2,
+      "transport_retry_planned": true
+    }
+  ],
+  "retries": [
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_222649_news_qwen_combined_s1441_cdc7e25e",
+      "group": "llm_013:11:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_223402_news_qwen_combined_s2882_14b65fb9",
+      "group": "llm_013:16:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_224110_news_qwen_fundamentals_only_s2882_5da57629",
+      "group": "llm_012:11:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_224838_news_qwen_headline_only_s2882_2d7e62c0",
+      "group": "llm_013:3:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_224838_news_qwen_headline_only_s2882_2d7e62c0",
+      "group": "llm_013:6:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    },
+    {
+      "run": "delivery_v4_query_first/market_runs/20261102_225618_news_qwen_control_s2882_df5a45ff",
+      "group": "llm_013:13:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    },
+    {
+      "run": "delivery_v4_query_first/probes_seed_1441/same_state_probes",
+      "group": "s1441_llm_013_silent:r1:11:decision:1",
+      "kind": "transport_retry",
+      "recovered": true
+    }
+  ],
+  "decision_records": 368,
+  "decision_failures": {},
+  "quantity_reductions": 25,
+  "manifest_output_and_archived_source_hashes_verified": true,
+  "current_phase_source_unchanged": true,
+  "same_messages_and_sampling_parameters_for_delivery_retries": true,
+  "original_global_caps_and_amended_phase_caps_respected": true,
+  "secret_value_scan_passed": true,
+  "scanned_file_or_archive_member_count": 822,
+  "plan_sha256": "0983b91ad944252c91edd2915434b36de8f178ff66cd9ca49e739ba7e23cc7e2",
+  "audit_source_sha256": "4111f6e2e620aeefffe4459e457d50297ffbda027eeea62b9d92489ffe2e223d"
+}

@@ -1,0 +1,28 @@
+{
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+  "payload": {
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Compute 2+2. Return only a JSON object with key result."
+          }
+        ]
+      }
+    ],
+    "generationConfig": {
+      "maxOutputTokens": 2048,
+      "responseMimeType": "application/json",
+      "thinkingConfig": {
+        "thinkingLevel": "LOW"
+      }
+    }
+  },
+  "attempt_limit": 1,
+  "purpose": "Distinguish compatibility-route failure from native-route availability; not a behavioural result.",
+  "predecessors": [
+    "20261102_040526_flash38_probes_09b9a76b",
+    "20261102_040700_flash38_probes_9054fea8"
+  ]
+}

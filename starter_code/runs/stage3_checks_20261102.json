@@ -1,0 +1,528 @@
+{
+  "purpose": "Exploratory rule-only mechanism sensitivity and mock A/B/C plumbing",
+  "not_evidence_of": [
+    "human realism",
+    "live LLM behaviour",
+    "optimal market calibration"
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "rounds": 1000,
+  "predeclared_factors": {
+    "inventory_skew": [
+      0.02,
+      0.0
+    ],
+    "momentum_windows": [
+      "5x5",
+      "2x3+2x5+1x10"
+    ]
+  },
+  "baseline_changed": false,
+  "rule_runs": [
+    {
+      "run_id": "20261102_021947_screen_skew_common_101_535151f5",
+      "condition": "skew_common",
+      "seed": 101,
+      "metrics": {
+        "acf_returns_lag1": 0.32969957520930065,
+        "acf_abs_returns_lag1": 0.012637980756816006,
+        "mean_abs_mispricing": 0.04501,
+        "volume_absret_spearman": 0.11103082337790672,
+        "zero_volume_fraction": 0.001,
+        "market_maker_quantity_fraction": 0.374044360547428,
+        "mean_turnover_per_round": 0.010336585365853659
+      },
+      "manifest_sha256": "76d29f0888de3c10a9510799a81dee94df6942db83413386f9daaea53e52a50e"
+    },
+    {
+      "run_id": "20261102_021949_screen_skew_varied_101_36d9f3d6",
+      "condition": "skew_varied",
+      "seed": 101,
+      "metrics": {
+        "acf_returns_lag1": 0.32292580623754197,
+        "acf_abs_returns_lag1": 0.02076011841851884,
+        "mean_abs_mispricing": 0.043237000000000005,
+        "volume_absret_spearman": 0.05256907655641229,
+        "zero_volume_fraction": 0.001,
+        "market_maker_quantity_fraction": 0.3606650831353919,
+        "mean_turnover_per_round": 0.010268292682926828
+      },
+      "manifest_sha256": "351f998b79d5e321282e47871f3b8d2f0319042ae9fc0ccacdc79f967092cde4"
+    },
+    {
+      "run_id": "20261102_021951_screen_no_skew_common_101_8fde2d69",
+      "condition": "no_skew_common",
+      "seed": 101,
+      "metrics": {
+        "acf_returns_lag1": 0.22861948014145436,
+        "acf_abs_returns_lag1": -0.025375843009641637,
+        "mean_abs_mispricing": 0.031393,
+        "volume_absret_spearman": 0.2199415164524399,
+        "zero_volume_fraction": 0.005,
+        "market_maker_quantity_fraction": 0.38563740329633367,
+        "mean_turnover_per_round": 0.008701463414634146
+      },
+      "manifest_sha256": "878647f4e5ccc4b15ee78f65fce6f9690959f0504af2364e0f405b2f69358d17"
+    },
+    {
+      "run_id": "20261102_021952_screen_no_skew_varied_101_14ba7413",
+      "condition": "no_skew_varied",
+      "seed": 101,
+      "metrics": {
+        "acf_returns_lag1": 0.17440771262855306,
+        "acf_abs_returns_lag1": 0.0033026347596552185,
+        "mean_abs_mispricing": 0.031916,
+        "volume_absret_spearman": 0.14399172443629213,
+        "zero_volume_fraction": 0.003,
+        "market_maker_quantity_fraction": 0.3645141137047765,
+        "mean_turnover_per_round": 0.008588780487804877
+      },
+      "manifest_sha256": "f59a216e715488bc3187c8969edaed9ba381251d96ebc1853e6a24c368cbdb4f"
+    },
+    {
+      "run_id": "20261102_021953_screen_skew_common_202_d2d4ec39",
+      "condition": "skew_common",
+      "seed": 202,
+      "metrics": {
+        "acf_returns_lag1": 0.3976760735690107,
+        "acf_abs_returns_lag1": 0.05336416729239069,
+        "mean_abs_mispricing": 0.041999,
+        "volume_absret_spearman": 0.0984138029081374,
+        "zero_volume_fraction": 0.0,
+        "market_maker_quantity_fraction": 0.3608474738759467,
+        "mean_turnover_per_round": 0.010176585365853658
+      },
+      "manifest_sha256": "e67ed40427b26f17cc985ccf752cc720d24d8fe4f342ade1742a8d7af2e7aa6e"
+    },
+    {
+      "run_id": "20261102_021954_screen_skew_varied_202_a2fee0c6",
+      "condition": "skew_varied",
+      "seed": 202,
+      "metrics": {
+        "acf_returns_lag1": 0.36452613630095426,
+        "acf_abs_returns_lag1": -0.008078613494270363,
+        "mean_abs_mispricing": 0.045122,
+        "volume_absret_spearman": 0.06045842275095066,
+        "zero_volume_fraction": 0.001,
+        "market_maker_quantity_fraction": 0.36782984992173834,
+        "mean_turnover_per_round": 0.01059609756097561
+      },
+      "manifest_sha256": "4bc612c4b870912deda8bbd8a03c99734629c0780f75bd1f7a194bab6cef5287"
+    },
+    {
+      "run_id": "20261102_021955_screen_no_skew_common_202_876a6381",
+      "condition": "no_skew_common",
+      "seed": 202,
+      "metrics": {
+        "acf_returns_lag1": 0.26033847568939467,
+        "acf_abs_returns_lag1": -0.019549603062085325,
+        "mean_abs_mispricing": 0.03039799999999999,
+        "volume_absret_spearman": 0.09881557620720259,
+        "zero_volume_fraction": 0.0,
+        "market_maker_quantity_fraction": 0.39136421214958417,
+        "mean_turnover_per_round": 0.008857073170731708
+      },
+      "manifest_sha256": "a8766d8d9d6a90d5d02fada20ca325d623fcf1b1dd1ad44663c826cb0a3868ff"
+    },
+    {
+      "run_id": "20261102_021956_screen_no_skew_varied_202_6140629e",
+      "condition": "no_skew_varied",
+      "seed": 202,
+      "metrics": {
+        "acf_returns_lag1": 0.2765712383552791,
+        "acf_abs_returns_lag1": -0.006576663568898625,
+        "mean_abs_mispricing": 0.030829000000000002,
+        "volume_absret_spearman": 0.08091568501001635,
+        "zero_volume_fraction": 0.0,
+        "market_maker_quantity_fraction": 0.3808307418924922,
+        "mean_turnover_per_round": 0.00878439024390244
+      },
+      "manifest_sha256": "38ccecb0f6ea2555c71d6356ce70dcee88ba6e0e6defad7bca7e189753fbeba7"
+    },
+    {
+      "run_id": "20261102_021957_screen_skew_common_303_7824a551",
+      "condition": "skew_common",
+      "seed": 303,
+      "metrics": {
+        "acf_returns_lag1": 0.34621566652660435,
+        "acf_abs_returns_lag1": 0.0364714497426317,
+        "mean_abs_mispricing": 0.039156,
+        "volume_absret_spearman": 0.1401676803401404,
+        "zero_volume_fraction": 0.001,
+        "market_maker_quantity_fraction": 0.37483105571407116,
+        "mean_turnover_per_round": 0.009744878048780487
+      },
+      "manifest_sha256": "9740da0e91542fb94865fb5a2c1d023dac173e719de8c26436085b139a58b9f4"
+    },
+    {
+      "run_id": "20261102_021959_screen_skew_varied_303_d36057cb",
+      "condition": "skew_varied",
+      "seed": 303,
+      "metrics": {
+        "acf_returns_lag1": 0.38157555994312037,
+        "acf_abs_returns_lag1": 0.04293067718925018,
+        "mean_abs_mispricing": 0.041429,
+        "volume_absret_spearman": 0.035904075164069855,
+        "zero_volume_fraction": 0.0,
+        "market_maker_quantity_fraction": 0.3688192512324889,
+        "mean_turnover_per_round": 0.009993658536585365
+      },
+      "manifest_sha256": "7f96297fff0028180f278692ee78eb1827d13369c3d1e6617d3303a546909cb6"
+    },
+    {
+      "run_id": "20261102_022000_screen_no_skew_common_303_39dbec12",
+      "condition": "no_skew_common",
+      "seed": 303,
+      "metrics": {
+        "acf_returns_lag1": 0.2610994272163559,
+        "acf_abs_returns_lag1": 0.009358102402650139,
+        "mean_abs_mispricing": 0.027975999999999997,
+        "volume_absret_spearman": 0.10234132200218829,
+        "zero_volume_fraction": 0.003,
+        "market_maker_quantity_fraction": 0.3927954885487398,
+        "mean_turnover_per_round": 0.008477073170731706
+      },
+      "manifest_sha256": "3e8bf3c57b6a056748fb0c898dd0fb90df1214b92fdfa987126f68f7ef100af0"
+    },
+    {
+      "run_id": "20261102_022001_screen_no_skew_varied_303_3b8d271e",
+      "condition": "no_skew_varied",
+      "seed": 303,
+      "metrics": {
+        "acf_returns_lag1": 0.27503136485401597,
+        "acf_abs_returns_lag1": 0.04332287997766399,
+        "mean_abs_mispricing": 0.028741999999999997,
+        "volume_absret_spearman": 0.2057108978640893,
+        "zero_volume_fraction": 0.0,
+        "market_maker_quantity_fraction": 0.3850574712643678,
+        "mean_turnover_per_round": 0.008402926829268293
+      },
+      "manifest_sha256": "41f368ae32802d1fee0ad748c932169dca436b7343691ffdcbb8465ad4a3a058"
+    }
+  ],
+  "mock_runs": [
+    {
+      "condition": "A",
+      "run_id": "20261102_022422_pilot_a_mock_d899bd08",
+      "rounds": 30,
+      "usage": {
+        "requests_made": 240,
+        "max_requests": 400,
+        "reserved_tokens": 1378305,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 290353,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "reflection_calls": 0
+    },
+    {
+      "condition": "B",
+      "run_id": "20261102_022422_pilot_b_mock_3eecb477",
+      "rounds": 30,
+      "usage": {
+        "requests_made": 240,
+        "max_requests": 400,
+        "reserved_tokens": 1492847,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 317434,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "reflection_calls": 0
+    },
+    {
+      "condition": "C",
+      "run_id": "20261102_022422_pilot_c_mock_ecae1dd5",
+      "rounds": 30,
+      "usage": {
+        "requests_made": 280,
+        "max_requests": 400,
+        "reserved_tokens": 1733062,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 368169,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "reflection_calls": 40
+    }
+  ],
+  "matched_checks": {
+    "initial_resources_and_ids_identical_within_seed": true,
+    "dividend_paths_identical_within_seed": true
+  },
+  "rule_summary": {
+    "no_skew_common": {
+      "acf_returns_lag1": {
+        "mean": 0.25001912768240164,
+        "sample_std": 0.01853654358191338
+      },
+      "acf_abs_returns_lag1": {
+        "mean": -0.011855781223025608,
+        "sample_std": 0.018601287908217818
+      },
+      "mean_abs_mispricing": {
+        "mean": 0.02992233333333333,
+        "sample_std": 0.001757460193954142
+      },
+      "volume_absret_spearman": {
+        "mean": 0.14036613822061025,
+        "sample_std": 0.06893684309864193
+      },
+      "zero_volume_fraction": {
+        "mean": 0.0026666666666666666,
+        "sample_std": 0.0025166114784235835
+      },
+      "market_maker_quantity_fraction": {
+        "mean": 0.38993236799821923,
+        "sample_std": 0.003787767069861485
+      },
+      "mean_turnover_per_round": {
+        "mean": 0.008678536585365854,
+        "sample_std": 0.00019103462938751034
+      }
+    },
+    "no_skew_varied": {
+      "acf_returns_lag1": {
+        "mean": 0.24200343861261603,
+        "sample_std": 0.05854467893057718
+      },
+      "acf_abs_returns_lag1": {
+        "mean": 0.013349617056140196,
+        "sample_std": 0.026423427133667514
+      },
+      "mean_abs_mispricing": {
+        "mean": 0.030495666666666667,
+        "sample_std": 0.0016130413303239752
+      },
+      "volume_absret_spearman": {
+        "mean": 0.1435394357701326,
+        "sample_std": 0.06239883581928028
+      },
+      "zero_volume_fraction": {
+        "mean": 0.001,
+        "sample_std": 0.0017320508075688774
+      },
+      "market_maker_quantity_fraction": {
+        "mean": 0.3768007756205455,
+        "sample_std": 0.01084840338806017
+      },
+      "mean_turnover_per_round": {
+        "mean": 0.008592032520325203,
+        "sample_std": 0.00019075249923060166
+      }
+    },
+    "skew_common": {
+      "acf_returns_lag1": {
+        "mean": 0.35786377176830525,
+        "sample_std": 0.03545362956177012
+      },
+      "acf_abs_returns_lag1": {
+        "mean": 0.0341578659306128,
+        "sample_std": 0.020461428835104187
+      },
+      "mean_abs_mispricing": {
+        "mean": 0.042055,
+        "sample_std": 0.0029274017489917563
+      },
+      "volume_absret_spearman": {
+        "mean": 0.1165374355420615,
+        "sample_std": 0.021414683123887116
+      },
+      "zero_volume_fraction": {
+        "mean": 0.0006666666666666666,
+        "sample_std": 0.0005773502691896258
+      },
+      "market_maker_quantity_fraction": {
+        "mean": 0.3699076300458153,
+        "sample_std": 0.007856178758665757
+      },
+      "mean_turnover_per_round": {
+        "mean": 0.010086016260162601,
+        "sample_std": 0.00030607427113160164
+      }
+    },
+    "skew_varied": {
+      "acf_returns_lag1": {
+        "mean": 0.35634250082720553,
+        "sample_std": 0.03016914515869899
+      },
+      "acf_abs_returns_lag1": {
+        "mean": 0.018537394037832885,
+        "sample_std": 0.02557718342123201
+      },
+      "mean_abs_mispricing": {
+        "mean": 0.04326266666666667,
+        "sample_std": 0.001846633784304115
+      },
+      "volume_absret_spearman": {
+        "mean": 0.04964385815714427,
+        "sample_std": 0.012535815624318264
+      },
+      "zero_volume_fraction": {
+        "mean": 0.0006666666666666666,
+        "sample_std": 0.0005773502691896258
+      },
+      "market_maker_quantity_fraction": {
+        "mean": 0.36577139476320636,
+        "sample_std": 0.004449780058462844
+      },
+      "mean_turnover_per_round": {
+        "mean": 0.010286016260162602,
+        "sample_std": 0.0003016103254525478
+      }
+    }
+  },
+  "mock_matching": {
+    "initial_accounts_personas_dividends_identical": true,
+    "B_C_equal_before_first_reflection": true
+  },
+  "stage2_baseline_regression": {
+    "run_id": "20261102_022204_baseline_rules_3f60e890",
+    "reference_run_id": "20261102_013405_baseline_rules_9cb86884",
+    "byte_identical_files": {
+      "prices.csv": true,
+      "trades.csv": true,
+      "agents_state.csv": true,
+      "cashflows.csv": true,
+      "liquidity.csv": true,
+      "initial_state.csv": true
+    }
+  },
+  "paired_skew_changes": [
+    {
+      "seed": 101,
+      "horizons": "common",
+      "acf_delta_off_minus_on": -0.10108009506784629,
+      "mispricing_delta_off_minus_on": -0.013617000000000004,
+      "turnover_delta_off_minus_on": -0.0016351219512195127
+    },
+    {
+      "seed": 101,
+      "horizons": "varied",
+      "acf_delta_off_minus_on": -0.1485180936089889,
+      "mispricing_delta_off_minus_on": -0.011321000000000005,
+      "turnover_delta_off_minus_on": -0.001679512195121951
+    },
+    {
+      "seed": 202,
+      "horizons": "common",
+      "acf_delta_off_minus_on": -0.13733759787961602,
+      "mispricing_delta_off_minus_on": -0.01160100000000001,
+      "turnover_delta_off_minus_on": -0.00131951219512195
+    },
+    {
+      "seed": 202,
+      "horizons": "varied",
+      "acf_delta_off_minus_on": -0.08795489794567518,
+      "mispricing_delta_off_minus_on": -0.014293,
+      "turnover_delta_off_minus_on": -0.0018117073170731707
+    },
+    {
+      "seed": 303,
+      "horizons": "common",
+      "acf_delta_off_minus_on": -0.08511623931024848,
+      "mispricing_delta_off_minus_on": -0.011180000000000006,
+      "turnover_delta_off_minus_on": -0.0012678048780487804
+    },
+    {
+      "seed": 303,
+      "horizons": "varied",
+      "acf_delta_off_minus_on": -0.1065441950891044,
+      "mispricing_delta_off_minus_on": -0.012687000000000004,
+      "turnover_delta_off_minus_on": -0.0015907317073170727
+    }
+  ],
+  "superseded_mock_runs": [
+    {
+      "condition": "A",
+      "run_id": "20261102_022002_pilot_a_mock_8e0e8b0d",
+      "rounds": 30,
+      "usage": {
+        "requests_made": 240,
+        "max_requests": 400,
+        "reserved_tokens": 1348624,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 282818,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "reflection_calls": 0
+    },
+    {
+      "condition": "B",
+      "run_id": "20261102_022002_pilot_b_mock_d2753965",
+      "rounds": 30,
+      "usage": {
+        "requests_made": 240,
+        "max_requests": 400,
+        "reserved_tokens": 1460377,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 309240,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "reflection_calls": 0
+    },
+    {
+      "condition": "C",
+      "run_id": "20261102_022003_pilot_c_mock_30d6b0a7",
+      "rounds": 30,
+      "usage": {
+        "requests_made": 288,
+        "max_requests": 400,
+        "reserved_tokens": 1717270,
+        "max_reserved_tokens": 4000000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 0,
+        "estimated_mock_tokens": 363098,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "reflection_calls": 48
+    }
+  ],
+  "mock_run_revision_note": "Final common prompt explicitly describes continuing shares; no reflection after the last decision. Earlier mock outputs are retained only as engineering history.",
+  "verification": {
+    "command": "python -B -m unittest discover -s tests -q",
+    "tests_passed": 76
+  }
+}

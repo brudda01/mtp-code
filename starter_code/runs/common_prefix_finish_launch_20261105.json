@@ -1,0 +1,6 @@
+{
+    "action":  "local-only analysis,isolated replay and preservation after final summary;no API/restart",
+    "pid":  22896,
+    "started_utc":  "2026-11-04T22:42:32.1811322Z",
+    "study":  "runs/20261105_041035_common_prefix_ca10f93d"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "date": "2026-11-05",
+  "writing_stage": "R049 manuscript/literature review",
+  "draft_words": 7237,
+  "appendix_words": 3481,
+  "valid_local_links": 108,
+  "bibliography_keys": 12,
+  "bibliography_key_metadata_match": true,
+  "actual_prompt_selections_checked": 5,
+  "initial_BC_messages_equal": true,
+  "r047_gap_table_rows_checked": 6,
+  "r047_both_mark_return_rows_checked": 6,
+  "r047_usage_and_same_mode_controls_checked": true,
+  "previous_numerical_rows_preserved": true,
+  "prior_archives_unchanged": 13,
+  "original_source_files_unchanged": 103,
+  "previous_writing_archives_unchanged": 1,
+  "frozen_r047_source_files_unchanged": 128,
+  "archived_replay_coverage": {
+    "previous_paths": 42,
+    "previous_financial_csvs": 294,
+    "r047_paths": 23,
+    "r047_financial_csvs": 161,
+    "r047_explicit_exclusions": 1
+  },
+  "new_api_requests": 0,
+  "new_markets": 0,
+  "new_replay_executions": 0,
+  "fresh_model_samples": 0,
+  "limitations": "Writing/evidence verification,not a new replication;recorded replay is distinct from fresh sampling and external validation."
+}

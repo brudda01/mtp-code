@@ -1,0 +1,8 @@
+{
+  "status": "externally_interrupted",
+  "reason": "User requested switching primary pilot from Flash-Lite to Gemini 3.8 Flash.",
+  "recorded_utc": "2026-11-01T22:32:37.502093+00:00",
+  "observed_completed_rounds": 2,
+  "observed_model_call_records": 5,
+  "limitation": "Process stopped externally. No engine summary was finalized. An in-flight or reserved but unlogged request cannot be excluded; logged usage is a lower bound."
+}

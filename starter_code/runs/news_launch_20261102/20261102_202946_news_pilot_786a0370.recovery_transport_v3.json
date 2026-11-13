@@ -1,0 +1,12 @@
+﻿{
+    "pid":  8832,
+    "recovery":  "runs/20261102_202946_news_pilot_786a0370/recovery_transport_v3",
+    "stdout":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.recovery_transport_v3.stdout.log",
+    "stderr":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.recovery_transport_v3.stderr.log",
+    "model":  "qwen-3.8-27b",
+    "remaining_market_arms":  5,
+    "probes":  24,
+    "retry_limit":  1,
+    "original_max_attempts":  688,
+    "original_max_reservations":  9000000
+}

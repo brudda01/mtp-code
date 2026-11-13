@@ -1,0 +1,15 @@
+round 10/24 price=107.60 vol=47
+round 20/24 price=118.00 vol=29
+completed -> runs\20261104_045742_horizon_pilot_2617baf7\market_runs\20261104_045859_horizon_A_shock_s7403_85c37b3d
+recorded shown seed7403 24/24 completed
+round 10/24 price=109.10 vol=28
+round 20/24 price=118.20 vol=29
+completed -> runs\20261104_045742_horizon_pilot_2617baf7\market_runs\20261104_050717_horizon_A_shock_s7403_38bd7eff
+recorded hidden seed7403 24/24 completed
+round 10/24 price=114.60 vol=32
+round 20/24 price=77.90 vol=36
+completed -> runs\20261104_045742_horizon_pilot_2617baf7\market_runs\20261104_051735_horizon_A_shock_s8517_4981f341
+recorded hidden seed8517 24/24 completed
+round 10/24 price=116.50 vol=35
+provider_error -> runs\20261104_045742_horizon_pilot_2617baf7\market_runs\20261104_052600_horizon_A_shock_s8517_d8ac0b40
+stopped -> runs\20261104_045742_horizon_pilot_2617baf7

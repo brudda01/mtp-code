@@ -1,0 +1,9 @@
+{
+  "scope": "Independent zero-tax one-auction wealth identity, all original/deeper cases; not new repeats",
+  "formula": "net_executed_shares*((closing_mark-clearing_price)+dividend-interest_rate*clearing_price)",
+  "interest_rate": 0.0002,
+  "account_mark_checks": 6048,
+  "settlement_variants": 216,
+  "max_absolute_error": 5.8548721426632255e-12,
+  "passed": true
+}

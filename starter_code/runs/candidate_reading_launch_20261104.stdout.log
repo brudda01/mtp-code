@@ -1,0 +1,13 @@
+reading 1/12 llm_012_down:level,strict=True
+reading 2/12 llm_012_up:level,strict=True
+reading 3/12 llm_013_down:level,strict=True
+reading 4/12 llm_013_up:level,strict=True
+reading 5/12 llm_012_up:level,strict=True
+reading 6/12 llm_013_down:level,strict=True
+reading 7/12 llm_013_up:level,strict=True
+reading 8/12 llm_012_down:level,strict=True
+reading 9/12 llm_013_down:level,strict=True
+reading 10/12 llm_013_up:level,strict=True
+reading 11/12 llm_012_down:level,strict=True
+reading 12/12 llm_012_up:level,strict=True
+{"status": "completed", "failure_type": null, "delivered": 12, "planned": 12, "valid_numeric_readings": 12, "strict_number_replies": 12, "level_fields": 36, "gate_passed": true, "usage": {"requests_made": 12, "max_requests": 20, "reserved_tokens": 143688, "max_reserved_tokens": 350000, "reserved_cost_usd": 0.0, "max_cost_usd": 0, "provider_reported_tokens": 12187, "estimated_mock_tokens": 0, "unknown_usage_requests": 0, "failed_requests": 0, "observed_cost_estimate_usd": 0.0, "blocked_requests": 0, "requests_per_minute": 10, "input_tokens_per_minute": 60000, "stop_on_api_error": true, "provider_stopped": false, "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"}, "finished_utc": "2026-11-04T10:41:49.368041+00:00"}

@@ -1,0 +1,62 @@
+{
+  "primary_model": "gemini-3.8-flash",
+  "generation_answer_returned": false,
+  "attempts": [
+    {
+      "run_id": "20261102_040526_flash38_probes_09b9a76b",
+      "route": "openai_compatible",
+      "http_status": 503,
+      "usage": null,
+      "status": "provider_error",
+      "manifest_sha256": "a61fe4fd8a2afdb84f59ce810e7eee0dfc0ca6bd21b26bcb7de90a94d9116f08"
+    },
+    {
+      "run_id": "20261102_040700_flash38_probes_9054fea8",
+      "route": "openai_compatible",
+      "http_status": 503,
+      "usage": null,
+      "status": "provider_error",
+      "manifest_sha256": "fda7cef7f0feb3e6329d3fed79f996608b08bde9b315744e20f7b534a6370b0f"
+    },
+    {
+      "run_id": "20261102_040821_flash38_native_access_0e0abbd4",
+      "route": "native_generateContent",
+      "http_status": 503,
+      "provider_status": "UNAVAILABLE",
+      "usage": null,
+      "status": "provider_error",
+      "result_sha256": "c769ee7a67736135de4929ab653b5dae54bc6a2e898b00944bb0f001f0050f12"
+    },
+    {
+      "run_id": "20261102_042706_flash38_probes_9982497f",
+      "route": "openai_compatible",
+      "http_status": 503,
+      "usage": null,
+      "status": "provider_error",
+      "manifest_sha256": "b572ca41dd5bfcc594af445541370bc6a8e7eae9dbbb8afaaa4fefe4f08a637e",
+      "reason_for_retry": "Elapsed time and user-provided API quota screenshot"
+    },
+    {
+      "run_id": "20261102_044650_flash38_probes_2b43ef3b",
+      "route": "openai_compatible",
+      "http_status": null,
+      "error_type": "TimeoutError",
+      "latency_seconds": 90.22261529997922,
+      "usage": null,
+      "status": "provider_error",
+      "reason_for_retry": "User explicitly requested one more retry",
+      "manifest_sha256": "893bd6c92663755371980798c392af21aaa84ec85a48ed98ec6916ef5443eb11"
+    }
+  ],
+  "quota_error_observed": false,
+  "interpretation": "Availability failures in these attempts; not proof of a general outage, a quota limit, or model quality. No live 3.8 behavioural evidence.",
+  "next_protocol": "first_live_diagnostic_v3_flash38_default_sampling",
+  "offline_tests_passed": 93,
+  "audit": {
+    "output_hashes_checked": 90,
+    "source_archives_checked": 9,
+    "current_simulator_matches_latest_failed_probe_source": true,
+    "credential_scan_passed": true
+  },
+  "quota_evidence": "quota_evidence_20261102/observation.json"
+}

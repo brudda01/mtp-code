@@ -1,0 +1,414 @@
+{
+  "status": "inventory_only_no_execution_or_resume_implemented",
+  "pending_decisions": [
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "C",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "A",
+      "news": "negative"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "silent"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "positive"
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3,
+      "condition": "B",
+      "news": "negative"
+    }
+  ],
+  "new_two_reflection_blocks": [
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 2
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 2
+    },
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 3
+    },
+    {
+      "frame_id": "s2882_llm_013",
+      "repetition": 3
+    },
+    {
+      "frame_id": "s1441_llm_012",
+      "repetition": 3
+    },
+    {
+      "frame_id": "s1441_llm_013",
+      "repetition": 3
+    }
+  ],
+  "existing_pre_news_diaries_to_retain": [
+    {
+      "frame_id": "s2882_llm_012",
+      "repetition": 2,
+      "steps": [
+        {
+          "round": 5,
+          "diary": "**Observations:** Over five rounds the price sat at/near my 100.0 cost basis; I held 100 shares throughout, collecting dividends and interest. Round 1 showed a \u221245.85 wealth dip; subsequent rounds were modestly positive. No news or fundamentals have changed. **Beliefs:** My holding reflects loss aversion\u2014selling below basis feels painful, and I've framed \"no compelling signal\" as justification. I should test whether that's genuine long-horizon conviction or reluctance to realize a small loss. Dividends roughly offset cash interest, so carry isn't clearly superior. **Plan:** Continue holding, but pre-commit to a fundamental trigger (e.g., deteriorating fundamentals or a meaningful premium to fair value) for adding or trimming, rather than anchoring on cost basis.",
+          "source_rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "round": 10,
+          "diary": "**Observations:** Rounds 6\u20138 held steady near 100.6 with small gains; rounds 9\u201310 dropped to 98.6 then 98.1, cutting wealth ~196 and ~46. I still hold 100 shares at 100.0 basis. No news, no fills, no fundamental change. **Beliefs:** In round 10 I explicitly said I \"cannot bring myself\" to sell below basis \u2014 that is loss aversion speaking, not analysis. Yet my earlier plan to pre-commit to fundamental triggers remains sound: nothing deteriorated, so holding is defensible, but I should notice that I've never once defined \"fair value.\" **Plan:** Hold, but quantify fair value now so my trigger isn't just cost-basis anchoring.",
+          "source_rounds": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "planned_remaining_normal_calls": 70,
+  "prior_summary_sha256": "d4857180d15e7d0b9744ff10baa5dbb1813714e5b9e2e308f21e1493d5b474aa",
+  "remaining_request_cap": 194,
+  "remaining_reservation_cap": 3087614,
+  "note": "Inventory for a future explicit linked continuation, not an automatic restart. Retain all prior usage/failed calls/completed choices, same frozen inputs/model and the existing diary. Do not rerun successful cells or pool another model's replies."
+}

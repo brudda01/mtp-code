@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "test_count": 3,
+  "source_sha256": "c8aa6407cb90a30c3b368e246887bd6ad21308a98b4bcb1fd6fe2456c48a4333",
+  "scope": "Mocked complete, zero-round and failed-reflection analysis checks; not live behavioural evidence."
+}

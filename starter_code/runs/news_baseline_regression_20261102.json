@@ -1,0 +1,16 @@
+{
+  "status": "verified",
+  "comparison": "legacy public/default baseline financial regression",
+  "old_run": "runs\\20261102_022204_baseline_rules_3f60e890",
+  "new_run": "runs\\20261102_191234_baseline_rules_a5b83fd1",
+  "identical_files": {
+    "prices.csv": true,
+    "orders.csv": true,
+    "trades.csv": true,
+    "agents_state.csv": true,
+    "cashflows.csv": true,
+    "liquidity.csv": true,
+    "initial_state.csv": true
+  },
+  "manifest_sha256": "03f58003da9986745303bc804d01a506731426eac11c06d0f0e73159f8caf1e0"
+}

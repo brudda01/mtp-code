@@ -1,0 +1,6 @@
+{
+  "checks": 1512,
+  "max_absolute_error": 7.531752999057062e-12,
+  "passed": true,
+  "note": "Zero-tax one-auction identity,54 same-order variants; not independent replications."
+}

@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "verified_paths": 16,
+  "byte_identical_financial_files": 112,
+  "network_attempts": 0,
+  "new_api_requests": 0,
+  "new_scientific_markets": 0,
+  "records": [
+    {
+      "seed": 26183,
+      "heterogeneous": false,
+      "skew": 0.02,
+      "path": "markets/20261107_012023_diversity_0_skew_20_s26183_1f810c5f",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 26183,
+      "heterogeneous": false,
+      "skew": 0.0,
+      "path": "markets/20261107_012024_diversity_0_skew_0_s26183_b902968a",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 26183,
+      "heterogeneous": true,
+      "skew": 0.02,
+      "path": "markets/20261107_012025_diversity_1_skew_20_s26183_7e28d23a",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 26183,
+      "heterogeneous": true,
+      "skew": 0.0,
+      "path": "markets/20261107_012026_diversity_1_skew_0_s26183_7d03530b",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 27329,
+      "heterogeneous": false,
+      "skew": 0.02,
+      "path": "markets/20261107_012027_diversity_0_skew_20_s27329_0a33d79a",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 27329,
+      "heterogeneous": false,
+      "skew": 0.0,
+      "path": "markets/20261107_012027_diversity_0_skew_0_s27329_e4defda6",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 27329,
+      "heterogeneous": true,
+      "skew": 0.02,
+      "path": "markets/20261107_012029_diversity_1_skew_20_s27329_942f9774",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 27329,
+      "heterogeneous": true,
+      "skew": 0.0,
+      "path": "markets/20261107_012031_diversity_1_skew_0_s27329_001907ec",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 28513,
+      "heterogeneous": false,
+      "skew": 0.02,
+      "path": "markets/20261107_012033_diversity_0_skew_20_s28513_805b043a",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 28513,
+      "heterogeneous": false,
+      "skew": 0.0,
+      "path": "markets/20261107_012033_diversity_0_skew_0_s28513_93c9e7f5",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 28513,
+      "heterogeneous": true,
+      "skew": 0.02,
+      "path": "markets/20261107_012034_diversity_1_skew_20_s28513_ff668fc8",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 28513,
+      "heterogeneous": true,
+      "skew": 0.0,
+      "path": "markets/20261107_012034_diversity_1_skew_0_s28513_de9a2017",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 29671,
+      "heterogeneous": false,
+      "skew": 0.02,
+      "path": "markets/20261107_012035_diversity_0_skew_20_s29671_6351a345",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 29671,
+      "heterogeneous": false,
+      "skew": 0.0,
+      "path": "markets/20261107_012036_diversity_0_skew_0_s29671_a94c9da2",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 29671,
+      "heterogeneous": true,
+      "skew": 0.02,
+      "path": "markets/20261107_012036_diversity_1_skew_20_s29671_66cfd4e5",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    },
+    {
+      "seed": 29671,
+      "heterogeneous": true,
+      "skew": 0.0,
+      "path": "markets/20261107_012037_diversity_1_skew_0_s29671_df22eee3",
+      "files": {
+        "initial_state.csv": true,
+        "prices.csv": true,
+        "orders.csv": true,
+        "trades.csv": true,
+        "agents_state.csv": true,
+        "cashflows.csv": true,
+        "liquidity.csv": true
+      }
+    }
+  ],
+  "scope": "New local deterministic reproduction from frozen sources,not independent-machine reproduction or fresh scientific scenarios."
+}

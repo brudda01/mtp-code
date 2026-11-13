@@ -1,0 +1,101 @@
+{
+  "status": "unscored",
+  "annotations": [
+    {
+      "slot": 1,
+      "case": "s22853_source1_llm_012",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 2,
+      "case": "s22853_source1_llm_012",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 3,
+      "case": "s22853_source1_llm_013",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 4,
+      "case": "s22853_source1_llm_013",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 5,
+      "case": "s22853_source2_llm_012",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 6,
+      "case": "s22853_source2_llm_012",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 7,
+      "case": "s22853_source2_llm_013",
+      "format": "timed",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    },
+    {
+      "slot": 8,
+      "case": "s22853_source2_llm_013",
+      "format": "original",
+      "repetition": 1,
+      "raw_temporal": null,
+      "diary_temporal": null,
+      "raw_guarantee": null,
+      "diary_guarantee": null,
+      "evidence_quotes": [],
+      "rationale": null
+    }
+  ]
+}

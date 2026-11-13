@@ -1,0 +1,9 @@
+{
+  "analysis_source.py": "597648b6a09a2f61d55cb73ad03c1233a7ebdbc4dc48f7db51852f7b00b26098",
+  "final_audit.json": "eba3b4c66c90e8bb2566492d0c3564221f14f3cc672a676ea2dba3cdbe22a87d",
+  "market_paths.pdf": "280133fb4cce0010139dc5176476f21ea45a1573864cd5ffd7d28783e5682c41",
+  "market_paths.png": "f3e3eaef4c256f7c6157fde76e52a04fd79af6c3eb065e71f69e99d4799cf787",
+  "report.json": "ef547173739e8bd08d7df58164c33d85b8d13529c59731999d7e17f13f5cbb7a",
+  "test_news_pilot.py": "2a7ecbe6181d0114f22785d446ebaf7a651b43fb273eb9335d71aeb33015deda",
+  "test_transport_retry.py": "3654227bb9d2538386a5496145ae8b13d64c1c2902348a9e3a7131351e26c5d7"
+}

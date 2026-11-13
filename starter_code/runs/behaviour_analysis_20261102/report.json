@@ -1,0 +1,1185 @@
+{
+  "status": "completed",
+  "run": "runs/20261102_195440_behaviour_qwen_ee95d92d",
+  "completed_decisions": 48,
+  "valid_choices": 48,
+  "feasible_accepted_orders": 48,
+  "request_count": 48,
+  "repaired_decisions": 0,
+  "resource_reduced_choices": 0,
+  "actions": {
+    "buy": 14,
+    "hold": 31,
+    "sell": 3
+  },
+  "family_actions": {
+    "risk": {
+      "buy": 13,
+      "hold": 8,
+      "sell": 3
+    },
+    "gain_loss": {
+      "hold": 23,
+      "buy": 1
+    }
+  },
+  "risk_overall": {
+    "values": [
+      50,
+      40,
+      30,
+      -20,
+      20,
+      50,
+      -100,
+      50,
+      80,
+      30,
+      50,
+      50
+    ],
+    "n": 12,
+    "mean": 27.5,
+    "positive": 10,
+    "zero": 0,
+    "negative": 2
+  },
+  "basis_interaction_overall": {
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "n": 6,
+    "mean": 0.0,
+    "positive": 0,
+    "zero": 6,
+    "negative": 0
+  },
+  "risk_by_context_wording": [
+    {
+      "context": "rising",
+      "wording": "label",
+      "accepted": {
+        "values": [
+          50,
+          20,
+          80
+        ],
+        "n": 3,
+        "mean": 50.0,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "requested": {
+        "values": [
+          50,
+          20,
+          80
+        ],
+        "n": 3,
+        "mean": 50.0,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    {
+      "context": "rising",
+      "wording": "description",
+      "accepted": {
+        "values": [
+          40,
+          50,
+          30
+        ],
+        "n": 3,
+        "mean": 40.0,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "requested": {
+        "values": [
+          40,
+          50,
+          30
+        ],
+        "n": 3,
+        "mean": 40.0,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    {
+      "context": "falling",
+      "wording": "label",
+      "accepted": {
+        "values": [
+          30,
+          -100,
+          50
+        ],
+        "n": 3,
+        "mean": -6.666666666666667,
+        "positive": 2,
+        "zero": 0,
+        "negative": 1
+      },
+      "requested": {
+        "values": [
+          30,
+          -100,
+          50
+        ],
+        "n": 3,
+        "mean": -6.666666666666667,
+        "positive": 2,
+        "zero": 0,
+        "negative": 1
+      }
+    },
+    {
+      "context": "falling",
+      "wording": "description",
+      "accepted": {
+        "values": [
+          -20,
+          50,
+          50
+        ],
+        "n": 3,
+        "mean": 26.666666666666668,
+        "positive": 2,
+        "zero": 0,
+        "negative": 1
+      },
+      "requested": {
+        "values": [
+          -20,
+          50,
+          50
+        ],
+        "n": 3,
+        "mean": 26.666666666666668,
+        "positive": 2,
+        "zero": 0,
+        "negative": 1
+      }
+    }
+  ],
+  "basis_by_wording": [
+    {
+      "wording": "pain",
+      "interaction": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      }
+    },
+    {
+      "wording": "weight",
+      "interaction": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      }
+    }
+  ],
+  "case_rows": [
+    {
+      "case_id": "risk_rising_label_low",
+      "family": "risk",
+      "factors": {
+        "context": "rising",
+        "wording": "label",
+        "risk": "low"
+      },
+      "requested": {
+        "values": [
+          30,
+          20,
+          20
+        ],
+        "n": 3,
+        "mean": 23.333333333333332,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          30,
+          20,
+          20
+        ],
+        "n": 3,
+        "mean": 23.333333333333332,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "actions": {
+        "buy": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_rising_label_high",
+      "family": "risk",
+      "factors": {
+        "context": "rising",
+        "wording": "label",
+        "risk": "high"
+      },
+      "requested": {
+        "values": [
+          80,
+          40,
+          100
+        ],
+        "n": 3,
+        "mean": 73.33333333333333,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          80,
+          40,
+          100
+        ],
+        "n": 3,
+        "mean": 73.33333333333333,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "actions": {
+        "buy": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_rising_description_low",
+      "family": "risk",
+      "factors": {
+        "context": "rising",
+        "wording": "description",
+        "risk": "low"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_rising_description_high",
+      "family": "risk",
+      "factors": {
+        "context": "rising",
+        "wording": "description",
+        "risk": "high"
+      },
+      "requested": {
+        "values": [
+          40,
+          50,
+          30
+        ],
+        "n": 3,
+        "mean": 40.0,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          40,
+          50,
+          30
+        ],
+        "n": 3,
+        "mean": 40.0,
+        "positive": 3,
+        "zero": 0,
+        "negative": 0
+      },
+      "actions": {
+        "buy": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_falling_label_low",
+      "family": "risk",
+      "factors": {
+        "context": "falling",
+        "wording": "label",
+        "risk": "low"
+      },
+      "requested": {
+        "values": [
+          -30,
+          50,
+          0
+        ],
+        "n": 3,
+        "mean": 6.666666666666667,
+        "positive": 1,
+        "zero": 1,
+        "negative": 1
+      },
+      "accepted": {
+        "values": [
+          -30,
+          50,
+          0
+        ],
+        "n": 3,
+        "mean": 6.666666666666667,
+        "positive": 1,
+        "zero": 1,
+        "negative": 1
+      },
+      "actions": {
+        "sell": 1,
+        "buy": 1,
+        "hold": 1
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_falling_label_high",
+      "family": "risk",
+      "factors": {
+        "context": "falling",
+        "wording": "label",
+        "risk": "high"
+      },
+      "requested": {
+        "values": [
+          0,
+          -50,
+          50
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 1,
+        "zero": 1,
+        "negative": 1
+      },
+      "accepted": {
+        "values": [
+          0,
+          -50,
+          50
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 1,
+        "zero": 1,
+        "negative": 1
+      },
+      "actions": {
+        "hold": 1,
+        "sell": 1,
+        "buy": 1
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_falling_description_low",
+      "family": "risk",
+      "factors": {
+        "context": "falling",
+        "wording": "description",
+        "risk": "low"
+      },
+      "requested": {
+        "values": [
+          20,
+          -50,
+          0
+        ],
+        "n": 3,
+        "mean": -10.0,
+        "positive": 1,
+        "zero": 1,
+        "negative": 1
+      },
+      "accepted": {
+        "values": [
+          20,
+          -50,
+          0
+        ],
+        "n": 3,
+        "mean": -10.0,
+        "positive": 1,
+        "zero": 1,
+        "negative": 1
+      },
+      "actions": {
+        "buy": 1,
+        "sell": 1,
+        "hold": 1
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "risk_falling_description_high",
+      "family": "risk",
+      "factors": {
+        "context": "falling",
+        "wording": "description",
+        "risk": "high"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          50
+        ],
+        "n": 3,
+        "mean": 16.666666666666668,
+        "positive": 1,
+        "zero": 2,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          50
+        ],
+        "n": 3,
+        "mean": 16.666666666666668,
+        "positive": 1,
+        "zero": 2,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 2,
+        "buy": 1
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_pain_gain_neutral",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "pain",
+        "account_basis": "gain",
+        "trait": "neutral"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          50
+        ],
+        "n": 3,
+        "mean": 16.666666666666668,
+        "positive": 1,
+        "zero": 2,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          50
+        ],
+        "n": 3,
+        "mean": 16.666666666666668,
+        "positive": 1,
+        "zero": 2,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 2,
+        "buy": 1
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_pain_gain_loss_sensitive",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "pain",
+        "account_basis": "gain",
+        "trait": "loss_sensitive"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_pain_loss_neutral",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "pain",
+        "account_basis": "loss",
+        "trait": "neutral"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_pain_loss_loss_sensitive",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "pain",
+        "account_basis": "loss",
+        "trait": "loss_sensitive"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_weight_gain_neutral",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "weight",
+        "account_basis": "gain",
+        "trait": "neutral"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_weight_gain_loss_sensitive",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "weight",
+        "account_basis": "gain",
+        "trait": "loss_sensitive"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_weight_loss_neutral",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "weight",
+        "account_basis": "loss",
+        "trait": "neutral"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    },
+    {
+      "case_id": "basis_weight_loss_loss_sensitive",
+      "family": "gain_loss",
+      "factors": {
+        "wording": "weight",
+        "account_basis": "loss",
+        "trait": "loss_sensitive"
+      },
+      "requested": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "accepted": {
+        "values": [
+          0,
+          0,
+          0
+        ],
+        "n": 3,
+        "mean": 0.0,
+        "positive": 0,
+        "zero": 3,
+        "negative": 0
+      },
+      "actions": {
+        "hold": 3
+      },
+      "resource_reduced": 0
+    }
+  ],
+  "distinct_first_attempt_message_pairs": 14,
+  "supplementary_identical_input_groups": [
+    {
+      "messages_sha256": "b8dfe11387715ea15ae2472ead9fefe1bea851c947a008bcac66626f68d5a188",
+      "case_ids": [
+        "basis_pain_gain_neutral",
+        "basis_weight_gain_neutral"
+      ],
+      "actions": {
+        "hold": 5,
+        "buy": 1
+      },
+      "signed_quantities": [
+        0,
+        0,
+        0,
+        0,
+        50,
+        0
+      ]
+    },
+    {
+      "messages_sha256": "4f65092c735bf7c21face8ef38d487fec9d5f8cac28156a223697581f38f36af",
+      "case_ids": [
+        "basis_pain_loss_neutral",
+        "basis_weight_loss_neutral"
+      ],
+      "actions": {
+        "hold": 6
+      },
+      "signed_quantities": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "supplementary_note": "Identical neutral-input grouping diagnoses sampling variation after the main contrasts; not a new predeclared significance test.",
+  "usage": {
+    "requests_made": 48,
+    "max_requests": 96,
+    "reserved_tokens": 334020,
+    "max_reserved_tokens": 1000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 40352,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "source_parent": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    " M ../../06_EVALUATION_AND_EXPERIMENTS.md",
+    "AM ../../AGENTS.md",
+    "AM ../../RESEARCH_DIARY.md",
+    " M ../README.md",
+    " M ../configs/dev_mock.yaml",
+    " M agents/base.py",
+    " M agents/llm_agent.py",
+    " M agents/rule_agents.py",
+    " M assets.py",
+    " M engine.py",
+    " M llm/client.py",
+    " M llm/mock.py",
+    " M market.py",
+    "?? ../../.gitignore",
+    "?? ../AGENT_EXPERIMENTS.md",
+    "?? ../ECONOMIC_MODEL.md",
+    "?? ../configs/baseline_mock.yaml",
+    "?? ../configs/baseline_rules.yaml",
+    "?? ../configs/diagnostic_shock.yaml",
+    "?? ../configs/pilot_a_mock.yaml",
+    "?? ../configs/pilot_b_mock.yaml",
+    "?? ../configs/pilot_c_mock.yaml",
+    "?? background_check.py",
+    "?? behaviour_check.py",
+    "?? behaviour_run.py",
+    "?? capability_check.py",
+    "?? config.py",
+    "?? evaluation.py",
+    "?? llm/usage.py",
+    "?? news_controls.py",
+    "?? pilot.py",
+    "?? provenance.py",
+    "?? ../tests/test_behaviour_run.py",
+    "?? ../tests/test_comparable_agents.py",
+    "?? ../tests/test_config.py",
+    "?? ../tests/test_disclosed_rules.py",
+    "?? ../tests/test_economics.py",
+    "?? ../tests/test_foundation.py",
+    "?? ../tests/test_live_pilot.py",
+    "?? ../tests/test_news_controls.py",
+    "?? ../tests/test_research_checks.py"
+  ],
+  "source_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "49337c030bb19d7c2e6439fe3c899625bf08eb92537a16a762c9a43ef0b9b6f1",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/config.py": "4c7afd62a067bb9771a9169d8fad57537232efe8bed718135e20ebcb5f4a27ec",
+    "sim/engine.py": "71b41a3c2727e1b1221a9d852bc2e947021245895ebfa3b972f80326639d784e",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "a75e79fb6ed1b7f5fe6c57740b05faed792a6058b46af8046b92777164c822fe",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "c18b001111b4427df8d25415849b05e7e7745062c21d8b3e59dd1109af440d37"
+  },
+  "run_manifest_sha256": "50286cff800520e1c58894f486a9a6b291425fbe57fcaab210d74ee8301aab1e",
+  "battery_sha256": "67929bd362979762633eef024c2ce88e2ec3b8db2b36af2fd4eef34dc30246b1",
+  "analysis_source_sha256": "c6e445e3aa852335c9947914d0408539498ff19b60c0decb79d7c1c7a713e21d",
+  "returned_model_metadata": [
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "17b608e1-8aba-4d14-acd4-28db611cb556",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "b22a211d-d1fb-40de-9cf4-5937fd7abe13",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "5f28defd-ed85-41cb-970b-3a52d8d504cf",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "4bab8d5b-d44b-4c3e-82e1-614897ddf58f",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "3427d839-5900-4c0d-91a0-9de302e6c82b",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "645d5d0b-eab5-449e-a4d0-36f428fe9a00",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "e1fd5b5d-8039-46c3-82f4-5071e8d0368b",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "3562f8ee-1730-41ca-b5b0-9208907289f7",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "d3aadf14-7e6f-4fae-ba26-8906ccd814bd",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "c2cf621e-eead-48a5-ba21-88bc3cd118d3",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "95a0fd6a-bad3-4db6-a95b-cc90d688f90a",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "73e8278d-7263-48d5-b378-89f020cad1b4",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "2605acb3-a389-4841-b401-a78226b7934b",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "bf0d8669-d6c4-4c2d-a14a-92368048b21d",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "18974526-d52a-4040-ab92-b53d48a32cd3",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "360f969b-2e33-4234-b951-659c2d726eb0",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "a7ccd51a-8ac8-453b-a145-4589f5b77873",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "37a56225-0398-4082-ba02-9917ac6e40b9",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "6f6e7881-a083-46fa-9d9a-e58a899eab86",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "b46e3b11-e5ef-41d0-ae75-fb6d4fe7c616",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "ec2ab29f-f98b-4185-b71f-a0ffe7ba52c2",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "5a8ac95f-2470-463c-acfe-a60e287de5af",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "6290bfa2-023b-4b06-abad-d0b4341bf6b5",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "21105741-b369-41a8-ba05-458a082380d3",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "40edadab-25f9-4c1f-a12d-ba845b71eef0",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "58b7974e-8818-4ec9-895d-56a90f64ff7a",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "464ac18b-3a72-4106-82f1-c033e1cdffe8",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "eac7c486-8467-4d47-9c44-23e2627df04a",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "e40aa929-204e-498f-aac6-9c2f85d916a9",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "de743392-8f6e-4495-b4dd-1dda12ca4349",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "042184fa-0039-47ce-937f-90954d19c242",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "f27d5183-f613-41fa-831e-e7d33ba1fbc1",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "78e50794-943a-4bde-a66a-2a41a62fbf07",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "568096b9-903f-4c74-848c-e935c09a7cee",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "22fb26a5-2c3e-4e87-a34e-193bbed41627",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "f86b5ca1-9da5-4230-8687-c9f2a0857f2c",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "cef9d53b-7380-4264-b494-71fab011d680",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "2ed99e7c-8029-4879-a854-e2fac1bd4c74",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "eed90779-3f78-4232-9904-e4dc24749d21",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "2b472ce6-484b-4f52-bae8-5a3eadc8cdaa",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "d49a1ebd-8bc2-4e1f-a485-b390bf52c9f5",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "69198c3d-afaf-4113-87fa-39730b2be1c8",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "52ef480f-01dd-4159-84e1-0ef4ff6c910a",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "361be4dc-37fd-431b-b821-9540df0052c6",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "a2e79bd8-aa81-4d6d-9a5e-e24b0a5099b5",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "03442a2e-b135-4a51-887a-4a00ef25de82",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "4a08eb17-00ab-4b9f-8ae3-b95527b7188d",
+      "finish_reason": "stop"
+    },
+    {
+      "model": "qwen-3.8-27b",
+      "request_id": "2d34eb4f-6741-4f4d-ad43-edbeebc82256",
+      "finish_reason": "stop"
+    }
+  ],
+  "interpretation": "Exploratory frozen synthetic-state contrasts, three fresh responses per case. No market outcomes or human validation. States/wordings are not independent market repeats; model sampling is unseeded. All nulls/negative signs and duplicate neutral prompts retained. Values are requested/accepted choices, never executions."
+}

@@ -1,0 +1,10 @@
+﻿{
+    "pid":  26812,
+    "study":  "runs/20261102_202946_news_pilot_786a0370",
+    "stdout":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.stdout.log",
+    "stderr":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.stderr.log",
+    "model":  "qwen-3.8-27b",
+    "planned_decisions":  344,
+    "max_attempts":  688,
+    "max_reserved_tokens":  9000000
+}

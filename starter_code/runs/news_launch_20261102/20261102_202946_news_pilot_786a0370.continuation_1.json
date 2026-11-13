@@ -1,0 +1,8 @@
+﻿{
+    "pid":  14112,
+    "parent_pid":  26812,
+    "continuation":  "runs/20261102_202946_news_pilot_786a0370/continuation_1",
+    "stdout":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.continuation_1.stdout.log",
+    "stderr":  "C:\\Users\\sarth\\OneDrive - iitkgp.ac.in\\Desktop\\mtp\\starter_code\\runs\\news_launch_20261102\\20261102_202946_news_pilot_786a0370.continuation_1.stderr.log",
+    "reason":  "One explicit linked continuation after inspected transport failure; original used budgets deducted; no further restart if it fails."
+}

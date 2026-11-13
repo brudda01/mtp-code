@@ -1,0 +1,9 @@
+{
+  "endpoint": "https://api.goedelmachines.com/v1/models",
+  "model_ids": [
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "credential_name": "GODEL_MACHINES_API_KEY",
+  "key_tier_prefix": "free",
+  "completion_requests": 0
+}

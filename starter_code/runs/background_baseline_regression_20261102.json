@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "old_run": "runs\\20261102_191234_baseline_rules_a5b83fd1",
+  "new_run": "runs\\20261102_193818_baseline_rules_35efef16",
+  "identical_files": {
+    "prices.csv": true,
+    "orders.csv": true,
+    "trades.csv": true,
+    "agents_state.csv": true,
+    "cashflows.csv": true,
+    "liquidity.csv": true,
+    "initial_state.csv": true
+  },
+  "manifest_sha256": "ed0eed427d42867efbc73002e001911f55e7507d0abe2b879077ed142d41d5f3"
+}

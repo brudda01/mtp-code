@@ -1,0 +1,19 @@
+{
+  "status": "preserved",
+  "collection_status": "permanently_frozen",
+  "path": "starter_code/runs/final_collection_20261108_evidence.zip",
+  "sha256": "2743ccf31b76afacc28c959424e2d67e61f2ce4a70d132f236ced7db2a4de9ff",
+  "bytes": 9714220,
+  "exported_file_hashes": 1361,
+  "recursive_configured_secret_checks": 3085,
+  "all_member_hashes_verified": true,
+  "configured_secret_scan_passed": true,
+  "prior_archives_unchanged": 18,
+  "prior_writing_archives_unchanged": 2,
+  "seed31991_status": "stopped_before_first_auction",
+  "seed31991_decisions": 1,
+  "seed31991_missing_decisions": 149,
+  "seed31991_http_attempts": 3,
+  "seed31991_unknown_usage_errors": 2,
+  "completed_deepseek_scenarios": 1
+}

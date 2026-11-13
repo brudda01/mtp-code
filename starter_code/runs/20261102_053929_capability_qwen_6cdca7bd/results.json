@@ -1,0 +1,326 @@
+[
+  {
+    "case_id": "risk_low",
+    "repetition": 2,
+    "kind": "order",
+    "family": "risk_trait",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "risk_low:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "The stock has risen steadily for seven rounds and I'm already well-positioned with 120 shares at a 5-point gain. With my low risk tolerance, I'll let the position work rather than chase the uptrend or sell into strength.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "risk_low:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "The stock has risen steadily for seven rounds and I'm already well-positioned with 120 shares at a 5-point gain. With my low risk tolerance, I'll let the position work rather than chase the uptrend or sell into strength.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "executions_not_requests",
+    "repetition": 1,
+    "kind": "objective",
+    "family": "verified_memory",
+    "request_count": 1,
+    "parsed": {
+      "requested_quantity": 12,
+      "accepted_quantity": 9,
+      "executed_buy_quantity": 3,
+      "current_shares": 83,
+      "closing_cash": 496.9377,
+      "dividend_income": 2.49,
+      "interest_income": 0.1977
+    },
+    "correct_fields": {
+      "requested_quantity": true,
+      "accepted_quantity": true,
+      "executed_buy_quantity": true,
+      "current_shares": true,
+      "closing_cash": true,
+      "dividend_income": true,
+      "interest_income": true
+    },
+    "all_correct": true
+  },
+  {
+    "case_id": "risk_low",
+    "repetition": 3,
+    "kind": "order",
+    "family": "risk_trait",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "risk_low:r3",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "The stock has risen six consecutive rounds and I'm already long 120 shares at a 6.7% gain; with low risk tolerance I'll let the trend play out rather than chase higher or sell into strength.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "risk_low:r3",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "The stock has risen six consecutive rounds and I'm already long 120 shares at a 6.7% gain; with low risk tolerance I'll let the trend play out rather than chase higher or sell into strength.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "raw_market_reserve",
+    "repetition": 1,
+    "kind": "objective",
+    "family": "mechanics",
+    "request_count": 1,
+    "parsed": {
+      "raw_upper_price": 120.12,
+      "tick_execution_upper_price": 120.1,
+      "maximum_buy_quantity": 0
+    },
+    "correct_fields": {
+      "raw_upper_price": true,
+      "tick_execution_upper_price": true,
+      "maximum_buy_quantity": true
+    },
+    "all_correct": true
+  },
+  {
+    "case_id": "control",
+    "repetition": 3,
+    "kind": "order",
+    "family": "news",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "control:r3",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "Price has been dead flat at 75 for seven straight rounds with no momentum or signal. I'll sit on my hands and let the dividends and interest accrue until something moves.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "control:r3",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "Price has been dead flat at 75 for seven straight rounds with no momentum or signal. I'll sit on my hands and let the dividends and interest accrue until something moves.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "taxed_raw_limit",
+    "repetition": 3,
+    "kind": "objective",
+    "family": "mechanics",
+    "request_count": 1,
+    "parsed": {
+      "reserved_cost_per_share": 76.6224,
+      "rounded_buy_limit": 75.0,
+      "maximum_buy_quantity": 1
+    },
+    "correct_fields": {
+      "reserved_cost_per_share": true,
+      "rounded_buy_limit": true,
+      "maximum_buy_quantity": true
+    },
+    "all_correct": true
+  },
+  {
+    "case_id": "value_75",
+    "repetition": 2,
+    "kind": "order",
+    "family": "disclosed_value",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "value_75:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "Price is exactly at analyst fair value and has been flat for seven rounds with no edge to exploit; my portfolio is already balanced so I'll sit tight and collect the dividend and interest.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "value_75:r2",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "Price is exactly at analyst fair value and has been flat for seven rounds with no edge to exploit; my portfolio is already balanced so I'll sit tight and collect the dividend and interest.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "value_90",
+    "repetition": 3,
+    "kind": "order",
+    "family": "disclosed_value",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "value_90:r3",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 75.0,
+      "round": 7,
+      "reasoning": "Stock is flat at 75 with analyst fair value at 90, suggesting meaningful upside. Adding a modest 50 shares to my position while keeping a healthy cash buffer given my medium risk tolerance.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "value_90:r3",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 75.0,
+      "round": 7,
+      "reasoning": "Stock is flat at 75 with analyst fair value at 90, suggesting meaningful upside. Adding a modest 50 shares to my position while keeping a healthy cash buffer given my medium risk tolerance.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "executions_not_requests",
+    "repetition": 3,
+    "kind": "objective",
+    "family": "verified_memory",
+    "request_count": 1,
+    "parsed": {
+      "requested_quantity": 12,
+      "accepted_quantity": 9,
+      "executed_buy_quantity": 3,
+      "current_shares": 83,
+      "closing_cash": 496.9377,
+      "dividend_income": 2.49,
+      "interest_income": 0.1977
+    },
+    "correct_fields": {
+      "requested_quantity": true,
+      "accepted_quantity": true,
+      "executed_buy_quantity": true,
+      "current_shares": true,
+      "closing_cash": true,
+      "dividend_income": true,
+      "interest_income": true
+    },
+    "all_correct": true
+  },
+  {
+    "case_id": "cashflow_units",
+    "repetition": 1,
+    "kind": "objective",
+    "family": "cashflows",
+    "request_count": 1,
+    "parsed": {
+      "interest_income": 3.6,
+      "dividend_income": 3.6,
+      "closing_cash": 9007.2,
+      "dividend_yield_pct": 0.04,
+      "cash_interest_pct_per_round": 0.04
+    },
+    "correct_fields": {
+      "interest_income": true,
+      "dividend_income": true,
+      "closing_cash": true,
+      "dividend_yield_pct": true,
+      "cash_interest_pct_per_round": true
+    },
+    "all_correct": true
+  },
+  {
+    "case_id": "raw_market_reserve",
+    "repetition": 2,
+    "kind": "objective",
+    "family": "mechanics",
+    "request_count": 1,
+    "parsed": {
+      "raw_upper_price": 120.12,
+      "tick_execution_upper_price": 120.1,
+      "maximum_buy_quantity": 0
+    },
+    "correct_fields": {
+      "raw_upper_price": true,
+      "tick_execution_upper_price": true,
+      "maximum_buy_quantity": true
+    },
+    "all_correct": true
+  },
+  {
+    "case_id": "value_90",
+    "repetition": 2,
+    "kind": "order",
+    "family": "disclosed_value",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "value_90:r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 75.0,
+      "round": 7,
+      "reasoning": "Stock is trading 20% below analyst fair value of 90 and has been flat for 7 rounds, so I'm adding to my position while keeping a cash buffer for a balanced approach.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "value_90:r2",
+      "side": "buy",
+      "quantity": 50,
+      "limit_price": 75.0,
+      "round": 7,
+      "reasoning": "Stock is trading 20% below analyst fair value of 90 and has been flat for 7 rounds, so I'm adding to my position while keeping a cash buffer for a balanced approach.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  },
+  {
+    "case_id": "empty_B",
+    "repetition": 3,
+    "kind": "order",
+    "family": "resources",
+    "request_count": 1,
+    "intent": {
+      "agent_id": "empty_B:r3",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "I have zero cash and zero shares, so there's nothing to trade. I'm stuck with no capital to deploy despite the stock trading well below fair value.",
+      "validation_note": ""
+    },
+    "accepted": {
+      "agent_id": "empty_B:r3",
+      "side": "hold",
+      "quantity": 0,
+      "limit_price": null,
+      "round": 7,
+      "reasoning": "I have zero cash and zero shares, so there's nothing to trade. I'm stuck with no capital to deploy despite the stock trading well below fair value.",
+      "validation_note": ""
+    },
+    "resource_compliant": true,
+    "parse_failures": 0,
+    "repaired": false
+  }
+]

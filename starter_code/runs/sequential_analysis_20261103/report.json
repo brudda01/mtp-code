@@ -1,0 +1,1644 @@
+{
+  "version": "sequential_abc_market_gate_v1_output8192",
+  "protocol_sha256": "b851a8268ccedff24cc43593599eccf5024ec57bfdfa2685faa1bf386cab2aae",
+  "blocks": [
+    {
+      "seed": 4103,
+      "summary": {
+        "status": "stopped",
+        "seed": 4103,
+        "completed_markets": 2,
+        "recorded_markets": 3,
+        "planned_markets": 3,
+        "failure_type": "ProviderUnavailable",
+        "finished_utc": "2026-11-03T13:41:06.903096+00:00"
+      },
+      "progress": {
+        "status": "stopped",
+        "completed_markets": 3,
+        "active": null
+      }
+    },
+    {
+      "seed": 5209,
+      "summary": null,
+      "progress": null
+    },
+    {
+      "seed": 6317,
+      "summary": null,
+      "progress": null
+    }
+  ],
+  "baselines": [
+    {
+      "seed": 4103,
+      "cell": "quiet",
+      "run_path": "baseline_runs/20261103_183151_sequential_rules_quiet_s4103_r24_73c4ba01",
+      "metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.02295833333333332,
+        "acf_returns_lag1": -0.1890246419009789,
+        "acf_absolute_returns_lag1": -0.13565939425262052,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.011982758620689656,
+        "volume_weighted_mm_share": 0.5083932853717026,
+        "mean_fill_rate": 0.5362302259512308,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 157,
+        "mm_inventory_max": 218,
+        "aggregate_cash_growth": 0.0091686795780348,
+        "max_share_concentration": 0.1503448275862069
+      },
+      "event_metrics": null,
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10096.194682024166,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20029.426632097373,
+              "passive_wealth": 20026.194682024165,
+              "active_minus_passive": 3.2319500732082815,
+              "active_return": 0.0014713316048686753,
+              "passive_return": 0.0013097341012082708,
+              "excess_return": 0.00016159750366041408
+            },
+            "regime_benchmark": {
+              "active_wealth": 20105.026632097375,
+              "passive_wealth": 20096.194682024165,
+              "active_minus_passive": 8.831950073210464,
+              "active_return": 0.005251331604868792,
+              "passive_return": 0.0048097341012083294,
+              "excess_return": 0.00044159750366052323
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10096.194682024166,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19990.378196694106,
+              "passive_wealth": 20026.194682024165,
+              "active_minus_passive": -35.81648533005864,
+              "active_return": -0.0004810901652947397,
+              "passive_return": 0.0013097341012082708,
+              "excess_return": -0.001790824266502932
+            },
+            "regime_benchmark": {
+              "active_wealth": 20055.47819669411,
+              "passive_wealth": 20096.194682024165,
+              "active_minus_passive": -40.71648533005646,
+              "active_return": 0.0027739098347054902,
+              "passive_return": 0.0048097341012083294,
+              "excess_return": -0.0020358242665028227
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 4103,
+      "cell": "combined",
+      "run_path": "baseline_runs/20261103_183151_sequential_rules_combined_s4103_r24_5a3a5886",
+      "metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.0969861111111111,
+        "acf_returns_lag1": 0.35346457783215474,
+        "acf_absolute_returns_lag1": -0.22930099231979922,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.011235632183908046,
+        "volume_weighted_mm_share": 0.5601023017902813,
+        "mean_fill_rate": 0.4505930509728296,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 73,
+        "mm_inventory_max": 201,
+        "aggregate_cash_growth": 0.009683285037261014,
+        "max_share_concentration": 0.1386206896551724
+      },
+      "event_metrics": {
+        "pre_event_price": 95.5,
+        "pre_mean_price": 97.73999999999998,
+        "event_price": 94.7,
+        "event_log_return": -0.008412247294651967,
+        "post_mean_price": 101.98571428571428,
+        "post_mean_absolute_relative_gap": 0.15011904761904762,
+        "half_pre_event_gap_time": 12,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.2283464566929134,
+        "target_trade_leg_share": 0.1141732283464567,
+        "post_total_volume": 254
+      },
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10101.873087091486,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21404.697273363654,
+              "passive_wealth": 21111.873087091488,
+              "active_minus_passive": 292.8241862721661,
+              "active_return": 0.07023486366818266,
+              "passive_return": 0.05559365435457431,
+              "excess_return": 0.014641209313608307
+            },
+            "regime_benchmark": {
+              "active_wealth": 22741.197273363654,
+              "passive_wealth": 22101.873087091488,
+              "active_minus_passive": 639.3241862721661,
+              "active_return": 0.1370598636681828,
+              "passive_return": 0.1050936543545744,
+              "excess_return": 0.03196620931360831
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10101.873087091486,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20998.862749494925,
+              "passive_wealth": 21111.873087091488,
+              "active_minus_passive": -113.01033759656275,
+              "active_return": 0.049943137474746324,
+              "passive_return": 0.05559365435457431,
+              "excess_return": -0.005650516879828138
+            },
+            "regime_benchmark": {
+              "active_wealth": 21969.06274949493,
+              "passive_wealth": 22101.873087091488,
+              "active_minus_passive": -132.81033759655838,
+              "active_return": 0.09845313747474638,
+              "passive_return": 0.1050936543545744,
+              "excess_return": -0.006640516879827919
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 4103,
+      "cell": "long_quiet",
+      "run_path": "baseline_runs/20261103_183151_sequential_rules_quiet_s4103_r600_3ce1d617",
+      "metrics": {
+        "rounds": 600,
+        "return_observations": 600,
+        "mean_absolute_relative_gap": 0.058435,
+        "acf_returns_lag1": 0.21956681523480256,
+        "acf_absolute_returns_lag1": 0.015441994350388323,
+        "zero_volume_fraction": 0.0033333333333333335,
+        "turnover_per_round": 0.014127586206896551,
+        "volume_weighted_mm_share": 0.4231551541778537,
+        "mean_fill_rate": 0.5370716140075849,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 7,
+        "mm_inventory_max": 289,
+        "aggregate_cash_growth": 0.2425607204703657,
+        "max_share_concentration": 0.1993103448275862
+      },
+      "event_metrics": null,
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 12544.652787774197,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 30128.877183676785,
+              "passive_wealth": 21884.652787774197,
+              "active_minus_passive": 8244.224395902587,
+              "active_return": 0.5064438591838392,
+              "passive_return": 0.09423263938870985,
+              "excess_return": 0.41221121979512937
+            },
+            "regime_benchmark": {
+              "active_wealth": 30901.077183676785,
+              "passive_wealth": 22544.652787774197,
+              "active_minus_passive": 8356.424395902588,
+              "active_return": 0.5450538591838392,
+              "passive_return": 0.12723263938870977,
+              "excess_return": 0.4178212197951294
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 12544.652787774197,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 16605.962323215936,
+              "passive_wealth": 21884.652787774197,
+              "active_minus_passive": -5278.690464558262,
+              "active_return": -0.16970188383920326,
+              "passive_return": 0.09423263938870985,
+              "excess_return": -0.2639345232279131
+            },
+            "regime_benchmark": {
+              "active_wealth": 17371.562323215934,
+              "passive_wealth": 22544.652787774197,
+              "active_minus_passive": -5173.090464558263,
+              "active_return": -0.13142188383920328,
+              "passive_return": 0.12723263938870977,
+              "excess_return": -0.25865452322791316
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 5209,
+      "cell": "quiet",
+      "run_path": "baseline_runs/20261103_183152_sequential_rules_quiet_s5209_r24_b91d7923",
+      "metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.027624999999999993,
+        "acf_returns_lag1": 0.013213869108533356,
+        "acf_absolute_returns_lag1": -0.041781264454850926,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.011580459770114942,
+        "volume_weighted_mm_share": 0.46898263027295284,
+        "mean_fill_rate": 0.5263801244230212,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 106,
+        "mm_inventory_max": 160,
+        "aggregate_cash_growth": 0.009277365739285948,
+        "max_share_concentration": 0.1103448275862069
+      },
+      "event_metrics": null,
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10097.393977596581,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20465.569009331623,
+              "passive_wealth": 20427.39397759658,
+              "active_minus_passive": 38.17503173504156,
+              "active_return": 0.023278450466581058,
+              "passive_return": 0.02136969887982909,
+              "excess_return": 0.001908751586752078
+            },
+            "regime_benchmark": {
+              "active_wealth": 20109.16900933162,
+              "passive_wealth": 20097.39397759658,
+              "active_minus_passive": 11.775031735040102,
+              "active_return": 0.005458450466581111,
+              "passive_return": 0.004869698879829132,
+              "excess_return": 0.000588751586752005
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10097.393977596581,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 20425.284592180724,
+              "passive_wealth": 20427.39397759658,
+              "active_minus_passive": -2.109385415857105,
+              "active_return": 0.021264229609036178,
+              "passive_return": 0.02136969887982909,
+              "excess_return": -0.00010546927079285524
+            },
+            "regime_benchmark": {
+              "active_wealth": 20049.084592180727,
+              "passive_wealth": 20097.39397759658,
+              "active_minus_passive": -48.309385415854194,
+              "active_return": 0.002454229609036407,
+              "passive_return": 0.004869698879829132,
+              "excess_return": -0.00241546927079271
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 5209,
+      "cell": "combined",
+      "run_path": "baseline_runs/20261103_183152_sequential_rules_combined_s5209_r24_eac1c8ad",
+      "metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.06215972222222222,
+        "acf_returns_lag1": 0.11432165322974579,
+        "acf_absolute_returns_lag1": -0.06472528010020517,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.01310344827586207,
+        "volume_weighted_mm_share": 0.46710526315789475,
+        "mean_fill_rate": 0.5209578584336795,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 17,
+        "mm_inventory_max": 160,
+        "aggregate_cash_growth": 0.009786706331738504,
+        "max_share_concentration": 0.1103448275862069
+      },
+      "event_metrics": {
+        "pre_event_price": 102.8,
+        "pre_mean_price": 100.18999999999998,
+        "event_price": 102.5,
+        "event_log_return": -0.0029225544426018536,
+        "post_mean_price": 108.16428571428573,
+        "post_mean_absolute_relative_gap": 0.09863095238095239,
+        "half_pre_event_gap_time": 10,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.24354243542435425,
+        "target_trade_leg_share": 0.12730627306273062,
+        "post_total_volume": 271
+      },
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10103.01428758226,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 22141.10707076265,
+              "passive_wealth": 21703.01428758226,
+              "active_minus_passive": 438.09278318038923,
+              "active_return": 0.10705535353813245,
+              "passive_return": 0.08515071437911303,
+              "excess_return": 0.02190463915901946
+            },
+            "regime_benchmark": {
+              "active_wealth": 22717.10707076265,
+              "passive_wealth": 22103.01428758226,
+              "active_minus_passive": 614.0927831803892,
+              "active_return": 0.13585535353813238,
+              "passive_return": 0.10515071437911305,
+              "excess_return": 0.030704639159019463
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10103.01428758226,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21857.58114628327,
+              "passive_wealth": 21703.01428758226,
+              "active_minus_passive": 154.56685870101137,
+              "active_return": 0.09287905731416357,
+              "passive_return": 0.08515071437911303,
+              "excess_return": 0.007728342935050568
+            },
+            "regime_benchmark": {
+              "active_wealth": 22329.58114628327,
+              "passive_wealth": 22103.01428758226,
+              "active_minus_passive": 226.56685870101137,
+              "active_return": 0.11647905731416364,
+              "passive_return": 0.10515071437911305,
+              "excess_return": 0.011328342935050568
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 5209,
+      "cell": "long_quiet",
+      "run_path": "baseline_runs/20261103_183152_sequential_rules_quiet_s5209_r600_f11f9809",
+      "metrics": {
+        "rounds": 600,
+        "return_observations": 600,
+        "mean_absolute_relative_gap": 0.053044999999999995,
+        "acf_returns_lag1": 0.1570316403836789,
+        "acf_absolute_returns_lag1": -0.04337239388088026,
+        "zero_volume_fraction": 0.005,
+        "turnover_per_round": 0.013119540229885058,
+        "volume_weighted_mm_share": 0.4413877694059926,
+        "mean_fill_rate": 0.533161910506421,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 3,
+        "mm_inventory_max": 300,
+        "aggregate_cash_growth": 0.24351791846398307,
+        "max_share_concentration": 0.20689655172413793
+      },
+      "event_metrics": null,
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 12555.214972531312,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 28220.564049613913,
+              "passive_wealth": 20915.214972531314,
+              "active_minus_passive": 7305.349077082599,
+              "active_return": 0.4110282024806957,
+              "passive_return": 0.04576074862656565,
+              "excess_return": 0.36526745385412995
+            },
+            "regime_benchmark": {
+              "active_wealth": 29417.764049613914,
+              "passive_wealth": 22555.214972531314,
+              "active_minus_passive": 6862.5490770826,
+              "active_return": 0.47088820248069574,
+              "passive_return": 0.12776074862656572,
+              "excess_return": 0.34312745385413
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 12555.214972531312,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 16477.531368449658,
+              "passive_wealth": 20915.214972531314,
+              "active_minus_passive": -4437.683604081656,
+              "active_return": -0.1761234315775171,
+              "passive_return": 0.04576074862656565,
+              "excess_return": -0.2218841802040828
+            },
+            "regime_benchmark": {
+              "active_wealth": 18166.73136844966,
+              "passive_wealth": 22555.214972531314,
+              "active_minus_passive": -4388.483604081655,
+              "active_return": -0.09166343157751711,
+              "passive_return": 0.12776074862656572,
+              "excess_return": -0.21942418020408277
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 6317,
+      "cell": "quiet",
+      "run_path": "baseline_runs/20261103_183153_sequential_rules_quiet_s6317_r24_625dc28b",
+      "metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.02766666666666666,
+        "acf_returns_lag1": -0.15788112167558213,
+        "acf_absolute_returns_lag1": -0.06602016530343563,
+        "zero_volume_fraction": 0.041666666666666664,
+        "turnover_per_round": 0.010833333333333334,
+        "volume_weighted_mm_share": 0.5464190981432361,
+        "mean_fill_rate": 0.49225927762852173,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 142,
+        "mm_inventory_max": 212,
+        "aggregate_cash_growth": 0.009076476039909132,
+        "max_share_concentration": 0.14620689655172414
+      },
+      "event_metrics": null,
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10095.177263672424,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19681.496032287258,
+              "passive_wealth": 19715.177263672424,
+              "active_minus_passive": -33.68123138516603,
+              "active_return": -0.015925198385637107,
+              "passive_return": -0.014241136816378841,
+              "excess_return": -0.0016840615692583015
+            },
+            "regime_benchmark": {
+              "active_wealth": 20084.296032287257,
+              "passive_wealth": 20095.177263672424,
+              "active_minus_passive": -10.881231385166757,
+              "active_return": 0.004214801614362829,
+              "passive_return": 0.004758863183621287,
+              "excess_return": -0.0005440615692583378
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10095.177263672424,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 19722.84925587772,
+              "passive_wealth": 19715.177263672424,
+              "active_minus_passive": 7.671992205298011,
+              "active_return": -0.013857537206113935,
+              "passive_return": -0.014241136816378841,
+              "excess_return": 0.00038359961026490056
+            },
+            "regime_benchmark": {
+              "active_wealth": 20057.24925587772,
+              "passive_wealth": 20095.177263672424,
+              "active_minus_passive": -37.92800779470417,
+              "active_return": 0.0028624627938860225,
+              "passive_return": 0.004758863183621287,
+              "excess_return": -0.0018964003897352086
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 6317,
+      "cell": "combined",
+      "run_path": "baseline_runs/20261103_183153_sequential_rules_combined_s6317_r24_394873a6",
+      "metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.08516666666666667,
+        "acf_returns_lag1": 0.2265265230678315,
+        "acf_absolute_returns_lag1": 0.1494457127466531,
+        "zero_volume_fraction": 0.041666666666666664,
+        "turnover_per_round": 0.0107183908045977,
+        "volume_weighted_mm_share": 0.579088471849866,
+        "mean_fill_rate": 0.4401440825913334,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 50,
+        "mm_inventory_max": 178,
+        "aggregate_cash_growth": 0.009575066231042095,
+        "max_share_concentration": 0.12275862068965518
+      },
+      "event_metrics": {
+        "pre_event_price": 97.8,
+        "pre_mean_price": 98.71,
+        "event_price": 97.1,
+        "event_log_return": -0.007183201743492419,
+        "post_mean_price": 103.58571428571429,
+        "post_mean_absolute_relative_gap": 0.13678571428571432,
+        "half_pre_event_gap_time": 12,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.2125,
+        "target_trade_leg_share": 0.10625,
+        "post_total_volume": 240
+      },
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10100.678948540097,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21396.37990272578,
+              "passive_wealth": 21230.678948540095,
+              "active_minus_passive": 165.700954185686,
+              "active_return": 0.06981899513628909,
+              "passive_return": 0.06153394742700469,
+              "excess_return": 0.0082850477092843
+            },
+            "regime_benchmark": {
+              "active_wealth": 22449.07990272578,
+              "passive_wealth": 22100.678948540095,
+              "active_minus_passive": 348.4009541856867,
+              "active_return": 0.12245399513628907,
+              "passive_return": 0.10503394742700478,
+              "excess_return": 0.017420047709284337
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10100.678948540097,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 21257.483367777277,
+              "passive_wealth": 21230.678948540095,
+              "active_minus_passive": 26.80441923718172,
+              "active_return": 0.06287416838886384,
+              "passive_return": 0.06153394742700469,
+              "excess_return": 0.001340220961859086
+            },
+            "regime_benchmark": {
+              "active_wealth": 22214.483367777277,
+              "passive_wealth": 22100.678948540095,
+              "active_minus_passive": 113.80441923718172,
+              "active_return": 0.11072416838886379,
+              "passive_return": 0.10503394742700478,
+              "excess_return": 0.005690220961859086
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 6317,
+      "cell": "long_quiet",
+      "run_path": "baseline_runs/20261103_183153_sequential_rules_quiet_s6317_r600_870171bc",
+      "metrics": {
+        "rounds": 600,
+        "return_observations": 600,
+        "mean_absolute_relative_gap": 0.06201,
+        "acf_returns_lag1": 0.2512838924201964,
+        "acf_absolute_returns_lag1": 0.03003301366395585,
+        "zero_volume_fraction": 0.0016666666666666668,
+        "turnover_per_round": 0.012398850574712643,
+        "volume_weighted_mm_share": 0.470102901640864,
+        "mean_fill_rate": 0.49545447896765327,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 0,
+        "mm_inventory_max": 300,
+        "aggregate_cash_growth": 0.2428183489827147,
+        "max_share_concentration": 0.20689655172413793
+      },
+      "event_metrics": null,
+      "target_accounts": [
+        {
+          "agent_id": "fund_012",
+          "type": "FundamentalistAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 12547.495585151819,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 31336.889630621594,
+              "passive_wealth": 22847.495585151817,
+              "active_minus_passive": 8489.394045469777,
+              "active_return": 0.5668444815310796,
+              "passive_return": 0.1423747792575909,
+              "excess_return": 0.42446970227348885
+            },
+            "regime_benchmark": {
+              "active_wealth": 31030.889630621594,
+              "passive_wealth": 22547.495585151817,
+              "active_minus_passive": 8483.394045469777,
+              "active_return": 0.5515444815310797,
+              "passive_return": 0.12737477925759078,
+              "excess_return": 0.4241697022734888
+            }
+          }
+        },
+        {
+          "agent_id": "mome_013",
+          "type": "MomentumAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 12547.495585151819,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 18308.79572554609,
+              "passive_wealth": 22847.495585151817,
+              "active_minus_passive": -4538.699859605727,
+              "active_return": -0.08456021372269551,
+              "passive_return": 0.1423747792575909,
+              "excess_return": -0.22693499298028638
+            },
+            "regime_benchmark": {
+              "active_wealth": 17942.79572554609,
+              "passive_wealth": 22547.495585151817,
+              "active_minus_passive": -4604.699859605727,
+              "active_return": -0.10286021372269549,
+              "passive_return": 0.12737477925759078,
+              "excess_return": -0.23023499298028638
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "arms": [
+    {
+      "mode": "A",
+      "config": "configs/A_4103.yaml",
+      "config_sha256": "af888049d0ef068913769a6300dc30b33fd83991c1c557216883615b9262fe17",
+      "seed": 4103,
+      "run_path": "block_4103/market_runs/20261103_183350_sequential_A_combined_s4103_r24_18a4432b",
+      "manifest_sha256": "a7fe7be73906465e035bb84b65889db3c3bab9d812b10833219acc360487c92b",
+      "status": "completed",
+      "rounds": 24,
+      "usage": {
+        "requests_made": 48,
+        "max_requests": 90,
+        "reserved_tokens": 776896,
+        "max_reserved_tokens": 1100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 136981,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "operational_failures": {
+        "parse_failures": 0,
+        "api_failures": 0,
+        "reflection_failures": 0,
+        "output_truncations": 0
+      },
+      "summary": {
+        "status": "completed",
+        "rounds": 24,
+        "requested_rounds": 24,
+        "seed": 4103,
+        "failure_type": null,
+        "stop_reason": null,
+        "seconds": 697.8,
+        "final_price": 124.8,
+        "total_llm_tokens": 136981,
+        "parse_failures": 0,
+        "api_failures": 0,
+        "reflection_failures": 0,
+        "output_truncations": 0,
+        "transport_retries": 0,
+        "json_repairs": 0,
+        "server_retries": 0,
+        "llm_usage": {
+          "requests_made": 48,
+          "max_requests": 90,
+          "reserved_tokens": 776896,
+          "max_reserved_tokens": 1100000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 136981,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 0,
+          "failed_requests": 0,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 0,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": false,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "orders_adjusted": 3,
+        "tax_collected": 0.0,
+        "random_stream_scheme": "seedsequence_v1:environment,population,personas,allocation",
+        "economic_model": "iid_permanent",
+        "benchmark_kind": "stationary_regime_risk_neutral",
+        "event_records": 1,
+        "announcements_available": 1,
+        "reveal_fundamental": false,
+        "decision_prompt_version": "comparable_agents_v2_disclosed_rules",
+        "conditions": [
+          "A"
+        ],
+        "round_unit": "trading_session",
+        "periods_per_year": 252,
+        "interest_per_round": 0.0002,
+        "cash_only_interest_factor": 1.0048110562090151,
+        "initial_cash": 160000.0,
+        "final_cash": 161549.32560596179,
+        "total_shares": 1450,
+        "total_dividends_paid": 777.8573902365429,
+        "total_interest_paid": 771.4682157252614,
+        "max_cash_conservation_error": 2.9103830456733704e-11,
+        "zero_volume_fraction": 0.0,
+        "mean_fill_rate": 0.43791866284362624,
+        "mean_submitted_quote_spread": -8.904166666666669,
+        "mean_market_maker_volume_fraction": 0.43993766496479353,
+        "price_band_hits": 0,
+        "implementation_stage": "3_comparable_agents_pilot"
+      },
+      "event_metrics": {
+        "pre_event_price": 104.9,
+        "pre_mean_price": 102.26,
+        "event_price": 104.9,
+        "event_log_return": 0.0,
+        "post_mean_price": 114.30714285714285,
+        "post_mean_absolute_relative_gap": 0.05684523809523808,
+        "half_pre_event_gap_time": 4,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.06896551724137931,
+        "target_trade_leg_share": 0.034482758620689655,
+        "post_total_volume": 290
+      },
+      "market_metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.04257638888888888,
+        "acf_returns_lag1": 0.08260462577660055,
+        "acf_absolute_returns_lag1": 0.08230762619343181,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.013879310344827585,
+        "volume_weighted_mm_share": 0.36024844720496896,
+        "mean_fill_rate": 0.43791866284362624,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 12,
+        "mm_inventory_max": 150,
+        "aggregate_cash_growth": 0.009683285037261236,
+        "max_share_concentration": 0.13655172413793104
+      },
+      "target_trading": [
+        {
+          "agent_id": "llm_012",
+          "name": "Meera Iyer",
+          "period": "pre",
+          "requested": 265,
+          "accepted": 265,
+          "executed": 9,
+          "net_executed": 9,
+          "gross_fill_fraction": 0.033962264150943396
+        },
+        {
+          "agent_id": "llm_012",
+          "name": "Meera Iyer",
+          "period": "post",
+          "requested": 75,
+          "accepted": 75,
+          "executed": 20,
+          "net_executed": -20,
+          "gross_fill_fraction": 0.26666666666666666
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Arjun Malhotra",
+          "period": "pre",
+          "requested": 318,
+          "accepted": 299,
+          "executed": 98,
+          "net_executed": 98,
+          "gross_fill_fraction": 0.3277591973244147
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Arjun Malhotra",
+          "period": "post",
+          "requested": 2,
+          "accepted": 2,
+          "executed": 0,
+          "net_executed": 0,
+          "gross_fill_fraction": 0.0
+        }
+      ],
+      "event_account_constraints": [
+        {
+          "agent_id": "llm_012",
+          "cash": 9103.628829489235,
+          "shares": 109,
+          "price": 104.9,
+          "stock_weight": 0.5567363409522805,
+          "best_band_limit_buy_capacity": 108,
+          "market_buy_capacity": 72
+        },
+        {
+          "agent_id": "llm_013",
+          "cash": 79.30852650842114,
+          "shares": 198,
+          "price": 104.9,
+          "stock_weight": 0.9961961440766055,
+          "best_band_limit_buy_capacity": 0,
+          "market_buy_capacity": 0
+        }
+      ],
+      "target_accounts": [
+        {
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10101.873087091486,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 22527.150856948036,
+              "passive_wealth": 22581.873087091488,
+              "active_minus_passive": -54.72223014345218,
+              "active_return": 0.12635754284740175,
+              "passive_return": 0.12909365435457443,
+              "excess_return": -0.002736111507172609
+            },
+            "regime_benchmark": {
+              "active_wealth": 22099.95085694804,
+              "passive_wealth": 22101.873087091488,
+              "active_minus_passive": -1.9222301434492692,
+              "active_return": 0.10499754284740193,
+              "passive_return": 0.1050936543545744,
+              "excess_return": -9.611150717246347e-05
+            }
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10101.873087091486,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 24857.39033149656,
+              "passive_wealth": 22581.873087091488,
+              "active_minus_passive": 2275.517244405073,
+              "active_return": 0.24286951657482803,
+              "passive_return": 0.12909365435457443,
+              "excess_return": 0.11377586222025365
+            },
+            "regime_benchmark": {
+              "active_wealth": 23906.990331496563,
+              "passive_wealth": 22101.873087091488,
+              "active_minus_passive": 1805.1172444050753,
+              "active_return": 0.19534951657482824,
+              "passive_return": 0.1050936543545744,
+              "excess_return": 0.09025586222025377
+            }
+          }
+        }
+      ],
+      "initial_choices": [
+        {
+          "agent_id": "llm_012",
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        {
+          "agent_id": "llm_013",
+          "side": "buy",
+          "quantity": 50,
+          "limit_price": 100.2
+        }
+      ],
+      "usage_by_call_type": {
+        "decision": {
+          "http_attempts": 48,
+          "provider_reported_tokens": 136981,
+          "unknown_usage_attempts": 0
+        },
+        "reflection": {
+          "http_attempts": 0,
+          "provider_reported_tokens": 0,
+          "unknown_usage_attempts": 0
+        }
+      }
+    },
+    {
+      "mode": "B",
+      "config": "configs/B_4103.yaml",
+      "config_sha256": "76d0342ce1b1540eaeff6e43f5d094f945e8bc8f344e658566946f11eaa4b64c",
+      "seed": 4103,
+      "run_path": "block_4103/market_runs/20261103_184528_sequential_B_combined_s4103_r24_74bfb78f",
+      "manifest_sha256": "c81d6676d81ef198eb979f69840eb299d496ae24f87c764a9b3aa5a0b77e065d",
+      "status": "completed",
+      "rounds": 24,
+      "usage": {
+        "requests_made": 48,
+        "max_requests": 90,
+        "reserved_tokens": 803649,
+        "max_reserved_tokens": 1100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 146181,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 0,
+        "failed_requests": 0,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 0,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": false,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "operational_failures": {
+        "parse_failures": 0,
+        "api_failures": 0,
+        "reflection_failures": 0,
+        "output_truncations": 0
+      },
+      "summary": {
+        "status": "completed",
+        "rounds": 24,
+        "requested_rounds": 24,
+        "seed": 4103,
+        "failure_type": null,
+        "stop_reason": null,
+        "seconds": 523.5,
+        "final_price": 126.7,
+        "total_llm_tokens": 146181,
+        "parse_failures": 0,
+        "api_failures": 0,
+        "reflection_failures": 0,
+        "output_truncations": 0,
+        "transport_retries": 0,
+        "json_repairs": 0,
+        "server_retries": 0,
+        "llm_usage": {
+          "requests_made": 48,
+          "max_requests": 90,
+          "reserved_tokens": 803649,
+          "max_reserved_tokens": 1100000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 146181,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 0,
+          "failed_requests": 0,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 0,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": false,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "orders_adjusted": 5,
+        "tax_collected": 0.0,
+        "random_stream_scheme": "seedsequence_v1:environment,population,personas,allocation",
+        "economic_model": "iid_permanent",
+        "benchmark_kind": "stationary_regime_risk_neutral",
+        "event_records": 1,
+        "announcements_available": 1,
+        "reveal_fundamental": false,
+        "decision_prompt_version": "comparable_agents_v2_disclosed_rules",
+        "conditions": [
+          "B"
+        ],
+        "round_unit": "trading_session",
+        "periods_per_year": 252,
+        "interest_per_round": 0.0002,
+        "cash_only_interest_factor": 1.0048110562090151,
+        "initial_cash": 160000.0,
+        "final_cash": 161549.3256059618,
+        "total_shares": 1450,
+        "total_dividends_paid": 777.8573902365429,
+        "total_interest_paid": 771.4682157252614,
+        "max_cash_conservation_error": 2.9103830456733704e-11,
+        "zero_volume_fraction": 0.0,
+        "mean_fill_rate": 0.44848269961559,
+        "mean_submitted_quote_spread": -8.891666666666666,
+        "mean_market_maker_volume_fraction": 0.515659372079209,
+        "price_band_hits": 0,
+        "implementation_stage": "3_comparable_agents_pilot"
+      },
+      "event_metrics": {
+        "pre_event_price": 105.1,
+        "pre_mean_price": 102.31,
+        "event_price": 105.1,
+        "event_log_return": 0.0,
+        "post_mean_price": 115.44285714285715,
+        "post_mean_absolute_relative_gap": 0.053333333333333344,
+        "half_pre_event_gap_time": 4,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.13356164383561644,
+        "target_trade_leg_share": 0.06678082191780822,
+        "post_total_volume": 292
+      },
+      "market_metrics": {
+        "rounds": 24,
+        "return_observations": 24,
+        "mean_absolute_relative_gap": 0.041152777777777795,
+        "acf_returns_lag1": 0.1953381870353248,
+        "acf_absolute_returns_lag1": 0.1866327908150151,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.013764367816091954,
+        "volume_weighted_mm_share": 0.4154488517745303,
+        "mean_fill_rate": 0.44848269961559,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 9,
+        "mm_inventory_max": 159,
+        "aggregate_cash_growth": 0.009683285037261236,
+        "max_share_concentration": 0.13724137931034483
+      },
+      "target_trading": [
+        {
+          "agent_id": "llm_012",
+          "name": "Meera Iyer",
+          "period": "pre",
+          "requested": 210,
+          "accepted": 210,
+          "executed": 0,
+          "net_executed": 0,
+          "gross_fill_fraction": 0.0
+        },
+        {
+          "agent_id": "llm_012",
+          "name": "Meera Iyer",
+          "period": "post",
+          "requested": 135,
+          "accepted": 135,
+          "executed": 38,
+          "net_executed": -2,
+          "gross_fill_fraction": 0.2814814814814815
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Arjun Malhotra",
+          "period": "pre",
+          "requested": 227,
+          "accepted": 212,
+          "executed": 98,
+          "net_executed": 98,
+          "gross_fill_fraction": 0.46226415094339623
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Arjun Malhotra",
+          "period": "post",
+          "requested": 1,
+          "accepted": 1,
+          "executed": 1,
+          "net_executed": 1,
+          "gross_fill_fraction": 1.0
+        }
+      ],
+      "event_account_constraints": [
+        {
+          "agent_id": "llm_012",
+          "cash": 10039.655048954533,
+          "shares": 100,
+          "price": 105.1,
+          "stock_weight": 0.5114441081839326,
+          "best_band_limit_buy_capacity": 119,
+          "market_buy_capacity": 79
+        },
+        {
+          "agent_id": "llm_013",
+          "cash": 119.00611015055549,
+          "shares": 198,
+          "price": 105.1,
+          "stock_weight": 0.9943137649838116,
+          "best_band_limit_buy_capacity": 1,
+          "market_buy_capacity": 0
+        }
+      ],
+      "target_accounts": [
+        {
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10101.873087091486,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 22822.30870237253,
+              "passive_wealth": 22771.873087091488,
+              "active_minus_passive": 50.43561528104328,
+              "active_return": 0.14111543511862656,
+              "passive_return": 0.1385936543545745,
+              "excess_return": 0.0025217807640521644
+            },
+            "regime_benchmark": {
+              "active_wealth": 22165.70870237253,
+              "passive_wealth": 22101.873087091488,
+              "active_minus_passive": 63.8356152810411,
+              "active_return": 0.10828543511862643,
+              "passive_return": 0.1050936543545744,
+              "excess_return": 0.003191780764052055
+            }
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10101.873087091486,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 25290.42747259894,
+              "passive_wealth": 22771.873087091488,
+              "active_minus_passive": 2518.554385507454,
+              "active_return": 0.264521373629947,
+              "passive_return": 0.1385936543545745,
+              "excess_return": 0.1259277192753727
+            },
+            "regime_benchmark": {
+              "active_wealth": 23957.127472598942,
+              "passive_wealth": 22101.873087091488,
+              "active_minus_passive": 1855.2543855074546,
+              "active_return": 0.197856373629947,
+              "passive_return": 0.1050936543545744,
+              "excess_return": 0.09276271927537273
+            }
+          }
+        }
+      ],
+      "initial_choices": [
+        {
+          "agent_id": "llm_012",
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        {
+          "agent_id": "llm_013",
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        }
+      ],
+      "usage_by_call_type": {
+        "decision": {
+          "http_attempts": 48,
+          "provider_reported_tokens": 146181,
+          "unknown_usage_attempts": 0
+        },
+        "reflection": {
+          "http_attempts": 0,
+          "provider_reported_tokens": 0,
+          "unknown_usage_attempts": 0
+        }
+      }
+    },
+    {
+      "mode": "C",
+      "config": "configs/C_4103.yaml",
+      "config_sha256": "4bcf8cc5a47cc219884f8e5beb5c840e622ceb4438152772e1b8eaf164b658ab",
+      "seed": 4103,
+      "run_path": "block_4103/market_runs/20261103_185412_sequential_C_combined_s4103_r24_81e8e977",
+      "manifest_sha256": "b4f12946419d28e55bd51dae486bc5a54cd572eea26207ce2e4ef244379f013a",
+      "status": "provider_error",
+      "rounds": 22,
+      "usage": {
+        "requests_made": 54,
+        "max_requests": 90,
+        "reserved_tokens": 927229,
+        "max_reserved_tokens": 1100000,
+        "reserved_cost_usd": 0.0,
+        "max_cost_usd": 0.0,
+        "provider_reported_tokens": 172842,
+        "estimated_mock_tokens": 0,
+        "unknown_usage_requests": 2,
+        "failed_requests": 2,
+        "observed_cost_estimate_usd": 0.0,
+        "blocked_requests": 1,
+        "requests_per_minute": 10,
+        "input_tokens_per_minute": 60000,
+        "stop_on_api_error": true,
+        "provider_stopped": true,
+        "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+      },
+      "operational_failures": {
+        "parse_failures": 0,
+        "api_failures": 1,
+        "reflection_failures": 0,
+        "output_truncations": 0
+      },
+      "summary": {
+        "status": "provider_error",
+        "rounds": 22,
+        "requested_rounds": 24,
+        "seed": 4103,
+        "failure_type": "ProviderUnavailable",
+        "stop_reason": "provider request failed (HTTP 503)",
+        "seconds": 1013.4,
+        "final_price": 123.5,
+        "total_llm_tokens": 172842,
+        "parse_failures": 0,
+        "api_failures": 1,
+        "reflection_failures": 0,
+        "output_truncations": 0,
+        "transport_retries": 0,
+        "json_repairs": 0,
+        "server_retries": 1,
+        "llm_usage": {
+          "requests_made": 54,
+          "max_requests": 90,
+          "reserved_tokens": 927229,
+          "max_reserved_tokens": 1100000,
+          "reserved_cost_usd": 0.0,
+          "max_cost_usd": 0.0,
+          "provider_reported_tokens": 172842,
+          "estimated_mock_tokens": 0,
+          "unknown_usage_requests": 2,
+          "failed_requests": 2,
+          "observed_cost_estimate_usd": 0.0,
+          "blocked_requests": 1,
+          "requests_per_minute": 10,
+          "input_tokens_per_minute": 60000,
+          "stop_on_api_error": true,
+          "provider_stopped": true,
+          "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+        },
+        "orders_adjusted": 2,
+        "tax_collected": 0.0,
+        "random_stream_scheme": "seedsequence_v1:environment,population,personas,allocation",
+        "economic_model": "iid_permanent",
+        "benchmark_kind": "stationary_regime_risk_neutral",
+        "event_records": 1,
+        "announcements_available": 1,
+        "reveal_fundamental": false,
+        "decision_prompt_version": "comparable_agents_v2_disclosed_rules",
+        "conditions": [
+          "C"
+        ],
+        "round_unit": "trading_session",
+        "periods_per_year": 252,
+        "interest_per_round": 0.0002,
+        "cash_only_interest_factor": 1.0044092523317125,
+        "initial_cash": 160000.0,
+        "final_cash": 161422.79078494795,
+        "total_shares": 1450,
+        "total_dividends_paid": 715.9044427921866,
+        "total_interest_paid": 706.8863421557604,
+        "max_cash_conservation_error": 2.9103830456733704e-11,
+        "zero_volume_fraction": 0.0,
+        "mean_fill_rate": 0.4924306670335141,
+        "mean_submitted_quote_spread": -9.804545454545453,
+        "mean_market_maker_volume_fraction": 0.447708081633867,
+        "price_band_hits": 0,
+        "implementation_stage": "3_comparable_agents_pilot"
+      },
+      "event_metrics": {
+        "pre_event_price": 105.9,
+        "pre_mean_price": 103.32000000000001,
+        "event_price": 106.8,
+        "event_log_return": 0.008462673918733508,
+        "post_mean_price": 115.71666666666668,
+        "post_mean_absolute_relative_gap": 0.04374999999999999,
+        "half_pre_event_gap_time": 4,
+        "half_gap_right_censored": false,
+        "target_union_volume_share": 0.03162055335968379,
+        "target_trade_leg_share": 0.015810276679841896,
+        "post_total_volume": 253
+      },
+      "market_metrics": {
+        "rounds": 22,
+        "return_observations": 22,
+        "mean_absolute_relative_gap": 0.03895454545454546,
+        "acf_returns_lag1": 0.08846233520011712,
+        "acf_absolute_returns_lag1": 0.08613401563798889,
+        "zero_volume_fraction": 0.0,
+        "turnover_per_round": 0.014043887147335423,
+        "volume_weighted_mm_share": 0.3549107142857143,
+        "mean_fill_rate": 0.4924306670335141,
+        "band_hit_fraction": 0.0,
+        "mm_inventory_min": 27,
+        "mm_inventory_max": 140,
+        "aggregate_cash_growth": 0.008892442405924683,
+        "max_share_concentration": 0.13655172413793104
+      },
+      "target_trading": [
+        {
+          "agent_id": "llm_012",
+          "name": "Meera Iyer",
+          "period": "pre",
+          "requested": 26,
+          "accepted": 26,
+          "executed": 18,
+          "net_executed": -2,
+          "gross_fill_fraction": 0.6923076923076923
+        },
+        {
+          "agent_id": "llm_012",
+          "name": "Meera Iyer",
+          "period": "post",
+          "requested": 2,
+          "accepted": 2,
+          "executed": 2,
+          "net_executed": -2,
+          "gross_fill_fraction": 1.0
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Arjun Malhotra",
+          "period": "pre",
+          "requested": 311,
+          "accepted": 298,
+          "executed": 92,
+          "net_executed": 92,
+          "gross_fill_fraction": 0.3087248322147651
+        },
+        {
+          "agent_id": "llm_013",
+          "name": "Arjun Malhotra",
+          "period": "post",
+          "requested": 6,
+          "accepted": 6,
+          "executed": 6,
+          "net_executed": 6,
+          "gross_fill_fraction": 1.0
+        }
+      ],
+      "event_account_constraints": [
+        {
+          "agent_id": "llm_012",
+          "cash": 10233.68298390475,
+          "shares": 98,
+          "price": 105.9,
+          "stock_weight": 0.5035056723397882,
+          "best_band_limit_buy_capacity": 120,
+          "market_buy_capacity": 80
+        },
+        {
+          "agent_id": "llm_013",
+          "cash": 652.6200323313063,
+          "shares": 192,
+          "price": 105.9,
+          "stock_weight": 0.968901264243182,
+          "best_band_limit_buy_capacity": 7,
+          "market_buy_capacity": 5
+        }
+      ],
+      "target_accounts": [
+        {
+          "agent_id": "llm_012",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10093.562206894638,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 22381.440903394097,
+              "passive_wealth": 22443.56220689464,
+              "active_minus_passive": -62.121303500542126,
+              "active_return": 0.11907204516970493,
+              "passive_return": 0.12217811034473192,
+              "excess_return": -0.0031060651750271064
+            },
+            "regime_benchmark": {
+              "active_wealth": 22045.440903394097,
+              "passive_wealth": 22093.56220689464,
+              "active_minus_passive": -48.121303500542126,
+              "active_return": 0.10227204516970478,
+              "passive_return": 0.10467811034473207,
+              "excess_return": -0.0024060651750271063
+            }
+          }
+        },
+        {
+          "agent_id": "llm_013",
+          "type": "LLMAgent",
+          "initial_market_wealth": 20000.0,
+          "passive_cash": 10093.562206894638,
+          "passive_shares": 100,
+          "marks": {
+            "auction": {
+              "active_wealth": 24514.496883523658,
+              "passive_wealth": 22443.56220689464,
+              "active_minus_passive": 2070.934676629018,
+              "active_return": 0.225724844176183,
+              "passive_return": 0.12217811034473192,
+              "excess_return": 0.10354673383145091
+            },
+            "regime_benchmark": {
+              "active_wealth": 23821.496883523658,
+              "passive_wealth": 22093.56220689464,
+              "active_minus_passive": 1727.9346766290182,
+              "active_return": 0.19107484417618292,
+              "passive_return": 0.10467811034473207,
+              "excess_return": 0.08639673383145091
+            }
+          }
+        }
+      ],
+      "initial_choices": [
+        {
+          "agent_id": "llm_012",
+          "side": "hold",
+          "quantity": 0,
+          "limit_price": null
+        },
+        {
+          "agent_id": "llm_013",
+          "side": "buy",
+          "quantity": 90,
+          "limit_price": 110.0
+        }
+      ],
+      "usage_by_call_type": {
+        "decision": {
+          "http_attempts": 46,
+          "provider_reported_tokens": 149551,
+          "unknown_usage_attempts": 2
+        },
+        "reflection": {
+          "http_attempts": 8,
+          "provider_reported_tokens": 23291,
+          "unknown_usage_attempts": 0
+        }
+      }
+    }
+  ],
+  "uncompleted_live_arms": [
+    {
+      "seed": 4103,
+      "mode": "C"
+    },
+    {
+      "seed": 5209,
+      "mode": "B"
+    },
+    {
+      "seed": 5209,
+      "mode": "C"
+    },
+    {
+      "seed": 5209,
+      "mode": "A"
+    },
+    {
+      "seed": 6317,
+      "mode": "C"
+    },
+    {
+      "seed": 6317,
+      "mode": "A"
+    },
+    {
+      "seed": 6317,
+      "mode": "B"
+    }
+  ],
+  "finalized_usage": {
+    "requests_made": 150,
+    "reserved_tokens": 2507774,
+    "provider_reported_tokens": 456004,
+    "unknown_usage_requests": 2,
+    "failed_requests": 2,
+    "blocked_requests": 1
+  },
+  "usage_scope": "Finalized arms only; excludes active in-flight market during generation.",
+  "returned_models": {
+    "qwen-3.8-27b": 148
+  },
+  "delivered_valid_decisions": 140,
+  "qualitative_window_cases": [
+    {
+      "seed": 4103,
+      "mode": "C",
+      "agent_id": "llm_013",
+      "source_run": "block_4103/market_runs/20261103_185412_sequential_C_combined_s4103_r24_81e8e977",
+      "earlier_diary_round": 15,
+      "later_diary_round": 20,
+      "later_verified_window": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual_fills": {
+        "11": [
+          {
+            "side": "buy",
+            "quantity": 5,
+            "price": 106.8
+          }
+        ],
+        "16": [
+          {
+            "side": "buy",
+            "quantity": 1,
+            "price": 116.1
+          }
+        ]
+      },
+      "earlier_diary": "**Observations:** Price ran 106.8 \u2192 114.8 over four sessions, +7.4%, zero pullbacks. I added 5 shares at 106.8 on the dividend-hike forecast; that was my only trade. Cash sits at $142 \u2014 I'm 99.4% in the position. **Beliefs:** The acceleration is real, not a blow-off. Each session's high became the next session's floor. The dividend news is a catalyst I can't verify, but the tape doesn't care \u2014 it's confirming. I'm not doubting this. **Plan:** Hold. I can't add at this price with $142 cash. I'll sell only on a genuine break, not a tick.",
+      "later_diary": "**Observations:** Verified fills show my only buy was 1 share at 116.1 \u2014 not the 5 at 106.8 I recalled. Price has climbed 116.1 \u2192 120.4 across rounds 16\u201320, with two flat closes at 119.0 before the last push up. Cash is $50.34; I hold 198 shares at a $101.19 average, wealth near $23,890. **Beliefs:** The uptrend is intact \u2014 a pause, not a break. No lower close yet, so my sell trigger hasn't fired. My earlier dividend-hike story remains unverified; the tape is what I'm trading. **Plan:** Hold all 198. Cash can't buy a share even at the reservation price, so there's nothing to add. I sell only on a genuine lower close.",
+      "interpretation": "Qualitative, post-hoc candidate window-scope conflation: both purchases occurred, but the later diary calls the earlier true purchase a mistaken recollection. No estimated error rate or measured causal trading harm."
+    }
+  ],
+  "audits": {
+    "source_and_output_hashes": true,
+    "matched_resources_dividends": true,
+    "own_history_reflections_verified": 8,
+    "identical_initial_B_C_messages": [
+      {
+        "seed": 4103,
+        "agent_id": "llm_012"
+      },
+      {
+        "seed": 4103,
+        "agent_id": "llm_013"
+      }
+    ],
+    "secret_scan_passed": true,
+    "scanned_members": 516
+  },
+  "limitations": "Fresh predesignated seeds, initially n=1 live gate; all three needed for the planned small replication.24 rounds are not stylized-fact validation;600-round rule backgrounds are descriptive and uncalibrated. Mode policies differ from round1, so pre-event states diverge; common shock does not identify a causal headline effect. C has genuine own endogenous history. Specified equal-resource rule replacements do not standardize order size or establish intrinsic LLM superiority. New common8192 profile is not pooled with old4096 probes; no backend fingerprint/model seed assumed.",
+  "analysis_source_sha256": "37d8059add8acd38ad277bd6a63f13858082c1e8ce0dd31aca8da0564b27df6e"
+}

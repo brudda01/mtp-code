@@ -1,0 +1,246 @@
+{
+  "version": "sequential_abc_market_gate_v1_output8192",
+  "status": "frozen_before_runs",
+  "prompt_suite_version": "comparable_agents_v2_disclosed_rules",
+  "source_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/agents/base.py": "83d2456942a1f81051b43eaba508426e063f32fed844e588dd6a4d3002e468a0",
+    "sim/agents/llm_agent.py": "0346d68c54b34c272d6bc2415209a3862082854f3b8a27f19ce941f19d99f9dd",
+    "sim/agents/personas.py": "5ca4422b57cb9d5ebc6d1343bb1d98074e68c1c5808ac3ece138827a0bf1dadd",
+    "sim/agents/rule_agents.py": "830013b78ca708491685673530dec02902721c2efb6188389b16af55d28954d9",
+    "sim/assets.py": "6d5fe9f189b2933b57d756351a1a5d1b5babf25c5eb9bef45faa5b7b9f171d3f",
+    "sim/background_check.py": "1b914822512a654cd2fe8b6f1128889a1a1e0519a43d5e05b758efecead11ca2",
+    "sim/behaviour_check.py": "bdeb3826275735e7e8c60c780ec264a6dde840ba4703aed1e62abc338e0f92d7",
+    "sim/behaviour_run.py": "f24f370d699dd6b3118886d22f34e28e4695de3f6deca6d1f21b359e3f3a5056",
+    "sim/capability_check.py": "9c531e1c621d7bbffb3a78869cbe28db7a7ea8d9a2889501f4eac5b4b93c3e95",
+    "sim/component_continuation.py": "5c386f8d84e7a50654676aaea2dbd33a1365337aadc44be0d52f35a97388426b",
+    "sim/config.py": "c220ef6fefd4202bee529ca60adbfb97d7eb001f5cab5dac0b743fac4e626bc7",
+    "sim/engine.py": "abb3424aa0e72bcfdf12a533cbe900b3b654edfd71167f466aa99b8f113421de",
+    "sim/evaluation.py": "75d6c2fa42316180f7a7b0de7679b953ccb7245e53d077a1c6b6eba804fe0a30",
+    "sim/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/llm/client.py": "30920fecf5df77d030fec79502c57c3685266641e01516af78253c623aae2d38",
+    "sim/llm/mock.py": "1ed1e0270d3e2a1b02cc166996660bbf8ff3a40a879e44a4cb5ad3e4f0b642d6",
+    "sim/llm/usage.py": "0eac3a338a836884516b5affc4c59cab7fb9c68813070e2b999ac1fbfaba9e27",
+    "sim/market.py": "b519123af433c6fb65bc6e281065c12b430d1bdf27a9876dfa30b1e641eb2a05",
+    "sim/metrics.py": "a682bfbd2f55a8040066f748b6f0dc77bb169e6ee7173265d4daf3c148febc2c",
+    "sim/news_components.py": "d7e611f86fb6ec543feca0b6f0dd8d23fbe61d3d4b9a09e08898000b88879d53",
+    "sim/news_controls.py": "dfdc2cccd76845107b6fe36f9faba2bc027d76bc51622afba07c0c36ce3be88f",
+    "sim/news_pilot.py": "b7d44eda1d8cf78e767431c9f033689fe97e8a330fd53b35f21b9cdda0574560",
+    "sim/pilot.py": "1adff607ec8414320025389901b11ded0129b345085e3769dbe326de1105ee5e",
+    "sim/provenance.py": "2f79828cc6da6c46f15afd2974842cc14c1632a8903adf855be1ab71dde0dbc9",
+    "sim/sequential_markets.py": "23163329202210ddfd193dde502110a0948da3e35902b7e3efa7e019a1785bcd"
+  },
+  "source_archive_sha256": "84ee9cc6b4f3dfd010ac7ab101955953b1d3357be369da3aa66c1777d5eea269",
+  "parent_revision": "0f80f2cfaa6b1059ecbf5c2ded9ffe91640195a6",
+  "working_tree_status": [
+    " M ../06_EVALUATION_AND_EXPERIMENTS.md",
+    "AM ../AGENTS.md",
+    "AM ../RESEARCH_DIARY.md",
+    " M README.md",
+    " M configs/dev_mock.yaml",
+    " M sim/agents/base.py",
+    " M sim/agents/llm_agent.py",
+    " M sim/agents/rule_agents.py",
+    " M sim/assets.py",
+    " M sim/engine.py",
+    " M sim/llm/client.py",
+    " M sim/llm/mock.py",
+    " M sim/market.py",
+    "?? ../.gitignore",
+    "?? AGENT_EXPERIMENTS.md",
+    "?? ECONOMIC_MODEL.md",
+    "?? configs/baseline_mock.yaml",
+    "?? configs/baseline_rules.yaml",
+    "?? configs/diagnostic_shock.yaml",
+    "?? configs/pilot_a_mock.yaml",
+    "?? configs/pilot_b_mock.yaml",
+    "?? configs/pilot_c_mock.yaml",
+    "?? sim/background_check.py",
+    "?? sim/behaviour_check.py",
+    "?? sim/behaviour_run.py",
+    "?? sim/capability_check.py",
+    "?? sim/component_continuation.py",
+    "?? sim/config.py",
+    "?? sim/evaluation.py",
+    "?? sim/llm/usage.py",
+    "?? sim/news_components.py",
+    "?? sim/news_controls.py",
+    "?? sim/news_pilot.py",
+    "?? sim/pilot.py",
+    "?? sim/provenance.py",
+    "?? sim/sequential_markets.py",
+    "?? tests/test_behaviour_run.py",
+    "?? tests/test_comparable_agents.py",
+    "?? tests/test_component_continuation.py",
+    "?? tests/test_config.py",
+    "?? tests/test_disclosed_rules.py",
+    "?? tests/test_economics.py",
+    "?? tests/test_foundation.py",
+    "?? tests/test_live_pilot.py",
+    "?? tests/test_news_components.py",
+    "?? tests/test_news_controls.py",
+    "?? tests/test_news_pilot.py",
+    "?? tests/test_research_checks.py",
+    "?? tests/test_sequential_markets.py",
+    "?? tests/test_transport_retry.py"
+  ],
+  "seeds": [
+    4103,
+    5209,
+    6317
+  ],
+  "rounds": 24,
+  "event_round": 11,
+  "background_rounds": 600,
+  "baselines": [
+    {
+      "seed": 4103,
+      "cell": "quiet",
+      "rounds": 24,
+      "config": "configs/rules_quiet_4103.yaml",
+      "config_sha256": "7a45961c4ac3725fa47d095c06a0f97835f627b507435391a1870e0ae128e2f3"
+    },
+    {
+      "seed": 4103,
+      "cell": "combined",
+      "rounds": 24,
+      "config": "configs/rules_combined_4103.yaml",
+      "config_sha256": "5f3121dfb946727dfea6c78dcf60b0711caac510b00fd910191f2bbcf1ff728e"
+    },
+    {
+      "seed": 4103,
+      "cell": "long_quiet",
+      "rounds": 600,
+      "config": "configs/rules_long_quiet_4103.yaml",
+      "config_sha256": "b1f7d346df62d0dd55cbdce0258780cd5e33e14ba38c9ee3968101faa97318b9"
+    },
+    {
+      "seed": 5209,
+      "cell": "quiet",
+      "rounds": 24,
+      "config": "configs/rules_quiet_5209.yaml",
+      "config_sha256": "6f04e88b56d591485068eaf23270b185355942079acaaced91a10a6afb2a5bd5"
+    },
+    {
+      "seed": 5209,
+      "cell": "combined",
+      "rounds": 24,
+      "config": "configs/rules_combined_5209.yaml",
+      "config_sha256": "37af292c982ef62cb3c7767ed8b4c6a02175e968d01bde863de007da506bdb07"
+    },
+    {
+      "seed": 5209,
+      "cell": "long_quiet",
+      "rounds": 600,
+      "config": "configs/rules_long_quiet_5209.yaml",
+      "config_sha256": "7acbf14f8ccbb2d36d25f0b5df6be47305d63fc9c0611c31c9169db21c10f5ae"
+    },
+    {
+      "seed": 6317,
+      "cell": "quiet",
+      "rounds": 24,
+      "config": "configs/rules_quiet_6317.yaml",
+      "config_sha256": "366a08770589dfb9ce062715150ed38de72157dffbf7acc71a68bc8c1a2f7e67"
+    },
+    {
+      "seed": 6317,
+      "cell": "combined",
+      "rounds": 24,
+      "config": "configs/rules_combined_6317.yaml",
+      "config_sha256": "24e6a30f9672596d97176c142a10ce2b3ea73283397f9cd44ff53c9e0e63b7de"
+    },
+    {
+      "seed": 6317,
+      "cell": "long_quiet",
+      "rounds": 600,
+      "config": "configs/rules_long_quiet_6317.yaml",
+      "config_sha256": "be029134e723458988f2c63b17d4dc555bff87cd24fd1ca6fa0c317daebec5c9"
+    }
+  ],
+  "blocks": [
+    {
+      "seed": 4103,
+      "arms": [
+        {
+          "mode": "A",
+          "config": "configs/A_4103.yaml",
+          "config_sha256": "af888049d0ef068913769a6300dc30b33fd83991c1c557216883615b9262fe17"
+        },
+        {
+          "mode": "B",
+          "config": "configs/B_4103.yaml",
+          "config_sha256": "76d0342ce1b1540eaeff6e43f5d094f945e8bc8f344e658566946f11eaa4b64c"
+        },
+        {
+          "mode": "C",
+          "config": "configs/C_4103.yaml",
+          "config_sha256": "4bcf8cc5a47cc219884f8e5beb5c840e622ceb4438152772e1b8eaf164b658ab"
+        }
+      ]
+    },
+    {
+      "seed": 5209,
+      "arms": [
+        {
+          "mode": "B",
+          "config": "configs/B_5209.yaml",
+          "config_sha256": "cf0a84c4bc3c803cd5bfece8ed560cc2b8a7ece77cd21769bb652d3cca211eaf"
+        },
+        {
+          "mode": "C",
+          "config": "configs/C_5209.yaml",
+          "config_sha256": "bee953a5c9fda4c5dc4f5f381bf64c46ca9e86216951eb773482368e509c5ae5"
+        },
+        {
+          "mode": "A",
+          "config": "configs/A_5209.yaml",
+          "config_sha256": "fee2df00cb0bd3ea84b212a4eb7ee9d522663fac8e3d0535d32398e68f7a3179"
+        }
+      ]
+    },
+    {
+      "seed": 6317,
+      "arms": [
+        {
+          "mode": "C",
+          "config": "configs/C_6317.yaml",
+          "config_sha256": "f1611ce91745f4f6c9f17d0e9d2113d0b493c862973fe1c26567506ea4a1c59a"
+        },
+        {
+          "mode": "A",
+          "config": "configs/A_6317.yaml",
+          "config_sha256": "9c31a5228e31cafd1f565f49475c8fe87e44416b465727409996ce3d5b7de8a2"
+        },
+        {
+          "mode": "B",
+          "config": "configs/B_6317.yaml",
+          "config_sha256": "a31587079a53fb5bc8049b16a0c511ad436dad24fd39e1d9dd61cf2dd2fa27c3"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "model": "qwen-3.8-27b",
+    "base_url": "https://bharatcode.ai/api/model/v1",
+    "temperature": 0.3,
+    "reasoning_effort": "low",
+    "max_tokens": 8192,
+    "timeout_seconds": 180
+  },
+  "planned": {
+    "per_block_decisions": 144,
+    "per_block_reflections": 8,
+    "campaign_requests": 456,
+    "per_arm_max_requests": 90,
+    "per_arm_max_reservations": 1100000,
+    "first_block_max_requests": 270,
+    "first_block_max_reservations": 3300000,
+    "campaign_max_requests": 810,
+    "campaign_max_reservations": 9900000
+  },
+  "gate": "All nine rule companions first, accounting/resource/path checks only. Run ONE seed block per explicit execution; no later-seed calls during the first gate. Never gate on favourable economic outcomes.",
+  "failure_policy": "Existing endogenous engine policy unchanged: fatal provider/output/budget stops arm/block; parse safe-HOLD or failed-reflection retained diary is logged, makes the arm operationally affected and stops further arms after that run. No bad-case/arm rerun or prefix splicing. Independent-case continue-on-failure policy is NOT used.",
+  "metrics": "Actual requested/accepted/executed target orders, gross/net sizing, union participation and trade-leg share, price/event paths and gap, censored descriptive half-gap time, turnover/fills/MM dependence, all accounts under conditional passive auction/benchmark marks, complete failure/cost metadata.",
+  "limitations": "Fresh predesignated seeds, initially n=1 live gate; all three needed for the planned small replication.24 rounds are not stylized-fact validation;600-round rule backgrounds are descriptive and uncalibrated. Mode policies differ from round1, so pre-event states diverge; common shock does not identify a causal headline effect. C has genuine own endogenous history. Specified equal-resource rule replacements do not standardize order size or establish intrinsic LLM superiority. New common8192 profile is not pooled with old4096 probes; no backend fingerprint/model seed assumed."
+}

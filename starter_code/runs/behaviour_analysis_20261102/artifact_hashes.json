@@ -1,0 +1,9 @@
+{
+  "all_choices.csv": "93fa4b3ab4fe319bdf09254581584d8bfbf64e9613c7e9e8b18a9b5d66268863",
+  "analysis_source.py": "c6e445e3aa852335c9947914d0408539498ff19b60c0decb79d7c1c7a713e21d",
+  "final_audit.json": "4df7c843ba14a54c3c29131cfeae91b15f0d1bbcc1d311b0e8f9397c78284640",
+  "report.json": "f063f37d22739751069aa9094d3d6ce0020020d8115123eb5441efbf18700d5b",
+  "test_behaviour_run.py": "05645c3ae7fbcb6aa203dec5e237f0495e30241e4d01368ddadb7fccfe3c0960",
+  "trait_contrasts.pdf": "b61d99f281bd4efc25e0e9fa8ed2ed087f3b16517639276a00de1525d6c00b77",
+  "trait_contrasts.png": "9b6b8da9f6a3b8ab166cbb2c8d8e827f7381f393d46f0a94c5fa0bebda545e45"
+}

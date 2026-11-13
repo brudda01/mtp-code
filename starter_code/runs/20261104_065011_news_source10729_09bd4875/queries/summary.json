@@ -1,0 +1,30 @@
+{
+  "status": "completed_phase_schedule",
+  "rounds": 0,
+  "completed_auctions": 18,
+  "planned_auctions": 18,
+  "original_study_planned_auctions": 36,
+  "delivered_choices": 36,
+  "failure_type": null,
+  "incomplete_case": null,
+  "llm_usage": {
+    "requests_made": 36,
+    "max_requests": 54,
+    "reserved_tokens": 533439,
+    "max_reserved_tokens": 1000000,
+    "reserved_cost_usd": 0.0,
+    "max_cost_usd": 0.0,
+    "provider_reported_tokens": 97012,
+    "estimated_mock_tokens": 0,
+    "unknown_usage_requests": 0,
+    "failed_requests": 0,
+    "observed_cost_estimate_usd": 0.0,
+    "blocked_requests": 0,
+    "requests_per_minute": 10,
+    "input_tokens_per_minute": 60000,
+    "stop_on_api_error": true,
+    "provider_stopped": false,
+    "reservation_method": "utf8_bytes_plus_256_and_max_output_no_refunds"
+  },
+  "finished_utc": "2026-11-04T01:31:15.587917+00:00"
+}
